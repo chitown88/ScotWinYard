@@ -1,0 +1,178 @@
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+
+<script src="js/nfl.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+
+<section ng-app="footballApp">
+  
+  <header>
+    <div class="intro">
+      <p>Fantasy Football Projections</p>
+    </div>
+    <div class="appInfo">
+    <h1>Week 4</h1>
+    <p>Player Projections</p>
+    </div>   
+  </header>
+  
+  <section class="myTeam" ng-controller="positionController">
+    <div class="positionHeader myTeamHead">
+      <h1>Quarterbacks</h1>
+      <h2>Projected this week</h2>
+    </div>
+    <section ng-repeat="player in teamone">
+      <div class="card myPlayer">
+        <div class="pos">
+          {{player.depthchart}}
+        </div>
+        <div class="profile">
+          <img ng-src="{{player.imageUrl}}">
+        </div>
+        <div class="playerInfo">
+          <h1>{{player.name}}</h1>
+          <h2>{{player.team}}</h2>
+            <div class="spacer"></div> 
+          <p>Projected this week</p>
+          <h3>{{player.projected}} pts</h3>
+            <div class="spacer"></div>
+          <p class="hideDefStatus">{{player.hasStatus}}
+          <b class="canPlay">{{player.healthHea}}</b>
+          <b class="probPlay">{{player.healthProb}}</b>
+          <b class="maybePlay">{{player.healthQue}}</b>
+          <b class="noPlay">{{player.healthOut}}</b>
+          </p>
+        </div>
+       </div>
+      <!--modal-->
+      <section class="overlay">
+        <div class="modal" style="background:{{player.tmColorDark}};">
+          <div class="modalHeader" style="background:{{player.tmColorLite}};">
+            {{player.depthchart}}
+            <i class="close">x</i>
+          </div>
+          <div class="profile-container">
+          <div class="profile">
+            <img id="playerImage" ng-src="{{player.imageUrl}}">
+          </div>
+          <ul class="playerModal">
+            <li><h1>{{player.name}}</h1></li>
+            <li><h2>{{player.team}}</h2>
+              <h1>{{player.projected}} pts</h1>
+            </li>
+           <li class="canPlay">{{player.healthHea}}</li>
+          <li class="probPlay">{{player.healthProb}}</li>
+          <li class="maybePlay">{{player.healthQue}}</li>
+          <li class="noPlay">{{player.healthOut}}</li>
+          </ul>
+          
+          <!--NOT NEEDED -->
+            <span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
+          <h3>Previous weeks points</h3>
+          <ul class="pointsList">
+            <li>{{player.lastweek}}</li>
+            <li>{{player.firstlast}}</li>
+            <li>{{player.secondlast}}</li>
+            <li>{{player.thirdlast}}</li>
+            <li>{{player.fourthlast}}</li>
+          </ul>
+        </div>  
+        <div class="player-news"><h5>{{player.headlineNews}}</h5><p>{{player.report}}</p><br><p><strong style="color:red;font-weight: bold;">Analysis: </strong>{{player.analysis}}</p>
+          
+          
+          
+        </div>
+    </section>
+      <!--end modal & player info-->
+  </section><!--end ng repeat & my team-->
+    <!--score comparison-->
+    <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="winLose">
+        <h2>Your projected score</h2>
+        <h1 class="you">{{sumOne}}</h1>
+        <h2>Opponent projected score</h2>
+        <h1 class="them">{{sumTwo}}</h1>
+      </div> 
+     </section>
+    <div class="clearfix"></div>
+  </section>
+ 
+  <!--opponent's team-->
+  <section class="myTeam" ng-controller="positionController">
+    <div class="teamHeader otherTeam">
+      <h1>Opponent's Team</h1>
+      <h2>projected this week <b>{{sumTwo}}</b></h2>
+    </div>
+    <section ng-repeat="player in teamtwo">
+    <div class="card">
+      <div class="pos">
+        {{player.depthchart}}
+      </div>
+      <div class="profile">
+        <img ng-src="{{player.imageUrl}}">
+      </div>
+        <div class="playerInfo">
+          <h1>{{player.name}}</h1>
+          <h2>{{player.team}}</h2>
+          <div class="spacer"></div> 
+          <p>Projected This week</p>
+          <h3>{{player.projected}} pts</h3>
+          <div class="spacer"></div>
+          <p>{{player.hasStatus}}
+          <b class="canPlay">{{player.healthHea}}</b>
+          <b class="probPlay">{{player.healthProb}}</b>
+          <b class="maybePlay">{{player.healthQue}}</b>
+          <b class="noPlay">{{player.healthOut}}</b>
+          </p>
+        </div> 
+    </div>
+    <!--modal-->
+    <section class="overlay">
+      <div class="modal">
+        <div class="modalHeader">
+          {{player.depthchart}}
+          <i class="close">x</i>
+        </div>
+        <div class="profile">
+          <img ng-src="{{player.imageUrl}}">
+        </div>
+        <ul class="playerModal">
+          <li><h1>{{player.name}}</h1></li>
+          <li><h2>{{player.team}}</h2></li>
+          <li class="canPlay">{{player.healthHea}}</li>
+          <li class="probPlay">{{player.healthProb}}</li>
+          <li class="maybePlay">{{player.healthQue}}</li>
+          <li class="noPlay">{{player.healthOut}}</li>
+        </ul>
+        <h3>Previous weeks points</h3>
+        <ul class="pointsList">
+          <li>{{player.lastweek}}</li>
+          <li>{{player.firstlast}}</li>
+          <li>{{player.secondlast}}</li>
+          <li>{{player.thirdlast}}</li>
+          <li>{{player.fourthlast}}</li>
+        </ul>
+      </div>  
+    </section>
+      <!--end modal-->
+    </section><!--end ng-repeat-->
+    <!--score comparison-->
+    <section class="compareOpp compare">
+      <div class="result"></div>
+      <div class="winLose">
+        <h2>Your projected score</h2>
+        <h1 class="you">{{sumTwo}}</h1>
+        <h2>Opponent projected score</h2>
+        <h1 class="them">{{sumOne}}</h1>
+      </div> 
+     </section>
+    <div class="clearfix"></div>
+  </section>
+  
+<!--end app-->
+</section>

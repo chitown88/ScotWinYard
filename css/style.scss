@@ -1,0 +1,488 @@
+//sass base
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+$app-dull: #2A3B46;
+$app-itemD: rgba(20, 20, 20, 0.95);
+$app-itemL: rgba(20, 20, 20, 0.85);
+$app-accent: #EA3814;
+$app-accent-light: rgba(234, 56, 20, 0.89);
+$app-accentG: #243755;
+$app-accentG-light: rgba(12, 185, 56, 0.89);
+
+$break-one: 1030px;
+$break-two: 925px;
+$break-three: 570px;
+
+
+//general styles
+body{
+  font-family: 'Open Sans', sans-serif;
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/242749/stadium.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.spacer{
+  height: 10px;
+}
+
+
+//main app area 
+.myTeam{
+  width: 80%;
+  margin-left: 20%;
+  
+  @media screen and(max-width: $break-one){
+    width: 70%;
+    margin-left: 30%;
+  }
+  
+  @media screen and(max-width: $break-two){
+    width: 100%;
+    margin-left: 0%;
+  }
+  
+}
+
+//team header styles
+.positionHeader{
+  padding: .8em 0 1em 3%;
+  background-color: #262626;
+  color: white;
+  
+  h1{
+    font-weight: 700;
+    font-size: 1.3em;
+  }
+  
+  h2{
+    margin-top: .3em;
+    font-size: .8em;
+    b{
+      font-weight: 600;
+      font-size: 1.2em;
+    }
+  }
+}
+
+
+
+.myTeamHead{
+    border-left: 5px solid $app-accentG;
+      b{color: $app-accentG;}
+  }
+.otherTeam{
+    border-left: 5px solid $app-accent;
+      b{color: $app-accent;}
+  }
+
+//player card styles
+
+h5 {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+ .player-news {
+   color:white;
+  }
+
+
+.card{
+  width: 33.33%;
+  float: left;
+  color: white;
+  vertical-align: top;
+  height: 215px;
+  background-color: $app-itemL;
+  outline: 1px solid rgba(255, 255, 255, 0.14);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  
+  &:hover{
+    background-color: $app-itemD;
+  }
+  
+    @media screen and (max-width: $break-one){
+    width: 50%;
+  }
+  @media screen and (max-width: $break-three){
+    width: 100%;
+  }
+  
+ 
+  
+  .pos{
+    padding: .5em 0 .5em .5em;
+    color: white;
+    font-size: .9em;
+    background-color: $app-itemD;
+    margin-bottom: 1em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  }
+  
+  .playerInfo{
+    display: inline-block;
+    vertical-align: top;
+    padding: .5em;
+    position: relative;
+  }
+  
+  .profile{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    margin: .5em;
+    transition: all 0.5s ease;
+    
+    @media screen and (max-width: $break-two){
+      width: 60px;
+      height: 60px;
+    }
+    @media screen and (max-width: $break-three){
+      width: 100px;
+      height: 100px;
+    }
+    
+    img {
+      height: 100%;
+      margin-left: -20%;
+    }
+    
+  }
+  
+
+    
+  
+  
+  &:hover{
+      .profile{
+        width: 115px;
+        height: 115px;
+      }
+    }
+  
+  h1{
+    font-weight: 600;
+    font-size: 1em;
+    padding-bottom: .15em;
+  }
+  
+  h2{
+    font-weight: 300;
+    font-size: .9em;
+    margin-bottom: .4em;
+  }
+  
+  p{
+    font-weight: 300;
+    font-size: .8em;
+      b{
+        font-weight: 600;
+      }
+   }
+  
+  h3{
+    font-weight: 700;
+    font-size: 1.8em;
+    padding-bottom: .3em;
+  }
+  
+  h4{
+    font-weight: 600;
+    padding: .1em 0;
+    i{
+      font-size: .8em; 
+      font-weight: 300;
+    }
+  }
+  
+}
+
+//styles for points comparison
+.compare{
+  width: 33.33%;
+  height: 215px;
+  float: left;
+  background-color: $app-itemD;
+  color: white;
+  outline: 1px solid rgba(255, 255, 255, 0.14);
+  
+  @media screen and (max-width: $break-one){
+    width: 100%;
+  }
+  
+  .winLose{
+    width: 90%;
+    padding: .4em 0 0 5%;
+  }
+  
+  h2{
+    font-size: .8em;
+    font-eight: 300;
+    margin: 1.5em 0 .3em 0;
+  }
+  h1{
+    font-weight: 600;
+    margin-bottom: .7em;
+  }
+  
+}
+
+.win{
+  .result{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    padding: .4em 0 .35em 0;
+    &:before{
+      content: 'projected to win';
+      font-weight: 600;
+      padding-left: 5%;
+      color: $app-accentG;
+  }
+  }
+  .you{
+    color: $app-accentG;
+    font-size: 2.2em; 
+  }
+  .them{
+    color: $app-accent;
+    font-size: 1.4em;
+  }
+}
+
+.lose{
+  .result{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+    padding: .4em 0 .35em 0;
+    &:before{
+      content: 'projected to lose';
+      font-weight: 600;
+      padding-left: 5%;
+      color: $app-accent;
+  }
+  }
+  .you{
+    color: $app-accent;
+    font-size: 2.2em; 
+  }
+  .them{
+    color: $app-accentG;
+    font-size: 1.4em;
+  }
+}
+
+//modal styles
+.overlay{
+  width: 100%;
+  margin: 0 auto;
+  background-color: $app-itemD;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+.showModal{
+  height: 100%;
+  overflow: show;
+}
+.modal{
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  float: left;
+  
+  @media screen and (max-width: $break-one){
+    width: 70%;
+  }
+  @media screen and (max-width: $break-two){
+    width: 100%;
+  }
+  
+  .profile{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    margin: .5em .5em .5em 5%;
+    
+    
+    @media screen and (max-width: $break-two){
+      width: 60px;
+      height: 60px;
+    }
+    @media screen and (max-width: $break-three){
+      width: 100px;
+      height: 100px;
+    }
+    
+    img#playerImage{
+      height: 100%;
+      margin-left: -20%;
+    }
+}
+  
+ .profile-team{
+    width: 150px;
+    height: 150px;
+    overflow: visible;
+    display: inline-block;
+    transition: all 0.5s ease;
+    margin: .5em .5em .5em 5%;
+    
+    
+    @media screen and (max-width: $break-two){
+      width: 60px;
+      height: 60px;
+    }
+    @media screen and (max-width: $break-three){
+      width: 100px;
+      height: 100px;
+    }
+    
+    img#teamLogo{
+      max-height: 100%;
+      margin-left: 0%;
+    }
+ 
+}
+  
+  h1{
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  h2{
+    font-size: 1.7em;
+  }
+  h3{
+    font-weight: 600;
+    margin: 1em 0 .5em 5%;
+  }
+  
+  @media screen and (max-width: 800px){
+    width: 100%;
+  }
+  
+  .modalHeader{
+    padding: 1.15em 1em 1.2em 2.5%;
+    
+    margin-bottom: .5em;
+    position: relative;
+    font-size: 1.3em;
+    .close{
+      position: absolute;
+      right: 30px;
+      font-weight: 600;
+      font-size: 1.2em;
+      margin-top: -5px;
+      cursor: pointer;
+    }
+  }
+  
+    .playerModal{
+      display: inline-block;
+      margin-left: 2.5%;
+      vertical-align: top;
+      
+      li{
+        
+        &:first-child{
+          font-weight: 600;
+          font-size: 1.1em;
+          padding-bottom: .4em;
+        }
+        &:nth-child(2){
+          padding-bottom: .4em;
+        }
+        
+      }
+      
+    }
+  
+  .pointsList{
+    width: 90%;
+    margin-left: 5%;
+    padding: .5em 0 0 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    li{
+      display: inline-block;
+      margin-right: 2.5%;
+      padding-bottom: .5em;
+    }
+  }
+  
+}
+
+//status text color classes
+.canPlay{
+  color: green;
+  padding: 0;
+}
+.probPlay{
+  color: #A1BF3F;
+  padding: 0;
+}
+.maybePlay{
+  color: orange;
+  padding: 0;
+}
+.noPlay{
+  color: red;
+  padding: 0;
+}
+
+//info header styles
+header{
+  width: 20%;
+  background-color: $app-dull;
+  height: 100vh;
+  position: fixed;
+  color: white;
+  
+  @media screen and(max-width: $break-one){
+    width: 30%;
+  }
+    
+  @media screen and(max-width: $break-two){
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+  
+  .intro{
+   padding: 1.7em 1em;
+   background-color: #162630;
+  }
+  
+  .appInfo{
+    padding: 1em 1.5em 1em 1em;
+    
+    h1{
+    font-weight: 600;
+    font-size: 1.4em;
+    padding: .5em 0; 
+    line-height: 120%;
+  }
+  
+  p{
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 155%;
+  }
+    
+  }
+  
+}
+
+

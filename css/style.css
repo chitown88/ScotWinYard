@@ -1,0 +1,476 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* INCLUDE RESET ABOVE */
+
+/* CONVERTED SCSS TO CSS BELOW */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/242749/stadium.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.clearfix {
+  clear: both;
+}
+.spacer {
+  height: 10px;
+}
+.myTeam {
+  width: 80%;
+  margin-left: 20%;
+}
+@media screen and (max-width: 1030px) {
+  .myTeam {
+    width: 70%;
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 925px) {
+  .myTeam {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+.positionHeader {
+  padding: 0.8em 0 1em 3%;
+  background-color: #262626;
+  color: white;
+}
+.positionHeader h1 {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.positionHeader h2 {
+  margin-top: 0.3em;
+  font-size: 0.8em;
+}
+.positionHeader h2 b {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.myTeamHead {
+  border-left: 5px solid #243755;
+}
+.myTeamHead b {
+  color: #243755;
+}
+.otherTeam {
+  border-left: 5px solid #EA3814;
+}
+.otherTeam b {
+  color: #EA3814;
+}
+h5 {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.player-news {
+  color: white;
+  height: 100%;
+  width: 70%;
+  margin-left: 4%;
+}
+@media screen and (max-width: 925px) {
+  .player-news {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+.card {
+  width: 33.33%;
+  float: left;
+  color: white;
+  vertical-align: top;
+  height: 215px;
+  background-color: rgba(20, 20, 20, 0.85);
+  outline: 1px solid rgba(255, 255, 255, 0.14);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+.card:hover {
+  background-color: rgba(20, 20, 20, 0.95);
+}
+@media screen and (max-width: 1030px) {
+  .card {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .card {
+    width: 100%;
+  }
+}
+.card .pos {
+  padding: 0.5em 0 0.5em 0.5em;
+  color: white;
+  font-size: 0.9em;
+  background-color: rgba(20, 20, 20, 0.95);
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+.card .playerInfo {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5em;
+  position: relative;
+}
+.card .profile {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0.5em;
+  transition: all 0.5s ease;
+}
+@media screen and (max-width: 925px) {
+  .card .profile {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .card .profile {
+    width: 100px;
+    height: 100px;
+  }
+}
+.card .profile img {
+  height: 100%;
+  margin-left: -20%;
+}
+.card:hover .profile {
+  width: 115px;
+  height: 115px;
+}
+.card h1 {
+  font-weight: 600;
+  font-size: 1em;
+  padding-bottom: 0.15em;
+}
+.card h2 {
+  font-weight: 300;
+  font-size: 0.9em;
+  margin-bottom: 0.4em;
+}
+.card p {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+.card p b {
+  font-weight: 600;
+}
+.card h3 {
+  font-weight: 700;
+  font-size: 1.8em;
+  padding-bottom: 0.3em;
+}
+.card h4 {
+  font-weight: 600;
+  padding: 0.1em 0;
+}
+.card h4 i {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+.compare {
+  width: 33.33%;
+  height: 215px;
+  float: left;
+  background-color: rgba(20, 20, 20, 0.95);
+  color: white;
+  outline: 1px solid rgba(255, 255, 255, 0.14);
+}
+@media screen and (max-width: 1030px) {
+  .compare {
+    width: 100%;
+  }
+}
+.compare .winLose {
+  width: 90%;
+  padding: 0.4em 0 0 5%;
+}
+.compare h2 {
+  font-size: 0.8em;
+  font-eight: 300;
+  margin: 1.5em 0 0.3em 0;
+}
+.compare h1 {
+  font-weight: 600;
+  margin-bottom: 0.7em;
+}
+.win .result {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 0.4em 0 0.35em 0;
+}
+.win .result:before {
+  content: 'projected to win';
+  font-weight: 600;
+  padding-left: 5%;
+  color: #243755;
+}
+.win .you {
+  color: #243755;
+  font-size: 2.2em;
+}
+.win .them {
+  color: #EA3814;
+  font-size: 1.4em;
+}
+.lose .result {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 0.4em 0 0.35em 0;
+}
+.lose .result:before {
+  content: 'projected to lose';
+  font-weight: 600;
+  padding-left: 5%;
+  color: #EA3814;
+}
+.lose .you {
+  color: #EA3814;
+  font-size: 2.2em;
+}
+.lose .them {
+  color: #243755;
+  font-size: 1.4em;
+}
+.overlay {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(20, 20, 20, 0.95);
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s ease;
+}
+.showModal {
+  height: 100%;
+  overflow: show;
+}
+.modal {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  float: left;
+}
+@media screen and (max-width: 1030px) {
+  .modal {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 925px) {
+  .modal {
+    width: 100%;
+  }
+}
+.modal .profile {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  margin: 0.5em 0.5em 0.5em 5%;
+}
+@media screen and (max-width: 925px) {
+  .modal .profile {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .modal .profile {
+    width: 100px;
+    height: 100px;
+  }
+}
+.modal .profile img#playerImage {
+  height: 100%;
+  margin-left: -20%;
+}
+.modal .profile-team {
+  width: 150px;
+  height: 150px;
+  overflow: visible;
+  display: inline-block;
+  transition: all 0.5s ease;
+  margin: 0.5em 0.5em 0.5em 5%;
+}
+@media screen and (max-width: 925px) {
+  .modal .profile-team {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .modal .profile-team {
+    width: 100px;
+    height: 100px;
+  }
+}
+.modal .profile-team img#teamLogo {
+  max-height: 100%;
+  margin-left: 0%;
+}
+.modal h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.modal h2 {
+  font-size: 1.7em;
+}
+.modal h3 {
+  font-weight: 600;
+  margin: 1em 0 0.5em 5%;
+}
+@media screen and (max-width: 800px) {
+  .modal {
+    width: 100%;
+  }
+}
+.modal .modalHeader {
+  padding: 1.15em 1em 1.2em 2.5%;
+  margin-bottom: 0.5em;
+  position: relative;
+  font-size: 1.3em;
+}
+.modal .modalHeader .close {
+  position: absolute;
+  right: 30px;
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-top: -5px;
+  cursor: pointer;
+}
+.modal .playerModal {
+  display: inline-block;
+  margin-left: 2.5%;
+  vertical-align: top;
+}
+.modal .playerModal li:first-child {
+  font-weight: 600;
+  font-size: 1.1em;
+  padding-bottom: 0.4em;
+}
+.modal .playerModal li:nth-child(2) {
+  padding-bottom: 0.4em;
+}
+.modal .pointsList {
+  width: 90%;
+  margin-left: 5%;
+  padding: 0.5em 0 0 0;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.modal .pointsList li {
+  display: inline-block;
+  margin-right: 2.5%;
+  padding-bottom: 0.5em;
+}
+.canPlay {
+  color: green;
+  padding: 0;
+}
+.probPlay {
+  color: #A1BF3F;
+  padding: 0;
+}
+.maybePlay {
+  color: orange;
+  padding: 0;
+}
+.noPlay {
+  color: red;
+  padding: 0;
+}
+header {
+  width: 20%;
+  background-color: #2A3B46;
+  height: 100vh;
+  position: fixed;
+  color: white;
+}
+@media screen and (max-width: 1030px) {
+  header {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 925px) {
+  header {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+}
+header .intro {
+  padding: 1.7em 1em;
+  background-color: #162630;
+}
+header .appInfo {
+  padding: 1em 1.5em 1em 1em;
+}
+header .appInfo h1 {
+  font-weight: 600;
+  font-size: 1.4em;
+  padding: 0.5em 0;
+  line-height: 120%;
+}
+header .appInfo p {
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 155%;
+}
