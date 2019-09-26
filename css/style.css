@@ -118,9 +118,12 @@ h5 {
   color: white;
   position:relative;
   top:2%;
-  height: 100%;
+  height: auto;
   width: 60%;
   margin-left: 4%;
+  padding-right:5%;
+  overflow:scroll;
+  z-index:11;
 }
 @media screen and (max-width: 925px) {
   .player-news {
@@ -296,12 +299,12 @@ h5 {
   z-index: 10;
   bottom: 0;
   height: 0;
-  overflow: scroll;
+  overflow: hidden;
   transition: height 0.5s ease;
 }
 .showModal {
   height: 100%;
-  overflow: scroll;
+  overflow: hidden;
 }
 .modal {
   width: 80%;
