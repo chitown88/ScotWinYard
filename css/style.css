@@ -122,7 +122,7 @@ h5 {
   width: 60%;
   margin-left: 4%;
   padding-right:5%;
-  overflow:scroll;
+  overflow:hidden;
   z-index:11;
 }
 @media screen and (max-width: 925px) {
