@@ -301,7 +301,7 @@ h5 {
 }
 .showModal {
   height: 100%;
-  overflow: show;
+  overflow: scroll;
 }
 .modal {
   width: 80%;
