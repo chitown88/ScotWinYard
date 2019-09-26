@@ -382,6 +382,18 @@ h5 {
   font-weight: 600;
   margin: 1em 0 0.5em 5%;
 }
+
+div.player-news {
+	font-family: "News Cycle", sans-serif;
+	
+}
+
+div.player-news h5 {
+  margin-top: .1%;
+  margin-bottom: 1.5%;
+}
+
+
 @media screen and (max-width: 800px) {
   .modal {
     width: 100%;
