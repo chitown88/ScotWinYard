@@ -16,11 +16,23 @@
     <div class="appInfo">
     <h1>Week 4</h1>
     <p>Player Projections</p>
+	
+	<div id="position-links">
+	<ul>
+	<li class="grow"><a href="#quarterbacks">Quarterbacks</a></li>
+	<li class="grow"><a href="#runningbacks">Running Backs</a></li>
+	<li class="grow"><a href="#widerecievers">Wide Receivers</a></li>
+	<li class="grow"><a href="#tightends">Tight Ends</a></li>
+	<li class="grow"><a href="#defense">Defense</a></li>
+	</ul>
+	</div>
+	
     </div>   
   </header>
-  
+ 
+<!--quarterbacks projections--> 
   <section class="myTeam" ng-controller="positionController">
-    <div class="positionHeader myTeamHead">
+    <div class="positionHeader myTeamHead" id="quarterbacks">
       <h1>Quarterbacks</h1>
       <h2>Projected this week</h2>
     </div>
@@ -59,15 +71,15 @@
             <img id="playerImage" ng-src="{{player.imageUrl}}">
           </div>
           <ul class="playerModal">
-            <li><h1>{{player.name}}</h1></li>
-            <li><h2>{{player.team}}</h2>
-              <h1>{{player.projected}} pts</h1>
-            </li>
+           <li><h1>{{player.name}}</h1></li>
+           <li><h2>{{player.team}}</h2>
+           <h1>{{player.projected}} pts</h1>
+           </li>
            <li class="canPlay">{{player.healthHea}}</li>
-          <li class="probPlay">{{player.healthProb}}</li>
-          <li class="maybePlay">{{player.healthQue}}</li>
-          <li class="noPlay">{{player.healthOut}}</li>
-          </ul>
+           <li class="probPlay">{{player.healthProb}}</li>
+           <li class="maybePlay">{{player.healthQue}}</li>
+           <li class="noPlay">{{player.healthOut}}</li>
+           </ul>
           
           <!--NOT NEEDED -->
             <span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
@@ -105,11 +117,11 @@
     <div class="clearfix"></div>
   </section>
  
-  <!--opponent's team-->
+  <!--running back projections-->
   <section class="myTeam" ng-controller="positionController">
-    <div class="teamHeader otherTeam">
-      <h1>Opponent's Team</h1>
-      <h2>projected this week <b>{{sumTwo}}</b></h2>
+    <div class="positionHeader myTeamHead" id="runningbacks">
+      <h1>Running Backs</h1>
+      <h2>projected this week</h2>
     </div>
     <section ng-repeat="player in teamtwo">
     <div class="card">
@@ -136,22 +148,27 @@
     </div>
     <!--modal-->
     <section class="overlay">
-      <div class="modal">
-        <div class="modalHeader">
+      <div class="modal" style="background:{{player.tmColorDark}};">
+        <div class="modalHeader" style="background:{{player.tmColorLite}};">
           {{player.depthchart}}
           <i class="close">x</i>
         </div>
+		<div class="profile-container">
         <div class="profile">
-          <img ng-src="{{player.imageUrl}}">
+          <img id="playerImage" ng-src="{{player.imageUrl}}">
         </div>
         <ul class="playerModal">
           <li><h1>{{player.name}}</h1></li>
-          <li><h2>{{player.team}}</h2></li>
+          <li><h2>{{player.team}}</h2>
+          <h1>{{player.projected}} pts</h1>
+          </li>
           <li class="canPlay">{{player.healthHea}}</li>
           <li class="probPlay">{{player.healthProb}}</li>
           <li class="maybePlay">{{player.healthQue}}</li>
           <li class="noPlay">{{player.healthOut}}</li>
         </ul>
+		
+		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
         <h3>Previous weeks points</h3>
         <ul class="pointsList">
           <li>{{player.lastweek}}</li>
@@ -161,6 +178,10 @@
           <li>{{player.fourthlast}}</li>
         </ul>
       </div>  
+	  <div class="player-news"><h5>{{player.headlineNews}}</h5>
+	  <p>{{player.report}}</p><br>
+		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
+		</div>
     </section>
       <!--end modal-->
     </section><!--end ng-repeat-->
@@ -176,6 +197,258 @@
      </section>
     <div class="clearfix"></div>
   </section>
+  
+  
+  
+    <!--wide receivers projections-->
+  <section class="myTeam" ng-controller="positionController">
+    <div class="positionHeader myTeamHead" id="widerecievers">
+      <h1>Wide Receivers</h1>
+      <h2>projected this week</h2>
+    </div>
+    <section ng-repeat="player in teamthree">
+    <div class="card">
+      <div class="pos">
+        {{player.depthchart}}
+      </div>
+      <div class="profile">
+        <img ng-src="{{player.imageUrl}}">
+      </div>
+        <div class="playerInfo">
+          <h1>{{player.name}}</h1>
+          <h2>{{player.team}}</h2>
+          <div class="spacer"></div> 
+          <p>Projected This week</p>
+          <h3>{{player.projected}} pts</h3>
+          <div class="spacer"></div>
+          <p>{{player.hasStatus}}
+          <b class="canPlay">{{player.healthHea}}</b>
+          <b class="probPlay">{{player.healthProb}}</b>
+          <b class="maybePlay">{{player.healthQue}}</b>
+          <b class="noPlay">{{player.healthOut}}</b>
+          </p>
+        </div> 
+    </div>
+    <!--modal-->
+    <section class="overlay">
+      <div class="modal" style="background:{{player.tmColorDark}};">
+        <div class="modalHeader" style="background:{{player.tmColorLite}};">
+          {{player.depthchart}}
+          <i class="close">x</i>
+        </div>
+		<div class="profile-container">
+        <div class="profile">
+          <img id="playerImage" ng-src="{{player.imageUrl}}">
+        </div>
+        <ul class="playerModal">
+          <li><h1>{{player.name}}</h1></li>
+          <li><h2>{{player.team}}</h2>
+          <h1>{{player.projected}} pts</h1>
+          </li>
+          <li class="canPlay">{{player.healthHea}}</li>
+          <li class="probPlay">{{player.healthProb}}</li>
+          <li class="maybePlay">{{player.healthQue}}</li>
+          <li class="noPlay">{{player.healthOut}}</li>
+        </ul>
+		
+		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
+        <h3>Previous weeks points</h3>
+        <ul class="pointsList">
+          <li>{{player.lastweek}}</li>
+          <li>{{player.firstlast}}</li>
+          <li>{{player.secondlast}}</li>
+          <li>{{player.thirdlast}}</li>
+          <li>{{player.fourthlast}}</li>
+        </ul>
+      </div>  
+	  <div class="player-news"><h5>{{player.headlineNews}}</h5>
+	  <p>{{player.report}}</p><br>
+		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
+		</div>
+    </section>
+      <!--end modal-->
+    </section><!--end ng-repeat-->
+    <!--score comparison-->
+    <section class="compareOpp compare">
+      <div class="result"></div>
+      <div class="winLose">
+        <h2>Your projected score</h2>
+        <h1 class="you">{{sumTwo}}</h1>
+        <h2>Opponent projected score</h2>
+        <h1 class="them">{{sumOne}}</h1>
+      </div> 
+     </section>
+    <div class="clearfix"></div>
+  </section>
+  
+ 
+
+    <!--tight ends projections-->
+  <section class="myTeam" ng-controller="positionController">
+    <div class="positionHeader myTeamHead" id="tightends">
+      <h1>Tight Ends</h1>
+      <h2>projected this week</h2>
+    </div>
+    <section ng-repeat="player in teamfour">
+    <div class="card">
+      <div class="pos">
+        {{player.depthchart}}
+      </div>
+      <div class="profile">
+        <img ng-src="{{player.imageUrl}}">
+      </div>
+        <div class="playerInfo">
+          <h1>{{player.name}}</h1>
+          <h2>{{player.team}}</h2>
+          <div class="spacer"></div> 
+          <p>Projected This week</p>
+          <h3>{{player.projected}} pts</h3>
+          <div class="spacer"></div>
+          <p>{{player.hasStatus}}
+          <b class="canPlay">{{player.healthHea}}</b>
+          <b class="probPlay">{{player.healthProb}}</b>
+          <b class="maybePlay">{{player.healthQue}}</b>
+          <b class="noPlay">{{player.healthOut}}</b>
+          </p>
+        </div> 
+    </div>
+    <!--modal-->
+    <section class="overlay">
+      <div class="modal" style="background:{{player.tmColorDark}};">
+        <div class="modalHeader" style="background:{{player.tmColorLite}};">
+          {{player.depthchart}}
+          <i class="close">x</i>
+        </div>
+		<div class="profile-container">
+        <div class="profile">
+          <img id="playerImage" ng-src="{{player.imageUrl}}">
+        </div>
+        <ul class="playerModal">
+          <li><h1>{{player.name}}</h1></li>
+          <li><h2>{{player.team}}</h2>
+          <h1>{{player.projected}} pts</h1>
+          </li>
+          <li class="canPlay">{{player.healthHea}}</li>
+          <li class="probPlay">{{player.healthProb}}</li>
+          <li class="maybePlay">{{player.healthQue}}</li>
+          <li class="noPlay">{{player.healthOut}}</li>
+        </ul>
+		
+		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
+        <h3>Previous weeks points</h3>
+        <ul class="pointsList">
+          <li>{{player.lastweek}}</li>
+          <li>{{player.firstlast}}</li>
+          <li>{{player.secondlast}}</li>
+          <li>{{player.thirdlast}}</li>
+          <li>{{player.fourthlast}}</li>
+        </ul>
+      </div>  
+	  <div class="player-news"><h5>{{player.headlineNews}}</h5>
+	  <p>{{player.report}}</p><br>
+		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
+		</div>
+    </section>
+      <!--end modal-->
+    </section><!--end ng-repeat-->
+    <!--score comparison-->
+    <section class="compareOpp compare">
+      <div class="result"></div>
+      <div class="winLose">
+        <h2>Your projected score</h2>
+        <h1 class="you">{{sumTwo}}</h1>
+        <h2>Opponent projected score</h2>
+        <h1 class="them">{{sumOne}}</h1>
+      </div> 
+     </section>
+    <div class="clearfix"></div>
+  </section> 
+  
+  
+
+    <!--defense projections-->
+  <section class="myTeam" ng-controller="positionController">
+    <div class="positionHeader myTeamHead" id="defense">
+      <h1>Defense</h1>
+      <h2>projected this week</h2>
+    </div>
+    <section ng-repeat="player in teamfive">
+    <div class="card">
+      <div class="pos">
+        {{player.depthchart}}
+      </div>
+      <div class="profile">
+        <img ng-src="{{player.imageUrl}}">
+      </div>
+        <div class="playerInfo">
+          <h1>{{player.name}}</h1>
+          <h2>{{player.team}}</h2>
+          <div class="spacer"></div> 
+          <p>Projected This week</p>
+          <h3>{{player.projected}} pts</h3>
+          <div class="spacer"></div>
+          <p>{{player.hasStatus}}
+          <b class="canPlay">{{player.healthHea}}</b>
+          <b class="probPlay">{{player.healthProb}}</b>
+          <b class="maybePlay">{{player.healthQue}}</b>
+          <b class="noPlay">{{player.healthOut}}</b>
+          </p>
+        </div> 
+    </div>
+    <!--modal-->
+    <section class="overlay">
+      <div class="modal" style="background:{{player.tmColorDark}};">
+        <div class="modalHeader" style="background:{{player.tmColorLite}};">
+          {{player.depthchart}}
+          <i class="close">x</i>
+        </div>
+		<div class="profile-container">
+        <div class="profile">
+          <img id="playerImage" ng-src="{{player.imageUrl}}">
+        </div>
+        <ul class="playerModal">
+          <li><h1>{{player.name}}</h1></li>
+          <li><h2>{{player.team}}</h2>
+          <h1>{{player.projected}} pts</h1>
+          </li>
+          <li class="canPlay">{{player.healthHea}}</li>
+          <li class="probPlay">{{player.healthProb}}</li>
+          <li class="maybePlay">{{player.healthQue}}</li>
+          <li class="noPlay">{{player.healthOut}}</li>
+        </ul>
+		
+		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
+        <h3>Previous weeks points</h3>
+        <ul class="pointsList">
+          <li>{{player.lastweek}}</li>
+          <li>{{player.firstlast}}</li>
+          <li>{{player.secondlast}}</li>
+          <li>{{player.thirdlast}}</li>
+          <li>{{player.fourthlast}}</li>
+        </ul>
+      </div>  
+	  <div class="player-news"><h5>{{player.headlineNews}}</h5>
+	  <p>{{player.report}}</p><br>
+		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
+		</div>
+    </section>
+      <!--end modal-->
+    </section><!--end ng-repeat-->
+    <!--score comparison-->
+    <section class="compareOpp compare">
+      <div class="result"></div>
+      <div class="winLose">
+        <h2>Your projected score</h2>
+        <h1 class="you">{{sumTwo}}</h1>
+        <h2>Opponent projected score</h2>
+        <h1 class="them">{{sumOne}}</h1>
+      </div> 
+     </section>
+    <div class="clearfix"></div>
+  </section>
+
+  
+  
   
 <!--end app-->
 </section>

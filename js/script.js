@@ -645,7 +645,96 @@ App.controller('positionController', function($scope, $http) {
     }
 ];
 
-  $scope.teamtwo = [];
+  $scope.teamtwo = [
+  {
+        "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051392.png",
+        "name": "Ezekiel Elliott",
+        "depthchart": "Starter",
+        "team": "Dallas Cowboys",
+        "projected": 19.2,
+        "oponent": "Green Bay Packers",
+        "lastweek": "Week Five: 32",
+        "firstlast": "Week Four: 14",
+        "secondlast": "Week Three: 18",
+        "thirdlast": "Week Two: 19",
+        "fourthlast": "Week One: 17",
+        "hasStatus": "Status",
+        "healthHea": "Healthy",
+        "tmColorLite": "#7F9695",
+        "tmColorDark": "#041E42",
+        "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+        "headlineNews": "This is a Headline",
+        "report": "Jsdofs sdfsdfs sf sdfs sfds sdfsdfr.",
+        "analysis": "Waso saeoi asd sadfoit sadoidf."
+    },
+    {
+        "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3068267.png",
+        "name": "Austin Ekeler",
+        "depthchart": "Starter",
+        "team": "Los Angeles Chargers",
+        "projected": 18.1,
+        "oponent": "Green Bay Packers",
+        "lastweek": "Week Five: 32",
+        "firstlast": "Week Four: 14",
+        "secondlast": "Week Three: 18",
+        "thirdlast": "Week Two: 19",
+        "fourthlast": "Week One: 17",
+        "hasStatus": "Status",
+        "healthHea": "Healthy",
+        "tmColorLite": "#0080C6",
+        "tmColorDark": "#002A5E",
+        "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+        "headlineNews": "This is a Headline",
+		"report": "Jsdofs sdfsdfs sf sdfs sfds sdfsdfr.",
+        "analysis": "Waso saeoi asd sadfoit sadoidf."
+	}
+];
+
+
+  $scope.teamthree = [
+  {
+        "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16737.png",
+        "name": "Mike Evans",
+        "depthchart": "Starter",
+        "team": "Tampa Bay Buccaneers",
+        "projected": 17.6,
+        "oponent": "Green Bay Packers",
+        "lastweek": "Week Five: 32",
+        "firstlast": "Week Four: 14",
+        "secondlast": "Week Three: 18",
+        "thirdlast": "Week Two: 19",
+        "fourthlast": "Week One: 17",
+        "hasStatus": "Status",
+        "healthHea": "Healthy",
+        "tmColorLite": "#D50A0A",
+        "tmColorDark": "#000000",
+        "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+        "headlineNews": "This is a Headline",
+        "report": "Jsdofs sdfsdfs sf sdfs sfds sdfsdfr.",
+        "analysis": "Waso saeoi asd sadfoit sadoidf."
+    },
+    {
+        "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16733.png",
+        "name": "Odell Beckham Jr.",
+        "depthchart": "Starter",
+        "team": "Cleveland Browns",
+        "projected": 14.9,
+        "oponent": "Green Bay Packers",
+        "lastweek": "Week Five: 32",
+        "firstlast": "Week Four: 14",
+        "secondlast": "Week Three: 18",
+        "thirdlast": "Week Two: 19",
+        "fourthlast": "Week One: 17",
+        "hasStatus": "Status",
+        "healthHea": "Healthy",
+        "tmColorLite": "#FF3C00",
+        "tmColorDark": "#311D00",
+        "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+        "headlineNews": "This is a Headline",
+		"report": "Jsdofs sdfsdfs sf sdfs sfds sdfsdfr.",
+        "analysis": "Waso saeoi asd sadfoit sadoidf."
+	}
+];
 
   //adds the projected sum of each team 
 

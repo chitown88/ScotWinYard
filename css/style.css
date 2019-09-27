@@ -69,6 +69,26 @@ body {
   width: 80%;
   margin-left: 20%;
 }
+li > a {
+	text-decoration: none;
+}
+
+li > a:link, li > a:visited {
+	color:white;
+}
+
+.grow:hover {
+        transition:all 0.3s ease;
+		-webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5) translateX(20%);
+}
+
+div#position-links li {
+	margin-top:10%;
+}
+
+
 @media screen and (max-width: 1030px) {
   .myTeam {
     width: 70%;
