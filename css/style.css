@@ -454,11 +454,11 @@ h5 {
 
 div.player-news {
 	/*font-family: "News Cycle", sans-serif;*/
-	padding:4%;
+	padding:3%;
 	margin:2%;
 	font-size:18px;
 	color:white;
-	background-color:rgba(0, 0, 0, .20);
+	/*background-color:rgba(0, 0, 0, .20);*/
 	
 	
 }
