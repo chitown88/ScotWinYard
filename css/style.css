@@ -472,6 +472,7 @@ div.player-news {
 	font-size:18px;
 	color:white;
 	overflow-y:auto;
+	font-size:85%;
 	/*background-color:rgba(0, 0, 0, .20);*/	
 }
 
