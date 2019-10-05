@@ -19,7 +19,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png",
         "name": "Lamar Jackson",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Baltimore Ravens",
         "projected": 24.6,
         "opponent": "at Pittsburgh Steelers",
@@ -47,7 +47,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
         "name": "Patrick Mahomes",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Kansas City Chiefs",
         "projected": 24.5,
         "opponent": "Indianapolis Colts",
@@ -75,7 +75,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046779.png",
         "name": "Jared Goff",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Los Angeles Rams",
         "projected": 21.8,
         "opponent": "at Seattle Seahawks",
@@ -103,7 +103,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122840.png",
         "name": "Deshaun Watson",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Houston Texans",
         "projected": 21.4,
         "opponent": "Atlanta Falcons",
@@ -131,7 +131,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2330.png",
         "name": "Tom Brady",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "New England Patriots",
         "projected": 19.5,
         "opponent": "at Washington Redskins",
@@ -159,7 +159,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5529.png",
         "name": "Philip Rivers",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Los Angeles Chargers",
         "projected": 19.3,
         "opponent": "Denver Broncos",
@@ -187,7 +187,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8439.png",
         "name": "Aaron Rodgers",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Green Bay Packers",
         "projected": 19.1,
         "opponent": "at Dallas Cowboys",
@@ -215,7 +215,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116407.png",
         "name": "Mason Rudolph",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Pittsburgh Steelers",
         "projected": 18.7,
         "opponent": "Baltimore Ravens",
@@ -243,7 +243,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917792.png",
         "name": "Daniel Jones",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "New York Giants",
         "projected": 18.6,
         "opponent": "Minnesota Vikings",
@@ -271,7 +271,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2577417.png",
         "name": "Dak Prescott",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Dallas Cowboys",
         "projected": 18.4,
         "opponent": "Green Bay Packers",
@@ -299,7 +299,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2969939.png",
         "name": "Jameis Winston",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Tampa Bay Buccaneers",
         "projected": 18.0,
         "opponent": "at New Orleans Saints",
@@ -327,7 +327,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png",
         "name": "Kyler Murray",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Arizona Cardinals",
         "projected": 17.6,
         "opponent": "at Cincinnati Bengals",
@@ -355,7 +355,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2573079.png",
         "name": "Carson Wentz",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Philadelphia Eagles",
         "projected": 16.9,
         "opponent": "New York Jets",
@@ -383,7 +383,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/11237.png",
         "name": "Matt Ryan",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Atlanta Falcons",
         "projected": 16.1,
         "opponent": "at Houston Texans",
@@ -411,7 +411,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16760.png",
         "name": "Jimmy Garoppolo",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "San Francisco 49ers",
         "projected": 16.0,
         "opponent": "Cleveland Browns",
@@ -439,7 +439,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576980.png",
         "name": "Marcus Mariota",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Tennessee Titans",
         "projected": 15.2,
         "opponent": "Buffalo Bills",
@@ -467,7 +467,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16728.png",
         "name": "Teddy Bridgewater",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "New Orleans Saints",
         "projected": 14.7,
         "opponent": "Tampa Bay Buccaneers",
@@ -495,7 +495,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/12471.png",
         "name": "Chase Daniel",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Chicago Bears",
         "projected": 14.7,
         "opponent": "at Oakland Raiders",
@@ -523,7 +523,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038524.png",
         "name": "Gardner Minshew",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Jacksonville Jaguars",
         "projected": 14.6,
         "opponent": "at Carolina Panthers",
@@ -551,7 +551,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115293.png",
         "name": "Kyle Allen",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Carolina Panthers",
         "projected": 14.5,
         "opponent": "Jacksonville Jaguars",
@@ -579,7 +579,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14012.png",
         "name": "Andy Dalton",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Cincinnati Bengals",
         "projected": 14.2,
         "opponent": "Arizona Cardinals",
@@ -607,7 +607,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14880.png",
         "name": "Kirk Cousins",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Minnesota Vikings",
         "projected": 13.1,
         "opponent": "at New York Giants",
@@ -635,7 +635,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2578570.png",
         "name": "Jacoby Brissett",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Indianapolis Colts",
         "projected": 13.1,
         "opponent": "at Kansas City Chiefs",
@@ -663,7 +663,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/11252.png",
         "name": "Joe Flacco",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Denver Broncos",
         "projected": 12.6,
         "opponent": "at Los Angeles Chargers",
@@ -691,7 +691,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14881.png",
         "name": "Russell Wilson",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Seattle Seahawks",
         "projected": 12.5,
         "opponent": "Los Angeles Rams",
@@ -719,7 +719,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
         "name": "Baker Mayfield",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Cleveland Browns",
         "projected": 12.3,
         "opponent": "at San Francisco 49ers",
@@ -747,7 +747,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16757.png",
         "name": "Derek Carr",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Oakland Raiders",
         "projected": 12.2,
         "opponent": "Chicago Bears",
@@ -775,7 +775,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13199.png",
         "name": "Colt McCoy",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Washington Redskins",
         "projected": 11.8,
         "opponent": "New England Patriots",
@@ -803,7 +803,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052061.png",
         "name": "Luke Falk",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "New York Jets",
         "projected": 8.7,
         "opponent": "at Philadelphia Eagles",
@@ -831,7 +831,7 @@ $scope.teamone = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png",
         "name": "Josh Allen",
-        "depthchart": "1: QB-1",
+        "depthchart": "Starter: QB-1",
         "team": "Buffalo Bills",
         "projected": 6.4,
         "opponent": "at Tennessee Titans",
@@ -865,7 +865,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3068267.png",
         "name": "Austin Ekeler",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Los Angeles Chargers",
         "projected": 21.4,
         "opponent": "Denver Broncos",
@@ -893,7 +893,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3045147.png",
         "name": "James Conner",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Pittsburgh Steelers",
         "projected": 20.5,
         "opponent": "Baltimore Ravens",
@@ -921,7 +921,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2508176.png",
         "name": "David Johnson",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Arizona Cardinals",
         "projected": 20.1,
         "opponent": "at Cincinnati Bengals",
@@ -949,7 +949,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051392.png",
         "name": "Ezekiel Elliott",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Dallas Cowboys",
         "projected": 19.7,
         "opponent": "Green Bay Packers",
@@ -977,7 +977,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15825.png",
         "name": "Le'Veon Bell",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "New York Jets",
         "projected": 16.9,
         "opponent": "at Philadelphia Eagles",
@@ -1005,7 +1005,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3117251.png",
         "name": "Christian McCaffrey",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Carolina Panthers",
         "projected": 16.8,
         "opponent": "Jacksonville Jaguars",
@@ -1033,7 +1033,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3054850.png",
         "name": "Alvin Kamara",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "New Orleans Saints",
         "projected": 16.5,
         "opponent": "Tampa Bay Buccaneers",
@@ -1061,7 +1061,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139605.png",
         "name": "Marlon Mack",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Indianapolis Colts",
         "projected": 15.5,
         "opponent": "at Kansas City Chiefs",
@@ -1089,7 +1089,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2977644.png",
         "name": "Todd Gurley",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Los Angeles Rams",
         "projected": 14.8,
         "opponent": "at Seattle Seahawks",
@@ -1117,7 +1117,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3043078.png",
         "name": "Derrick Henry",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Tennessee Titans",
         "projected": 14.3,
         "opponent": "Buffalo Bills",
@@ -1145,7 +1145,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3042519.png",
         "name": "Aaron Jones",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Green Bay Packers",
         "projected": 13.9,
         "opponent": "at Dallas Cowboys",
@@ -1173,7 +1173,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052117.png",
         "name": "Phillip Lindsay",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Denver Broncos",
         "projected": 13.9,
         "opponent": "at Los Angeles Chargers",
@@ -1201,7 +1201,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115364.png",
         "name": "Leonard Fournette",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Jacksonville Jaguars",
         "projected": 13.5,
         "opponent": "at Carolina Panthers",
@@ -1229,7 +1229,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116721.png",
         "name": "Jaylen Samuels",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Pittsburgh Steelers",
         "projected": 13.2,
         "opponent": "Baltimore Ravens",
@@ -1257,7 +1257,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116593.png",
         "name": "Dalvin Cook",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Minnesota Vikings",
         "projected": 12.8,
         "opponent": "at New York Giants",
@@ -1285,7 +1285,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13981.png",
         "name": "Mark Ingram",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Baltimore Ravens",
         "projected": 12.6,
         "opponent": "at Pittsburgh Steelers",
@@ -1313,7 +1313,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16944.png",
         "name": "Devonta Freeman",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Atlanta Falcons",
         "projected": 12.3,
         "opponent": "at Houston Texans",
@@ -1341,7 +1341,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128720.png",
         "name": "Nick Chubb",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Cleveland Browns",
         "projected": 12.2,
         "opponent": "at San Francisco 49ers",
@@ -1369,7 +1369,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116385.png",
         "name": "Joe Mixon",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Cincinnati Bengals",
         "projected": 12.1,
         "opponent": "Arizona Cardinals",
@@ -1397,7 +1397,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/17359.png",
         "name": "Damien Williams",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Kansas City Chiefs",
         "projected": 12.0,
         "opponent": "Indianapolis Colts",
@@ -1425,7 +1425,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3919596.png",
         "name": "Chris Carson",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Seattle Seahawks",
         "projected": 11.7,
         "opponent": "Los Angeles Rams",
@@ -1453,7 +1453,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4047365.png",
         "name": "Josh Jacobs",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Oakland Raiders",
         "projected": 11.3,
         "opponent": "Chicago Bears",
@@ -1481,7 +1481,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576434.png",
         "name": "Melvin Gordon",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Los Angeles Chargers",
         "projected": 11.1,
         "opponent": "Denver Broncos",
@@ -1509,7 +1509,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/10452.png",
         "name": "Adrian Peterson",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Washington Redskins",
         "projected": 11.0,
         "opponent": "New England Patriots",
@@ -1537,7 +1537,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3060022.png",
         "name": "Jordan Howard",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Philadelphia Eagles",
         "projected": 10.8,
         "opponent": "New York Jets",
@@ -1565,7 +1565,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16777.png",
         "name": "Carlos Hyde",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Houston Texans",
         "projected": 9.2,
         "opponent": "Atlanta Falcons",
@@ -1593,7 +1593,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3912550.png",
         "name": "Ronald Jones",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Tampa Bay Buccaneers",
         "projected": 8.6,
         "opponent": "at New Orleans Saints",
@@ -1621,7 +1621,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916430.png",
         "name": "Nyheim Hines",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Indianapolis Colts",
         "projected": 8.5,
         "opponent": "at Kansas City Chiefs",
@@ -1649,7 +1649,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3119195.png",
         "name": "Chase Edmonds",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Arizona Cardinals",
         "projected": 8.4,
         "opponent": "at Cincinnati Bengals",
@@ -1677,7 +1677,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15966.png",
         "name": "Chris Thompson",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Washington Redskins",
         "projected": 8.3,
         "opponent": "New England Patriots",
@@ -1705,7 +1705,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128721.png",
         "name": "Sony Michel",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "New England Patriots",
         "projected": 8.3,
         "opponent": "at Washington Redskins",
@@ -1733,7 +1733,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035538.png",
         "name": "David Montgomery",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Chicago Bears",
         "projected": 8.1,
         "opponent": "at Oakland Raiders",
@@ -1761,7 +1761,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16913.png",
         "name": "James White",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "New England Patriots",
         "projected": 8.0,
         "opponent": "at Washington Redskins",
@@ -1789,7 +1789,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122672.png",
         "name": "Royce Freeman",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Denver Broncos",
         "projected": 8.0,
         "opponent": "at Los Angeles Chargers",
@@ -1817,7 +1817,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/12514.png",
         "name": "LeSean McCoy",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Kansas City Chiefs",
         "projected": 7.9,
         "opponent": "Indianapolis Colts",
@@ -1845,7 +1845,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051902.png",
         "name": "Peyton Barber",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Tampa Bay Buccaneers",
         "projected": 7.9,
         "opponent": "at New Orleans Saints",
@@ -1873,7 +1873,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8479.png",
         "name": "Frank Gore",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "Buffalo Bills",
         "projected": 7.3,
         "opponent": "at Tennessee Titans",
@@ -1901,7 +1901,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3932449.png",
         "name": "Dexter Williams",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Green Bay Packers",
         "projected": 7.2,
         "opponent": "at Dallas Cowboys",
@@ -1929,7 +1929,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4045163.png",
         "name": "Miles Sanders",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Philadelphia Eagles",
         "projected": 7.0,
         "opponent": "New York Jets",
@@ -1957,7 +1957,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2969962.png",
         "name": "Duke Johnson",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Houston Texans",
         "projected": 6.7,
         "opponent": "Atlanta Falcons",
@@ -1985,7 +1985,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15826.png",
         "name": "Giovani Bernard",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Cincinnati Bengals",
         "projected": 6.7,
         "opponent": "Arizona Cardinals",
@@ -2013,7 +2013,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14198.png",
         "name": "Dion Lewis",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Tennessee Titans",
         "projected": 6.6,
         "opponent": "Buffalo Bills",
@@ -2041,7 +2041,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15971.png",
         "name": "Rex Burkhead",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "New England Patriots",
         "projected": 6.4,
         "opponent": "at Washington Redskins",
@@ -2069,7 +2069,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051926.png",
         "name": "Gus Edwards",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Baltimore Ravens",
         "projected": 6.4,
         "opponent": "at Pittsburgh Steelers",
@@ -2097,7 +2097,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2972091.png",
         "name": "Jalen Richard",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Oakland Raiders",
         "projected": 6.4,
         "opponent": "Chicago Bears",
@@ -2125,7 +2125,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115375.png",
         "name": "Darrel Williams",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Kansas City Chiefs",
         "projected": 6.3,
         "opponent": "Indianapolis Colts",
@@ -2153,7 +2153,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040761.png",
         "name": "Devin Singletary",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Buffalo Bills",
         "projected": 6.1,
         "opponent": "at Tennessee Titans",
@@ -2181,7 +2181,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3066158.png",
         "name": "Tarik Cohen",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Chicago Bears",
         "projected": 5.8,
         "opponent": "at Oakland Raiders",
@@ -2209,7 +2209,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2983319.png",
         "name": "Troymaine Pope",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Los Angeles Chargers",
         "projected": 5.8,
         "opponent": "Denver Broncos",
@@ -2237,7 +2237,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3123969.png",
         "name": "Ito Smith",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Atlanta Falcons",
         "projected": 5.7,
         "opponent": "at Houston Texans",
@@ -2265,7 +2265,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3049916.png",
         "name": "Matt Breida",
-        "depthchart": "1: RB-1",
+        "depthchart": "Starter: RB-1",
         "team": "San Francisco 49ers",
         "projected": 5.6,
         "opponent": "Cleveland Browns",
@@ -2293,7 +2293,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139925.png",
         "name": "Rashaad Penny",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Seattle Seahawks",
         "projected": 5.5,
         "opponent": "Los Angeles Rams",
@@ -2321,7 +2321,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15920.png",
         "name": "Latavius Murray",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "New Orleans Saints",
         "projected": 5.4,
         "opponent": "Tampa Bay Buccaneers",
@@ -2349,7 +2349,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8544.png",
         "name": "Darren Sproles",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Philadelphia Eagles",
         "projected": 5.3,
         "opponent": "New York Jets",
@@ -2377,7 +2377,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3042429.png",
         "name": "Wendell Smallwood",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Washington Redskins",
         "projected": 5.2,
         "opponent": "New England Patriots",
@@ -2405,7 +2405,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2978124.png",
         "name": "D.J. Foster",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Arizona Cardinals",
         "projected": 4.7,
         "opponent": "at Cincinnati Bengals",
@@ -2433,7 +2433,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576414.png",
         "name": "Raheem Mostert",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "San Francisco 49ers",
         "projected": 4.6,
         "opponent": "Cleveland Browns",
@@ -2461,7 +2461,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2577654.png",
         "name": "DeAndre Washington",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Oakland Raiders",
         "projected": 4.5,
         "opponent": "Chicago Bears",
@@ -2489,7 +2489,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2980148.png",
         "name": "C.J. Prosise",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Seattle Seahawks",
         "projected": 4.4,
         "opponent": "Los Angeles Rams",
@@ -2517,7 +2517,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3923397.png",
         "name": "Ryquell Armstead",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Jacksonville Jaguars",
         "projected": 4.3,
         "opponent": "at Carolina Panthers",
@@ -2545,7 +2545,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2570986.png",
         "name": "Malcolm Brown",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Los Angeles Rams",
         "projected": 3.9,
         "opponent": "at Seattle Seahawks",
@@ -2573,7 +2573,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4048244.png",
         "name": "Alexander Mattison",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Minnesota Vikings",
         "projected": 3.8,
         "opponent": "at New York Giants",
@@ -2601,7 +2601,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976516.png",
         "name": "T.J. Yeldon",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Buffalo Bills",
         "projected": 3.6,
         "opponent": "at Tennessee Titans",
@@ -2629,7 +2629,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122143.png",
         "name": "Cullen Gillaspia",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Houston Texans",
         "projected": 3.4,
         "opponent": "Atlanta Falcons",
@@ -2657,7 +2657,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3126246.png",
         "name": "Dontrell Hilliard",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Cleveland Browns",
         "projected": 3.4,
         "opponent": "at San Francisco 49ers",
@@ -2685,7 +2685,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122866.png",
         "name": "Devontae Booker",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Denver Broncos",
         "projected": 3.1,
         "opponent": "at Los Angeles Chargers",
@@ -2713,7 +2713,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2575965.png",
         "name": "Elijhaa Penny",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "New York Giants",
         "projected": 3.0,
         "opponent": "Minnesota Vikings",
@@ -2741,7 +2741,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916148.png",
         "name": "Tony Pollard",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Dallas Cowboys",
         "projected": 2.8,
         "opponent": "Green Bay Packers",
@@ -2769,7 +2769,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2577134.png",
         "name": "Ty Montgomery",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "New York Jets",
         "projected": 2.8,
         "opponent": "at Philadelphia Eagles",
@@ -2797,7 +2797,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2979477.png",
         "name": "Tevin Coleman",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "San Francisco 49ers",
         "projected": 2.7,
         "opponent": "Cleveland Browns",
@@ -2825,7 +2825,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3025433.png",
         "name": "Mike Davis",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Chicago Bears",
         "projected": 2.7,
         "opponent": "at Oakland Raiders",
@@ -2853,7 +2853,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051891.png",
         "name": "Jordan Wilkins",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Indianapolis Colts",
         "projected": 2.7,
         "opponent": "at Kansas City Chiefs",
@@ -2881,7 +2881,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116389.png",
         "name": "Samaje Perine",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Cincinnati Bengals",
         "projected": 2.6,
         "opponent": "Arizona Cardinals",
@@ -2909,7 +2909,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576336.png",
         "name": "Ameer Abdullah",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Minnesota Vikings",
         "projected": 2.6,
         "opponent": "at New York Giants",
@@ -2937,7 +2937,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4039359.png",
         "name": "Darrell Henderson",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Los Angeles Rams",
         "projected": 2.6,
         "opponent": "at Seattle Seahawks",
@@ -2965,7 +2965,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038441.png",
         "name": "Justice Hill",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Baltimore Ravens",
         "projected": 2.4,
         "opponent": "at Pittsburgh Steelers",
@@ -2993,7 +2993,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2983509.png",
         "name": "Dare Ogunbowale",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Tampa Bay Buccaneers",
         "projected": 2.3,
         "opponent": "at New Orleans Saints",
@@ -3021,7 +3021,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3125403.png",
         "name": "Brian Hill",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Atlanta Falcons",
         "projected": 2.2,
         "opponent": "at Houston Texans",
@@ -3049,7 +3049,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116642.png",
         "name": "Reggie Bonnafon",
-        "depthchart": "2: RB-2",
+        "depthchart": "Backup: RB-2",
         "team": "Carolina Panthers",
         "projected": 1.6,
         "opponent": "Jacksonville Jaguars",
@@ -3077,7 +3077,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14129.png",
         "name": "Bilal Powell",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "New York Jets",
         "projected": 1.5,
         "opponent": "at Philadelphia Eagles",
@@ -3105,7 +3105,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15653.png",
         "name": "Jamize Olawale",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Dallas Cowboys",
         "projected": 1.3,
         "opponent": "Green Bay Packers",
@@ -3133,7 +3133,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/nophoto.png",
         "name": "D'Ernest Johnson",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Cleveland Browns",
         "projected": 1.3,
         "opponent": "at San Francisco 49ers",
@@ -3161,7 +3161,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2573974.png",
         "name": "Tyler Ervin",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Jacksonville Jaguars",
         "projected": 1.1,
         "opponent": "at Carolina Panthers",
@@ -3189,7 +3189,7 @@ $scope.teamtwo = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4212884.png",
         "name": "Alex Armah",
-        "depthchart": "3: RB-3",
+        "depthchart": "Reserve: RB-3",
         "team": "Carolina Panthers",
         "projected": 0.6,
         "opponent": "Jacksonville Jaguars",
@@ -3223,7 +3223,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3120348.png",
         "name": "JuJu Smith-Schuster",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Pittsburgh Steelers",
         "projected": 20.9,
         "opponent": "Baltimore Ravens",
@@ -3251,7 +3251,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15795.png",
         "name": "DeAndre Hopkins",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Houston Texans",
         "projected": 17.2,
         "opponent": "Atlanta Falcons",
@@ -3279,7 +3279,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13982.png",
         "name": "Julio Jones",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Atlanta Falcons",
         "projected": 16.4,
         "opponent": "at Houston Texans",
@@ -3307,7 +3307,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16733.png",
         "name": "Odell Beckham Jr.",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Cleveland Browns",
         "projected": 15.0,
         "opponent": "at San Francisco 49ers",
@@ -3335,7 +3335,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15880.png",
         "name": "Robert Woods",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Los Angeles Rams",
         "projected": 14.6,
         "opponent": "at Seattle Seahawks",
@@ -3363,7 +3363,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976316.png",
         "name": "Michael Thomas",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "New Orleans Saints",
         "projected": 14.0,
         "opponent": "Tampa Bay Buccaneers",
@@ -3391,7 +3391,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16737.png",
         "name": "Mike Evans",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Tampa Bay Buccaneers",
         "projected": 13.4,
         "opponent": "at New Orleans Saints",
@@ -3419,7 +3419,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15818.png",
         "name": "Keenan Allen",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Los Angeles Chargers",
         "projected": 12.9,
         "opponent": "Denver Broncos",
@@ -3447,7 +3447,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121422.png",
         "name": "Terry McLaurin",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Washington Redskins",
         "projected": 12.4,
         "opponent": "New England Patriots",
@@ -3475,7 +3475,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16731.png",
         "name": "Brandin Cooks",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Los Angeles Rams",
         "projected": 12.1,
         "opponent": "at Seattle Seahawks",
@@ -3503,7 +3503,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976499.png",
         "name": "Amari Cooper",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Dallas Cowboys",
         "projected": 11.7,
         "opponent": "Green Bay Packers",
@@ -3531,7 +3531,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16799.png",
         "name": "Allen Robinson",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Chicago Bears",
         "projected": 11.7,
         "opponent": "at Oakland Raiders",
@@ -3559,7 +3559,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14912.png",
         "name": "Alshon Jeffery",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Philadelphia Eagles",
         "projected": 11.2,
         "opponent": "New York Jets",
@@ -3587,7 +3587,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13295.png",
         "name": "Emmanuel Sanders",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Denver Broncos",
         "projected": 11.0,
         "opponent": "at Los Angeles Chargers",
@@ -3615,7 +3615,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3045144.png",
         "name": "Tyler Boyd",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Cincinnati Bengals",
         "projected": 10.6,
         "opponent": "Arizona Cardinals",
@@ -3643,7 +3643,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/12649.png",
         "name": "Julian Edelman",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "New England Patriots",
         "projected": 10.6,
         "opponent": "at Washington Redskins",
@@ -3671,7 +3671,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2577327.png",
         "name": "Tyler Lockett",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Seattle Seahawks",
         "projected": 10.4,
         "opponent": "Los Angeles Rams",
@@ -3699,7 +3699,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2587819.png",
         "name": "Tyrell Williams",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Oakland Raiders",
         "projected": 10.3,
         "opponent": "Chicago Bears",
@@ -3727,7 +3727,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3892889.png",
         "name": "Dede Westbrook",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Jacksonville Jaguars",
         "projected": 10.3,
         "opponent": "at Carolina Panthers",
@@ -3755,7 +3755,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5528.png",
         "name": "Larry Fitzgerald",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Arizona Cardinals",
         "projected": 10.2,
         "opponent": "at Cincinnati Bengals",
@@ -3783,7 +3783,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2977187.png",
         "name": "Cooper Kupp",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Los Angeles Rams",
         "projected": 10.2,
         "opponent": "at Seattle Seahawks",
@@ -3811,7 +3811,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14924.png",
         "name": "T.Y. Hilton",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Indianapolis Colts",
         "projected": 10.0,
         "opponent": "at Kansas City Chiefs",
@@ -3839,7 +3839,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3925357.png",
         "name": "Calvin Ridley",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Atlanta Falcons",
         "projected": 10.0,
         "opponent": "at Houston Texans",
@@ -3867,7 +3867,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16804.png",
         "name": "John Brown",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Buffalo Bills",
         "projected": 10.0,
         "opponent": "at Tennessee Titans",
@@ -3895,7 +3895,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241372.png",
         "name": "Marquise Brown",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Baltimore Ravens",
         "projected": 10.0,
         "opponent": "at Pittsburgh Steelers",
@@ -3923,7 +3923,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2574808.png",
         "name": "Robby Anderson",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "New York Jets",
         "projected": 9.8,
         "opponent": "at Philadelphia Eagles",
@@ -3951,7 +3951,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052876.png",
         "name": "Will Fuller",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Houston Texans",
         "projected": 9.7,
         "opponent": "Atlanta Falcons",
@@ -3979,7 +3979,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121427.png",
         "name": "Curtis Samuel",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Carolina Panthers",
         "projected": 9.7,
         "opponent": "Jacksonville Jaguars",
@@ -4007,7 +4007,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915416.png",
         "name": "D.J. Moore",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Carolina Panthers",
         "projected": 9.7,
         "opponent": "Jacksonville Jaguars",
@@ -4035,7 +4035,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16725.png",
         "name": "Sammy Watkins",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Kansas City Chiefs",
         "projected": 9.7,
         "opponent": "Indianapolis Colts",
@@ -4063,7 +4063,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976592.png",
         "name": "Sterling Shepard",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "New York Giants",
         "projected": 9.6,
         "opponent": "Minnesota Vikings",
@@ -4091,7 +4091,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3127306.png",
         "name": "Dante Pettis",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "San Francisco 49ers",
         "projected": 9.3,
         "opponent": "Cleveland Browns",
@@ -4119,7 +4119,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15705.png",
         "name": "Josh Gordon",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "New England Patriots",
         "projected": 8.9,
         "opponent": "at Washington Redskins",
@@ -4147,7 +4147,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976212.png",
         "name": "Stefon Diggs",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Minnesota Vikings",
         "projected": 8.7,
         "opponent": "at New York Giants",
@@ -4175,7 +4175,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16790.png",
         "name": "Jarvis Landry",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Cleveland Browns",
         "projected": 8.4,
         "opponent": "at San Francisco 49ers",
@@ -4203,7 +4203,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13216.png",
         "name": "Demaryius Thomas",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "New York Jets",
         "projected": 8.3,
         "opponent": "at Philadelphia Eagles",
@@ -4231,7 +4231,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3050661.png",
         "name": "Chris Godwin",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Tampa Bay Buccaneers",
         "projected": 8.1,
         "opponent": "at New Orleans Saints",
@@ -4259,7 +4259,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4039604.png",
         "name": "Marquise Goodwin",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "San Francisco 49ers",
         "projected": 8.0,
         "opponent": "Cleveland Browns",
@@ -4287,7 +4287,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3921564.png",
         "name": "Auden Tate",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Cincinnati Bengals",
         "projected": 7.6,
         "opponent": "Arizona Cardinals",
@@ -4315,7 +4315,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051738.png",
         "name": "Marquez Valdes-Scantling",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Green Bay Packers",
         "projected": 7.5,
         "opponent": "at Dallas Cowboys",
@@ -4343,7 +4343,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/10453.png",
         "name": "Ted Ginn",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "New Orleans Saints",
         "projected": 7.5,
         "opponent": "Tampa Bay Buccaneers",
@@ -4371,7 +4371,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115394.png",
         "name": "D.J. Chark",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Jacksonville Jaguars",
         "projected": 7.4,
         "opponent": "at Carolina Panthers",
@@ -4399,7 +4399,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2971618.png",
         "name": "Nelson Agholor",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Philadelphia Eagles",
         "projected": 7.4,
         "opponent": "New York Jets",
@@ -4427,7 +4427,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4047646.png",
         "name": "A.J. Brown",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Tennessee Titans",
         "projected": 7.3,
         "opponent": "Buffalo Bills",
@@ -4455,7 +4455,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13217.png",
         "name": "Golden Tate",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "New York Giants",
         "projected": 7.2,
         "opponent": "Minnesota Vikings",
@@ -4483,7 +4483,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/17258.png",
         "name": "Willie Snead",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Baltimore Ravens",
         "projected": 7.1,
         "opponent": "at Pittsburgh Steelers",
@@ -4511,7 +4511,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3042778.png",
         "name": "Corey Davis",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "Tennessee Titans",
         "projected": 7.1,
         "opponent": "Buffalo Bills",
@@ -4539,7 +4539,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122449.png",
         "name": "James Washington",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Pittsburgh Steelers",
         "projected": 6.7,
         "opponent": "Baltimore Ravens",
@@ -4567,7 +4567,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3059722.png",
         "name": "Zay Jones",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Buffalo Bills",
         "projected": 6.7,
         "opponent": "at Tennessee Titans",
@@ -4595,7 +4595,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15349.png",
         "name": "Cole Beasley",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Buffalo Bills",
         "projected": 6.5,
         "opponent": "at Tennessee Titans",
@@ -4623,7 +4623,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3045138.png",
         "name": "Mike Williams",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Los Angeles Chargers",
         "projected": 6.0,
         "opponent": "Denver Broncos",
@@ -4651,7 +4651,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3045138.png",
         "name": "Mike Williams",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Los Angeles Chargers",
         "projected": 6.0,
         "opponent": "Denver Broncos",
@@ -4679,7 +4679,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115365.png",
         "name": "Trey Quinn",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Washington Redskins",
         "projected": 6.0,
         "opponent": "New England Patriots",
@@ -4707,7 +4707,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128429.png",
         "name": "Courtland Sutton",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Denver Broncos",
         "projected": 5.9,
         "opponent": "at Los Angeles Chargers",
@@ -4735,7 +4735,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3126486.png",
         "name": "Deebo Samuel",
-        "depthchart": "1: WR-1",
+        "depthchart": "Starter: WR-1",
         "team": "San Francisco 49ers",
         "projected": 5.9,
         "opponent": "Cleveland Browns",
@@ -4763,7 +4763,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115913.png",
         "name": "Geronimo Allison",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Green Bay Packers",
         "projected": 5.9,
         "opponent": "at Dallas Cowboys",
@@ -4791,7 +4791,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14053.png",
         "name": "Randall Cobb",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Dallas Cowboys",
         "projected": 5.7,
         "opponent": "Green Bay Packers",
@@ -4819,7 +4819,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576716.png",
         "name": "Jamison Crowder",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "New York Jets",
         "projected": 5.6,
         "opponent": "at Philadelphia Eagles",
@@ -4847,7 +4847,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128451.png",
         "name": "Tre'Quan Smith",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "New Orleans Saints",
         "projected": 5.6,
         "opponent": "Tampa Bay Buccaneers",
@@ -4875,7 +4875,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916945.png",
         "name": "Darius Slayton",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "New York Giants",
         "projected": 5.5,
         "opponent": "Minnesota Vikings",
@@ -4903,7 +4903,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2515759.png",
         "name": "J.J. Nelson",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Oakland Raiders",
         "projected": 5.4,
         "opponent": "Chicago Bears",
@@ -4931,7 +4931,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036348.png",
         "name": "Michael Gallup",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Dallas Cowboys",
         "projected": 5.3,
         "opponent": "Green Bay Packers",
@@ -4959,7 +4959,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3932905.png",
         "name": "Diontae Johnson",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Pittsburgh Steelers",
         "projected": 5.2,
         "opponent": "Baltimore Ravens",
@@ -4987,7 +4987,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915823.png",
         "name": "Keke Coutee",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Houston Texans",
         "projected": 5.1,
         "opponent": "Atlanta Falcons",
@@ -5015,7 +5015,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3124537.png",
         "name": "KeeSean Johnson",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Arizona Cardinals",
         "projected": 5.0,
         "opponent": "at Cincinnati Bengals",
@@ -5043,7 +5043,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16460.png",
         "name": "Adam Thielen",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Minnesota Vikings",
         "projected": 4.8,
         "opponent": "at New York Giants",
@@ -5071,7 +5071,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14922.png",
         "name": "Mohamed Sanu",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Atlanta Falcons",
         "projected": 4.8,
         "opponent": "at Houston Texans",
@@ -5099,7 +5099,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16781.png",
         "name": "Paul Richardson",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Washington Redskins",
         "projected": 4.7,
         "opponent": "New England Patriots",
@@ -5127,7 +5127,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3059719.png",
         "name": "Demarcus Robinson",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Kansas City Chiefs",
         "projected": 4.5,
         "opponent": "Indianapolis Colts",
@@ -5155,7 +5155,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14918.png",
         "name": "Jarius Wright",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Carolina Panthers",
         "projected": 4.5,
         "opponent": "Jacksonville Jaguars",
@@ -5183,7 +5183,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2991662.png",
         "name": "Mack Hollins",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Philadelphia Eagles",
         "projected": 4.4,
         "opponent": "New York Jets",
@@ -5211,7 +5211,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/17402.png",
         "name": "Seth Roberts",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Baltimore Ravens",
         "projected": 4.3,
         "opponent": "at Pittsburgh Steelers",
@@ -5239,7 +5239,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15062.png",
         "name": "Travis Benjamin",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Los Angeles Chargers",
         "projected": 4.2,
         "opponent": "Denver Broncos",
@@ -5267,7 +5267,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2977800.png",
         "name": "Alex Erickson",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Cincinnati Bengals",
         "projected": 4.1,
         "opponent": "Arizona Cardinals",
@@ -5295,7 +5295,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3135321.png",
         "name": "Hunter Renfrow",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Oakland Raiders",
         "projected": 3.6,
         "opponent": "Chicago Bears",
@@ -5323,7 +5323,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3921958.png",
         "name": "Chris Conley",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Jacksonville Jaguars",
         "projected": 3.5,
         "opponent": "at Carolina Panthers",
@@ -5351,7 +5351,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035019.png",
         "name": "Javon Wims",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Chicago Bears",
         "projected": 3.4,
         "opponent": "at Oakland Raiders",
@@ -5379,7 +5379,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576491.png",
         "name": "Adam Humphries",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Tennessee Titans",
         "projected": 3.3,
         "opponent": "Buffalo Bills",
@@ -5407,7 +5407,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915097.png",
         "name": "Antonio Callaway",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Cleveland Browns",
         "projected": 3.2,
         "opponent": "at San Francisco 49ers",
@@ -5435,7 +5435,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122168.png",
         "name": "Trent Sherfield",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Arizona Cardinals",
         "projected": 3.1,
         "opponent": "at Cincinnati Bengals",
@@ -5463,7 +5463,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2579604.png",
         "name": "Phillip Dorsett",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "New England Patriots",
         "projected": 3.1,
         "opponent": "at Washington Redskins",
@@ -5491,7 +5491,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3050487.png",
         "name": "Anthony Miller",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Chicago Bears",
         "projected": 3.0,
         "opponent": "at Oakland Raiders",
@@ -5519,7 +5519,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035004.png",
         "name": "Mecole Hardman",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Kansas City Chiefs",
         "projected": 2.9,
         "opponent": "Indianapolis Colts",
@@ -5547,7 +5547,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3057987.png",
         "name": "DaeSean Hamilton",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Denver Broncos",
         "projected": 2.9,
         "opponent": "at Los Angeles Chargers",
@@ -5575,7 +5575,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3728254.png",
         "name": "Deon Cain",
-        "depthchart": "2: WR-2",
+        "depthchart": "Backup: WR-2",
         "team": "Indianapolis Colts",
         "projected": 2.7,
         "opponent": "at Kansas City Chiefs",
@@ -5603,7 +5603,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917067.png",
         "name": "Olabisi Johnson",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Minnesota Vikings",
         "projected": 2.5,
         "opponent": "at New York Giants",
@@ -5631,7 +5631,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2983209.png",
         "name": "Chester Rogers",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Indianapolis Colts",
         "projected": 2.5,
         "opponent": "at Kansas City Chiefs",
@@ -5659,7 +5659,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3045380.png",
         "name": "Bobo Wilson",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Tampa Bay Buccaneers",
         "projected": 2.4,
         "opponent": "at New Orleans Saints",
@@ -5687,7 +5687,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16172.png",
         "name": "Jaron Brown",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Seattle Seahawks",
         "projected": 2.4,
         "opponent": "Los Angeles Rams",
@@ -5715,7 +5715,7 @@ $scope.teamthree = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3085107.png",
         "name": "Jake Kumerow",
-        "depthchart": "3: WR-3",
+        "depthchart": "Reserve: WR-3",
         "team": "Green Bay Packers",
         "projected": 1.0,
         "opponent": "at Dallas Cowboys",
@@ -5748,7 +5748,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15847.png",
         "name": "Travis Kelce",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Kansas City Chiefs",
         "projected": 15.6,
         "opponent": "Indianapolis Colts",
@@ -5776,7 +5776,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13232.png",
         "name": "Jimmy Graham",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Green Bay Packers",
         "projected": 15.3,
         "opponent": "at Dallas Cowboys",
@@ -5804,7 +5804,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051876.png",
         "name": "Evan Engram",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "New York Giants",
         "projected": 14.5,
         "opponent": "Minnesota Vikings",
@@ -5832,7 +5832,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15835.png",
         "name": "Zach Ertz",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Philadelphia Eagles",
         "projected": 12.1,
         "opponent": "New York Jets",
@@ -5860,7 +5860,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3040151.png",
         "name": "George Kittle",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "San Francisco 49ers",
         "projected": 12.1,
         "opponent": "Cleveland Browns",
@@ -5888,7 +5888,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116365.png",
         "name": "Mark Andrews",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Baltimore Ravens",
         "projected": 11.3,
         "opponent": "at Pittsburgh Steelers",
@@ -5916,7 +5916,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576925.png",
         "name": "Darren Waller",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Oakland Raiders",
         "projected": 11.0,
         "opponent": "Chicago Bears",
@@ -5944,7 +5944,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15788.png",
         "name": "Tyler Eifert",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Cincinnati Bengals",
         "projected": 10.9,
         "opponent": "Arizona Cardinals",
@@ -5972,7 +5972,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3930086.png",
         "name": "Dawson Knox",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Buffalo Bills",
         "projected": 9.4,
         "opponent": "at Tennessee Titans",
@@ -6000,7 +6000,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3127292.png",
         "name": "Will Dissly",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Seattle Seahawks",
         "projected": 8.5,
         "opponent": "Los Angeles Rams",
@@ -6028,7 +6028,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14007.png",
         "name": "Lance Kendricks",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Los Angeles Chargers",
         "projected": 8.2,
         "opponent": "Denver Broncos",
@@ -6056,7 +6056,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4527.png",
         "name": "Jason Witten",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Dallas Cowboys",
         "projected": 8.1,
         "opponent": "Green Bay Packers",
@@ -6084,7 +6084,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/10475.png",
         "name": "Greg Olsen",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Carolina Panthers",
         "projected": 7.9,
         "opponent": "Jacksonville Jaguars",
@@ -6112,7 +6112,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3043275.png",
         "name": "Austin Hooper",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Atlanta Falcons",
         "projected": 7.8,
         "opponent": "at Houston Texans",
@@ -6140,7 +6140,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3043080.png",
         "name": "O.J. Howard",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Tampa Bay Buccaneers",
         "projected": 6.6,
         "opponent": "at New Orleans Saints",
@@ -6168,7 +6168,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5557.png",
         "name": "Benjamin Watson",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "New England Patriots",
         "projected": 6.1,
         "opponent": "at Washington Redskins",
@@ -6196,7 +6196,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15853.png",
         "name": "Vance McDonald",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Pittsburgh Steelers",
         "projected": 5.7,
         "opponent": "Baltimore Ravens",
@@ -6224,7 +6224,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3918639.png",
         "name": "Gerald Everett",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Los Angeles Rams",
         "projected": 5.6,
         "opponent": "at Seattle Seahawks",
@@ -6252,7 +6252,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16504.png",
         "name": "Jack Doyle",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Indianapolis Colts",
         "projected": 5.4,
         "opponent": "at Kansas City Chiefs",
@@ -6280,7 +6280,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2975674.png",
         "name": "Robert Tonyan",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Green Bay Packers",
         "projected": 4.6,
         "opponent": "at Dallas Cowboys",
@@ -6308,7 +6308,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
         "name": "Dallas Goedert",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Philadelphia Eagles",
         "projected": 4.6,
         "opponent": "New York Jets",
@@ -6336,7 +6336,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/9761.png",
         "name": "Delanie Walker",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Tennessee Titans",
         "projected": 4.5,
         "opponent": "Buffalo Bills",
@@ -6364,7 +6364,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/12537.png",
         "name": "Jared Cook",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "New Orleans Saints",
         "projected": 4.5,
         "opponent": "Tampa Bay Buccaneers",
@@ -6392,7 +6392,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2574591.png",
         "name": "Nick Boyle",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Baltimore Ravens",
         "projected": 4.2,
         "opponent": "at Pittsburgh Steelers",
@@ -6420,7 +6420,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14145.png",
         "name": "Charles Clay",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Arizona Cardinals",
         "projected": 4.1,
         "opponent": "at Cincinnati Bengals",
@@ -6448,7 +6448,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14054.png",
         "name": "Kyle Rudolph",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Minnesota Vikings",
         "projected": 4.1,
         "opponent": "at New York Giants",
@@ -6476,7 +6476,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2574576.png",
         "name": "C.J. Uzomah",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Cincinnati Bengals",
         "projected": 3.7,
         "opponent": "Arizona Cardinals",
@@ -6504,7 +6504,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2991767.png",
         "name": "Blake Jarwin",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Dallas Cowboys",
         "projected": 3.6,
         "opponent": "Green Bay Packers",
@@ -6532,7 +6532,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16732.png",
         "name": "Eric Ebron",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Indianapolis Colts",
         "projected": 3.5,
         "opponent": "at Kansas City Chiefs",
@@ -6560,7 +6560,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15887.png",
         "name": "Ryan Griffin",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "New York Jets",
         "projected": 3.5,
         "opponent": "at Philadelphia Eagles",
@@ -6588,7 +6588,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2514206.png",
         "name": "Blake Bell",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Kansas City Chiefs",
         "projected": 3.4,
         "opponent": "Indianapolis Colts",
@@ -6616,7 +6616,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2980073.png",
         "name": "Jeremy Sprinkle",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Washington Redskins",
         "projected": 3.3,
         "opponent": "New England Patriots",
@@ -6644,7 +6644,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/17453.png",
         "name": "Cameron Brate",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Tampa Bay Buccaneers",
         "projected": 3.0,
         "opponent": "at New Orleans Saints",
@@ -6672,7 +6672,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14085.png",
         "name": "Virgil Green",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Los Angeles Chargers",
         "projected": 3.0,
         "opponent": "Denver Broncos",
@@ -6700,7 +6700,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2573401.png",
         "name": "Tyler Higbee",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Los Angeles Rams",
         "projected": 2.9,
         "opponent": "at Seattle Seahawks",
@@ -6728,7 +6728,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036131.png",
         "name": "Noah Fant",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Denver Broncos",
         "projected": 2.9,
         "opponent": "at Los Angeles Chargers",
@@ -6756,7 +6756,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3843945.png",
         "name": "Foster Moreau",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Oakland Raiders",
         "projected": 2.4,
         "opponent": "Chicago Bears",
@@ -6784,7 +6784,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15773.png",
         "name": "Darren Fells",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Houston Texans",
         "projected": 2.4,
         "opponent": "Atlanta Falcons",
@@ -6812,7 +6812,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3126153.png",
         "name": "Maxx Williams",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Arizona Cardinals",
         "projected": 2.2,
         "opponent": "at Cincinnati Bengals",
@@ -6840,7 +6840,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4045305.png",
         "name": "Ian Thomas",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Carolina Panthers",
         "projected": 2.2,
         "opponent": "Jacksonville Jaguars",
@@ -6868,7 +6868,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2476373.png",
         "name": "Jerome Cunningham",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Washington Redskins",
         "projected": 1.9,
         "opponent": "New England Patriots",
@@ -6896,7 +6896,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4198676.png",
         "name": "Adam Shaheen",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Chicago Bears",
         "projected": 1.9,
         "opponent": "at Oakland Raiders",
@@ -6924,7 +6924,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16974.png",
         "name": "Trey Burton",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Chicago Bears",
         "projected": 1.9,
         "opponent": "at Oakland Raiders",
@@ -6952,7 +6952,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2508079.png",
         "name": "James O'Shaughnessy",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Jacksonville Jaguars",
         "projected": 1.7,
         "opponent": "at Carolina Panthers",
@@ -6980,7 +6980,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128452.png",
         "name": "Jordan Akins",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Houston Texans",
         "projected": 1.7,
         "opponent": "Atlanta Falcons",
@@ -7008,7 +7008,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576399.png",
         "name": "Nick Vannett",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Pittsburgh Steelers",
         "projected": 1.6,
         "opponent": "Baltimore Ravens",
@@ -7036,7 +7036,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122920.png",
         "name": "Ryan Izzo",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "New England Patriots",
         "projected": 1.6,
         "opponent": "at Washington Redskins",
@@ -7064,7 +7064,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051806.png",
         "name": "Ricky Seals-Jones",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Cleveland Browns",
         "projected": 1.3,
         "opponent": "at San Francisco 49ers",
@@ -7092,7 +7092,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15980.png",
         "name": "Levine Toilolo",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "San Francisco 49ers",
         "projected": 1.2,
         "opponent": "Cleveland Browns",
@@ -7120,7 +7120,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15003.png",
         "name": "Rhett Ellison",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "New York Giants",
         "projected": 1.1,
         "opponent": "Minnesota Vikings",
@@ -7148,7 +7148,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4039253.png",
         "name": "Trevon Wesco",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "New York Jets",
         "projected": 1.0,
         "opponent": "at Philadelphia Eagles",
@@ -7176,7 +7176,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3125402.png",
         "name": "Jeff Heuerman",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Denver Broncos",
         "projected": 0.9,
         "opponent": "at Los Angeles Chargers",
@@ -7204,7 +7204,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14215.png",
         "name": "Lee Smith",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Buffalo Bills",
         "projected": 0.9,
         "opponent": "at Tennessee Titans",
@@ -7232,7 +7232,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16318.png",
         "name": "Demetrius Harris",
-        "depthchart": "1: TE-1",
+        "depthchart": "Starter: TE-1",
         "team": "Cleveland Browns",
         "projected": 0.7,
         "opponent": "at San Francisco 49ers",
@@ -7260,7 +7260,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16121.png",
         "name": "Luke Willson",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Seattle Seahawks",
         "projected": 0.5,
         "opponent": "Los Angeles Rams",
@@ -7288,7 +7288,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16143.png",
         "name": "Josh Hill",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "New Orleans Saints",
         "projected": 0.5,
         "opponent": "Tampa Bay Buccaneers",
@@ -7316,7 +7316,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046704.png",
         "name": "Geoff Swaim",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Jacksonville Jaguars",
         "projected": 0.4,
         "opponent": "at Carolina Panthers",
@@ -7344,7 +7344,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3054212.png",
         "name": "Jonnu Smith",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Tennessee Titans",
         "projected": 0.4,
         "opponent": "Buffalo Bills",
@@ -7372,7 +7372,7 @@ $scope.teamfour = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14099.png",
         "name": "Luke Stocker",
-        "depthchart": "2: TE-2",
+        "depthchart": "Backup: TE-2",
         "team": "Atlanta Falcons",
         "projected": 0.1,
         "opponent": "at Houston Texans",
