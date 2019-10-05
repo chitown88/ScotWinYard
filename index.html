@@ -97,7 +97,7 @@
           </ul>
         </div>  
         
-		<div class="player-news" style="background-color:{{player.tmColorDark_rgba}};">
+		<div class="player-news" style="background-color:rgba(0, 0, 0, 0.2);">
 		<div>Next opponent: {{player.opponent}}</div><br>
 		<h5>{{player.headlineNews}}</h5>
 		<p>{{player.report}}</p><br>
@@ -397,7 +397,7 @@
         {{player.depthchart}}
       </div>
       <div class="profile">
-        <img ng-src="{{player.imageUrl}}">
+        <img id="dst" ng-src="{{player.imageUrl}}">
       </div>
         <div class="playerInfo">
           <h1>{{player.name}}</h1>
@@ -424,7 +424,7 @@
         </div>
 		<div class="profile-container">
         <div class="profile">
-          <img id="playerImage" ng-src="{{player.imageUrl}}">
+          <img id="playerImageDST" ng-src="{{player.imageUrl}}">
         </div>
         <ul class="playerModal">
           <li><h1>{{player.name}}</h1></li>

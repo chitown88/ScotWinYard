@@ -264,6 +264,17 @@ h5 {
   height: 100%;
   margin-left: -20%;
 }
+
+.card .profile img#dst {
+  height: 100%;
+  margin-left: 0%;
+}
+
+img#playerImageDST{
+  height: 100%;
+  margin-left: 0%;
+}
+
 .card:hover .profile {
   width: 115px;
   height: 115px;
