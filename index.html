@@ -87,7 +87,7 @@
           
           <!--NOT NEEDED -->
             <span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
-          <h3>Previous weeks points</h3>
+          <h3>Previous weeks points ({{player.avg_fp2}} ppg)</h3>
           <ul class="pointsList">
             <li>{{player.lastweek}}</li>
             <li>{{player.firstlast}}</li>
@@ -98,7 +98,13 @@
         </div>  
         
 		<div class="player-news" style="background-color:rgba(0, 0, 0, 0.2);">
-		<div>Next opponent: {{player.opponent}}</div><br>
+		<div>Next opponent: {{player.opponent}} ({{player.home_away}})</div>
+		<ul>
+		<li>{{player.team}} Passing Offense Rank: {{player.team_rank}}</li>
+		<li>{{player.opponent}} Passing Defense Rank: {{player.opp_rank}}</li>
+		<li>{{player.opponent}} Average Fantasy Points Allowed to QB Rank: {{player.opp_rank_allowed_fp2}} ({{player.opp_avg_allowed_fp2}} ppg)</li>
+		</ul>
+		<br>
 		<h5>{{player.headlineNews}}</h5>
 		<p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
@@ -178,7 +184,7 @@
         </ul>
 		
 		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
-        <h3>Previous weeks points</h3>
+        <h3>Previous weeks points ({{player.avg_fp2}} ppg)</h3>
         <ul class="pointsList">
           <li>{{player.lastweek}}</li>
           <li>{{player.firstlast}}</li>
@@ -188,7 +194,13 @@
         </ul>
       </div>  
 	  <div class="player-news">
-	  <div>Next opponent: {{player.opponent}}</div><br>
+	  <div>Next opponent: {{player.opponent}} ({{player.home_away}})</div>
+	  <ul>
+	  <li>{{player.team}} Rushing Offense Rank: {{player.team_rank}}</li>
+	  <li>{{player.opponent}} Rushing Defense Rank: {{player.opp_rank}}</li>
+	  <li>{{player.opponent}} Average Fantasy Points Allowed to RB Rank: {{player.opp_rank_allowed_fp2}} ({{player.opp_avg_allowed_fp2}} ppg)</li>
+	  </ul>
+	  <br>
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
@@ -265,7 +277,7 @@
         </ul>
 		
 		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
-        <h3>Previous weeks points</h3>
+        <h3>Previous weeks points ({{player.avg_fp2}} ppg)</h3>
         <ul class="pointsList">
           <li>{{player.lastweek}}</li>
           <li>{{player.firstlast}}</li>
@@ -275,7 +287,13 @@
         </ul>
       </div>  
 	  <div class="player-news">
-	  <div>Next opponent: {{player.opponent}}</div><br>
+	  <div>Next opponent: {{player.opponent}} ({{player.home_away}})</div>
+	  <ul>
+	  <li>{{player.team}} Passing Offense Rank: {{player.team_rank}}</li>
+	  <li>{{player.opponent}} Passing Defense Rank: {{player.opp_rank}}</li>
+	  <li>{{player.opponent}} Average Fantasy Points Allowed to WR Rank: {{player.opp_rank_allowed_fp2}} ({{player.opp_avg_allowed_fp2}} ppg)</li>
+	  </ul>	  
+	  <br>
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
@@ -352,7 +370,7 @@
         </ul>
 		
 		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
-        <h3>Previous weeks points</h3>
+        <h3>Previous weeks points ({{player.avg_fp2}} ppg)</h3>
         <ul class="pointsList">
           <li>{{player.lastweek}}</li>
           <li>{{player.firstlast}}</li>
@@ -362,7 +380,13 @@
         </ul>
       </div>  
 	  <div class="player-news">
-	  <div>Next opponent: {{player.opponent}}</div><br>
+	  <div>Next opponent: {{player.opponent}} ({{player.home_away}})</div>
+	  <ul>
+	  <li>{{player.team}} Passing Offense Rank: {{player.team_rank}}</li>
+	  <li>{{player.opponent}} Passing Defense Rank: {{player.opp_rank}}</li>
+	  <li>{{player.opponent}} Average Fantasy Points Allowed to TE Rank: {{player.opp_rank_allowed_fp2}} ({{player.opp_avg_allowed_fp2}} ppg)</li>
+	  </ul>	  
+	  <br>
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
@@ -448,7 +472,15 @@
         </ul>
       </div>  
 	  <div class="player-news">
-	  <div>Next opponent: {{player.opponent}}</div><br>
+	  <div>Next opponent: {{player.opponent}} ({{player.home_away}})</div>
+	  <ul>
+	  <li>{{player.team}} Defense Points per Game Allowed Rank: {{player.team_rank_allowed_pts}} ({{player.team_avg_allowed_pts}} ppg)</li>
+	  <li>{{player.opponent}} Offense Points per Game Rank: {{player.opp_rank_pts}} ({{player.opp_avg_pts}} ppg)</li>
+	  <li>{{player.team}} Takeways per Game Rank: {{player.team_ranked_takeaways}} ({{player.team_avg_takeaways}} per game)</li>
+	  <li>{{player.opponent}} Giveaways per Game Rank: {{player.opp_ranked_giveaways}} ({{player.opp_avg_giveaways}} per game)</li>
+	  </ul>	  	  
+	  
+	  <br>
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis: </strong> {{player.analysis}}</p>
