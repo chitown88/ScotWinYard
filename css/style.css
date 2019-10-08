@@ -430,10 +430,11 @@ img#playerImageDST{
 .modal .profile-team {
   width: 150px;
   height: 150px;
+  float: right;
   overflow: visible;
   display: inline-block;
   transition: all 0.5s ease;
-  margin: 0.5em 0.5em 0.5em 5%;
+  margin: 0.5em 0.5em 0.5em 4%;
 }
 @media screen and (max-width: 925px) {
   .modal .profile-team {
