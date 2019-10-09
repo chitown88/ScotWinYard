@@ -494,7 +494,7 @@ div.player-news {
 @media screen and (max-height: 500px) {
   div.player-news {
     height: 20%;
-	font-size:70%;
+	font-size:85%;
   }
 }
 
