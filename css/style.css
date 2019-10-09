@@ -480,22 +480,19 @@ div.player-news {
 @media screen and (max-height: 750px) {
   div.player-news {
     height: 35%;
-	font-size:85%;
-  }
+	}
 }
 
 @media screen and (max-height: 600px) {
   div.player-news {
     height: 30%;
-	font-size:85%;
-  }
+	}
 }
 
 @media screen and (max-height: 500px) {
   div.player-news {
     height: 20%;
-	font-size:85%;
-  }
+	}
 }
 
 div.player-news h5 {
