@@ -473,13 +473,28 @@ div.player-news {
 	font-size:18px;
 	color:white;
 	overflow-y:auto;
-	font-size:85%;
+	
 	/*background-color:rgba(0, 0, 0, .20);*/	
 }
 
 @media screen and (max-height: 750px) {
   div.player-news {
+    height: 35%;
+	font-size:85%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  div.player-news {
+    height: 30%;
+	font-size:85%;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  div.player-news {
     height: 20%;
+	font-size:85%;
   }
 }
 
