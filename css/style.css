@@ -486,6 +486,7 @@ div.player-news {
 @media screen and (max-height: 600px) {
   div.player-news {
     height: 30%;
+	font-size:5px;
 	}
 }
 
