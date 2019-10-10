@@ -476,7 +476,7 @@ div.player-news {
 }
 
 .pointsList {
-	font-size:80%;
+	font-size:50%;
 }
 
 @media screen and (max-height: 700px) {
