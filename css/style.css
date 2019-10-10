@@ -475,9 +475,13 @@ div.player-news {
     z-index:11;	
 }
 
-@media screen and (max-height: 750px) {
+.pointsList {
+	font-size:80%;
+}
+
+@media screen and (max-height: 700px) {
   div.player-news {
-    height: 38%;
+    height: 45%;
 	}
 }
 
@@ -490,6 +494,12 @@ div.player-news {
 @media screen and (max-height: 500px) {
   div.player-news {
     height: 20%;
+	}
+}
+
+@media screen and (max-height: 400px) {
+  div.player-news {
+    height: 15%;
 	}
 }
 
@@ -600,3 +610,5 @@ header .appInfo p {
   font-size: 0.9em;
   line-height: 155%;
 }
+
+
