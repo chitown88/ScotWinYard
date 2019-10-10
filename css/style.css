@@ -475,9 +475,6 @@ div.player-news {
     z-index:11;	
 }
 
-.pointsList {
-	font-size:50%;
-}
 
 @media screen and (max-height: 700px) {
   div.player-news {
@@ -549,6 +546,7 @@ div.player-news h5 {
   border-bottom: 1px solid white;
 }
 .modal .pointsList li {
+  font-size:90%;
   display: inline-block;
   margin-right: 2.5%;
   padding-bottom: 0.5em;
