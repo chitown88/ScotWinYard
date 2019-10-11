@@ -2,8 +2,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
 
+<script src="glider/glider.js"></script>
 <script src="js/script.js" type="text/javascript"/></script>
+
+
+<link rel="stylesheet" type="text/css" href="glider/glider.css">
 <link rel="stylesheet" href="css/style.css">
+
 <link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet">
 
 
@@ -88,14 +93,25 @@
           <!--NOT NEEDED -->
             <span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
           <h3>Previous weeks points (Average: {{player.avg_fp2}} ppg)</h3>
-          <ul class="pointsList">
-            <li>These are not accurate: Just a placeholder</li>
-			<li>{{player.lastweek}}</li>
-            <li>{{player.firstlast}}</li>
-            <li>{{player.secondlast}}</li>
-            <li>{{player.thirdlast}}</li>
-            <li>{{player.fourthlast}}</li>
-          </ul>
+          
+            <div class="glider-contain pointsList">
+			<div class="glider">
+			<div>Week 1: 20.3</div>
+			<div>{{player.lastweek}}</div>
+            <div>{{player.firstlast}}</div>
+            <div>{{player.secondlast}}</div>
+            <div>{{player.thirdlast}}</div>
+            <div>{{player.fourthlast}}</div>
+			<div>{{player.lastweek}}</div>
+			<div>{{player.lastweek}}</div>
+			<div>{{player.lastweek}}</div>
+			<div>{{player.lastweek}}</div>
+          </div>
+		  
+		  <button role="button" aria-label="Previous" class="glider-prev">«</button>
+  <button role="button" aria-label="Next" class="glider-next">»</button>
+  <div role="tablist" class="dots"></div>
+</div>
         </div>  
         
 		<div class="player-news" style="background-color:rgba(0, 0, 0, 0.2);">
@@ -507,7 +523,10 @@
   </section>
 
   
-  
+
   
 <!--end app-->
 </section>
+
+<script src="js/script2.js" type="text/javascript"/></script>
+

@@ -8326,6 +8326,8 @@ $scope.teamfive = [
 });
 
 //other js
+
+
 $(document).ready(function() {
 
   //open player modals
@@ -8333,9 +8335,19 @@ $(document).ready(function() {
     $(this).next('.overlay')
       .addClass('showModal');
   });
+});
 
+
+$(document).ready(function() {
   $('.close').on('click', function() {
     $('.overlay').removeClass('showModal');
   });
-
 });
+
+
+
+
+
+
+
+
