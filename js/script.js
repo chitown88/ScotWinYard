@@ -59,11 +59,11 @@ $scope.teamone = [
         "avg_fp2": 25.33,
         "opp_rank_allowed_fp2": 23,
         "opp_avg_allowed_fp2": 20.56,
-        "lastweek": "Week Five: 32",
-        "firstlast": "Week Four: 14",
-        "secondlast": "Week Three: 18",
-        "thirdlast": "Week Two: 19",
-        "fourthlast": "Week One: 17",
+        "lastweek": "Week Five: 12",
+        "firstlast": "Week Four: 34",
+        "secondlast": "Week Three: 38",
+        "thirdlast": "Week Two: 39",
+        "fourthlast": "Week One: 37",
         "hasStatus": "Status",
         "healthHea": "Healthy",
         "injury": "",
@@ -8329,7 +8329,6 @@ $scope.teamfive = [
 
 
 $(document).ready(function() {
-
   //open player modals
   $('.card').on('click', function() {
     $(this).next('.overlay')
@@ -8343,6 +8342,14 @@ $(document).ready(function() {
     $('.overlay').removeClass('showModal');
   });
 });
+
+
+
+
+
+
+
+
 
 
 
