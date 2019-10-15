@@ -476,11 +476,24 @@ div.player-news {
 }
 
 
-@media screen and (max-height: 700px) {
+
+
+@media screen and (max-height: 800px) {
   div.player-news {
     height: 45%;
 	}
 }
+
+@media screen and (max-height: 700px) {
+  div.player-news {
+    height: 35%;
+	}
+  .slick-dots {
+	bottom: -33px;
+    }
+
+}
+
 
 @media screen and (max-height: 600px) {
   div.player-news {
@@ -494,11 +507,16 @@ div.player-news {
 	}
 }
 
-@media screen and (max-height: 400px) {
+/* Galaxt S5 */
+@media screen and (max-height: 640px) and (max-height: 560px) {
   div.player-news {
-    height: 15%;
+    height: 25%;
+	width: 55%;
 	}
-}
+  .slick-dots {
+	bottom: -33px;
+    }
+	}
 
 div.player-news h5 {
   margin-top: .1%;
@@ -614,7 +632,10 @@ header .appInfo p {
 .slick-slide {    
 	height: 5.5%;
 	overflow:hidden;
-	
 }
+
+.modal .pointsList li {
+    margin-right: 0.5%;
+    }
 
 
