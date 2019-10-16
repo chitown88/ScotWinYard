@@ -475,6 +475,10 @@ div.player-news {
     z-index:11;	
 }
 
+div.week-list.pointsList > span {
+	font-weight:750;
+}
+
 
 
 
