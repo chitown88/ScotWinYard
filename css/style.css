@@ -51,8 +51,8 @@ table {
 
 /* CONVERTED SCSS TO CSS BELOW */
 
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/242749/stadium.jpg");
@@ -477,6 +477,11 @@ div.player-news {
 
 div.week-list.pointsList > span {
 	font-weight:750;
+}
+
+#timestamp {
+	font-style: italic;
+	font-size: 97%;
 }
 
 
