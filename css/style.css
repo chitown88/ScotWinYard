@@ -312,7 +312,7 @@ img#playerImageDST{
     width: 100%;
   }
 }
-.compare .winLose {
+.compare .startEm, .compare .sitEm {
   width: 90%;
   padding: 0.4em 0 0 5%;
 }

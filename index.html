@@ -58,7 +58,7 @@
       <h1>Quarterbacks</h1>
       <h2>Projected this week</h2>
     </div>
-    <section ng-repeat="player in teamone">
+    <section ng-repeat="player in positionQB">
       <div class="card myPlayer">
         <div class="pos">
           {{player.depthchart}}
@@ -141,12 +141,16 @@
 		<h5>{{player.headlineNews}}</h5>
 		<p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis:</strong>  {{player.analysis}}</p><br><p id="timestamp">{{player.timestamp}}</p>
-        <br> 
+
+	<!-- CHART GOES HERE 
+	
         <canvas id="myChart" width="400" height="200"></canvas>
 <script>
    linechart()
 </script>
-
+	
+	
+	end chart-->
 
           
         </div>
@@ -158,15 +162,39 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="winLose">
-        <h2>Your projected score</h2>
-        <h1 class="you">{{sumOne}}</h1>
-        <h2>Opponent projected score</h2>
-        <h1 class="them">{{sumTwo}}</h1>
+      <div class="startEm">
+        <h2>Top 5 Start 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>Aaron Rodgers</li>
+		<li>Matthew Stafford</li>
+		<li>Jared Goff</li>
+		<li>Josh Allen</li>
+		<li>Gardner Minshew</li>
+		</ul></h1>
+      </div> 
+     </section>
+	 
+	 <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="sitEm">
+        <h2>Top 5 Sit 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>Mitchell Trubisky</li>
+		<li>Case Keenum</li>
+		<li>Ryan Tannehill</li>
+		<li>Daniel Jones</li>
+		<li>Andy Dalton</li>
+		</ul></h1>
       </div> 
      </section>
     <div class="clearfix"></div>
   </section>
+  
+  
  
   <!--running back projections-->
   <section class="myTeam" ng-controller="positionController">
@@ -174,7 +202,7 @@
       <h1>Running Backs</h1>
       <h2>projected this week</h2>
     </div>
-    <section ng-repeat="player in teamtwo">
+    <section ng-repeat="player in positionRB">
     <div class="card">
       <div class="pos">
         {{player.depthchart}}
@@ -260,13 +288,37 @@
       <!--end modal-->
     </section><!--end ng-repeat-->
     <!--score comparison-->
-    <section class="compareOpp compare">
-      <div class="result"></div>
-      <div class="winLose">
-        <h2>Your projected score</h2>
-        <h1 class="you">{{sumTwo}}</h1>
-        <h2>Opponent projected score</h2>
-        <h1 class="them">{{sumOne}}</h1>
+    <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="startEm">
+        <h2>Top 5 Start 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		</ul></h1>
+      </div> 
+     </section>
+	 
+	 <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="sitEm">
+        <h2>Top 5 Sit 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		</ul></h1>
       </div> 
      </section>
     <div class="clearfix"></div>
@@ -280,7 +332,7 @@
       <h1>Wide Receivers</h1>
       <h2>projected this week</h2>
     </div>
-    <section ng-repeat="player in teamthree">
+    <section ng-repeat="player in positionWR">
     <div class="card">
       <div class="pos">
         {{player.depthchart}}
@@ -366,13 +418,37 @@
       <!--end modal-->
     </section><!--end ng-repeat-->
     <!--score comparison-->
-    <section class="compareOpp compare">
-      <div class="result"></div>
-      <div class="winLose">
-        <h2>Your projected score</h2>
-        <h1 class="you">{{sumTwo}}</h1>
-        <h2>Opponent projected score</h2>
-        <h1 class="them">{{sumOne}}</h1>
+    <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="startEm">
+        <h2>Top 5 Start 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		</ul></h1>
+      </div> 
+     </section>
+	 
+	 <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="sitEm">
+        <h2>Top 5 Sit 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		</ul></h1>
       </div> 
      </section>
     <div class="clearfix"></div>
@@ -386,7 +462,7 @@
       <h1>Tight Ends</h1>
       <h2>projected this week</h2>
     </div>
-    <section ng-repeat="player in teamfour">
+    <section ng-repeat="player in positionTE">
     <div class="card">
       <div class="pos">
         {{player.depthchart}}
@@ -472,17 +548,41 @@
       <!--end modal-->
     </section><!--end ng-repeat-->
     <!--score comparison-->
-    <section class="compareOpp compare">
-      <div class="result"></div>
-      <div class="winLose">
-        <h2>Your projected score</h2>
-        <h1 class="you">{{sumTwo}}</h1>
-        <h2>Opponent projected score</h2>
-        <h1 class="them">{{sumOne}}</h1>
+    <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="startEm">
+        <h2>Top 5 Start 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		</ul></h1>
+      </div> 
+     </section>
+	 
+	 <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="sitEm">
+        <h2>Top 5 Sit 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		</ul></h1>
       </div> 
      </section>
     <div class="clearfix"></div>
-  </section> 
+  </section>
   
   
 
@@ -492,7 +592,7 @@
       <h1>Defense</h1>
       <h2>projected this week</h2>
     </div>
-    <section ng-repeat="player in teamfive">
+    <section ng-repeat="player in positionDST">
     <div class="card">
       <div class="pos">
         {{player.depthchart}}
@@ -579,13 +679,37 @@
       <!--end modal-->
     </section><!--end ng-repeat-->
     <!--score comparison-->
-    <section class="compareOpp compare">
-      <div class="result"></div>
-      <div class="winLose">
-        <h2>Your projected score</h2>
-        <h1 class="you">{{sumTwo}}</h1>
-        <h2>Opponent projected score</h2>
-        <h1 class="them">{{sumOne}}</h1>
+    <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="startEm">
+        <h2>Top 5 Start 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		</ul></h1>
+      </div> 
+     </section>
+	 
+	 <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div class="sitEm">
+        <h2>Top 5 Sit 'em</h2>
+        <h1 class="you">
+		<ul><br>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		<li>---- -----</li>
+		</ul></h1>
       </div> 
      </section>
     <div class="clearfix"></div>

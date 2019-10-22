@@ -2,20 +2,14 @@ var App = angular.module('footballApp', []);
 
 App.controller('positionController', function($scope, $http) {
 
-  //starting sum for the projected of each team
+  //JSON data for positions
 
-  $scope.sumOne = 0;
-  $scope.sumTwo = 0;
 
-  //JSON data for both teams
-
-  //change player projected scores to see team totals change
-  //and the win/lose in action
   
   
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.teamone = [
+$scope.positionQB = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8439.png",
         "name": "Aaron Rodgers",
@@ -1253,7 +1247,7 @@ $scope.teamone = [
 
 
 
-$scope.teamtwo = [
+$scope.positionRB = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2977644.png",
         "name": "Todd Gurley",
@@ -4647,7 +4641,7 @@ $scope.teamtwo = [
 
 
 
-$scope.teamthree = [
+$scope.positionWR= [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13982.png",
         "name": "Julio Jones",
@@ -8348,7 +8342,7 @@ $scope.teamthree = [
 
 
 
-$scope.teamfour = [
+$scope.positionTE = [
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051876.png",
         "name": "Evan Engram",
@@ -10641,7 +10635,7 @@ $scope.teamfour = [
 
 
 
-$scope.teamfive = [
+$scope.positionDST = [
     {
         "imageUrl": "https://static.nfl.com/static/content/public/static/img/fantasy/transparent/200x200/NE.png",
         "name": "New England Patriots",
@@ -11939,34 +11933,7 @@ $scope.teamfive = [
 
 /**************** END OF PASTE ******************/
  
- //adds the projected sum of each team 
 
-  angular.forEach($scope.teamone, function(acc, index) {
-    $scope.sumOne += acc.projected;
-  });
-
-  angular.forEach($scope.teamtwo, function(acc, index) {
-    $scope.sumTwo += acc.projected;
-  });
-
-  //determines if you are projected to win or loose this week
-
-  if ($scope.sumOne > $scope.sumTwo) {
-    $('.compareMe').removeClass('lose')
-      .addClass('win');
-    $('.compareOpp').removeClass('win')
-      .addClass('lose');
-  } else if ($scope.sumOne < $scope.sumTwo) {
-    $('.compareMe').removeClass('win')
-      .addClass('lose');
-    $('.compareOpp').removeClass('lose')
-      .addClass('win');
-  } else {
-    $('.compareMe').removeClass('win')
-      .removeClass('lose');
-    $('.compareOpp').removeClass('win')
-      .removeClass('lose');
-  };
 
   //end of controller 
 });
