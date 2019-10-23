@@ -50,8 +50,8 @@ $scope.positionQB = [
         "week14": "",
         "week15": "",
         "week16": "",
-        "week17": ""
-    },
+        "week17": "",
+	},
     {
         "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/12483.png",
         "name": "Matthew Stafford",
@@ -273,10 +273,10 @@ $scope.positionQB = [
         "week17": ""
     },
     {
-        "imageUrl": NaN,
-        "name": "Matthew Moore",
+        "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/11128.png",
+        "name": "Matt Moore",
         "depthchart": "Starter: QB-1",
-        "team": NaN,
+        "team": "Kansas City Chiefs",
         "projected": 20.0,
         "opponent": "Green Bay Packers",
         "home_away": "",
@@ -288,14 +288,14 @@ $scope.positionQB = [
         "hasStatus": "Status",
         "healthHea": "Healthy",
         "injury": "",
-        "tmColorLite": NaN,
-        "tmColorDark": NaN,
-        "tmColorLite_rgba": NaN,
-        "tmColorDark_rgba": NaN,
-        "tmTextLite": NaN,
-        "logoUrl": NaN,
-        "headlineNews": "",
-        "report": "",
+        "tmColorLite": "#FFB81C",
+        "tmColorDark": "#c9243f",
+        "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
+        "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
+        "tmTextLite": "#FFB81C",
+        "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+        "headlineNews": "Chiefs' Matt Moore: Next man up at QB",
+        "report": "Moore is the leading candidate to start Week 8 against the Packers, with Patrick Mahomes (kneecap) likely facing a multi-game absence, Adam Teicher of ESPN.com reports.Moore was pressed into relief in Thursday's 30-6 win over the Broncos after the reigning MVP dislocated his right kneecap early in the second quarter and didn't return. Despite having not logged any extended regular-season action since 2017, Moore proved capable in his initial work as a replacement for Mahomes, completing 10 of 19 attempts for 117 yards and a touchdown. With Mahomes likely to miss around three weeks of action in a best-case scenario, the Chiefs could promote undrafted rookie Kyle Shurmur from the practice squad and/or add another quarterback to the roster via free agency or trade, but Moore should get the first crack at filling in as the team's starting quarterback. While Moore is directing the offense, expect coach Andy Reid to rely more heavily on the ground game than he has in previous weeks.",
         "analysis": "",
         "timestamp": "",
         "week01": -0.1,
@@ -11259,8 +11259,6 @@ $scope.positionDST = [
         "week17": ""
     }
 ];
-
-
 
 
 

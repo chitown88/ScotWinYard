@@ -636,7 +636,14 @@ header .appInfo p {
   line-height: 155%;
 }
 
+.slick-dots li.slick-active button:before {
+	color: var(--my-color-var);
+}
 
+.slick-dots li button:before {
+	text-shadow: 0 0 5px #ffffff;
+	color: white;
+}
 
 .slick-slide {    
 	height: 5.5%;
