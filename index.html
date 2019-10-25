@@ -138,14 +138,14 @@
 		<h5>{{player.headlineNews}}</h5>
 		<p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis:</strong>  {{player.analysis}}</p><br><p id="timestamp">{{player.timestamp}}</p>
-
+		<br>
 		
 		
 	<!-- CHART GOES HERE -->
 	
 
 <div ng-controller="testCtrl">
-      <canvas tc-chartjs-line chart-data="data"
+      <canvas style="background-color: rgba(255, 255, 255, .00);" tc-chartjs-line chart-data="data"
               chart-options="options" width="300"
               height="100">
       </canvas>
