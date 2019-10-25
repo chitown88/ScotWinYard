@@ -447,6 +447,7 @@ img#playerImageDST{
   font-weight: 600;
 }
 .modal h2 {
+  margin-top:0px;
   font-size: 1.7em;
 }
 .modal h3 {
@@ -578,6 +579,8 @@ div.player-news h5 {
   margin-right: 2.5%;
   padding-bottom: 0.5em;
 }
+
+
 .canPlay {
   color: green;
   padding: 0;
