@@ -386,6 +386,7 @@ img#playerImageDST{
   .modal {
     width: 70%;
   }
+
 }
 @media screen and (max-width: 925px) {
   .modal {
@@ -486,17 +487,22 @@ div.week-list.pointsList > span {
 }
 
 
-
-
-@media screen and (max-height: 800px) {
-  div.player-news {
-    height: 45%;
+div.player-news {
+    height: 50%;
+	width: 65%;
 	}
+
+@media screen and (max-height: 925px) {
+  div.player-news {
+    height: 30%;
+  }
 }
 
-@media screen and (max-height: 700px) {
+
+@media screen and (max-width: 1030px) {
   div.player-news {
-    height: 35%;
+    height: 30%;
+	width: 55%;
 	}
   .slick-dots {
 	bottom: -33px;
@@ -505,15 +511,15 @@ div.week-list.pointsList > span {
 }
 
 
-@media screen and (max-height: 600px) {
+@media screen and (max-width: 925px) {
   div.player-news {
-    height: 30%;
+    height: 40%;
   }
 }
 
-@media screen and (max-height: 500px) {
+@media screen and (max-width: 800px) {
   div.player-news {
-    height: 20%;
+    height: 40%;
 	}
 }
 
@@ -644,7 +650,7 @@ header .appInfo p {
 }
 
 .slick-dots li button:before {
-	text-shadow: 0 0 5px #ffffff;
+	text-shadow: 0 0 5px #	ffffff;
 	color: white;
 }
 

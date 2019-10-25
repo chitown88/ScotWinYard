@@ -1,4 +1,8 @@
-var App = angular.module('footballApp', []);
+var App = angular.module('footballApp', ['tc.chartjs']);
+
+
+
+
 
 App.controller('positionController', function($scope, $http) {
 
@@ -13282,6 +13286,52 @@ $scope.positionDST = [
 
   //end of controller 
 });
+
+App
+  .controller('testCtrl', function ($scope) {
+      $scope.data = {
+          labels: ['Week 1','Week 2','Week 3','Week 4','Week 5','Week 6','Week 7','Week 8'],
+          datasets: [
+            {
+                label: "Actual",
+                backgroundColor:  'rgba(255, 255, 255, .65)',  //white
+                borderColor: 'rgba(3, 32, 47, 1)', //dark
+				borderWidth: 2,
+				pointRadius: 4,
+				fill: false,
+                data: [31.72,12.86,25.84,11.6,41.74,33.4,17.52]
+            },
+            {
+                label: "Projected",
+				borderDash: [5,5],
+                backgroundColor:  'rgba(167, 25, 48, 1)',  //lite
+                borderColor: 'rgba(3, 32, 47, 1)', //dark
+				fill: false,
+                data: [25.2,16.8,23.4,14.1,26.4,28.4,20.2, 26.3]
+            }
+
+          ]
+      };
+
+      $scope.options = {
+          title: {
+              display: true,
+              text: 'Fantasy Points'
+          },
+		  legend: {
+			display: true  
+		  },
+		  scales: {
+        yAxes: [{
+            ticks: {
+                beginAtZero: true
+            }
+        }]
+    }
+
+          // Chart.js options can go here.
+      };
+  });
 
 
 
