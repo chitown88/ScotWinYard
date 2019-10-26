@@ -1,4 +1,4 @@
-var App = angular.module('footballApp', []);
+var App = angular.module('footballApp', ['tc.chartjs']);
 
 App.controller('positionController', function($scope, $http) {
 
@@ -13283,9 +13283,59 @@ $scope.positionDST = [
   //end of controller 
 });
 
+App
+  .controller('testCtrl', function ($scope) {
+      $scope.data = {
+          labels: ['Week 1','Week 2','Week 3','Week 4','Week 5','Week 6','Week 7','Week 8'],
+          datasets: [
+            {
+                label: "Actual",
+                pointBorderColor: 'rgba(3, 32, 47, 1)', //dark
+				backgroundColor:  'rgba(255, 255, 255, .65)',  //white 
+                borderColor: 'rgba(255, 255, 255, .65)',  //white line
+				borderWidth: 2,
+				pointRadius: 5,
+				fill: false,
+                data: [31.72,12.86,25.84,11.6,41.74,33.4,17.52]
+            },
+            {
+                label: "Projected",
+				borderDash: [5,5],
+				pointBorderColor: 'rgba(3, 32, 47, 1)', //dark
+                backgroundColor:  'rgba(167, 25, 48, 1)',  //lite
+                borderColor: 'rgba(255, 255, 255, .5)',  //white line
+				pointRadius: 5,
+				fill: false,
+                data: [18.7,18.4,19.8,19.5,20.2,19.6,21.1, 26.3]
+            }
+
+          ]
+      };
+
+      $scope.options = {
+          title: {
+              display: true,
+              text: 'Fantasy Points'
+          },
+		  legend: {
+			display: true  
+		  },
+		  scales: {
+        yAxes: [{
+            ticks: {
+                beginAtZero: true
+            }
+        }]
+    }
+
+          // Chart.js options can go here.
+      };
+  });
+
 
 
 //other js
+
 
 $(document).ready(function() {
   //open player modals
