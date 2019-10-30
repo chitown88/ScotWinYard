@@ -30,7 +30,7 @@
       <p>Fantasy Football Projections</p>
     </div>
     <div class="appInfo">
-    <h1>Week 9</h1>
+    <h1 ng-controller="positionController">Week {{week.nflWeek}}</h1>
     <p>Player Projections</p>
 	
 
@@ -68,7 +68,7 @@
             <div class="spacer"></div> 
           <p>Projected this week</p>
           <h3>{{player.projected}} pts</h3>
-		  <h2>{{player.fanduelSalary}}</h2>
+		  <h1>{{player.fanduelSalary}}</h1>
             <div class="spacer"></div>
           <p class="hideDefStatus">{{player.hasStatus}}
           <b class="canPlay">{{player.healthHea}}</b>
@@ -143,18 +143,13 @@
 		
 		
 	<!-- CHART GOES HERE -->
-	
-
-<div ng-controller="testCtrl">
-      <canvas style="background-color: rgba(255, 255, 255, .00);" tc-chartjs-line chart-data="data"
-              chart-options="options" width="300"
-              height="100">
+<div>
+      <canvas style="background-color: rgba(255, 255, 255, .00);" 
+				tc-chartjs-line chart-data="player.data"
+				chart-options="options" width="300"
+				height="100">
       </canvas>
   </div>
-	
-	
-	
-	
 	<!-- end chart-->
 
           
@@ -221,7 +216,7 @@
           <div class="spacer"></div> 
           <p>Projected This week</p>
           <h3>{{player.projected}} pts</h3>
-		  <h2>{{player.fanduelSalary}}</h2>
+		  <h1>{{player.fanduelSalary}}</h1>
           <div class="spacer"></div>
           <p class="hideDefStatus">{{player.hasStatus}}
           <b class="canPlay">{{player.healthHea}}</b>
@@ -290,9 +285,23 @@
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis:</strong>  {{player.analysis}}</p><br><p id="timestamp">{{player.timestamp}}</p>
-		</div>
+		<br>
+		
+		
+	<!-- CHART GOES HERE -->
+<div>
+      <canvas style="background-color: rgba(255, 255, 255, .00);" 
+				tc-chartjs-line chart-data="player.data"
+				chart-options="options" width="300"
+				height="100">
+      </canvas>
+  </div>
+	<!-- end chart-->
+
+          
+        </div>
     </section>
-      <!--end modal-->
+      <!--end modal & player info-->
     </section><!--end ng-repeat-->
     <!--score comparison-->
     <section class="compareMe compare">
@@ -353,7 +362,7 @@
           <div class="spacer"></div> 
           <p>Projected This week</p>
           <h3>{{player.projected}} pts</h3>
-		  <h2>{{player.fanduelSalary}}</h2>
+		  <h1>{{player.fanduelSalary}}</h1>
           <div class="spacer"></div>
           <p class="hideDefStatus">{{player.hasStatus}}
           <b class="canPlay">{{player.healthHea}}</b>
@@ -422,9 +431,23 @@
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis:</strong>  {{player.analysis}}</p><br><p id="timestamp">{{player.timestamp}}</p>
-		</div>
+		<br>
+		
+		
+	<!-- CHART GOES HERE -->
+<div>
+      <canvas style="background-color: rgba(255, 255, 255, .00);" 
+				tc-chartjs-line chart-data="player.data"
+				chart-options="options" width="300"
+				height="100">
+      </canvas>
+  </div>
+	<!-- end chart-->
+
+          
+        </div>
     </section>
-      <!--end modal-->
+      <!--end modal & player info-->
     </section><!--end ng-repeat-->
     <!--score comparison-->
     <section class="compareMe compare">
@@ -485,7 +508,7 @@
           <div class="spacer"></div> 
           <p>Projected This week</p>
           <h3>{{player.projected}} pts</h3>
-		   <h2>{{player.fanduelSalary}}</h2>
+		   <h1>{{player.fanduelSalary}}</h1>
           <div class="spacer"></div>
           <p class="hideDefStatus">{{player.hasStatus}}
           <b class="canPlay">{{player.healthHea}}</b>
@@ -554,9 +577,23 @@
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis:</strong>  {{player.analysis}}</p><br><p id="timestamp">{{player.timestamp}}</p>
-		</div>
+		<br>
+		
+		
+	<!-- CHART GOES HERE -->
+<div>
+      <canvas style="background-color: rgba(255, 255, 255, .00);" 
+				tc-chartjs-line chart-data="player.data"
+				chart-options="options" width="300"
+				height="100">
+      </canvas>
+  </div>
+	<!-- end chart-->
+
+          
+        </div>
     </section>
-      <!--end modal-->
+      <!--end modal & player info-->
     </section><!--end ng-repeat-->
     <!--score comparison-->
     <section class="compareMe compare">
@@ -617,7 +654,7 @@
           <div class="spacer"></div> 
           <p>Projected This week</p>
           <h3>{{player.projected}} pts</h3>
-		  <h2>{{player.fanduelSalary}}</h2>
+		  <h1>{{player.fanduelSalary}}</h1>
           <div class="spacer"></div>
           <p class="hideDefStatus">{{player.hasStatus}}
           <b class="canPlay">{{player.healthHea}}</b>
@@ -687,9 +724,23 @@
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
 		<p><strong style="color:red;font-weight: bold;">Analysis:</strong>  {{player.analysis}}</p><br><p id="timestamp">{{player.timestamp}}</p>
-		</div>
+		<br>
+		
+		
+	<!-- CHART GOES HERE -->
+<div>
+      <canvas style="background-color: rgba(255, 255, 255, .00);" 
+				tc-chartjs-line chart-data="player.data"
+				chart-options="options" width="300"
+				height="100">
+      </canvas>
+  </div>
+	<!-- end chart-->
+
+          
+        </div>
     </section>
-      <!--end modal-->
+      <!--end modal & player info-->
     </section><!--end ng-repeat-->
     <!--score comparison-->
     <section class="compareMe compare">
