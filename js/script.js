@@ -12427,27 +12427,27 @@ $scope.positionDST = [
 App
   .controller('testCtrl', function ($scope) {
       $scope.data = {
-          labels: ['Week 1','Week 2','Week 3','Week 4','Week 5','Week 6','Week 7','Week 8'],
+          labels: ['Week 1','Week 2','Week 3','Week 4','Week 5','Week 6','Week 7','Week 8', 'Week 9'],
           datasets: [
             {
                 label: "Actual",
-                pointBorderColor: 'rgba(3, 32, 47, 1)', //dark
-				backgroundColor:  'rgba(255, 255, 255, .65)',  //white 
-                borderColor: 'rgba(255, 255, 255, .65)',  //white line
+                pointBorderColor: 'rgba(0, 34, 68, 1)', //dark team color 1 
+				backgroundColor:  'rgba(255, 255, 255, .65)',  //white leave white .65
+                borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
 				borderWidth: 2,
 				pointRadius: 5,
 				fill: false,
-                data: [31.72,12.86,25.84,11.6,41.74,33.4,17.52]
+                data: [16.64, 24.2, 41.34, 14.3, 29.92, 28.9, 15.34, 15.68]
             },
             {
                 label: "Projected",
 				borderDash: [5,5],
-				pointBorderColor: 'rgba(3, 32, 47, 1)', //dark
-                backgroundColor:  'rgba(167, 25, 48, 1)',  //lite
-                borderColor: 'rgba(255, 255, 255, .5)',  //white line
+				pointBorderColor: 'rgba(0, 34, 68, 1)', //dark team color 1 
+                backgroundColor:  'rgba(105, 190, 40, 1)',  //lite team color 1 
+                borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
 				pointRadius: 5,
 				fill: false,
-                data: [18.7,18.4,19.8,19.5,20.2,19.6,21.1, 26.3]
+                data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
             }
 
           ]
