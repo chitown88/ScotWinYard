@@ -50,10 +50,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Bounces back to defeat Falcons",
-    "report": "Wilson completed 14 of 20 passes for 182 yards and two touchdowns in Sunday's 27-20 win over the Falcons.",
-    "analysis": "Wilson and the Seahawks got pushed around by the Ravens in Week 7, but they rebounded well. Their offense was buzzing in the first half, as it scored on all but one drive to take a 24-0 lead into halftime. Wilson was responsible for two of those touchdowns, as he found D.K. Metcalf in the end zone twice for scores of four and two yards. Things died down for the Seahawks in the second half, but they afforded themselves enough of a cushion to hold on. Wilson got back on track with elite efficiency, posting a 70.0 completion percentage and 9.1 YPA. He'll look to keep it up against the Buccaneers' weak secondary in Week 9.",
-    "timestamp": "2019-10-27 01:26 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 16.64,
     "week02": 24.2,
     "week03": 41.34,
@@ -94,7 +94,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [19.5, 20.1, 18.7, 25.8, 12.5, 20.9, 17.3, 27.5, 23.9]
                     }
                     
                     ]
@@ -123,10 +123,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Scuffles again in Week 8 loss",
-    "report": "Winston completed 21 of 43 passes for 301 yards with two touchdowns and two interceptions in the Buccaneers' 27-23 loss to the Titans on Sunday. He also rushed eight times for 53 yards and had three fumbles, losing two and recovering one.",
-    "analysis": "The final line is a mixed bag from a fantasy perspective, but Winston was downright bad at times Sunday in a real-world football sense and was guilty of an inexcusable four turnovers. The mistake-prone quarterback did have the connection with Mike Evans in top form, as he hit his trusted wideout for 11 completions, 198 yards and a pair of touchdowns from nine and two yards out, respectively. Winston's second pick was particularly ill-timed, as it came at the Titans' 25-yard line with 26 seconds remaining, effectively sealing the Buccaneers' fate. Coach Bruce Arians had emphasized heading into the bye week that he hadn't considered benching Winston, but a second straight multi-interception effort and third consecutive game with sub-55.0-percent passing might lead to a reevaluation of that statement. Winston's next opportunity to right the ship comes Week 9 against the Seahawks.",
-    "timestamp": "2019-10-27 02:33 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 10.06,
     "week02": 13.22,
     "week03": 26.5,
@@ -167,7 +167,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [20.1, 18.6, 19.1, 12.8, 17.9, 18.9, 'BYE', 17.3, 23.7]
                     }
                     
                     ]
@@ -196,10 +196,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/oak.png",
-    "headlineNews": "Throws three TD passes",
-    "report": "Carr completed 18 of 30 pass attempts for 285 yards and three touchdowns during Sunday's 27-24 loss to the Texans.",
-    "analysis": "Although Carr completed just 60 percent of his attempts, he averaged a healthy 9.5 yards per completion with the help of some big plays. He got his team on the board with a 65-yard touchdown pass to Hunter Renfrow in the first quarter and later added a 46-yard strike to Tyrell Williams, with an eight-yard score from Darren Waller sandwiched in between. Carr has been quite productive in two games since the bye week, totaling 578 passing yards with five touchdowns and one interception. He'll look to keep it rolling in another favorable matchup against the Lions at home next Sunday.",
-    "timestamp": "2019-10-27 07:40 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 14.56,
     "week02": 11.72,
     "week03": 16.68,
@@ -240,7 +240,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [10.8, 12.6, 6.7, 17.9, 11.8, 'BYE', 12.0, 11.4, 22.5]
                     }
                     
                     ]
@@ -269,10 +269,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Delivers another big rushing effort",
-    "report": "Jackson completed nine of 20 pass attempts for 143 yards while carrying 14 times for 116 rushing yards and a touchdown during Sunday's 30-14 win over the Seahawks.",
-    "analysis": "Jackson completed just 45 percent of his attempts as he finished with a new career low in passing yardage. He was devastating as a runner, however, exceeding 100 rushing yards for the third time this season while averaging 8.3 yards per carry. Jackson broke a tie with an eight-yard rushing score in the third quarter and helped his team salt the game away on the ground. He'll face a difficult matchup against the Patriots next Sunday night, but his outstanding contributions with his legs still make him a viable fantasy play.",
-    "timestamp": "2019-10-20 04:39 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 33.56,
     "week02": 30.88,
     "week03": 21.28,
@@ -313,7 +313,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [18.3, 24.6, 18.1, 23.7, 25.3, 21.9, 17.6, 'BYE', 21.5]
                     }
                     
                     ]
@@ -342,10 +342,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Carves up Jets for three scores",
-    "report": "Minshew completed 22 of 34 passes for 279 yards and three touchdowns in Sunday's 29-15 win over the Jets. He added eight carries for 28 yards and lost a fumble.",
-    "analysis": "Minshew tossed a pair of touchdowns in the first quarter, finding Keelan Cole from six yards out and later connecting with Chris Conley on a 70-yarder. He added a fourth-quarter dagger to D.J. Chark, converting on third-and-goal from the eight-yard line to give his team a two-touchdown lead with 4:13 remaining. Minshew's first career three-touchdown performance gives him an impressive 13:2 touchdown to interception ratio heading into a Week 9 meeting with the Texans.",
-    "timestamp": "2019-10-27 03:04 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 18.6,
     "week02": 16.12,
     "week03": 17.96,
@@ -386,7 +386,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [3.6, 15.4, 15.4, 9.3, 13.3, 19.5, 22.7, 13.5, 21.4]
                     }
                     
                     ]
@@ -415,10 +415,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#0076B6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-    "headlineNews": "Torches Giants in victory",
-    "report": "Stafford completed 25 of 32 pass attempts for 342 yards, three touchdown and one interception in Sunday's 31-26 win over the Giants.",
-    "analysis": "Stafford completed an exceptional 78 percent of his passes while averaging 10.7 yards per attempt. He made a splash with some big plays on the day, including a 49-yard touchdown pass to Marvin Hall and a 41-yard strike to Kenny Golladay. Stafford has been prolific over the last two weeks, completing 71 percent of his attempts for seven touchdowns compared to two interceptions. He'll look to continue his recent success in another favorable matchup against the Raiders on the road next Sunday.",
-    "timestamp": "2019-10-27 06:59 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 27.6,
     "week02": 17.1,
     "week03": 12.14,
@@ -459,7 +459,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [13.8, 20.8, 19.6, 17.5, 'BYE', 17.6, 11.0, 21.9, 20.6]
                     }
                     
                     ]
@@ -488,10 +488,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Practices fully despite swollen eye",
-    "report": "Watson (eye) practiced fully Wednesday.",
-    "analysis": "Per Ian Rapoport of NFL Network the quarterback has a swollen left eye, which led to Watson choosing not to partake in Wednesday's Game 7 World Series festivities in Houston. However, the eye issue won't impact his availability for Sunday's game against the Jaguars.",
-    "timestamp": "2019-10-30 03:29 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 31.72,
     "week02": 12.86,
     "week03": 25.84,
@@ -532,7 +532,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [18.7, 18.4, 19.8, 19.5, 20.2, 19.6, 21.1, 27.6, 19.6]
                     }
                     
                     ]
@@ -561,10 +561,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Throws four touchdown passes",
-    "report": "Jones completed 28 of 41 pass attempts for 322 yards and four touchdowns Sunday against the Lions. He also carried four times for 13 yards and lost a fumble in the 31-26 loss.",
-    "analysis": "Jones completed an impressive 68.3 percent of his attempts as he topped the 300-yard mark for the second time in his young career. He also set a new career high with four touchdown passes, including two to Darius Slayton, one to Evan Engram, and one to Sqauon Barkley. Jones had four touchdowns compared to nine turnovers in his previous four games, so this outstanding effort was a pleasant surprise to fantasy owners who were brave enough to start him this time around. He'll now turn his focus to next Monday's home matchup against the Cowboys.",
-    "timestamp": "2019-10-27 07:49 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": -0.82,
     "week02": "DNP",
     "week03": 36.24,
@@ -605,7 +605,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.2, 'DNP', 12.9, 18.3, 17.4, 13.5, 13.1, 10.0, 18.9]
                     }
                     
                     ]
@@ -634,10 +634,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
     "tmTextLite": "#FF3C00",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Stifled by Patriots",
-    "report": "Mayfield completed 20 of 31 passes for 194 yards and a touchdown with one interception in Sunday's 27-13 loss to the Patriots.",
-    "analysis": "While he did better than Sam Darnold did the week before, Mayfield still had little luck solving New England's league-leading defense, and the game was basically over when the Pats grabbed a 17-0 lead in the first quarter. The second-year QB, who has yet to throw multiple TD passes in any game this season while getting picked off at least once in each, gets another tough assignment next week when he leads the Browns into Denver.",
-    "timestamp": "2019-10-27 07:08 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 12.4,
     "week02": 16.0,
     "week03": 10.7,
@@ -678,7 +678,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [20.1, 12.7, 18.3, 16.1, 12.2, 15.6, 'BYE', 12.9, 17.9]
                     }
                     
                     ]
@@ -707,10 +707,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Not limited by thumb injury",
-    "report": "Darnold (left thumb) will be a full practice participant Wednesday, Brian Costello of the New York Post reports.",
-    "analysis": "Darnold sprained the thumb on his non-throwing hand during Sunday's 29-15 loss to Jacksonville, but he never left the game and isn't expected to miss time going forward. However, coach Adam Gase acknowledged Monday that the injury may bother Darnold for the rest of the season.",
-    "timestamp": "2019-10-30 08:23 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 15.0,
     "week02": "DNP",
     "week03": "DNP",
@@ -751,7 +751,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.4, 'DNP', 'DNP', 'BYE', 'DNP', 12.3, 10.8, 12.6, 17.6]
                     }
                     
                     ]
@@ -780,10 +780,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "tmTextLite": "#7F9695",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Efficient in easy win",
-    "report": "Prescott completed 21 of 27 pass attempts for 239 yards, a touchdown and an interception in Sunday's 37-10 win over the Eagles. He added 30 yards and another score on five rush attempts.",
-    "analysis": "Prescott picked apart a vulnerable Philadelphia pass defense (ranked 29th heading into Week 7) and added his third rushing touchdown of the season to put the cherry on top of a solid fantasy outing. The 26-year-old has a 3:1 TD:INT ratio against defenses ranked in the bottom half of the league (four games), compared to a 0.75:1 TD:INT ratio against those who grade in the top half (three games). Prescott will get to rest on the team's upcoming bye, but he will face a Giants passing D that has been worse than the Eagles' to date, making the signal-caller a strong play come Week 9.",
-    "timestamp": "2019-10-20 11:52 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 33.4,
     "week02": 28.66,
     "week03": 23.54,
@@ -824,7 +824,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [17.3, 17.9, 24.1, 18.8, 17.5, 15.3, 19.1, 'BYE', 17.2]
                     }
                     
                     ]
@@ -853,10 +853,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Rebounds after shaky start",
-    "report": "Rudolph completed 20 of 36 passes for 251 yards, two touchdowns, and one interception in Monday's 27-14 win over the Dolphins.",
-    "analysis": "Looking rusty after returning from a concussion suffered in Pittsburgh's Week 4 overtime loss to Baltimore, Rudolph's first pass of the game was intercepted by Xavien Howard. Rudolph continued to struggle and had a second interception reversed and ruled incomplete on the next offensive series. Trailing 14-0 after one quarter, Pittsburgh got things going on offense, including a 45-yard touchdown pass to Diontae Johnson and a 26-yard touchdown pass to JuJu Smith-Schuster. The Steelers have now earned victories in three of their last four games after starting the season 0-3, but this coming Sunday they'll face a tough Indianapolis team that heads into Week 9 on a three-game winning streak.",
-    "timestamp": "2019-10-28 09:21 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": 12.18,
     "week03": 15.46,
@@ -897,7 +897,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 6.9, 12.8, 21.5, 18.9, 'DNP', 'BYE', 15.8, 16.9]
                     }
                     
                     ]
@@ -926,10 +926,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Slings clutch throw in win",
-    "report": "Brissett completed 15 of 25 passes for 202 yards during Sunday's 15-13 win over Denver. He added 34 yards on six carries and lost a fumble during the contest.",
-    "analysis": "Back on his own 10-yard line with less than two minutes to get into field-goal range, Brissett slipped out of a would-be Von Miller sack and rolled out to complete a dart to T.Y. Hilton for a gain of 35 yards to kickstart the winning drive. Brissett had probably his worst statistical game of the season Sunday against a very tough Denver pass defense, but he still found a way to make it work. Brissett has scored multiple times in five of seven games and has done well protecting the ball.  Indianapolis still typically leans heaviest on its running game and defense, but Brissett has developed as an impressive maestro when needed. Next up for the emerging quarterback is an improving Steelers defense in Week 9.",
-    "timestamp": "2019-10-27 01:41 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 16.5,
     "week02": 17.34,
     "week03": 20.8,
@@ -970,7 +970,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [14.1, 13.1, 21.8, 15.1, 12.6, 'BYE', 16.8, 11.5, 16.5]
                     }
                     
                     ]
@@ -999,10 +999,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Efficient in huge win",
-    "report": "Garoppolo completed 18 of 22 passes for 175 yards and two touchdowns with one interception in Sunday's 51-13 rout of the Panthers.",
-    "analysis": "He didn't attempt to stretch the field much -- only two of his completions went for more than 20 yards, both to George Kittle, and Garoppolo's two TD passes combined for only 14 yards -- but he didn't need to with Tevin Coleman and the Niners' backfield running all over the Panthers defense. Garoppolo may need to take better care of the ball at some point, having been picked off in six of seven games this season, but he'll likely find himself in a caretaker role again next week against the Cardinals.",
-    "timestamp": "2019-10-27 06:40 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 13.44,
     "week02": 23.68,
     "week03": 11.38,
@@ -1043,7 +1043,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [14.3, 11.1, 19.6, 'BYE', 15.6, 11.0, 13.3, 15.0, 16.0]
                     }
                     
                     ]
@@ -1072,10 +1072,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Continues sack streak",
-    "report": "Allen had two sacks and a forced fumble in Sunday's win against the Jets.",
-    "analysis": "Allen continues to have an outsized presence on the Jaguars defense despite playing a rotational role and now has a sack in four straight contests. The rookie first-round pick has 23 tackles (16 solo) seven sacks and two forced fumbles through his first eight games.",
-    "timestamp": "2019-10-28 04:32 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 17.96,
     "week02": 22.22,
     "week03": 21.32,
@@ -1116,7 +1116,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [18.3, 23.5, 21.4, 21.9, 7.0, 'BYE', 19.1, 14.4, 15.9]
                     }
                     
                     ]
@@ -1145,10 +1145,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Barely throws for over 200 yards",
-    "report": "Rivers completed 19 of his 29 pass attempts for 201 yards, one touchdown and an interception in the 17-16 win Sunday over the Bears.",
-    "analysis": "Rivers probably should have had a better fantasy day, as the veteran quarterback had two deep touchdown passes dropped by Mike Williams and Keenan Allen, respectively, in the second half. As a result, both drives ended in field-goal attempts. Still, the entire offense predictably struggled to generate any sort of consistent yardage against a stout Bears' defense, particularly the running game, which was held to just three yards per carry on 12 attempts. Turnovers continue to be an issue for Rivers, who has coughed up the ball nine times through eight games. However, considering he'll likely be near the top of the NFL in  pass attempts by the conclusion of Week 8, the sheer amount of opportunities he sees makes him a serviceable fantasy option most weeks.",
-    "timestamp": "2019-10-27 01:26 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 24.92,
     "week02": 11.92,
     "week03": 19.62,
@@ -1189,7 +1189,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [19.0, 17.3, 19.7, 24.5, 18.2, 13.9, 13.9, 16.3, 15.5]
                     }
                     
                     ]
@@ -1218,10 +1218,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Near-perfect effort in Week 8 win",
-    "report": "Cousins completed 23 of 26 passes for 285 yards with no touchdowns or interceptions in the Vikings' 19-9 win over the Redskins on Thursday. He also rushed twice for two yards.",
-    "analysis": "Playing without Adam Thielen (hamstring), Cousins turned in his highest completion percentage (88.5) of the season and averaged an impressive 11.0 yards per attempt. Unsurprisingly, Cousins relied heavily on his two most talented healthy players, Stefon Diggs and Dalvin Cook, connecting with the duo for 12 of his 23 completions. Cousins fell just short of the 300-yard mark for the first time in four games, but he's now thrown just a single interception since Week 2. He'll look to keep up his strong play against the Chiefs in a Week 9 matchup a week from Sunday.",
-    "timestamp": "2019-10-24 08:56 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 14.32,
     "week02": 10.9,
     "week03": 12.56,
@@ -1262,7 +1262,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [20.0, 16.9, 18.4, 13.1, 12.0, 12.2, 17.6, 18.2, 15.5]
                     }
                     
                     ]
@@ -1291,10 +1291,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "tmTextLite": "#d7a017",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Limited by knee issue",
-    "report": "Rodgers (knee) was limited on Wednesday's practice estimate, Rob Demovsky of ESPN.com reports.",
-    "analysis": "Rodgers is making an appearance on the Packers' injury report for a fourth consecutive week, but he's rid himself of any designation well before game day on the first three occasions. During that span, he's completed 69.9 percent of his passes for 1,017 yards, 10 touchdowns and one interception, so the issue hasn't been a bother in the course of competition. Moreover, Rodgers may have Davante Adams (toe) at his disposal this weekend, as the wide receiver practiced in a limited fashion as well Wednesday.",
-    "timestamp": "2019-10-30 04:41 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 12.92,
     "week02": 14.36,
     "week03": 13.3,
@@ -1335,7 +1335,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [21.7, 21.8, 15.1, 18.7, 19.0, 21.3, 24.7, 19.0, 15.1]
                     }
                     
                     ]
@@ -1364,10 +1364,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Falls short of 200-yard mark again",
-    "report": "Wentz completed 17 of 24 passes for 172 yards and a touchdown in Sunday's 31-13 win over Buffalo. He added 35 yards on eight rushing attempts.",
-    "analysis": "Wentz guided his team back into the win column, but he failed to make fantasy owners happy by falling short of 200 passing yards for the fourth time in the past five games. He finally broke through against Buffalo's stout secondary with a five-yard touchdown pass to Dallas Goedert less than a minute before halftime, then watched the running game take over in the second half, with three different Eagles running backs finding paydirt. Given Wentz's uninspiring recent numbers, his owners should consider looking elsewhere when the Bears come to town in Week 9.",
-    "timestamp": "2019-10-27 02:10 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 25.02,
     "week02": 21.54,
     "week03": 21.66,
@@ -1408,7 +1408,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [17.3, 18.8, 15.9, 10.7, 18.6, 10.2, 15.9, 13.8, 14.6]
                     }
                     
                     ]
@@ -1437,10 +1437,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#0085CA",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Getting another start",
-    "report": "Coach Ron Rivera said Allen will be the Panthers' starting quarterback Sunday against the Titans, Joe Person of The Athletic reports.",
-    "analysis": "Cam Newton remains embedded in his rehab program, with no end in sight to his recovery from a Lisfranc injury in his left foot. As such, Allen will get his sixth consecutive start Week 9, though his output has wavered from week to week. Overall, he's completed 62 percent of his passes, averaged 211.8 passing yards per game and posted a 7:3 TD:INT. He'll aim for a bounce-back effort Sunday versus Tennessee's 15th-ranked pass defense (239.1 yards per game).",
-    "timestamp": "2019-10-28 11:57 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": 24.34,
@@ -1481,7 +1481,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 23.2, 14.9, 14.1, 17.7, 'BYE', 6.8, 14.6]
                     }
                     
                     ]
@@ -1510,10 +1510,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Logs limited practice",
-    "report": "Mahomes (kneecap) was listed as a limited practice participant Wednesday.",
-    "analysis": "Though Mahomes hasn't been ruled out for Sunday's game against the Vikings, a more plausible scenario is that he returns to action in Week 10 versus the Titans. If Mahomes ends up being held out again this weekend, Matt Moore would be in line for his second straight start.",
-    "timestamp": "2019-10-30 02:47 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 27.32,
     "week02": 31.62,
     "week03": 27.86,
@@ -1554,7 +1554,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [20.9, 21.0, 22.8, 27.2, 24.3, 25.3, 19.0, 'DNP', 14.2]
                     }
                     
                     ]
@@ -1583,10 +1583,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#C60C30",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Listed as limited Wednesday",
-    "report": "Brady (right shoulder) was a limited participant in Wednesday's practice, Mike Reiss of ESPN.com reports.",
-    "analysis": "We'll track Brady's status as the week continues, but we fully expect the veteran QB to be out there Sunday night against the Ravens, in any case.",
-    "timestamp": "2019-10-30 04:05 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 25.64,
     "week02": 24.66,
     "week03": 20.14,
@@ -1627,7 +1627,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [16.1, 28.2, 20.8, 16.9, 18.5, 18.4, 17.7, 20.8, 13.8]
                     }
                     
                     ]
@@ -1656,10 +1656,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Retains starting gig",
-    "report": "Fitzpatrick will remain the Dolphins' starting quarterback Week 9 against the Jets, Joe Schad of The Palm Beach Post reports.",
-    "analysis": "Fitzpatrick struggled to move the offense after the first quarter of Monday's loss to the Steelers, but he'll nonetheless hold on to the reigns for at least one more contest. Over his last two starts, Fitzpatrick has compiled a meager 3:3 TD:INT and has fumbled four times, losing one of them. The veteran is set for a favorable matchup in Week 9, putting him under consideration in leagues that start two quarterbacks or utilize a QB flex spot. Even if Fitzpatrick shows improved form in his outings to come, it wouldn't be a surprise if the winless Dolphins eventually turn back to second-year signal-caller Josh Rosen later in the season.",
-    "timestamp": "2019-10-30 09:16 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 11.2,
     "week02": 1.16,
     "week03": 1.16,
@@ -1700,7 +1700,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [13.9, 12.3, 3.7, 'DNP', 'BYE', 4.5, 12.7, 12.3, 13.3]
                     }
                     
                     ]
@@ -1729,10 +1729,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "tmTextLite": "#c36835",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Gets shaky vote of confidence",
-    "report": "The Bears will continue starting Trubisky, though the team expects to see improvement soon,  Patrick FInley of the Chicago Sun TImes reports.",
-    "analysis": "Coach Matt Nagy explained that Trubisky has time to turn things around this season, and he noted that his quaterback is still learning the offense, though if the mistakes continue, the staff will be forced to make some tough decisions. Obviously, Trubisky hasn't been a solid fantasy option this year, as he's thrown touchdown passes in just two games while his rushing yardage has mostly evaporated from what he produced in 2018. Should he eventually lose the starting job, Chase Daniel would be a slight upgrade for fantasy owners. For now, Trubisky's downside makes him a risky player to trust in fantasy lineups.",
-    "timestamp": "2019-10-28 05:05 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.22,
     "week02": 5.6,
     "week03": 20.44,
@@ -1773,7 +1773,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [16.8, 11.3, 13.8, 14.3, 'DNP', 'BYE', 9.1, 15.4, 12.8]
                     }
                     
                     ]
@@ -1802,10 +1802,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Solid effort in loss",
-    "report": "Murray completed 19 of 33 passes for 220 yards with no touchdowns or interceptions in the Cardinals' 31-9 loss to the Saints on Sunday. He also rushed twice for 13 yards and fumbled once but recovered.",
-    "analysis": "Murray was able to stay away from any mistakes, as he managed to recover his own fumble. However, he also failed to get the Cardinals into the end zone, despite showing renewed chemistry with the returning Christian Kirk (ankle). Murray also took multiple sacks for the second straight game, and he's now failed to throw at least one touchdown in four of the last five contests overall. Murray will have an uphill battle to produce a more fantasy-friendly line, as he'll face the 49ers' stingy defense Week 9 on Thursday night.",
-    "timestamp": "2019-10-27 02:12 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 24.62,
     "week02": 18.36,
     "week03": 19.82,
@@ -1846,7 +1846,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [11.6, 14.4, 14.2, 19.5, 17.1, 21.9, 16.1, 19.5, 11.9]
                     }
                     
                     ]
@@ -1875,10 +1875,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "Wins second consecutive start",
-    "report": "Tannehill completed 21 of 33 pass attempts for 193 yards and three touchdowns during Sunday's 27-23 win against the Buccaneers.",
-    "analysis": "The 31-year-old signal-caller has offered a welcome change of pace at the quarterback position for Tennessee, completing better than 70 percent of his passes and boasting a 5:1 TD:INT ratio in two games as the team's starter. Week 9 presents a challenging matchup with Carolina's top-10 pass defense awaiting on the slate, but Tannehill has proven capable of producing against challenging opponents before, lighting up the Chargers' talented secondary for 312 passing yards and two touchdowns in Week 7.",
-    "timestamp": "2019-10-27 03:03 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": -0.2,
     "week02": "DNP",
     "week03": "DNP",
@@ -1919,7 +1919,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.8, 'DNP', 'DNP', 'DNP', 'DNP', 0.1, 12.2, 18.8, 10.8]
                     }
                     
                     ]
@@ -1948,10 +1948,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Limited practice Wednesday",
-    "report": "Keenum (concussion) practiced in a limited capacity Wednesday.",
-    "analysis": "As Les Carpenter of The Washington Post noted earlier Wednesday, Keenum is still in the concussion protocol, but his ability to take the practice field indicates he's passed some steps along the way. The Redskins so far have given Dwayne Haskins most of the first-team reps this week, a sign they're preparing to trot out the rookie Sunday at Buffalo. However, Keenum could change all that by gaining clearance from an independent neurologist.",
-    "timestamp": "2019-10-30 02:05 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 27.2,
     "week02": 16.74,
     "week03": 14.58,
@@ -1992,7 +1992,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [12.1, 15.4, 14.4, 17.5, 'DNP', 16.4, 9.7, 9.3, 9.4]
                     }
                     
                     ]
@@ -2021,10 +2021,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#e17757",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "Taking over under center",
-    "report": "Allen will start Sunday's game against the Browns and perhaps beyond that point, Nicki Jhabvala of The Athletic reports.",
-    "analysis": "The Broncos are making a change at QB with Joe Flacco suffering a neck injury. A precise timetable for his recovery isn't known, but it's believed to be a multi-week issue. In Flacco's place, Allen will make his first appearance as a professional after bouncing around three organizations throughout his career.",
-    "timestamp": "2019-10-28 11:39 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.0,
     "week02": "DNP",
     "week03": "DNP",
@@ -2065,7 +2065,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.7, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.1]
                     }
                     
                     ]
@@ -2098,10 +2098,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Compiles 171 total yards in win",
-    "report": "Cook rushed 23 times for 98 yards and a touchdown and brought in five of six targets for 73 yards in the Vikings' 19-9 win over the Redskins on Thursday.",
-    "analysis": "Cook made almost as much noise through the air as he did on the ground, checking in second only to Stefon Diggs in receptions, receiving yardage and targets. Cook's exploits in the passing game helped make up for the absence of Adam Thielen (hamstring) and led to his second-best receiving yardage total of the campaign. Cook fell just short of his sixth 100-yard game of the season, but he'll be an elite option in all formats heading into a Week 9 battle against the Chiefs a week from Sunday.",
-    "timestamp": "2019-10-24 08:43 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 25.0,
     "week02": 26.6,
     "week03": 22.3,
@@ -2142,7 +2142,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [13.4, 11.6, 11.5, 10.0, 13.0, 11.0, 11.0, 14.0, 20.1]
                     }
                     
                     ]
@@ -2171,10 +2171,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Primed for more touches",
-    "report": "Coach Adam Gase blames himself for Bell getting only 12 touches in Sunday's 29-15 loss to the Jaguars, Rich Cimini of ESPN.com reports. \"We have to make sure [Bell] has touches,\" Gase said. \"Last week was bad. That was on me.\"",
-    "analysis": "Overall team strength tends to be a major factor for running back workloads, though less so for prolific pass catchers like Bell, who  averaged 6.3 and 5.7 receptions per game his final two seasons in Pittsburgh. He's down to 4.6 through seven appearances in 2019, but with just 5.8 yards per catch as well as career-low marks for carries per game (15.6), rushing yards per game (49.9) and yards per carry (3.2). Bell ranks second among all backs with 91 percent snap share, and a Week 9 matchup with the Dolphins should at least provide temporary relief. Miami has given up the fourth-most fantasy points to running backs under standard scoring, yielding 4.9 yards per carry and 7.7 yards per target to the position, along with nine touchdowns in seven games.",
-    "timestamp": "2019-10-30 08:59 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 20.2,
     "week02": 15.9,
     "week03": 8.3,
@@ -2215,7 +2215,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [20.5, 22.8, 12.7, 'BYE', 16.6, 21.0, 15.9, 13.7, 19.3]
                     }
                     
                     ]
@@ -2244,10 +2244,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "tmTextLite": "#7F9695",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Scores, reaches century mark in win",
-    "report": "Elliott ran the ball 22 times for 111 yards and a touchdown, adding 36 more yards on six receptions (seven targets) in Sunday's 37-10 win over the Eagles.",
-    "analysis": "The Cowboys were in desperate need of a win after dropping three consecutive contests, so coach Jason Garrett turned to his star back early and often in a blowout victory. Elliott had plenty of lanes to plow through (5.0 yards per carry) with the healthy return of starting tackles Tyron Smith and La'el Collins. The 24-year-old has been putting up RB1 numbers through six games (602 yards and six touchdowns), but we could see an uptick in production after the team's Week 8 bye now that Dallas' offensive line is the healthiest it has been all year.",
-    "timestamp": "2019-10-20 09:35 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 12.8,
     "week02": 19.0,
     "week03": 14.9,
@@ -2288,7 +2288,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [19.3, 16.8, 18.6, 11.0, 18.6, 15.2, 15.9, 'BYE', 18.9]
                     }
                     
                     ]
@@ -2317,10 +2317,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/oak.png",
-    "headlineNews": "Limited by shoulder issue",
-    "report": "Jacobs (shoulder) was listed as a limited participant at Wednesday's practice.",
-    "analysis": "Jacobs played through his shoulder issue in this past Sunday's loss to the Texans while leading the Raiders' backfield en route to recording 15 carries for 66 yards and catching both of his targets for 15 yards. With no reported setbacks in that contest, we'll assume his limitations Wednesday were simply a case of the team managing his practice reps in advance of this weekend's tilt against the Lions.",
-    "timestamp": "2019-10-30 03:40 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 23.8,
     "week02": 9.9,
     "week03": 4.4,
@@ -2361,7 +2361,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [10.0, 15.5, 11.9, 12.0, 10.1, 'BYE', 10.2, 8.9, 17.5]
                     }
                     
                     ]
@@ -2390,10 +2390,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Finds end zone four times",
-    "report": "Coleman carried the ball 11 times for 105 yards and three touchdowns and caught both his targets for 13 yards and a fourth TD in Sunday's 51-13 rout of the Panthers.",
-    "analysis": "The running back scored three straight TDs in the late first and second quarters, the last on a 48-yard run, before capping his huge day with a one-yard plunge to close out the third quarter. The former Falcon now has six touchdowns through only five games this season along with 393 scrimmage yards, and with Matt Breida injuring his ankle Sunday, Coleman could be headed for a bigger workload next week against the Cardinals.",
-    "timestamp": "2019-10-27 06:24 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 6.6,
     "week02": "DNP",
     "week03": "DNP",
@@ -2434,7 +2434,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [10.2, 'DNP', 'DNP', 'BYE', 3.0, 8.3, 8.8, 12.2, 16.8]
                     }
                     
                     ]
@@ -2463,10 +2463,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Scores receiving touchdown",
-    "report": "Barkley carried 19 times for 64 yards while catching eight of 10 targets for 79 yards and another score during Sunday's 31-26 loss to the Lions.",
-    "analysis": "Barkley struggled to run the ball for the second straight game, averaging just 3.4 yards per carry against a respectable Lions front. He made up for it by nearly doubling his receiving yardage total for the season and adding a four-yard touchdown catch in the fourth quarter. Although Barkley's ankle injury disrupted his start to the campaign, he has exceeded 130 scrimmage yards three times in five appearances while adding three total touchdowns. His next opportunity to contribute will come in a Week 9 Monday night matchup at home against the Cowboys.",
-    "timestamp": "2019-10-27 05:34 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 15.9,
     "week02": 21.0,
     "week03": 5.7,
@@ -2507,7 +2507,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [20.5, 18.0, 12.4, 'DNP', 'DNP', 'DNP', 13.5, 17.3, 16.3]
                     }
                     
                     ]
@@ -2536,10 +2536,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
     "tmTextLite": "#FF3C00",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Rebounds from rough start",
-    "report": "Chubb carried the ball 20 times for 131 yards and caught his only target for seven yards in Sunday's 27-13 loss to the Patriots.",
-    "analysis": "His final numbers were good, but Chubb fumbled the ball twice in the first quarter, helping to dig a 17-0 hole the Browns couldn't climb out of. The second-year back has topped 100 rushing yards in three of the last four games, giving him plenty of momentum heading into next week's game in Denver.",
-    "timestamp": "2019-10-27 07:02 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 10.0,
     "week02": 17.8,
     "week03": 15.1,
@@ -2580,7 +2580,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [12.6, 20.2, 11.2, 16.0, 11.8, 13.6, 'BYE', 11.2, 16.1]
                     }
                     
                     ]
@@ -2609,10 +2609,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "tmTextLite": "#d7a017",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Dealing with shoulder injury",
-    "report": "Jones (shoulder) was listed as limited on Wednesday's estimated injury report, Rob Demovsky of ESPN.com reports.",
-    "analysis": "In the midst of his spectacular performance this past Sunday at Kansas City, Jones left the contest to have his shoulder examined, an issue that's still a bother at the start of Week 9 prep. The NFL's leader in touchdowns with 11 at the midpoint of the season, he'll attempt to get back to full participation by week's end with an eye toward Sunday's game versus the Chargers.",
-    "timestamp": "2019-10-30 04:47 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 4.4,
     "week02": 23.0,
     "week03": 14.8,
@@ -2653,7 +2653,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.7, 11.5, 11.4, 9.3, 13.3, 19.0, 12.9, 14.0, 14.8]
                     }
                     
                     ]
@@ -2682,10 +2682,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "Runs angry following fumble",
-    "report": "Henry ran for 75 yards and fumbled once on 16 carries, while hauling in his only target for eight yards during Sunday's 27-23 win against the Buccaneers.",
-    "analysis": "Just two of Henry's six first-half runs yielded positive yardage, but following his lost fumble on Tennessee's opening drive of the second half, he peeled off an 18-yard run on his very next carry, and later in the contest, he added a 15-yard scamper on Tennessee's go-ahead drive. His pass-catching upside remains low with zero touchdowns and 53 total receiving yards since Week 1, but his 18.9 carries-per-game average and six total touchdowns keep him a viable running back option. In Week 9, Henry and the Titans' ground attack will be going up against a Panthers defense that only allowed one rusher to exceed 70 yards against them between Weeks 4 and 7.",
-    "timestamp": "2019-10-27 01:57 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 28.4,
     "week02": 16.3,
     "week03": 11.1,
@@ -2726,7 +2726,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.1, 18.7, 12.9, 11.5, 13.6, 8.3, 18.7, 9.1, 14.7]
                     }
                     
                     ]
@@ -2755,10 +2755,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#e17757",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "Limited by wrist injury",
-    "report": "Lindsay (wrist) was limited at practice Wednesday, Zac Stevens of TheDNVR.com reports.",
-    "analysis": "We'll monitor Lindsay's status in the coming days, but it's worth noting that the running back did undergo wrist surgery this past offseason. Eight games into the current campaign, Lindsay has logged 109 carries for 492 yards and four TDs, while adding 25 catches for 160 yards. He's put those numbers up while in a timeshare with Royce Freeman, who has carried 88 times for 359 yards and two TDs and added 26 catches for 182 yards.",
-    "timestamp": "2019-10-30 04:34 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 8.6,
     "week02": 8.6,
     "week03": 27.0,
@@ -2799,7 +2799,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [18.9, 14.1, 9.5, 14.3, 14.7, 15.0, 15.1, 14.3, 14.2]
                     }
                     
                     ]
@@ -2828,10 +2828,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#0085CA",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Dealing with knee injury",
-    "report": "McCaffrey was limited at Wednesday's practice due to a knee injury, Jourdan Rodrigue of The Athletic reports.",
-    "analysis": "After the session, coach Ron Rivera expressed \"no concern\" about McCaffrey's health, according to Rodrigue. It still bears watching as the week goes on, but there doesn't seem to be much worry about McCaffrey's availability for Sunday's game against the Titans.",
-    "timestamp": "2019-10-30 11:56 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 37.9,
     "week02": 6.3,
     "week03": 26.3,
@@ -2872,7 +2872,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [18.8, 20.0, 16.6, 17.6, 18.0, 14.2, 'BYE', 17.2, 14.1]
                     }
                     
                     ]
@@ -2901,10 +2901,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Finds paydirt in win",
-    "report": "Carson rushed 20 times for 90 yards and a touchdown in Sunday's 27-20 win over the Falcons.",
-    "analysis": "In a fifth straight game with 20 or more carries, Carson produced well with 4.5 YPC, although he failed to haul in his only target. It's a positive sign that he still managed to be a workhorse despite Rashaad Penny finally coming to life by turning eight carries into 55 yards (6.9 YPC). Now that Penny's healthy, Carson will need to stay on top of his game to avoid losing touches, but his fantasy value should be safe as long as he's producing like this. Carson will look to keep it going in Week 9 against the Buccaneers.",
-    "timestamp": "2019-10-27 01:51 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 21.1,
     "week02": 8.2,
     "week03": 3.6,
@@ -2945,7 +2945,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [17.2, 16.0, 17.3, 8.9, 11.2, 14.7, 10.4, 11.5, 13.4]
                     }
                     
                     ]
@@ -2974,10 +2974,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "tmTextLite": "#c36835",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Breaks century mark",
-    "report": "Montgomery carried 27 times for 135 yards and a touchdown while catching four passes for 12 yards in the Bears' 17-16 loss to the Chargers on Sunday.",
-    "analysis": "Montgomery had a season-high 27 rushing attempts, and he took full advantage of a Los Angeles defense that was without both starting defensive tackles. In the first half, he had three carries from inside the five-yard line but was stopped on each attempt. However, on his first red-zone attempt of the second half, he ran up the middle for a four-yard score. This was the first time all season that he had more than 67 rushing yards, and although this performance gives fantasy owners hope, he may need another strong performance to become a trusted fantasy option.",
-    "timestamp": "2019-10-27 02:37 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 5.0,
     "week02": 13.3,
     "week03": 9.6,
@@ -3018,7 +3018,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.0, 2.4, 7.7, 10.0, 7.8, 'BYE', 9.7, 9.5, 13.3]
                     }
                     
                     ]
@@ -3047,10 +3047,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "To be involved Thursday",
-    "report": "Drake will be a part of the offense Thursday against the 49ers with David Johnson (ankle) listed as questionable and Chase Edmonds (hamstring) ruled out for the contest, Darren Urban of the Cardinals' official site reports. \"We're going to get him in the game in some packages,\" coach Kliff Kingsbury said of Drake.",
-    "analysis": "Dealt from Miami on Monday, Drake hasn't had much time to acclimate to Arizona's scheme, but with a need out of the backfield, Kingsbury has given assurances the newcomer will play a role in his first chance to do so. His snap count may depend on the availability of Johnson, who returned to the practice field Wednesday for the first time since Oct. 18. If Johnson ultimately is deemed inactive Thursday, Drake will be in a \"running back by committee\" with Zach Zenner and Alfred Morris.",
-    "timestamp": "2019-10-30 03:02 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.7,
     "week02": 7.3,
     "week03": 6.7,
@@ -3091,7 +3091,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.2, 7.2, 8.9, 11.4, 'DNP', 9.4, 11.3, 'DNP', 11.5]
                     }
                     
                     ]
@@ -3120,10 +3120,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Piles up yards but no TD again",
-    "report": "Fournette rushed 19 times for 76 yards and caught all seven of his targets for another 60 in Sunday's 29-15 win over the Jets.",
-    "analysis": "Fournette ripped off a 66-yard run on his first carry, but he was bottled up the rest of the way. What was even more frustrating for fantasy owners is that Fournette's inability to convert from in close continued, highlighted by a pair of failed attempts from the 1-yard line in the fourth quarter, the second of which lost seven yards. The 24-year-old running back has 1,054 scrimmage yards but just one touchdown heading into a Week 9 clash against the AFC South rival Texans.",
-    "timestamp": "2019-10-27 01:45 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.4,
     "week02": 10.7,
     "week03": 12.2,
@@ -3164,7 +3164,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [11.8, 20.3, 9.3, 11.8, 13.6, 9.1, 15.3, 16.4, 11.2]
                     }
                     
                     ]
@@ -3193,10 +3193,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Scores Colts' lone touchdown",
-    "report": "Mack ran for 76 yards and a touchdown on 19 carries and added a 14-yard catch during Sunday's 15-13 win over Denver.",
-    "analysis": "Mack broke through late in the third quarter of Sunday's slugfest with a 10-yard score, just his second touchdown of the season. Mack hasn't wanted for opportunities this season, with at least 18 touches in six of seven games, but fantasy managers have been right to be frustrated by a lack of scores. He'll be challenged to keep his momentum going in Week 9 against a Steelers defense that's surrendered just four rushing touchdowns this season heading into the Week 8 Monday night matchup against Dolphins, tied for seventh best in the league.",
-    "timestamp": "2019-10-27 01:49 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 25.4,
     "week02": 7.3,
     "week03": 15.8,
@@ -3237,7 +3237,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [12.3, 9.8, 13.0, 14.2, 15.0, 'BYE', 12.3, 7.9, 10.7]
                     }
                     
                     ]
@@ -3266,10 +3266,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Held in check by Seahawks",
-    "report": "Ingram carried 12 times for 46 yards and caught his only target for seven additional yards during Sunday's 30-16 win over the Seahawks.",
-    "analysis": "Ingram never really got it going in this one, averaging just 3.8 yards per carry as his long gain went for just eight yards. The team still racked up 199 rushing yards to the tune of 5.7 yards per carry, but that was mostly due to a big effort on the ground from Lamar Jackson and a helpful performance from Gus Edwards. Ingram's efficiency has waned in recent weeks, as he's averaging 47.3 rushing yards on 14.7 carries over the last three games. He'll face another tough matchup next Sunday night against the Patriots.",
-    "timestamp": "2019-10-20 04:45 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 22.7,
     "week02": 8.7,
     "week03": 33.5,
@@ -3310,7 +3310,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.6, 10.6, 7.4, 10.7, 11.7, 17.1, 12.0, 'BYE', 10.6]
                     }
                     
                     ]
@@ -3339,10 +3339,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Workhorse in Week 8 win",
-    "report": "Howard rushed 23 times for 96 yards and a touchdown in Sunday's 31-13 win over the Bills. He also caught one of two targets for 15 yards.",
-    "analysis": "Building on an ongoing trend, Howard dominated the volume on the ground while Miles Sanders was more effective as a receiver out of the backfield. Sanders actually had a 65-yard touchdown run himself but left in the third quarter due to a shoulder injury. Howard also watched third-stringer Boston Scott vulture a four-yard score in the third, but the lead back then found the end zone from three yards out himself in the fourth. The former Bears workhorse has five rushing touchdowns in his last six games, and Howard could be in for a larger workload against his former Bears teammates in Week 9 if Sanders is forced to miss additional time.",
-    "timestamp": "2019-10-27 01:18 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 6.5,
     "week02": 3.1,
     "week03": 9.7,
@@ -3383,7 +3383,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [11.5, 7.5, 5.2, 7.6, 11.2, 9.7, 14.8, 9.7, 10.6]
                     }
                     
                     ]
@@ -3412,10 +3412,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Doesn't practice Wednesday",
-    "report": "Peterson (ankle) didn't practice Wednesday.",
-    "analysis": "Peterson didn't require many practice reps last week in order to suit up Thursday at Minnesota, and he proceeded to get a season-high 72 percent of the offensive snap share. The usage helped him racked up 103 yards from scrimmage on 16 touches, while backup Wendell Smallwood accounted for three touches and 20 scrimmage yards with Chris Thompson (toe) sidelined. Two practices remain this week to hash out the breakdown of this backfield, but Peterson seems in line to lead the way again if he gets clearance to suit up.",
-    "timestamp": "2019-10-30 01:57 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": 10.2,
     "week03": 3.9,
@@ -3456,7 +3456,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 12.0, 8.3, 9.3, 9.2, 11.1, 8.8, 7.2, 10.0]
                     }
                     
                     ]
@@ -3485,10 +3485,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Quiet in Week 8 loss",
-    "report": "Gore rushed nine times for 34 yards and wasn't targeted in the passing game in Sunday's 31-13 loss to the Eagles.",
-    "analysis": "Gore got nine rushing attempts to Devin Singletary's three, but Singletary scored a receiving touchdown and both players were out-rushed by quarterback Josh Allen, who carried the ball eight times for 45 yards. Allen's always a threat to vulture a short touchdown and Singletary is the more explosive Bills running back, so volume is the only thing keeping Gore relevant, and that goes out the window in games like this one when the Bills fall behind.",
-    "timestamp": "2019-10-27 02:58 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 2.0,
     "week02": 15.3,
     "week03": 15.9,
@@ -3529,7 +3529,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.4, 3.9, 11.7, 7.2, 6.5, 'BYE', 8.6, 11.3, 9.8]
                     }
                     
                     ]
@@ -3558,10 +3558,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Scores in losing effort",
-    "report": "Williams rushed seven times for 30 yards and a touchdown in Sunday's 31-24 loss to Green Bay.",
-    "analysis": "Williams was not targeted for the first time this season, but his three-yard touchdown scamper made him the leading fantasy scorer in Kansas City's backfield. LeSean McCoy touched the ball 13 times, and the veteran continues to see a slight advantage in usage in timeshare. Neither back should be considered a plus play against a stout Minnesota front seven (sixth-ranked rushing defense), especially if Patrick Mahomes (knee) remains sidelined come Week 9.",
-    "timestamp": "2019-10-27 11:18 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 15.5,
     "week02": 7.1,
     "week03": "DNP",
@@ -3602,7 +3602,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.1, 8.5, 'DNP', 'DNP', 12.3, 11.5, 6.6, 9.9, 9.6]
                     }
                     
                     ]
@@ -3631,10 +3631,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Scores another touchdown",
-    "report": "Gordon carried the ball eight times for 31 yards and a touchdown, also catching two of his three targets for three yards in the 17-16 win Sunday over the Bears.",
-    "analysis": "For a second consecutive week, Gordon hit paydirt, but he's registered a paltry 112 rushing yards on 44 carries since returning from his holdout in Week 5. Still, this was arguably the 26-year-old's best game since the aforementioned return, as he showed off his trademark elusiveness on a 19-yard touchdown scamper in which he changed direction on a nifty backdoor cut to find space. With the Chargers' offensive line in shambles, it's hard to have any sort of confidence in Gordon returning to last year's form, one that saw him average 5.1 yards per carry. However, he's a capable red-zone threat in an offense that has been able to move the ball despite difficult matchups such as Sunday's.",
-    "timestamp": "2019-10-27 01:35 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
@@ -3675,7 +3675,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 11.4, 10.9, 9.8, 11.4, 9.4]
                     }
                     
                     ]
@@ -3704,10 +3704,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Misses practice Wednesday",
-    "report": "Conner (shoulder) didn't practice Wednesday.",
-    "analysis": "The same applies to Benny Snell (knee), while Jaylen Samuels (knee) -- who didn't play in Monday's win over the Dolphins -- practiced fully Wednesday. Per Brooke Pryor of ESPN.com, Conner is dealing with an AC joint injury in his right shoulder, which puts his Week 9 status up in the air for now. If Conner is out or limited this weekend against the Colts, Samuels would be in line to see an expanded role on offense.",
-    "timestamp": "2019-10-30 12:41 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 8.5,
     "week02": 12.0,
     "week03": 5.7,
@@ -3748,7 +3748,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [12.1, 12.6, 5.2, 13.1, 21.1, 9.9, 'BYE', 8.0, 9.0]
                     }
                     
                     ]
@@ -3777,10 +3777,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Can't find running room in loss",
-    "report": "Barber rushed 10 times for 20 yards and brought in one of three targets for eight yards in the Buccaneers' 27-23 loss to the Titans on Sunday.",
-    "analysis": "Barber's final line underscores how poorly the team's running game performed overall in the Week 8 loss. The Buccaneers' co-lead back saw only one fewer carry than backfield mate Ronald Jones, so the team's timeshare remains in place, much to the chagrin of each player's fantasy managers. Barber will look for better production against the Seahawks in a Week 9 battle.",
-    "timestamp": "2019-10-29 09:12 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 5.5,
     "week02": 15.4,
     "week03": 6.5,
@@ -3821,7 +3821,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [10.2, 8.4, 8.0, 10.6, 7.9, 8.1, 'BYE', 8.2, 8.9]
                     }
                     
                     ]
@@ -3850,10 +3850,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Hopeful to play vs. Bears",
-    "report": "Sanders (shoulder) said that he expects to suit up for Sunday's game against the Bears, Les Bowen of the Philadelphia Daily News reports.",
-    "analysis": "Sanders was unable to practice Wednesday, but noted that he'll likely be back on the field for Thursday's session in some capacity. During Sunday's win over the Bills, the rookie running back reportedly aggravated a shoulder injury that dates back to his time at Penn State. While it's certainly good news that the 22-year-old has avoided a significant injury, the Eagles could take a cautious approach with him ahead of a Week 10 bye. If Sanders ends up sitting against the Bears, Darren Sproles (quadriceps) -- if cleared to play -- and Boston Scott would be candidates for change-of-pace roles behind Jordan Howard.",
-    "timestamp": "2019-10-30 12:44 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.2,
     "week02": 5.2,
     "week03": 11.6,
@@ -3894,7 +3894,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.8, 8.2, 7.3, 10.4, 7.2, 4.0, 8.8, 6.4, 8.8]
                     }
                     
                     ]
@@ -3923,10 +3923,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "tmTextLite": "#d7a017",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Scores twice in primetime win",
-    "report": "Williams ran the ball seven times for 22 yards and a touchdown, adding 14 yards and another score on three receptions in Sunday's 31-24 win over Kansas City.",
-    "analysis": "Fellow back Adam Jones stole the show (over 200 total yards and two scores), but Williams was able to hit paydirt twice as well, albeit with fewer touches and total yardage. The 24-year-old's fantasy value is touchdown-dependent, as he only sees 7-to-12 touches per game on the smaller side of a backfield duo with Jones. Week 9's opponent, San Diego, is giving up 117.1 rushing yards per game, so there could be a large enough piece of the pie for Williams to carve out flex value in deeper formats, especially if star wideout Davante Adams (toe) is forced to miss another contest.",
-    "timestamp": "2019-10-27 10:13 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 2.5,
     "week02": 11.6,
     "week03": 9.6,
@@ -3967,7 +3967,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [4.3, 3.9, 4.6, 3.9, 'DNP', 9.0, 5.7, 8.9, 8.8]
                     }
                     
                     ]
@@ -3996,10 +3996,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Status in question for Thursday",
-    "report": "Breida (ankle) is listed as questionable for Thursday's game at Arizona, Eric Branch of the San Francisco Chronicle reports.",
-    "analysis": "Brieda managed only two limited practices this week due to the tender ankle, but that might be enough for him to earn an active status once Thursday arrives. If so, he likely will be limited behind lead back Tevin Coleman, especially with fellow reserve Jeff Wilson healthy at the moment. The 49ers will release their list of inactives about 90 minutes before Thursday's 8:20 p.m. ET kickoff.",
-    "timestamp": "2019-10-30 02:13 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.7,
     "week02": 13.7,
     "week03": 9.8,
@@ -4040,7 +4040,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.9, 7.9, 8.7, 'BYE', 5.7, 13.7, 10.0, 5.4, 8.2]
                     }
                     
                     ]
@@ -4069,10 +4069,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Held in check",
-    "report": "McCoy was limited to just 40 yards on nine carries and caught all four of his targets for 23 yards Sunday against the Packers.",
-    "analysis": "McCoy saw one fewer snap in Week 8 than fellow back Damien Williams, but the veteran did more with his share in terms of yardage. Unfortunately, he didn't find paydirt, while Williams did, and the committee approach being used in Kansas City will likely force a RB to do just that to reach fantasy relevance in most leagues on a given week. McCoy also fumbled late in the game, an act that may have cost him some fourth-quarter carries in the contest.",
-    "timestamp": "2019-10-28 07:29 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": 3.8,
     "week03": 21.5,
@@ -4113,7 +4113,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 5.7, 6.8, 7.1, 7.2, 7.8, 4.0, 5.3, 8.2]
                     }
                     
                     ]
@@ -4142,10 +4142,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Gains 83 rushing yards",
-    "report": "Hyde carried 19 times for 83 yards during Sunday's 27-24 win over the Raiders.",
-    "analysis": "Hyde averaged a respectable 4.4 yards per carry against a tough Raiders front, with his long gain going for 20 yards. He received one target in the passing game but was unable to haul it in. Hyde also received a couple of carries in the red zone, but he was unable to convert in what amounted to a middling performance from a fantasy perspective. He'll look to make a larger impact next Sunday against the Jaguars in London.",
-    "timestamp": "2019-10-27 08:52 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": 9.0,
     "week03": 7.9,
@@ -4186,7 +4186,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 7.0, 9.8, 4.9, 9.1, 10.0, 11.6, 13.9, 8.1]
                     }
                     
                     ]
@@ -4215,10 +4215,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Outplays Gore in loss",
-    "report": "Singletary rushed three times for 19 yards and caught four of six targets for 30 yards and a touchdown in Sunday's 31-13 loss to the Eagles.",
-    "analysis": "Singletary's biggest play was a 28-yard touchdown reception in the third quarter. He thoroughly outplayed Frank Gore, but Gore still got nine carries to Singletary's three, turning that workload into 34 yards. It appears Singletary's touches will continue to be limited by Gore's presence, even though the rookie third-rounder out of Florida Atlantic is clearly the most talented running back in Buffalo.",
-    "timestamp": "2019-10-27 02:44 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 12.3,
     "week02": 11.7,
     "week03": "DNP",
@@ -4259,7 +4259,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [4.8, 11.0, 'DNP', 'DNP', 'DNP', 'BYE', 5.5, 5.6, 7.8]
                     }
                     
                     ]
@@ -4288,10 +4288,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#0076B6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-    "headlineNews": "Records 38 scrimmage yards",
-    "report": "Johnson carried seven times for 25 yards and caught one pass for an additional 13 yards during Sunday's 31-26 win over the Giants.",
-    "analysis": "Johnson appeared to be in line to lead the team in carries with Kerryon Johnson (knee) out, but he watched on as Tra Carson paced the backfield with 12. His seven rushes were still his second most of the season, but he averaged just 3.6 yards per tote despite a seemingly favorable matchup against the Giants' front. Johnson appears to be just one piece of a committee that also includes J.D. McKissic and Paul Perkins at the moment, making him a risky fantasy play in next Sunday's road matchup against the Raiders.",
-    "timestamp": "2019-10-27 08:15 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.6,
     "week02": 4.6,
     "week03": 1.0,
@@ -4332,7 +4332,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.4, 6.3, 4.5, 3.8, 'BYE', 2.9, 2.4, 10.7, 7.8]
                     }
                     
                     ]
@@ -4361,10 +4361,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Scores game-winning touchdown",
-    "report": "Ekeler tallied three carries for three yards but also caught two of his three targets for 19 yards and a touchdown in the 17-16 win Sunday over the Bears.",
-    "analysis": "Ekeler ultimately posted the game-winning score, catching an easy dump-off and jettisoning 11 yards into the end zone early in the fourth quarter. However he was relatively shut down otherwise, with the Bears' defense keying in on the majority of the underneath patterns throughout the contest. Ekeler continues to see a fairly substantial difference in touches compared to Melvin Gordon, with the diminutive threat posting just five compared to Gordon's 10 on Sunday. However, much of that had to do with game script, as the Chargers kept the game tight throughout.",
-    "timestamp": "2019-10-27 01:42 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 36.4,
     "week02": 20.3,
     "week03": 11.6,
@@ -4405,7 +4405,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [13.4, 14.5, 18.1, 15.8, 21.3, 9.5, 9.7, 8.9, 7.7]
                     }
                     
                     ]
@@ -4434,10 +4434,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Garners 52 total yards in loss",
-    "report": "Jones rushed 11 times for 35 yards and secured one of four targets for 17 yards in the Buccaneers' 27-23 loss to the Titans on Sunday.",
-    "analysis": "Jones outpaced backfield mate Peyton Barber in carries by one and also made good use of his one reception. However, the Buccaneers' backfield picture remains as muddled as ever, as coach Bruce Arians appears set to keep both backs in a timeshare for the time being. As a result, Jones remains a speculative play heading into a Week 9 matchup against a tough Seattle run defense.",
-    "timestamp": "2019-10-27 02:56 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.8,
     "week02": 0.9,
     "week03": 12.6,
@@ -4478,7 +4478,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [4.9, 7.3, 7.2, 6.0, 7.8, 15.1, 'BYE', 7.5, 7.3]
                     }
                     
                     ]
@@ -4507,10 +4507,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "tmTextLite": "#c36835",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Targeted six times",
-    "report": "Cohen rushed four times for nine yards and caught three passes for 37 yards in Chicago's 17-16 loss to the Chargers on Sunday.",
-    "analysis": "With this game being close throughout, the Bears were able to commit to David Montgomery as the primary running back, which kept Cohen from seeing more than three targets. He did most of his damage when lined up as a slot receiver, catching a 31-yard pass down the seam to move the offense into scoring position. He's yet to rush for 20 yards in a game this season and has reached 40 receiving yards just once, and aside from averaging six receptions per contest, he's been a low-upside fantasy option in 2019.",
-    "timestamp": "2019-10-27 02:49 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 8.7,
     "week02": 3.5,
     "week03": 3.4,
@@ -4551,7 +4551,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.7, 7.5, 6.5, 6.4, 5.2, 'BYE', 5.7, 6.4, 7.2]
                     }
                     
                     ]
@@ -4580,10 +4580,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Seven touches in Sunday's win",
-    "report": "Hines had four carries for 12 yards and three receptions for 34 yards on three targets in Sunday's win over Denver.",
-    "analysis": "Hines played on 18 of the offense's 64 snaps and got more usage than Jordan Wilkins (six snaps). He remains the top passing-down option at running back but isn't getting much playing time behind Marlon Mack.",
-    "timestamp": "2019-10-28 01:58 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.7,
     "week02": 1.9,
     "week03": 4.4,
@@ -4624,7 +4624,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.8, 6.8, 5.8, 8.7, 7.9, 'BYE', 6.4, 2.3, 6.8]
                     }
                     
                     ]
@@ -4653,10 +4653,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Misses Wednesday's practice",
-    "report": "Thompson (toe) didn't practice Wednesday, John Keim of ESPN.com reports.",
-    "analysis": "Thompson is considered day-to-day due to a lingering toe injury, per Ben Standig of The Athletic. The 29-year-old has missed Washington's last two contests, and his chances of suiting up Sunday against Buffalo will likely come down to what he's able to do during the week's final two practices. Wendell Smallwood would likely retain a role as the Redskins' primary change-of-pace option if Thompson sits out another game.",
-    "timestamp": "2019-10-30 12:51 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 11.3,
     "week02": 7.6,
     "week03": 12.8,
@@ -4697,7 +4697,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.1, 6.6, 7.1, 8.5, 8.1, 11.5, 'DNP', 'DNP', 6.7]
                     }
                     
                     ]
@@ -4726,10 +4726,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#C60C30",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Modest numbers in win",
-    "report": "Michel carried the ball 21 times for 74 yards in Sunday's 27-13 win over the Browns.",
-    "analysis": "While he led the team in rushing, James White topped Michel in total scrimmage yards, and neither RB was able to find the end zone. Michel heads into the second half with six TDs in eight games, but his 3.3 YPC has the second-year back on pace to fall short of 1,000 rushing yards despite a fairly significant workload.",
-    "timestamp": "2019-10-27 07:36 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 1.4,
     "week02": 12.5,
     "week03": 7.1,
@@ -4770,7 +4770,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [11.9, 15.8, 11.6, 5.5, 8.2, 11.1, 7.9, 10.8, 6.6]
                     }
                     
                     ]
@@ -4799,10 +4799,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Limited to special teams in Week 8",
-    "report": "Montgomery didn't touch the ball on offense in Sunday's 29-15 loss to Jacksonville, but he returned two kickoffs for 31 yards.",
-    "analysis": "Montgomery watched Bilal Powell serve as the backup to Le'Veon Bell, as Powell received four carries. Nonetheless, Montgomery's versatility still makes him the Jets running back to target should an injury befall Bell.",
-    "timestamp": "2019-10-28 10:08 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.4,
     "week02": 5.5,
     "week03": 0.1,
@@ -4843,7 +4843,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.0, 8.3, 2.1, 'BYE', 3.2, 7.1, 4.1, 5.1, 6.4]
                     }
                     
                     ]
@@ -4872,10 +4872,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/oak.png",
-    "headlineNews": "Notches 24 receiving yards in loss",
-    "report": "Richard rushed for three yards on one carry and caught two of three targets for 24 yards in Sunday's 27-24 loss to the Texans.",
-    "analysis": "Richard posted a season high in receiving yards after being limited earlier in the week with a minor ankle issue, but fellow backup DeAndre Washington handled three more touches than Richard despite logging only nine offensive snaps. Regardless of Washington's involvement, Richard's upside in a change-of-pace role out of Oakland's backfield will be capped for as long as rookie Josh Jacobs remains at full strength.",
-    "timestamp": "2019-10-29 08:12 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.3,
     "week02": 1.5,
     "week03": 4.4,
@@ -4916,7 +4916,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.4, 4.0, 6.3, 4.4, 6.6, 'BYE', 4.3, 4.0, 6.3]
                     }
                     
                     ]
@@ -4945,10 +4945,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Leads backfield in loss",
-    "report": "Walton carried the ball 11 times for 35 yards and fumbled once during Monday's 27-14 loss to the Steelers. He also caught three of six targets for 19 yards.",
-    "analysis": "Meanwhile, Kalen Ballage logged three carries for eight yards and caught one pass for 11 yards. Following the trade of Kenyan Drake to the Cardinals, Walton profiles as the No. 1 option in Miami's backfield. However, game flow didn't work out in the second-year pro's favor versus Pittsburgh, as the Dolphins spent the second half of the contest playing catch-up. That's a pattern that could continue to play out for Walton (and the winless Miami offense) this season, but he at least has a solid matchup against the Jets' porous defense coming up in Week 9.",
-    "timestamp": "2019-10-28 09:08 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.1,
     "week02": 3.2,
     "week03": "DNP",
@@ -4989,7 +4989,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [-0.5, 0.1, 'DNP', 0.3, 'BYE', 3.7, 3.9, 7.4, 6.1]
                     }
                     
                     ]
@@ -5018,10 +5018,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Limited Wednesday",
-    "report": "Sproles (quadriceps) was a limited participant in Wednesday's practice, Kevin Fishbain of The Athletic reports.",
-    "analysis": "Sproles' limited activity in the first session of Week 9 represented a positive step forward after he failed to practice in any fashion ahead of the Eagles' past three games. The veteran running back looks like he'll have a shot at returning to action Sunday against the Bears, though his participation in practice the next couple of days will bear monitoring.",
-    "timestamp": "2019-10-30 12:37 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.8,
     "week02": 1.5,
     "week03": 0.4,
@@ -5062,7 +5062,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.7, 6.2, 6.9, 4.8, 5.1, 'DNP', 'DNP', 'DNP', 6.0]
                     }
                     
                     ]
@@ -5091,10 +5091,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Single-digit snaps in Week 8",
-    "report": "Williams logged only nine offensive snaps in Week 8 versus the Packers, racking up just two carries for 10 yards.",
-    "analysis": "Williams has seemingly fallen well beyond the other two backs at this point in the snaps race, seeing his lowest offensive snap percentage (15) since he played just seven percent of them in Week 2 versus Oakland. He doesn't exactly hold handcuff stash value in many leagues, either, as it would likely take absences from both Damien Williams and LeSean McCoy for Williams to see a dramatic rise in usage.",
-    "timestamp": "2019-10-28 08:02 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": 13.4,
@@ -5135,7 +5135,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 2.4, 4.4, 'DNP', 8.5, 3.3, 3.7, 5.7]
                     }
                     
                     ]
@@ -5164,10 +5164,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "Continues descent",
-    "report": "Lewis caught his lone target for a two-yard gain during Sunday's 27-23 win over Tampa Bay.",
-    "analysis": "Lewis has now amassed just four total yards over the past two weeks and has yet to score or tally more than 30 yards in a game this season. It's not as if Lewis is being replaced as the Titans' No. 2 RB, it's just that Derrick Henry has hogged touches this season. With Marcus Mariota now on the bench and Ryan Tannehill under center, the Titans seem to have opted to throw it more, but even then Lewis has been tasked with picking up blitzes rather than running routes. Sunday's opponents, the Panthers, have been gashed on the ground this season to the tune of 5.0 yards per carry, but it's hard to see Lewis getting enough touches to take advantage.",
-    "timestamp": "2019-10-29 04:17 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 2.8,
     "week02": 1.9,
     "week03": 2.5,
@@ -5208,7 +5208,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [3.9, 10.1, 7.3, 5.8, 6.7, 3.9, 6.4, 4.4, 5.7]
                     }
                     
                     ]
@@ -5237,10 +5237,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Listed as questionable",
-    "report": "Mostert (knee) is listed as questionable for Thursday's game in Arizona.",
-    "analysis": "Mostert and Matt Breida (ankle) followed the same regimen this week, practicing in a limited capacity Monday and Wednesday while sitting out Tuesday's walkthrough at Levi's Stadium. Both running backs are questionable, which could allow Jeff Wilson to serve as the No. 2 behind top option Tevin Coleman.",
-    "timestamp": "2019-10-30 02:43 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 4.5,
     "week02": 22.6,
     "week03": 5.9,
@@ -5281,7 +5281,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [2.7, 2.1, 6.4, 'BYE', 4.9, 4.1, 4.6, 2.9, 5.7]
                     }
                     
                     ]
@@ -5310,10 +5310,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Scores receiving touchdown",
-    "report": "Johnson carried three times for one yard and caught four of five targets for 33 yards and a touchdown during Sunday's 27-24 win over the Raiders.",
-    "analysis": "Johnson finished third on the team in receptions and tied for third in targets while getting his team on board with a 12-yard touchdown reception in the first quarter. He did next to nothing on the ground, but his productivity as a pass-catcher lifted him to a respectable effort from a fantasy perspective. Johnson's role remains that of a change-of-pace back, making him a risky fantasy play for next Sunday's matchup with the Jaguars in London.",
-    "timestamp": "2019-10-27 09:01 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 11.0,
     "week02": 3.1,
     "week03": 3.4,
@@ -5354,7 +5354,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.8, 13.8, 7.4, 5.3, 6.9, 7.6, 6.5, 8.6, 5.5]
                     }
                     
                     ]
@@ -5383,10 +5383,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/oak.png",
-    "headlineNews": "Logs just nine offensive snaps",
-    "report": "Washington rushed for 23 yards on five carries and caught his lone target for four yards in Sunday's 27-24 loss to the Texans.",
-    "analysis": "He has been dealt at least six touches in five consecutive contests, but rookie Josh Jacobs' prominent role atop the Raiders' depth chart at running back keeps Washington's fantasy value limited to deeper leagues. He was on the field for just nine offensive snaps Sunday, while fellow reserve Jalen Richard totaled 27 yards on three touches in 17 snaps.",
-    "timestamp": "2019-10-29 08:04 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.8,
     "week02": 4.5,
     "week03": 2.2,
@@ -5427,7 +5427,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [4.0, 2.2, 5.8, 2.9, 4.0, 'BYE', 6.1, 2.9, 5.5]
                     }
                     
                     ]
@@ -5456,10 +5456,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#e17757",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "Bursts through for only touchdown",
-    "report": "Freeman ran for 40 yards and a touchdown on 12 carries and added a five-yard catch during Sunday' 15-13 loss in Indianapolis.",
-    "analysis": "Freeman capped off Denver's opening drive of the second half with a quick cut and waltzed into the end zone almost untouched for the four-yard touchdown, the team's only touchdown of the game. Freeman, after going scoreless for the first six weeks of the season, has now scored Denver's only two touchdowns of the past two games. He looks to be getting more carries down near the goal line and, though Sunday didn't show it, should be more involved in the passing game down the stretch with Emmanuel Sanders in San Francisco and few established targets on the team.",
-    "timestamp": "2019-10-27 03:07 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 6.6,
     "week02": 12.7,
     "week03": 9.3,
@@ -5500,7 +5500,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [4.6, 4.0, 4.1, 5.0, 8.3, 5.5, 6.0, 5.8, 5.4]
                     }
                     
                     ]
@@ -5529,10 +5529,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Productive in complementary role",
-    "report": "Mattison rushed 13 times for 61 yards and brought in both of his targets for three yards in the Vikings' 19-9 win over the Redskins on Thursday.",
-    "analysis": "With the Vikings largely in control of the contest and focusing on the run game in the second half, Mattison saw his second-largest workload of the season on the ground. The rookie has eclipsed 60 rushing yards in two of his last three games, and although his week-to-week opportunities are far from consistent, Mattison has a good chance of seeing a solid amount of carries in any game where Minnesota has a secure second-half lead, given head coach Mike Zimmer's preference for the ground attack. Mattison will look to put together another strong effort in a Week 9 matchup against the Chiefs a week from Sunday.",
-    "timestamp": "2019-10-24 09:38 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 4.9,
     "week02": 2.5,
     "week03": 11.8,
@@ -5573,7 +5573,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.9, 4.4, 3.6, 4.6, 3.8, 3.5, 4.2, 4.8, 5.2]
                     }
                     
                     ]
@@ -5606,10 +5606,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "tmTextLite": "#7F9695",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Suits up, leads team in receiving",
-    "report": "Cooper (quadriceps/ankle) caught all five of his targets for 106 yards in Sunday's 37-10 win over the Eagles.",
-    "analysis": "Cooper was held out of team activities until late in the week while nursing two separate lower-body injuries, but he was able to heal up in time for an important primetime matchup against a divisional foe. Dallas was in control of the contest from start to finish, so the 25-year-old had to make due with just five targets (tied for the lowest mark in a full game this season). Cooper maximized those targets, reaching the century mark for the third time this season. The star wideout's fantasy owners were not only rewarded with an unlikely start and strong stat line, but the Cowboys' upcoming bye week will give the receiver plenty of time to fully heal up before a soft matchup against the Giants on Monday Night Football in Week 9.",
-    "timestamp": "2019-10-20 10:00 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 19.6,
     "week02": 12.4,
     "week03": 23.8,
@@ -5650,7 +5650,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [11.8, 12.8, 10.9, 11.4, 11.7, 10.3, 17.9, 'BYE', 21.0]
                     }
                     
                     ]
@@ -5679,10 +5679,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Tramples Titans secondary in loss",
-    "report": "Evans secured 11 of 12 targets for 198 yards and two touchdowns in the Buccaneers' 27-23 loss to the Titans on Sunday.",
-    "analysis": "Evans easily led both teams with his reception, receiving yardage and target totals, as the Titans secondary consistently proved to be no match for him all afternoon. He made catches short and long throughout the contest, including a spectacular leaping 46-yard grab down the right sideline. Evans' two scores came from nine and two yards out, and he now has two multi-touchdown games on the campaign. He'll look to stay hot against the Seahawks in a Week 9 matchup.",
-    "timestamp": "2019-10-27 02:43 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.8,
     "week02": 8.1,
     "week03": 41.0,
@@ -5723,7 +5723,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [11.9, 11.2, 17.1, 12.0, 14.9, 10.8, 'BYE', 8.3, 17.4]
                     }
                     
                     ]
@@ -5752,10 +5752,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Piles up 100 yards",
-    "report": "Lockett caught all six targets for 100 yards in Sunday's 27-20 win over the Falcons.",
-    "analysis": "This was Lockett's second 100-yard receiving game of the year. Every catch Lockett made went for 12 or more yards, but it was DK Metcalf who was rewarded with two trips to the end zone. Lockett's traditionally thought of as a boom-or-bust receiver that can stretch the field, but he sports a solid fantasy floor this year with at least four catches for 51 yards in each of the last seven games. Lockett's primed for another boom against the Buccaneers' struggling secondary in Week 9.",
-    "timestamp": "2019-10-27 02:12 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 10.9,
     "week02": 12.9,
     "week03": 26.9,
@@ -5796,7 +5796,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.2, 11.6, 8.8, 15.3, 11.0, 8.7, 12.6, 10.6, 17.1]
                     }
                     
                     ]
@@ -5825,10 +5825,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "tmTextLite": "#7F9695",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Quiet in big win",
-    "report": "Gallup caught three of four targets for 34 yards in Sunday's win over the Eagles.",
-    "analysis": "Amari Cooper was the preferred big-play threat for Dak Prescott in this one, and Gallup's longest catch went for only 14 yards. The second-year receiver has shown he can be explosive this season with two 100-yard performances in five games, and he'll be in a good spot for another one against the Giants in Week 9 following the Cowboys' bye.",
-    "timestamp": "2019-10-21 06:46 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 19.3,
     "week02": 9.8,
     "week03": "DNP",
@@ -5869,7 +5869,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.3, 6.8, 'DNP', 'DNP', 5.3, 6.4, 13.7, 'BYE', 16.3]
                     }
                     
                     ]
@@ -5898,10 +5898,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/oak.png",
-    "headlineNews": "Logs a limited practice Wednesday",
-    "report": "Williams (foot) was listed as a limited participant at Wednesday's practice.",
-    "analysis": "In his return to action this past Sunday against the Texans, Williams -- who had been dealing with a case of plantar fasciitis -- logged 49 of a possible 55 snaps on offense, while catching three of his six targets for a team-high 91 yards and a TD. With no reported setbacks in the contest, look for Williams -- who has scored a TD in each of his five outings this season -- to suit up this weekend against the Lions.",
-    "timestamp": "2019-10-30 03:47 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 19.5,
     "week02": 13.1,
     "week03": 10.4,
@@ -5942,7 +5942,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.9, 14.7, 6.7, 11.6, 'DNP', 'BYE', 'DNP', 13.9, 14.8]
                     }
                     
                     ]
@@ -5971,10 +5971,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Limited by thumb issue",
-    "report": "Hopkins was listed as a limited participant at Wednesday's practice due to a thumb injury, Aaron Wilson of the Houston Chronicle reports.",
-    "analysis": "Hopkins logged 76 of a possible 79 offensive snaps in Sunday's win over the Raiders, finishing the day with a season-high 11 catches (on 13 targets) for 109 yards. At this point, there's nothing to suggest that his availability for the Week 9 game against the Jaguars is in any danger.",
-    "timestamp": "2019-10-30 03:20 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 27.1,
     "week02": 6.5,
     "week03": 9.7,
@@ -6015,7 +6015,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [14.0, 12.3, 12.2, 13.9, 17.9, 13.3, 15.8, 15.3, 14.7]
                     }
                     
                     ]
@@ -6044,10 +6044,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Scores in Niners debut",
-    "report": "Sanders caught four of five targets for 25 yards and a touchdown in Sunday's 51-13 rout of the Panthers.",
-    "analysis": "He opened the scoring midway through the first quarter, catching a four-yard TD pass, but Sanders wasn't heavily involved after that as the Niners were able to keep the ball on the ground for the most part. The veteran receiver is expected to emerge as one of Jimmy Garoppolo's top options once he acclimates to a new scheme, but that may not result in much more volume given the team's run-heavy offense -- Sanders' five targets in this one led all San Francisco wideouts.",
-    "timestamp": "2019-10-27 06:30 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 17.1,
     "week02": 23.3,
     "week03": 2.0,
@@ -6088,7 +6088,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [10.3, 10.0, 11.1, 'BYE', 10.8, 7.0, 6.9, 8.1, 14.7]
                     }
                     
                     ]
@@ -6117,10 +6117,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Four catches in Week 8",
-    "report": "Anderson caught four of six targets for 43 yards in Sunday's 29-15 loss to Jacksonville.",
-    "analysis": "With trade rumors swirling around him, Anderson delivered a mediocre performance in what could end up being his final game as a Jet. With New York now 1-6, don't be surprised to see the speedy wide receiver dealt to a more fantasy-friendly situation before Tuesday's trade deadline, as New York would rather get something for the pending free agent rather than let him walk for free at season's end. If Anderson remains with the Jets, he'd get a juicy Week 9 matchup against Miami.",
-    "timestamp": "2019-10-27 03:41 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.8,
     "week02": 10.1,
     "week03": 2.6,
@@ -6161,7 +6161,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.6, 7.5, 9.5, 'BYE', 10.6, 6.9, 9.4, 9.7, 14.6]
                     }
                     
                     ]
@@ -6190,10 +6190,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Listed as limited Wednesday",
-    "report": "Thomas (hamstring) was limited at practice Wednesday.",
-    "analysis": "Thomas was limited by his hamstring issue both Wednesday and Thursday last week before returning to a full session Friday and not being tagged with a Week 8 injury designation. The expectation is that he'll follow a similar pattern leading up to Sunday's game against the Dolphins. Though Thomas has yet to score a touchdown this season and has topped out at 63 receiving yards, he has carved out a degree of PPR utility in deeper formats, having averaged four catches a game in October.",
-    "timestamp": "2019-10-30 03:08 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
@@ -6234,7 +6234,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'BYE', 8.1, 6.4, 7.1, 9.1, 14.2]
                     }
                     
                     ]
@@ -6263,10 +6263,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "tmTextLite": "#7F9695",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Two grabs in return",
-    "report": "Cobb caught two of three targets for 29 yards in Sunday's win over the Eagles.",
-    "analysis": "After missing last week's loss to the Jets with a sore back, Cobb returned to action but saw his smallest target volume of the year. The veteran receiver has yet to break 70 yards in a game for the Cowboys, and his role in the passing game behind Amari Cooper and Michael Gallup has provided Cobb with little fantasy upside so far.",
-    "timestamp": "2019-10-21 06:49 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 14.9,
     "week02": 6.0,
     "week03": 3.3,
@@ -6307,14 +6307,14 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.0, 5.8, 7.6, 4.5, 5.9, 'DNP', 10.0, 'BYE', 13.8]
                     }
                     
                     ]
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3050661.png",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116165.png",
     "name": "Chris Godwin",
     "depthchart": "Backup: WR-2",
     "team": "Tampa Bay Buccaneers",
@@ -6336,10 +6336,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Modest output in loss",
-    "report": "Godwin hauled in four of eight targets for 43 yards in the Buccaneers' 27-23 loss to the Titans on Sunday.",
-    "analysis": "Godwin took a back seat to position mate Mike Evans on the afternoon, with the latter generating an eye-popping 11-198-2 line. Godwin did check in second to Evans in receptions, receiving yards and targets, but his three-game streak of 100-yard efforts was snapped. Despite the downturn Sunday, Godwin's fantasy stock naturally remains sky high heading into a favorable Week 9 matchup against the Seahawks secondary.",
-    "timestamp": "2019-10-27 02:49 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 12.8,
     "week02": 22.1,
     "week03": 5.5,
@@ -6380,7 +6380,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.4, 6.8, 13.7, 7.9, 8.1, 8.6, 'BYE', 10.4, 13.4]
                     }
                     
                     ]
@@ -6409,10 +6409,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Limited by quad injury",
-    "report": "Chark (quadriceps) was a limited practice participant Wednesday, Michael DiRocco of ESPN.com reports.",
-    "analysis": "Chark played a rather typical 74 percent of the Jaguars' offensive snaps in Sunday's win over the Jets, but he apparently came out of the contest with a quad issue in tow. The fact the 23-year-old is practicing to start the week puts him on track to play against the Texans in Week 9, though it's still worth keeping an eye on his participation level Thursday and Friday.",
-    "timestamp": "2019-10-30 02:15 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 22.6,
     "week02": 15.0,
     "week03": 15.6,
@@ -6453,7 +6453,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [0.5, 6.1, 5.0, 6.9, 7.3, 10.3, 10.2, 11.6, 12.4]
                     }
                     
                     ]
@@ -6482,10 +6482,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Busy in return to action",
-    "report": "Kirk (ankle) secured eight of 11 targets for 79 yards and rushed once for 19 yards in the Cardinals' 31-9 loss to the Saints on Sunday.",
-    "analysis": "Kirk was Kyler Murray's favorite receiver in the wideout's return from a three-game absence, as he paced the Cardinals in both receptions and targets. Kirk now has double-digit looks in three of his first five games of the season, and Sunday's yardage tally was his second highest of the campaign, although it's certainly worth noting he's yet to find the end zone. Kirk will look to keep the momentum going against the 49ers in a Week 9 Thursday night battle.",
-    "timestamp": "2019-10-27 02:17 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 8.4,
     "week02": 14.4,
     "week03": 10.9,
@@ -6526,7 +6526,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.5, 11.3, 8.7, 7.4, 'DNP', 'DNP', 'DNP', 9.6, 12.3]
                     }
                     
                     ]
@@ -6555,10 +6555,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Breaks the century mark",
-    "report": "Smith-Schuster caught five passes for 103 yards and a touchdown in Monday's 27-14 win over the Dolphins.",
-    "analysis": "No Pittsburgh receiver was happier to have Mason Rudolph back under center than Smith-Schuster, who saw a season-high nine targets and had his first 100-yard game in 2019. His touchdown came on an impressive catch of an underthrown pass off the top of the defensive back's helmet to give Pittsburgh its first lead of the game. Smith-Schuster entered the contest averaging less than 57 yards per game but has now scored twice in his last three games. He faces a difficult challenge in Week 9 against an Indianapolis defense that has not allowed opposing wide receivers to catch more than one touchdown in a game this season.",
-    "timestamp": "2019-10-28 09:47 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 10.8,
     "week02": 10.9,
     "week03": 15.6,
@@ -6599,7 +6599,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [13.4, 14.0, 11.7, 15.9, 19.7, 10.9, 'BYE', 14.1, 12.2]
                     }
                     
                     ]
@@ -6628,10 +6628,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Limited to start week",
-    "report": "Allen (hamstring) will be a limited participant in Wednesday's practice, Daniel Popper of The Athletic reports.",
-    "analysis": "Allen managed to play through the hamstring injury in the Week 8 win over the Bears, during which he was targeted 10 times despite playing just 69 percent of the offensive snaps. The two-time Pro Bowler had never played less than 80 percent of offensive snaps across the preceding seven games, and in five of those contests, he played over 90 percent. The Chargers will monitor Allen's participation in practice as the week continues, but he can't currently be viewed as a lock to suit up and play without restrictions Sunday versus the Packers.",
-    "timestamp": "2019-10-30 11:54 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 22.3,
     "week02": 13.8,
     "week03": 37.1,
@@ -6672,7 +6672,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.3, 15.5, 14.8, 12.7, 12.3, 11.7, 10.4, 10.8, 11.9]
                     }
                     
                     ]
@@ -6701,10 +6701,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#C60C30",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Limited at practice Wednesday",
-    "report": "Edelman (chest/shoulder) was a limited participant in Wednesday's practice, Mike Reiss of ESPN.com reports.",
-    "analysis": "Edelman, who has been playing through his chest issue of late, also is listed with a shoulder injury this week, but we doubt that he's in any danger of missing Sunday night's game against the Ravens.",
-    "timestamp": "2019-10-30 04:09 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 13.38,
     "week02": 7.2,
     "week03": 15.7,
@@ -6745,7 +6745,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.4, 15.2, 9.5, 12.5, 11.8, 16.0, 15.0, 13.0, 11.8]
                     }
                     
                     ]
@@ -6774,10 +6774,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Leads team in receiving",
-    "report": "Hill had six catches (on nine targets) for 76 yards and rushed for five more yards on his lone carry in Sunday's 31-24 loss to the Packers.",
-    "analysis": "Hill actually turned in a respectable stat line considering the Chiefs were starting backup quarterback Matt Moore in place of the dynamic Patrick Mahomes (knee). The speedy wideout posted similar stat lines in his first two games back from injury, but he was also rewarded with three touchdowns from his primary QB. Looking ahead, there is at least a chance that Hill gets his deep-threat partner back for a stiff test against Minnesota's defense next weekend, but a Week 10 return may represent a more plausible outcome for Mahomes.",
-    "timestamp": "2019-10-27 09:42 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.1,
     "week02": "DNP",
     "week03": "DNP",
@@ -6818,7 +6818,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [16.8, 'DNP', 'DNP', 'DNP', 'DNP', 12.2, 12.0, 17.4, 11.5]
                     }
                     
                     ]
@@ -6847,10 +6847,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#0085CA",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Held in check by stingy 49ers",
-    "report": "Moore corralled five of nine targets for 38 receiving yards during Sunday's 51-13 loss to the 49ers.",
-    "analysis": "Unlike fellow Panthers wideout Curtis Samuel, Moore had proven to be a high-floor option through the first seven weeks of the regular season by compiling six-plus catches and more than 70 receiving yards in four of his first six outings to kick off the year. Against a San Francisco defense that entered the contest ranked No. 1 in the NFL with 133.5 passing yards allowed per game, however, the second-year receiver struggled to get much going, as the Panthers were held under 30 points for just the second time in the team's past five outings. Upcoming in Week 9 is a matchup against a Titans defense that allowed Mike Evans to rack up 11 catches for 198 yards and two touchdowns, but otherwise did not permit a Buccaneers player to score or exceed 45 receiving yards Sunday.",
-    "timestamp": "2019-10-27 05:27 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.1,
     "week02": 13.4,
     "week03": 12.9,
@@ -6891,7 +6891,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.8, 11.0, 13.5, 13.1, 9.7, 16.9, 'BYE', 7.3, 11.2]
                     }
                     
                     ]
@@ -6907,7 +6907,7 @@ $scope.positionWR = [{
     "home_away": "at ",
     "opp_rank": 6,
     "team_rank": 8,
-    "avg_fp2": 7.19,
+    "avg_fp2": 6.29,
     "opp_rank_allowed_fp2": 10,
     "opp_avg_allowed_fp2": 26.02,
     "fanduelSalary": "$8000",
@@ -6920,17 +6920,17 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "tmTextLite": "#d7a017",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Gets 'limited' tag Wednesday",
-    "report": "Adams (toe) was listed as limited on Wednesday's practice estimate, Rob Demovsky of ESPN.com reports.",
-    "analysis": "Adams put in some on-field work last week, but this marks the first time he received a designation other than DNP since suffering a toe injury Week 4. He's missed four games in the process and still feels some discomfort while pushing off his right foot, according to Matt Schneidman of The Athletic. Coach Matt LaFleur told Ryan Wood of the Green Bay Press-Gazette that the Packers are taking Adams' situation \"day by day,\" and there are \"no guarantees\" that he'll return Sunday against the Chargers in L.A. Still, Adams has put himself in a position to be cleared by the Packers' medical staff after Wednesday's showing.",
-    "timestamp": "2019-10-30 04:27 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 5.6,
     "week02": 14.1,
     "week03": 7.6,
     "week04": 23.0,
     "week05": 0.0,
     "week06": 0.0,
-    "week07": "DNP",
+    "week07": 0.0,
     "week08": 0.0,
     "week09": "",
     "week10": "",
@@ -6954,7 +6954,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [5.6, 14.1, 7.6, 23.0, 0.0, 0.0, 'DNP', 0.0]
+                         data: [5.6, 14.1, 7.6, 23.0, 0.0, 0.0, 0.0, 0.0]
                     },
                     {
                         label: "Projected",
@@ -6964,7 +6964,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [15.7, 12.6, 11.3, 9.1, 7.4, 13.2, 9.7, 5.7, 11.0]
                     }
                     
                     ]
@@ -6993,10 +6993,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Leading receiver in Week 8 win",
-    "report": "Jeffery caught four of six targets for 64 yards in Sunday's 31-13 win over the Bills.",
-    "analysis": "Jeffery led the team in targets and receiving yards, but the entire Eagles passing game remained stuck in low gear as quarterback Carson Wentz came up short of 200 passing yards for the fourth time in five games. The big-bodied wide receiver has become touchdown-dependent, as Jeffery's yardage output has finished in a narrow band between 38 and 76 yards in each of his six healthy games. Up next for Jeffery is a date with the team that drafted him in the second round back in 2012, as the Bears will come to town Week 9.",
-    "timestamp": "2019-10-27 02:18 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 19.6,
     "week02": 0.0,
     "week03": "DNP",
@@ -7037,7 +7037,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [10.4, 8.2, 'DNP', 9.6, 11.8, 7.1, 13.1, 9.8, 11.0]
                     }
                     
                     ]
@@ -7066,10 +7066,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Limited in practice Wednesday",
-    "report": "Thielen (hamstring) practiced in a limited fashion Wednesday.",
-    "analysis": "Thielen was fairly active in the portion of the session open to the media, as he was seen running routes during individual drills, per Ben Goessling of the Minneapolis Star Tribune. With two practices remaining this week, Thielen has plenty of time to make an impression on the Vikings' training staff and gain clearance to play Sunday at Kansas City.",
-    "timestamp": "2019-10-30 02:27 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 11.8,
     "week02": 10.28,
     "week03": 19.1,
@@ -7110,7 +7110,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.0, 9.7, 13.1, 10.6, 5.1, 9.5, 11.0, 'DNP', 10.9]
                     }
                     
                     ]
@@ -7139,10 +7139,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#0076B6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-    "headlineNews": "Scores two TDs vs. Giants",
-    "report": "Golladay caught six of eight targets for 123 yards and two touchdowns during Sunday's 31-26 win over the Giants.",
-    "analysis": "Golladay led the team in receiving yards while tying for the top spot in targets. He scored a nine-yard touchdown in the third quarter and added a 41-yard score -- which proved decisive on the scoreboard -- with just over two minutes left in the fourth. Although Golladay was held to just one catch a week ago, he's averaged 83 receiving yards per game over the last four while scoring four touchdowns in that span. He'll look to keep it up in a favorable road matchup against the Raiders next Sunday.",
-    "timestamp": "2019-10-27 06:03 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 12.2,
     "week02": 21.7,
     "week03": 2.7,
@@ -7183,7 +7183,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.7, 9.7, 15.0, 11.4, 'BYE', 10.7, 9.0, 11.0, 10.9]
                     }
                     
                     ]
@@ -7212,10 +7212,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "tmTextLite": "#c36835",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Leads team in targets",
-    "report": "Robinson caught five passes for 62 yards in Chicago's 17-16 loss to the Chargers on Sunday.",
-    "analysis": "Robinson could've had a pair of touchdowns, but the first didn't work out because the pass was thrown behind him, and on the second opportunity, he was dragged down by a defender for defensive pass interference in the end zone. Although he spent most of the day shadowed by Casey Hayward, he caught five of seven targets while posting at least 60 yards for the sixth time in seventh games, making him a rock-solid weekly lineup option.",
-    "timestamp": "2019-10-27 02:42 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 13.7,
     "week02": 6.1,
     "week03": 9.0,
@@ -7256,7 +7256,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [12.1, 15.0, 10.9, 9.7, 11.8, 'BYE', 7.1, 11.0, 10.8]
                     }
                     
                     ]
@@ -7285,10 +7285,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Limited by calf issue",
-    "report": "Hilton was limited at Wednesday's practice due to a calf injury, Andrew Walker of the Colts' official site reports.",
-    "analysis": "Hilton played 60 of the Colts' 64 offensive snaps in Sunday's win over the Broncos, but there were no reports suggesting he picked up an injury along the way. There's a good chance his limitations Wednesday were maintenance-related, but he'll erase any concern about his status for the Week 9 matchup with Pittsburgh by practicing fully Thursday and/or Friday.",
-    "timestamp": "2019-10-30 01:47 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 24.7,
     "week02": 12.3,
     "week03": 16.5,
@@ -7329,7 +7329,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.5, 12.2, 11.0, 'DNP', 10.8, 'BYE', 10.8, 14.3, 10.0]
                     }
                     
                     ]
@@ -7358,10 +7358,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Limited participant Wednesday",
-    "report": "Westbrook (neck/shoulder) was a limited practice participant Wednesday, Michael DiRocco of ESPN.com reports.",
-    "analysis": "Westbrook he aggravated the neck and shoulder injuries during Sunday's win over the Jets, but the fact he's practicing -- even in a limited fashion -- puts him on track to play versus the Texans this week. It's still worth watching his practice participation over the next couple days, while fellow wideout D.J. Chark (quadriceps) is also nursing an injury.",
-    "timestamp": "2019-10-30 02:22 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 11.7,
     "week02": 0.8,
     "week03": 7.5,
@@ -7402,7 +7402,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [12.5, 13.7, 7.6, 8.7, 10.2, 6.8, 8.9, 12.6, 10.0]
                     }
                     
                     ]
@@ -7431,10 +7431,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Hauls in 23-yard pass",
-    "report": "Moore caught one of four targets for 23 yards in Sunday's 27-20 win over the Falcons.",
-    "analysis": "Moore played 30 of 61 offensive snaps in the victory, clearly out-snapping Jaron Brown (17) and Malik Turner (seven). It has essentially been a rotation between Moore and Brown as the Seahawks' No. 3 wideout, although the majority of the meaningful reps have gone to Tyler Lockett and DK Metcalf this year. Moore has yet to surpass 36 yards in a game this season.",
-    "timestamp": "2019-10-28 06:46 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": 3.4,
@@ -7475,7 +7475,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 5.0, 6.7, 2.5, 3.8, 5.2, 4.5, 9.7]
                     }
                     
                     ]
@@ -7504,10 +7504,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#e17757",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "Snags three passes in loss",
-    "report": "Sutton caught three of six targets for 72 yards during Sunday's 15-13 loss in Indianapolis.",
-    "analysis": "Sutton came up big midway through the second quarter, catching a pass over the middle and stiff-arming his way for a 33-yard gain to set up a Denver field goal. Sutton looked comfortable in the undisputed WR1 role and Joe Flacco lamented after the game that the Broncos didn't give their sophomore target enough opportunities down the stretch. Denver's offense has been putrid this season, but Sutton has been a bright spot while averaging 16.3 yards per reception and recording a team-high three scores. Next up is a struggling Browns defense team that has been so-so in keeping opposing receivers in front of them this season.",
-    "timestamp": "2019-10-27 02:46 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 15.5,
     "week02": 6.0,
     "week03": 11.2,
@@ -7548,7 +7548,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.9, 6.1, 7.3, 6.9, 6.2, 10.0, 12.2, 14.9, 9.6]
                     }
                     
                     ]
@@ -7577,10 +7577,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Leads team in receiving yards",
-    "report": "Tate caught eight of 10 targets for 85 yards during Sunday's 31-26 loss to the Lions.",
-    "analysis": "Tate, who led the team in receiving yardage, was the only wide receiver with more than five targets. His long gain went for just 18 yards, but through sheer volume, he finished with a respectable day from a fantasy perspective. Tate has now been targeted a whopping 30 times over the last three weeks, coming away with at least 80 receiving yards in each contest. He'll look to continue his recent form in next Monday's home showdown with the Cowboys.",
-    "timestamp": "2019-10-27 07:30 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
@@ -7621,7 +7621,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 7.2, 9.0, 11.5, 12.4, 9.5]
                     }
                     
                     ]
@@ -7650,10 +7650,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Over 50 yards in every game",
-    "report": "Brown caught five of eight targets for 54 yards in Sunday's 31-13 loss to the Eagles.",
-    "analysis": "Brown led the team in targets, catches and receiving yards, but owners had to have been hoping for more against an Eagles defense that was the worst in the league at defending wide receivers coming in. The 29-year-old receiver should be commended for establishing a high floor despite having the inaccurate Josh Allen throwing him the ball, as Brown has managed to top 50 yards in every game this season. He shouldn't have a problem keeping that streak going against the Redskins in Week 9.",
-    "timestamp": "2019-10-27 02:39 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 21.8,
     "week02": 10.7,
     "week03": 7.5,
@@ -7694,7 +7694,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [11.9, 13.9, 12.6, 10.2, 9.6, 'BYE', 11.3, 7.9, 9.2]
                     }
                     
                     ]
@@ -7723,10 +7723,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/oak.png",
-    "headlineNews": "Secures long TD catch",
-    "report": "Renfrow caught all four of his targets for 88 yards and a touchdown during Sunday's 27-24 loss to the Texans.",
-    "analysis": "Renfrow got his team on the board in the first quarter when he made a short catch and broke a pair of tackles before sprinting in for a 65-yard touchdown. It was the first big play of Renfrow's young career, which hadn't seen him exceed 30 receiving yards in any game this season. While he should continue to see a handful of targets each time out, he's far from a bankable fantasy option even in next week's inviting home matchup against the Lions.",
-    "timestamp": "2019-10-27 08:07 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 2.3,
     "week02": 5.0,
     "week03": 4.3,
@@ -7767,7 +7767,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.6, 7.9, 2.5, 4.8, 2.8, 'BYE', 3.3, 5.2, 9.2]
                     }
                     
                     ]
@@ -7796,10 +7796,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Modest production with change at QB",
-    "report": "McLaurin secured four of six targets for 39 yards in the Redskins' 19-9 loss to the Vikings on Thursday.",
-    "analysis": "McLaurin's modest totals nevertheless served as team bests across the board, as the entire air attack was significantly hamstrung in the second half with Dwayne Haskins taking over for Case Keenum (concussion). McLaurin now has back-to-back quiet games, but the weather (Week 7) and the gameplan (Week 8) have had a significant part to play in the downturn. McLaurin will look to bounce back in another game that could have less-than-ideal circumstances, a Week 9 road matchup versus the Bills a week from Sunday.",
-    "timestamp": "2019-10-24 09:12 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 21.0,
     "week02": 14.7,
     "week03": 16.0,
@@ -7840,7 +7840,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [3.5, 13.0, 11.2, 'DNP', 12.2, 13.7, 11.4, 8.7, 9.1]
                     }
                     
                     ]
@@ -7869,10 +7869,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Solid target count in loss",
-    "report": "Parker caught six of eight targets for 59 yards during Monday's 27-14 loss to the Steelers.",
-    "analysis": "Parker has now either eclipsed 50 receiving yards or scored a touchdown in seven of eight contests this season. The 2015 first-round pick has also led the team in targets for two consecutive weeks. He and Preston Williams are operating as the clear top options in Miami's aerial attack, and Parker's consistency makes him worth legitimate fantasy consideration in deeper formats.",
-    "timestamp": "2019-10-28 09:12 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.0,
     "week02": 0.0,
     "week03": 7.1,
@@ -7913,7 +7913,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.3, 7.3, 6.6, 5.1, 'BYE', 7.6, 5.2, 9.0, 9.1]
                     }
                     
                     ]
@@ -7942,10 +7942,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Another stellar effort",
-    "report": "Diggs secured all seven targets for 143 yards in the Vikings' 19-9 win over the Redskins on Thursday. He also lost a fumble.",
-    "analysis": "Diggs led both clubs in receptions and receiving yardage on the night and turned in three receptions of more than 30 yards in the process. After a brief bump in the road that even led to trade rumors earlier in the season, Diggs has roared back to put together three consecutive 100-yard efforts that have all consisted of seven-catch tallies. The 25-year-old will look to extend his hot streak in a Week 9 battle against the Chiefs a week from Sunday.",
-    "timestamp": "2019-10-24 08:49 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 4.7,
     "week02": 9.4,
     "week03": 3.0,
@@ -7986,7 +7986,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [13.5, 5.4, 10.7, 7.0, 8.8, 6.1, 9.7, 10.6, 9.0]
                     }
                     
                     ]
@@ -8015,10 +8015,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
     "tmTextLite": "#FF3C00",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Logs limited practice",
-    "report": "Beckham (groin) was limited at Wednesday's practice, Nate Ulrich of the Akron Beacon Journal reports.",
-    "analysis": "The same applies to Jarvis Landry (shoulder), but so far there's nothing to suggest that either wideout's status for this weekend's game against the Broncos is in any danger. Beckham was listed on last week's injury report with a groin issue, yet practiced fully in advance an eventual loss to the Patriots. Unless news surfaces that Beckham suffered a setback at Wednesday's practice, it's fair to assume that his listed limitations were maintenance-related.",
-    "timestamp": "2019-10-30 01:35 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 10.6,
     "week02": 25.1,
     "week03": 8.6,
@@ -8059,7 +8059,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [16.4, 20.6, 14.5, 19.3, 15.5, 11.6, 'BYE', 14.1, 8.9]
                     }
                     
                     ]
@@ -8088,10 +8088,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#0085CA",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Nursing shoulder injury",
-    "report": "Samuel didn't practice Wednesday due to a shoulder injury, Jourdan Rodrigue of The Athletic reports.",
-    "analysis": "Samuel picked up the shoulder issue during the Week 8 loss to the 49ers, according to Steve Reed of the Associated Press. The third-year wideout will have two more opportunities to return to practice before Sunday's tilt against the Titans. If Samuel were forced to miss any time, Jarius Wright would likely start opposite D.J. Moore.",
-    "timestamp": "2019-10-30 12:16 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 4.7,
     "week02": 11.8,
     "week03": 13.8,
@@ -8132,7 +8132,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [8.3, 7.1, 11.0, 11.2, 9.5, 11.1, 'BYE', 6.4, 8.6]
                     }
                     
                     ]
@@ -8161,10 +8161,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Nice target count in return",
-    "report": "Watkins reeled in five of his eight targets for 45 yards during Sunday's game against the Packers.",
-    "analysis": "Watkins' stay on the sideline lasted the better part of three games, but the Chiefs' receiving corps is now firing on all cylinders. All that awaits them is the return of quarterback Patrick Mahomes, which could come as soon as next Sunday versus the Vikings. Watkins has turned in mediocre outings across the board since his Week 1 explosion, but perhaps having all of the team's offensive weapons back will benefit him. Watkins logged 86 percent of the offensive snaps Sunday, compared to 92-plus percent in each of the first four games, so he may see additional run in his second game back from injury next week.",
-    "timestamp": "2019-10-28 07:35 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 42.3,
     "week02": 7.9,
     "week03": 8.9,
@@ -8205,7 +8205,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.1, 12.6, 12.3, 15.8, 10.2, 'DNP', 'DNP', 10.4, 8.5]
                     }
                     
                     ]
@@ -8234,10 +8234,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Targeted seven times in loss",
-    "report": "Williams caught four of seven targets for 42 yards during Monday's 27-14 loss to Pittsburgh.",
-    "analysis": "After a pair of first-quarter touchdowns, the Steelers did well to stifle Williams and the Dolphins down the stretch. The rookie undrafted free agent has been a bright spot in what has otherwise been a dismal season for Miami, coming out of nowhere to record at least five targets in each game this season. The Dolphins don't have a lot of talent around Williams in the offense to make those opportunities count, however, and he has not been targeted inside the 10-yard line since Week 1 -- a pass that resulted in his only touchdown of the year. Next up is a favorable matchup against the reeling Jets.",
-    "timestamp": "2019-10-29 04:02 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.9,
     "week02": 8.3,
     "week03": 8.8,
@@ -8278,7 +8278,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [1.9, 4.2, 5.3, 9.3, 'BYE', 7.2, 8.2, 8.8, 8.5]
                     }
                     
                     ]
@@ -8307,10 +8307,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "Finds end zone",
-    "report": "Brown caught two of his three targets for 11 yards and a touchdown in Week 8 against the Buccaneers.",
-    "analysis": "Brown took on a surprisingly small role in the Titans' passing attack, finishing tied for fifth on the team in targets. He also didn't work down the field with those targets, as his longest reception went for just eight yards. However, he did manage to salvage his day by collecting the game-winning touchdown with just under seven minutes remaining in the fourth quarter. Despite Ryan Tannehill giving the offense some new life, it is clear that the team is wiling to rely on its defense and running game to try and produce wins. That makes Brown and the Titans' other receivers volatile fantasy options.",
-    "timestamp": "2019-10-28 05:37 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 11.5,
     "week02": 4.0,
     "week03": 0.9,
@@ -8351,7 +8351,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.2, 7.8, 4.8, 7.8, 7.8, 8.4, 5.7, 9.5, 8.5]
                     }
                     
                     ]
@@ -8380,10 +8380,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Season-high 84 yards in win",
-    "report": "Johnson caught five of seven targets for 84 yards and a touchdown in Monday's 27-14 win over the Dolphins.",
-    "analysis": "The return of quarterback Mason Rudolph resulted in the 2019 third-rounder having his most productive game this season.  Johnson converted a third-and-20 for a 45-yard touchdown and now has three scores in his last five contests. In Week 9, he'll face an Indianapolis defense that has allowed just two passing touchdowns in its last three games, but Johnson still warrants a degree of fantasy consideration, given that he's emerged as the Steelers' No. 2 wide receiver behind top option JuJu Smith-Schuster.",
-    "timestamp": "2019-10-28 10:04 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 4.0,
     "week02": 2.2,
     "week03": 13.3,
@@ -8424,7 +8424,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [1.8, 3.9, 4.1, 4.5, 5.6, 2.4, 'BYE', 8.3, 7.8]
                     }
                     
                     ]
@@ -8453,10 +8453,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Quiet in Jacksonville",
-    "report": "Crowder caught three of five targets for 24 yards in Sunday's 29-15 loss to Jacksonville.",
-    "analysis": "Crowder made a great first impression with a 14-catch Jets debut, and he topped 90 yards in both the season opener and New York's Week 6 win over Dallas. The slot receiver has been a non-factor outside of those games, however, failing to top 40 yards in any other contest and still searching for his first touchdown in Green and White. If you're thinking of cutting bait on Crowder, it could be wise to give him one more chance, as he'll face the Dolphins in Week 9.",
-    "timestamp": "2019-10-27 03:51 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 17.3,
     "week02": 6.0,
     "week03": 3.5,
@@ -8497,7 +8497,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [4.9, 7.9, 6.6, 'BYE', 5.9, 4.5, 5.1, 7.2, 7.7]
                     }
                     
                     ]
@@ -8526,10 +8526,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Manages limited practice",
-    "report": "Jackson (abdomen) was a limited participant in Wednesday's practice, Kevin Fishbain of The Athletic reports.",
-    "analysis": "Jackson ran routes and took part in individual drills in the portion of practice that was open to the media, per Zack Rosenblatt of The Newark Star-Ledger. The veteran wideout appears to have a chance of suiting up Sunday against the Bears after a six-game absence, but his availability will likely hinge on what he's able to do in practices Thursday and Friday. Of course, with a Week 10 bye coming up, the Eagles could realistically take a cautious approach to Jackson's recovery and target the Nov. 17 game against the Patriots for his return.",
-    "timestamp": "2019-10-30 12:33 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 31.4,
     "week02": 0.0,
     "week03": "DNP",
@@ -8570,7 +8570,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.2, 6.8, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.6]
                     }
                     
                     ]
@@ -8599,10 +8599,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Underwhelms in win over Raiders",
-    "report": "Stills caught three of five targets for 22 yards during Sunday's 27-24 win over the Raiders.",
-    "analysis": "Stills seemed poised for a productive outing in the absence of Will Fuller (hamstring), but he instead did little of note. He tied for third on the team in targets, with his long gain of 13 yards representing his only significant contribution of the game. Stills is seemingly still reliant on big plays for fantasy production despite an elevated role in the passing game, and this should remain the case next Sunday against the Jaguars in London.",
-    "timestamp": "2019-10-27 08:44 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": 4.8,
     "week03": 10.9,
@@ -8643,7 +8643,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 2.5, 3.1, 3.0, 'DNP', 'DNP', 5.4, 8.6, 7.3]
                     }
                     
                     ]
@@ -8672,10 +8672,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Touchdown in two straight",
-    "report": "Beasley caught three of seven targets for 41 yards and a touchdown in Sunday's 31-13 loss to Philadelphia.",
-    "analysis": "Beasley hauled in a 14-yard touchdown in the second quarter. He's found the end zone in consecutive games but has exactly three receptions in each of his last three games after totaling 24 catches in his first four games with the Bills. The slot receiver will be looking to stretch his touchdown streak to three games in Week 9 against a Redskins defense that's surrendering 24.4 points per game.",
-    "timestamp": "2019-10-27 02:51 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 6.5,
     "week02": 10.3,
     "week03": 10.8,
@@ -8716,7 +8716,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.6, 10.5, 8.2, 5.5, 6.2, 'BYE', 6.2, 4.4, 7.2]
                     }
                     
                     ]
@@ -8745,10 +8745,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Hits paydirt again",
-    "report": "Hardman caught both of his targets for 55 yards and a touchdown in Sunday's 31-24 loss to Green Bay.",
-    "analysis": "Hardman has seen his targets decrease by one in each game since Tyreek Hill returned from injury, but the speedy wideout has been able to find the end zone in consecutive contests. The speedy rookie will need to bust out big plays in order maintain fantasy value with the rest of the Chiefs' receiving corps back at full strength. Hardman would have a higher chance of breaking off a huge gain if Patrick Mahomes (knee) is able to return for Week 9's matchup with Minnesota.",
-    "timestamp": "2019-10-27 10:30 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.0,
     "week02": 14.1,
     "week03": 17.4,
@@ -8789,7 +8789,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [3.1, 7.1, 7.8, 8.6, 3.3, 6.4, 4.2, 5.2, 7.2]
                     }
                     
                     ]
@@ -8818,10 +8818,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "tmTextLite": "#c36835",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Targeted six times",
-    "report": "Gabriel caught four passes for 53 yards in Chicago's 17-16 loss to the Chargers on Sunday.",
-    "analysis": "Gabriel was second on the team with six targets, and he had a chance for a big play when he was wide open deep down field, but the ball was significantly overthrown. Although he's posted at least 53 yards in two of his last three games, he also has a pair of games with fewer than 12 yards over the last four weeks, making him a difficult player to trust in fantasy lineups.",
-    "timestamp": "2019-10-27 02:54 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.4,
     "week02": 3.0,
     "week03": 29.2,
@@ -8862,7 +8862,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.7, 7.3, 6.8, 'DNP', 'DNP', 'BYE', 3.7, 4.2, 7.2]
                     }
                     
                     ]
@@ -8891,10 +8891,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#0076B6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-    "headlineNews": "Held in check vs. Giants",
-    "report": "Jones caught four of six targets for 22 yards during Sunday's 31-26 win over the Giants.",
-    "analysis": "Jones finished third on the team in targets and receptions, but his long gain went for just six yards in an underwhelming effort. This dud performance was especially notable considering Jones recorded four touchdown catches a week ago, giving him two games with fewer than 25 receiving yards in his last three. The mercurial wideout will look to bounce back in next week's favorable away matchup with the Raiders.",
-    "timestamp": "2019-10-27 08:22 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 8.0,
     "week02": 6.8,
     "week03": 19.1,
@@ -8935,7 +8935,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.1, 7.1, 11.6, 6.6, 'BYE', 8.0, 7.2, 7.4, 7.1]
                     }
                     
                     ]
@@ -8964,10 +8964,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Making progress",
-    "report": "Shepard (concussion) will take contact during Wednesday's practice, Art Stapleton of The Bergen Record reports.",
-    "analysis": "Shepard has been working through the league's five-step protocol since suffering his second diagnosed concussion of the season Week 5. He's been a limited participant in practice the last two weeks, but his ability to absorb contact Wednesday suggests he could be listed as a full participant in the Giants' first injury report of Week 9, which will be released Thursday. Even if Shepard upgrades to full participation, he'll still need to receive clearance from an independent neurologist later this week in order to play in games, per Jordan Raanan of ESPN.com. Shepard isn't a lock to be removed from the protocol in time for Monday's tilt with the Cowboys.",
-    "timestamp": "2019-10-30 09:05 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 7.2,
     "week02": 0.0,
     "week03": 23.6,
@@ -9008,7 +9008,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.5, 11.6, 8.2, 14.4, 10.1, 'DNP', 'DNP', 'DNP', 6.6]
                     }
                     
                     ]
@@ -9037,10 +9037,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Returns to limited practice",
-    "report": "Brown (ankle) was listed as a limited practice participant Wednesday.",
-    "analysis": "Brown, who didn't practice leading up to Week 7 action, benefited from the Ravens' subsequent bye before returning to the field in a limited fashion in the first practice of Week 9. The speedy wideout is trending in the right direction as Sunday's game against the Patriots approaches, but with Jamison Hensley of ESPN.com having previously noted that Brown \"walked with a limp\" Wednesday, a Week 9 return can't yet be counted on.",
-    "timestamp": "2019-10-30 02:56 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 28.7,
     "week02": 12.6,
     "week03": 5.9,
@@ -9081,14 +9081,14 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [1.6, 14.5, 10.2, 15.1, 9.6, 'DNP', 'DNP', 'BYE', 6.5]
                     }
                     
                     ]
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3921958.png",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2578533.png",
     "name": "Chris Conley",
     "depthchart": "Reserve: WR-3",
     "team": "Jacksonville Jaguars",
@@ -9110,10 +9110,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Burns Jets for 70-yard score",
-    "report": "Cnley caught four of seven targets for 103 yards and a touchdown in Sunday's 29-15 win over the Jets.",
-    "analysis": "Conley ripped off a 70-yard touchdown in the first quarter for his first trip to the end zone since Week 1. The big-play receiver has heated back up after a slump, topping 80 yards in consecutive games following a four-week stretch in which he totaled just 73 yards. Conley will look to keep rolling in Week 9 against the Texans.",
-    "timestamp": "2019-10-27 03:08 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 18.7,
     "week02": 9.3,
     "week03": 4.0,
@@ -9154,7 +9154,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [3.7, 7.9, 2.7, 2.0, 3.1, 3.1, 3.6, 6.6, 6.5]
                     }
                     
                     ]
@@ -9183,10 +9183,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Receives one-year extension",
-    "report": "Snead agreed to a one-year, $6 million extension Monday, Adam Schefter of ESPN reports.",
-    "analysis": "The deal is fully guaranteed and locks Snead into the 2020 campaign with the Ravens. He's proved to be a solid fit with Lamar Jackson, reeling in 15 of 22 targets for 223 yards and two touchdowns in seven games this season. Those numbers aren't eye-popping, but they are decent enough in a run-based offense, and behind more explosive options like tight end Mark Andrews and rookie wide receiver Marquise Brown (ankle).",
-    "timestamp": "2019-10-28 04:02 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 11.1,
     "week02": 1.0,
     "week03": 6.2,
@@ -9227,7 +9227,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.9, 11.8, 6.4, 8.5, 6.1, 7.7, 9.6, 'BYE', 6.4]
                     }
                     
                     ]
@@ -9256,10 +9256,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Role reduced, trade rumored",
-    "report": "Pettis had one reception on three targets for five yards in Sunday's 51-13 win over the Panthers.",
-    "analysis": "The 24-year-old was bumped out of the starting lineup in favor of rookie Deebo Samuel for the first time since Week 2. It is no secret that Pettis has been a colossal disappointment in his sophomore season. From having his motivation questioned by his head coach in the preseason, to poor statistical results despite technically being a starter (10 catches for 88 yards and a touchdown over seven games), there isn't a positive takeaway from his 2019 campaign so far. In fact, following the acquisition of Emmanuel Sanders earlier this week, there was a report that Pettis could be dealt before Tuesday's trade deadline, according to NFL Insider Adam Caplan. A trade to a more pass-happy offense could be the recipe he needs to tap back into the potential the 2018 second-round pick displayed last season, but if he sticks in San Francisco, Pettis will not carry much fantasy value heading into Thursday's matchup against the Cardinals.",
-    "timestamp": "2019-10-28 04:53 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 1.2,
     "week02": 0.64,
     "week03": 10.0,
@@ -9300,7 +9300,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [11.8, 5.3, 5.9, 'BYE', 9.4, 6.3, 6.4, 2.6, 6.3]
                     }
                     
                     ]
@@ -9329,10 +9329,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Catchless on four targets",
-    "report": "Perriman was unable to haul in any of his four targets during Sunday' 27-23 loss to the Titans.",
-    "analysis": "Though he had yet to link up with Jameis Winston to that point, Winston looked Perriman's way deep in the final moments of Sunday's loss with the Buccaneers attempting a comeback. However, Titans defensive back Logan Ryan seemed to run Perriman's route ahead of him and picked the pass off. After the game, head coach Bruce Arians blamed Winstons' two INTs on the receivers, including Perriman. The fourth-year player has been incredibly inefficient this season with just three catches for 16 yards on 16 targets. Sunday brings a Seahawks team that has surrendered plenty of passing yards this season, but expect them to be accumulated by the likes of Chris Godwin and Mike Evans instead.",
-    "timestamp": "2019-10-29 04:25 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 2.0,
     "week02": 0.0,
     "week03": 2.4,
@@ -9373,7 +9373,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [2.4, 4.6, 7.8, 1.9, 'DNP', 'DNP', 'BYE', 2.9, 6.1]
                     }
                     
                     ]
@@ -9402,10 +9402,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#C60C30",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Catches three passes Sunday",
-    "report": "Dorsett was on the field for 64 of a possible 69 snaps on offense in Sunday's 27-13 win over the Browns, en route to catching three of his six targets for 43 yards.",
-    "analysis": "Meanwhile, Julian Edelman logged 66 snaps, while newcomer Mohamed Sanu was on the field for 37 snaps. Once Sanu becomes more acclimated with the team's offense, his workload figures to expand, probably at Dorsett's expense. There's still some deep-league fantasy value to be found from whoever serves as the Patriots' No. 3 wide receiver, but as long as Edelman and Sanu remain healthy, Dorsett's target share figures to be inconsistent.",
-    "timestamp": "2019-10-28 09:19 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 23.5,
     "week02": 5.4,
     "week03": 15.5,
@@ -9446,7 +9446,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [0.7, 3.8, 5.4, 3.5, 3.3, 'DNP', 5.4, 7.1, 6.0]
                     }
                     
                     ]
@@ -9475,10 +9475,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Drops deep touchdown pass",
-    "report": "Williams caught three of his six targets for 69 yards in the 17-16 win Sunday over the Bears.",
-    "analysis": "Williams led the team in receiving yards, but a badly dropped touchdown on a deep pass in the first half likely ruined what could have been a breakout game for the 25-year-old. Quarterback Philip Rivers' lone interception came on what would probably count as a misplay by Williams, as the third-year receiver didn't come back to an errant pass far enough, resulting in cornerback Kyle Fuller jumping in front of the misguided pass attempt. Still, it seems as if Williams is knocking on the door of a fantasy outburst each week, and he should have more opportunities next week against a Packers secondary that has struggled to stop the pass in recent weeks.",
-    "timestamp": "2019-10-27 02:09 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.9,
     "week02": 9.8,
     "week03": 6.0,
@@ -9519,7 +9519,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.2, 9.4, 8.1, 'DNP', 5.5, 6.8, 6.1, 5.9, 6.0]
                     }
                     
                     ]
@@ -9548,10 +9548,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Drops deep touchdown pass",
-    "report": "Williams caught three of his six targets for 69 yards in the 17-16 win Sunday over the Bears.",
-    "analysis": "Williams led the team in receiving yards, but a badly dropped touchdown on a deep pass in the first half likely ruined what could have been a breakout game for the 25-year-old. Quarterback Philip Rivers' lone interception came on what would probably count as a misplay by Williams, as the third-year receiver didn't come back to an errant pass far enough, resulting in cornerback Kyle Fuller jumping in front of the misguided pass attempt. Still, it seems as if Williams is knocking on the door of a fantasy outburst each week, and he should have more opportunities next week against a Packers secondary that has struggled to stop the pass in recent weeks.",
-    "timestamp": "2019-10-27 02:09 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.9,
     "week02": 9.8,
     "week03": 6.0,
@@ -9592,7 +9592,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.2, 9.4, 8.1, 'DNP', 5.5, 6.8, 6.1, 5.9, 6.0]
                     }
                     
                     ]
@@ -9621,10 +9621,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Another subdued performance",
-    "report": "Fitzgerald secured two of four targets for eight yards in the Cardinals' 31-9 loss to the Saints on Sunday.",
-    "analysis": "Fitzgerald was sort of a forgotten man with Christian Kirk making his return from an ankle injury. The veteran receiver now has less than 20 receiving yards in back-to-back games, and he's seen just seven targets combined over that last pair of contests after notching at least that many in five of the first six games of the campaign. Fitzgerald will look to make inroads against a tough 49ers defense in a Week 9 Thursday night battle.",
-    "timestamp": "2019-10-27 02:21 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 21.3,
     "week02": 12.9,
     "week03": 12.1,
@@ -9665,7 +9665,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.1, 14.5, 13.4, 9.2, 10.3, 18.3, 14.2, 12.6, 5.9]
                     }
                     
                     ]
@@ -9694,10 +9694,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Scores in unconventional fashion",
-    "report": "Samuel caught all three of his targets for 19 yards Sunday, and he also rushed twice for 29 yards and a touchdown in a 51-13 win over Carolina.",
-    "analysis": "Samuel had a quiet day as a receiver, but he was able to do some damage as a runner. Coach Kyle Shanahan dialed up the same jet sweep play for his rookie wideout on both carries, and Samuel cut his second attempt back inside and hit paydirt for the second time in six games. Usual starter Marquise Goodwin missed Sunday's contest for personal reasons, so new acquisition Emmanuel Sanders took his spot in the starting lineup, but it was Samuel -- and not Dante Pettis -- who started opposite the veteran. The latter had started every game he has been healthy for up until this point, so this could signal a change in the depth chart moving forward. It will be interesting to see who ends up starting alongside Sanders against the Cardinals on Thursday (assuming Goodwin is available), but it appears that Samuel will occupy one of the three primary WR slots.",
-    "timestamp": "2019-10-28 04:28 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.2,
     "week02": 17.9,
     "week03": 5.9,
@@ -9738,7 +9738,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [4.5, 3.4, 11.9, 'BYE', 5.3, 6.8, 'DNP', 6.1, 5.9]
                     }
                     
                     ]
@@ -9767,10 +9767,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "Alarmingly inefficient Week 8",
-    "report": "Davis caught two of six targets for nine receiving yards during Sunday's 27-23 win against the Buccaneers.",
-    "analysis": "The 24-year-old wideout was dealing with an illness leading into a Week 8 matchup against Tampa Bay's 32nd-ranked pass defense, perhaps explaining why he was unable to make any sort of substantial impact  despite facing a somewhat lenient opponent. Davis' first start alongside Ryan Tannehill in Week 7 was extremely encouraging, as he racked up six catches for 80 yards and a touchdown, but in Week 8 he was contained to fewer than 40 receiving yards for the third time in his past four outings. Upcoming next is a matchup against a Panthers team that entered the weekend as one of the NFL's eight best pass defenses with just 225 yards allowed per game through the air.",
-    "timestamp": "2019-10-27 02:17 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.0,
     "week02": 5.3,
     "week03": 5.9,
@@ -9811,7 +9811,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.0, 5.8, 3.1, 9.5, 7.3, 9.4, 6.0, 12.3, 5.6]
                     }
                     
                     ]
@@ -9840,10 +9840,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Catches two TD passes",
-    "report": "Slayton caught two of five targets for 50 yards and two touchdowns during Sunday's 31-26 loss to the Lions.",
-    "analysis": "Slayton made the most of his two grabs, which capped off back-to-back touchdown drives in the second quarter. He had totaled five catches for 60 yards over the previous two games, so this efficient effort was likely a pleasant surprise to fantasy owners who rolled the dice on him this week. Despite Slayton's performance in this one, the Giants have several other options ahead of him on offense, which far from guarantees him similar results in next Monday's home matchup against the Cowboys.",
-    "timestamp": "2019-10-27 08:32 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": 9.7,
@@ -9884,7 +9884,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 1.6, 8.3, 6.0, 7.3, 9.9, 9.6, 5.4]
                     }
                     
                     ]
@@ -9913,10 +9913,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Just one reception Sunday",
-    "report": "Pascal had just one reception for six yards on two targets in Sunday's win over Denver. He also had two kickoff returns for 76 yards, including a 47-yard return.",
-    "analysis": "After a career-best game the prior week where he had 106 yards receiving and two touchdowns, Pascal didn't have much impact other than special teams. Pascal was a starting receiver in a three-wideout set with T.Y. Hilton and Chester Rogers and played the second most snaps to Hilton (59 snaps to Hilton's 60 snaps). However, like earlier in the season, that high snap count hasn't always translated into many targets.",
-    "timestamp": "2019-10-28 02:27 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.0,
     "week02": 0.0,
     "week03": 12.3,
@@ -9957,7 +9957,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [-1.2, 1.5, 1.8, 1.5, 0.8, 'BYE', 5.4, 6.8, 5.4]
                     }
                     
                     ]
@@ -9989,10 +9989,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Finds end zone versus Lions",
-    "report": "Engram caught four of seven targets for 40 yards and a touchdown during Sunday's 31-26 loss to the Lions.",
-    "analysis": "Engram finished third on the team in targets, and although he averaged just 10.0 yards per catch, he salvaged his day from a fantasy perspective with a two-yard touchdown grab in the third quarter. He recorded just one catch last week in a favorable matchup against Arizona, so although he was held under 55 receiving yards for the fourth straight game, this was a much more useful effort from the tight end. Engram could be utilized often next Monday against a Cowboys team he torched in the opening game of the season.",
-    "timestamp": "2019-10-27 06:34 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 23.1,
     "week02": 7.8,
     "week03": 20.3,
@@ -10033,7 +10033,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [14.3, 9.6, 16.1, 11.5, 16.2, 'DNP', 15.7, 13.2, 16.2]
                     }
                     
                     ]
@@ -10062,10 +10062,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Kept in check",
-    "report": "Henry caught four of his six targets for 47 yards in the 17-16 win Sunday over the Bears.",
-    "analysis": "This was always going to be a difficult matchup for Henry and the rest of the Chargers, so it seemed likely the third-year tight end would have trouble replicating his previous two weeks figures. In a game in which quarterback Philip Rivers completed just 19 passes, it's a positive sign that Henry netted over a fifth of the looks, and it seems likely the 24-year-old will continue to be an elite option at the fantasy tight end position, especially with a handful of easier matchups to come.",
-    "timestamp": "2019-10-27 02:23 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 8.0,
     "week02": "DNP",
     "week03": "DNP",
@@ -10106,7 +10106,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [15.2, 'DNP', 'DNP', 'DNP', 'DNP', 10.5, 14.9, 14.6, 15.7]
                     }
                     
                     ]
@@ -10135,10 +10135,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/oak.png",
-    "headlineNews": "Salvages day with touchdown grab",
-    "report": "Waller caught two of eight targets for 11 yards and a touchdown during Sunday's 31-26 win over the Raiders.",
-    "analysis": "Waller received lots of attention from the Houston defense on the day, as he hauled in just a quarter of the passes sent his way. Luckily, one of his two grabs produced an eight-yard touchdown, which salvaged his day from a fantasy perspective. Although Waller hadn't reached the end zone prior to last week, he's scored three times in his last two games to add another dimension to his fantasy utility. He'll look to continue his breakout campaign next Sunday at home against the Lions.",
-    "timestamp": "2019-10-27 06:50 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 10.5,
     "week02": 9.3,
     "week03": 20.6,
@@ -10179,7 +10179,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [3.0, 7.6, 6.4, 14.1, 10.7, 'BYE', 9.6, 10.2, 15.5]
                     }
                     
                     ]
@@ -10208,10 +10208,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Limited at practice again",
-    "report": "Herndon (hamstring) will remain limited at practice Wednesday, Brian Costello of the New York Post reports.",
-    "analysis": "Herndon was a limited participant throughout last week, initially earning a \"doubtful\" tag on the final injury report before the Jets downgraded him to \"out\" Saturday ahead of Sunday's eventual loss to the Jaguars. After missing four games with a suspension and three more with a hamstring strain, Herndon is looking shaky for the Week 9 contest in Miami.",
-    "timestamp": "2019-10-30 08:34 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
@@ -10252,7 +10252,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 12.0]
                     }
                     
                     ]
@@ -10281,10 +10281,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Leads team in receiving",
-    "report": "Kittle caught six of seven targets for a team-high 86 yards in Sunday's 51-13 rout of the Panthers.",
-    "analysis": "He led the Niners in receiving, and he could have had an even bigger performance if a Deebo Samuel offensive pass interference penalty hadn't wiped out Kittle's second-quarter TD. The addition of Emmanuel Sanders didn't have an impact on Kittle's role in the passing game -- his seven targets led the team, and accounted for nearly a third of Jimmy Garoppolo's attempts. The third-year superstar could be primed for huge numbers next week against a Cardinals defense that has struggled to contain tight ends all year.",
-    "timestamp": "2019-10-27 06:45 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.4,
     "week02": 6.9,
     "week03": 8.7,
@@ -10325,7 +10325,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [14.8, 8.1, 13.3, 'BYE', 11.8, 10.0, 8.9, 9.5, 11.6]
                     }
                     
                     ]
@@ -10354,10 +10354,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Can't practice Wednesday",
-    "report": "Howard (hamstring) didn't practice Wednesday, Scott Smith of the Buccaneers' official site reports.",
-    "analysis": "Howard sat out Sunday's loss to the Titans and has now missed three consecutive practices. While he wasn't able to log any on-field work with his healthy teammates, the third-year tight end was seen running off to the side, according to Rick Stroud of the Tampa Bay Times. Howard will have two more opportunities to up his level of participation in practice before this weekend's tilt with Seattle.",
-    "timestamp": "2019-10-30 10:37 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.2,
     "week02": 0.0,
     "week03": 8.1,
@@ -10398,7 +10398,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [5.9, 5.6, 8.4, 4.2, 7.5, 12.7, 'BYE', 'DNP', 11.3]
                     }
                     
                     ]
@@ -10427,10 +10427,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Catches two of eight targets",
-    "report": "Andrews caught two of his eight targets for 39 yards during Sunday's 30-14 win over the Seahawks.",
-    "analysis": "On a day when the Ravens threw the ball just 20 times, Andrews dominated with a 40 percent target share. He failed to haul in just a quarter of the balls thrown his way, however, and made no real impact outside of a 33-yard catch-and-run. While this is obviously a disappointing showing for Andrews' fantasy owners, it should be noted that he still has 99 receiving yards or a touchdown in four of seven games this season. He'll face another tough matchup next Sunday night against the Patriots.",
-    "timestamp": "2019-10-20 04:50 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 20.8,
     "week02": 21.2,
     "week03": 3.0,
@@ -10471,7 +10471,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.9, 7.6, 10.9, 11.5, 11.8, 10.6, 11.8, 'BYE', 8.6]
                     }
                     
                     ]
@@ -10500,10 +10500,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#0085CA",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Shut down during Week 8 drubbing",
-    "report": "Olsen caught both of his targets for 13 receiving yards during Sunday's 51-13 loss to the 49ers.",
-    "analysis": "The veteran tight end's production has taken a substantial dip since a red-hot start, as he has been held scoreless while averaging two catches for 17.5 yards per game over his past four appearances, after putting up 16 catches for 221 yards and two touchdowns between Weeks 1 and 3. Olsen was dealing with a back injury through the latter stages of September, but he appears recovered as the Panthers prepare for an upcoming matchup against a Titans defense that's tied for the third-most receiving touchdowns allowed to opposing tight ends.",
-    "timestamp": "2019-10-27 07:38 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 5.6,
     "week02": 14.0,
     "week03": 22.5,
@@ -10544,7 +10544,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [14.3, 12.3, 16.4, 10.0, 8.2, 16.2, 'BYE', 7.2, 8.6]
                     }
                     
                     ]
@@ -10573,10 +10573,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "tmTextLite": "#d7a017",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Limited at Wednesday's walkthrough",
-    "report": "Graham (ankle) was limited on Wednesday's practice estimate, Rob Demovsky of ESPN.com reports.",
-    "analysis": "The Packers merely held a walkthrough, but Graham nonetheless made his customary appearance on the injury report. With little to worry about as it pertains to his upcoming availability, he likely will have his designation removed entirely by the end of the week.",
-    "timestamp": "2019-10-30 04:57 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 10.5,
     "week02": 0.0,
     "week03": 0.0,
@@ -10617,7 +10617,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.7, 7.9, 6.6, 5.8, 15.2, 10.7, 7.8, 9.4, 7.9]
                     }
                     
                     ]
@@ -10646,10 +10646,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Slump continues",
-    "report": "Ertz caught two of four targets for 20 yards in Sunday's 31-13 win over the Bills.",
-    "analysis": "Ertz set a season low in yardage for a second straight week while also watching fellow tight end Dallas Goedert score a touchdown for the second game in a row. It's too early to press the panic button on the star tight end, but a Week 9 dud from Ertz against the Bears would certainly set off alarm bells for his owners, especially if Goedert continues to outplay him.",
-    "timestamp": "2019-10-27 02:01 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 7.9,
     "week02": 13.2,
     "week03": 8.4,
@@ -10690,7 +10690,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [14.1, 7.5, 11.6, 9.1, 12.4, 4.3, 9.2, 5.0, 7.7]
                     }
                     
                     ]
@@ -10719,10 +10719,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Leads team in receiving",
-    "report": "Doyle caught four of five passes for 61 yards during Sunday's 15-13 win over Denver. He fumbled once, but it was recovered by the offense.",
-    "analysis": "In what was a defensive slugfest, Doyle ended up being a difference maker, leading the Colts with 61 receiving yards, his highest total of the season. Doyle has been a solid underneath contributor for Indy with at least three catches in five consecutive games, but his 10.0 yards per catch and one touchdown on the season probably make him less valuable for fantasy purposes than he is for his  team. Next up is a middle-of-the-road Steelers pass defense.",
-    "timestamp": "2019-10-27 01:59 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 2.5,
     "week02": 3.1,
     "week03": 6.6,
@@ -10763,7 +10763,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [2.6, 7.1, 5.2, 2.4, 5.8, 'BYE', 5.0, 4.9, 7.6]
                     }
                     
                     ]
@@ -10792,10 +10792,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Finds end zone in loss",
-    "report": "Kelce caught four passes (on eight targets) for 63 yards and a touchdown in Sunday's 31-24 loss to Green Bay.",
-    "analysis": "Kelce was able to post his second-best fantasy line of the season despite having backup quarterback Matt Moore under center. It was just the 30-year-old's second touchdown through eight games, and the lack of scores is really the only criticism that can be made of the star tight end through the first half of the season, in which he's logged 42 receptions for 604 yards to go along with the two TDs. There's a chance that Patrick Mahomes (knee) could return for Week 9's matchup with the Vikings, a team that has been average against tight ends this year, ranking 14th for fantasy points allowed to opponents at the position.",
-    "timestamp": "2019-10-27 09:57 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 10.3,
     "week02": 20.2,
     "week03": 12.4,
@@ -10836,7 +10836,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [10.6, 13.9, 10.7, 12.0, 15.7, 14.5, 12.8, 8.1, 6.8]
                     }
                     
                     ]
@@ -10865,10 +10865,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Snags one pass in win",
-    "report": "Willson caught his only target for seven yards in Sunday's 27-20 win over the Falcons.",
-    "analysis": "Willson is clearly the Seahawks' top tight end with Will Dissly (Achilles) out of the picture, as he garnered 43 of 61 offensive snaps (70 percent). However, neither Willson or Jacob Hollister (two catches for 18 yards) have made a real impact as a receiving option yet.",
-    "timestamp": "2019-10-28 06:53 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
@@ -10909,7 +10909,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 0.9, 0.8, 1.0, 2.8, 6.3]
                     }
                     
                     ]
@@ -10938,10 +10938,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
     "tmTextLite": "#FF3C00",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Position leader in snaps",
-    "report": "Seals-Jones was untargeted over 31 snaps in Sunday's 27-13 loss to the Patriots in Week 8.",
-    "analysis": "Seals-Jones was the position leader in snaps for the second straight week, followed by Pharaoh Brown (29) and Demetrius Harris (13). He's blipped on the radar a couple of times this season, most recently catching three passes on six targets with a 31-yard touchdown in Week 6. He also had an 82-yard game with a score in Week 4's romp over the Ravens. The Browns don't have a tight end in the top 50 in receptions, but a Cleveland tight end has accounted for five of quarterback Baker Mayfield's six touchdowns. At some point, David Njoku (wrist) could return to dominate the position, but that won't happen until Week 12 at the earliest.",
-    "timestamp": "2019-10-28 07:30 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": 1.9,
@@ -10982,7 +10982,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 2.3, 2.2, 0.9, 5.1, 'BYE', 3.2, 6.2]
                     }
                     
                     ]
@@ -11011,10 +11011,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "tmTextLite": "#7F9695",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Four catches in win",
-    "report": "Witten caught all four of his targets for 33 yards in Sunday's 37-10 win over the Eagles.",
-    "analysis": "Witten wasn't needed much in the passing game as the Cowboys led this contest wire to wire. The veteran tight end remained involved though, helping his tackles maul the Philly defensive front to open holes for Ezekiel Elliott. The un-retired legend continues to be a high-floor, low-ceiling PPR option, averaging 3.7 receptions and 37.6 receiving yards while rarely straying far from those averages. A few more red-zone looks would help boost his fantasy value -- he hasn't hit pay dirt since Week 2 -- heading into a matchup against the Giants in Week 9 following the team's bye.",
-    "timestamp": "2019-10-21 12:28 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 9.0,
     "week02": 10.5,
     "week03": 6.9,
@@ -11055,7 +11055,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.7, 7.8, 9.1, 11.8, 7.7, 9.2, 8.0, 'BYE', 6.1]
                     }
                     
                     ]
@@ -11084,10 +11084,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "Remains sidelined",
-    "report": "Walker (ankle) didn't practice Wednesday, Turron Davenport of ESPN.com reports.",
-    "analysis": "Walker -- who missed his first game of the season Sunday against the Buccaneers -- wasn't able to practice last week, so his continued absence clouds his Week 9 status. If he's sidelined again, or limited at all this weekend versus Carolina, Jonnu Smith would continue to see expanded opportunities in the Tennessee offense.",
-    "timestamp": "2019-10-30 01:53 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 20.0,
     "week02": 5.9,
     "week03": 9.9,
@@ -11128,7 +11128,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [15.2, 10.1, 8.5, 7.2, 5.1, 5.0, 4.9, 'DNP', 5.9]
                     }
                     
                     ]
@@ -11157,10 +11157,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Another disappointing effort",
-    "report": "McDonald caught 3 of 4 targets for 19 yards in Monday's 27-14 win over the Dolphins.",
-    "analysis": "The tight end has become an afterthought in the Pittsburgh offense, with McDonald averaging 24.3 yards on less than three receptions per game. Outside of his seven-catch, two-touchdown game against Seattle in Week 2, he has done little to merit lineup consideration this season. Fantasy owners shouldn't expect that to change in Week 9 against the Colts, as they've allowed opposing tight ends to score just one touchdown in their last four games.",
-    "timestamp": "2019-10-28 09:55 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 5.0,
     "week02": 19.3,
     "week03": 1.5,
@@ -11201,7 +11201,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [6.5, 4.3, 6.4, 'DNP', 4.9, 3.0, 'BYE', 5.1, 5.5]
                     }
                     
                     ]
@@ -11230,10 +11230,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Just three receptions Thursday",
-    "report": "Rudolph had three receptions for 17 yards on three targets in Thursday's win over Washington.",
-    "analysis": "Rudolph didn't repeat his season-high performance in Week 7 (five receptions and a touchdown) even with Adam Thielen sidelined with a hamstring injury. Although he could see an increase in targets if Thielen doesn't return next week, Rudolph remains largely an afterthought in Minnesota's passing game. For fantasy purposes, Rudolph only carries weekly value as a red-zone longshot.",
-    "timestamp": "2019-10-25 10:57 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.0,
     "week02": 2.4,
     "week03": 1.6,
@@ -11274,7 +11274,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [9.6, 3.6, 9.0, 5.5, 4.1, 5.2, 7.8, 5.0, 5.1]
                     }
                     
                     ]
@@ -11303,10 +11303,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Surprise TD leader",
-    "report": "Fells caught six of six targets for 58 yards and two touchdowns in Sunday's 27-24 win over the Raiders in Week 8.",
-    "analysis": "Fells was the safety valve on a pair of plays extended by quarterback Dehsaun Watson's legs. It was the second multi-touchdown effort of the season, giving him a career-high five over eight games, tops on the Texans. The 33-year-old tight end has caught all seven of his red-zone targets for 75 yards and five scores.",
-    "timestamp": "2019-10-27 08:02 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 0.0,
     "week02": 1.4,
     "week03": 13.4,
@@ -11347,7 +11347,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [-0.7, 1.7, 1.1, 3.0, 2.7, 4.5, 2.3, 5.5, 4.5]
                     }
                     
                     ]
@@ -11376,10 +11376,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#0076B6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-    "headlineNews": "One catch against Giants",
-    "report": "Hockenson caught his only target for 21 yards during Sunday's 31-26 victory over the Giants.",
-    "analysis": "Despite a soft matchup, Hockenson didn't see many passes come his way. Instead, he watched Danny Amendola serve as Matthew Stafford's favorite short-range weapon. Playing time isn't the issue with Hockenson -- he saw almost double the offensive snaps of the next-busiest tight end in Jesse James -- but rather it's Stafford's propensity to spread the ball around. As long as Amendola, Kenny Golladay and Marvin Jones stay healthy, it will continue to be difficult to trust Hockenson as anything more than a low-floor, somewhat-high-upside fantasy play.",
-    "timestamp": "2019-10-28 09:58 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 22.1,
     "week02": 1.2,
     "week03": 0.6,
@@ -11420,7 +11420,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [3.4, 7.3, 5.2, 1.2, 'BYE', 3.4, 4.9, 5.5, 3.6]
                     }
                     
                     ]
@@ -11449,10 +11449,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Good to go Week 9",
-    "report": "Clay (back) doesn't have an injury designation for Thursday's game versus the 49ers.",
-    "analysis": "Clay opened the week with back-to-back listings of limited participation on the Cardinals' practice report, only to put in a full showing Wednesday. With his status not in question for Thursday, he'll continue to split the tight end reps with fellow veteran Maxx Williams.",
-    "timestamp": "2019-10-30 02:34 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 1.0,
     "week02": 1.1,
     "week03": 1.4,
@@ -11493,7 +11493,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [1.9, 1.1, 9.1, 3.6, 4.1, 4.5, 1.7, 0.8, 3.5]
                     }
                     
                     ]
@@ -11522,10 +11522,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Makes first career catch",
-    "report": "Oliver caught one of two targets for six yards in Sunday's win over the Jets.",
-    "analysis": "Offensive coordinator John DeFilippo indicated the rookie third-round pick would be more involved in Week 8, but he ended up seeing only a slight uptick in snaps and again worked behind starter Seth DeValve as the team's second tight end. No. 3 tight end Ben Koyack actually only played one fewer snap, though he wasn't targeted. Oliver and DeValve have combined for three catches and 17 yards in the last two games, keeping them both out of fantasy consideration until they become more involved.",
-    "timestamp": "2019-10-28 12:18 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
@@ -11566,7 +11566,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.9, 2.5]
                     }
                     
                     ]
@@ -11595,10 +11595,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Remains limited this week",
-    "report": "Davis (concussion) was a limited practice participant Wednesday.",
-    "analysis": "Davis has maintained such activity for a fourth consecutive week, but until he can get in front of an independent neurologist, he'll remain with an indefinite return timetable. As long as he's sidelined, the Redskins will trot out Jeremy Sprinkle and Hale Hentges at tight end.",
-    "timestamp": "2019-10-30 03:20 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 13.9,
     "week02": 4.4,
     "week03": 4.0,
@@ -11639,7 +11639,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [1.6, 6.8, 9.6, 8.7, 'DNP', 'DNP', 'DNP', 'DNP', 2.5]
                     }
                     
                     ]
@@ -11668,10 +11668,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "First catches of season",
-    "report": "Kroft caught two balls on four targets for 32 yards during Sunday's loss to the Eagles.",
-    "analysis": "Both of Kroft's catches went for first downs on a nasty, windy day that made it tough for even the strong-armed Josh Allen and Carson Wentz to throw the ball. Kroft was on the field for 58 percent of the offensive plays, while rookie Dawson Knox saw 45 percent, blocker Lee Smith 32 percent, and Tommy Sweeney was inactive. Kroft didn't get a single target in his first game of the season last week, so the modest Week 8 production represents improved involvement in the offense. Still, this isn't an effective passing team and Kroft has to share looks with too many others to offer consistent value.",
-    "timestamp": "2019-10-28 07:33 AM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": 0.0,
     "week03": "DNP",
@@ -11712,7 +11712,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 2.2, 'DNP', 'DNP', 'DNP', 'BYE', 0.6, 2.6, 2.1]
                     }
                     
                     ]
@@ -11741,10 +11741,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#e17757",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "Targeted season-high eight times",
-    "report": "Fant caught five of eight targets for 26 yards during Sunday's 15-13 loss in Indianapolis.",
-    "analysis": "A question heading into Sunday was which Bronco would benefit from Emmanuel Sanders' trade to San Francisco. The early indications are positive for Fant, who set season highs in catches and targets, albeit with measly yardage. Despite his unique size-speed combination, Fant is only averaging 9.8 yards per reception and has been a relative non-factor in the red zone with his only touchdown of the season coming on a 25-yard screen play in Week 4. The results may not improve much, but expect Fant to get WR2-level targets down the stretch on a Denver team without many options at receiver.",
-    "timestamp": "2019-10-27 03:00 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 3.4,
     "week02": 5.3,
     "week03": 3.2,
@@ -11785,7 +11785,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [7.5, 5.6, 0.5, 4.1, 2.9, 4.6, 8.9, 4.6, 1.7]
                     }
                     
                     ]
@@ -11814,10 +11814,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Grabs two passes in loss",
-    "report": "Gesicki caught two of three targets for 10 yards during Monday's 27-14 loss to the Steelers.",
-    "analysis": "Monday's outing marked the third time in Gesicki's last five games that he was held to 15 or fewer yards. He has just one 50-yard game this season and has yet to score a touchdown. For all the accolades the former Penn State product earned as an athletic specimen ahead of the 2018 draft, he's struggled to establish himself on a team that isn't exactly full of top-notch weapons. Though Gesicki's a good red-zone target in theory, just two of his 25 targets this season have come inside the 20. Don't expect much of a change Sunday, even against a struggling Jets squad.",
-    "timestamp": "2019-10-29 03:55 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": 4.1,
     "week02": 1.6,
     "week03": 2.4,
@@ -11858,7 +11858,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: [3.4, 3.0, 1.7, 7.2, 'BYE', 4.1, 0.4, 8.1, 1.1]
                     }
                     
                     ]
@@ -11887,10 +11887,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "tmTextLite": "#c36835",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Another disappointing performance",
-    "report": "Burton caught one pass for 16 yards in the Bears' 17-16 loss to the Chargers on Sunday.",
-    "analysis": "Aside from his only reception, Burton was targeted in the corner of the end zone, but the pass was uncatchable. He's yet to surpass 20 yards in a game this season, and his lack of upside makes him an uninspiring fantasy option.",
-    "timestamp": "2019-10-27 02:53 PM",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
     "week01": "DNP",
     "week02": 1.5,
     "week03": 4.0,
@@ -11931,7 +11931,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 5.0, 4.7, 5.3, 1.3, 'BYE', 4.7, 1.7, 0.3]
                     }
                     
                     ]
@@ -11969,14 +11969,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 1.0,
-    "week02": 7.0,
-    "week03": 4.0,
-    "week04": 5.0,
-    "week05": 23.0,
-    "week06": 1.0,
-    "week07": 1.0,
-    "week08": 12.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -11999,7 +11999,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [1.0, 7.0, 4.0, 5.0, 23.0, 1.0, 1.0, 12.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12009,7 +12009,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.5]
                     }
                     
                     ]
@@ -12044,14 +12044,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 10.0,
-    "week02": 6.0,
-    "week03": 13.0,
-    "week04": 3.0,
-    "week05": 11.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
     "week06": "BYE",
-    "week07": 7.0,
-    "week08": 4.0,
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12074,7 +12074,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [10.0, 6.0, 13.0, 3.0, 11.0, 'BYE', 7.0, 4.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12084,7 +12084,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 8.3]
                     }
                     
                     ]
@@ -12119,14 +12119,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 9.0,
-    "week02": 5.0,
-    "week03": 17.0,
-    "week04": 17.0,
-    "week05": 4.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
     "week06": "BYE",
-    "week07": 6.0,
-    "week08": 4.0,
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12149,7 +12149,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [9.0, 5.0, 17.0, 17.0, 4.0, 'BYE', 6.0, 4.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12159,7 +12159,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 8.0]
                     }
                     
                     ]
@@ -12194,14 +12194,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 17.0,
-    "week02": 8.0,
-    "week03": 1.0,
-    "week04": 11.0,
-    "week05": 7.0,
-    "week06": 4.0,
-    "week07": 4.0,
-    "week08": 11.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12224,7 +12224,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [17.0, 8.0, 1.0, 11.0, 7.0, 4.0, 4.0, 11.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12234,7 +12234,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.6]
                     }
                     
                     ]
@@ -12269,14 +12269,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": -3.0,
-    "week02": 3.0,
-    "week03": 2.0,
-    "week04": 0.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
     "week05": "BYE",
-    "week06": 1.0,
-    "week07": 1.0,
-    "week08": 4.0,
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12299,7 +12299,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [-3.0, 3.0, 2.0, 0.0, 'BYE', 1.0, 1.0, 4.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12309,7 +12309,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 7.5]
                     }
                     
                     ]
@@ -12344,14 +12344,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 14.0,
-    "week02": 12.0,
-    "week03": 13.0,
-    "week04": -1.0,
-    "week05": 9.0,
-    "week06": 3.0,
-    "week07": 2.0,
-    "week08": 4.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12374,7 +12374,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [14.0, 12.0, 13.0, -1.0, 9.0, 3.0, 2.0, 4.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12384,7 +12384,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.4]
                     }
                     
                     ]
@@ -12419,14 +12419,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 15.0,
-    "week02": 7.0,
-    "week03": 7.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
     "week04": "BYE",
-    "week05": 19.0,
-    "week06": 10.0,
-    "week07": 15.0,
-    "week08": 17.0,
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12449,7 +12449,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [15.0, 7.0, 7.0, 'BYE', 19.0, 10.0, 15.0, 17.0]
+                         data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12459,7 +12459,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 7.3]
                     }
                     
                     ]
@@ -12494,14 +12494,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 0.0,
-    "week02": 1.0,
-    "week03": 0.0,
-    "week04": 5.0,
-    "week05": 10.0,
-    "week06": 23.0,
-    "week07": 0.0,
-    "week08": 7.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12524,7 +12524,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 1.0, 0.0, 5.0, 10.0, 23.0, 0.0, 7.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12534,7 +12534,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.2]
                     }
                     
                     ]
@@ -12569,14 +12569,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 2.0,
-    "week02": 5.0,
-    "week03": 13.0,
-    "week04": 14.0,
-    "week05": 8.0,
-    "week06": 19.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
     "week07": "BYE",
-    "week08": 3.0,
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12599,7 +12599,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [2.0, 5.0, 13.0, 14.0, 8.0, 19.0, 'BYE', 3.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12609,7 +12609,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 6.9]
                     }
                     
                     ]
@@ -12644,14 +12644,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 2.0,
-    "week02": 8.0,
-    "week03": 4.0,
-    "week04": 11.0,
-    "week05": 14.0,
-    "week06": 2.0,
-    "week07": 4.0,
-    "week08": 9.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12674,7 +12674,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [2.0, 8.0, 4.0, 11.0, 14.0, 2.0, 4.0, 9.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12684,7 +12684,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.9]
                     }
                     
                     ]
@@ -12719,13 +12719,13 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 6.0,
-    "week02": 1.0,
-    "week03": 11.0,
-    "week04": 11.0,
-    "week05": 1.0,
-    "week06": 4.0,
-    "week07": 15.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
     "week08": "BYE",
     "week09": "",
     "week10": "",
@@ -12749,7 +12749,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [6.0, 1.0, 11.0, 11.0, 1.0, 4.0, 15.0, 'BYE']
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE']
                     },
                     {
                         label: "Projected",
@@ -12759,7 +12759,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 6.9]
                     }
                     
                     ]
@@ -12794,14 +12794,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": -4.0,
-    "week02": 2.0,
-    "week03": 7.0,
-    "week04": 18.0,
-    "week05": 5.0,
-    "week06": 3.0,
-    "week07": 2.0,
-    "week08": 7.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12824,7 +12824,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [-4.0, 2.0, 7.0, 18.0, 5.0, 3.0, 2.0, 7.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12834,7 +12834,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.8]
                     }
                     
                     ]
@@ -12869,14 +12869,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 0.0,
-    "week02": 7.0,
-    "week03": 11.0,
-    "week04": 19.0,
-    "week05": 11.0,
-    "week06": 8.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
     "week07": "BYE",
-    "week08": 13.0,
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12899,7 +12899,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 7.0, 11.0, 19.0, 11.0, 8.0, 'BYE', 13.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12909,7 +12909,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 6.6]
                     }
                     
                     ]
@@ -12944,14 +12944,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 0.0,
-    "week02": 13.0,
-    "week03": 9.0,
-    "week04": 10.0,
-    "week05": 5.0,
-    "week06": 4.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
     "week07": "BYE",
-    "week08": 5.0,
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12974,7 +12974,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 13.0, 9.0, 10.0, 5.0, 4.0, 'BYE', 5.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -12984,7 +12984,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 6.5]
                     }
                     
                     ]
@@ -13019,14 +13019,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 5.0,
-    "week02": 11.0,
-    "week03": 2.0,
-    "week04": 6.0,
-    "week05": 3.0,
-    "week06": 5.0,
-    "week07": 18.0,
-    "week08": 5.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13049,7 +13049,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [5.0, 11.0, 2.0, 6.0, 3.0, 5.0, 18.0, 5.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13059,7 +13059,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.5]
                     }
                     
                     ]
@@ -13094,14 +13094,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 0.0,
-    "week02": 2.0,
-    "week03": 5.0,
-    "week04": 9.0,
-    "week05": 5.0,
-    "week06": 10.0,
-    "week07": 8.0,
-    "week08": 6.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13124,7 +13124,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 2.0, 5.0, 9.0, 5.0, 10.0, 8.0, 6.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13134,7 +13134,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.4]
                     }
                     
                     ]
@@ -13169,14 +13169,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 10.0,
-    "week02": 25.0,
-    "week03": 14.0,
-    "week04": 17.0,
-    "week05": 14.0,
-    "week06": 10.0,
-    "week07": 25.0,
-    "week08": 15.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13199,7 +13199,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [10.0, 25.0, 14.0, 17.0, 14.0, 10.0, 25.0, 15.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13209,7 +13209,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.4]
                     }
                     
                     ]
@@ -13244,14 +13244,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 5.0,
-    "week02": 5.0,
-    "week03": 2.0,
-    "week04": 3.0,
-    "week05": 10.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
     "week06": "BYE",
-    "week07": 9.0,
-    "week08": 6.0,
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13274,7 +13274,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [5.0, 5.0, 2.0, 3.0, 10.0, 'BYE', 9.0, 6.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13284,7 +13284,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 6.3]
                     }
                     
                     ]
@@ -13319,13 +13319,13 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 13.0,
-    "week02": 4.0,
-    "week03": 0.0,
-    "week04": -1.0,
-    "week05": 5.0,
-    "week06": 5.0,
-    "week07": 6.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
     "week08": "BYE",
     "week09": "",
     "week10": "",
@@ -13349,7 +13349,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [13.0, 4.0, 0.0, -1.0, 5.0, 5.0, 6.0, 'BYE']
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE']
                     },
                     {
                         label: "Projected",
@@ -13359,7 +13359,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 6.3]
                     }
                     
                     ]
@@ -13394,14 +13394,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 5.0,
-    "week02": 2.0,
-    "week03": 0.0,
-    "week04": 4.0,
-    "week05": 1.0,
-    "week06": 1.0,
-    "week07": 14.0,
-    "week08": 1.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13424,7 +13424,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [5.0, 2.0, 0.0, 4.0, 1.0, 1.0, 14.0, 1.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13434,7 +13434,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.3]
                     }
                     
                     ]
@@ -13469,14 +13469,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 12.0,
-    "week02": 5.0,
-    "week03": 2.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
     "week04": "BYE",
-    "week05": 3.0,
-    "week06": 1.0,
-    "week07": 1.0,
-    "week08": 3.0,
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13499,7 +13499,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [12.0, 5.0, 2.0, 'BYE', 3.0, 1.0, 1.0, 3.0]
+                         data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13509,7 +13509,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 6.3]
                     }
                     
                     ]
@@ -13544,14 +13544,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 2.0,
-    "week02": 10.0,
-    "week03": 5.0,
-    "week04": 10.0,
-    "week05": 3.0,
-    "week06": 5.0,
-    "week07": 2.0,
-    "week08": 0.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13574,7 +13574,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [2.0, 10.0, 5.0, 10.0, 3.0, 5.0, 2.0, 0.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13584,7 +13584,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.2]
                     }
                     
                     ]
@@ -13619,14 +13619,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 12.0,
-    "week02": 3.0,
-    "week03": 1.0,
-    "week04": 10.0,
-    "week05": 3.0,
-    "week06": 7.0,
-    "week07": 1.0,
-    "week08": 9.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13649,7 +13649,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [12.0, 3.0, 1.0, 10.0, 3.0, 7.0, 1.0, 9.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13659,7 +13659,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.0]
                     }
                     
                     ]
@@ -13694,14 +13694,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 4.0,
-    "week02": 3.0,
-    "week03": -1.0,
-    "week04": 4.0,
-    "week05": 8.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
     "week06": "BYE",
-    "week07": -3.0,
-    "week08": 3.0,
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13724,7 +13724,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [4.0, 3.0, -1.0, 4.0, 8.0, 'BYE', -3.0, 3.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13734,7 +13734,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 5.8]
                     }
                     
                     ]
@@ -13769,14 +13769,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": -4.0,
-    "week02": 8.0,
-    "week03": 13.0,
-    "week04": 2.0,
-    "week05": 4.0,
-    "week06": 7.0,
-    "week07": 11.0,
-    "week08": 15.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13799,7 +13799,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [-4.0, 8.0, 13.0, 2.0, 4.0, 7.0, 11.0, 15.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13809,7 +13809,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.8]
                     }
                     
                     ]
@@ -13844,14 +13844,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 7.0,
-    "week02": 9.0,
-    "week03": 13.0,
-    "week04": 5.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
     "week05": "BYE",
-    "week06": 7.0,
-    "week07": -4.0,
-    "week08": 5.0,
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13874,7 +13874,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [7.0, 9.0, 13.0, 5.0, 'BYE', 7.0, -4.0, 5.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13884,7 +13884,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 5.6]
                     }
                     
                     ]
@@ -13919,14 +13919,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 14.0,
-    "week02": 6.0,
-    "week03": 7.0,
-    "week04": 5.0,
-    "week05": 12.0,
-    "week06": 9.0,
-    "week07": 3.0,
-    "week08": 12.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -13949,7 +13949,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [14.0, 6.0, 7.0, 5.0, 12.0, 9.0, 3.0, 12.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -13959,7 +13959,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.5]
                     }
                     
                     ]
@@ -13994,14 +13994,14 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "week01": 6.0,
-    "week02": 9.0,
-    "week03": 8.0,
-    "week04": 9.0,
-    "week05": 1.0,
-    "week06": 0.0,
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
     "week07": "BYE",
-    "week08": 5.0,
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -14024,7 +14024,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [6.0, 9.0, 8.0, 9.0, 1.0, 0.0, 'BYE', 5.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -14034,7 +14034,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.6, 21.3, 21.5, 26.6, 19.4, 20.9, 14.7, 25.9, 23.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 5.1]
                     }
                     
                     ]
