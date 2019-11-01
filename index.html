@@ -32,6 +32,8 @@
     <div class="appInfo">
     <h1 ng-controller="positionController">Week {{week.nflWeek}}</h1>
     <p>Player Projections</p>
+	<ul><li>Last updated:</li>
+	<li ng-controller="positionController">{{currentDate.currentDate}}</li></ul>
 	
 
 	<nav id="position-links">
@@ -680,7 +682,7 @@
         </ul>
 		
 		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
-        <h3>Previous weeks points</h3>
+        <h3>Previous weeks points (Average: {{player.avg_fp2}} ppg)</h3>
           
             <div class="week-list pointsList">
 			<div ng-if="player.week01">Week 1: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week01}}</span></div>
