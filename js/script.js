@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Saturday, 02 November 2019 08:26 AM (central time)"};
+$scope.currentDate = {"currentDate": "Saturday, 02 November 2019 08:32 AM (central time)"};
 $scope.week = {"nflWeek": 9};
 
 $scope.options = {
