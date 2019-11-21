@@ -164,16 +164,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="startEm">
-        <h2>Top 5 Start 'em</h2>
+      <div ng-controller="positionController" class="startEm">
+        <h2>Top 5 Favorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol><br>
+		<li>{{qbStartSit.one}}</li>
+		<li>{{qbStartSit.two}}</li>
+		<li>{{qbStartSit.three}}</li>
+		<li>{{qbStartSit.four}}</li>
+		<li>{{qbStartSit.five}}</li>
+		</ol></h1>
       </div> 
      </section>
 	 
@@ -181,16 +181,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="sitEm">
-        <h2>Top 5 Sit 'em</h2>
+      <div ng-controller="positionController" class="sitEm">
+        <h2>Top 5 Unfavorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol ng-controller="positionController"><br>
+		<li>{{qbStartSit.six}}</li>
+		<li>{{qbStartSit.seven}}</li>
+		<li>{{qbStartSit.eight}}</li>
+		<li>{{qbStartSit.nine}}</li>
+		<li>{{qbStartSit.ten}}</li>
+		</ol></h1>
       </div> 
      </section>
     <div class="clearfix"></div>
@@ -310,16 +310,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="startEm">
-        <h2>Top 5 Start 'em</h2>
+       <div ng-controller="positionController" class="startEm">
+        <h2>Top 5 Favorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol><br>
+		<li>{{rbStartSit.one}}</li>
+		<li>{{rbStartSit.two}}</li>
+		<li>{{rbStartSit.three}}</li>
+		<li>{{rbStartSit.four}}</li>
+		<li>{{rbStartSit.five}}</li>
+		</ol></h1>
       </div> 
      </section>
 	 
@@ -327,16 +327,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="sitEm">
-        <h2>Top 5 Sit 'em</h2>
+      <div ng-controller="positionController" class="sitEm">
+        <h2>Top 5 Unfavorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol ng-controller="positionController"><br>
+		<li>{{rbStartSit.six}}</li>
+		<li>{{rbStartSit.seven}}</li>
+		<li>{{rbStartSit.eight}}</li>
+		<li>{{rbStartSit.nine}}</li>
+		<li>{{rbStartSit.ten}}</li>
+		</ol></h1>
       </div> 
      </section>
     <div class="clearfix"></div>
@@ -456,16 +456,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="startEm">
-        <h2>Top 5 Start 'em</h2>
+      <div ng-controller="positionController" class="startEm">
+        <h2>Top 5 Favorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol><br>
+		<li>{{wrStartSit.one}}</li>
+		<li>{{wrStartSit.two}}</li>
+		<li>{{wrStartSit.three}}</li>
+		<li>{{wrStartSit.four}}</li>
+		<li>{{wrStartSit.five}}</li>
+		</ol></h1>
       </div> 
      </section>
 	 
@@ -473,15 +473,15 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="sitEm">
-        <h2>Top 5 Sit 'em</h2>
+      <div ng-controller="positionController" class="sitEm">
+        <h2>Top 5 Unfavorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
+		<ul ng-controller="positionController"><br>
+		<li>{{wrStartSit.six}}</li>
+		<li>{{wrStartSit.seven}}</li>
+		<li>{{wrStartSit.eight}}</li>
+		<li>{{wrStartSit.nine}}</li>
+		<li>{{wrStartSit.ten}}</li>
 		</ul></h1>
       </div> 
      </section>
@@ -602,16 +602,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="startEm">
-        <h2>Top 5 Start 'em</h2>
+      <div ng-controller="positionController" class="startEm">
+        <h2>Top 5 Favorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol><br>
+		<li>{{teStartSit.one}}</li>
+		<li>{{teStartSit.two}}</li>
+		<li>{{teStartSit.three}}</li>
+		<li>{{teStartSit.four}}</li>
+		<li>{{teStartSit.five}}</li>
+		</ol></h1>
       </div> 
      </section>
 	 
@@ -619,16 +619,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="sitEm">
-        <h2>Top 5 Sit 'em</h2>
+      <div ng-controller="positionController" class="sitEm">
+        <h2>Top 5 Unfavorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol ng-controller="positionController"><br>
+		<li>{{teStartSit.six}}</li>
+		<li>{{teStartSit.seven}}</li>
+		<li>{{teStartSit.eight}}</li>
+		<li>{{teStartSit.nine}}</li>
+		<li>{{teStartSit.ten}}</li>
+		</ol></h1>
       </div> 
      </section>
     <div class="clearfix"></div>
@@ -740,16 +740,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="startEm">
-        <h2>Top 5 Start 'em</h2>
+      <div ng-controller="positionController" class="startEm">
+        <h2>Top 5 Favorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol><br>
+		<li>{{dstStartSit.one}}</li>
+		<li>{{dstStartSit.two}}</li>
+		<li>{{dstStartSit.three}}</li>
+		<li>{{dstStartSit.four}}</li>
+		<li>{{dstStartSit.five}}</li>
+		</ol></h1>
       </div> 
      </section>
 	 
@@ -757,16 +757,16 @@
       <div class="result">
         <!--win/loose message in css :before of .win or .lose-->
       </div>
-      <div class="sitEm">
-        <h2>Top 5 Sit 'em</h2>
+      <div ng-controller="positionController" class="sitEm">
+        <h2>Top 5 Unfavorable Match-ups</h2>
         <h1 class="you">
-		<ul><br>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		<li>---- -----</li>
-		</ul></h1>
+		<ol ng-controller="positionController"><br>
+		<li>{{dstStartSit.six}}</li>
+		<li>{{dstStartSit.seven}}</li>
+		<li>{{dstStartSit.eight}}</li>
+		<li>{{dstStartSit.nine}}</li>
+		<li>{{dstStartSit.ten}}</li>
+		</ol></h1>
       </div> 
      </section>
     <div class="clearfix"></div>

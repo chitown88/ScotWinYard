@@ -130,7 +130,19 @@ nav#position-links ul li a:hover:after {
 }
 
 
+div.startEm li
+{
+  color: white;
+  list-style-type: none;
+  padding-right: 0.5em;
+}
 
+div.sitEm li
+{
+  color: white;
+  list-style-type: none;
+  padding-right: 0.5em;
+}
 
 
 nav#position-links li {
