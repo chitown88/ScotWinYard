@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Saturday, 23 November 2019 10:07 AM (central time)"};
+$scope.currentDate = {"currentDate": "Sunday, 24 November 2019 09:14 AM (central time)"};
 $scope.week = {"nflWeek": 12};
 
 $scope.qbStartSit = {"one": "Matt Ryan", "two": "Jacoby Brissett", "three": "Jameis Winston", "four": "Sam Darnold", "five": "Mason Rudolph", "six": "Brandon Allen", "seven": "Aaron Rodgers", "eight": "Dak Prescott", "nine": "Ryan Finley", "ten": "Josh Allen"};
@@ -3127,10 +3127,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Ineffective in lead role",
-    "report": "Sanders carried the ball 11 times for 38 yards and caught two of four targets for nine yards in Sunday's 17-10 loss to the Patriots.",
-    "analysis": "Neither offense had much success, but the Eagles' running game in particular struggled with Sanders in the No. 1 spot. Jordan Howard's timetable to recover from his shoulder injury remains unclear, but the newly re-signed Jay Ajayi could be a bigger factor in Week 12 after not seeing a touch in this one. If Sanders does get another start next week, though, the rookie could make an impact against a Seattle defense that's in the bottom five in the league in rushing TDs allowed.",
-    "timestamp": "2019-11-17 07:06 PM",
+    "headlineNews": "May garner lead role sans Howard",
+    "report": "Sanders is expected to see the majority of the touches out of the backfield Sunday against the Seahawks with Jordan Howard (shoulder) unlikely to play, Daniel Gallen of The Harrisburg Patriots-News reports.",
+    "analysis": "Howard is officially listed as questionable for the contest, but he's expected to be inactive for a second straight game after failing to practice fully at any point this week. Assuming that's the case, Sanders looms as the next man up on the depth chart, though his role on offense may not be quite as sizable as it was in the Week 11 loss to the Patriots. Sanders played 85 percent of the offensive snaps in that contest but managed only 47 total yards on 15 touches, while backup Boston Scott took seven carries for 26 yards. Even if Scott doesn't cut into his workload, Sanders could be threatened by Jay Ajayi, who coach Doug Pederson noted will likely see action in Week 12 after logging zero snaps in his season debut versus New England.",
+    "timestamp": "2019-11-24 05:41 AM",
     "week01": 3.2,
     "week02": 5.2,
     "week03": 11.6,
@@ -3857,10 +3857,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Questionable after Friday practice",
-    "report": "Peterson (toe) is listed as questionable for Sunday's game against Detroit after he returned to practice Friday as a limited participant.",
-    "analysis": "Fellow running back Chris Thompson (toe) also is listed as questionable, with Craig Hoffman of 106.7 The Fan Washington suggesting that Peterson would be more likely to play if the team were to hold out Thompson for another week. It all lends to a confusing situation ahead of Sunday's 1:00 p.m. ET kickoff, with Derrius Guice the only running back locked in for a significant workload. The extent of that role partially depends on the availability of his teammates, which may not be known until Sunday morning. Coach Bill Callahan did mention Friday that he expects Peterson to play, according to JP Finlay of NBC Sports Washington.",
-    "timestamp": "2019-11-22 01:29 PM",
+    "headlineNews": "In line to play",
+    "report": "Peterson (toe), who is listed as questionable for Sunday's game against the Lions, is on track to play, Ian Rapoport of NFL Network reports.",
+    "analysis": "Rapoport's report matches the prevailing sentiment that surrounded Peterson's Week 12 status following Friday's practice, where he participated on a limited basis. The Redskins aren't expected to welcome Chris Thompson (toe) back from a four-game absence, but the recent addition of Derrius Guice from injured reserve in addition to his own injury likely puts a cap on Peterson's fantasy upside relative to earlier in the season. When Guice returned from a nine-week absence in the Redskins' Week 11 loss to the Jets, Peterson played just 24 percent of the offensive snaps -- his fewest of the season -- and parlayed his 11 touches into just 30 total yards.",
+    "timestamp": "2019-11-24 06:07 AM",
     "week01": "DNP",
     "week02": 10.2,
     "week03": 3.9,
@@ -4711,79 +4711,6 @@ $scope.positionRB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15966.png",
-    "name": "Chris Thompson",
-    "depthchart": "Reserve: RB-3",
-    "team": "Washington Redskins",
-    "projected": 6.8,
-    "opponent": "Detroit Lions",
-    "home_away": "",
-    "opp_rank": 24,
-    "team_rank": 26,
-    "avg_fp2": 8.17,
-    "opp_rank_allowed_fp2": 32,
-    "opp_avg_allowed_fp2": 27.62,
-    "fanduelSalary": "$5200",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Toe",
-    "tmColorLite": "#FFB612",
-    "tmColorDark": "#773141",
-    "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
-    "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
-    "tmTextLite": "#FFB612",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Looking shaky for Week 12",
-    "report": "Thompson (toe) remained limited at Friday's practice and is listed as questionable for Sunday's game against Detroit",
-    "analysis": "Bill Callahan said he expects Adrian Peterson (toe) to play through a questionable tag, while the coach was less confident in Thompson's availability, Craig Hoffman of 106.7 The Fan Washington reports. Even if he does end up active, Thompson likely will be restricted to passing downs. Washington's inactive list will be available around 11:30 a.m. ET on Sunday.",
-    "timestamp": "2019-11-22 01:31 PM",
-    "week01": 11.3,
-    "week02": 7.6,
-    "week03": 12.8,
-    "week04": 8.0,
-    "week05": 6.3,
-    "week06": 3.0,
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": "DNP",
-    "week10": "BYE",
-    "week11": "DNP",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 182, 18, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [11.3, 7.6, 12.8, 8.0, 6.3, 3.0, 'DNP', 'DNP', 'DNP', 'BYE', 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [6.1, 6.6, 7.1, 8.5, 8.1, 11.5, 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 6.8]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16777.png",
     "name": "Carlos Hyde",
     "depthchart": "Starter: RB-1",
@@ -5508,6 +5435,79 @@ $scope.positionRB = [{
                         pointRadius: 5,
                         fill: false,
                         data: [10.0, 10.4, 7.9, 7.6, 6.8, 6.1, 5.7, 7.9, 'BYE', 8.2, 7.7, 5.4]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3042429.png",
+    "name": "Wendell Smallwood",
+    "depthchart": "Reserve: RB-3",
+    "team": "Washington Redskins",
+    "projected": 5.3,
+    "opponent": "Detroit Lions",
+    "home_away": "",
+    "opp_rank": 24,
+    "team_rank": 26,
+    "avg_fp2": 1.92,
+    "opp_rank_allowed_fp2": 32,
+    "opp_avg_allowed_fp2": 27.62,
+    "fanduelSalary": "$4500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#FFB612",
+    "tmColorDark": "#773141",
+    "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
+    "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
+    "tmTextLite": "#FFB612",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+    "headlineNews": "Quiet in Guice's first game back",
+    "report": "Smallwood caught one of three targets for 11 yards in Sunday's 34-17 loss to the Jets.",
+    "analysis": "Smallwood got some work on passing downs, but it was Adrian Peterson and Derrius Guice who handled all of the backfield carries. Smallwood may drop out of the offense entirely before the end of the season, especially if Chris Thompson (toe) ever gets healthy. Next up for Washington is a Week 12 matchup with the Lions.",
+    "timestamp": "2019-11-17 06:50 PM",
+    "week01": "DNP",
+    "week02": 2.3,
+    "week03": 0.0,
+    "week04": 1.9,
+    "week05": 2.7,
+    "week06": 0.4,
+    "week07": 4.6,
+    "week08": 2.5,
+    "week09": 1.3,
+    "week10": "BYE",
+    "week11": 1.6,
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 182, 18, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: ['DNP', 2.3, 0.0, 1.9, 2.7, 0.4, 4.6, 2.5, 1.3, 'BYE', 1.6]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: ['DNP', 3.6, 3.8, 5.7, 5.5, 8.2, 5.3, 5.8, 6.5, 'BYE', 0.8, 5.3]
                     }
                     
                     ]
@@ -7146,10 +7146,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Uncertain for Sunday",
-    "report": "Jeffery (ankle) remained limited at Friday's practice and is listed as questionable for Sunday's game against Seattle.",
-    "analysis": "Jeffery's ability to log limited practice sessions throughout the week suggests he at least has a decent shot to play, though it may come down to a game-time decision ahead of Sunday's 1:00 p.m. ET kickoff. Fellow wide receiver Nelson Agholor (ankle) also is questionable, potentially leaving extra snaps for some combination of Jordan Matthews, Mack Hollins and J.J. Arcega-Whiteside. Tight ends Zach Ertz and Dallas Goedert are the safest bets to draw targets, with Jeffery joining that group if he ends up active.",
-    "timestamp": "2019-11-22 01:09 PM",
+    "headlineNews": "On track to suit up Week 12",
+    "report": "Jeffery (ankle), who is listed as questionable for Sunday's game against the Seahawks, is expected to play, Adam Schefter of ESPN reports.",
+    "analysis": "After missing the Week 11 loss to the Patriots, Jeffery only managed limited participation in practices Wednesday through Friday, but the Eagles were apparently encouraged enough by his progress to clear him for a return to game action. Official confirmation on Jeffery's availability won't come until the Eagles release their inactive list 90 minutes prior to the 1 p.m. ET kickoff, but the 29-year-old's likely return will provide a boost to a Eagles squad lacking in other reliable pass-catching options besides tight ends Zach Ertz and Dallas Goedert. No. 2 wideout Nelson Agholor (knee) is listed as questionable but is unlikely to play, so Jeffery could be even busier than usual if his own ankle injury doesn't hamper his effectiveness too much.",
+    "timestamp": "2019-11-24 05:50 AM",
     "week01": 19.6,
     "week02": 0.0,
     "week03": "DNP",
@@ -7876,10 +7876,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#866D4B",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Avoids injury report",
-    "report": "Woods (personal) wasn't listed on the Rams' injury report Thursday, Stu Jackson of the team's official site reports.",
-    "analysis": "Woods was unavailable for the Rams' Week 11 matchup with the Bears as he dealt with a family matter. Returning to the team Thursday, his number of practice reps was normal, but coach Sean McVay wouldn't commit to Woods being available Monday versus the Ravens. \"We'll see,\" McVay told Cameron DaSilva of USA Today. Thus, Woods' status may be up in the air, which doesn't help fantasy managers with the Rams taking the field after every other Week 12 participant but Baltimore.",
-    "timestamp": "2019-11-21 05:29 PM",
+    "headlineNews": "Clear of injury report",
+    "report": "Woods (personal) doesn't have an injury designation for Monday's game against the Ravens, Cameron DaSilva of USA Today reports.",
+    "analysis": "Coach Sean McVay didn't fully confirm Woods' availability for Week 12 earlier Saturday, per Lindsey Thiry of ESPN.com, but the fact he isn't listed on the final injury report in any capacity indicates the wideout should play. The 27-year-old was a late scratch for last Sunday's win over the Bears due to a family issue, but he was never listed on this week's injury report. Brandin Cooks (concussion) is also set to return, bringing the Rams' receiving corps back to full strength.",
+    "timestamp": "2019-11-23 05:01 PM",
     "week01": 12.6,
     "week02": 5.2,
     "week03": 7.3,
@@ -9825,79 +9825,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2971618.png",
-    "name": "Nelson Agholor",
-    "depthchart": "Backup: WR-2",
-    "team": "Philadelphia Eagles",
-    "projected": 5.3,
-    "opponent": "Seattle Seahawks",
-    "home_away": "",
-    "opp_rank": 27,
-    "team_rank": 24,
-    "avg_fp2": 6.69,
-    "opp_rank_allowed_fp2": 22,
-    "opp_avg_allowed_fp2": 30.19,
-    "fanduelSalary": "$4800",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
-    "tmColorLite": "#386168",
-    "tmColorDark": "#004C54",
-    "tmColorLite_rgba": "rgba(56, 97, 104, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Questionable after missed practice",
-    "report": "Agholor (knee) was held out of Friday's practice and is listed as questionable for Sunday's game against Seattle.",
-    "analysis": "Absent from practice Wednesday through Friday, the struggling slot receiver nonetheless seems to have a shot at playing, as coach Doug Pederson mentioned Friday morning that Agholor is trending in the right direction. The Eagles also have Jordan Howard (shoulder) and Alshon Jeffery (ankle) listed as questionable, so their inactive list will need to be monitored before the 1:00 p.m. ET kickoff Sunday. Jordan Matthews, Mack Hollins and J.J. Arcega-Whiteside are depth options at wide receiver.",
-    "timestamp": "2019-11-22 01:15 PM",
-    "week01": 2.1,
-    "week02": 20.7,
-    "week03": 19.0,
-    "week04": 0.0,
-    "week05": 2.5,
-    "week06": 6.2,
-    "week07": 3.4,
-    "week08": 3.4,
-    "week09": 3.6,
-    "week10": "BYE",
-    "week11": 6.0,
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1
-                         backgroundColor:  "rgba(56, 97, 104, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [2.1, 20.7, 19.0, 0.0, 2.5, 6.2, 3.4, 3.4, 3.6, 'BYE', 6.0]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [3.5, 2.7, 9.8, 4.8, 7.0, 2.8, 6.5, 4.6, 3.3, 'BYE', 6.3, 5.3]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3050487.png",
     "name": "Anthony Miller",
     "depthchart": "Reserve: WR-3",
@@ -10426,18 +10353,18 @@ $scope.positionTE = [{
     "opp_avg_allowed_fp2": 10.14,
     "fanduelSalary": "$4900",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Shoulder",
     "tmColorLite": "#0076B6",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(0, 118, 182, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#0076B6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-    "headlineNews": "Ties season low in catches",
-    "report": "Hockenson caught one of two targets for six yards during Sunday's  35-27 loss to the Cowboys.",
-    "analysis": "It's interesting that Hockenson wasn't in the starting lineup even though Detroit opened the game in a two-tight-end formation, but the rookie nonetheless wound up with his second-highest snap share of the season before the final whistle. The issue for him Sunday was that he just didn't see many passes come his way, as Hockenson also finished the game having seen his second-fewest targets of the year. There's optimism for a modest bounce-back effort Week 12 against Washington, but it's hard to imagine there being much upside for Hockenson as long as Matthew Stafford (back) is out of service.",
-    "timestamp": "2019-11-18 02:16 PM",
+    "headlineNews": "Dealing with shoulder injury",
+    "report": "Hockenson has a shoulder injury and is questionable for Sunday's game against the Redskins.",
+    "analysis": "The shoulder injury is a recent development as Hockenson wasn't present on the injury report all week, leaving his status for Sunday firmly up in the air. Jesse James and Logan Thomas would see increased work at tight end should Hockenson be unable to face Washington.",
+    "timestamp": "2019-11-23 05:44 PM",
     "week01": 22.1,
     "week02": 1.2,
     "week03": 0.6,
@@ -11456,10 +11383,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Tops 100 receiving yards",
-    "report": "Griffin converted all five of his targets into receptions for 109 yards and a touchdown in the team's Week 11 win over the Redskins.",
-    "analysis": "Griffin was a deep target all game, as four of his five receptions went for more than 15 yards. His long catch of the day went for 48 yards, with Sam Darnold finding him wide open along the sideline. Just one play later, he hauled in a 16-yard pass to find the end zone for his fourth touchdown of the season. Given Chris Herndon's (rib) placement on injured reserve, Griffin should be in a good position to serve as the team's top receiving tight end option for the remainder of the campaign. He'll also have a strong matchup in Week 12, as the Jets will draw a suspect Raiders defense.",
-    "timestamp": "2019-11-17 05:10 PM",
+    "headlineNews": "Inks extension with Jets",
+    "report": "Griffin signed a multi-year extension with the Jets on Saturday.",
+    "analysis": "Griffin is coming off a five-catch, 109-yard performance last week against the Redskins and will now spend a few more seasons in New York. According to Mike Garafolo of NFL Network, it's a three-year extension and could be worth up to $10.8 million, and it also includes $4 million guaranteed. The 29-year-old has started all 10 games this season and has 25 catches for 269 yards and four touchdowns, and he's taken full advantage of the absence of Chris Herndon (ribs, suspension).",
+    "timestamp": "2019-11-23 05:18 PM",
     "week01": 2.5,
     "week02": 0.0,
     "week03": 1.0,
