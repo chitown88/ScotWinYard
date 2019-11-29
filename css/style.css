@@ -601,6 +601,23 @@ div.player-news h5 {
 }
 
 
+.rankPos {
+  color: green;
+  font-weight: bold;
+  padding: 0;
+}
+.rankNeu {
+  color: white;
+  padding: 0;
+}
+.rankNeg {
+  color: red;
+  font-weight: bold;
+  padding: 0;
+}
+
+
+
 .canPlay {
   color: green;
   padding: 0;

@@ -133,9 +133,15 @@
 		<div class="player-news" style="background-color:rgba(0, 0, 0, 0.2);">
 		<div>Next opponent: {{player.home_away}}{{player.opponent}}</div>
 		<ul>
-		<li>{{player.team}} Passing Offense Rank: {{player.team_rank}}</li>
-		<li>{{player.opponent}} Passing Defense Rank: {{player.opp_rank}}</li>
-		<li>{{player.opponent}} Average Fantasy Points Allowed to QB Rank: {{player.opp_rank_allowed_fp2}} ({{player.opp_avg_allowed_fp2}} ppg)</li>
+		<li>{{player.team}} Passing Offense Rank: <span class="rankPos"> {{player.team_rank_Pos}} </span>
+												  <span class="rankNeg"> {{player.team_rank_Neg}} </span>
+												  <span class="rankNeu"> {{player.team_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Passing Defense Rank: <span class="rankPos"> {{player.opp_rank_Pos}} </span>
+													  <span class="rankNeg"> {{player.opp_rank_Neg}} </span>
+													  <span class="rankNeu"> {{player.opp_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Average Fantasy Points Allowed to QB Rank: <span class="rankPos">{{player.opp_rank_allowed_fp2_Pos}} </span> 
+																		   <span class="rankNeg">{{player.opp_rank_allowed_fp2_Neg}} </span> 
+																		   <span class="rankNeu">{{player.opp_rank_allowed_fp2_Neu}} ({{player.opp_avg_allowed_fp2}} ppg)</span> </li> 
 		</ul>
 		<br>
 		<h5>{{player.headlineNews}}</h5>
@@ -278,11 +284,17 @@
       </div>  
 	  <div class="player-news">
 	  <div>Next opponent: {{player.home_away}}{{player.opponent}}</div>
-	  <ul>
-	  <li>{{player.team}} Rushing Offense Rank: {{player.team_rank}}</li>
-	  <li>{{player.opponent}} Rushing Defense Rank: {{player.opp_rank}}</li>
-	  <li>{{player.opponent}} Average Fantasy Points Allowed to RB Rank: {{player.opp_rank_allowed_fp2}} ({{player.opp_avg_allowed_fp2}} ppg)</li>
-	  </ul>
+	 	<ul>
+		<li>{{player.team}} Rushing Offense Rank: <span class="rankPos"> {{player.team_rank_Pos}} </span>
+												  <span class="rankNeg"> {{player.team_rank_Neg}} </span>
+												  <span class="rankNeu"> {{player.team_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Rushing Defense Rank: <span class="rankPos"> {{player.opp_rank_Pos}} </span>
+													  <span class="rankNeg"> {{player.opp_rank_Neg}} </span>
+													  <span class="rankNeu"> {{player.opp_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Average Fantasy Points Allowed to RB Rank: <span class="rankPos">{{player.opp_rank_allowed_fp2_Pos}} </span> 
+																		   <span class="rankNeg">{{player.opp_rank_allowed_fp2_Neg}} </span> 
+																		   <span class="rankNeu">{{player.opp_rank_allowed_fp2_Neu}} ({{player.opp_avg_allowed_fp2}} ppg)</span> </li> 
+		</ul>
 	  <br>
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
@@ -424,11 +436,17 @@
       </div>  
 	  <div class="player-news">
 	  <div>Next opponent: {{player.home_away}}{{player.opponent}}</div>
-	  <ul>
-	  <li>{{player.team}} Passing Offense Rank: {{player.team_rank}}</li>
-	  <li>{{player.opponent}} Passing Defense Rank: {{player.opp_rank}}</li>
-	  <li>{{player.opponent}} Average Fantasy Points Allowed to WR Rank: {{player.opp_rank_allowed_fp2}} ({{player.opp_avg_allowed_fp2}} ppg)</li>
-	  </ul>	  
+	  	<ul>
+		<li>{{player.team}} Passing Offense Rank: <span class="rankPos"> {{player.team_rank_Pos}} </span>
+												  <span class="rankNeg"> {{player.team_rank_Neg}} </span>
+												  <span class="rankNeu"> {{player.team_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Passing Defense Rank: <span class="rankPos"> {{player.opp_rank_Pos}} </span>
+													  <span class="rankNeg"> {{player.opp_rank_Neg}} </span>
+													  <span class="rankNeu"> {{player.opp_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Average Fantasy Points Allowed to WR Rank: <span class="rankPos">{{player.opp_rank_allowed_fp2_Pos}} </span> 
+																		   <span class="rankNeg">{{player.opp_rank_allowed_fp2_Neg}} </span> 
+																		   <span class="rankNeu">{{player.opp_rank_allowed_fp2_Neu}} ({{player.opp_avg_allowed_fp2}} ppg)</span> </li> 
+		</ul>
 	  <br>
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
@@ -570,11 +588,17 @@
       </div>  
 	  <div class="player-news">
 	  <div>Next opponent: {{player.home_away}}{{player.opponent}}</div>
-	  <ul>
-	  <li>{{player.team}} Passing Offense Rank: {{player.team_rank}}</li>
-	  <li>{{player.opponent}} Passing Defense Rank: {{player.opp_rank}}</li>
-	  <li>{{player.opponent}} Average Fantasy Points Allowed to TE Rank: {{player.opp_rank_allowed_fp2}} ({{player.opp_avg_allowed_fp2}} ppg)</li>
-	  </ul>	  
+		<ul>
+		<li>{{player.team}} Passing Offense Rank: <span class="rankPos"> {{player.team_rank_Pos}} </span>
+												  <span class="rankNeg"> {{player.team_rank_Neg}} </span>
+												  <span class="rankNeu"> {{player.team_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Passing Defense Rank: <span class="rankPos"> {{player.opp_rank_Pos}} </span>
+													  <span class="rankNeg"> {{player.opp_rank_Neg}} </span>
+													  <span class="rankNeu"> {{player.opp_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Average Fantasy Points Allowed to TE Rank: <span class="rankPos">{{player.opp_rank_allowed_fp2_Pos}} </span> 
+																		   <span class="rankNeg">{{player.opp_rank_allowed_fp2_Neg}} </span> 
+																		   <span class="rankNeu">{{player.opp_rank_allowed_fp2_Neu}} ({{player.opp_avg_allowed_fp2}} ppg)</span> </li> 
+		</ul>
 	  <br>
 	  <h5>{{player.headlineNews}}</h5>
 	  <p>{{player.report}}</p><br>
