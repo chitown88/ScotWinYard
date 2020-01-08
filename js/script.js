@@ -1,4 +1,4 @@
-var App = angular.module('footballApp', ['tc.chartjs']);
+d scvar App = angular.module('footballApp', ['tc.chartjs']);
 
 App.controller('positionController', function($scope, $http) {
 
