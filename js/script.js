@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Wednesday, 08 January 2020 11:16 AM (central time)"};
+$scope.currentDate = {"currentDate": "Thursday, 09 January 2020 04:17 AM (central time)"};
 $scope.week = {"nflWeek": "Divisional Round"};
 
 $scope.qbStartSit = {"one": "Patrick Mahomes", "two": "Lamar Jackson", "three": "Aaron Rodgers", "four": "Deshaun Watson", "five": "Russell Wilson", "six": "Ryan Tannehill", "seven": "Kirk Cousins", "eight": "Jimmy Garoppolo", "nine": "Russell Wilson", "ten": "Deshaun Watson"};
@@ -373,7 +373,7 @@ $scope.positionQB = [{
     "week15": 18.92,
     "week16": 10.06,
     "week17": "DNP",
-    "week18": "DNP",
+    "week18": 29.38,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -390,7 +390,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [31.72, 12.86, 25.84, 11.6, 41.74, 33.4, 17.52, 27.76, 19.74, 'BYE', 4.96, 19.92, 28.36, 30.08, 18.92, 10.06, 'DNP', 'DNP']
+                         data: [31.72, 12.86, 25.84, 11.6, 41.74, 33.4, 17.52, 27.76, 19.74, 'BYE', 4.96, 19.92, 28.36, 30.08, 18.92, 10.06, 'DNP', 29.38]
                     },
                     {
                         label: "Projected",
@@ -400,7 +400,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [18.7, 18.4, 19.8, 19.5, 20.2, 19.6, 21.1, 27.6, 19.6, 'BYE', 18.9, 23.0, 16.5, 15.8, 21.6, 25.4, 'DNP', 'DNP', 19.7]
+                        data: [18.7, 18.4, 19.8, 19.5, 20.2, 19.6, 21.1, 27.6, 19.6, 'BYE', 18.9, 23.0, 16.5, 15.8, 21.6, 25.4, 'DNP', 19.8, 19.7]
                     },
                     {
                         label: "95% Min",
@@ -409,7 +409,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [14.7, 12.7, 11.6, 5.2, 4.0, 13.3, 22.4, 20.3, 18.5, 'BYE', 24.8, 13.0, 17.5, 19.6, 19.6, 15.1, 'DNP', 'DNP', 18.2]
+                        data: [14.7, 12.7, 11.6, 5.2, 4.0, 13.3, 22.4, 20.3, 18.5, 'BYE', 24.8, 13.0, 17.5, 19.6, 19.6, 15.1, 'DNP', 24.5, 18.2]
                     },
                     {
                         label: "95% Max",
@@ -419,7 +419,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [39.8, 38.0, 39.4, 25.3, 33.8, 28.1, 40.0, 34.0, 33.9, 'BYE', 30.8, 29.9, 34.3, 30.9, 29.9, 33.0, 'DNP', 'DNP', 33.1]
+                        data: [39.8, 38.0, 39.4, 25.3, 33.8, 28.1, 40.0, 34.0, 33.9, 'BYE', 30.8, 29.9, 34.3, 30.9, 29.9, 33.0, 'DNP', 33.0, 33.1]
                     }
                     
                     ]
@@ -565,7 +565,7 @@ $scope.positionQB = [{
     "week15": 19.34,
     "week16": 10.96,
     "week17": 20.22,
-    "week18": "DNP",
+    "week18": 21.5,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -582,7 +582,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [16.64, 24.2, 41.34, 14.3, 29.92, 28.9, 15.34, 15.68, 41.22, 17.58, 'BYE', 10.5, 17.9, 11.6, 19.34, 10.96, 20.22, 'DNP']
+                         data: [16.64, 24.2, 41.34, 14.3, 29.92, 28.9, 15.34, 15.68, 41.22, 17.58, 'BYE', 10.5, 17.9, 11.6, 19.34, 10.96, 20.22, 21.5]
                     },
                     {
                         label: "Projected",
@@ -592,7 +592,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [19.5, 20.1, 18.7, 25.8, 12.5, 20.9, 17.3, 27.5, 23.9, 19.5, 'BYE', 15.3, 20.1, 21.1, 19.2, 22.0, 17.2, 'DNP', 18.0]
+                        data: [19.5, 20.1, 18.7, 25.8, 12.5, 20.9, 17.3, 27.5, 23.9, 19.5, 'BYE', 15.3, 20.1, 21.1, 19.2, 22.0, 17.2, 20.7, 18.0]
                     },
                     {
                         label: "95% Min",
@@ -601,7 +601,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [12.4, 8.1, 16.6, 7.5, 12.1, 11.5, 22.3, 14.6, 15.2, 16.0, 'BYE', 12.5, 13.9, 12.2, 12.2, 14.8, 14.6, 'DNP', 15.0]
+                        data: [12.4, 8.1, 16.6, 7.5, 12.1, 11.5, 22.3, 14.6, 15.2, 16.0, 'BYE', 12.5, 13.9, 12.2, 12.2, 14.8, 14.6, 17.9, 15.0]
                     },
                     {
                         label: "95% Max",
@@ -611,7 +611,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [27.7, 24.8, 23.0, 37.6, 32.8, 25.4, 27.9, 31.6, 26.0, 29.6, 'BYE', 32.9, 27.2, 27.0, 25.5, 26.4, 25.7, 'DNP', 22.7]
+                        data: [27.7, 24.8, 23.0, 37.6, 32.8, 25.4, 27.9, 31.6, 26.0, 29.6, 'BYE', 32.9, 27.2, 27.0, 25.5, 26.4, 25.7, 23.3, 22.7]
                     }
                     
                     ]
@@ -661,7 +661,7 @@ $scope.positionQB = [{
     "week15": 12.68,
     "week16": 7.88,
     "week17": "DNP",
-    "week18": "DNP",
+    "week18": 13.58,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -678,7 +678,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [14.32, 10.9, 12.56, 7.32, 20.54, 28.32, 29.18, 11.6, 21.3, 21.3, 22.86, 'BYE', 18.04, 13.58, 12.68, 7.88, 'DNP', 'DNP']
+                         data: [14.32, 10.9, 12.56, 7.32, 20.54, 28.32, 29.18, 11.6, 21.3, 21.3, 22.86, 'BYE', 18.04, 13.58, 12.68, 7.88, 'DNP', 13.58]
                     },
                     {
                         label: "Projected",
@@ -688,7 +688,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [20.0, 16.9, 18.4, 13.1, 12.0, 12.2, 17.6, 18.2, 15.5, 19.5, 11.2, 'BYE', 13.2, 18.6, 19.8, 20.3, 'DNP', 'DNP', 17.2]
+                        data: [20.0, 16.9, 18.4, 13.1, 12.0, 12.2, 17.6, 18.2, 15.5, 19.5, 11.2, 'BYE', 13.2, 18.6, 19.8, 20.3, 'DNP', 16.9, 17.2]
                     },
                     {
                         label: "95% Min",
@@ -697,7 +697,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [13.1, 14.0, 15.2, 10.1, 7.6, 10.2, 10.7, 11.3, 13.6, 11.9, 11.2, 'BYE', 15.9, 13.2, 15.0, 8.8, 'DNP', 'DNP', 13.5]
+                        data: [13.1, 14.0, 15.2, 10.1, 7.6, 10.2, 10.7, 11.3, 13.6, 11.9, 11.2, 'BYE', 15.9, 13.2, 15.0, 8.8, 'DNP', 12.8, 13.5]
                     },
                     {
                         label: "95% Max",
@@ -707,7 +707,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [32.1, 27.7, 21.3, 17.6, 23.9, 21.1, 29.1, 28.0, 28.3, 25.8, 27.7, 'BYE', 28.1, 23.1, 25.4, 22.9, 'DNP', 'DNP', 21.5]
+                        data: [32.1, 27.7, 21.3, 17.6, 23.9, 21.1, 29.1, 28.0, 28.3, 25.8, 27.7, 'BYE', 28.1, 23.1, 25.4, 22.9, 'DNP', 24.5, 21.5]
                     }
                     
                     ]
@@ -757,7 +757,7 @@ $scope.positionQB = [{
     "week15": 25.16,
     "week16": 23.68,
     "week17": 17.92,
-    "week18": "DNP",
+    "week18": 6.98,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -774,7 +774,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 20.18, 19.42, 25.04, 18.94, 'BYE', 32.36, 13.78, 28.54, 25.16, 23.68, 17.92, 'DNP']
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 20.18, 19.42, 25.04, 18.94, 'BYE', 32.36, 13.78, 28.54, 25.16, 23.68, 17.92, 6.98]
                     },
                     {
                         label: "Projected",
@@ -784,7 +784,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 12.2, 18.8, 10.8, 19.6, 'BYE', 13.0, 11.9, 13.9, 19.5, 18.3, 15.3, 'DNP', 16.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 12.2, 18.8, 10.8, 19.6, 'BYE', 13.0, 11.9, 13.9, 19.5, 18.3, 15.3, 11.1, 16.2]
                     },
                     {
                         label: "95% Min",
@@ -793,7 +793,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.3, 8.1, 5.9, 15.1, 'BYE', 11.7, 10.4, 6.6, 10.4, 8.7, 13.9, 'DNP', 9.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.3, 8.1, 5.9, 15.1, 'BYE', 11.7, 10.4, 6.6, 10.4, 8.7, 13.9, 12.1, 9.2]
                     },
                     {
                         label: "95% Max",
@@ -803,7 +803,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 20.9, 18.7, 22.4, 26.8, 'BYE', 17.0, 25.9, 23.7, 26.4, 30.5, 29.3, 'DNP', 25.6]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 20.9, 18.7, 22.4, 26.8, 'BYE', 17.0, 25.9, 23.7, 26.4, 30.5, 29.3, 24.0, 25.6]
                     }
                     
                     ]
@@ -953,7 +953,7 @@ $scope.positionRB = [{
     "week15": 8.6,
     "week16": "DNP",
     "week17": 39.1,
-    "week18": "DNP",
+    "week18": 26.9,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -970,7 +970,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [28.4, 16.3, 11.1, 11.3, 13.8, 3.8, 17.3, 6.8, 23.4, 32.1, 'BYE', 28.0, 22.1, 23.4, 8.6, 'DNP', 39.1, 'DNP']
+                         data: [28.4, 16.3, 11.1, 11.3, 13.8, 3.8, 17.3, 6.8, 23.4, 32.1, 'BYE', 28.0, 22.1, 23.4, 8.6, 'DNP', 39.1, 26.9]
                     },
                     {
                         label: "Projected",
@@ -980,7 +980,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [7.1, 18.7, 12.9, 11.5, 13.6, 8.3, 18.7, 9.1, 14.7, 13.0, 'BYE', 16.3, 9.1, 12.1, 18.4, 'DNP', 16.0, 'DNP', 16.8]
+                        data: [7.1, 18.7, 12.9, 11.5, 13.6, 8.3, 18.7, 9.1, 14.7, 13.0, 'BYE', 16.3, 9.1, 12.1, 18.4, 'DNP', 16.0, 12.7, 16.8]
                     },
                     {
                         label: "95% Min",
@@ -989,7 +989,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 1.7, 9.6, 0.5, 15.1, 7.1, 2.4, 2.6, 5.1, 1.0, 'BYE', 8.5, 0.0, 6.9, 5.2, 'DNP', 6.6, 'DNP', 0.0]
+                        data: [0.0, 1.7, 9.6, 0.5, 15.1, 7.1, 2.4, 2.6, 5.1, 1.0, 'BYE', 8.5, 0.0, 6.9, 5.2, 'DNP', 6.6, 12.3, 0.0]
                     },
                     {
                         label: "95% Max",
@@ -999,7 +999,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [28.7, 30.6, 28.8, 34.3, 41.1, 23.0, 18.8, 19.8, 21.0, 26.3, 'BYE', 31.3, 23.4, 25.2, 24.3, 'DNP', 18.4, 'DNP', 34.5]
+                        data: [28.7, 30.6, 28.8, 34.3, 41.1, 23.0, 18.8, 19.8, 21.0, 26.3, 'BYE', 31.3, 23.4, 25.2, 24.3, 'DNP', 18.4, 25.4, 34.5]
                     }
                     
                     ]
@@ -1028,10 +1028,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Sits out first postseason practice",
-    "report": "Ingram (calf) wasn't present for Tuesday's practice, Jonas Shaffer of The Baltimore Sun reports.",
-    "analysis": "Though Ingram's left calf strain kept him sidelined for a meaningless regular-season finale Dec. 29 against the Steelers, coach John Harbaugh expressed optimism the running back would be ready to go coming out of the Ravens' first-round bye in the postseason. According to Ian Rapoport of NFL Network, Ingram was \"essentially full speed\" during the Ravens' unofficial practices last week, but he felt some renewed tightness in his calf in those workouts and will now sit out to begin the current week. Ingram's availability for Saturday's divisional-round matchup with the Titans suddenly appears to be in more peril, though he'll still have two more opportunities to fit in some on-field work before the Ravens make a ruling on his status. If Ingram fails to shake off the injury in time for Saturday, Gus Edwards (21 carries for 130 yards in Week 17) would presumably headline the Ravens' ground attack.",
-    "timestamp": "2020-01-07 10:51 AM",
+    "headlineNews": "Still not practicing Wednesday",
+    "report": "Ingram (calf) isn't participating in Wednesday's practice, Jeff Zrebiec of The Athletic reports.",
+    "analysis": "Ingram hasn't practiced in any official capacity since sustaining a calf injury Week 16. While it's possible that the Ravens are taking a cautious approach to the veteran running back's recovery, he'll almost certainly need to resume on-field work in at least a limited capacity Thursday to have any chance of suiting up in Saturday's divisional-round tilt with the Titans. In the event that Ingram is sidelined, offensive coordinator Greg Roman said that Gus Edwards, who carried the ball 21 times for 130 yards in a Week 17 win over Pittsburgh, will be ready to receive \"lots of action,\" per Zrebiec.",
+    "timestamp": "2020-01-08 10:50 AM",
     "week01": 22.7,
     "week02": 8.7,
     "week03": 33.5,
@@ -1241,7 +1241,7 @@ $scope.positionRB = [{
     "week15": "DNP",
     "week16": "DNP",
     "week17": "DNP",
-    "week18": "DNP",
+    "week18": 10.2,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -1258,7 +1258,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.2]
                     },
                     {
                         label: "Projected",
@@ -1268,7 +1268,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 13.8]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.8, 13.8]
                     },
                     {
                         label: "95% Min",
@@ -1277,7 +1277,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 9.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.9, 9.2]
                     },
                     {
                         label: "95% Max",
@@ -1287,7 +1287,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 14.8]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 18.1, 14.8]
                     }
                     
                     ]
@@ -1337,7 +1337,7 @@ $scope.positionRB = [{
     "week15": 5.8,
     "week16": "DNP",
     "week17": "DNP",
-    "week18": "DNP",
+    "week18": 26.5,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -1354,7 +1354,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [25.0, 26.6, 22.3, 16.0, 22.8, 12.4, 27.4, 25.6, 13.6, 27.8, 14.2, 'BYE', 11.9, 14.5, 5.8, 'DNP', 'DNP', 'DNP']
+                         data: [25.0, 26.6, 22.3, 16.0, 22.8, 12.4, 27.4, 25.6, 13.6, 27.8, 14.2, 'BYE', 11.9, 14.5, 5.8, 'DNP', 'DNP', 26.5]
                     },
                     {
                         label: "Projected",
@@ -1364,7 +1364,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [13.4, 11.6, 11.5, 10.0, 13.0, 11.0, 11.0, 14.0, 20.1, 11.3, 13.0, 'BYE', 14.3, 17.4, 11.8, 'DNP', 'DNP', 'DNP', 13.6]
+                        data: [13.4, 11.6, 11.5, 10.0, 13.0, 11.0, 11.0, 14.0, 20.1, 11.3, 13.0, 'BYE', 14.3, 17.4, 11.8, 'DNP', 'DNP', 12.1, 13.6]
                     },
                     {
                         label: "95% Min",
@@ -1373,7 +1373,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [11.0, 6.0, 18.1, 0.0, 14.1, 1.9, 4.7, 8.6, 8.5, 3.3, 5.1, 'BYE', 8.9, 9.4, 2.7, 'DNP', 'DNP', 'DNP', 2.7]
+                        data: [11.0, 6.0, 18.1, 0.0, 14.1, 1.9, 4.7, 8.6, 8.5, 3.3, 5.1, 'BYE', 8.9, 9.4, 2.7, 'DNP', 'DNP', 6.2, 2.7]
                     },
                     {
                         label: "95% Max",
@@ -1383,7 +1383,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [28.7, 10.4, 28.3, 18.1, 29.1, 27.6, 27.6, 32.2, 34.6, 18.1, 36.3, 'BYE', 21.7, 31.0, 20.5, 'DNP', 'DNP', 'DNP', 24.4]
+                        data: [28.7, 10.4, 28.3, 18.1, 29.1, 27.6, 27.6, 32.2, 34.6, 18.1, 36.3, 'BYE', 21.7, 31.0, 20.5, 'DNP', 'DNP', 28.6, 24.4]
                     }
                     
                     ]
@@ -1529,7 +1529,7 @@ $scope.positionRB = [{
     "week15": 16.4,
     "week16": 10.2,
     "week17": 1.3,
-    "week18": "DNP",
+    "week18": 11.8,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -1546,7 +1546,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 9.0, 7.9, 8.4, 12.0, 17.5, 3.5, 8.3, 14.0, 'BYE', 12.5, 6.7, 2.7, 8.8, 16.4, 10.2, 1.3, 'DNP']
+                         data: ['DNP', 9.0, 7.9, 8.4, 12.0, 17.5, 3.5, 8.3, 14.0, 'BYE', 12.5, 6.7, 2.7, 8.8, 16.4, 10.2, 1.3, 11.8]
                     },
                     {
                         label: "Projected",
@@ -1556,7 +1556,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 7.0, 9.8, 4.9, 9.1, 10.0, 11.6, 13.9, 8.1, 'BYE', 10.5, 5.4, 9.5, 8.7, 14.0, 6.5, 10.7, 'DNP', 11.2]
+                        data: ['DNP', 7.0, 9.8, 4.9, 9.1, 10.0, 11.6, 13.9, 8.1, 'BYE', 10.5, 5.4, 9.5, 8.7, 14.0, 6.5, 10.7, 8.9, 11.2]
                     },
                     {
                         label: "95% Min",
@@ -1565,7 +1565,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 1.4, 5.9, 2.7, 5.0, 5.8, 7.1, 5.2, 2.9, 'BYE', 2.2, 5.3, 9.4, 7.6, 4.5, 5.5, 8.1, 'DNP', 6.4]
+                        data: ['DNP', 1.4, 5.9, 2.7, 5.0, 5.8, 7.1, 5.2, 2.9, 'BYE', 2.2, 5.3, 9.4, 7.6, 4.5, 5.5, 8.1, 4.6, 6.4]
                     },
                     {
                         label: "95% Max",
@@ -1575,7 +1575,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 7.0, 23.7, 14.8, 21.7, 12.9, 15.7, 14.3, 15.2, 'BYE', 15.2, 14.1, 13.5, 18.2, 14.4, 16.4, 14.9, 'DNP', 12.7]
+                        data: ['DNP', 7.0, 23.7, 14.8, 21.7, 12.9, 15.7, 14.3, 15.2, 'BYE', 15.2, 14.1, 13.5, 18.2, 14.4, 16.4, 14.9, 14.4, 12.7]
                     }
                     
                     ]
@@ -1692,18 +1692,18 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 21.51,
     "fanduelSalary": "$5100",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Shoulder",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#d7a017",
     "tmColorDark": "#203731",
     "tmColorLite_rgba": "rgba(215, 160, 23, 0.2)",
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "tmTextLite": "#d7a017",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Practicing Thursday",
-    "report": "Williams (shoulder) practiced Thursday, Rob Demovsky of ESPN.com reports.",
-    "analysis": "Williams, who was inactive in Week 17, previously relayed via Matt Schneidman of The Athletic that he would have been able to suit up for the Packers' regular-season finale if it had been a playoff game. His presence on the practice field supports that notion, and it looks like Williams will be good to go when his team takes on a yet-to-be-determined opponent Jan. 12.",
-    "timestamp": "2020-01-02 09:43 AM",
+    "headlineNews": "Full practice Wednesday",
+    "report": "Williams (shoulder) practiced in full Wednesday.",
+    "analysis": "Williams was held out of the Packers' regular-season finale due to a precautionary measure, which he more or less confirmed in the aftermath. Speaking to Matt Schneidman of The Athletic, Williams said he would have suited up if it was the playoffs. With an uninhibited practice under his belt, Williams is on pace to do just that for Sunday's divisional-round matchup with the Seahawks. Expect him to serve as a handcuff to Aaron Jones, a role that amounted to 10.4 touches for 50.9 yards from scrimmage per game while scoring six TDs in 14 appearances.",
+    "timestamp": "2020-01-08 02:45 PM",
     "week01": 2.5,
     "week02": 11.6,
     "week03": 9.6,
@@ -2009,7 +2009,7 @@ $scope.positionRB = [{
     "week15": 3.3,
     "week16": 0.1,
     "week17": 14.2,
-    "week18": "DNP",
+    "week18": 8.3,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -2026,7 +2026,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [11.0, 3.1, 3.4, 8.8, 7.2, 12.4, 6.6, 11.4, 16.6, 'BYE', 5.4, 3.5, 17.5, 7.5, 3.3, 0.1, 14.2, 'DNP']
+                         data: [11.0, 3.1, 3.4, 8.8, 7.2, 12.4, 6.6, 11.4, 16.6, 'BYE', 5.4, 3.5, 17.5, 7.5, 3.3, 0.1, 14.2, 8.3]
                     },
                     {
                         label: "Projected",
@@ -2036,7 +2036,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [8.8, 13.8, 7.4, 5.3, 6.9, 7.6, 6.5, 8.6, 5.5, 'BYE', 7.2, 7.0, 8.1, 6.7, 10.3, 5.4, 6.0, 'DNP', 5.9]
+                        data: [8.8, 13.8, 7.4, 5.3, 6.9, 7.6, 6.5, 8.6, 5.5, 'BYE', 7.2, 7.0, 8.1, 6.7, 10.3, 5.4, 6.0, 7.1, 5.9]
                     },
                     {
                         label: "95% Min",
@@ -2045,7 +2045,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 7.4, 2.4, 4.1, 4.3, 4.4, 4.2, 4.3, 3.0, 'BYE', 2.6, 2.0, 2.8, 6.3, 4.2, 5.7, 0.0, 'DNP', 4.6]
+                        data: [0.0, 7.4, 2.4, 4.1, 4.3, 4.4, 4.2, 4.3, 3.0, 'BYE', 2.6, 2.0, 2.8, 6.3, 4.2, 5.7, 0.0, 5.7, 4.6]
                     },
                     {
                         label: "95% Max",
@@ -2055,7 +2055,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [14.3, 11.3, 12.7, 18.2, 8.8, 13.8, 11.6, 14.9, 9.8, 'BYE', 10.4, 6.6, 11.2, 13.2, 7.8, 19.8, 12.5, 'DNP', 12.1]
+                        data: [14.3, 11.3, 12.7, 18.2, 8.8, 13.8, 11.6, 14.9, 9.8, 'BYE', 10.4, 6.6, 11.2, 13.2, 7.8, 19.8, 12.5, 15.2, 12.1]
                     }
                     
                     ]
@@ -2301,7 +2301,7 @@ $scope.positionWR = [{
     "week15": 21.4,
     "week16": 14.8,
     "week17": 20.4,
-    "week18": "DNP",
+    "week18": 0.9,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -2318,7 +2318,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [11.5, 4.0, 0.9, 22.9, 3.7, 3.3, 9.2, 8.1, 10.1, 2.2, 'BYE', 21.5, 6.0, 31.1, 21.4, 14.8, 20.4, 'DNP']
+                         data: [11.5, 4.0, 0.9, 22.9, 3.7, 3.3, 9.2, 8.1, 10.1, 2.2, 'BYE', 21.5, 6.0, 31.1, 21.4, 14.8, 20.4, 0.9]
                     },
                     {
                         label: "Projected",
@@ -2328,7 +2328,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [5.2, 7.8, 4.8, 7.8, 7.8, 8.4, 5.7, 9.5, 8.5, 4.2, 'BYE', 10.7, 16.9, 6.9, 11.2, 10.7, 18.9, 'DNP', 14.5]
+                        data: [5.2, 7.8, 4.8, 7.8, 7.8, 8.4, 5.7, 9.5, 8.5, 4.2, 'BYE', 10.7, 16.9, 6.9, 11.2, 10.7, 18.9, 11.7, 14.5]
                     },
                     {
                         label: "95% Min",
@@ -2337,7 +2337,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [5.5, 7.8, 7.0, 6.1, 7.5, 7.0, 0.5, 2.1, 3.5, 5.0, 'BYE', 0.0, 0.0, 0.8, 0.0, 0.0, 5.5, 'DNP', 1.8]
+                        data: [5.5, 7.8, 7.0, 6.1, 7.5, 7.0, 0.5, 2.1, 3.5, 5.0, 'BYE', 0.0, 0.0, 0.8, 0.0, 0.0, 5.5, 0.3, 1.8]
                     },
                     {
                         label: "95% Max",
@@ -2347,7 +2347,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [6.0, 9.1, 7.5, 6.9, 8.5, 7.7, 10.2, 7.6, 13.2, 13.9, 'BYE', 11.4, 10.9, 6.1, 23.9, 32.9, 32.4, 'DNP', 25.3]
+                        data: [6.0, 9.1, 7.5, 6.9, 8.5, 7.7, 10.2, 7.6, 13.2, 13.9, 'BYE', 11.4, 10.9, 6.1, 23.9, 32.9, 32.4, 28.1, 25.3]
                     }
                     
                     ]
@@ -2589,7 +2589,7 @@ $scope.positionWR = [{
     "week15": 14.9,
     "week16": 4.8,
     "week17": "DNP",
-    "week18": "DNP",
+    "week18": 12.0,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -2606,7 +2606,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [27.1, 6.5, 9.7, 5.6, 12.3, 12.0, 21.1, 16.4, 15.4, 'BYE', 11.5, 24.4, 13.14, 22.7, 14.9, 4.8, 'DNP', 'DNP']
+                         data: [27.1, 6.5, 9.7, 5.6, 12.3, 12.0, 21.1, 16.4, 15.4, 'BYE', 11.5, 24.4, 13.14, 22.7, 14.9, 4.8, 'DNP', 12.0]
                     },
                     {
                         label: "Projected",
@@ -2616,7 +2616,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [14.0, 12.3, 12.2, 13.9, 17.9, 13.3, 15.8, 15.3, 14.7, 'BYE', 8.8, 17.7, 18.2, 16.3, 11.9, 20.0, 'DNP', 'DNP', 11.9]
+                        data: [14.0, 12.3, 12.2, 13.9, 17.9, 13.3, 15.8, 15.3, 14.7, 'BYE', 8.8, 17.7, 18.2, 16.3, 11.9, 20.0, 'DNP', 13.5, 11.9]
                     },
                     {
                         label: "95% Min",
@@ -2625,7 +2625,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [10.4, 5.6, 7.6, 7.4, 6.3, 2.7, 8.0, 10.7, 14.7, 'BYE', 14.6, 11.4, 12.3, 8.3, 13.1, 9.4, 'DNP', 'DNP', 5.5]
+                        data: [10.4, 5.6, 7.6, 7.4, 6.3, 2.7, 8.0, 10.7, 14.7, 'BYE', 14.6, 11.4, 12.3, 8.3, 13.1, 9.4, 'DNP', 7.5, 5.5]
                     },
                     {
                         label: "95% Max",
@@ -2635,7 +2635,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [16.4, 22.6, 28.2, 15.2, 13.8, 31.8, 24.3, 18.6, 23.8, 'BYE', 24.2, 20.7, 26.0, 19.5, 26.1, 20.6, 'DNP', 'DNP', 14.8]
+                        data: [16.4, 22.6, 28.2, 15.2, 13.8, 31.8, 24.3, 18.6, 23.8, 'BYE', 24.2, 20.7, 26.0, 19.5, 26.1, 20.6, 'DNP', 21.6, 14.8]
                     }
                     
                     ]
@@ -2752,18 +2752,18 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 26.19,
     "fanduelSalary": "$7000",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Ankle",
     "tmColorLite": "#e0aa19",
     "tmColorDark": "#300e5a",
     "tmColorLite_rgba": "rgba(224, 170, 25, 0.2)",
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Contributes 129 receiving yards",
-    "report": "Thielen caught seven of nine targets for 129 yards during Sunday's 26-20 wild-card win over the Saints.",
-    "analysis": "Thielen averaged an impressive 18.4 yards per catch while gashing the New Orleans secondary for several big plays, including one that set up the winning touchdown in overtime. The veteran had just three catches to his name since October, so this outstanding effort was a tremendous boost to his team's cause en route to the improbable upset. Thielen will be instrumental in next week's divisional-round road matchup with the 49ers, but he'll be facing one of the better defenses in the league.",
-    "timestamp": "2020-01-05 04:19 PM",
+    "headlineNews": "Listed as limited Wednesday",
+    "report": "Thielen was limited at practice Wednesday due to an ankle injury, Chris Tomasson of the St. Paul Pioneer Press reports.",
+    "analysis": "Thielen didn't initially appear on the Vikings' first practice report of the week that was submitted Tuesday, so his inclusion Wednesday hints that he may have suffered an in-practice setback. The wideout's status will be revisited again Thursday, at which time it'll be known whether he approaches Saturday's playoff game against the 49ers listed as questionable or without an injury designation entirely.",
+    "timestamp": "2020-01-08 12:45 PM",
     "week01": 11.8,
     "week02": 10.28,
     "week03": 19.1,
@@ -2781,7 +2781,7 @@ $scope.positionWR = [{
     "week15": 4.5,
     "week16": 0.2,
     "week17": "DNP",
-    "week18": "DNP",
+    "week18": 14.7,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -2798,7 +2798,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [11.8, 10.28, 19.1, 1.6, 28.5, 14.7, 9.0, 'DNP', 0.0, 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 4.5, 0.2, 'DNP', 'DNP']
+                         data: [11.8, 10.28, 19.1, 1.6, 28.5, 14.7, 9.0, 'DNP', 0.0, 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 4.5, 0.2, 'DNP', 14.7]
                     },
                     {
                         label: "Projected",
@@ -2808,7 +2808,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [9.0, 9.7, 13.1, 10.6, 5.1, 9.5, 11.0, 'DNP', 10.9, 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 9.9, 11.8, 'DNP', 'DNP', 11.0]
+                        data: [9.0, 9.7, 13.1, 10.6, 5.1, 9.5, 11.0, 'DNP', 10.9, 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 9.9, 11.8, 'DNP', 8.3, 11.0]
                     },
                     {
                         label: "95% Min",
@@ -2817,7 +2817,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [2.9, 5.6, 0.0, 0.0, 3.6, 13.1, 4.7, 'DNP', 5.1, 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 6.5, 2.1, 'DNP', 'DNP', 5.2]
+                        data: [2.9, 5.6, 0.0, 0.0, 3.6, 13.1, 4.7, 'DNP', 5.1, 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 6.5, 2.1, 'DNP', 2.1, 5.2]
                     },
                     {
                         label: "95% Max",
@@ -2827,7 +2827,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [17.2, 17.7, 19.7, 20.5, 22.0, 21.9, 18.1, 'DNP', 14.5, 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 15.1, 8.3, 'DNP', 'DNP', 12.5]
+                        data: [17.2, 17.7, 19.7, 20.5, 22.0, 21.9, 18.1, 'DNP', 14.5, 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 15.1, 8.3, 'DNP', 9.3, 12.5]
                     }
                     
                     ]
@@ -3165,7 +3165,7 @@ $scope.positionWR = [{
     "week15": 22.0,
     "week16": 1.7,
     "week17": 14.1,
-    "week18": "DNP",
+    "week18": 8.2,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -3182,7 +3182,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [10.9, 12.9, 26.9, 7.1, 12.3, 10.3, 14.3, 13.0, 33.7, 4.4, 'BYE', 4.3, 0.0, 6.3, 22.0, 1.7, 14.1, 'DNP']
+                         data: [10.9, 12.9, 26.9, 7.1, 12.3, 10.3, 14.3, 13.0, 33.7, 4.4, 'BYE', 4.3, 0.0, 6.3, 22.0, 1.7, 14.1, 8.2]
                     },
                     {
                         label: "Projected",
@@ -3192,7 +3192,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [9.2, 11.6, 8.8, 15.3, 11.0, 8.7, 12.6, 10.6, 17.1, 10.4, 'BYE', 10.9, 12.7, 11.2, 16.4, 12.7, 14.4, 'DNP', 8.9]
+                        data: [9.2, 11.6, 8.8, 15.3, 11.0, 8.7, 12.6, 10.6, 17.1, 10.4, 'BYE', 10.9, 12.7, 11.2, 16.4, 12.7, 14.4, 8.8, 8.9]
                     },
                     {
                         label: "95% Min",
@@ -3201,7 +3201,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [6.8, 6.0, 4.8, 0.0, 1.9, 3.8, 8.1, 3.9, 11.7, 10.7, 'BYE', 6.5, 3.4, 1.7, 5.0, 5.6, 5.0, 'DNP', 6.3]
+                        data: [6.8, 6.0, 4.8, 0.0, 1.9, 3.8, 8.1, 3.9, 11.7, 10.7, 'BYE', 6.5, 3.4, 1.7, 5.0, 5.6, 5.0, 6.4, 6.3]
                     },
                     {
                         label: "95% Max",
@@ -3211,7 +3211,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [14.3, 15.5, 12.9, 16.1, 18.3, 13.8, 14.4, 22.3, 23.1, 20.2, 'BYE', 20.3, 18.0, 13.3, 12.3, 18.7, 13.4, 'DNP', 13.9]
+                        data: [14.3, 15.5, 12.9, 16.1, 18.3, 13.8, 14.4, 22.3, 23.1, 20.2, 'BYE', 20.3, 18.0, 13.3, 12.3, 18.7, 13.4, 17.9, 13.9]
                     }
                     
                     ]
@@ -3240,10 +3240,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Idle Tuesday with illness",
-    "report": "Diggs wasn't in attendance for Tuesday's walk-through practice due to an illness, Tom Pelissero of NFL Network reports.",
-    "analysis": "After defeating the Saints in overtime Sunday, the Vikings are holding only a light workout to begin the week, as the team faces a quick turnaround for Saturday's divisional-round matchup with the 49ers. So long as Diggs returns to practice in some fashion Wednesday and/or Thursday, he'll likely enter the game without an injury designation.",
-    "timestamp": "2020-01-07 02:07 PM",
+    "headlineNews": "Misses practice Wednesday",
+    "report": "Diggs (illness) didn't practice Wednesday, Chris Tomasson of the St. Paul Pioneer Press reports.",
+    "analysis": "Despite Diggs having missed his second straight practice, coach Mike Zimmer indicated that he isn't concerned about the wideout's availability for Saturday''s divisional playoff game versus the 49ers. Diggs' status will be revisited again Thursday during the Vikings' final practice of the week. If he's able to put in a full workout, Diggs will have a good chance at avoiding a designation heading into the weekend.",
+    "timestamp": "2020-01-08 12:38 PM",
     "week01": 4.7,
     "week02": 9.4,
     "week03": 3.0,
@@ -3261,7 +3261,7 @@ $scope.positionWR = [{
     "week15": 10.0,
     "week16": 13.2,
     "week17": "DNP",
-    "week18": "DNP",
+    "week18": 3.7,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -3278,7 +3278,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [4.7, 9.4, 3.0, 12.3, 5.9, 40.0, 17.7, 15.8, 2.1, 6.4, 20.6, 'BYE', 7.2, 12.2, 10.0, 13.2, 'DNP', 'DNP']
+                         data: [4.7, 9.4, 3.0, 12.3, 5.9, 40.0, 17.7, 15.8, 2.1, 6.4, 20.6, 'BYE', 7.2, 12.2, 10.0, 13.2, 'DNP', 3.7]
                     },
                     {
                         label: "Projected",
@@ -3288,7 +3288,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [13.5, 5.4, 10.7, 7.0, 8.8, 6.1, 9.7, 10.6, 9.0, 9.7, 12.2, 'BYE', 11.4, 21.9, 17.5, 14.3, 'DNP', 'DNP', 7.9]
+                        data: [13.5, 5.4, 10.7, 7.0, 8.8, 6.1, 9.7, 10.6, 9.0, 9.7, 12.2, 'BYE', 11.4, 21.9, 17.5, 14.3, 'DNP', 11.8, 7.9]
                     },
                     {
                         label: "95% Min",
@@ -3297,7 +3297,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [9.1, 15.2, 8.6, 2.5, 2.2, 2.3, 5.7, 8.7, 3.0, 0.4, 4.7, 'BYE', 5.3, 2.5, 6.4, 5.3, 'DNP', 'DNP', 3.5]
+                        data: [9.1, 15.2, 8.6, 2.5, 2.2, 2.3, 5.7, 8.7, 3.0, 0.4, 4.7, 'BYE', 5.3, 2.5, 6.4, 5.3, 'DNP', 5.3, 3.5]
                     },
                     {
                         label: "95% Max",
@@ -3307,7 +3307,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [22.8, 28.1, 20.6, 14.2, 13.7, 19.7, 15.9, 19.8, 21.0, 11.7, 11.8, 'BYE', 18.4, 16.2, 16.9, 16.3, 'DNP', 'DNP', 20.3]
+                        data: [22.8, 28.1, 20.6, 14.2, 13.7, 19.7, 15.9, 19.8, 21.0, 11.7, 11.8, 'BYE', 18.4, 16.2, 16.9, 16.3, 'DNP', 12.1, 20.3]
                     }
                     
                     ]
@@ -3357,7 +3357,7 @@ $scope.positionWR = [{
     "week15": 7.2,
     "week16": 5.5,
     "week17": 6.4,
-    "week18": "DNP",
+    "week18": 0.0,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -3374,7 +3374,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 5.3, 5.9, 17.6, 3.8, 5.1, 17.0, 1.9, 6.8, 'DNP', 'BYE', 3.9, 2.8, 4.4, 7.2, 5.5, 6.4, 'DNP']
+                         data: [0.0, 5.3, 5.9, 17.6, 3.8, 5.1, 17.0, 1.9, 6.8, 'DNP', 'BYE', 3.9, 2.8, 4.4, 7.2, 5.5, 6.4, 0.0]
                     },
                     {
                         label: "Projected",
@@ -3384,7 +3384,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [7.0, 5.8, 3.1, 9.5, 7.3, 9.4, 6.0, 12.3, 5.6, 'DNP', 'BYE', 7.0, 9.1, 2.9, 6.5, 4.2, 8.7, 'DNP', 6.5]
+                        data: [7.0, 5.8, 3.1, 9.5, 7.3, 9.4, 6.0, 12.3, 5.6, 'DNP', 'BYE', 7.0, 9.1, 2.9, 6.5, 4.2, 8.7, 5.1, 6.5]
                     },
                     {
                         label: "95% Min",
@@ -3393,7 +3393,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [4.1, 0.5, 0.7, 0.7, 1.2, 2.4, 3.9, 3.6, 0.0, 'DNP', 'BYE', 1.9, 2.1, 1.8, 6.4, 3.3, 4.7, 'DNP', 2.2]
+                        data: [4.1, 0.5, 0.7, 0.7, 1.2, 2.4, 3.9, 3.6, 0.0, 'DNP', 'BYE', 1.9, 2.1, 1.8, 6.4, 3.3, 4.7, 0.2, 2.2]
                     },
                     {
                         label: "95% Max",
@@ -3403,7 +3403,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [11.6, 10.1, 26.9, 9.4, 9.1, 14.0, 7.1, 18.2, 10.7, 'DNP', 'BYE', 10.8, 6.4, 8.7, 9.6, 8.4, 9.8, 'DNP', 9.2]
+                        data: [11.6, 10.1, 26.9, 9.4, 9.1, 14.0, 7.1, 18.2, 10.7, 'DNP', 'BYE', 10.8, 6.4, 8.7, 9.6, 8.4, 9.8, 6.7, 9.2]
                     }
                     
                     ]
@@ -3811,18 +3811,18 @@ $scope.positionTE = [{
     "opp_avg_allowed_fp2": 10.51,
     "fanduelSalary": "$7500",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Knee",
     "tmColorLite": "#FFB81C",
     "tmColorDark": "#c9243f",
     "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Picks up three receptions",
-    "report": "Kelce caught three of five targets for 24 yards during Sunday's 31-21 win over the Chargers.",
-    "analysis": "Kelce met or fell below season lows across multiple statistical categories Sunday, as a few big plays on special teams and in the run game negated the need for Patrick Mahomes to air it out. The victory still meant that the Chiefs will get a bye this weekend and face either the Patriots, Texans or Bills in the divisional round. In two games against New England and Houston this season, Kelce caught 11 of 15 passes for 124 yards to go along with a four-yard touchdown run.",
-    "timestamp": "2019-12-31 02:35 PM",
+    "headlineNews": "Limited by knee issue",
+    "report": "Kelce (knee) was limited at practice Wednesday.",
+    "analysis": "Per Adam Teicher of ESPN.com, the tight end's Wednesday limitations were the result of a sore knee, but the issue \"shouldn't keep (Kelce) out\" of Sunday's playoff game against the Texans. We'll let you know if that assessment chances as the contest approaches.",
+    "timestamp": "2020-01-08 02:17 PM",
     "week01": 10.3,
     "week02": 20.2,
     "week03": 12.4,
@@ -3915,10 +3915,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Limited at practice",
-    "report": "Andrews (ankle) was a limited participant in Tuesday's practice, Jeff Zrebiec of The Athletic reports.",
-    "analysis": "Though his reps were capped in the Ravens' first official practice of the postseason, Andrews looks in no real jeopardy of missing Saturday's divisional-round matchup with the Titans. Andrews was sidelined for the Ravens' Week 17 win over the Steelers with a sore ankle, but his absence had more to do with Baltimore having already clinched the AFC's No. 1 seed rather than any major concern about his health.",
-    "timestamp": "2020-01-07 12:59 PM",
+    "headlineNews": "Logs limited practice",
+    "report": "Andrews (ankle) was limited at practice Wednesday.",
+    "analysis": "Andrews will more than likely be available for Saturday's playoff game against the Titans, though it's plausible that the tight end -- who sat out the Ravens' regular-season finale along with several other key players -- will officially be listed as questionable heading into the weekend.",
+    "timestamp": "2020-01-08 01:00 PM",
     "week01": 20.8,
     "week02": 21.2,
     "week03": 3.0,
@@ -4128,7 +4128,7 @@ $scope.positionTE = [{
     "week15": 3.8,
     "week16": 8.9,
     "week17": 4.5,
-    "week18": "DNP",
+    "week18": 2.6,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -4145,7 +4145,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.5, 2.8, 17.7, 16.2, 'BYE', 3.2, 7.4, 5.4, 3.8, 8.9, 4.5, 'DNP']
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.5, 2.8, 17.7, 16.2, 'BYE', 3.2, 7.4, 5.4, 3.8, 8.9, 4.5, 2.6]
                     },
                     {
                         label: "Projected",
@@ -4155,7 +4155,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', -0.2, 8.7, 3.8, 6.4, 'BYE', 4.4, 9.5, 4.6, 5.9, 10.3, 8.1, 'DNP', 7.0]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', -0.2, 8.7, 3.8, 6.4, 'BYE', 4.4, 9.5, 4.6, 5.9, 10.3, 8.1, 11.3, 7.0]
                     },
                     {
                         label: "95% Min",
@@ -4164,7 +4164,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 0.0, 0.0, 'BYE', 1.4, 0.0, 0.0, 0.2, 2.2, 2.0, 'DNP', 3.6]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 0.0, 0.0, 'BYE', 1.4, 0.0, 0.0, 0.2, 2.2, 2.0, 4.1, 3.6]
                     },
                     {
                         label: "95% Max",
@@ -4174,7 +4174,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.2, 4.0, 4.4, 8.4, 'BYE', 20.2, 17.5, 12.6, 10.5, 19.4, 7.9, 'DNP', 7.6]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.2, 4.0, 4.4, 8.4, 'BYE', 20.2, 17.5, 12.6, 10.5, 19.4, 7.9, 6.2, 7.6]
                     }
                     
                     ]
@@ -4224,7 +4224,7 @@ $scope.positionTE = [{
     "week15": 6.3,
     "week16": 1.2,
     "week17": 0.0,
-    "week18": "DNP",
+    "week18": 11.1,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -4241,7 +4241,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 2.4, 1.6, 1.7, 0.9, 5.1, 14.3, 3.2, 9.8, 17.4, 15.2, 'BYE', 13.0, 2.1, 6.3, 1.2, 0.0, 'DNP']
+                         data: [0.0, 2.4, 1.6, 1.7, 0.9, 5.1, 14.3, 3.2, 9.8, 17.4, 15.2, 'BYE', 13.0, 2.1, 6.3, 1.2, 0.0, 11.1]
                     },
                     {
                         label: "Projected",
@@ -4251,7 +4251,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [9.6, 3.6, 9.0, 5.5, 4.1, 5.2, 7.8, 5.0, 5.1, 7.5, 5.3, 'BYE', 16.5, 9.9, 2.3, 8.6, 7.7, 'DNP', 7.0]
+                        data: [9.6, 3.6, 9.0, 5.5, 4.1, 5.2, 7.8, 5.0, 5.1, 7.5, 5.3, 'BYE', 16.5, 9.9, 2.3, 8.6, 7.7, 5.7, 7.0]
                     },
                     {
                         label: "95% Min",
@@ -4260,7 +4260,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [3.9, 5.8, 2.9, 0.0, 0.8, 0.9, 3.4, 3.1, 2.1, 5.0, 3.0, 'BYE', 4.1, 3.0, 9.2, 1.5, 1.4, 'DNP', 0.8]
+                        data: [3.9, 5.8, 2.9, 0.0, 0.8, 0.9, 3.4, 3.1, 2.1, 5.0, 3.0, 'BYE', 4.1, 3.0, 9.2, 1.5, 1.4, 5.6, 0.8]
                     },
                     {
                         label: "95% Max",
@@ -4270,7 +4270,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [11.4, 15.6, 13.1, 10.5, 7.0, 8.7, 11.5, 10.3, 15.4, 10.8, 13.9, 'BYE', 15.9, 11.1, 15.0, 8.7, 12.1, 'DNP', 13.6]
+                        data: [11.4, 15.6, 13.1, 10.5, 7.0, 8.7, 11.5, 10.3, 15.4, 10.8, 13.9, 'BYE', 15.9, 11.1, 15.0, 8.7, 12.1, 8.9, 13.6]
                     }
                     
                     ]
@@ -4320,7 +4320,7 @@ $scope.positionTE = [{
     "week15": 14.2,
     "week16": 13.8,
     "week17": 0.7,
-    "week18": "DNP",
+    "week18": 1.4,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -4337,7 +4337,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [2.2, 0.0, 3.0, 1.0, 6.2, 1.3, 7.9, 16.8, 3.3, 5.0, 'BYE', 0.4, 1.0, 10.4, 14.2, 13.8, 0.7, 'DNP']
+                         data: [2.2, 0.0, 3.0, 1.0, 6.2, 1.3, 7.9, 16.8, 3.3, 5.0, 'BYE', 0.4, 1.0, 10.4, 14.2, 13.8, 0.7, 1.4]
                     },
                     {
                         label: "Projected",
@@ -4347,7 +4347,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [4.4, 2.8, 0.5, 1.4, 0.5, -0.4, 1.3, 6.7, 2.6, 3.3, 'BYE', 4.8, 8.0, 5.0, 10.5, 8.4, 5.7, 'DNP', 6.0]
+                        data: [4.4, 2.8, 0.5, 1.4, 0.5, -0.4, 1.3, 6.7, 2.6, 3.3, 'BYE', 4.8, 8.0, 5.0, 10.5, 8.4, 5.7, 5.5, 6.0]
                     },
                     {
                         label: "95% Min",
@@ -4356,7 +4356,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 0.0, 2.5, 2.6, 0.0, 'BYE', 0.1, 0.0, 0.0, 0.6, 0.7, 6.4, 'DNP', 3.1]
+                        data: [0.0, 0.0, 0.0, 0.0, 0.0, 0.9, 0.0, 2.5, 2.6, 0.0, 'BYE', 0.1, 0.0, 0.0, 0.6, 0.7, 6.4, 0.8, 3.1]
                     },
                     {
                         label: "95% Max",
@@ -4366,7 +4366,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [3.5, 6.2, 8.2, 8.2, 4.5, 3.7, 11.0, 11.1, 13.1, 9.6, 'BYE', 3.4, 3.1, 2.8, 8.6, 12.6, 14.3, 'DNP', 14.1]
+                        data: [3.5, 6.2, 8.2, 8.2, 4.5, 3.7, 11.0, 11.1, 13.1, 9.6, 'BYE', 3.4, 3.1, 2.8, 8.6, 12.6, 14.3, 11.9, 14.1]
                     }
                     
                     ]
@@ -4416,7 +4416,7 @@ $scope.positionTE = [{
     "week15": 0.7,
     "week16": 4.2,
     "week17": 0.0,
-    "week18": "DNP",
+    "week18": 5.7,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -4433,7 +4433,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 1.4, 13.4, 1.7, 15.0, 9.9, 3.7, 20.8, 6.6, 'BYE', 2.3, 2.9, 9.3, 1.2, 0.7, 4.2, 0.0, 'DNP']
+                         data: [0.0, 1.4, 13.4, 1.7, 15.0, 9.9, 3.7, 20.8, 6.6, 'BYE', 2.3, 2.9, 9.3, 1.2, 0.7, 4.2, 0.0, 5.7]
                     },
                     {
                         label: "Projected",
@@ -4443,7 +4443,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [-0.7, 1.7, 1.1, 3.0, 2.7, 4.5, 2.3, 5.5, 4.5, 'BYE', 6.8, 3.6, 3.5, 3.5, 5.6, 3.8, 5.8, 'DNP', 4.3]
+                        data: [-0.7, 1.7, 1.1, 3.0, 2.7, 4.5, 2.3, 5.5, 4.5, 'BYE', 6.8, 3.6, 3.5, 3.5, 5.6, 3.8, 5.8, 4.8, 4.3]
                     },
                     {
                         label: "95% Min",
@@ -4452,7 +4452,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 0.2, 1.2, 0.0, 0.0, 2.6, 0.3, 0.4, 1.5, 'BYE', 4.1, 0.8, 1.9, 0.1, 0.8, 0.1, 0.5, 'DNP', 0.6]
+                        data: [0.0, 0.2, 1.2, 0.0, 0.0, 2.6, 0.3, 0.4, 1.5, 'BYE', 4.1, 0.8, 1.9, 0.1, 0.8, 0.1, 0.5, 0.0, 0.6]
                     },
                     {
                         label: "95% Max",
@@ -4462,7 +4462,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [3.5, 8.0, 13.7, 7.1, 7.7, 8.0, 5.4, 5.2, 4.2, 'BYE', 12.2, 5.1, 3.3, 7.9, 5.5, 11.8, 3.6, 'DNP', 6.8]
+                        data: [3.5, 8.0, 13.7, 7.1, 7.7, 8.0, 5.4, 5.2, 4.2, 'BYE', 12.2, 5.1, 3.3, 7.9, 5.5, 11.8, 3.6, 5.7, 6.8]
                     }
                     
                     ]
@@ -4896,7 +4896,7 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "avg_fp2": 8.38,
+    "avg_fp2": 8.35,
     "week01": 14.0,
     "week02": 6.0,
     "week03": 7.0,
@@ -4914,7 +4914,7 @@ $scope.positionDST = [{
     "week15": 21.0,
     "week16": 9.0,
     "week17": 7.0,
-    "week18": "DNP",
+    "week18": 8.0,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -4931,7 +4931,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [14.0, 6.0, 7.0, 5.0, 12.0, 9.0, 3.0, 12.0, 7.0, 3.0, 4.0, 'BYE', 2.0, 13.0, 21.0, 9.0, 7.0, 'DNP']
+                         data: [14.0, 6.0, 7.0, 5.0, 12.0, 9.0, 3.0, 12.0, 7.0, 3.0, 4.0, 'BYE', 2.0, 13.0, 21.0, 9.0, 7.0, 8.0]
                     },
                     {
                         label: "Projected",
@@ -4941,7 +4941,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [8.9, 7.2, 8.3, 7.3, 6.8, 8.2, 6.4, 7.3, 5.5, 5.6, 8.5, 'BYE', 5.0, 7.4, 6.1, 6.9, 8.0, 'DNP', 5.4]
+                        data: [8.9, 7.2, 8.3, 7.3, 6.8, 8.2, 6.4, 7.3, 5.5, 5.6, 8.5, 'BYE', 5.0, 7.4, 6.1, 6.9, 8.0, 4.9, 5.4]
                     },
                     {
                         label: "95% Min",
@@ -4950,7 +4950,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [2.6, 5.2, 3.7, 4.3, 6.7, 2.9, 4.4, 4.9, 4.7, 4.1, 5.2, 'BYE', 1.9, 3.6, 4.9, 3.7, 2.0, 'DNP', 3.2]
+                        data: [2.6, 5.2, 3.7, 4.3, 6.7, 2.9, 4.4, 4.9, 4.7, 4.1, 5.2, 'BYE', 1.9, 3.6, 4.9, 3.7, 2.0, 5.8, 3.2]
                     },
                     {
                         label: "95% Max",
@@ -4960,7 +4960,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [8.0, 9.3, 10.2, 9.4, 9.9, 13.7, 9.7, 12.3, 8.1, 7.1, 13.8, 'BYE', 14.5, 10.9, 11.1, 8.3, 10.0, 'DNP', 10.0]
+                        data: [8.0, 9.3, 10.2, 9.4, 9.9, 13.7, 9.7, 12.3, 8.1, 7.1, 13.8, 'BYE', 14.5, 10.9, 11.1, 8.3, 10.0, 9.2, 10.0]
                     }
                     
                     ]
@@ -4995,7 +4995,7 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "avg_fp2": 7.19,
+    "avg_fp2": 7.12,
     "week01": 17.0,
     "week02": 8.0,
     "week03": 1.0,
@@ -5013,7 +5013,7 @@ $scope.positionDST = [{
     "week15": 5.0,
     "week16": -1.0,
     "week17": 7.0,
-    "week18": "DNP",
+    "week18": 6.0,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -5030,7 +5030,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [17.0, 8.0, 1.0, 11.0, 7.0, 4.0, 4.0, 11.0, 8.0, 7.0, 'BYE', 6.0, 16.0, 4.0, 5.0, -1.0, 7.0, 'DNP']
+                         data: [17.0, 8.0, 1.0, 11.0, 7.0, 4.0, 4.0, 11.0, 8.0, 7.0, 'BYE', 6.0, 16.0, 4.0, 5.0, -1.0, 7.0, 6.0]
                     },
                     {
                         label: "Projected",
@@ -5040,7 +5040,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [8.0, 6.4, 7.0, 5.4, 8.5, 6.0, 7.0, 7.2, 7.6, 6.4, 'BYE', 8.4, 6.1, 6.5, 4.4, 5.8, 7.7, 'DNP', 4.9]
+                        data: [8.0, 6.4, 7.0, 5.4, 8.5, 6.0, 7.0, 7.2, 7.6, 6.4, 'BYE', 8.4, 6.1, 6.5, 4.4, 5.8, 7.7, 5.3, 4.9]
                     },
                     {
                         label: "95% Min",
@@ -5049,7 +5049,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [5.1, 4.4, 6.6, 4.2, 5.3, 6.7, 6.0, 1.5, 5.7, 0.0, 'BYE', 6.5, 5.6, 4.8, 3.2, 0.6, 1.6, 'DNP', 1.1]
+                        data: [5.1, 4.4, 6.6, 4.2, 5.3, 6.7, 6.0, 1.5, 5.7, 0.0, 'BYE', 6.5, 5.6, 4.8, 3.2, 0.6, 1.6, 4.8, 1.1]
                     },
                     {
                         label: "95% Max",
@@ -5059,7 +5059,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [8.5, 9.0, 9.9, 10.1, 10.3, 9.9, 11.1, 6.7, 10.4, 6.2, 'BYE', 10.3, 9.1, 9.6, 7.3, 5.6, 8.4, 'DNP', 7.6]
+                        data: [8.5, 9.0, 9.9, 10.1, 10.3, 9.9, 11.1, 6.7, 10.4, 6.2, 'BYE', 10.3, 9.1, 9.6, 7.3, 5.6, 8.4, 7.6, 7.6]
                     }
                     
                     ]
@@ -5094,7 +5094,7 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "avg_fp2": 5.12,
+    "avg_fp2": 5.18,
     "week01": 2.0,
     "week02": 10.0,
     "week03": 5.0,
@@ -5112,7 +5112,7 @@ $scope.positionDST = [{
     "week15": 8.0,
     "week16": 18.0,
     "week17": -4.0,
-    "week18": "DNP",
+    "week18": 6.0,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -5129,7 +5129,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [2.0, 10.0, 5.0, 10.0, 3.0, 5.0, 2.0, 0.0, 18.0, 'BYE', -3.0, 2.0, 5.0, 1.0, 8.0, 18.0, -4.0, 'DNP']
+                         data: [2.0, 10.0, 5.0, 10.0, 3.0, 5.0, 2.0, 0.0, 18.0, 'BYE', -3.0, 2.0, 5.0, 1.0, 8.0, 18.0, -4.0, 6.0]
                     },
                     {
                         label: "Projected",
@@ -5139,7 +5139,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [5.6, 7.5, 4.5, 6.9, 7.4, 5.0, 4.1, 7.5, 6.2, 'BYE', 3.9, 6.2, 6.0, 7.7, 5.4, 6.4, 7.9, 'DNP', 4.7]
+                        data: [5.6, 7.5, 4.5, 6.9, 7.4, 5.0, 4.1, 7.5, 6.2, 'BYE', 3.9, 6.2, 6.0, 7.7, 5.4, 6.4, 7.9, 6.9, 4.7]
                     },
                     {
                         label: "95% Min",
@@ -5148,7 +5148,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.7, 3.4, 3.9, 6.5, 4.4, 0.9, 3.4, 1.5, 1.5, 'BYE', 0.0, 3.5, 5.8, 5.3, 5.0, 1.5, 4.8, 'DNP', 2.9]
+                        data: [1.7, 3.4, 3.9, 6.5, 4.4, 0.9, 3.4, 1.5, 1.5, 'BYE', 0.0, 3.5, 5.8, 5.3, 5.0, 1.5, 4.8, 5.2, 2.9]
                     },
                     {
                         label: "95% Max",
@@ -5158,7 +5158,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [8.1, 8.9, 9.3, 10.5, 11.0, 9.3, 8.3, 7.4, 6.5, 'BYE', 9.5, 7.1, 10.4, 10.3, 8.0, 5.7, 9.0, 'DNP', 9.7]
+                        data: [8.1, 8.9, 9.3, 10.5, 11.0, 9.3, 8.3, 7.4, 6.5, 'BYE', 9.5, 7.1, 10.4, 10.3, 8.0, 5.7, 9.0, 8.4, 9.7]
                     }
                     
                     ]
@@ -5193,7 +5193,7 @@ $scope.positionDST = [{
     "report": "",
     "analysis": "",
     "timestamp": "",
-    "avg_fp2": 6.56,
+    "avg_fp2": 6.82,
     "week01": 12.0,
     "week02": 3.0,
     "week03": 1.0,
@@ -5211,7 +5211,7 @@ $scope.positionDST = [{
     "week15": 7.0,
     "week16": 6.0,
     "week17": 2.0,
-    "week18": "DNP",
+    "week18": 11.0,
     "week19": "",
     "week20": "",
     "week21": ""
@@ -5228,7 +5228,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [12.0, 3.0, 1.0, 10.0, 3.0, 7.0, 1.0, 9.0, 3.0, 11.0, 'BYE', 19.0, 6.0, 5.0, 7.0, 6.0, 2.0, 'DNP']
+                         data: [12.0, 3.0, 1.0, 10.0, 3.0, 7.0, 1.0, 9.0, 3.0, 11.0, 'BYE', 19.0, 6.0, 5.0, 7.0, 6.0, 2.0, 11.0]
                     },
                     {
                         label: "Projected",
@@ -5238,7 +5238,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [9.4, 7.6, 6.6, 6.2, 8.4, 7.4, 5.9, 5.9, 6.0, 5.9, 'BYE', 9.3, 8.3, 8.9, 7.5, 7.6, 6.7, 'DNP', 4.7]
+                        data: [9.4, 7.6, 6.6, 6.2, 8.4, 7.4, 5.9, 5.9, 6.0, 5.9, 'BYE', 9.3, 8.3, 8.9, 7.5, 7.6, 6.7, 5.7, 4.7]
                     },
                     {
                         label: "95% Min",
@@ -5247,7 +5247,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [5.6, 2.1, 3.9, 5.0, 3.0, 4.2, 3.6, 3.5, 1.2, 0.0, 'BYE', 6.7, 2.3, 3.4, 4.6, 5.5, 0.0, 'DNP', 5.7]
+                        data: [5.6, 2.1, 3.9, 5.0, 3.0, 4.2, 3.6, 3.5, 1.2, 0.0, 'BYE', 6.7, 2.3, 3.4, 4.6, 5.5, 0.0, 4.5, 5.7]
                     },
                     {
                         label: "95% Max",
@@ -5257,7 +5257,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [7.9, 16.4, 7.7, 13.0, 6.9, 11.3, 9.4, 11.3, 6.1, 9.0, 'BYE', 11.4, 8.9, 10.1, 12.1, 9.8, 16.5, 'DNP', 9.7]
+                        data: [7.9, 16.4, 7.7, 13.0, 6.9, 11.3, 9.4, 11.3, 6.1, 9.0, 'BYE', 11.4, 8.9, 10.1, 12.1, 9.8, 16.5, 10.8, 9.7]
                     }
                     
                     ]
