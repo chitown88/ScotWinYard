@@ -9,7 +9,7 @@ App.controller('positionController', function($scope, $http) {
 $scope.currentDate = {"currentDate": "Thursday, 17 September 2020 11:06 AM (central time)"};
 $scope.week = {"nflWeek": "2"};
 
-$scope.qbStartSit = {"one": "Cam Newton", "two": "Philip Rivers", "three": "Jimmy Garoppolo", "four": "Dak Prescott", "five": "Joe Burrow", "six": "Jared Goff", "seven": "Ryan Fitzpatrick", "eight": "Baker Mayfield", "nine": "Deshaun Watson", "ten": "Patrick Mahomes"};
+$scope.qbStartSit = {"one": "aaCam Newton", "two": "Philip Rivers", "three": "Jimmy Garoppolo", "four": "Dak Prescott", "five": "Joe Burrow", "six": "Jared Goff", "seven": "Ryan Fitzpatrick", "eight": "Baker Mayfield", "nine": "Deshaun Watson", "ten": "Patrick Mahomes"};
 $scope.rbStartSit = {"one": "Todd Gurley", "two": "Jonathan Taylor", "three": "J.K. Dobbins", "four": "Alvin Kamara", "five": "Adrian Peterson", "six": "Kenyan Drake", "seven": "Melvin Gordon", "eight": "Myles Gaskin", "nine": "Sony Michel", "ten": "James Conner"};
 $scope.wrStartSit = {"one": "Davante Adams", "two": "Julian Edelman", "three": "T.Y. Hilton", "four": "Amari Cooper", "five": "Kenny Golladay", "six": "Stefon Diggs", "seven": "D.J. Moore", "eight": "Odell Beckham Jr.", "nine": "Tyreek Hill", "ten": "Will Fuller"};
 $scope.teStartSit = {"one": "C.J. Uzomah", "two": "Jonnu Smith", "three": "Evan Engram", "four": "Mark Andrews", "five": "Noah Fant", "six": "Dawson Knox", "seven": "Kyle Rudolph", "eight": "Mike Gesicki", "nine": "Chris Herndon", "ten": "Jimmy Graham"};
