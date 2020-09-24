@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Thursday, 24 September 2020 04:07 AM (central time)"};
+$scope.currentDate = {"currentDate": "Thursday, 24 September 2020 10:33 AM (central time)"};
 $scope.week = {"nflWeek": "3"};
 
 $scope.qbStartSit = {"one": "Dak Prescott", "two": "Mitchell Trubisky", "three": "Gardner Minshew", "four": "Russell Wilson", "five": "Lamar Jackson", "six": "Sam Darnold", "seven": "Tyrod Taylor", "eight": "Carson Wentz", "nine": "Jimmy Garoppolo", "ten": "Matthew Stafford"};
@@ -46,7 +46,7 @@ $scope.positionQB = [{
     "name": "Russell Wilson",
     "depthchart": "Starter: QB-1",
     "team": "Seattle Seahawks",
-    "projected": 28.0,
+    "projected": 30.3,
     "opponent": "Dallas Cowboys",
     "home_away": "",
     "opp_rank_Neu": 23,
@@ -112,7 +112,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [16.3, 20.0, 28.0]
+                        data: [16.3, 20.0, 30.3]
                     },
                     {
                         label: "95% Min",
@@ -138,107 +138,11 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png",
-    "name": "Lamar Jackson",
-    "depthchart": "Starter: QB-1",
-    "team": "Baltimore Ravens",
-    "projected": 27.7,
-    "opponent": "Kansas City Chiefs",
-    "home_away": "",
-    "opp_rank_Pos": 24,
-    "team_rank_Neg": 24,
-    "avg_fp2": 22.53,
-    "opp_rank_allowed_fp2_Pos": 27,
-    "opp_avg_allowed_fp2": 22.53,
-    "fanduelSalary": "$9400",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#9E7C0C",
-    "tmColorDark": "#241773",
-    "tmColorLite_rgba": "rgba(158, 124, 12, 0.2)",
-    "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
-    "tmTextLite": "#9E7C0C",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Ravens' Lamar Jackson: Coasts to easy win",
-    "report": "Jackson completed 18 of 24 passes for 204 yards and a touchdown and ran for 54 yards on 16 carries in Sunday's 33-16 win over the Texans.After a first quarter that saw only one field goal between the two teams, the Ravens' running game and defense took control, leaving Jackson with little need to air it out. This kind of game script could become common for Baltimore this season, limiting the production of the team's superstar QB, but that shouldn't be an issue in Week 3 as Jackson and the Ravens go toe to toe with Patrick Mahomes and the defending Super Bowl champions from Kansas City.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 27.5,
-    "week02": 17.56,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(36, 23, 115, 1)", //dark team color 1
-                         backgroundColor:  "rgba(158, 124, 12, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [27.5, 17.56]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(36, 23, 115, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [28.5, 28.8, 27.7]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(36, 23, 115, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [23.5, 14.2, 23.7]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(36, 23, 115, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(158, 124, 12, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [28.8, 26.5, 30.4]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2577417.png",
     "name": "Dak Prescott",
     "depthchart": "Starter: QB-1",
     "team": "Dallas Cowboys",
-    "projected": 27.7,
+    "projected": 30.0,
     "opponent": "Seattle Seahawks",
     "home_away": "at ",
     "opp_rank_Pos": 32,
@@ -304,7 +208,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [16.4, 20.9, 27.7]
+                        data: [16.4, 20.9, 30.0]
                     },
                     {
                         label: "95% Min",
@@ -330,11 +234,107 @@ $scope.positionQB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916387.png",
+    "name": "Lamar Jackson",
+    "depthchart": "Starter: QB-1",
+    "team": "Baltimore Ravens",
+    "projected": 28.6,
+    "opponent": "Kansas City Chiefs",
+    "home_away": "",
+    "opp_rank_Pos": 24,
+    "team_rank_Neg": 24,
+    "avg_fp2": 22.53,
+    "opp_rank_allowed_fp2_Pos": 27,
+    "opp_avg_allowed_fp2": 22.53,
+    "fanduelSalary": "$9400",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#9E7C0C",
+    "tmColorDark": "#241773",
+    "tmColorLite_rgba": "rgba(158, 124, 12, 0.2)",
+    "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
+    "tmTextLite": "#9E7C0C",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+    "headlineNews": "Ravens' Lamar Jackson: Coasts to easy win",
+    "report": "Jackson completed 18 of 24 passes for 204 yards and a touchdown and ran for 54 yards on 16 carries in Sunday's 33-16 win over the Texans.After a first quarter that saw only one field goal between the two teams, the Ravens' running game and defense took control, leaving Jackson with little need to air it out. This kind of game script could become common for Baltimore this season, limiting the production of the team's superstar QB, but that shouldn't be an issue in Week 3 as Jackson and the Ravens go toe to toe with Patrick Mahomes and the defending Super Bowl champions from Kansas City.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 27.5,
+    "week02": 17.56,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(36, 23, 115, 1)", //dark team color 1
+                         backgroundColor:  "rgba(158, 124, 12, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [27.5, 17.56]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(36, 23, 115, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [28.5, 28.8, 28.6]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(36, 23, 115, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [23.5, 14.2, 23.7]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(36, 23, 115, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(158, 124, 12, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [28.8, 26.5, 30.4]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038524.png",
     "name": "Gardner Minshew",
     "depthchart": "Starter: QB-1",
     "team": "Jacksonville Jaguars",
-    "projected": 26.7,
+    "projected": 27.1,
     "opponent": "Miami Dolphins",
     "home_away": "",
     "opp_rank_Pos": 26,
@@ -400,7 +400,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [24.0, 16.5, 26.7]
+                        data: [24.0, 16.5, 27.1]
                     },
                     {
                         label: "95% Min",
@@ -430,7 +430,7 @@ $scope.positionQB = [{
     "name": "Aaron Rodgers",
     "depthchart": "Starter: QB-1",
     "team": "Green Bay Packers",
-    "projected": 26.2,
+    "projected": 26.7,
     "opponent": "New Orleans Saints",
     "home_away": "at ",
     "opp_rank_Neu": 15,
@@ -496,7 +496,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [21.5, 24.8, 26.2]
+                        data: [21.5, 24.8, 26.7]
                     },
                     {
                         label: "95% Min",
@@ -526,7 +526,7 @@ $scope.positionQB = [{
     "name": "Mitchell Trubisky",
     "depthchart": "Starter: QB-1",
     "team": "Chicago Bears",
-    "projected": 25.7,
+    "projected": 25.5,
     "opponent": "Atlanta Falcons",
     "home_away": "at ",
     "opp_rank_Pos": 31,
@@ -592,7 +592,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [9.9, 19.2, 25.7]
+                        data: [9.9, 19.2, 25.5]
                     },
                     {
                         label: "95% Min",
@@ -618,107 +618,11 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13994.png",
-    "name": "Cam Newton",
-    "depthchart": "Starter: QB-1",
-    "team": "New England Patriots",
-    "projected": 24.5,
-    "opponent": "Las Vegas Raiders",
-    "home_away": "",
-    "opp_rank_Pos": 29,
-    "team_rank_Neu": 8,
-    "avg_fp2": 30.64,
-    "opp_rank_allowed_fp2_Neu": 9,
-    "opp_avg_allowed_fp2": 17.84,
-    "fanduelSalary": "$7700",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#C60C30",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#C60C30",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Patriots' Cam Newton: Big numbers in Week 2 loss",
-    "report": "Newton completed 30 of 44 pass attempts for 397 yards with one TD and a pick, while adding 11 carries for 47 yards and a pair of rushing scores in Sunday's 35-30 loss to the Seahawks.After attempting just 19 passes in Week 1's 21-11 win over Miami, the flow of Sunday's game led to a far different approach for Newton and the Patriots in Week 2. The result was a big fantasy effort for the QB, who fell just short of scoring a game-winning rushing TD on the final play of the contest. As long as he can avoid the sort of injuries that his style of play can sometimes lead to, Newton's dual-threat ability gives him weekly fantasy upside if he continues to click with his wideouts, as he did versus Seattle. He'll take aim at the 1-0 Raiders at home this coming Sunday.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 25.7,
-    "week02": 35.58,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [25.7, 35.58]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [21.5, 26.2, 24.5]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [19.1, 20.3, 19.0]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [21.0, 22.7, 24.7]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3122840.png",
     "name": "Deshaun Watson",
     "depthchart": "Starter: QB-1",
     "team": "Houston Texans",
-    "projected": 22.9,
+    "projected": 25.0,
     "opponent": "Pittsburgh Steelers",
     "home_away": "at ",
     "opp_rank_Neu": 14,
@@ -784,7 +688,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [24.8, 14.6, 22.9]
+                        data: [24.8, 14.6, 25.0]
                     },
                     {
                         label: "95% Min",
@@ -810,34 +714,34 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png",
-    "name": "Kyler Murray",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13994.png",
+    "name": "Cam Newton",
     "depthchart": "Starter: QB-1",
-    "team": "Arizona Cardinals",
-    "projected": 22.8,
-    "opponent": "Detroit Lions",
+    "team": "New England Patriots",
+    "projected": 24.9,
+    "opponent": "Las Vegas Raiders",
     "home_away": "",
-    "opp_rank_Neu": 9,
-    "team_rank_Neu": 13,
-    "avg_fp2": 30.22,
-    "opp_rank_allowed_fp2_Neu": 23,
-    "opp_avg_allowed_fp2": 21.44,
-    "fanduelSalary": "$8400",
+    "opp_rank_Pos": 29,
+    "team_rank_Neu": 8,
+    "avg_fp2": 30.64,
+    "opp_rank_allowed_fp2_Neu": 9,
+    "opp_avg_allowed_fp2": 17.84,
+    "fanduelSalary": "$7700",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#97233F",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(151, 35, 63, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#97233F",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Cardinals' Kyler Murray: Runs wild against Washington",
-    "report": "Murray completed 26 of 38 passes for 286 yards with a touchdown and an interception while rushing for 67 yards and two TDs on eight carries in Sunday's 30-15 win over Washington.The second-year pivot once again did a lot of damage with his legs, rushing for a 14-yard score at the end of the first quarter and then a 21-yard TD early in the fourth, but he was nearly as impressive with his arm, finding both Andy Isabella and Christian Kirk on receptions of longer than 40 yards in addition to plenty of completions to DeAndre Hopkins and Larry Fitzgerald underneath. Murray appears to be taking a huge step forward in his development this season, and he could be poised for another big game in Week 3 against a Lions defense that couldn't contain either Aaron Rodgers or Mitchell Trubisky in its first two contests.",
+    "tmColorLite": "#C60C30",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#C60C30",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+    "headlineNews": "Patriots' Cam Newton: Big numbers in Week 2 loss",
+    "report": "Newton completed 30 of 44 pass attempts for 397 yards with one TD and a pick, while adding 11 carries for 47 yards and a pair of rushing scores in Sunday's 35-30 loss to the Seahawks.After attempting just 19 passes in Week 1's 21-11 win over Miami, the flow of Sunday's game led to a far different approach for Newton and the Patriots in Week 2. The result was a big fantasy effort for the QB, who fell just short of scoring a game-winning rushing TD on the final play of the contest. As long as he can avoid the sort of injuries that his style of play can sometimes lead to, Newton's dual-threat ability gives him weekly fantasy upside if he continues to click with his wideouts, as he did versus Seattle. He'll take aim at the 1-0 Raiders at home this coming Sunday.",
     "analysis": "",
     "timestamp": "",
-    "week01": 27.3,
-    "week02": 33.14,
+    "week01": 25.7,
+    "week02": 35.58,
     "week03": "",
     "week04": "",
     "week05": "",
@@ -864,42 +768,42 @@ $scope.positionQB = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(151, 35, 63, 1)",  //lite dot team color 1 
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [27.3, 33.14]
+                         data: [25.7, 35.58]
                     },
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.8, 22.3, 22.8]
+                        data: [21.5, 26.2, 24.9]
                     },
                     {
                         label: "95% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [14.7, 13.9, 16.4]
+                        data: [19.1, 20.3, 19.0]
                     },
                     {
                         label: "95% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(151, 35, 63, .15)",  //lite team color .15
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [20.0, 19.8, 27.8]
+                        data: [21.0, 22.7, 24.7]
                     }
                     
                     ]
@@ -910,7 +814,7 @@ $scope.positionQB = [{
     "name": "Ben Roethlisberger",
     "depthchart": "Starter: QB-1",
     "team": "Pittsburgh Steelers",
-    "projected": 22.8,
+    "projected": 23.0,
     "opponent": "Houston Texans",
     "home_away": "",
     "opp_rank_Neg": 3,
@@ -976,7 +880,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [16.4, 23.0, 22.8]
+                        data: [16.4, 23.0, 23.0]
                     },
                     {
                         label: "95% Min",
@@ -1006,7 +910,7 @@ $scope.positionQB = [{
     "name": "Joe Burrow",
     "depthchart": "Starter: QB-1",
     "team": "Cincinnati Bengals",
-    "projected": 22.2,
+    "projected": 22.6,
     "opponent": "Philadelphia Eagles",
     "home_away": "at ",
     "opp_rank_Neg": 5,
@@ -1072,7 +976,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [15.6, 14.6, 22.2]
+                        data: [15.6, 14.6, 22.6]
                     },
                     {
                         label: "95% Min",
@@ -1098,34 +1002,34 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2330.png",
-    "name": "Tom Brady",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png",
+    "name": "Kyler Murray",
     "depthchart": "Starter: QB-1",
-    "team": "Tampa Bay Buccaneers",
-    "projected": 22.1,
-    "opponent": "Denver Broncos",
-    "home_away": "at ",
-    "opp_rank_Pos": 25,
-    "team_rank_Neg": 25,
-    "avg_fp2": 17.07,
-    "opp_rank_allowed_fp2_Neu": 11,
-    "opp_avg_allowed_fp2": 18.3,
-    "fanduelSalary": "$7300",
+    "team": "Arizona Cardinals",
+    "projected": 21.3,
+    "opponent": "Detroit Lions",
+    "home_away": "",
+    "opp_rank_Neu": 9,
+    "team_rank_Neu": 13,
+    "avg_fp2": 30.22,
+    "opp_rank_allowed_fp2_Neu": 23,
+    "opp_avg_allowed_fp2": 21.44,
+    "fanduelSalary": "$8400",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#D50A0A",
+    "tmColorLite": "#97233F",
     "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
+    "tmColorLite_rgba": "rgba(151, 35, 63, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#D50A0A",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Buccaneers' Tom Brady: Solid but unspectacular Week 2",
-    "report": "Brady completed 23 of 35 passes for 217 yards with one touchdown and one interception in the Buccaneers' 31-17 win over the Panthers on Sunday. He also netted zero yards on his one rush and lost a fumble.Following a season-opening loss to the Saints in which he threw two interceptions, including a pick-six, Brady checked into Sunday's second straight divisional matchup looking to right the ship. Despite being hampered by the absence of Chris Godwin (concussion), the future Hall of Famer was able to put together a solid effort that nevertheless saw him commit two turnovers once again. However, as opposed to his miscues against New Orleans, the mistakes didn't come at critical moments for the Buccaneers. Brady also commemorated his second touchdown pass to Mike Evans in style, hitting his top wideout for a nifty 23-yard score in the latter portion of the first quarter to up Tampa Bay's lead to 13-0 pending Ryan Succop's extra point, and he saw running back LeSean McCoy drop a perfectly placed pass in the end zone that would have given him a second scoring toss. Brady clearly still has some more kinks to work out while adapting to coach Bruce Arians' scheme, and having Godwin potentially back at his  disposal in a Week 3 interconference road battle against the Broncos would help in that regard.",
+    "tmTextLite": "#97233F",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+    "headlineNews": "Cardinals' Kyler Murray: Runs wild against Washington",
+    "report": "Murray completed 26 of 38 passes for 286 yards with a touchdown and an interception while rushing for 67 yards and two TDs on eight carries in Sunday's 30-15 win over Washington.The second-year pivot once again did a lot of damage with his legs, rushing for a 14-yard score at the end of the first quarter and then a 21-yard TD early in the fourth, but he was nearly as impressive with his arm, finding both Andy Isabella and Christian Kirk on receptions of longer than 40 yards in addition to plenty of completions to DeAndre Hopkins and Larry Fitzgerald underneath. Murray appears to be taking a huge step forward in his development this season, and he could be poised for another big game in Week 3 against a Lions defense that couldn't contain either Aaron Rodgers or Mitchell Trubisky in its first two contests.",
     "analysis": "",
     "timestamp": "",
-    "week01": 22.46,
-    "week02": 11.68,
+    "week01": 27.3,
+    "week02": 33.14,
     "week03": "",
     "week04": "",
     "week05": "",
@@ -1153,12 +1057,12 @@ $scope.positionQB = [{
                        {
                          label: "Actual",
                          pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(213, 10, 10, 1)",  //lite dot team color 1 
+                         backgroundColor:  "rgba(151, 35, 63, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [22.46, 11.68]
+                         data: [27.3, 33.14]
                     },
                     {
                         label: "Projected",
@@ -1168,7 +1072,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [23.4, 22.6, 22.1]
+                        data: [17.8, 22.3, 21.3]
                     },
                     {
                         label: "95% Min",
@@ -1177,113 +1081,17 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [16.9, 15.7, 16.5]
+                        data: [14.7, 13.9, 16.4]
                     },
                     {
                         label: "95% Max",
                         borderDash: [2, 2],
                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(213, 10, 10, .15)",  //lite team color .15
+                        backgroundColor:  "rgba(151, 35, 63, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [20.2, 20.4, 20.8]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
-    "name": "Baker Mayfield",
-    "depthchart": "Starter: QB-1",
-    "team": "Cleveland Browns",
-    "projected": 20.4,
-    "opponent": "Washington Football Team",
-    "home_away": "",
-    "opp_rank_Neu": 17,
-    "team_rank_Neg": 28,
-    "avg_fp2": 13.56,
-    "opp_rank_allowed_fp2_Pos": 28,
-    "opp_avg_allowed_fp2": 24.07,
-    "fanduelSalary": "$7100",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#FF3C00",
-    "tmColorDark": "#311D00",
-    "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
-    "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
-    "tmTextLite": "#FF3C00",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Browns' Baker Mayfield: Much smoother in Week 2 win",
-    "report": "Mayfield completed 16 of 23 passes for 219 yards with two touchdowns and one interception in the Browns' 35-30 win over the Bengals on Thursday. He also rushed three times for six yards.After a fairly dismal season-opening performance in a thorny matchup against the Ravens, Mayfield was set up nicely for a bounce-back effort in Week 2, considering the significant step down in competition. The oft-maligned quarterback mostly maximized his favorable circumstances, helping the Browns jump out to a 14-3 lead via a 43-yard touchdown connection with Odell Beckham. Mayfield subsequently capped off another second-quarter scoring drive with a six-yard toss to Kareem Hunt, and although he did throw an early fourth-quarter interception, it came on a deep downfield pass into Bengals territory. The numbers Thursday weren't markedly different for Mayfield than his 189-yard, one-touchdown, one-interception performance against Baltimore, but the fact he went 7-for-9 when targeting his top duo of Beckham and Jarvis Landry offers reason for optimism. Mayfield will look to keep his momentum going in a Week 3 home date against the Washington Football Team on Sunday, Sept. 27.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 10.86,
-    "week02": 16.26,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 60, 0, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [10.86, 16.26]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [22.1, 19.9, 20.4]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [13.9, 14.5, 14.9]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 60, 0, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [18.4, 17.3, 17.9]
+                        data: [20.0, 19.8, 27.8]
                     }
                     
                     ]
@@ -1294,7 +1102,7 @@ $scope.positionQB = [{
     "name": "Matt Ryan",
     "depthchart": "Starter: QB-1",
     "team": "Atlanta Falcons",
-    "projected": 20.0,
+    "projected": 21.0,
     "opponent": "Chicago Bears",
     "home_away": "",
     "opp_rank_Neu": 19,
@@ -1360,7 +1168,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [20.4, 15.8, 20.0]
+                        data: [20.4, 15.8, 21.0]
                     },
                     {
                         label: "95% Min",
@@ -1386,34 +1194,34 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14880.png",
-    "name": "Kirk Cousins",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
+    "name": "Baker Mayfield",
     "depthchart": "Starter: QB-1",
-    "team": "Minnesota Vikings",
-    "projected": 19.1,
-    "opponent": "Tennessee Titans",
+    "team": "Cleveland Browns",
+    "projected": 20.1,
+    "opponent": "Washington Football Team",
     "home_away": "",
-    "opp_rank_Neu": 22,
-    "team_rank_Neg": 32,
-    "avg_fp2": 12.14,
-    "opp_rank_allowed_fp2_Neu": 16,
-    "opp_avg_allowed_fp2": 19.3,
+    "opp_rank_Neu": 17,
+    "team_rank_Neg": 28,
+    "avg_fp2": 13.56,
+    "opp_rank_allowed_fp2_Pos": 28,
+    "opp_avg_allowed_fp2": 24.07,
     "fanduelSalary": "$7100",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#e0aa19",
-    "tmColorDark": "#300e5a",
-    "tmColorLite_rgba": "rgba(224, 170, 25, 0.2)",
-    "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
-    "tmTextLite": "#e0aa19",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Vikings' Kirk Cousins: Nightmarish outing against Colts",
-    "report": "Cousins completed 11 of 26 pass attempts for 113 yards, throwing three interceptions during Sunday's 28-11 loss to the Colts.Indianapolis dominated Minnesota's front five in the pass rush, collecting seven QB hits and three sacks while deflecting nine of Cousins' pass attempts on the afternoon. The 32-year-old signal-caller was capable of putting up decent production against Green Bay last week with his team trailing throughout the second half, as he wrapped up with 259 passing yards and two touchdowns. Minnesota had only four offensive possessions throughout the entirety of the second half Sunday against Indianapolis, with the first three opportunities going interception, punt, punt on a combined 11 plays. Cousins will look to get back on track Week 3 with the Vikings taking on a Titans defense that gave up 339 passing yards and three touchdowns to Jacksonville's Gardner Minshew on Sunday.",
+    "tmColorLite": "#FF3C00",
+    "tmColorDark": "#311D00",
+    "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
+    "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
+    "tmTextLite": "#FF3C00",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+    "headlineNews": "Browns' Baker Mayfield: Much smoother in Week 2 win",
+    "report": "Mayfield completed 16 of 23 passes for 219 yards with two touchdowns and one interception in the Browns' 35-30 win over the Bengals on Thursday. He also rushed three times for six yards.After a fairly dismal season-opening performance in a thorny matchup against the Ravens, Mayfield was set up nicely for a bounce-back effort in Week 2, considering the significant step down in competition. The oft-maligned quarterback mostly maximized his favorable circumstances, helping the Browns jump out to a 14-3 lead via a 43-yard touchdown connection with Odell Beckham. Mayfield subsequently capped off another second-quarter scoring drive with a six-yard toss to Kareem Hunt, and although he did throw an early fourth-quarter interception, it came on a deep downfield pass into Bengals territory. The numbers Thursday weren't markedly different for Mayfield than his 189-yard, one-touchdown, one-interception performance against Baltimore, but the fact he went 7-for-9 when targeting his top duo of Beckham and Jarvis Landry offers reason for optimism. Mayfield will look to keep his momentum going in a Week 3 home date against the Washington Football Team on Sunday, Sept. 27.",
     "analysis": "",
     "timestamp": "",
-    "week01": 22.76,
-    "week02": 1.52,
+    "week01": 10.86,
+    "week02": 16.26,
     "week03": "",
     "week04": "",
     "week05": "",
@@ -1440,76 +1248,76 @@ $scope.positionQB = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(48, 14, 90, 1)", //dark team color 1
-                         backgroundColor:  "rgba(224, 170, 25, 1)",  //lite dot team color 1 
+                         pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 60, 0, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [22.76, 1.52]
+                         data: [10.86, 16.26]
                     },
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(48, 14, 90, 1)", //dark team color 1 
+                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [18.6, 19.7, 19.1]
+                        data: [22.1, 19.9, 20.1]
                     },
                     {
                         label: "95% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(48, 14, 90, 1)", //dark team color 1 
+						pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [16.1, 15.3, 14.1]
+                        data: [13.9, 14.5, 14.9]
                     },
                     {
                         label: "95% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(48, 14, 90, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(224, 170, 25, .15)",  //lite team color .15
+                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 60, 0, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [18.3, 19.1, 19.9]
+                        data: [18.4, 17.3, 17.9]
                     }
                     
                     ]
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16728.png",
-    "name": "Teddy Bridgewater",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2330.png",
+    "name": "Tom Brady",
     "depthchart": "Starter: QB-1",
-    "team": "Carolina Panthers",
-    "projected": 19.0,
-    "opponent": "Los Angeles Chargers",
+    "team": "Tampa Bay Buccaneers",
+    "projected": 19.5,
+    "opponent": "Denver Broncos",
     "home_away": "at ",
-    "opp_rank_Neu": 12,
-    "team_rank_Pos": 4,
-    "avg_fp2": 15.04,
-    "opp_rank_allowed_fp2_Pos": 26,
-    "opp_avg_allowed_fp2": 22.4,
-    "fanduelSalary": "$6700",
+    "opp_rank_Pos": 25,
+    "team_rank_Neg": 25,
+    "avg_fp2": 17.07,
+    "opp_rank_allowed_fp2_Neu": 11,
+    "opp_avg_allowed_fp2": 18.3,
+    "fanduelSalary": "$7300",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#0085CA",
-    "tmColorDark": "#101820",
-    "tmColorLite_rgba": "rgba(0, 133, 202, 0.2)",
-    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
-    "tmTextLite": "#0085CA",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Panthers' Teddy Bridgewater: Prolific numbers in losing effort",
-    "report": "Bridgewater completed 33 of 42 passes for 367 yards with no touchdowns and two interceptions in the Panthers' 31-17 loss to the Buccaneers on Sunday. He also lost a fumble.A game script that saw the Panthers down by 21-0 by halftime worked in favor of Bridgewater's fantasy managers, as it required the veteran quarterback to constantly put the ball up in the second half. Bridgewater unsurprisingly made a couple of errors with that level of volume, and considering he was under constant duress while getting sacked five times. Despite the high number of completions, however, Bridgewater only completed passes to three wideouts overall -- D.J. Moore, Robby Anderson and Curtis Samuel -- with all but two of of his other connections transpiring with running backs Mike Davis and Christian McCaffrey. Through two games, Bridgewater has rewarded managers with a whopping 637 passing yards, but that's been accompanied by a pedestrian one touchdown versus two interceptions. Bridgewater will look to helm a more balanced offense in a Week 3 road interconference battle against the Chargers.",
+    "tmColorLite": "#D50A0A",
+    "tmColorDark": "#000000",
+    "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
+    "tmTextLite": "#D50A0A",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+    "headlineNews": "Buccaneers' Tom Brady: Solid but unspectacular Week 2",
+    "report": "Brady completed 23 of 35 passes for 217 yards with one touchdown and one interception in the Buccaneers' 31-17 win over the Panthers on Sunday. He also netted zero yards on his one rush and lost a fumble.Following a season-opening loss to the Saints in which he threw two interceptions, including a pick-six, Brady checked into Sunday's second straight divisional matchup looking to right the ship. Despite being hampered by the absence of Chris Godwin (concussion), the future Hall of Famer was able to put together a solid effort that nevertheless saw him commit two turnovers once again. However, as opposed to his miscues against New Orleans, the mistakes didn't come at critical moments for the Buccaneers. Brady also commemorated his second touchdown pass to Mike Evans in style, hitting his top wideout for a nifty 23-yard score in the latter portion of the first quarter to up Tampa Bay's lead to 13-0 pending Ryan Succop's extra point, and he saw running back LeSean McCoy drop a perfectly placed pass in the end zone that would have given him a second scoring toss. Brady clearly still has some more kinks to work out while adapting to coach Bruce Arians' scheme, and having Godwin potentially back at his  disposal in a Week 3 interconference road battle against the Broncos would help in that regard.",
     "analysis": "",
     "timestamp": "",
-    "week01": 19.4,
-    "week02": 10.68,
+    "week01": 22.46,
+    "week02": 11.68,
     "week03": "",
     "week04": "",
     "week05": "",
@@ -1536,522 +1344,42 @@ $scope.positionQB = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
-                         backgroundColor:  "rgba(0, 133, 202, 1)",  //lite dot team color 1 
+                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(213, 10, 10, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [19.4, 10.68]
+                         data: [22.46, 11.68]
                     },
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [13.7, 15.9, 19.0]
+                        data: [23.4, 22.6, 19.5]
                     },
                     {
                         label: "95% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [4.1, 2.0, 2.5]
+                        data: [16.9, 15.7, 16.5]
                     },
                     {
                         label: "95% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(0, 133, 202, .15)",  //lite team color .15
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(213, 10, 10, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [19.9, 12.8, 12.2]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2580.png",
-    "name": "Drew Brees",
-    "depthchart": "Starter: QB-1",
-    "team": "New Orleans Saints",
-    "projected": 18.4,
-    "opponent": "Green Bay Packers",
-    "home_away": "",
-    "opp_rank_Neu": 13,
-    "team_rank_Neu": 14,
-    "avg_fp2": 14.94,
-    "opp_rank_allowed_fp2_Neu": 18,
-    "opp_avg_allowed_fp2": 19.96,
-    "fanduelSalary": "$8000",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#9b845c",
-    "tmColorDark": "#101820",
-    "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
-    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
-    "tmTextLite": "#9b845c",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "Saints' Drew Brees: Racks up yards late",
-    "report": "Brees completed 26 of 38 passes for 312 yards, one touchdown and one interception in Monday night's 34-24 loss to the Raiders.Brees was somewhat flat compared to his usual lofty standards. The Saints' passing game clearly missed top wideout Michael Thomas, often resulting in Brees dumping passes down to tailback Alvin Kamara. Although Tre'Quan Smith did rather admirably with some crossing routes and Brees hit Jared Cook for a six-yard touchdown, his accuracy waned on longer attempts downfield. The 41-year-old also threw an uncharacteristically poor interception right to a defender prior to halftime. While Brees did rack up some yards while facing soft coverage late, he'll still be eager for a much improved performance in Week 3 versus the Packers whether Thomas suits up or not.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 14.4,
-    "week02": 15.48,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
-                         backgroundColor:  "rgba(155, 132, 92, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [14.4, 15.48]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [21.8, 22.8, 18.4]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [18.3, 17.1, 18.3]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(155, 132, 92, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [19.7, 21.6, 20.5]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png",
-    "name": "Josh Allen",
-    "depthchart": "Starter: QB-1",
-    "team": "Buffalo Bills",
-    "projected": 18.4,
-    "opponent": "Los Angeles Rams",
-    "home_away": "",
-    "opp_rank_Neu": 17,
-    "team_rank_Pos": 1,
-    "avg_fp2": 31.33,
-    "opp_rank_allowed_fp2_Neu": 8,
-    "opp_avg_allowed_fp2": 16.01,
-    "fanduelSalary": "$8100",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#C60C30",
-    "tmColorDark": "#005596",
-    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills' Josh Allen: Spectacular in Week 2 win",
-    "report": "Allen completed 24 of 35 passes for 417 yards with four touchdowns and no interceptions in the Bills' 31-28 win over the Dolphins on Sunday. He also rushed four times for 18 yards.Allen ended up having to do plenty in a game that the Bills were fairly solid favorites in, averaging 11.9 yards per attempt while connecting with eight different pass catchers on the afternoon. The third-year signal caller hit the eclectic quartet of Stefon Diggs, John Brown, Gabriel Davis and Reggie Gilliam for his scoring throws, the final one a 46-yarder to Brown to give Buffalo critical separation with 3:09 remaining. Perhaps almost as encouraging for the Bills' coaching staff was Allen's mistake-free effort, as well as his burgeoning connection with Diggs, whom he targeted a team-high 13 times on the way to an 8-153-1 day for the wideout. Allen will look to build on this landmark effort when the Bills battle the Los Angeles Rams in a Week 3 home matchup.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 28.18,
-    "week02": 34.48,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1
-                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [28.18, 34.48]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [19.9, 30.8, 18.4]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [8.7, 13.3, 18.0]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [21.6, 24.0, 21.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8664.png",
-    "name": "Ryan Fitzpatrick",
-    "depthchart": "Starter: QB-1",
-    "team": "Miami Dolphins",
-    "projected": 18.2,
-    "opponent": "Jacksonville Jaguars",
-    "home_away": "at ",
-    "opp_rank_Pos": 30,
-    "team_rank_Neu": 17,
-    "avg_fp2": 16.38,
-    "opp_rank_allowed_fp2_Pos": 24,
-    "opp_avg_allowed_fp2": 21.79,
-    "fanduelSalary": "$15000",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#008E97",
-    "tmColorDark": "#005778",
-    "tmColorLite_rgba": "rgba(0, 142, 151, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
-    "tmTextLite": "#f5821f",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Dolphins' Ryan Fitzpatrick: Eclipses 300 yards in losing effort",
-    "report": "Fitzpatrick completed 31 of 47 passes for 328 yards with two touchdowns and no interceptions in the Dolphins' 31-28 loss to the Bills on Sunday. He also rushed three times for 12 yards and  threw a two-point conversion pass.It wasn't pretty at times, but Fitzpatrick overcome a relatively slow start to keep the Dolphins in the contest until an unsuccessful onside kick with 49 seconds remaining. The veteran particularly hit his stride in the fourth quarter, leading Miami to a pair of scoring marches that went for a combined 19 plays and 119 yards. The latter drive culminated in Fitzpatrick's second and final touchdown of the day, an eight-yard strike to Mike Gesicki that he followed up with a two-point conversion to Preston Williams that brought the Fins within a field goal. Fitzpatrick notably kept his target distribution narrow -- only Gesicki, Isaiah Ford, DeVante Parker and running back Myles Gaskin recorded multiple receptions -- but the 37-year-old did enough to keep his grip on the starting job. Fitzpatrick will try to once again lead his team to its first win of the season in a Week 3 Thursday night road matchup upstate against the Jaguars.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 8.44,
-    "week02": 24.32,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1
-                         backgroundColor:  "rgba(0, 142, 151, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [8.44, 24.32]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [17.7, 17.7, 18.2]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [13.9, 13.3, 12.7]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(0, 142, 151, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [16.8, 15.8, 19.4]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
-    "name": "Patrick Mahomes",
-    "depthchart": "Starter: QB-1",
-    "team": "Kansas City Chiefs",
-    "projected": 18.1,
-    "opponent": "Baltimore Ravens",
-    "home_away": "at ",
-    "opp_rank_Neg": 6,
-    "team_rank_Neu": 18,
-    "avg_fp2": 23.96,
-    "opp_rank_allowed_fp2_Neg": 5,
-    "opp_avg_allowed_fp2": 13.28,
-    "fanduelSalary": "$9000",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#FFB81C",
-    "tmColorDark": "#c9243f",
-    "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
-    "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
-    "tmTextLite": "#FFB81C",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Chiefs' Patrick Mahomes: Leads come-from-behind win",
-    "report": "Mahomes completed 27 of 47 pass attempts for 302 yards and two touchdowns and added 54 yards on six carries during Sunday's 23-20 win over the Chargers.Mahomes got off to an extremely slow start as the typically prolific Chiefs offense was stopped on four of five possessions in the first half. He turned it up a notch in the second half and helped his team draw level with a 54-yard touchdown pass to Tyreek Hill in the fourth quarter. Mahomes then led a methodical 13-play drive in overtime to set up the winning field goal, completing crucial passes to Hill and Clyde Edwards-Helaire to set it up. The superstar signal-caller now has five touchdowns and 513 yards with no interceptions through two games and will look to continue his excellent start next Monday night in a tough matchup with the Ravens.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 20.44,
-    "week02": 27.48,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 184, 28, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [20.44, 27.48]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [26.8, 20.8, 18.1]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [22.5, 20.9, 21.5]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 184, 28, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [34.4, 27.5, 25.5]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040616.png",
-    "name": "Dwayne Haskins",
-    "depthchart": "Starter: QB-1",
-    "team": "Washington Football Team",
-    "projected": 18.1,
-    "opponent": "Cleveland Browns",
-    "home_away": "at ",
-    "opp_rank_Pos": 27,
-    "team_rank_Neg": 31,
-    "avg_fp2": 12.27,
-    "opp_rank_allowed_fp2_Pos": 29,
-    "opp_avg_allowed_fp2": 26.15,
-    "fanduelSalary": "$6600",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#FFB612",
-    "tmColorDark": "#773141",
-    "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
-    "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
-    "tmTextLite": "#FFB612",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Football Team's Dwayne Haskins: Quiet day against Cards",
-    "report": "Haskins completed 19 of 33 passes for 223 yards and a touchdown while rushing for eight yards on one carry in Sunday's 30-15 loss to the Cardinals.Washington was down by 14 points by the end of the first quarter and 20-0 at the half, but Haskins wasn't able to engineer a comeback win for the second straight week. The second-year QB continues to show great chemistry with Terry McLaurin, but none of his other targets were able to make a significant impact.  Haskins may need to get other players involved on the road in Week 3 if he's going to keep pace with a Browns offense that just erupted for 35 points against the Bengals.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 12.82,
-    "week02": 11.72,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 182, 18, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [12.82, 11.72]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [16.4, 15.3, 18.1]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [6.9, 3.3, 7.5]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 182, 18, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [12.2, 11.8, 15.4]
+                        data: [20.2, 20.4, 20.8]
                     }
                     
                     ]
@@ -2062,7 +1390,7 @@ $scope.positionQB = [{
     "name": "Carson Wentz",
     "depthchart": "Starter: QB-1",
     "team": "Philadelphia Eagles",
-    "projected": 17.8,
+    "projected": 19.2,
     "opponent": "Cincinnati Bengals",
     "home_away": "",
     "opp_rank_Neu": 7,
@@ -2128,7 +1456,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [16.9, 12.8, 17.8]
+                        data: [16.9, 12.8, 19.2]
                     },
                     {
                         label: "95% Min",
@@ -2154,11 +1482,491 @@ $scope.positionQB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8664.png",
+    "name": "Ryan Fitzpatrick",
+    "depthchart": "Starter: QB-1",
+    "team": "Miami Dolphins",
+    "projected": 19.0,
+    "opponent": "Jacksonville Jaguars",
+    "home_away": "at ",
+    "opp_rank_Pos": 30,
+    "team_rank_Neu": 17,
+    "avg_fp2": 16.38,
+    "opp_rank_allowed_fp2_Pos": 24,
+    "opp_avg_allowed_fp2": 21.79,
+    "fanduelSalary": "$15000",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#008E97",
+    "tmColorDark": "#005778",
+    "tmColorLite_rgba": "rgba(0, 142, 151, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
+    "tmTextLite": "#f5821f",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+    "headlineNews": "Dolphins' Ryan Fitzpatrick: Eclipses 300 yards in losing effort",
+    "report": "Fitzpatrick completed 31 of 47 passes for 328 yards with two touchdowns and no interceptions in the Dolphins' 31-28 loss to the Bills on Sunday. He also rushed three times for 12 yards and  threw a two-point conversion pass.It wasn't pretty at times, but Fitzpatrick overcome a relatively slow start to keep the Dolphins in the contest until an unsuccessful onside kick with 49 seconds remaining. The veteran particularly hit his stride in the fourth quarter, leading Miami to a pair of scoring marches that went for a combined 19 plays and 119 yards. The latter drive culminated in Fitzpatrick's second and final touchdown of the day, an eight-yard strike to Mike Gesicki that he followed up with a two-point conversion to Preston Williams that brought the Fins within a field goal. Fitzpatrick notably kept his target distribution narrow -- only Gesicki, Isaiah Ford, DeVante Parker and running back Myles Gaskin recorded multiple receptions -- but the 37-year-old did enough to keep his grip on the starting job. Fitzpatrick will try to once again lead his team to its first win of the season in a Week 3 Thursday night road matchup upstate against the Jaguars.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 8.44,
+    "week02": 24.32,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1
+                         backgroundColor:  "rgba(0, 142, 151, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [8.44, 24.32]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [17.7, 17.7, 19.0]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [13.9, 13.3, 12.7]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(0, 142, 151, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [16.8, 15.8, 19.4]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14880.png",
+    "name": "Kirk Cousins",
+    "depthchart": "Starter: QB-1",
+    "team": "Minnesota Vikings",
+    "projected": 18.4,
+    "opponent": "Tennessee Titans",
+    "home_away": "",
+    "opp_rank_Neu": 22,
+    "team_rank_Neg": 32,
+    "avg_fp2": 12.14,
+    "opp_rank_allowed_fp2_Neu": 16,
+    "opp_avg_allowed_fp2": 19.3,
+    "fanduelSalary": "$7100",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#e0aa19",
+    "tmColorDark": "#300e5a",
+    "tmColorLite_rgba": "rgba(224, 170, 25, 0.2)",
+    "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
+    "tmTextLite": "#e0aa19",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+    "headlineNews": "Vikings' Kirk Cousins: Nightmarish outing against Colts",
+    "report": "Cousins completed 11 of 26 pass attempts for 113 yards, throwing three interceptions during Sunday's 28-11 loss to the Colts.Indianapolis dominated Minnesota's front five in the pass rush, collecting seven QB hits and three sacks while deflecting nine of Cousins' pass attempts on the afternoon. The 32-year-old signal-caller was capable of putting up decent production against Green Bay last week with his team trailing throughout the second half, as he wrapped up with 259 passing yards and two touchdowns. Minnesota had only four offensive possessions throughout the entirety of the second half Sunday against Indianapolis, with the first three opportunities going interception, punt, punt on a combined 11 plays. Cousins will look to get back on track Week 3 with the Vikings taking on a Titans defense that gave up 339 passing yards and three touchdowns to Jacksonville's Gardner Minshew on Sunday.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 22.76,
+    "week02": 1.52,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(48, 14, 90, 1)", //dark team color 1
+                         backgroundColor:  "rgba(224, 170, 25, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [22.76, 1.52]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(48, 14, 90, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [18.6, 19.7, 18.4]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(48, 14, 90, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [16.1, 15.3, 14.1]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(48, 14, 90, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(224, 170, 25, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [18.3, 19.1, 19.9]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16728.png",
+    "name": "Teddy Bridgewater",
+    "depthchart": "Starter: QB-1",
+    "team": "Carolina Panthers",
+    "projected": 18.2,
+    "opponent": "Los Angeles Chargers",
+    "home_away": "at ",
+    "opp_rank_Neu": 12,
+    "team_rank_Pos": 4,
+    "avg_fp2": 15.04,
+    "opp_rank_allowed_fp2_Pos": 26,
+    "opp_avg_allowed_fp2": 22.4,
+    "fanduelSalary": "$6700",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#0085CA",
+    "tmColorDark": "#101820",
+    "tmColorLite_rgba": "rgba(0, 133, 202, 0.2)",
+    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
+    "tmTextLite": "#0085CA",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+    "headlineNews": "Panthers' Teddy Bridgewater: Prolific numbers in losing effort",
+    "report": "Bridgewater completed 33 of 42 passes for 367 yards with no touchdowns and two interceptions in the Panthers' 31-17 loss to the Buccaneers on Sunday. He also lost a fumble.A game script that saw the Panthers down by 21-0 by halftime worked in favor of Bridgewater's fantasy managers, as it required the veteran quarterback to constantly put the ball up in the second half. Bridgewater unsurprisingly made a couple of errors with that level of volume, and considering he was under constant duress while getting sacked five times. Despite the high number of completions, however, Bridgewater only completed passes to three wideouts overall -- D.J. Moore, Robby Anderson and Curtis Samuel -- with all but two of of his other connections transpiring with running backs Mike Davis and Christian McCaffrey. Through two games, Bridgewater has rewarded managers with a whopping 637 passing yards, but that's been accompanied by a pedestrian one touchdown versus two interceptions. Bridgewater will look to helm a more balanced offense in a Week 3 road interconference battle against the Chargers.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 19.4,
+    "week02": 10.68,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
+                         backgroundColor:  "rgba(0, 133, 202, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [19.4, 10.68]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [13.7, 15.9, 18.2]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [4.1, 2.0, 2.5]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(0, 133, 202, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [19.9, 12.8, 12.2]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3918298.png",
+    "name": "Josh Allen",
+    "depthchart": "Starter: QB-1",
+    "team": "Buffalo Bills",
+    "projected": 18.1,
+    "opponent": "Los Angeles Rams",
+    "home_away": "",
+    "opp_rank_Neu": 17,
+    "team_rank_Pos": 1,
+    "avg_fp2": 31.33,
+    "opp_rank_allowed_fp2_Neu": 8,
+    "opp_avg_allowed_fp2": 16.01,
+    "fanduelSalary": "$8100",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#C60C30",
+    "tmColorDark": "#005596",
+    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
+    "tmTextLite": "#FFFFFF",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+    "headlineNews": "Bills' Josh Allen: Spectacular in Week 2 win",
+    "report": "Allen completed 24 of 35 passes for 417 yards with four touchdowns and no interceptions in the Bills' 31-28 win over the Dolphins on Sunday. He also rushed four times for 18 yards.Allen ended up having to do plenty in a game that the Bills were fairly solid favorites in, averaging 11.9 yards per attempt while connecting with eight different pass catchers on the afternoon. The third-year signal caller hit the eclectic quartet of Stefon Diggs, John Brown, Gabriel Davis and Reggie Gilliam for his scoring throws, the final one a 46-yarder to Brown to give Buffalo critical separation with 3:09 remaining. Perhaps almost as encouraging for the Bills' coaching staff was Allen's mistake-free effort, as well as his burgeoning connection with Diggs, whom he targeted a team-high 13 times on the way to an 8-153-1 day for the wideout. Allen will look to build on this landmark effort when the Bills battle the Los Angeles Rams in a Week 3 home matchup.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 28.18,
+    "week02": 34.48,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1
+                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [28.18, 34.48]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [19.9, 30.8, 18.1]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [8.7, 13.3, 18.0]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [21.6, 24.0, 21.6]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
+    "name": "Patrick Mahomes",
+    "depthchart": "Starter: QB-1",
+    "team": "Kansas City Chiefs",
+    "projected": 17.8,
+    "opponent": "Baltimore Ravens",
+    "home_away": "at ",
+    "opp_rank_Neg": 6,
+    "team_rank_Neu": 18,
+    "avg_fp2": 23.96,
+    "opp_rank_allowed_fp2_Neg": 5,
+    "opp_avg_allowed_fp2": 13.28,
+    "fanduelSalary": "$9000",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#FFB81C",
+    "tmColorDark": "#c9243f",
+    "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
+    "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
+    "tmTextLite": "#FFB81C",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+    "headlineNews": "Chiefs' Patrick Mahomes: Leads come-from-behind win",
+    "report": "Mahomes completed 27 of 47 pass attempts for 302 yards and two touchdowns and added 54 yards on six carries during Sunday's 23-20 win over the Chargers.Mahomes got off to an extremely slow start as the typically prolific Chiefs offense was stopped on four of five possessions in the first half. He turned it up a notch in the second half and helped his team draw level with a 54-yard touchdown pass to Tyreek Hill in the fourth quarter. Mahomes then led a methodical 13-play drive in overtime to set up the winning field goal, completing crucial passes to Hill and Clyde Edwards-Helaire to set it up. The superstar signal-caller now has five touchdowns and 513 yards with no interceptions through two games and will look to continue his excellent start next Monday night in a tough matchup with the Ravens.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 20.44,
+    "week02": 27.48,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 184, 28, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [20.44, 27.48]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [26.8, 20.8, 17.8]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [22.5, 20.9, 21.5]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 184, 28, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [34.4, 27.5, 25.5]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2574630.png",
     "name": "Jeff Driskel",
     "depthchart": "Starter: QB-1",
     "team": "Denver Broncos",
-    "projected": 17.4,
+    "projected": 17.8,
     "opponent": "Tampa Bay Buccaneers",
     "home_away": "",
     "opp_rank_Neu": 21,
@@ -2224,7 +2032,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 3.5, 17.4]
+                        data: ['DNP', 3.5, 17.8]
                     },
                     {
                         label: "95% Min",
@@ -2250,11 +2058,107 @@ $scope.positionQB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2580.png",
+    "name": "Drew Brees",
+    "depthchart": "Starter: QB-1",
+    "team": "New Orleans Saints",
+    "projected": 17.6,
+    "opponent": "Green Bay Packers",
+    "home_away": "",
+    "opp_rank_Neu": 13,
+    "team_rank_Neu": 14,
+    "avg_fp2": 14.94,
+    "opp_rank_allowed_fp2_Neu": 18,
+    "opp_avg_allowed_fp2": 19.96,
+    "fanduelSalary": "$8000",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#9b845c",
+    "tmColorDark": "#101820",
+    "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
+    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
+    "tmTextLite": "#9b845c",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+    "headlineNews": "Saints' Drew Brees: Racks up yards late",
+    "report": "Brees completed 26 of 38 passes for 312 yards, one touchdown and one interception in Monday night's 34-24 loss to the Raiders.Brees was somewhat flat compared to his usual lofty standards. The Saints' passing game clearly missed top wideout Michael Thomas, often resulting in Brees dumping passes down to tailback Alvin Kamara. Although Tre'Quan Smith did rather admirably with some crossing routes and Brees hit Jared Cook for a six-yard touchdown, his accuracy waned on longer attempts downfield. The 41-year-old also threw an uncharacteristically poor interception right to a defender prior to halftime. While Brees did rack up some yards while facing soft coverage late, he'll still be eager for a much improved performance in Week 3 versus the Packers whether Thomas suits up or not.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 14.4,
+    "week02": 15.48,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
+                         backgroundColor:  "rgba(155, 132, 92, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [14.4, 15.48]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [21.8, 22.8, 17.6]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [18.3, 17.1, 18.3]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(155, 132, 92, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [19.7, 21.6, 20.5]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5529.png",
     "name": "Philip Rivers",
     "depthchart": "Starter: QB-1",
     "team": "Indianapolis Colts",
-    "projected": 17.4,
+    "projected": 17.5,
     "opponent": "New York Jets",
     "home_away": "",
     "opp_rank_Neu": 15,
@@ -2320,7 +2224,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [19.6, 26.8, 17.4]
+                        data: [19.6, 26.8, 17.5]
                     },
                     {
                         label: "95% Min",
@@ -2346,107 +2250,11 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046779.png",
-    "name": "Jared Goff",
-    "depthchart": "Starter: QB-1",
-    "team": "Los Angeles Rams",
-    "projected": 17.1,
-    "opponent": "Buffalo Bills",
-    "home_away": "at ",
-    "opp_rank_Neu": 20,
-    "team_rank_Neu": 9,
-    "avg_fp2": 17.74,
-    "opp_rank_allowed_fp2_Neu": 10,
-    "opp_avg_allowed_fp2": 18.26,
-    "fanduelSalary": "$7200",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#866D4B",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#866D4B",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Rams' Jared Goff: Tosses three TDs",
-    "report": "Goff completed 20 of 27 pass attempts for 267 yards and three touchdowns, adding seven carries for 13 yards in the Rams' 37-19 win over the Eagles on Sunday.Despite throwing only 27 times, Goff was highly efficient and tossed three touchdowns (all to Tyler Higbee) with no turnovers in the comfortable victory. Through two games, Goff has totaled just 58 pass attempts after leading the NFL with 626 attempts in 2019. Instead, the Rams have opted for a more run-heavy approach, putting the ball in Goff's hands less. He's still got some streaming appeal in favorable matchups, but he's not a weekly must-start option due to the lack of volume and focus on the ground game.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 11.5,
-    "week02": 23.98,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(134, 109, 75, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [11.5, 23.98]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [20.2, 15.9, 17.1]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [11.7, 14.9, 13.7]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(134, 109, 75, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [16.9, 21.8, 21.5]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917792.png",
     "name": "Daniel Jones",
     "depthchart": "Starter: QB-1",
     "team": "New York Giants",
-    "projected": 16.3,
+    "projected": 17.1,
     "opponent": "San Francisco 49ers",
     "home_away": "",
     "opp_rank_Neg": 4,
@@ -2512,7 +2320,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.4, 20.0, 16.3]
+                        data: [17.4, 20.0, 17.1]
                     },
                     {
                         label: "95% Min",
@@ -2538,11 +2346,203 @@ $scope.positionQB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046779.png",
+    "name": "Jared Goff",
+    "depthchart": "Starter: QB-1",
+    "team": "Los Angeles Rams",
+    "projected": 17.0,
+    "opponent": "Buffalo Bills",
+    "home_away": "at ",
+    "opp_rank_Neu": 20,
+    "team_rank_Neu": 9,
+    "avg_fp2": 17.74,
+    "opp_rank_allowed_fp2_Neu": 10,
+    "opp_avg_allowed_fp2": 18.26,
+    "fanduelSalary": "$7200",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#866D4B",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#866D4B",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+    "headlineNews": "Rams' Jared Goff: Tosses three TDs",
+    "report": "Goff completed 20 of 27 pass attempts for 267 yards and three touchdowns, adding seven carries for 13 yards in the Rams' 37-19 win over the Eagles on Sunday.Despite throwing only 27 times, Goff was highly efficient and tossed three touchdowns (all to Tyler Higbee) with no turnovers in the comfortable victory. Through two games, Goff has totaled just 58 pass attempts after leading the NFL with 626 attempts in 2019. Instead, the Rams have opted for a more run-heavy approach, putting the ball in Goff's hands less. He's still got some streaming appeal in favorable matchups, but he's not a weekly must-start option due to the lack of volume and focus on the ground game.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 11.5,
+    "week02": 23.98,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(134, 109, 75, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [11.5, 23.98]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [20.2, 15.9, 17.0]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [11.7, 14.9, 13.7]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(134, 109, 75, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [16.9, 21.8, 21.5]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040616.png",
+    "name": "Dwayne Haskins",
+    "depthchart": "Starter: QB-1",
+    "team": "Washington Football Team",
+    "projected": 17.0,
+    "opponent": "Cleveland Browns",
+    "home_away": "at ",
+    "opp_rank_Pos": 27,
+    "team_rank_Neg": 31,
+    "avg_fp2": 12.27,
+    "opp_rank_allowed_fp2_Pos": 29,
+    "opp_avg_allowed_fp2": 26.15,
+    "fanduelSalary": "$6600",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#FFB612",
+    "tmColorDark": "#773141",
+    "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
+    "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
+    "tmTextLite": "#FFB612",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+    "headlineNews": "Football Team's Dwayne Haskins: Quiet day against Cards",
+    "report": "Haskins completed 19 of 33 passes for 223 yards and a touchdown while rushing for eight yards on one carry in Sunday's 30-15 loss to the Cardinals.Washington was down by 14 points by the end of the first quarter and 20-0 at the half, but Haskins wasn't able to engineer a comeback win for the second straight week. The second-year QB continues to show great chemistry with Terry McLaurin, but none of his other targets were able to make a significant impact.  Haskins may need to get other players involved on the road in Week 3 if he's going to keep pace with a Browns offense that just erupted for 35 points against the Bengals.",
+    "analysis": "",
+    "timestamp": "",
+    "week01": 12.82,
+    "week02": 11.72,
+    "week03": "",
+    "week04": "",
+    "week05": "",
+    "week06": "",
+    "week07": "",
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 182, 18, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [12.82, 11.72]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [16.4, 15.3, 17.0]
+                    },
+                    {
+                        label: "95% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [6.9, 3.3, 7.5]
+                    },
+                    {
+                        label: "95% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(119, 49, 65, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 182, 18, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [12.2, 11.8, 15.4]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14876.png",
     "name": "Ryan Tannehill",
     "depthchart": "Starter: QB-1",
     "team": "Tennessee Titans",
-    "projected": 14.7,
+    "projected": 15.0,
     "opponent": "Minnesota Vikings",
     "home_away": "at ",
     "opp_rank_Pos": 28,
@@ -2608,7 +2608,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [15.0, 17.5, 14.7]
+                        data: [15.0, 17.5, 15.0]
                     },
                     {
                         label: "95% Min",
@@ -2638,7 +2638,7 @@ $scope.positionQB = [{
     "name": "Matthew Stafford",
     "depthchart": "Starter: QB-1",
     "team": "Detroit Lions",
-    "projected": 14.5,
+    "projected": 14.8,
     "opponent": "Arizona Cardinals",
     "home_away": "at ",
     "opp_rank_Neu": 8,
@@ -2704,7 +2704,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [18.7, 17.2, 14.5]
+                        data: [18.7, 17.2, 14.8]
                     },
                     {
                         label: "95% Min",
@@ -2734,7 +2734,7 @@ $scope.positionQB = [{
     "name": "Sam Darnold",
     "depthchart": "Starter: QB-1",
     "team": "New York Jets",
-    "projected": 14.0,
+    "projected": 14.1,
     "opponent": "Indianapolis Colts",
     "home_away": "at ",
     "opp_rank_Neg": 1,
@@ -2800,7 +2800,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [16.2, 20.2, 14.0]
+                        data: [16.2, 20.2, 14.1]
                     },
                     {
                         label: "95% Min",
@@ -2830,7 +2830,7 @@ $scope.positionQB = [{
     "name": "Derek Carr",
     "depthchart": "Starter: QB-1",
     "team": "Las Vegas Raiders",
-    "projected": 10.5,
+    "projected": 11.2,
     "opponent": "New England Patriots",
     "home_away": "at ",
     "opp_rank_Neu": 11,
@@ -2896,7 +2896,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [12.5, 16.0, 10.5]
+                        data: [12.5, 16.0, 11.2]
                     },
                     {
                         label: "95% Min",
@@ -2945,7 +2945,7 @@ $scope.positionQB = [{
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
     "headlineNews": "Chargers' Justin Herbert: Week 3 start confirmed",
-    "report": "Coach Anthony Lynn has confirmed that Herbert will start Sunday's game against the Panthers,Daniel Popper of The Athletic reports.This was expected, with Taylor having suffered a punctured lung  prior to Week 2's kickoff. Though Lynn notes that the Chargers haven't considered placing Taylor on IR, the team won't take any chances with the veteran signal-caller, given that he's understandably not 100 percent. Taylor will presumably be officially ruled out by the end of the week, while Herbert will have an opportunity to build off his strong NFL debut in Week 1's overtime loss to the Chiefs, versus an 0-2 Carolina squad that will be missing star running back Christian McCaffrey (ankle).",
+    "report": "Coach Anthony Lynn confirmed that Herbert will start Sunday's game against the Panthers, Daniel Popper of The Athletic reports.Herbert will pick up a second straight start after reports surfaced Wednesday that Tyrod Taylor suffered a punctured lung prior to kickoff in the Chargers' overtime loss to the Chiefs in Week 2. Per Popper, Lynn said that the Chargers haven't considered placing Taylor on injured reserve, the team won't take any chances with the veteran signal-caller Week 3, given that he's understandably not 100 percent. Taylor will presumably be officially ruled out by the end of the week, while Herbert will have an opportunity to build off his strong NFL debut versus an 0-2 Carolina squad that will be missing star running back Christian McCaffrey (ankle).",
     "analysis": "",
     "timestamp": "",
     "week01": "DNP",
@@ -3022,7 +3022,7 @@ $scope.positionQB = [{
     "name": "Nick Mullens",
     "depthchart": "Starter: QB-1",
     "team": "San Francisco 49ers",
-    "projected": 4.4,
+    "projected": 4.3,
     "opponent": "New York Giants",
     "home_away": "at ",
     "opp_rank_Neg": 2,
@@ -3088,7 +3088,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 3.7, 4.4]
+                        data: ['DNP', 3.7, 4.3]
                     },
                     {
                         label: "95% Min",
@@ -3716,8 +3716,8 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-    "headlineNews": "Raiders' Josh Jacobs: Listed as non-participant Wednesday",
-    "report": "Jacobs (hip) was listed as a non-participant on Wednesday's practice estimation.The Raiders' initial injury report of the week is lengthy, but that's not a big surprise with the team having just played Monday. Star tight end Darren Waller (knee) was also listed as a non-participant Wednesday, but we suspect that the duo -- both of whom were busy in the team's Week 2 win over the Saints -- will be able to practice in some capacity Thursday.",
+    "headlineNews": "Raiders' Josh Jacobs: No practice Wednesday",
+    "report": "Jacobs (hip) was listed as a non-participant on the Raiders' estimated practice report released Wednesday.The Raiders' initial injury report of the week is lengthy, but that's not a big surprise with the team having played two days earlier. Star tight end Darren Waller (knee) was also listed as a non-participant Wednesday, but the expectation is that both he and Jacobs will be able to practice in some capacity Thursday.",
     "analysis": "",
     "timestamp": "",
     "week01": 33.9,
@@ -8036,8 +8036,8 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Texans' Duke Johnson: Starts week with limited practice",
-    "report": "Johnson (ankle) was a limited participant in Wednesday's practice.Johnson practiced in a limited fashion last week and was ultimately inactive in the Week 2 loss to Baltimore, so it would be encouraging to see his practice participation climb as Sunday's trip to Pittsburgh approaches. Consider the Texans' No. 2 running back questionable at this point.",
+    "headlineNews": "Texans' Duke Johnson: Limited in first Week 3 practice",
+    "report": "Johnson (ankle) was a limited participant in Wednesday's practice.Johnson practiced in a limited fashion last week and was ultimately inactive in the Week 2 loss to Baltimore, so he may need to log a full workout Thursday or Friday to have a good chance at playing Sunday in Pittsburgh. While Johnson was sidelined against the Ravens, the Texans didn't make much use of a backup running back, as starter David Johnson played 95 percent of the team's offensive snaps.",
     "analysis": "",
     "timestamp": "",
     "week01": 1.4,
@@ -9001,7 +9001,7 @@ $scope.positionWR = [{
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
     "headlineNews": "Steelers' JuJu Smith-Schuster: Sits out Wednesday's practice",
-    "report": "Smith-Schuster (knee) didn't practice Wednesday.Smith-Schuster also sat out last Wednesday's practice before returning to a full session Thursday, and it wouldn't surprise us to see that pattern repeated this week as the Steelers prepare for Sunday's game against the Texans. Smith-Schuster ended up logging 59 of a possible 65 snaps on offense in Week 2's win over the Broncos, en route to hauling in seven of his eight targets for 48 yards.",
+    "report": "Smith-Schuster (knee) didn't practice Wednesday.Smith-Schuster also sat out last Wednesday's practice before returning to a full session Thursday. He then proceeded to play 59 of the Steelers' 65 offensive snaps in the team's Week 2 win over the Broncos, hauling in seven of eight targets for 48 yards. If he follows last week's pattern and advances to full participation in practice this Thursday, he'll be on track to play this weekend against the Texans.",
     "analysis": "",
     "timestamp": "",
     "week01": 21.9,
@@ -9385,7 +9385,7 @@ $scope.positionWR = [{
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
     "headlineNews": "Titans' A.J. Brown: Misses practice Wednesday",
-    "report": "Brown (knee) didn't practice Wednesday, Erik Bacharach of The Tennessean reports.Brown, who's dealing with a bone bruise in his knee, sat out Week 2's win over the Jaguars, and it's unclear if he'll be back in time to suit up this weekend against the Vikings. In Brown's absence this past Sunday, Corey Davis and Adam Humphries headed the Titans' wide receiver corps, while Cameron Batson and Kalif Raymond saw added work in the team's offense.",
+    "report": "Brown (knee) didn't practice Wednesday, Erik Bacharach of The Tennessean reports.Brown, who's dealing with a bone bruise in his knee, sat out the Titans' Week 2 win over the Jaguars, and it's unclear if he'll be back in time to suit up this weekend against the Vikings. In Brown's absence last weekend, Corey Davis and Adam Humphries headed the Titans' wide receiver corps, while Cameron Batson and Kalif Raymond saw added work at the position.",
     "analysis": "",
     "timestamp": "",
     "week01": 6.4,
@@ -9864,8 +9864,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "tmTextLite": "#d7a017",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Packers' Davante Adams: Upcoming availability unknown",
-    "report": "Adams, who officially didn't practice Wednesday, said a decision on whether he'll play through a strained hamstring will be made late in the week, Stacey Dales of NFL Network reports.Adams was held out of the fourth quarter of this past Sunday's win against the Lions out of an abundance of caution. The fact the Packers held a huge lead played a part in coach Matt LaFleur's thought process. On Wednesday, Adams also noted \"it's too early to tell\" where he stands at the moment, so his ability (or lack thereof) to return to the practice field Thursday and/or Friday may be the first tell for his availability for Sunday night's game at New Orleans.",
+    "headlineNews": "Packers' Davante Adams: Week 3 status unknown",
+    "report": "Adams, who didn't practice Wednesday, said a decision on whether he'll play through a strained hamstring will be made late in the week, Stacey Dales of NFL Network reports.Adams was held out of the fourth quarter of this past Sunday's win against the Lions out of an abundance of caution. The fact the Packers held a huge lead played a part in coach Matt LaFleur's thought process. On Wednesday, Adams also noted \"it's too early to tell\" where he stands at the moment, so his ability (or lack thereof) to return to the practice field Thursday and/or Friday may be the first tell for his availability for Sunday's game at New Orleans, which kicks off at 8:20 p.m. ET.",
     "analysis": "",
     "timestamp": "",
     "week01": 34.6,
@@ -9961,7 +9961,7 @@ $scope.positionWR = [{
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
     "headlineNews": "Steelers' Diontae Johnson: Sits out practice Wednesday",
-    "report": "Johnson (toe) didn't practice Wednesday.The same applies to fellow starting wideout JuJu Smith-Schuster (knee), though it's worth noting that both players missed practice last Wednesday with the sames issues, but returned to full sessions Thursday, and then approached Week 2 action minus injury designations. We'll have to see if that pattern repeats this week, but either way, we'd be surprised if Johnson's toe issue keeps him out of Sunday's game against the Texans.",
+    "report": "Johnson (toe) didn't practice Wednesday.Fellow starting wideout JuJu Smith-Schuster (knee) also sat out practice. Both players ended up missing practice last Wednesday with the same injuries, but returned to full sessions Thursday and entered the Steelers' eventual Week 2 win over the Broncos minus designations. That pattern won't necessarily be repeated Week 3, but at this point, it would be surprising if Johnson's toe issue keeps him out of Sunday's game against the Texans.",
     "analysis": "",
     "timestamp": "",
     "week01": 6.7,
@@ -11304,8 +11304,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Jaguars' DJ Chark: Questionable for Thursday night",
-    "report": "Chark (chest/back), who is officially questionable for Thursday's game against the Dolphins, was listed as a non-participant at practice Wednesday, John Oehser of the Jaguars' official site reports.Chark's lack of activity Wednesday is worth noting because the Jaguars listed him as limited both Monday and Tuesday. However, when asked about the wideout's Week 3 status, coach Doug Marrone said, \"I just think we're being careful.\" Confirmation of Chark's Week 3 status will arrive when the Jaguars release their inactive list approximately 90 minutes prior to Thursday's 8:20 p.m. ET kickoff.",
+    "headlineNews": "Jaguars' DJ Chark: \"Trending upward\" for Thursday",
+    "report": "Chark (chest) is moving in the right direction in advance of Thursday night's matchup against the Dolphins, Tom Pelissero of NFL Network reports.Chark enters this week with a \"questionable\" tag after logging limited practice sessions Monday and Tuesday before sitting out Wednesday completely. It seems like this is something that can be chalked up to the Jaguars taking an overly cautious approach, but nonetheless, Chark's status will be worth checking up on prior to the 8:20 p.m. ET kickoff, when the final decision on his status will be made. Should Chark end up suiting up for his regular role, the matchup against Miami would be a favorable one. Through two games, the Dolphins have allowed the third-most standard fantasy points to opposing wide receivers, which includes a combined 30 catches for 454 yards and three touchdowns.",
     "analysis": "",
     "timestamp": "",
     "week01": 10.0,
@@ -11584,7 +11584,7 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 25.9,
     "fanduelSalary": "$6000",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
+    "healthDou": "Doubtful",
     "injury": "Hamstring",
     "tmColorLite": "#125740",
     "tmColorDark": "#003f2d",
@@ -11592,8 +11592,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Jets' Jamison Crowder: Not running one week after injury",
-    "report": "Crowder (hamstring) isn't practicing Wednesday, Rich Cimini of ESPN.com reports.Cimini also points out that Crowder still isn't running seven days since injuring his hamstring, and head coach Adam Gase remains non-committal on the slot receiver's status for Sunday's game against the Colts. The injury-riddled Jets offense could use all the help it can get with starting running back Le'Veon Bell (hamstring) on injured reserve and outside receiver Breshad Perriman (ankle) looking doubtful for Week 3. Crowder will need to show improvement quickly to have a chance of providing quarterback Sam Darnold with a much-needed weapon come Sunday.",
+    "headlineNews": "Jets' Jamison Crowder: Looking doubtful this week",
+    "report": "Crowder (hamstring) won't practice Thursday, Ethan B. Greenberg of the Jets' official site reports.Meanwhile, coach Adam Gase indicated it's \"doubtful\" that Crowder will play against the Colts on Sunday. Breshad Perriman (ankle) is also trending toward a Week 3 absence, which sets the stage for  Chris Hogan (ribs) and Braxton Berrios to head the team's wide receiver corps this weekend.",
     "analysis": "",
     "timestamp": "",
     "week01": 21.0,
@@ -14569,7 +14569,7 @@ $scope.positionWR = [{
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
     "headlineNews": "Texans' Brandin Cooks: Quad still acting up",
-    "report": "Cooks (quadriceps) was limited in Wednesday's practice.This quadriceps injury has limited Cooks in practice all season, but he was out there come game day in each of Houston's first two contests. There's little reason to expect anything different this week, so look for Houston's leading Week 2 receiver (95 yards) to be out there Sunday against the Steelers, barring any new developments in practice this week.",
+    "report": "Cooks (quadriceps) was limited in Wednesday's practice.This quad injury has limited Cooks in practice all season, but he's gained clearance to play ahead of both of Houston's first two contests. There's little reason to expect anything different this week, so look for Houston's leading Week 2 receiver (95 yards) to be out there Sunday against the Steelers, barring any new developments in practice this week.",
     "analysis": "",
     "timestamp": "",
     "week01": 3.0,
@@ -15049,7 +15049,7 @@ $scope.positionWR = [{
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
     "headlineNews": "Raiders' Bryan Edwards: Listed as limited Wednesday",
-    "report": "Edwards is listed as a limited a participant on Wednesday's injury report due to a foot issue.Edwards appears to have emerged from Monday's win over the Saints with a foot injury, though the nature of his 'limited' designation can be taken with a grain of salt since Wednesday's injury report is only an estimation. The rookie wideout will have two more opportunities to log a full practice session ahead of Sunday's contest in New England.",
+    "report": "Edwards is listed as a limited participant on Wednesday's injury report with a foot injury.Edwards appears to have emerged from Monday's win over the Saints with the injury, though his \"limited\" designation may not mean that much since Wednesday's injury report is only an estimation. The rookie wideout will have two more opportunities to log a full practice session ahead of Sunday's contest in New England.",
     "analysis": "",
     "timestamp": "",
     "week01": 1.4,
@@ -16012,7 +16012,7 @@ $scope.positionTE = [{
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
     "headlineNews": "Titans' Jonnu Smith: Sits out practice Wednesday",
-    "report": "Smith (ankle) didn't practice Wednesday, Erik Bacharach of The Tennessean reports.Smith logged 54 of a possible 62 snaps on offense in Week 2's win over the Jaguars, en route to hauling in four of his five targets for 84 yards and two TDs, so it's possible that his practice reps are simply being managed to start the week. Smith's return to the field Thursday, in any capacity, would support that notion and put him on track to serve as Tennessee's top tight end Sunday against the Vikings.",
+    "report": "Smith didn't practice Wednesday due to an ankle injury, Erik Bacharach of The Tennessean reports.Smith logged 54 of the Titans' 62 offensive snaps in the team's Week 2 win over the Jaguars, finishing with four receptions for 84 yards and two scores on five targets. He wasn't reported to have suffered an injury during the game, so it's possible his practice reps are simply being managed to start the week. Smith's return to the field Thursday -- in any capacity -- would support that notion and put him on track to serve as Tennessee's top tight end Sunday against the Vikings.",
     "analysis": "",
     "timestamp": "",
     "week01": 11.6,
