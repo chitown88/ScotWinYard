@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Friday, 25 September 2020 05:29 AM (central time)"};
+$scope.currentDate = {"currentDate": "Sunday, 27 September 2020 11:18 AM (central time)"};
 $scope.week = {"nflWeek": "3"};
 
 $scope.qbStartSit = {"one": "Dak Prescott", "two": "Mitchell Trubisky", "three": "Gardner Minshew", "four": "Russell Wilson", "five": "Lamar Jackson", "six": "Sam Darnold", "seven": "Nick Mullens", "eight": "Carson Wentz", "nine": "Matthew Stafford", "ten": "Patrick Mahomes"};
@@ -1505,7 +1505,7 @@ $scope.positionQB = [{
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
     "headlineNews": "Dolphins' Ryan Fitzpatrick: Highly efficient in Week 3 win",
-    "report": "Fitzpatrick completed 18 of 20 passes for 160 yards with two touchdowns and no interceptions in the Dolphins' 31-13 win over the Jaguars on Thursday. He also rushed seven times for 38 yards and another score and logged one reception for no gain.In the Week 2 loss to the Bills, Fitzpatrick went a long way toward resembling the quarterback who knows coordinator Chan Gailey's offense intimately from having run it with ample success in both Buffalo and New York. Thursday, game script didn't call for Fitzpatrick to be anywhere near as active through the air, but the efficiency he demonstrated was that of a quarterback completely comfortable within a system. The veteran connected on his first 12 passes, a career best, and finished with a 133.3 rating for the night, misfiring only twice while averaging 8.0 yards per attempt and notching completions to seven different pass catchers. With the air attack now seemingly considerably ahead of where it was just two weeks ago in the opener against the Patriots, Fitzpatrick and his teammates will utilize some much-needed extra time to gear up for a formidable Week 4 interconference challenge in the form of the visiting Seahawks on Sunday, Oct. 4.",
+    "report": "Fitzpatrick completed 18 of 20 passes for 160 yards with two touchdowns and no interceptions in the Dolphins' 31-13 win over the Jaguars on Thursday. He also rushed seven times for 38 yards and another score and logged one reception for no gain.In the team's Week 2 loss to the Bills, Fitzpatrick went a long way toward resembling the quarterback who knows coordinator Chan Gailey's offense well from having run it with ample success in both Buffalo and New York. Thursday, game script didn't call for Fitzpatrick to be anywhere near as active through the air, but the efficiency he demonstrated was that of a quarterback completely comfortable within a system. The veteran connected on his first 12 passes, a career best, and finished with a 133.3 rating for the night, misfiring only twice while averaging 8.0 yards per attempt and notching completions to seven different pass catchers. With the air attack now seemingly considerably ahead of where it was just two weeks ago in the opener against the Patriots, Fitzpatrick and his teammates will utilize some much-needed extra time to gear up for a formidable Week 4 interconference challenge in the form of the visiting Seahawks on Sunday, Oct. 4.",
     "analysis": "",
     "timestamp": "",
     "week01": 8.44,
@@ -1792,8 +1792,8 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills' Josh Allen: Spectacular in Week 2 win",
-    "report": "Allen completed 24 of 35 passes for 417 yards with four touchdowns and no interceptions in the Bills' 31-28 win over the Dolphins on Sunday. He also rushed four times for 18 yards.Allen ended up having to do plenty in a game that the Bills were fairly solid favorites in, averaging 11.9 yards per attempt while connecting with eight different pass catchers on the afternoon. The third-year signal caller hit the eclectic quartet of Stefon Diggs, John Brown, Gabriel Davis and Reggie Gilliam for his scoring throws, the final one a 46-yarder to Brown to give Buffalo critical separation with 3:09 remaining. Perhaps almost as encouraging for the Bills' coaching staff was Allen's mistake-free effort, as well as his burgeoning connection with Diggs, whom he targeted a team-high 13 times on the way to an 8-153-1 day for the wideout. Allen will look to build on this landmark effort when the Bills battle the Los Angeles Rams in a Week 3 home matchup.",
+    "headlineNews": "Jaguars' Josh Allen: First sack of 2020",
+    "report": "Allen had two solo tackles and one sack during Thursday's 31-13 loss to the Dolphins.Allen had accounted for three quarterback hits on the year heading into Thursday's contest, and he managed to chase down Ryan Fitzpatrick in the second half for his first official sack of the season. The second-year pro doesn't have much help in Jacksonville's pass rush, so he may have difficulties matching last year's 10.5 sack total, but he has a favorable matchup in Cincinnati on deck for Week 4.",
     "analysis": "",
     "timestamp": "",
     "week01": 28.18,
@@ -2464,8 +2464,8 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "49ers' Nick Mullens: Expected to start Week 3",
-    "report": "Coach Kyle Shanahan said Wednesday that Mullens \"most likely\" will start Sunday's game against the Giants, Jordan Raanan of ESPN.com reports.The 49ers aren't quite ready to rule out Jimmy Garoppolo (ankle), but Shanahan said the signal-caller isn't expected to practice this week. Mullens threw an interception and took two sacks in Sunday's 31-13 win over the Jets, but he did solid work back in 2018, when he started eight games and averaged 284.6 passing yards, 1.6 touchdowns and 1.3 interceptions per contest.",
+    "headlineNews": "49ers' Nick Mullens: Starting versus Giants",
+    "report": "Mullens will start Sunday's game against the Giants, Matt Maiocco of NBC Sports Bay Area reports.The 25-year-old has been taking first-team reps at practice this week with Jimmy Garoppolo (ankle) sidelined, and he'll receive his first start since 2018 now that Garoppolo has been ruled out. Mullens completed eight of 11 passes for 71 yards with one interceptions when filling in last week, but he should be more prepared with a full week of practice. He averaged 284.6 passing yards, 1.6 touchdowns and 1.3 interceptions over eight starts in 2018.",
     "analysis": "",
     "timestamp": "",
     "week01": "DNP",
@@ -3516,16 +3516,16 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 22.25,
     "fanduelSalary": "$8300",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hip",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#A5ACAF",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(165, 172, 175, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-    "headlineNews": "Raiders' Josh Jacobs: Misses another practice",
-    "report": "Jacobs (hip) didn't practice Thursday.With back-to-back absences to start the practice week, what Jacobs does Friday will be pivotal with regard to his status for Sunday's game against the Patriots. It's still possible that his reps simply are being managed, but if Jacobs ends up out or limited at all this weekend, Jalen Richard and Devontae Booker are next up for the Raiders' backfield touches.",
+    "headlineNews": "Raiders' Josh Jacobs: Suits up Sunday",
+    "report": "Jacobs (hip) is listed as active for Sunday's game against the Patriots.After missing practice Wednesday and Thursday, Jacobs returned to a limited session Friday and he'll give it a go Sunday. Assuming no in-game issues, he's poised to continue to head the Raiders' backfield versus New England. Through his team's first two games, Jacobs has logged 52 carries for 181 yards and three TDs, while adding seven catches on nine targets for 63 yards.",
     "analysis": "",
     "timestamp": "",
     "week01": 33.9,
@@ -4292,8 +4292,8 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills' Devin Singletary: Paces backfield in Week 2 win",
-    "report": "Singletary rushed 10 times for 56 yards and brought in two of three targets for 20 yards in the Bills' 31-28 win over the Dolphins on Sunday.While the Bills backfield situation continues to be a fantasy quagmire, Singletary at least slightly outpaced rookie Zack Moss in rushes during Sunday's contest and also saw two receiving touches to his teammate's none. Singletary also was the more efficient back with 5.6 yards per carry, though Moss's 4.6 figure wasn't disappointing by any stretch. The good news for both backs is that it appears it's them or bust when it comes to Buffalo's ground game, but whether Singletary can do enough to separate from his first-year competitor on a week-to-week basis remains to be seen. Singletary will look to build on Sunday's serviceable numbers against the Rams in a Week 3 home matchup.",
+    "headlineNews": "Bills' Devin Singletary: Should see more work in Week 3",
+    "report": "With Zack Moss (toe) out this week, Singletary should see added carries Sunday against the Rams.Through the Bills' first two games, Singletary logged 19 rushing attempts for 86 yards while adding seven catches on 10 targets for 43 yards. In that span, Moss carried 17 times for 48 yards and caught three of his four targets for 16 yards and a TD. With Moss unavailable this weekend, Singletary should see the bulk of Buffalo's backfield work versus Los Angeles, with T.J. Yeldon a candidate to be active for the first time this season and see some change-of-pace action. Though the Rams are 2-0, they've allowed 257 rushing yards to date, resulting in solid fantasy results for Ezekiel Elliott in Week 1 and Miles Sanders in Week 2.",
     "analysis": "",
     "timestamp": "",
     "week01": 7.8,
@@ -5540,8 +5540,8 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#866D4B",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Rams' Malcolm Brown: Upgrades to full practice Thursday",
-    "report": "Brown (finger) was a full participant in Thursday's practice, Lindsey Thiry of ESPN.com reports.Brown was held out of Wednesday's practice session after undergoing surgery on a broken left pinky finger, but the 27-year-old's return to unrestricted participation Thursday suggests there are no real concerns about his Week 3 availability. With Cam Akers (ribs) having missed back-to-back practices, Brown and Darrell Henderson could end up splitting the backfield work versus Buffalo on Sunday.",
+    "headlineNews": "Rams' Malcolm Brown: Ready for split with Henderson",
+    "report": "Brown and Darrell Henderson figure to share backfield work with Cam Akers (ribs) ruled out for Sunday's game in Buffalo, Jourdan Rodrigue of The Athletic reports.The rookie started the first two games of the season, but Brown ended up getting more work in the opener, and Akers then suffered a rib cartilage injury in the first quarter of the Week 2 contest. Brown also came out of the game with an injury, undergoing surgery Monday on a fractured left pinky finger. He'll be available for Sunday's contest and figures to have a role, but it is possible the finger issue impacts his workload, particularly in the passing game. Brown will be splitting snaps with Darrell Henderson, who piled up 121 yards from scrimmage on 14 touches last week.",
     "analysis": "",
     "timestamp": "",
     "week01": 24.5,
@@ -5636,8 +5636,8 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "49ers' Jerick McKinnon: Headed for Week 3 start",
-    "report": "Coach Kyle Shanahan suggested McKinnon will fill in for Raheem Mostert (knee) and Tevin Coleman (knee) during Sunday's game against the Giants, Cam Inman of The San Jose Mercury News reports. \"I'm very confident in [McKinnon], and he's done a great job in all reps,\" Shanahan said. \"With [Mostert and Coleman] being out, he should get more opportunities. He's excited for it and we're excited to see him.\"Shanahan's quote all but confirms Mostert and Coleman will miss the game, leaving McKinnon as the top candidate to lead the San Francisco backfield. However, a starting job doesn't automatically equate to massive usage, as Shanahan has shown a strong preference for using multiple running backs in his game plans. Jeff Wilson could also get some work, especially near the goal line, and JaMycal Hasty may be promoted from the practice squad later this week.",
+    "headlineNews": "49ers' Jerick McKinnon: Primed for Week 3 start",
+    "report": "McKinnon is expected to start Sunday's game against the Giants, ESPN.com's Nick Wagoner.As expected, Raheem Mostert and Tevin Coleman both have been ruled out due to knee sprains. Coleman likely will be out for about a month, while Mostert appears week-to-week. McKinnon and Jeff Wilson are left as the healthy running backs on the active roster, though undrafted rookie JaMycal Hasty could be called up from the practice squad at any moment. While his injury history might create some concerns about workload management, McKinnon at least figures to take a decent chunk of the carries and the majority of the passing-down work. He's done well with his limited opportunities so far this season, producing 121 yards and two TDs on only nine touches.",
     "analysis": "",
     "timestamp": "",
     "week01": 11.9,
@@ -5828,8 +5828,8 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#C60C30",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Patriots' Sony Michel: Rushes for 19 yards",
-    "report": "Michel carried seven times for 19 yards in Sunday's 35-30 loss to Seattle.Once again, QB Cam Newton was the team's top rushing threat, logging 11 carries for 47 yards and two TDs on the ground. Meanwhile, Rex Burkhead carried six times for two yards and J.J. Taylor lost a yard on his only carry. Pass-catching ace James White (personal) was inactive for Sunday's game, but his usual role was largely handled by Burkhead, who caught four of his six targets for 47 yards, while Michel didn't haul in his only Week 2 target. Looking ahead, Michel's fantasy prospects hinge on game flows that favor the run in weeks where the Patriots choose to limit Newton's touches in that phase of the game. In that context, Michel profiles as a hit-or-miss option heading into Week 3's contest versus the Raiders.",
+    "headlineNews": "Patriots' Sony Michel: Could be a pivotal week",
+    "report": "ESPN's Mike Reiss suggests that if Michel \"wants to keep his job as the Patriots' No. 1 running back, it isn't a stretch to say he needs a big game\" Sunday against the Raiders.After a seven-carry, 19-yard effort in Week 2's loss to the Seahawks, Michel will look to rebound Sunday, but he could have some added competition for carries as soon as next weekend, with Damien Harris (hand) eligible to come off IR following Week 3 action. This Sunday, however, Michel will have a chance to head the Patriots' backfield, with Rex Burkhead likely to handle complementary/change-of-pace work with James White (personal) out, while J.J Taylor is on hand in a reserve capacity.",
     "analysis": "",
     "timestamp": "",
     "week01": 9.7,
@@ -6980,8 +6980,8 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Jaguars' Chris Thompson: Hauls in touchdown",
-    "report": "Thompson rushed twice for seven yards and caught three of four targets for 20 yards and one touchdown during Sunday's 33-30 loss to Tennessee.The veteran back caught a 14-yard touchdown in the fourth quarter to tie the game 30-30, but his other six touches amounted to only 13 combined yards. Thompson has had a minor role as Jacksonville's pass-catching back, but even with QB Gardner Minshew attempting 45 passes, he wasn't a consistent factor in the offense. UDFA James Robinson has clearly established himself as the team's lead back, and at this point it doesn't look like there's much more production to be had in the backfield behind him.",
+    "headlineNews": "Jaguars' Chris Thompson: Splits backfield snaps",
+    "report": "Thompson rushed twice for three yards and caught five of six targets for 35 yards during Thursday's 31-13 loss to the Dolphins.The veteran back and rookie James Robinson both played 30 offensive snaps during the loss, though you'd never realize based on each player's production, as Robinson had 11 carries for 46 yards and two touchdowns while catching six passes for 83 yards. The playing time clearly is there for Thompson as he's played 31 and 30 offensive snaps the past two weeks, but his 65 scrimmage yards on 12 touches better illustrates his involvement in the offense. The 29-year-old is seeing plenty of snaps in the passing-down role, but to this point Robinson is the only back on the team providing much production.",
     "analysis": "",
     "timestamp": "",
     "week01": 1.6,
@@ -7076,8 +7076,8 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#866D4B",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Rams' Darrell Henderson: Leads backfield in Week 2 victory",
-    "report": "Henderson rushed 12 times for 81 yards and a touchdown, adding two receptions for 40 yards in the Rams' 37-19 win over the Eagles on Sunday.After seeing just three touches in Week 1, Henderson led the backfield in Week 2 after Cam Akers was forced out of the game with a ribs injury. Akers' timetable to return is unclear, but it's likely Henderson continues to see his role grow after this electric performance. He garnered just three more touches than Malcolm Brown, but Henderson outgained him 121-47. The Rams face a tough test against Buffalo in Week 3.",
+    "headlineNews": "Rams' Darrell Henderson: Headed for big workload?",
+    "report": "Henderson's teammate Cam Akers (ribs) has been ruled out for Sunday's game in Buffalo, Lindsey Thiry of ESPN.com reports.Henderson enjoyed a breakout performance last week, picking up 121 yards and a touchdown after Akers' departure early in the first quarter of an eventual 37-19 win over the Eagles. The rookie started the past two weeks, and Malcolm Brown leads the team with 29 carries, but Henderson could be the top guy for Week 3 at Buffalo. While Brown isn't listed on the final injury report, he's dealing with a broken left pinky finger that could impact his ability to catch passes. With that in mind, Henderson could benefit from increased receiving work even if he's still sharing carries.",
     "analysis": "",
     "timestamp": "",
     "week01": 0.6,
@@ -8014,105 +8014,9 @@ $scope.positionRB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035676.png",
-    "name": "Zack Moss",
-    "depthchart": "Backup: RB-2",
-    "team": "Buffalo Bills",
-    "projected": 5.4,
-    "opponent": "Los Angeles Rams",
-    "home_away": "",
-    "opp_rank_Neu": 20,
-    "team_rank_Neu": 22,
-    "avg_fp2": 6.95,
-    "opp_rank_allowed_fp2_Pos": 26,
-    "opp_avg_allowed_fp2": 27.4,
-    "fanduelSalary": "$5200",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Toe",
-    "tmColorLite": "#C60C30",
-    "tmColorDark": "#005596",
-    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills' Zack Moss: Not practicing again",
-    "report": "Moss (toe) isn't on the field for Thursday's practice, Chris Brown of the Bills' official site reports.He'll go down as a non-participant for the second day in a row, leaving his status uncertain for Sunday's game against the Rams. Before determining whether he'll carry a designation into the Week 3 contest, the Bills will see what Moss can do during their final practice session Friday. If Moss ends up missing the first game of his career, starting running back Devin Singletary -- who hasn't played more than 60 percent of the offensive snaps in either of the Bills' first two contests -- will likely be headed for a bigger workload.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 10.2,
-    "week02": 3.7,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1
-                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [10.2, 3.7]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [3.0, 3.9, 5.4]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [3.9, 8.2, 6.2]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [4.5, 9.5, 6.9]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15971.png",
     "name": "Rex Burkhead",
-    "depthchart": "Reserve: RB-3",
+    "depthchart": "Backup: RB-2",
     "team": "New England Patriots",
     "projected": 5.4,
     "opponent": "Las Vegas Raiders",
@@ -8296,198 +8200,6 @@ $scope.positionRB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [5.6, 6.1, 6.8]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2969962.png",
-    "name": "Duke Johnson",
-    "depthchart": "Backup: RB-2",
-    "team": "Houston Texans",
-    "projected": 5.2,
-    "opponent": "Pittsburgh Steelers",
-    "home_away": "at ",
-    "opp_rank_Neg": 1,
-    "team_rank_Neg": 30,
-    "avg_fp2": 1.4,
-    "opp_rank_allowed_fp2_Neg": 5,
-    "opp_avg_allowed_fp2": 14.5,
-    "fanduelSalary": "$4800",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ankle",
-    "tmColorLite": "#A71930",
-    "tmColorDark": "#03202F",
-    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
-    "tmTextLite": "#A71930",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Texans' Duke Johnson: Still not full-go",
-    "report": "Johnson (ankle) was a limited participant during Thursday's practice session, Sarah Barshop of ESPN.com reports.The 27-year-old Johnson has now been limited in back-to-back practices, but he was limited for much of last week as well and ultimately didn't end up playing against the Ravens. His statistical contributions on the season stand at 14 rushing yards on five carries after he was pulled in the third quarter of Houston's season-opening loss due to injury. Johnson will likely have to demonstrate physical improvement from that sprained ankle during practice in order to suit up Week 3 against Pittsburgh's top-ranked rush defense.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 1.4,
-    "week02": "DNP",
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1
-                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [1.4, 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [7.0, 'DNP', 5.2]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [7.1, 'DNP', 6.9]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [10.0, 'DNP', 9.7]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16913.png",
-    "name": "James White",
-    "depthchart": "Backup: RB-2",
-    "team": "New England Patriots",
-    "projected": 5.1,
-    "opponent": "Las Vegas Raiders",
-    "home_away": "",
-    "opp_rank_Neu": 15,
-    "team_rank_Neu": 9,
-    "avg_fp2": 6.7,
-    "opp_rank_allowed_fp2_Pos": 30,
-    "opp_avg_allowed_fp2": 34.3,
-    "fanduelSalary": "$5300",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Personal",
-    "tmColorLite": "#C60C30",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#C60C30",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Patriots' James White: Still away from team",
-    "report": "White (personal) remained absent from practice Thursday, Mike Reiss of ESPN.com reports.White was away from the team for its second practice in a row while he spends time with his family following the tragic passing of his father. The Patriots haven't indicated when White may return to the team, so the running back could miss a second straight game Sunday against the Raiders.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 6.7,
-    "week02": "DNP",
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [6.7, 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [5.8, 'DNP', 5.1]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [9.3, 'DNP', 8.6]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [11.4, 'DNP', 11.7]
                     }
                     
                     ]
@@ -8992,16 +8704,16 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 27.25,
     "fanduelSalary": "$7000",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FFB612",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Steelers' JuJu Smith-Schuster: Misses another practice",
-    "report": "Smith-Schuster (knee) sat out practice for the second consecutive day Thursday,  Teresa Varley of the Steelers' official site reports.With that in mind, Brian Batko of the Pittsburgh Post-Gazette notes that Smith-Schuster's situation is \"worth monitoring for (Friday), but there's been no indication he's in danger of missing\" Sunday's game against the Texans. A return to practice Friday on the wideout's part -- in any capacity -- would no doubt ease concerns about Smith-Schuster's Week 3 status.",
+    "headlineNews": "Steelers' JuJu Smith-Schuster: Good to go",
+    "report": "Smith-Schuster (knee) doesn't carry an injury designation in advance of Sunday's game against the Texans, Teresa Varley of the Steelers' official site reports.Smith-Schuster, who didn't practice either Wednesday or Thursday, was back at practice Friday and listed as a full participant. In fact, the Steelers approach the weekend with no players listed with Week 3 injury designations. Smith-Schuster thus is poised to handle his usual pass-catching duties Sunday opposite fellow starter Diontae Johnson. The duo combined for 15 catches on 21 targets in Week 2's win over the Broncos, with Smith-Schuster logging a 7-48-0 stat line off his eight targets. Another busy day figures to be in store for both players versus a Houston squad that's off to an 0-2 start following losses to AFC powerhouses Kansas City and Baltimore.",
     "analysis": "",
     "timestamp": "",
     "week01": 21.9,
@@ -9096,8 +8808,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#0076B6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
-    "headlineNews": "Lions' Kenny Golladay: Limited again Thursday",
-    "report": "Golladay (hamstring) was limited in practice Thursday.Golladay maintained his activity level from Wednesday as he makes inroads on his first appearance of the 2020 season. The Lions likely will make a preliminary ruling on his availability for Sunday's game in Arizona upon the release of Friday's injury report.",
+    "headlineNews": "Lions' Kenny Golladay: Expected to play Sunday",
+    "report": "Golladay (hamstring)  is expected to make his season debut Sunday against the Cardinals, Ian Rapoport of NFL Network reports.Golladay was able to practice in a limited fashion this past week and it appears as though he'll give a go Sunday, though it will still be worth verifying his status as the Lions inactives are released prior to the team's 4:25 ET kickoff. Per Tim Twentyman of the team's official site, Golladay acknowledged Friday that he isn't quite back at 100 percent strength, but his return, in any capacity, would be a boost to the pass-catching corps of the 0-2 Lions.",
     "analysis": "",
     "timestamp": "",
     "week01": "DNP",
@@ -9362,102 +9074,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16800.png",
-    "name": "Davante Adams",
-    "depthchart": "Starter: WR-1",
-    "team": "Green Bay Packers",
-    "projected": 13.4,
-    "opponent": "New Orleans Saints",
-    "home_away": "at ",
-    "opp_rank_Neu": 15,
-    "team_rank_Pos": 5,
-    "avg_fp2": 19.85,
-    "opp_rank_allowed_fp2_Neu": 11,
-    "opp_avg_allowed_fp2": 25.4,
-    "fanduelSalary": "$8600",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
-    "tmColorLite": "#d7a017",
-    "tmColorDark": "#203731",
-    "tmColorLite_rgba": "rgba(215, 160, 23, 0.2)",
-    "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
-    "tmTextLite": "#d7a017",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Packers' Davante Adams: Misses another practice",
-    "report": "Adams (hamstring) didn't partake in practice Thursday, Matt Schneidman of The Athletic reports.Instead, Adams spent the session rehabbing his balky hamstring on the side. With two absences under his belt this week, he has just one more chance to prove his health on the field before Sunday night's game at New Orleans. In the end, Adams' Week 3 fate could be known upon the release of Friday's injury report. A DNP on game day would leave the Packers shorthanded at wide receiver, with just three healthy bodies in Allen Lazard, Marquez Valdes-Scantling and Malik Taylor.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 34.6,
-    "week02": 5.1,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1
-                         backgroundColor:  "rgba(215, 160, 23, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [34.6, 5.1]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [18.8, 22.6, 13.4]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [9.4, 8.6, 11.8]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(215, 160, 23, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [19.9, 24.8, 21.7]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13983.png",
     "name": "A.J. Green",
     "depthchart": "Starter: WR-1",
@@ -9576,8 +9192,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills' Stefon Diggs: Excels for second straight week",
-    "report": "Diggs secured eight of 13 targets for 153 yards and a touchdown in the Bills' 31-28 win over the Dolphins on Sunday.The offseason arrival has been a natural fit in the Bills offense over the first two games of the campaign, with Diggs now having notched eight grabs apiece against the Jets and Dolphins and already recording his first 100-yard effort in a Buffalo uniform. Sunday, Diggs managed team-high totals in receptions, receiving yardage and targets while also making his first scoring connection with quarterback Josh Allen on a 22-yard grab early in the second quarter. Diggs' early usage implies coordinator Brian Daboll is already dialed in on how to best deploy him, leaving fantasy managers buoyant ahead of the Bills' Week 3 home matchup against the Rams next Sunday.",
+    "headlineNews": "Bills' Stefon Diggs: Could see heavy dose of Ramsey",
+    "report": "Diggs will likely be covered frequently by star corner Jalen Ramsey during Sunday's game in Buffalo.This is certainly not a sure thing and Diggs' teammate John Brown is no slouch, but Diggs is the more skilled receiver, so it would make sense the Rams try to use as much of Ramsey as they can to slow him down, especially after Diggs torched the Miami secondary for 153 yards and a score last week. Ramsey himself has even implied as such throughout the week. It'd be hard to advise sitting Diggs, currently toed as the league's leading receiver, but just know things might not come as easy to him as the first two weeks, when he matched up against more friendly defenses.",
     "analysis": "",
     "timestamp": "",
     "week01": 12.6,
@@ -9760,16 +9376,16 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 28.0,
     "fanduelSalary": "$6500",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#C60C30",
     "tmColorDark": "#002244",
     "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#C60C30",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Patriots' Julian Edelman: Another limited practice",
-    "report": "Edelman (knee) remained limited at practice Thursday.Edelman was busy in Week 2's loss to Seattle, and we'll operate under the assumption that his practice reps are just being managed and he'll suit up Sunday against the Raiders. It's possible, however, that the Patriots will choose to officially list Edelman as questionable for the contest.",
+    "headlineNews": "Patriots' Julian Edelman: Listed as active Sunday",
+    "report": "Edelman (knee) is listed as active for Sunday's game against the Raiders.Edelman, who the Patriots listed as questionable, also approached last Sunday's game against Seattle with that designation, before ultimately playing and catching eight of his 11 targets for a career-high 179 yards in New England's 35-30 loss. Game flow will determine his Week 3 volume, but even in the post Tom Brady-era, Edelman remains a favored target in the team's Cam Newton-led passing attack.",
     "analysis": "",
     "timestamp": "",
     "week01": 10.5,
@@ -10130,102 +9746,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13982.png",
-    "name": "Julio Jones",
-    "depthchart": "Starter: WR-1",
-    "team": "Atlanta Falcons",
-    "projected": 11.8,
-    "opponent": "Chicago Bears",
-    "home_away": "",
-    "opp_rank_Neu": 19,
-    "team_rank_Pos": 2,
-    "avg_fp2": 11.8,
-    "opp_rank_allowed_fp2_Neg": 4,
-    "opp_avg_allowed_fp2": 21.75,
-    "fanduelSalary": "$7800",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
-    "tmColorLite": "#A71930",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#A71930",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-    "headlineNews": "Falcons' Julio Jones: No practice again Thursday",
-    "report": "Jones (hamstring) was unable to practice Thursday, Vaughn McClure of ESPN.com reports.The Falcons are treating Jones with kid gloves as he works his way through a left hamstring strain. With no practice reps yet under his belt this week, he has just one more chance to make an impression on the training staff before the team gives him a designation for Sunday's game versus the Bears. As coach Dan Quinn told McClure on Wednesday, Atlanta may take the decision on whether to keep Jones active \"all the way through (the) week.\"",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 20.2,
-    "week02": 3.4,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [20.2, 3.4]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [15.1, 15.7, 11.8]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [14.9, 14.9, 15.0]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [16.7, 17.1, 16.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241372.png",
     "name": "Marquise Brown",
     "depthchart": "Starter: WR-1",
@@ -10440,7 +9960,7 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Dolphins' DeVante Parker: Pacers receivers in win",
+    "headlineNews": "Dolphins' DeVante Parker: Paces receivers in win",
     "report": "Parker secured all five targets for 69 yards in the Dolphins' 31-13 win over the Jaguars on Thursday.Parker had shaken his hamstring concerns by putting in a full practice Wednesday, and he was able to log a normal workload while co-leading the team in receptions and setting the pace in receiving yardage. The 27-year-old has been able to carry over his 2019 rapport with quarterback Ryan Fitzpatrick into this season despite the limited practice time in a new offense, as he's now brought in 14 of 17 targets for 169 yards and a touchdown through three games. Parker will now have a chance to get his legs some extra rest ahead of a Week 4 home matchup against the Seahawks on Sunday, Oct. 4.",
     "analysis": "",
     "timestamp": "",
@@ -10708,7 +10228,7 @@ $scope.positionWR = [{
 {
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3925357.png",
     "name": "Calvin Ridley",
-    "depthchart": "Backup: WR-2",
+    "depthchart": "Starter: WR-1",
     "team": "Atlanta Falcons",
     "projected": 11.5,
     "opponent": "Chicago Bears",
@@ -11282,102 +10802,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3895856.png",
-    "name": "Christian Kirk",
-    "depthchart": "Backup: WR-2",
-    "team": "Arizona Cardinals",
-    "projected": 10.1,
-    "opponent": "Detroit Lions",
-    "home_away": "",
-    "opp_rank_Neu": 9,
-    "team_rank_Neu": 13,
-    "avg_fp2": 3.75,
-    "opp_rank_allowed_fp2_Neu": 21,
-    "opp_avg_allowed_fp2": 29.95,
-    "fanduelSalary": "$5600",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Groin",
-    "tmColorLite": "#97233F",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(151, 35, 63, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#97233F",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Cardinals' Christian Kirk: Set to miss practice again",
-    "report": "Kirk (groin) isn't on the field for the open portion of Thursday's practice and will go down as a non-participant for the second straight day, Kyle Odegard of the Cardinals' official site reports.Kirk sustained the groin injury in the Cardinals' Week 2 win over Washington, and though he wasn't forced to exit the contest and played 61 percent of the offensive snaps, his movement was clearly affected by the issue. The Cardinals will see if the back-to-back maintenance days are enough for Kirk to heal up, but he'll likely need to practice in at least a limited fashion Friday just to garner a questionable designation heading into Sunday's game against the Lions. If Kirk ends up sitting out Week 3, added reps at receiver could be in store for Andy Isabella, Trent Sherfield and/or KeeSean Johnson.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 0.5,
-    "week02": 7.0,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(151, 35, 63, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [0.5, 7.0]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [10.7, 5.3, 10.1]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [7.7, 6.6, 6.4]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(151, 35, 63, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [11.9, 10.8, 19.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241463.png",
     "name": "Jerry Jeudy",
     "depthchart": "Starter: WR-1",
@@ -11400,8 +10824,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#e17757",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "Broncos' Jerry Jeudy: Dealing with rib issue",
-    "report": "Jeudy will be limited at practice Wednesday due to a rib injury, Aric DiLalla of the Broncos' official site reports.That said, Jeudy noted that his ribs are \"feeling better day-by-day,\" while adding that the contact that led to the injury wasn't the result of a big collision, but rather a case of him getting hit \"in the right spot.\" At this point, there's no reason to think that Jeudy's Week 3 status is in doubt, and assuming he plays Sunday against the Buccaneers, an expanded opportunity awaits him with top wideout Courtland Sutton (knee) out for the season with a torn ACL.",
+    "headlineNews": "Broncos' Jerry Jeudy: Expected to play in Week 3",
+    "report": "Jeudy (ribs) is expected to suit up for Sunday's game against the Buccaneers, Ian Rapoport of NFL Network reports.Jeudy bruised his ribs during Week 2 action and was listed as questionable heading into the weekend. His Week 3 status will be confirmed upon the release on Denver's inactives in advance of Sunday's 4:25 ET kickoff. If the No. 15 overall pick in the 2020 NFL Draft is indeed available, he'll have an opportunity to carve out a key role in the Broncos' passing game going forward, with the team's top wideout, Courtland Sutton, on IR and out for the season with a knee injury.",
     "analysis": "",
     "timestamp": "",
     "week01": 7.6,
@@ -11977,7 +11401,7 @@ $scope.positionWR = [{
     "tmTextLite": "#FF3C00",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
     "headlineNews": "Browns' Jarvis Landry: Getting back to 100 percent",
-    "report": "Landry said he's getting closer to being 100 percent following offseason hip surgery, Mary Kay Cabot of the Cleveland Plain Dealer reports.Landry acknowledge he's not fully back from the surgery he underwent in February. At the time he was given a six-to-eight month recovery timeline, and he's still a few weeks away from the eight-month mark. \"I'm still working through things,'' he said. \"I'm giving it my best, giving it my all when I am out there. Obviously, whatever my 100 percent is on Sunday, that's what I'm giving.\" Landry's had a modest start to the season with eight catches (nine targets) and 107 receiving yards through the first two weeks. If the Browns continue to run like they did in last week's win over the Bengals --  they ran 60 percent of the time and attempted just 23 passes -- targets will be capped for Landry and fellow wideout Odell Beckham.",
+    "report": "Landry said he's getting closer to being 100 percent following offseason hip surgery, Mary Kay Cabot of the Cleveland Plain Dealer reports.Landry acknowledge he's not fully back from the surgery he underwent in February. At the time, he was given a 6-to-8 month recovery timeline, and he's still a few weeks away from the eight-month mark. \"I'm still working through things,'' he said. \"I'm giving it my best, giving it my all when I am out there. Obviously, whatever my 100 percent is on Sunday, that's what I'm giving.\" Landry has had a modest start to the season with eight catches (nine targets) and 107 receiving yards through the first two weeks. If the Browns continue to run like they did in last week's win over the Bengals -- they ran 60 percent of the time and attempted just 23 passes -- targets will be capped for Landry and fellow wideout Odell Beckham.",
     "analysis": "",
     "timestamp": "",
     "week01": 8.6,
@@ -12052,7 +11476,7 @@ $scope.positionWR = [{
 {
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/5528.png",
     "name": "Larry Fitzgerald",
-    "depthchart": "Reserve: WR-3",
+    "depthchart": "Backup: WR-2",
     "team": "Arizona Cardinals",
     "projected": 8.6,
     "opponent": "Detroit Lions",
@@ -12148,7 +11572,7 @@ $scope.positionWR = [{
 {
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128390.png",
     "name": "Allen Lazard",
-    "depthchart": "Backup: WR-2",
+    "depthchart": "Starter: WR-1",
     "team": "Green Bay Packers",
     "projected": 8.6,
     "opponent": "New Orleans Saints",
@@ -12436,7 +11860,7 @@ $scope.positionWR = [{
 {
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3135321.png",
     "name": "Hunter Renfrow",
-    "depthchart": "Reserve: WR-3",
+    "depthchart": "Backup: WR-2",
     "team": "Las Vegas Raiders",
     "projected": 8.1,
     "opponent": "New England Patriots",
@@ -12648,8 +12072,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Chiefs' Sammy Watkins: Won't practice Thursday",
-    "report": "Watkins, who is in the NFL's concussion protocol, won't practice Thursday, Pete Sweeney of ArrowheadPride.com reports.That said, coach Andy Reid suggested that Watkins' issue is more in his neck area, so it seems as though the wideout has a decent chance to progress through the protocol in advance of Monday night's game against the Ravens.",
+    "headlineNews": "Chiefs' Sammy Watkins: Listed as questionable, practices fully",
+    "report": "Watkins (concussion/neck) is listed as questionable for Monday's contest against the Ravens, Adam Teicher of ESPN.com reports.Watkins practiced for a second straight day, this time in full capacity, so it certainly seems as if the veteran wideout's status is trending in a positive direction ahead of Monday's major tilt. Watkins was a critical piece in the Chiefs' passing attack last year against the Ravens, piling together five receptions on eight targets for 64 yards, although that production came during the absence of Tyreek Hill, who faces no such limitations in the 2020 version of this high-profile contest.",
     "analysis": "",
     "timestamp": "",
     "week01": 18.0,
@@ -12744,8 +12168,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "tmTextLite": "#e0aa19",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Vikings' Justin Jefferson: Team's top receiver in Week 2",
-    "report": "Jefferson hauled in all three of his targets for 44 receiving yards during Sunday's 28-11 loss to the Colts.The first-round rookie wideout fielded 69 percent of Minnesota's offensive snaps Week 1 against Green Bay, but he came away with only two catches for 26 yards, even with the Vikings trailing by two possessions for the entirety of the second half. Jefferson produced a 22-yard gain just before the half Sunday against Indianapolis, but it only amounted to a Hail-Mary chuck for his team as the Vikings were left at midfield with one second on the second-quarter clock after spiking the ball. Working within what has been anything but an explosive passing attack through two weeks -- the Minnesota offense has totaled 372 passing yards with two combined touchdowns -- Jefferson's upside is seemingly capped going into a Week 3 matchup against the Titans.",
+    "headlineNews": "Vikings' Justin Jefferson: Should see more targets, eventually",
+    "report": "Offensive coordinator Gary Kubiak suggested Jefferson's role should increase as the season progresses, Courtney Cronin of ESPN.com reports. \"You're going to see more and more of [Jefferson],\" Kubiak said. \"But much like Dalvin (Cook), much like Adam, you want to get touches for those type of football players. And with the amount of plays we've been running, touches are hard to come by.\"Kubiak is alluding to Minnesota's depressed volume, with the team running an NFL-low 96 plays through two weeks (no other team has fewer than 115). That number will regress to the mean -- at least to some extent -- but it's also true that nobody has stepped up as a viable No. 2 receiving option behind Adam Thielen. Olabisi Johnson is second on the team with seven targets, catching four passes for 80 yards. Jefferson also has been efficient with his limited opportunities (five of six for 70 yards), but his snap share sunk from 69 percent in Week 1 to 54 percent in Week 2, while Johnson went in the other direction (from 63 percent up to 79 percent). In any case, neither makes for a trustworthy fantasy option Week 3 against Tennessee.",
     "analysis": "",
     "timestamp": "",
     "week01": 3.6,
@@ -13024,16 +12448,16 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 22.25,
     "fanduelSalary": "$6400",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Foot",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#C60C30",
     "tmColorDark": "#005596",
     "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills' John Brown: Added to injury report",
-    "report": "Brown (foot) was listed as a limited practice participant Thursday, Marcel Louis-Jacques of ESPN.com reports.Brown was a Thursday addition to the Bills' Week 3 injury report, but it's possible that his limitations were maintenance-related. Last week, the wideout sat out practice Wednesday with a listed foot issue before practicing fully both Thursday and Friday. We'll look to see if Brown is full-go this Friday, or if not, whether he's experienced any setbacks with his foot.",
+    "headlineNews": "Bills' John Brown: No injury designation",
+    "report": "Brown (foot) doesn't carry an injury designation into Sunday's game against the Rams.Brown was added to the injury report Thursday after being limited in practice due to foot soreness, but the issue wasn't considered serious, and his prompt removal from the injury report confirms that notion. The 30-year-old wide receiver will look to extend his season-opening touchdown streak to three games against a visiting Rams secondary that has allowed only one passing touchdown through two games.",
     "analysis": "",
     "timestamp": "",
     "week01": 16.0,
@@ -13588,7 +13012,7 @@ $scope.positionWR = [{
 {
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4038818.png",
     "name": "Bryan Edwards",
-    "depthchart": "Backup: WR-2",
+    "depthchart": "Starter: WR-1",
     "team": "Las Vegas Raiders",
     "projected": 6.2,
     "opponent": "New England Patriots",
@@ -13600,16 +13024,16 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 36.2,
     "fanduelSalary": "$4900",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Foot",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#A5ACAF",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(165, 172, 175, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-    "headlineNews": "Raiders' Bryan Edwards: Listed as limited Wednesday",
-    "report": "Edwards is listed as a limited participant on Wednesday's injury report with a foot injury.Edwards appears to have emerged from Monday's win over the Saints with the injury, though his \"limited\" designation may not mean that much since Wednesday's injury report is only an estimation. The rookie wideout will have two more opportunities to log a full practice session ahead of Sunday's contest in New England.",
+    "headlineNews": "Raiders' Bryan Edwards: Ready for Week 3 action",
+    "report": "Edwards (foot) doesn't carry an injury designation for Sunday's game against the Patriots.The No. 81 overall pick in the 2020 NFL Draft logged limited practices this week, but he'll be able to give it a go Sunday and is thus slated to maintain his starting role in the team's offense. The Raiders will be without first-rounder Henry Ruggs (knee/hamstring) this week, meaning Zay Jones and Nelson Agholor are candidates for added snaps behind Edwards and Hunter Renfrow. Edwards caught both of his targets for 42 yards in this past Monday's win over the Saints, and with an increase in volume a plausible outcome as the season rolls along, the 6-foot-3, 212-pounder has a chance to surface as a fantasy option in deeper formats.",
     "analysis": "",
     "timestamp": "",
     "week01": 1.4,
@@ -13792,16 +13216,16 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 28.7,
     "fanduelSalary": "$5700",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Quadriceps",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#A71930",
     "tmColorDark": "#03202F",
     "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Texans' Brandin Cooks: Reps capped in practice",
-    "report": "Cooks (quadriceps) was a Sarah Barshop of ESPN.com in Thursday's practice.Limited work in practice has become the norm for Cooks, who is still trying to shake off the quad injury that's bothered him since training camp. The quad issue hasn't stopped Cooks from playing both of the Texans' games to date, and he took an encouraging step forward Week 2 by playing 90 percent of the offensive snaps and finishing with five receptions for 95 yards on eight targets in Houston's loss to Baltimore. Assuming his limitations in practice are precautionary rather than indicative of a setback, Cooks should again be cleared to start and handle a heavy snap load Sunday in Pittsburgh.",
+    "headlineNews": "Texans' Brandin Cooks: Ready after full practice Friday",
+    "report": "Cooks (quadriceps) practiced in full Friday and will be available Sunday at Pittsburgh.Cooks followed up limited sessions Wednesday and Thursday with an uncapped practice Friday, clearing him to suit up this weekend. Meanwhile, Kenny Stills is listed as questionable after making an appearance on Friday's injury report with an illness that limited his practice reps. If Stills is at all hindered or even out Sunday, his absence could open up a few extra downfield routes for Cooks, who reeled off five catches (on eight targets) for 95 yards this past weekend against a tough Ravens defense.",
     "analysis": "",
     "timestamp": "",
     "week01": 3.0,
@@ -14080,16 +13504,16 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 28.0,
     "fanduelSalary": "$5300",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ankle",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#C60C30",
     "tmColorDark": "#002244",
     "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#C60C30",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "Patriots' N'Keal Harry: Limited again Thursday",
-    "report": "Harry (ankle) remained limited at practice Thursday.As did Julian Edelman (knee), but so far there's nothing to suggest that either player is in danger of missing Sunday's game against the Raiders. It wouldn't surprise us though to see the duo listed as questionable on the team's final Week 3 injury report.",
+    "headlineNews": "Patriots' N'Keal Harry: In uniform Sunday",
+    "report": "Harry (ankle) is listed as active for Sunday's game against the Raiders.After a rookie campaign stalled by injuries, Harry has hauled in 13 catches on 18 targets for 111 yards while seeing regular snaps in the Patriots offense over the team's first two games to date. If he can stay on the field, Harry's fantasy prospects could brighten further in the coming weeks as his rapport with QB Cam Newton grows, especially if the 6-foot-4, 225-pounder sees more red zone opportunities.",
     "analysis": "",
     "timestamp": "",
     "week01": 4.4,
@@ -14184,8 +13608,8 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Dolphins' Isaiah Ford: Steps up in Week 2 loss",
-    "report": "Ford brought in seven of nine targets for 76 yards in the Dolphins' 31-28 loss to the Bills on Sunday.Despite the fact DeVante Parker was able to play through a questionable designation due to a hamstring injury, Ford still played a major role as the No. 3 receiver. The third-year pro ultimately checked in second in receptions, receiving yardage and targets on the Dolphins to tight end Mike Gesicki, meaning he set the pace for the wideouts. Ford only logged four targets in Week 1, but in a Chan Gailey-coordinated offense that has traditionally generated solid production for what were previously complementary receivers, he may have some upside. Ford won't have to wait long to try and build on Sunday's numbers as the Dolphins will take on the Jaguars in a Week 3 road battle Thursday night.",
+    "headlineNews": "Dolphins' Isaiah Ford: Comes down to earth Thursday",
+    "report": "Ford caught both his targets for 14 yards during Thursday's 31-13 win over the Jaguars.Ford had seven catches for 76 yards Week 2, but he took a clear back seat to all of DeVante Parker, Preston Williams, Mike Gesicki and Myles Gaskin in the passing game during Thursday's victory. The 24-year-old looks destined to continue splitting No. 3 WR reps with Jakeem Grant, a role which will make him difficult to trust as a fantasy option in Miami's low-floor offense.",
     "analysis": "",
     "timestamp": "",
     "week01": 2.3,
@@ -15221,102 +14645,6 @@ $scope.positionTE = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3040151.png",
-    "name": "George Kittle",
-    "depthchart": "Starter: TE-1",
-    "team": "San Francisco 49ers",
-    "projected": 13.2,
-    "opponent": "New York Giants",
-    "home_away": "at ",
-    "opp_rank_Neg": 2,
-    "team_rank_Neg": 27,
-    "avg_fp2": 7.3,
-    "opp_rank_allowed_fp2_Neg": 5,
-    "opp_avg_allowed_fp2": 3.55,
-    "fanduelSalary": "$7500",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee - MCL",
-    "tmColorLite": "#B3995D",
-    "tmColorDark": "#b8083e",
-    "tmColorLite_rgba": "rgba(179, 153, 93, 0.2)",
-    "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
-    "tmTextLite": "#B3995D",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "49ers' George Kittle: Logs another limited practice",
-    "report": "Kittle (knee) was a limited participant in Thursday's practice, Jennifer Lee Chan of NBC Sports Bay Area reports.Kittle matched his activity from the 49ers' first practice of the week a day earlier, which at least indicates that he isn't dealing with any setbacks in his recovery from an MCL sprain and bone bruise in his left knee. Even so, Kittle was evasive Thursday when asked about his chances of playing Sunday against the Giants, merely telling Ron Kroichick of the San Francisco Chronicle that he \"feels better every single day.\" The 49ers' final practice report of the week will be released Friday, at which time fantasy managers should gain a better sense of his status heading into the weekend.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 7.3,
-    "week02": "DNP",
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(184, 8, 62, 1)", //dark team color 1
-                         backgroundColor:  "rgba(179, 153, 93, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [7.3, 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(184, 8, 62, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [15.0, 'DNP', 13.2]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(184, 8, 62, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [8.5, 'DNP', 8.0]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(184, 8, 62, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(179, 153, 93, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [12.0, 'DNP', 12.7]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16813.png",
     "name": "Logan Thomas",
     "depthchart": "Starter: TE-1",
@@ -15715,16 +15043,16 @@ $scope.positionTE = [{
     "opp_avg_allowed_fp2": 2.95,
     "fanduelSalary": "$6600",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#A5ACAF",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(165, 172, 175, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-    "headlineNews": "Raiders' Darren Waller: Not spotted at Thursday's practice",
-    "report": "Waller (knee) wasn't spotted at the start of Thursday's practice, Paul Gutierrez of ESPN.com reports.Waller was also listed as a non-participant Wednesday on the Raiders' estimated practice report, so his status is worth monitoring in advance of Sunday's game against the Patriots. The same scenario also applies to top back Josh Jacobs (hip), and it's possible that the team is simply managing the reps of a pair of key offensive cogs. What each of the duo is able to do Friday will thus be pivotal with regard to their Week 3 statuses.",
+    "headlineNews": "Raiders' Darren Waller: Listed as active Sunday",
+    "report": "Waller (knee) is listed as active for Sunday's game against the Patriots.Waller missed practice Wednesday and Thursday, before returning to a limited session Friday, but assuming no in-game issues, look for the tight end -- who logged a 12/105/1 stat line while being targeted 16 times in this past Monday's win over the Saints -- to continue to be a focal point of the Raiders' offense in Week 3.",
     "analysis": "",
     "timestamp": "",
     "week01": 7.5,
@@ -15819,8 +15147,8 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#006778",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Jaguars' Tyler Eifert: Reaches end zone in loss",
-    "report": "Eifert caught three of six targets for 36 yards and one touchdown during Sunday's loss to the Titans.The Jaguars didn't have any standout performances from pass catchers Sunday as QB Gardner Minshew spread the love and completed at least three passes to eight different receivers. Eifert was targeted only once in the season opener but was much more involved Week 2, as was fellow tight end James O'Shaughnessy (four catches for 40 yards). Neither player is a primary option in the passing game and both are unlikely to provide much week-to-week consistency.",
+    "headlineNews": "Jaguars' Tyler Eifert: Minor involvement Thursday",
+    "report": "Eifert caught two of three targets for 11 yards during Thursday's 31-13 loss to Miami.Eifert led the team's tight ends with 40 offensive snaps and didn't find much involvement in the passing game despite the fact Jacksonville mostly played from behind Thursday. James O'Shaughnessy officially received the start but played only 27 offensive snaps, though he caught three of four targets for 29 yards. Eifert remains the Jaguars' top tight end, but his six catches for 55 yards and one touchdown through three games illustrates the difficulty in utilizing him as a fantasy option.",
     "analysis": "",
     "timestamp": "",
     "week01": 1.3,
@@ -17047,7 +16375,7 @@ $scope.positionTE = [{
 {
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15860.png",
     "name": "Jordan Reed",
-    "depthchart": "Backup: TE-2",
+    "depthchart": "Starter: TE-1",
     "team": "San Francisco 49ers",
     "projected": 7.9,
     "opponent": "New York Giants",
@@ -17067,8 +16395,8 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "49ers' Jordan Reed: Fills Kittle's shoes admirably",
-    "report": "Reed caught seven of eight targets for 50 yards and two touchdowns in Sunday's 31-13 win over the Jets.Reed put on his best George Kittle (knee) impression, leading the team in targets and catches as the starting tight end with Kittle inactive. He did well to toe the sideline and dive for the pylon for an 18-yard touchdown in the second quarter, then added a four-yard score just before halftime. Kittle's expected to return in Week 3 and push Reed back into a lesser role, but this performance shows that Reed's capable of stepping up should Kittle need to miss any additional time. Quarterback Jimmy Garoppolo exited at halftime with an ankle injury, and the entire 49ers' passing game will be tough to trust despite a favorable matchup against the Giants next week if Garoppolo can't go.",
+    "headlineNews": "49ers' Jordan Reed: Set for major role again",
+    "report": "Reed will have another opportunity to fill in for George Kittle (knee), who has been ruled out for Sunday's game against the Giants, Nick Wagoner of ESPN.com reports.Reed played only 46 percent of offensive snaps in last week's 31-13 win over the Jets, but he ran a route on 63 percent of the QB dropbacks and finished with a 7-50-2 receiving line on a team-high eight targets. He should be a big part of the passing game again, though it'll be Nick Mullens starting at quarterback this week, rather than Jimmy Garoppolo (ankle).",
     "analysis": "",
     "timestamp": "",
     "week01": 2.2,
@@ -17163,8 +16491,8 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Colts' Jack Doyle: Returns to practice",
-    "report": "Doyle (knee) returned to a limited practice Thursday, Andrew Walker of the Colts' official site reports.Doyle missed all three of Indy's practices last week with knee and ankle issues before being ruled out for Week 2's win over the Vikings. Now listed with just a knee injury, his return to practice, albeit in a limited capacity, offers hope that Doyle can suit up Sunday against the Jets. If, however, he's limited or out this weekend, Mo Alie-Cox -- who caught five passes for 111 yards against Minnesota -- would once again see added snaps Week 3.",
+    "headlineNews": "Colts' Jack Doyle: Questionable to face Jets",
+    "report": "Doyle (ankle/knee) is officially listed as questionable for Sunday's game against the Jets, Andrew Walker of the Colts' official site reports.Doyle returned to practice as a full participant Friday, which bodes well for his chances of suiting up versus New York, but a final word on his availability may not come until Indianapolis' inactive list is revealed around 11:30 a.m. ET on Sunday. \nDoyle stands to start at tight end if he manages to retake the field, but Mo Alie-Cox did break out as a legitimate weapon last week with over 100 yards, a performance which could earn him more work in the passing game.",
     "analysis": "",
     "timestamp": "",
     "week01": 6.4,
@@ -17539,16 +16867,16 @@ $scope.positionTE = [{
     "opp_avg_allowed_fp2": 11.2,
     "fanduelSalary": "$4800",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Achilles",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#69BE28",
     "tmColorDark": "#002244",
     "tmColorLite_rgba": "rgba(105, 190, 40, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Seahawks' Will Dissly: Limited again Thursday",
-    "report": "Dissly (Achilles) was a limited participant in Thursday's practice, John Boyle of the Seahawks' official site reports.Dissly, who had previously been fully cleared ahead of Week 1, has now logged back-to-back limited practice sessions. The third-year pro suffered a ruptured Achilles' tendon last October, so it's possible that the Seahawks are simply being cautious with his practice activity, but it's worrying to see him on the injury report in any capacity. Greg Olsen is already working as Seattle's top tight end, so he would get a slight bump in opportunities if Dissly were forced to handle less snaps or even miss any time.",
+    "headlineNews": "Seahawks' Will Dissly: Good to go",
+    "report": "Dissly (Achilles) doesn't have an injury designation for Sunday's game against Dallas, Curtis Crabtree of Sports Radio 950 KJR Seattle reports.The Seahawks have limited Dissly's practice workload to help him work his way back from last year's Achilles tear. He was never in real danger of missing the upcoming game, but he's been working in a secondary role behind veteran tight end Greg Olsen.",
     "analysis": "",
     "timestamp": "",
     "week01": 1.8,
@@ -17615,102 +16943,6 @@ $scope.positionTE = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [12.8, 14.3, 14.5]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3930086.png",
-    "name": "Dawson Knox",
-    "depthchart": "Starter: TE-1",
-    "team": "Buffalo Bills",
-    "projected": 5.9,
-    "opponent": "Los Angeles Rams",
-    "home_away": "",
-    "opp_rank_Neu": 17,
-    "team_rank_Pos": 1,
-    "avg_fp2": 2.95,
-    "opp_rank_allowed_fp2_Neu": 11,
-    "opp_avg_allowed_fp2": 7.5,
-    "fanduelSalary": "$4600",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Concussion",
-    "tmColorLite": "#C60C30",
-    "tmColorDark": "#005596",
-    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills' Dawson Knox: Absent from practice",
-    "report": "Knox (concussion) isn't participating in Thursday's practice, Chris Brown of the Bills' official site reports.Knox remains in the NFL's concussion protocol and hasn't been on the field for either of the Bills' first two practices of Week 3. Unless he's cleared to take some contact at practice Friday, Knox currently looks to be trending toward an absence in Sunday's game against the Rams. Tyler Kroft, who played 51 percent of the offensive snaps in the Week 2 win over Miami without drawing a target, would be in line to start at tight end Sunday if Knox is inactive.",
-    "analysis": "",
-    "timestamp": "",
-    "week01": 3.6,
-    "week02": 2.3,
-    "week03": "",
-    "week04": "",
-    "week05": "",
-    "week06": "",
-    "week07": "",
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1
-                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [3.6, 2.3]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [5.3, 5.7, 5.9]
-                    },
-                    {
-                        label: "95% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [2.5, 3.5, 1.1]
-                    },
-                    {
-                        label: "95% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [5.1, 6.9, 10.6]
                     }
                     
                     ]
