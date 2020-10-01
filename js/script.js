@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Thursday, 01 October 2020 09:03 AM (central time)"};
+$scope.currentDate = {"currentDate": "Thursday, 01 October 2020 09:45 AM (central time)"};
 $scope.week = {"nflWeek": "4"};
 
 $scope.qbStartSit = {"one": "Russell Wilson", "two": "Aaron Rodgers", "three": "Ryan Fitzpatrick", "four": "Dak Prescott", "five": "Baker Mayfield", "six": "Nick Foles", "seven": "Carson Wentz", "eight": "Brett Rypien", "nine": "Nick Mullens", "ten": "Teddy Bridgewater"};
@@ -929,7 +929,7 @@ $scope.positionQB = [{
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
     "headlineNews": "Steelers' Ben Roethlisberger: Week 4 game called off",
-    "report": "Roethlisberger and the Steelers will not take the field Week 4 against the Titans following additional positive COVID-19 tests within the Tennessee organization, Tom Pelissero of NFL Network reports.The initial plan was to move the game from Sunday to either Monday or Tuesday, but with reports of additional positive tests from another Titans player and personnel member surfacing, the league ultimately decided it would be best to postpone the contest. The Steelers were originally in line for a Week 8 bye, but it remains to be seen if that will stay in tact with a new Week 4 bye now on the calendar.",
+    "report": "Roethlisberger and the Steelers will not take the field Week 4 against the Titans following additional positive COVID-19 tests within the Tennessee organization, Tom Pelissero of NFL Network reports.The initial plan was to move the game from Sunday to either Monday or Tuesday, but with reports of additional positive tests from another Titans player and personnel member surfacing, the league ultimately decided it would be best to postpone the contest. The Steelers were originally in line for a Week 8 bye, but it remains to be seen if that will stay intact with a new Week 4 bye now on the calendar.",
     "analysis": "",
     "timestamp": "",
     "week01": 22.06,
@@ -5445,7 +5445,7 @@ $scope.positionRB = [{
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
     "headlineNews": "Seahawks' Carlos Hyde: Injury pops up",
-    "report": "Hyde (shoulder) was a limited participant in Wednesday's practice, John Boyle of the Seahawks' official site reports.Hyde looked poised to take on a bigger role in Week 4 against the Dolphins following news that Chris Carson had a first-degree knee sprain, but now he has an injury of his own. The 30-year-old Hyde underwent surgery this offseason to repair a torn labrum in his shoulder, and while it's unclear if his current injury is related, it's worth keeping an eye on. Keep in mind that Carson was able to log a limited practice session Wednesday, though, and coach Pete Carroll believes he has a chance to play Sunday. However, if both running backs sit out, Travis Homer will lead the backfield with rookie DeeJay Dallas rotating in.",
+    "report": "Hyde was a limited participant in Wednesday's practice due to a shoulder injury, John Boyle of the Seahawks' official site reports.Hyde looked poised to take on a bigger role Week 4 against the Dolphins following news that Chris Carson had a first-degree knee sprain, but he now has an injury of his own to overcome. The 30-year-old underwent surgery this offseason to repair a torn labrum in his shoulder, and while it's unclear if his current injury is related, his status is worth keeping an eye on. Keep in mind that Carson was able to log a limited practice session Wednesday, though, and coach Pete Carroll believes he has a chance to play Sunday. However, if both running backs sit out, Travis Homer will lead the backfield, with rookie DeeJay Dallas rotating in.",
     "analysis": "",
     "timestamp": "",
     "week01": 8.3,
@@ -7461,7 +7461,7 @@ $scope.positionRB = [{
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
     "headlineNews": "49ers' Jerick McKinnon: Practices in full Wednesday",
-    "report": "McKinnon (ribs) practiced in full Wednesday, Keiana Martin of the 49ers' official site reports.McKinnon emerged from the 49ers' Week 3 victory versus the Giants with a rib contusion, but not before turning 17 touches into 77 yards from scrimmage and one TD. With an uncapped practice under his belt, McKinnon is ready to split RB reps with Jeff Wilson (15 touches, 69 total yards, two TDs in Week 3) this Sunday against the Eagles. Considering Raheem Mostert (knee) likely will sit out this weekend, JaMycal Hasty may be the only other contender for touches out of the San Francisco's backfield.",
+    "report": "McKinnon (ribs) practiced in full Wednesday, Keiana Martin of the 49ers' official site reports.McKinnon emerged from the 49ers' Week 3 victory versus the Giants with a rib contusion, but not before turning 17 touches into 77 yards from scrimmage and one touchdown. With an uncapped practice under his belt, McKinnon is ready to split the backfield reps with Jeff Wilson (15 touches, 69 total yards, two scores Week 3) this Sunday against the Eagles. Considering Raheem Mostert (knee) likely will sit out this weekend, JaMycal Hasty may be the only other contender for touches out of the San Francisco's backfield.",
     "analysis": "",
     "timestamp": "",
     "week01": 11.9,
@@ -8809,7 +8809,7 @@ $scope.positionWR = [{
     "tmTextLite": "#C60C30",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
     "headlineNews": "Patriots' Julian Edelman: Limited at practice Wednesday",
-    "report": "Edelman (knee) was limited at practice Wednesday, Mike Reiss of ESPN.com reports.Edelman has been managing a knee issue of late, but after logging 56 of 69 snaps on offense in the Week 3 win over the Raiders, there's no reason to think he'll miss Sunday's game against the Chiefs, given that there's been no reported setbacks for the Patriots' top pass catcher. After hauling in just two of his six targets for 23 yards this past Sunday, Edelman will look to bounce back this weekend in a game that could well feature a more pass-heavy New England attack versus 3-0 Kansas City.",
+    "report": "Edelman (knee) was limited at practice Wednesday, Mike Reiss of ESPN.com reports.Edelman has been managing a knee issue of late, but after logging 56 of the 69 offensive snaps in New England's Week 3 win over the Raiders, there's no reason to think he'll miss Sunday's game against the Chiefs. After hauling in just two of his six targets for 23 yards this past Sunday, Edelman will look to bounce back this weekend in a game that could well feature a more pass-heavy New England attack versus undefeated Kansas City.",
     "analysis": "",
     "timestamp": "",
     "week01": 10.5,
@@ -14572,7 +14572,7 @@ $scope.positionTE = [{
     "tmTextLite": "#B3995D",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
     "headlineNews": "49ers' George Kittle: Puts in full practice",
-    "report": "Kittle (knee) practiced without limitations Wednesday, Keiana Martin of the 49ers' official site reports.Kittle finally is in the clear after missing the last two games with a sprained MCL and bone bruise in his left knee. Upon his return Sunday versus the Eagles, he'll again have access to most of the TE reps in the wake of Jordan Reed (knee) being placed on IR with the expectation he'll be sidelined up to 6-to-8 weeks. There is a chance Deebo Samuel (foot) makes his season debut Week 4, but his presence may open up the offense even more for Kittle to produce.",
+    "report": "Kittle (knee) practiced without limitations Wednesday, Keiana Martin of the 49ers' official site reports.Kittle finally is in the clear after missing the last two games with a sprained MCL and bone bruise in his left knee. Upon his return Sunday versus the Eagles, he'll again have access to an overwhelming share of the reps at tight end in the wake of Jordan Reed (knee) being placed on injured reserve with the expectation he'll be sidelined up to 6-to-8 weeks. There's a chance Deebo Samuel (foot) makes his season debut Week 4, but his presence may open up the offense even more for Kittle to produce.",
     "analysis": "",
     "timestamp": "",
     "week01": 7.3,
