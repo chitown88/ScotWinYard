@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Thursday, 08 October 2020 06:30 AM (central time)"};
+$scope.currentDate = {"currentDate": "Thursday, 08 October 2020 06:59 AM (central time)"};
 $scope.week = {"nflWeek": "5"};
 
 $scope.qbStartSit = {"one": "Teddy Bridgewater", "two": "Kirk Cousins", "three": "Russell Wilson", "four": "Philip Rivers", "five": "Jimmy Garoppolo", "six": "Baker Mayfield", "seven": "Derek Carr", "eight": "Matt Ryan", "nine": "Ryan Fitzpatrick", "ten": "Tom Brady"};
@@ -17825,7 +17825,7 @@ $scope.positionDST = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3915398.png",
+    "imageUrl": "https://static.nfl.com/static/content/public/static/img/fantasy/transparent/200x200/KC.png",
     "name": "Kansas City Chiefs",
     "depthchart": "",
     "team": "Kansas City Chiefs",
@@ -17845,9 +17845,9 @@ $scope.positionDST = [{
     "healthHea": "Healthy",
     "tmColorLite": "#FFB81C",
     "tmColorDark": "#c9243f",
-    "tmTextLite": "#FFB81C",
-    "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
-    "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
+    "tmTextLite": "rgba(255, 184, 28, 0.2)",
+    "tmColorLite_rgba": "rgba(201, 36, 63, 0.2)",
+    "tmColorDark_rgba": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
     "headlineNews": "",
     "report": "",
@@ -17882,8 +17882,8 @@ $scope.positionDST = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 184, 28, 1)",  //lite team color 1 // dot color
+                         pointBorderColor: "#FFB81C, 1)", //dark team color 1
+                         backgroundColor:  "rgba(201, 36, 63, 1)",  //lite team color 1 // dot color
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
@@ -17893,7 +17893,7 @@ $scope.positionDST = [{
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        pointBorderColor: "#FFB81C, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
@@ -17903,7 +17903,7 @@ $scope.positionDST = [{
                     {
                         label: "68% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+						pointBorderColor: "#FFB81C, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
@@ -17912,8 +17912,8 @@ $scope.positionDST = [{
                     {
                         label: "68% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 184, 28, .15)",  //lite team color .15
+                        pointBorderColor: "#FFB81C, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(201, 36, 63, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
