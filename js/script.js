@@ -6,10 +6,10 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Thursday, 29 October 2020 06:33 AM (central time)"};
+$scope.currentDate = {"currentDate": "Thursday, 29 October 2020 10:22 AM (central time)"};
 $scope.week = {"nflWeek": "8"};
 
-$scope.qbStartSit = {"one": "Teddy Bridgewater", "two": "Aaron Rodgers", "three": "Jimmy Garoppolo", "four": "Derek Carr", "five": "Baker Mayfield", "six": "Tua Tagovailoa", "seven": "Matthew Stafford", "eight": "Daniel Jones", "nine": "Sam Darnold", "ten": "Drew Brees"};
+$scope.qbStartSit = {"one": "Teddy Bridgewater", "two": "Aaron Rodgers", "three": "Jimmy Garoppolo", "four": "Derek Carr", "five": "Baker Mayfield", "six": "Tua Tagovailoa", "seven": "Matthew Stafford", "eight": "Daniel Jones", "nine": "Sam Darnold", "ten": "Ben DiNucci"};
 $scope.rbStartSit = {"one": "Miles Sanders", "two": "Derrick Henry", "three": "Jonathan Taylor", "four": "Dalvin Cook", "five": "Todd Gurley", "six": "Mark Ingram", "seven": "Devonta Freeman", "eight": "Carlos Hyde", "nine": "Joshua Kelley", "ten": "David Montgomery"};
 $scope.wrStartSit = {"one": "Davante Adams", "two": "Brandon Aiyuk", "three": "D.J. Moore", "four": "Henry Ruggs", "five": "A.J. Green", "six": "Breshad Perriman", "seven": "Michael Thomas", "eight": "DeVante Parker", "nine": "D.K. Metcalf", "ten": "Darius Slayton"};
 $scope.teStartSit = {"one": "Jonnu Smith", "two": "Ian Thomas", "three": "Darren Waller", "four": "Robert Tonyan", "five": "Travis Kelce", "six": "T.J. Hockenson", "seven": "Greg Olsen", "eight": "Dawson Knox", "nine": "Mark Andrews", "ten": "Chris Herndon"};
@@ -2564,103 +2564,6 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14012.png",
-    "name": "Andy Dalton",
-    "depthchart": "Starter: QB-1",
-    "team": "Dallas Cowboys",
-    "projected": 12.4,
-    "opponent": "Philadelphia Eagles",
-    "home_away": "at ",
-    "opp_rank_Neu": 7,
-    "team_rank_Pos": 1,
-    "avg_fp2": 4.77,
-    "opp_rank_allowed_fp2_Neu": 19,
-    "opp_avg_allowed_fp2": 20.85,
-    "fanduelSalary": "$6800",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Concussion",
-    "tmColorLite": "#7F9695",
-    "tmColorDark": "#041E42",
-    "tmColorLite_rgba": "rgba(127, 150, 149, 0.2)",
-    "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
-    "tmTextLite": "#7F9695",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Andy Dalton (concussion) is not practicing Wednesday.\n",
-    "report": "",
-    "analysis": "Dalton is in the concussion protocol after taking a wallop from Jon Bostic in Week 7. If Dalton can't go against the Eagles this Sunday, it'll either be rookie Ben DiNucci or Garrett Gilbert under center for the Cowboys. Yikes.\n",
-    "timestamp": "2020-10-28 05:35 PM",
-    "source": "Jon Machota on Twitter",
-    "week01": "DNP",
-    "week02": 0.0,
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": 2.44,
-    "week06": 13.04,
-    "week07": 3.6,
-    "week08": "",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1
-                         backgroundColor:  "rgba(127, 150, 149, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 0.0, 'DNP', 'DNP', 2.44, 13.04, 3.6]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 5.1, 'DNP', 'DNP', 5.1, 15.6, 10.7, 12.4]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 7.8, 'DNP', 'DNP', 7.8, 7.3, 7.8, 10.0]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(127, 150, 149, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 23.1, 'DNP', 'DNP', 21.1, 18.2, 19.6, 24.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2580.png",
     "name": "Drew Brees",
     "depthchart": "Starter: QB-1",
@@ -2752,6 +2655,103 @@ $scope.positionQB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [26.8, 30.5, 27.9, 28.4, 25.9, 'BYE', 26.6, 26.9]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3895785.png",
+    "name": "Ben DiNucci",
+    "depthchart": "Starter: QB-1",
+    "team": "Dallas Cowboys",
+    "projected": 7.5,
+    "opponent": "Philadelphia Eagles",
+    "home_away": "at ",
+    "opp_rank_Neu": 7,
+    "team_rank_Pos": 1,
+    "avg_fp2": 0.78,
+    "opp_rank_allowed_fp2_Neu": 19,
+    "opp_avg_allowed_fp2": 20.85,
+    "fanduelSalary": "$6500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#7F9695",
+    "tmColorDark": "#041E42",
+    "tmColorLite_rgba": "rgba(127, 150, 149, 0.2)",
+    "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
+    "tmTextLite": "#7F9695",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+    "headlineNews": "Andy Dalton (concussion) is not practicing Wednesday.\n",
+    "report": "",
+    "analysis": "Dalton is in the concussion protocol after taking a wallop from Jon Bostic in Week 7. If Dalton can't go against the Eagles this Sunday, it'll either be rookie Ben DiNucci or Garrett Gilbert under center for the Cowboys. Yikes.\n",
+    "timestamp": "2020-10-28 05:35 PM",
+    "source": "Jon Machota on Twitter",
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": 0.0,
+    "week07": 1.56,
+    "week08": "",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1
+                         backgroundColor:  "rgba(127, 150, 149, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 1.56]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.2, 0.8, 7.5]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 6.7]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(127, 150, 149, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.1, 8.6, 19.9]
                     }
                     
                     ]
@@ -3560,11 +3560,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#0085CA",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Panthers RB Christian McCaffrey (ankle) wore a red non-participation jersey at practice Tuesday.\u00a0\n",
+    "headlineNews": "NFL Network's Tom Pelissero reports Christian McCaffrey (ankle) is not expected to play in Week 8 against the Falcons.\n",
     "report": "",
-    "analysis": "He wore the same jersey during Monday's practice. ESPN's David Newton said this \"increases the likelihood\" McCaffrey won't be available Thursday night against the Falcons. McCaffrey drafters might get their guy back for Week 9 against Kansas City. Mike Davis remains a RB2 play for at least one more week.\u00a0\n",
-    "timestamp": "2020-10-27 03:51 PM",
-    "source": "David Newton on Twitter ",
+    "analysis": "McCaffrey's outlook was always headed this way after he donned a non-participation jersey for practice mid-week. Mike Davis, who recorded 16/89 rushing and a season-high nine catches against the Falcons in the team's first matchup, will receive one more crack as Carolina's bell-cow (and low-end RB1) before reverting back to the bench. McCaffrey is expected to return next week against the Chiefs.\n",
+    "timestamp": "2020-10-29 01:24 PM",
+    "source": "Tom Pelissero on Twitter",
     "week01": 0.0,
     "week02": 11.5,
     "week03": 19.1,
