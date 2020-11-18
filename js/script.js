@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Wednesday, 18 November 2020 08:18 AM (central time)"};
+$scope.currentDate = {"currentDate": "Wednesday, 18 November 2020 08:42 AM (central time)"};
 $scope.week = {"nflWeek": "11"};
 
 $scope.qbStartSit = {"one": "Kyler Murray", "two": "Justin Herbert", "three": "Ben Roethlisberger", "four": "Patrick Mahomes", "five": "Lamar Jackson", "six": "Jake Luton", "seven": "Tom Brady", "eight": "Aaron Rodgers", "nine": "Joe Burrow", "ten": "Derek Carr"};
@@ -20428,11 +20428,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(151, 35, 63, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "NFL Network's Ian Rapoport Reports Cardinals S Budda Baker (groin) and CB Dre Kirkpatrick (thigh) are expected to play in Week 10 against the Bills.\u00a0\n",
+    "headlineNews": "Cardinals DL Corey Peters (knee) is out for the season.\n",
     "report": "",
-    "analysis": "The Cardinals currently sit in the bottom half of the league in passing yards allowed and face Josh Allen this week. The addition of Kirkpatrick, who was unable to play last week, and Baker getting healthy gives them a chance to slow Josh Allen but they are still underdogs to keep him from hitting 300 yards. Allen has topped that mark in over half of his games this week and his matchup with Arizona features a 55.5-point total.\u00a0\n",
+    "analysis": "Peters will go on injured reserve after he\u00a0was carted off in the first half of Arizona's win over Buffalo\u00a0last week. Losing Peters is another downgrade to a defense that's already without\u00a0OLB Chandler Jones and\u00a0CB Robert Alford. This is a torn patellar tendon for Peters, making him not a lock to be ready\u00a0for Week 1 next year.\u00a0The Cardinals will turn to\u00a0Josh Mauro\u00a0and\u00a0Angelo Blackson to replace\u00a0Peters.\n",
     "timestamp": "",
-    "source": "Ian Rapoport on Twitter",
+    "source": "Arizona Republic",
     "avg_fp2": 5.56,
     "week01": 4.0,
     "week02": 11.0,
