@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Wednesday, 18 November 2020 08:42 AM (central time)"};
+$scope.currentDate = {"currentDate": "Wednesday, 18 November 2020 09:14 AM (central time)"};
 $scope.week = {"nflWeek": "11"};
 
 $scope.qbStartSit = {"one": "Kyler Murray", "two": "Justin Herbert", "three": "Ben Roethlisberger", "four": "Patrick Mahomes", "five": "Lamar Jackson", "six": "Jake Luton", "seven": "Tom Brady", "eight": "Aaron Rodgers", "nine": "Joe Burrow", "ten": "Derek Carr"};
@@ -2489,11 +2489,11 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#e17757",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "ESPN's Adam Schefter reports Drew Lock (ribs) has a \"pretty severe strain and bruising\" but has avoided any fractures.\u00a0\n",
+    "headlineNews": "NFL Network's Ian Rapoport reports\u00a0Drew Lock (ribs) is \"going to try and play\" this week.\n",
     "report": "",
-    "analysis": "Lock is considered day to day and uncertain to suit up against the Dolphins. Knowing what we know on Tuesday afternoon, it seems highly unlikely. Brett Rypien is the next man up. Lock has shown every little during his sophomore campaign, but the Broncos undoubtedly want him to finish the year out under center to give them as much tape as possible as their latest likely failed \"quarterback of the future.\" Whoever gets the Week 11 call will be getting thrown to the wolves against the Dolphins' elite defense. Lock's status will be updated with Wednesday's practice report.\u00a0\n",
-    "timestamp": "2020-11-17 10:15 PM",
-    "source": "Adam Schefter on Twitter ",
+    "analysis": "Lock isn't expected to practice until late in the week. He's \"feeling a lot better\" and there's hope he won't miss any time.\u00a0Lock likely won't be 100 percent, but he's trending\u00a0toward playing Week 11 against the Dolphins.\n",
+    "timestamp": "2020-11-18 02:54 PM",
+    "source": "NFL Network",
     "week01": 13.14,
     "week02": -1.2,
     "week03": "DNP",
@@ -7541,11 +7541,11 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#9b845c",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "Texans signed S Michael Thomas, formerly of the Giants.\n",
+    "headlineNews": "Michael Thomas caught 2-of-7 targets for 22 yards in the Saints' Week 10 win over the 49ers.\u00a0\n",
     "report": "",
-    "analysis": "There's a non-zero chance Texans coach Bill O'Brien believes he just signed WR Michael Thomas. Assuming that isn't the case, we can expect Thomas to find a role as a solid special teams contributor and backup in the secondary.\u00a0He's played in 88 games for the Dolphins and Giants since 2013.\n",
-    "timestamp": "2020-04-24 06:05 PM",
-    "source": "Tom Pelissero on Twitter",
+    "analysis": "Thomas now has seven catches for 73 yards in two games back from his nagging hamstring and ankle injuries. It's hardly what Thomas drafters had in mind when they got their first round pick back. Jameis Winston, who could start Week 11 for the Saints after Drew Brees suffered a rib injury, missed Thomas twice -- once badly. Perhaps a high-scoring back-and-forth Week 11 game against the Falcons will be enough to inflate Thomas' target volume. He should remain in fantasy lineups despite the lack of production.\u00a0\n",
+    "timestamp": "2020-11-16 01:09 AM",
+    "source": null,
     "week01": 3.2,
     "week02": "DNP",
     "week03": "DNP",
