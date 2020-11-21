@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Saturday, 21 November 2020 02:37 PM (central time)"};
+$scope.currentDate = {"currentDate": "Saturday, 21 November 2020 03:49 PM (central time)"};
 $scope.week = {"nflWeek": "11"};
 
 $scope.qbStartSit = {"one": "Kyler Murray", "two": "Justin Herbert", "three": "Ben Roethlisberger", "four": "Patrick Mahomes", "five": "Lamar Jackson", "six": "Jake Luton", "seven": "Tom Brady", "eight": "Aaron Rodgers", "nine": "Joe Burrow", "ten": "Derek Carr"};
@@ -2370,6 +2370,103 @@ $scope.positionQB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2468609.png",
+    "name": "Taysom Hill",
+    "depthchart": "Starter: QB-1",
+    "team": "New Orleans Saints",
+    "projected": 14.6,
+    "opponent": "Atlanta Falcons",
+    "home_away": "",
+    "opp_rank_Pos": 31,
+    "team_rank_Neu": 15,
+    "avg_fp2": 4.49,
+    "opp_rank_allowed_fp2_Pos": 31,
+    "opp_avg_allowed_fp2": 26.8,
+    "fanduelSalary": "N/A",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#9b845c",
+    "tmColorDark": "#101820",
+    "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
+    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
+    "tmTextLite": "#9b845c",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+    "headlineNews": "Saints placed Drew Brees (ribs) on injured reserve.\u00a0\n",
+    "report": "",
+    "analysis": "The team was sticking by the two-week layoff schedule for Brees but with this move, he'll miss at least three weeks. That would make Brees eligible to return for Week 14 against the Eagles. If Taysom Hill seizes the starting QB job with Brees out, he could be one of fantasy football's most important players in leagues where he's tight end eligible.\u00a0\n",
+    "timestamp": "2020-11-20 09:23 PM",
+    "source": "Tom Pelissero on Twitter ",
+    "week01": 4.72,
+    "week02": 0.8,
+    "week03": -0.8,
+    "week04": 1.9,
+    "week05": 7.3,
+    "week06": "BYE",
+    "week07": 0.6,
+    "week08": 13.5,
+    "week09": 9.92,
+    "week10": 2.5,
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
+                         backgroundColor:  "rgba(155, 132, 92, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [4.72, 0.8, -0.8, 1.9, 7.3, 'BYE', 0.6, 13.5, 9.92, 2.5]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [1.4, 2.4, 2.7, 1.3, 3.0, 'BYE', 4.1, -0.9, 4.5, 4.6, 14.6]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.0, 0.3, 0.0, 0.0, 0.0, 'BYE', 0.0, 0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(155, 132, 92, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [11.6, 10.4, 8.2, 8.8, 10.3, 'BYE', 9.5, 9.3, 10.1, 7.9, 9.9]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
     "name": "Baker Mayfield",
     "depthchart": "Starter: QB-1",
@@ -2655,103 +2752,6 @@ $scope.positionQB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.4, 'BYE', 19.7, 19.8, 20.9, 23.1]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2969939.png",
-    "name": "Jameis Winston",
-    "depthchart": "Starter: QB-1",
-    "team": "New Orleans Saints",
-    "projected": 6.5,
-    "opponent": "Atlanta Falcons",
-    "home_away": "",
-    "opp_rank_Pos": 31,
-    "team_rank_Neu": 15,
-    "avg_fp2": 1.25,
-    "opp_rank_allowed_fp2_Pos": 31,
-    "opp_avg_allowed_fp2": 26.8,
-    "fanduelSalary": "$7200",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#9b845c",
-    "tmColorDark": "#101820",
-    "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
-    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
-    "tmTextLite": "#9b845c",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "Saints head coach Sean Payton won't name a starting quarterback for Week 11 against the Falcons.\u00a0\n",
-    "report": "",
-    "analysis": "\u201cI haven\u2019t announced that either one of them are starting,\" Payton said when asked whether Taysom Hill or Jameis Winston would start in place of Drew Brees (ribs, lung) this week. ESPN's Adam Schefter reported Friday that Hill would start Week 11 against Atlanta. That doesn't mean Winston won't be involved in some way against the Falcons. If he gets the nod at QB, Hill would be a top-end tight end option on fantasy sites that give him tight end eligibility, while said eligibility sparks a civil war on fantasy football Twitter.\u00a0\n",
-    "timestamp": "2020-11-21 03:56 PM",
-    "source": "James Palmer on Twitter ",
-    "week01": "DNP",
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "BYE",
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": 0.18,
-    "week10": 2.32,
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
-                         backgroundColor:  "rgba(155, 132, 92, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 0.18, 2.32]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 10.5, 5.2, 6.5]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 12.9, 12.7, 9.8]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(155, 132, 92, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 24.8, 25.5, 21.7]
                     }
                     
                     ]
@@ -11787,103 +11787,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16725.png",
-    "name": "Sammy Watkins",
-    "depthchart": "Backup: WR-2",
-    "team": "Kansas City Chiefs",
-    "projected": 7.7,
-    "opponent": "Las Vegas Raiders",
-    "home_away": "at ",
-    "opp_rank_Pos": 25,
-    "team_rank_Pos": 2,
-    "avg_fp2": 8.6,
-    "opp_rank_allowed_fp2_Neu": 21,
-    "opp_avg_allowed_fp2": 31.64,
-    "fanduelSalary": "$5700",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
-    "tmColorLite": "#FFB81C",
-    "tmColorDark": "#c9243f",
-    "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
-    "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
-    "tmTextLite": "#FFB81C",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Sammy Watkins (hamstring) is questionable for Week 11 against the Raiders.\n",
-    "report": "",
-    "analysis": "Watkins was downgraded to limited participation at both Thursday's and Friday's practices. With Mecole Hardman still on the team's COVID list, it's possible Demarcus Robinson and Byron Pringle are both thrust into Kansas City's starting lineup by default. Fantasy players should consider Watkins a sturdy WR3 if he's available while\u00a0Hardman simultaneously remains sidelined.\n",
-    "timestamp": "2020-11-20 08:52 PM",
-    "source": "Adam Teicher on Twitter",
-    "week01": 18.0,
-    "week02": 1.6,
-    "week03": 9.7,
-    "week04": 4.3,
-    "week05": 9.4,
-    "week06": "DNP",
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": "DNP",
-    "week10": "BYE",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 184, 28, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [18.0, 1.6, 9.7, 4.3, 9.4, 'DNP', 'DNP', 'DNP', 'DNP', 'BYE']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [7.9, 7.6, 7.8, 9.6, 6.4, 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 7.7]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [1.5, 4.1, 4.6, 3.8, 2.7, 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 1.8]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 184, 28, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [19.2, 21.1, 20.1, 18.8, 19.6, 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 17.1]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036348.png",
     "name": "Michael Gallup",
     "depthchart": "Backup: WR-2",
@@ -13826,7 +13729,7 @@ $scope.positionWR = [{
 {
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035004.png",
     "name": "Mecole Hardman",
-    "depthchart": "Reserve: WR-3",
+    "depthchart": "Backup: WR-2",
     "team": "Kansas City Chiefs",
     "projected": 5.6,
     "opponent": "Las Vegas Raiders",
@@ -13838,19 +13741,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 31.64,
     "fanduelSalary": "$5600",
     "hasStatus": "Status",
-    "healthOut": "Reserve-covid-19",
-    "injury": "Undisclosed",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FFB81C",
     "tmColorDark": "#c9243f",
     "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Chiefs WR Sammy Watkins (hamstring) will play this week against the Raiders.\u00a0\n",
+    "headlineNews": "Chiefs activated Mecole Hardman from the COVID-19 list.\n",
     "report": "",
-    "analysis": "NFL Network's James Palmer said Watkins is \"set to return\" after a multi-week absence. If he's a full go against Vegas, Demarcus Robinson should remain on fantasy benches and Mecole Hardman should be downgraded. Watkins was the clear-cut No. 2 receivers for KC before his severe hamstring injury in early October.\u00a0\n",
-    "timestamp": "2020-11-19 06:24 PM",
-    "source": "James Palmer on Twitter ",
+    "analysis": "Hardman will be cleared to play the Raiders on Sunday Night Football, and he carries flex consideration with Sammy Watkins (calf, hamstring) ruled out. Hardman's route share has fluctuated alongside Demarcus Robinson and Byron Pringle while Watkins has been sidelined with soft-tissue injuries. It's unclear how long Watkins will miss following his in-practice injury a few days ago.\n",
+    "timestamp": "2020-11-21 09:22 PM",
+    "source": null,
     "week01": 1.1,
     "week02": 6.3,
     "week03": 16.1,
@@ -18040,11 +17943,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(0, 128, 198, 0.2)",
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Chargers designated CB Chris Harris (foot) to return from IR.\n",
+    "headlineNews": "Chargers placed LB Kyzir White on the COVID-19 list.\n",
     "report": "",
-    "analysis": "Harris was placed on IR in Week 3. This opens a 21-day window for him to return to the active roster. Harris will replace\u00a0Desmond King in the slot when healthy.\n",
+    "analysis": "Players being added this late in the week is always a concern, but there are\u00a0no reports of the Chargers having a breakout. They remain on track to play against the Jets on Sunday.\n",
     "timestamp": "",
-    "source": null,
+    "source": "Daniel Popper on Twitter",
     "avg_fp2": 3.44,
     "week01": 9.0,
     "week02": 5.0,
@@ -19140,9 +19043,9 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(0, 103, 120, 0.2)",
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Jaguars designated CB\u00a0D.J. Hayden (hamstring) to return from injured reserve.\u00a0\n",
+    "headlineNews": "Jaguars activated CB D.J. Hayden (hamstring) from injured reserve.\n",
     "report": "",
-    "analysis": "This opens Hayden's three-week activation window. The move comes as rookie CB C.J. Henderson (groin) heads to I.R. Hayden was still operating as the Jags' primary slot corner before going down in Week 4. He probably does not have enough time to get activated for Sunday's game against the Steelers, but this certainly gives him a chance.\u00a0\n",
+    "analysis": "Hayden was placed on injured reserve in early October and should be at full health after more than a month off. With first-round CB C.J. Henderson on injured reserve, the Jaguars are looking for help wherever they can get it. Hayden was playing full time in the slot before his injury. That would put him on JuJu Smith-Schuster for Week 11.\n",
     "timestamp": "",
     "source": null,
     "avg_fp2": 3.0,
@@ -19640,11 +19543,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(18, 87, 64, 0.2)",
     "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Jets activated LB\u00a0Patrick Onwuasor (knee) from injured reserve.\n",
+    "headlineNews": "Jets placed CB Blessaun Austin (neck) to injured reserve.\n",
     "report": "",
-    "analysis": "The Jets signed\u00a0Onwuasor to a one-year, $2 million deal back in March.\u00a0He looks likely to return this week after opening\u00a0the season on IR.\u00a0Onwuasor will help improve a Jets\u00a0pass rush that's been among the worst in the league.\n",
+    "analysis": "Already struggling in the secondary, the Jets spent a lot of the week cutting corners and sending others to injured reserve. New York simply doesn't have the personnel to put up much of a fight through the air at the moment as they rotate dart throws while tanking for Trevor.\n",
     "timestamp": "",
-    "source": null,
+    "source": "Ralph Vacchiano on Twitter",
     "avg_fp2": 1.89,
     "week01": 3.0,
     "week02": 4.0,
