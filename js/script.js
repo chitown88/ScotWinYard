@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Wednesday, 16 December 2020 04:23 AM (central time)"};
+$scope.currentDate = {"currentDate": "Wednesday, 16 December 2020 07:48 AM (central time)"};
 $scope.week = {"nflWeek": "15"};
 
 $scope.qbStartSit = {"one": "Tom Brady", "two": "Lamar Jackson", "three": "Jared Goff", "four": "Ryan Tannehill", "five": "Dwayne Haskins", "six": "Sam Darnold", "seven": "Brandon Allen", "eight": "Andy Dalton", "nine": "Tua Tagovailoa", "ten": "Jalen Hurts"};
