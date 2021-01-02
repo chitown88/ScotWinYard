@@ -1,16 +1,16 @@
 var App = angular.module('footballApp', ['tc.chartjs']);
 
 App.controller('positionController', function($scope, $http) {
-
+  
   //JSON data for position and players
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Thursday, 31 December 2020 01:26 PM (central time)"};
+$scope.currentDate = {"currentDate": "Saturday, 02 January 2021 03:52 AM (central time)"};
 $scope.week = {"nflWeek": "17"};
 
 $scope.qbStartSit = {"one": "Tom Brady", "two": "Deshaun Watson", "three": "Kirk Cousins", "four": "Cam Newton", "five": "Philip Rivers", "six": "Jalen Hurts", "seven": "Baker Mayfield", "eight": "Mitchell Trubisky", "nine": "Kyler Murray", "ten": "Sam Darnold"};
-$scope.rbStartSit = {"one": "Derrick Henry", "two": "Jonathan Taylor", "three": "D'Andre Swift", "four": "Wayne Gallman", "five": "Alexander Mattison", "six": "Ito Smith", "seven": "Dare Ogunbowale", "eight": "Kenyan Drake", "nine": "Chris Carson", "ten": "Ronald Jones"};
+$scope.rbStartSit = {"one": "Derrick Henry", "two": "Jonathan Taylor", "three": "D'Andre Swift", "four": "Wayne Gallman", "five": "Alexander Mattison", "six": "Ito Smith", "seven": "Dare Ogunbowale", "eight": "Boston Scott", "nine": "Kenyan Drake", "ten": "Chris Carson"};
 $scope.wrStartSit = {"one": "Mike Evans", "two": "Justin Jefferson", "three": "Kendrick Bourne", "four": "Brandin Cooks", "five": "A.J. Brown", "six": "Jalen Reagor", "seven": "DeAndre Hopkins", "eight": "Rashard Higgins", "nine": "Breshad Perriman", "ten": "DeVante Parker"};
 $scope.teStartSit = {"one": "Rob Gronkowski", "two": "Dalton Keene", "three": "Mark Andrews", "four": "George Kittle", "five": "Jack Doyle", "six": "Jacob Hollister", "seven": "Austin Hooper", "eight": "Cole Kmet", "nine": "Chris Herndon", "ten": "Zach Ertz"};
 $scope.dstStartSit = {"one": "New England Patriots", "two": "Dallas Cowboys", "three": "Indianapolis Colts", "four": "New York Jets", "five": "Philadelphia Eagles", "six": "Chicago Bears", "seven": "Houston Texans", "eight": "Los Angeles Chargers", "nine": "Atlanta Falcons", "ten": "Miami Dolphins"};
@@ -37,8 +37,8 @@ $scope.options = {
             }
         }]
     }
-
-          
+      
+      
       };
 
 $scope.positionQB = [{
@@ -64,11 +64,11 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Deshaun Watson (hand) said he'll play in Week 17 against the Titans.\u00a0\n",
+    "headlineNews": "",
     "report": "",
-    "analysis": "Watson injured his throwing hand near the end of Week 16's loss to the Bengals. He required help from trainers to make it back to the sideline, where they evaluated the injury. Interim head coach Romeo Crennel said Watson \"got it banged up but he was able to come back. He felt good about it. The doctors didn\u2019t think anything major was an issue.\" Watson confirmed he'll suit up next week against the Titans and their disastrous secondary and nonexistent pass rush.\u00a0\n",
-    "timestamp": "2020-12-28 01:55 PM",
-    "source": "TexansWire.com ",
+    "analysis": "",
+    "timestamp": "",
+    "source": "",
     "game_day_logo": "",
     "week01": 21.82,
     "week02": 15.7,
@@ -270,7 +270,7 @@ $scope.positionQB = [{
     "week02": 35.58,
     "week03": 12.18,
     "week04": "DNP",
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": 19.98,
     "week07": 2.82,
     "week08": 18.36,
@@ -300,7 +300,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [25.7, 35.58, 12.18, 'DNP', 'BYE', 19.98, 2.82, 18.36, 24.56, 16.82, 19.2, 5.96, 23.56, 5.36, 12.16, 9.76]
+                         data: [25.7, 35.58, 12.18, 'DNP', 'DNP', 19.98, 2.82, 18.36, 24.56, 16.82, 19.2, 5.96, 23.56, 5.36, 12.16, 9.76]
                     },
                     {
                         label: "Projected",
@@ -310,7 +310,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [21.5, 26.2, 23.9, 'DNP', 'BYE', 26.9, 19.6, 14.6, 23.0, 19.8, 18.7, 25.3, 17.6, 17.9, 24.4, 20.2, 24.9]
+                        data: [21.5, 26.2, 23.9, 'DNP', 'DNP', 26.9, 19.6, 14.6, 23.0, 19.8, 18.7, 25.3, 17.6, 17.9, 24.4, 20.2, 24.9]
                     },
                     {
                         label: "68% Min",
@@ -319,7 +319,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [13.3, 18.8, 14.2, 'DNP', 'BYE', 12.9, 12.7, 11.6, 13.2, 13.0, 12.8, 12.6, 14.5, 10.5, 12.6, 11.1, 13.7]
+                        data: [13.3, 18.8, 14.2, 'DNP', 'DNP', 12.9, 12.7, 11.6, 13.2, 13.0, 12.8, 12.6, 14.5, 10.5, 12.6, 11.1, 13.7]
                     },
                     {
                         label: "68% Max",
@@ -329,7 +329,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [29.0, 33.6, 30.2, 'DNP', 'BYE', 29.1, 29.1, 28.7, 29.9, 30.2, 28.4, 27.8, 29.5, 27.5, 29.0, 29.1, 30.3]
+                        data: [29.0, 33.6, 30.2, 'DNP', 'DNP', 29.1, 29.1, 28.7, 29.9, 30.2, 28.4, 27.8, 29.5, 27.5, 29.0, 29.1, 30.3]
                     }
                     
                     ]
@@ -370,7 +370,7 @@ $scope.positionQB = [{
     "week04": 26.02,
     "week05": 14.5,
     "week06": 28.24,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 16.82,
     "week09": 18.6,
     "week10": 22.46,
@@ -398,7 +398,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [27.5, 17.56, 14.18, 26.02, 14.5, 28.24, 'BYE', 16.82, 18.6, 22.46, 17.54, 'DNP', 27.7, 34.92, 30.22, 21.32]
+                         data: [27.5, 17.56, 14.18, 26.02, 14.5, 28.24, 'DNP', 16.82, 18.6, 22.46, 17.54, 'DNP', 27.7, 34.92, 30.22, 21.32]
                     },
                     {
                         label: "Projected",
@@ -408,7 +408,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [28.5, 28.8, 27.5, 29.5, 23.5, 22.1, 'BYE', 17.7, 19.9, 23.1, 27.5, 'DNP', 26.8, 19.5, 19.0, 23.9, 24.6]
+                        data: [28.5, 28.8, 27.5, 29.5, 23.5, 22.1, 'DNP', 17.7, 19.9, 23.1, 27.5, 'DNP', 26.8, 19.5, 19.0, 23.9, 24.6]
                     },
                     {
                         label: "68% Min",
@@ -417,7 +417,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [18.1, 16.9, 23.4, 20.7, 15.4, 14.3, 'BYE', 18.0, 12.9, 13.9, 16.0, 'DNP', 15.9, 23.0, 19.3, 17.7, 18.4]
+                        data: [18.1, 16.9, 23.4, 20.7, 15.4, 14.3, 'DNP', 18.0, 12.9, 13.9, 16.0, 'DNP', 15.9, 23.0, 19.3, 17.7, 18.4]
                     },
                     {
                         label: "68% Max",
@@ -427,7 +427,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [35.5, 27.6, 39.2, 34.6, 26.8, 29.6, 'BYE', 34.7, 27.5, 28.9, 30.8, 'DNP', 35.0, 30.3, 38.9, 35.7, 33.0]
+                        data: [35.5, 27.6, 39.2, 34.6, 26.8, 29.6, 'DNP', 34.7, 27.5, 28.9, 30.8, 'DNP', 35.0, 30.3, 38.9, 35.7, 33.0]
                     }
                     
                     ]
@@ -546,8 +546,8 @@ $scope.positionQB = [{
     "opp_avg_allowed_fp2": 23.11,
     "fanduelSalary": "$7300",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Toe",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#014683",
     "tmColorDark": "#002C5F",
     "tmColorLite_rgba": "rgba(1, 70, 131, 0.2)",
@@ -663,7 +663,7 @@ $scope.positionQB = [{
     "week03": 15.7,
     "week04": 24.0,
     "week05": 27.36,
-    "week06": "BYE",
+    "week06": "DNP",
     "week07": 38.48,
     "week08": 23.22,
     "week09": 23.44,
@@ -692,7 +692,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 23.24, 15.7, 24.0, 27.36, 'BYE', 38.48, 23.22, 23.44, 21.48, 27.74, 17.44, 6.36, 16.72, 27.96, 16.72]
+                         data: ['DNP', 23.24, 15.7, 24.0, 27.36, 'DNP', 38.48, 23.22, 23.44, 21.48, 27.74, 17.44, 6.36, 16.72, 27.96, 16.72]
                     },
                     {
                         label: "Projected",
@@ -702,7 +702,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 0.9, 16.9, 10.9, 22.3, 'BYE', 21.4, 19.7, 22.1, 24.3, 25.0, 19.5, 15.8, 31.6, 29.3, 17.7, 21.3]
+                        data: ['DNP', 0.9, 16.9, 10.9, 22.3, 'DNP', 21.4, 19.7, 22.1, 24.3, 25.0, 19.5, 15.8, 31.6, 29.3, 17.7, 21.3]
                     },
                     {
                         label: "68% Min",
@@ -711,7 +711,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 0.0, 11.4, 8.4, 13.4, 'BYE', 16.1, 12.6, 22.0, 21.8, 19.7, 18.0, 18.7, 18.5, 16.2, 11.4, 16.8]
+                        data: ['DNP', 0.0, 11.4, 8.4, 13.4, 'DNP', 16.1, 12.6, 22.0, 21.8, 19.7, 18.0, 18.7, 18.5, 16.2, 11.4, 16.8]
                     },
                     {
                         label: "68% Max",
@@ -721,7 +721,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 12.0, 25.3, 24.3, 27.0, 'BYE', 24.9, 26.4, 34.2, 34.1, 25.4, 32.5, 26.8, 24.5, 27.0, 29.1, 29.6]
+                        data: ['DNP', 12.0, 25.3, 24.3, 27.0, 'DNP', 24.9, 26.4, 34.2, 34.1, 25.4, 32.5, 26.8, 24.5, 27.0, 29.1, 29.6]
                     }
                     
                     ]
@@ -1543,7 +1543,7 @@ $scope.positionQB = [{
     "week01": 19.36,
     "week02": 26.76,
     "week03": 13.24,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 30.0,
     "week06": 29.56,
     "week07": 17.3,
@@ -1574,7 +1574,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [19.36, 26.76, 13.24, 'BYE', 30.0, 29.56, 17.3, 18.32, 14.62, 10.78, 22.86, 19.14, 28.56, 16.48, 37.02, 18.34]
+                         data: [19.36, 26.76, 13.24, 'DNP', 30.0, 29.56, 17.3, 18.32, 14.62, 10.78, 22.86, 19.14, 28.56, 16.48, 37.02, 18.34]
                     },
                     {
                         label: "Projected",
@@ -1584,7 +1584,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [15.0, 17.5, 14.7, 'BYE', 17.0, 18.7, 16.5, 22.5, 14.8, 14.7, 19.8, 12.1, 20.3, 19.8, 22.0, 14.4, 17.5]
+                        data: [15.0, 17.5, 14.7, 'DNP', 17.0, 18.7, 16.5, 22.5, 14.8, 14.7, 19.8, 12.1, 20.3, 19.8, 22.0, 14.4, 17.5]
                     },
                     {
                         label: "68% Min",
@@ -1593,7 +1593,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [9.4, 9.1, 9.1, 'BYE', 10.0, 10.1, 8.8, 9.0, 9.9, 9.5, 9.5, 11.7, 11.1, 12.7, 10.2, 14.3, 13.0]
+                        data: [9.4, 9.1, 9.1, 'DNP', 10.0, 10.1, 8.8, 9.0, 9.9, 9.5, 9.5, 11.7, 11.1, 12.7, 10.2, 14.3, 13.0]
                     },
                     {
                         label: "68% Max",
@@ -1603,7 +1603,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [22.2, 22.3, 22.4, 'BYE', 23.8, 23.4, 23.5, 23.4, 23.7, 23.1, 22.9, 22.8, 26.3, 24.9, 24.1, 28.6, 26.4]
+                        data: [22.2, 22.3, 22.4, 'DNP', 23.8, 23.4, 23.5, 23.4, 23.7, 23.1, 22.9, 22.8, 26.3, 24.9, 24.1, 28.6, 26.4]
                     }
                     
                     ]
@@ -1647,7 +1647,7 @@ $scope.positionQB = [{
     "week07": 2.8,
     "week08": 7.42,
     "week09": "DNP",
-    "week10": "BYE",
+    "week10": "DNP",
     "week11": "DNP",
     "week12": 6.78,
     "week13": 21.04,
@@ -1672,7 +1672,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [12.2, 11.86, 9.72, 23.6, 'DNP', 'DNP', 2.8, 7.42, 'DNP', 'BYE', 'DNP', 6.78, 21.04, 5.58, 14.08, 17.0]
+                         data: [12.2, 11.86, 9.72, 23.6, 'DNP', 'DNP', 2.8, 7.42, 'DNP', 'DNP', 'DNP', 6.78, 21.04, 5.58, 14.08, 17.0]
                     },
                     {
                         label: "Projected",
@@ -1682,7 +1682,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [16.2, 20.2, 13.8, 21.7, 'DNP', 'DNP', 16.3, 15.8, 'DNP', 'BYE', 'DNP', 17.3, 14.4, 8.2, 10.0, 12.1, 16.7]
+                        data: [16.2, 20.2, 13.8, 21.7, 'DNP', 'DNP', 16.3, 15.8, 'DNP', 'DNP', 'DNP', 17.3, 14.4, 8.2, 10.0, 12.1, 16.7]
                     },
                     {
                         label: "68% Min",
@@ -1691,7 +1691,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [9.0, 11.1, 8.9, 9.6, 'DNP', 'DNP', 6.7, 6.0, 'DNP', 'BYE', 'DNP', 4.7, 8.7, 7.1, 8.6, 9.8, 6.5]
+                        data: [9.0, 11.1, 8.9, 9.6, 'DNP', 'DNP', 6.7, 6.0, 'DNP', 'DNP', 'DNP', 4.7, 8.7, 7.1, 8.6, 9.8, 6.5]
                     },
                     {
                         label: "68% Max",
@@ -1701,7 +1701,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [21.7, 20.4, 22.1, 22.0, 'DNP', 'DNP', 21.0, 20.5, 'DNP', 'BYE', 'DNP', 18.3, 19.6, 20.0, 23.4, 22.0, 18.6]
+                        data: [21.7, 20.4, 22.1, 22.0, 'DNP', 'DNP', 21.0, 20.5, 'DNP', 'DNP', 'DNP', 18.3, 19.6, 20.0, 23.4, 22.0, 18.6]
                     }
                     
                     ]
@@ -1838,7 +1838,7 @@ $scope.positionQB = [{
     "week02": -1.2,
     "week03": "DNP",
     "week04": "DNP",
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": 5.46,
     "week07": 14.96,
     "week08": 20.82,
@@ -1868,7 +1868,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [13.14, -1.2, 'DNP', 'DNP', 'BYE', 5.46, 14.96, 20.82, 30.22, 10.74, 12.1, 'DNP', 12.94, 25.6, 10.98, 16.06]
+                         data: [13.14, -1.2, 'DNP', 'DNP', 'DNP', 5.46, 14.96, 20.82, 30.22, 10.74, 12.1, 'DNP', 12.94, 25.6, 10.98, 16.06]
                     },
                     {
                         label: "Projected",
@@ -1878,7 +1878,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [14.6, 11.2, 'DNP', 'DNP', 'BYE', 10.9, 8.4, 14.6, 16.6, 14.2, 14.7, 'DNP', 16.7, 20.2, 15.2, 11.4, 15.7]
+                        data: [14.6, 11.2, 'DNP', 'DNP', 'DNP', 10.9, 8.4, 14.6, 16.6, 14.2, 14.7, 'DNP', 16.7, 20.2, 15.2, 11.4, 15.7]
                     },
                     {
                         label: "68% Min",
@@ -1887,7 +1887,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [10.3, 10.8, 'DNP', 'DNP', 'BYE', 1.4, 3.6, 6.7, 10.8, 14.2, 5.5, 'DNP', 10.1, 4.7, 8.1, 10.5, 6.5]
+                        data: [10.3, 10.8, 'DNP', 'DNP', 'DNP', 1.4, 3.6, 6.7, 10.8, 14.2, 5.5, 'DNP', 10.1, 4.7, 8.1, 10.5, 6.5]
                     },
                     {
                         label: "68% Max",
@@ -1897,7 +1897,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [18.8, 21.2, 'DNP', 'DNP', 'BYE', 19.9, 14.6, 20.0, 21.6, 27.9, 15.4, 'DNP', 25.5, 17.6, 23.4, 22.6, 23.5]
+                        data: [18.8, 21.2, 'DNP', 'DNP', 'DNP', 19.9, 14.6, 20.0, 21.6, 27.9, 15.4, 'DNP', 25.5, 17.6, 23.4, 22.6, 23.5]
                     }
                     
                     ]
@@ -2026,8 +2026,8 @@ $scope.positionQB = [{
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
     "headlineNews": "Kyler Murray (leg) told reporters Wednesday that he's \"good\" and expects to make the Week 17 start against the Rams.\n",
     "report": "",
-    "analysis": "Murray practiced Wednesday, putting him right on track for Sunday's duel with Rams backup QB John Wolford. The Cardinals should be viewed as overwhelming favorites against the shorthanded Rams with a playoff spot on the line. Murray finished the Weeks 1-16 fantasy season as the overall QB1.\n",
-    "timestamp": "2020-12-30 06:47 PM",
+    "analysis": "Murray is practicing in full, putting him right on track for Sunday's duel with Rams backup QB John Wolford. The Cardinals should be viewed as overwhelming favorites against the shorthanded Rams with a playoff spot on the line. Murray finished the Weeks 1-16 fantasy season as the overall QB1.\n",
+    "timestamp": "2021-01-01 12:21 AM",
     "source": "Darren Urban on Twitter",
     "game_day_logo": "",
     "week01": 27.3,
@@ -2527,7 +2527,7 @@ $scope.positionQB = [{
     "week05": "DNP",
     "week06": "DNP",
     "week07": "DNP",
-    "week08": "BYE",
+    "week08": "DNP",
     "week09": "DNP",
     "week10": "DNP",
     "week11": "DNP",
@@ -2554,7 +2554,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 18.0, 14.1, 2.4, 'DNP', 14.44]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 18.0, 14.1, 2.4, 'DNP', 14.44]
                     },
                     {
                         label: "Projected",
@@ -2564,7 +2564,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 12.6, 16.4, 20.0, 'DNP', 15.2, 13.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 12.6, 16.4, 20.0, 'DNP', 15.2, 13.5]
                     },
                     {
                         label: "68% Min",
@@ -2573,7 +2573,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 4.7, 8.1, 6.8, 'DNP', 4.3, 7.4]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 4.7, 8.1, 6.8, 'DNP', 4.3, 7.4]
                     },
                     {
                         label: "68% Max",
@@ -2583,7 +2583,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 15.8, 18.1, 17.5, 'DNP', 15.3, 18.4]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 15.8, 18.1, 17.5, 'DNP', 15.3, 18.4]
                     }
                     
                     ]
@@ -2808,11 +2808,11 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Alex Smith (calf) was officially \"limited\" on Thursday.\u00a0\n",
+    "headlineNews": "Alex Smith (calf) is questionable for Week 17 against the Eagles.\n",
     "report": "",
-    "analysis": "Limited though he was, Smith was taking first-team reps. At this point, it would take a setback to hold Smith out for Sunday evening's must-win game against the Eagles. With Terry McLaurin (ankle) still not practicing, Smith will over scant DFS appeal if he indeed gets the call over\u00a0Taylor Heinicke.\u00a0\n",
-    "timestamp": "2020-12-31 07:36 PM",
-    "source": "Nicki Jhabvala on Twitter ",
+    "analysis": "Smith returned to practice on Thursday and was limited for the team's last two sessions of the regular season. In taking first-team reps ahead of Taylor Heinicke, we imagine Smith absolutely gets the nod Sunday night. It remains unclear if he'll have either Terry McLaurin (ankle, questionable) or Antonio Gibson (toe, questionable) to throw to. Still, Washington should have no issues scoring points since the Eagles' secondary had recently been scorched by\u00a0Taysom Hill, Kyler Murray, and Andy Dalton.\n",
+    "timestamp": "2021-01-01 06:57 PM",
+    "source": "Nicki Jhabvala on Twitter",
     "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
     "week01": "DNP",
     "week02": "DNP",
@@ -2906,16 +2906,16 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Mason Rudolph will start at quarterback for Pittsburgh in Week 17 against the Browns.\u00a0\n",
+    "headlineNews": "Ben\u00a0Roethlisberger is out for Week 17 against the Browns.\u00a0\n",
     "report": "",
-    "analysis": "The Steelers having a shot at the No. 2 seed in the AFC is apparently not enough motivation to start Ben Roethlisberger against Cleveland. Starting Rudolph could signal that Mike Tomlin will sit many key starters in the season's final week. Tomlin said Tuesday that he's \"not overly concerned\" about players keeping their rhythm headed into the postseason. Rudolph under center makes the team's pass catchers hands-off for fantasy purposes, and turns the Browns defense into a top Week 17 option. Last season against the Browns, Rudolph\u00a0completed 23-of-44 passes for 221 yards, one touchdown,\u00a0and four interceptions before being hit in the head with his own helmet.\u00a0\n",
-    "timestamp": "2020-12-29 05:27 PM",
+    "analysis": "The team will rest their haggard starting QB in the regular season finale. Mason Rudolph will get the start against Cleveland, making all Steelers receivers and running backs terribly unappealing. Cleveland's defense is one of the week's best options with Rudolph starting.\u00a0\n",
+    "timestamp": "2021-01-01 09:38 PM",
     "source": "Mary Kay Cabot on Twitter ",
     "game_day_logo": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": "DNP",
     "week06": -0.06,
     "week07": "DNP",
@@ -2946,7 +2946,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', -0.06, 'DNP', 'DNP', 0.12, 0.0, -0.4, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', -0.06, 'DNP', 'DNP', 0.12, 0.0, -0.4, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -2956,7 +2956,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', 4.4, 'DNP', 'DNP', 2.7, 5.5, 2.9, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 4.4, 'DNP', 'DNP', 2.7, 5.5, 2.9, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.2]
                     },
                     {
                         label: "68% Min",
@@ -2965,7 +2965,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', 9.8, 'DNP', 'DNP', 4.0, 0.6, 0.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 1.1]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 9.8, 'DNP', 'DNP', 4.0, 0.6, 0.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 1.1]
                     },
                     {
                         label: "68% Max",
@@ -2975,7 +2975,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'BYE', 'DNP', 15.5, 'DNP', 'DNP', 13.7, 8.6, 6.2, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 15.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 15.5, 'DNP', 'DNP', 13.7, 8.6, 6.2, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 15.5]
                     }
                     
                     ]
@@ -3016,7 +3016,7 @@ $scope.positionQB = [{
     "week04": "DNP",
     "week05": "DNP",
     "week06": 0.36,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 5.72,
     "week09": 21.42,
     "week10": 14.66,
@@ -3044,7 +3044,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.36, 'BYE', 5.72, 21.42, 14.66, 7.32, 'DNP', 16.14, 28.04, 19.7, 8.86]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.36, 'DNP', 5.72, 21.42, 14.66, 7.32, 'DNP', 16.14, 28.04, 19.7, 8.86]
                     },
                     {
                         label: "Projected",
@@ -3054,7 +3054,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.3, 'BYE', 12.6, 14.0, 11.0, 12.0, 'DNP', 8.9, 15.2, 20.6, 18.1, 7.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.3, 'DNP', 12.6, 14.0, 11.0, 12.0, 'DNP', 8.9, 15.2, 20.6, 18.1, 7.2]
                     },
                     {
                         label: "68% Min",
@@ -3063,7 +3063,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 'BYE', 6.0, 5.8, 6.8, 5.8, 'DNP', 6.3, 3.4, 4.8, 3.0, 6.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 'DNP', 6.0, 5.8, 6.8, 5.8, 'DNP', 6.3, 3.4, 4.8, 3.0, 6.5]
                     },
                     {
                         label: "68% Max",
@@ -3073,7 +3073,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.4, 'BYE', 19.7, 19.8, 20.9, 23.1, 'DNP', 19.8, 19.9, 24.9, 16.0, 15.7]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.4, 'DNP', 19.7, 19.8, 20.9, 23.1, 'DNP', 19.8, 19.9, 24.9, 16.0, 15.7]
                     }
                     
                     ]
@@ -3213,7 +3213,7 @@ $scope.positionRB = [{
     "week01": 14.6,
     "week02": 8.4,
     "week03": 26.0,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 18.8,
     "week06": 39.4,
     "week07": 14.2,
@@ -3244,7 +3244,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [14.6, 8.4, 26.0, 'BYE', 18.8, 39.4, 14.2, 17.2, 6.8, 11.4, 19.7, 37.5, 5.4, 35.2, 24.2, 9.8]
+                         data: [14.6, 8.4, 26.0, 'DNP', 18.8, 39.4, 14.2, 17.2, 6.8, 11.4, 19.7, 37.5, 5.4, 35.2, 24.2, 9.8]
                     },
                     {
                         label: "Projected",
@@ -3254,7 +3254,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.5, 22.9, 15.0, 'BYE', 16.3, 14.9, 20.2, 14.3, 15.3, 17.1, 21.1, 14.9, 17.5, 16.9, 17.9, 17.1, 23.3]
+                        data: [17.5, 22.9, 15.0, 'DNP', 16.3, 14.9, 20.2, 14.3, 15.3, 17.1, 21.1, 14.9, 17.5, 16.9, 17.9, 17.1, 23.3]
                     },
                     {
                         label: "68% Min",
@@ -3263,7 +3263,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [3.8, 3.9, 1.6, 'BYE', 5.1, 5.3, 3.8, 3.9, 8.8, 5.7, 8.6, 3.2, 6.1, 5.3, 7.9, 3.7, 10.5]
+                        data: [3.8, 3.9, 1.6, 'DNP', 5.1, 5.3, 3.8, 3.9, 8.8, 5.7, 8.6, 3.2, 6.1, 5.3, 7.9, 3.7, 10.5]
                     },
                     {
                         label: "68% Max",
@@ -3273,7 +3273,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [23.0, 24.1, 21.1, 'BYE', 21.4, 22.3, 21.7, 23.5, 25.6, 23.3, 23.6, 23.9, 25.6, 20.1, 25.0, 23.7, 29.4]
+                        data: [23.0, 24.1, 21.1, 'DNP', 21.4, 22.3, 21.7, 23.5, 25.6, 23.3, 23.6, 23.9, 25.6, 20.1, 25.0, 23.7, 29.4]
                     }
                     
                     ]
@@ -3372,104 +3372,6 @@ $scope.positionRB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [17.5, 13.5, 16.2, 14.2, 15.5, 13.9, 20.0, 17.0, 10.7, 'DNP', 'BYE', 17.7, 15.2, 18.5, 15.4, 21.7, 16.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3054850.png",
-    "name": "Alvin Kamara",
-    "depthchart": "Starter: RB-1",
-    "team": "New Orleans Saints",
-    "projected": 17.7,
-    "opponent": "Carolina Panthers",
-    "home_away": "at ",
-    "opp_rank_Neu": 16,
-    "team_rank_Neu": 7,
-    "avg_fp2": 22.42,
-    "opp_rank_allowed_fp2_Pos": 25,
-    "opp_avg_allowed_fp2": 22.73,
-    "fanduelSalary": "$9400",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#9b845c",
-    "tmColorDark": "#101820",
-    "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
-    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
-    "tmTextLite": "#9b845c",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "Alvin Kamara rushed 22\u00a0times for 155\u00a0yards and six\u00a0touchdowns in the Saints' Week 16 win over the Vikings.\n",
-    "report": "",
-    "analysis": "Congrats on winning your fantasy championship. Kamara's six-touchdown performance ties the NFL record set in 1929 and is the third-highest non-PPR finish in NFL history. It shows just how important he is to the Saints while Drew Brees declines in his age-41 season. Kamara runs behind one of the league's best offensive lines but consistently creates on his own at the second and third level. Like always, Kamara was involved as a receiver (3-17-0 on five targets), too. It's possible Kamara doesn't handle as big of a workload in Week 17 ahead of the NFL playoffs, but Kamara locked up fantasy player of the year with this legendary game on Christmas evening regardless.\n",
-    "timestamp": "2020-12-26 12:45 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 21.2,
-    "week02": 33.9,
-    "week03": 38.2,
-    "week04": 19.4,
-    "week05": 15.9,
-    "week06": "BYE",
-    "week07": 18.8,
-    "week08": 20.8,
-    "week09": 13.4,
-    "week10": 31.3,
-    "week11": 10.5,
-    "week12": 5.7,
-    "week13": 16.7,
-    "week14": 18.9,
-    "week15": 16.9,
-    "week16": 54.7,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
-                         backgroundColor:  "rgba(155, 132, 92, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [21.2, 33.9, 38.2, 19.4, 15.9, 'BYE', 18.8, 20.8, 13.4, 31.3, 10.5, 5.7, 16.7, 18.9, 16.9, 54.7]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [20.0, 19.4, 22.1, 18.6, 21.2, 'BYE', 21.9, 15.5, 19.1, 21.5, 17.6, 17.2, 17.0, 24.2, 18.3, 25.0, 17.7]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [9.1, 6.6, 6.4, 10.0, 11.4, 'BYE', 10.5, 11.2, 8.6, 9.2, 9.6, 9.7, 9.7, 8.8, 11.1, 10.1, 9.0]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(155, 132, 92, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [25.6, 24.0, 25.1, 27.6, 27.9, 'BYE', 28.5, 29.9, 24.6, 24.7, 26.4, 24.8, 25.1, 24.4, 27.5, 26.4, 27.1]
                     }
                     
                     ]
@@ -3606,7 +3508,7 @@ $scope.positionRB = [{
     "week02": 15.4,
     "week03": 5.8,
     "week04": 24.8,
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": "DNP",
     "week07": 11.0,
     "week08": 7.7,
@@ -3636,7 +3538,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [14.1, 15.4, 5.8, 24.8, 'BYE', 'DNP', 11.0, 7.7, 3.2, 4.6, 18.4, 3.1, 14.7, 10.6, 22.1, 7.9]
+                         data: [14.1, 15.4, 5.8, 24.8, 'DNP', 'DNP', 11.0, 7.7, 3.2, 4.6, 18.4, 3.1, 14.7, 10.6, 22.1, 7.9]
                     },
                     {
                         label: "Projected",
@@ -3646,7 +3548,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [14.8, 7.6, 14.7, 8.8, 'BYE', 'DNP', 15.2, 14.8, 9.7, 14.9, 7.7, 12.2, 10.1, 9.8, 10.5, 12.7, 15.5]
+                        data: [14.8, 7.6, 14.7, 8.8, 'DNP', 'DNP', 15.2, 14.8, 9.7, 14.9, 7.7, 12.2, 10.1, 9.8, 10.5, 12.7, 15.5]
                     },
                     {
                         label: "68% Min",
@@ -3655,7 +3557,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [7.3, 8.2, 7.1, 8.0, 'BYE', 'DNP', 6.9, 6.9, 5.5, 8.8, 6.2, 6.3, 7.0, 6.1, 5.2, 7.1, 8.2]
+                        data: [7.3, 8.2, 7.1, 8.0, 'DNP', 'DNP', 6.9, 6.9, 5.5, 8.8, 6.2, 6.3, 7.0, 6.1, 5.2, 7.1, 8.2]
                     },
                     {
                         label: "68% Max",
@@ -3665,7 +3567,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [23.5, 20.6, 22.8, 22.8, 'BYE', 'DNP', 21.8, 22.7, 26.0, 24.5, 19.4, 23.5, 21.4, 21.9, 21.2, 23.1, 24.2]
+                        data: [23.5, 20.6, 22.8, 22.8, 'DNP', 'DNP', 21.8, 22.7, 26.0, 24.5, 19.4, 23.5, 21.4, 21.9, 21.2, 23.1, 24.2]
                     }
                     
                     ]
@@ -3804,7 +3706,7 @@ $scope.positionRB = [{
     "week04": 7.7,
     "week05": 17.6,
     "week06": 14.6,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 11.8,
     "week09": "DNP",
     "week10": "DNP",
@@ -3832,7 +3734,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [8.6, 11.2, 12.0, 7.7, 17.6, 14.6, 'BYE', 11.8, 'DNP', 'DNP', 'DNP', 'DNP', 13.1, 'DNP', 'DNP', 31.4]
+                         data: [8.6, 11.2, 12.0, 7.7, 17.6, 14.6, 'DNP', 11.8, 'DNP', 'DNP', 'DNP', 'DNP', 13.1, 'DNP', 'DNP', 31.4]
                     },
                     {
                         label: "Projected",
@@ -3842,7 +3744,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [2.2, 12.2, 8.7, 9.2, 3.9, 14.4, 'BYE', 12.6, 'DNP', 'DNP', 'DNP', 'DNP', 15.4, 'DNP', 'DNP', 7.3, 15.1]
+                        data: [2.2, 12.2, 8.7, 9.2, 3.9, 14.4, 'DNP', 12.6, 'DNP', 'DNP', 'DNP', 'DNP', 15.4, 'DNP', 'DNP', 7.3, 15.1]
                     },
                     {
                         label: "68% Min",
@@ -3851,7 +3753,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.1, 3.2, 6.9, 4.4, 3.5, 5.3, 'BYE', 8.2, 'DNP', 'DNP', 'DNP', 'DNP', 4.0, 'DNP', 'DNP', 8.0, 13.3]
+                        data: [0.1, 3.2, 6.9, 4.4, 3.5, 5.3, 'DNP', 8.2, 'DNP', 'DNP', 'DNP', 'DNP', 4.0, 'DNP', 'DNP', 8.0, 13.3]
                     },
                     {
                         label: "68% Max",
@@ -3861,7 +3763,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [1.8, 7.6, 13.7, 13.1, 9.9, 12.4, 'BYE', 14.2, 'DNP', 'DNP', 'DNP', 'DNP', 15.7, 'DNP', 'DNP', 13.7, 20.1]
+                        data: [1.8, 7.6, 13.7, 13.1, 9.9, 12.4, 'DNP', 14.2, 'DNP', 'DNP', 'DNP', 'DNP', 15.7, 'DNP', 'DNP', 13.7, 20.1]
                     }
                     
                     ]
@@ -3988,11 +3890,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Le'Veon Bell (knee) did not practice Wednesday.\n",
+    "headlineNews": "Le'Veon Bell (knee) is questionable for Week 17 against the Chargers.\n",
     "report": "",
-    "analysis": "Clyde Edwards-Helaire (ankle) also remained out of practice. In CEH's first game out last week, Bell was actually out-touched 14-8 by Darrel Williams, suggesting the Chiefs aren't going to be committing to Bell should Edwards-Helaire need to miss playoff games. We could see a lot of Darwin Thompson this week against the Chargers with the Chiefs resting all their key starters.\n",
-    "timestamp": "2020-12-31 01:59 AM",
-    "source": null,
+    "analysis": "Bell was a limited participant at practice on Friday, at least giving him a shot to suit up for Kansas City's exhibition. Coach Andy Reid is already holding out \"key starters,\" sideling Patrick Mahomes, Tyreek Hill, and Sammy Watkins (among others), but it's truly up in the air if Bell even fits into that category given his atrocious play since joining the Chiefs. If Bell is ruled out, Darrel 'The Mentor' Williams would surge as a terrific Week 17 option opposite the Chargers' front-seven.\n",
+    "timestamp": "2021-01-01 08:08 PM",
+    "source": "Adam Teicher on Twitter",
     "game_day_logo": "",
     "week01": 5.6,
     "week02": "DNP",
@@ -4097,7 +3999,7 @@ $scope.positionRB = [{
     "week03": 25.8,
     "week04": 1.9,
     "week05": "DNP",
-    "week06": "BYE",
+    "week06": "DNP",
     "week07": "DNP",
     "week08": "DNP",
     "week09": "DNP",
@@ -4126,7 +4028,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [9.2, 16.8, 25.8, 1.9, 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 18.4, 8.8, 19.1, 9.9, 14.3]
+                         data: [9.2, 16.8, 25.8, 1.9, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 18.4, 8.8, 19.1, 9.9, 14.3]
                     },
                     {
                         label: "Projected",
@@ -4136,7 +4038,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [16.3, 7.9, 17.6, 11.1, 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 13.6, 13.4, 14.7, 17.2, 20.2, 14.5]
+                        data: [16.3, 7.9, 17.6, 11.1, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 13.6, 13.4, 14.7, 17.2, 20.2, 14.5]
                     },
                     {
                         label: "68% Min",
@@ -4145,7 +4047,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [4.8, 2.9, 2.1, 3.5, 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 4.0, 1.7, 7.2, 3.1, 3.7, 3.7]
+                        data: [4.8, 2.9, 2.1, 3.5, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 4.0, 1.7, 7.2, 3.1, 3.7, 3.7]
                     },
                     {
                         label: "68% Max",
@@ -4155,7 +4057,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [19.0, 22.0, 17.7, 22.3, 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 19.2, 19.3, 19.5, 20.6, 19.3, 18.5]
+                        data: [19.0, 22.0, 17.7, 22.3, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 19.2, 19.3, 19.5, 20.6, 19.3, 18.5]
                     }
                     
                     ]
@@ -4196,7 +4098,7 @@ $scope.positionRB = [{
     "week04": 2.2,
     "week05": 7.0,
     "week06": 3.9,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 12.6,
     "week09": 4.5,
     "week10": 1.9,
@@ -4224,7 +4126,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [14.2, 6.6, 6.4, 2.2, 7.0, 3.9, 'BYE', 12.6, 4.5, 1.9, 17.5, 'DNP', 13.1, 13.3, 14.6, 13.7]
+                         data: [14.2, 6.6, 6.4, 2.2, 7.0, 3.9, 'DNP', 12.6, 4.5, 1.9, 17.5, 'DNP', 13.1, 13.3, 14.6, 13.7]
                     },
                     {
                         label: "Projected",
@@ -4234,7 +4136,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [5.5, 11.2, 7.1, 7.9, 6.1, 2.4, 'BYE', 4.3, 7.1, 7.5, 6.5, 'DNP', 11.2, 10.4, 14.1, 11.9, 14.0]
+                        data: [5.5, 11.2, 7.1, 7.9, 6.1, 2.4, 'DNP', 4.3, 7.1, 7.5, 6.5, 'DNP', 11.2, 10.4, 14.1, 11.9, 14.0]
                     },
                     {
                         label: "68% Min",
@@ -4243,7 +4145,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [2.4, 7.2, 4.5, 0.0, 2.8, 0.0, 'BYE', 2.7, 3.5, 2.1, 10.9, 'DNP', 2.9, 2.3, 6.3, 3.0, 6.1]
+                        data: [2.4, 7.2, 4.5, 0.0, 2.8, 0.0, 'DNP', 2.7, 3.5, 2.1, 10.9, 'DNP', 2.9, 2.3, 6.3, 3.0, 6.1]
                     },
                     {
                         label: "68% Max",
@@ -4253,57 +4155,57 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [7.6, 21.7, 9.8, 15.0, 9.7, 11.1, 'BYE', 12.0, 7.4, 9.0, 14.7, 'DNP', 8.8, 10.3, 14.7, 13.6, 14.4]
+                        data: [7.6, 21.7, 9.8, 15.0, 9.7, 11.1, 'DNP', 12.0, 7.4, 9.0, 14.7, 'DNP', 8.8, 10.3, 14.7, 13.6, 14.4]
                     }
                     
                     ]
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2570986.png",
-    "name": "Malcolm Brown",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4240021.png",
+    "name": "Cam Akers",
     "depthchart": "Starter: RB-1",
     "team": "Los Angeles Rams",
-    "projected": 13.4,
+    "projected": 13.0,
     "opponent": "Arizona Cardinals",
     "home_away": "",
     "opp_rank_Neu": 23,
     "team_rank_Neu": 10,
-    "avg_fp2": 6.35,
+    "avg_fp2": 7.31,
     "opp_rank_allowed_fp2_Neu": 18,
     "opp_avg_allowed_fp2": 20.13,
-    "fanduelSalary": "$5600",
+    "fanduelSalary": "$6300",
     "hasStatus": "Status",
     "healthQue": "Questionable",
-    "injury": "Shoulder",
+    "injury": "Ankle",
     "tmColorLite": "#866D4B",
     "tmColorDark": "#002244",
     "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#866D4B",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Darrell Henderson (ankle) suffered a high ankle sprain and is unlikely to play in Week 17 against Arizona.\u00a0\n",
+    "headlineNews": "Rams head coach Sean McVay said\u00a0Cam Akers (ankle) will be a game-time decision in Week 17.\u00a0\n",
     "report": "",
-    "analysis": "After seeing 12 carries for 62 yards as the No. 1 back for LA in Week 16, Henderson injured his ankle and will probably miss Week 17's must-win showdown with the Cardinals. The team will conduct more testing on his injury Monday. Cam Akers (ankle) will likely remain out, leaving Malcolm Brown as the last guy standing in the Rams' backfield. Brown, the team's primary passing down back, could see a giant workload against Arizona. He'll be a top waiver add for leagues that play in Week 17. The Rams could also be without Jared Goff after the QB suffered a thumb injury in Week 16 against Seattle. LA's injury-decimated offense won't provide much in the way of fantasy value against Arizona.\u00a0\n",
-    "timestamp": "2020-12-28 04:58 PM",
-    "source": "Ian Rapoport on Twitter",
+    "analysis": "McVay said he expected Akers -- who missed Week 16 with the ankle injury -- to practice in a limited capacity on Friday. The Rams are heading into Sunday's must-win contest against the Cardinals without Jared Goff (thumb), Darrell Henderson (ankle), and Cooper Kupp (COVID-19). Akers could see a hefty workload if he's active. Either way, Malcolm Brown should see a spike in snaps and touches against Arizona.\u00a0\n",
+    "timestamp": "2021-01-01 08:31 PM",
+    "source": "Eric D. Williams on Twitter ",
     "game_day_logo": "",
-    "week01": 24.5,
-    "week02": 4.7,
-    "week03": 1.9,
-    "week04": 8.1,
-    "week05": 2.9,
-    "week06": 3.7,
-    "week07": 11.7,
-    "week08": 6.7,
+    "week01": 4.8,
+    "week02": 1.3,
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": 6.1,
+    "week06": 0.0,
+    "week07": 0.0,
+    "week08": 5.9,
     "week09": "BYE",
-    "week10": 18.1,
-    "week11": 3.3,
-    "week12": 0.9,
-    "week13": 3.2,
-    "week14": 0.0,
-    "week15": 1.5,
-    "week16": 4.0,
+    "week10": 3.8,
+    "week11": 8.4,
+    "week12": 14.4,
+    "week13": 15.9,
+    "week14": 20.4,
+    "week15": 6.7,
+    "week16": "DNP",
     "week17": "",
     "week18": "",
     "week19": "",
@@ -4322,7 +4224,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [24.5, 4.7, 1.9, 8.1, 2.9, 3.7, 11.7, 6.7, 'BYE', 18.1, 3.3, 0.9, 3.2, 0.0, 1.5, 4.0]
+                         data: [4.8, 1.3, 'DNP', 'DNP', 6.1, 0.0, 0.0, 5.9, 'BYE', 3.8, 8.4, 14.4, 15.9, 20.4, 6.7, 'DNP']
                     },
                     {
                         label: "Projected",
@@ -4332,7 +4234,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [6.2, 12.0, 10.4, 6.1, 12.1, 2.9, 6.0, 5.3, 'BYE', 5.2, 3.5, 4.5, 6.4, 3.1, 2.2, 6.1, 13.4]
+                        data: [4.7, 6.0, 'DNP', 'DNP', 4.2, 2.3, 3.3, 3.3, 'BYE', 2.3, 0.7, 2.4, 5.9, 12.0, 14.4, 'DNP', 13.0]
                     },
                     {
                         label: "68% Min",
@@ -4341,7 +4243,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 12.1, 15.7, 0.0, 0.0, 0.0, 0.5, 0.8, 'BYE', 0.5, 1.2, 0.0, 0.0, 1.3, 0.0, 0.3, 1.7]
+                        data: [0.0, 1.1, 'DNP', 'DNP', 0.0, 0.0, 0.0, 0.0, 'BYE', 0.1, 0.3, 0.1, 0.2, 1.6, 4.9, 'DNP', 0.9]
                     },
                     {
                         label: "68% Max",
@@ -4351,7 +4253,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [6.2, 19.5, 22.5, 9.3, 6.9, 11.5, 7.9, 7.0, 'BYE', 6.1, 8.4, 8.7, 8.8, 9.4, 6.5, 7.5, 7.6]
+                        data: [8.9, 7.5, 'DNP', 'DNP', 8.2, 10.1, 9.8, 11.3, 'BYE', 5.5, 5.2, 5.1, 10.5, 10.6, 16.4, 'DNP', 11.8]
                     }
                     
                     ]
@@ -4478,11 +4380,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Kenyan Drake rushed 18 times for 45 yards and a touchdown in the Cardinals' Week 16 loss to the 49ers, adding two catches for five yards.\u00a0\n",
+    "headlineNews": "Cardinals head coach Kliff Kingsbury said Chase\u00a0Edmonds (hip) is a game-time decision for Week 17 against the Rams.\u00a0\n",
     "report": "",
-    "analysis": "Drake was extraordinarily ineffective with Chase Edmonds out for almost the entire game. He got a handful of touches near the goal line, punching one in for the Cards' lone touchdown of the night. Drake's fantasy value has been buoyed all season by consistent goal line usage. He'll be a touchdown-dependent RB2/3 in Week 17 against the Rams.\u00a0\n",
-    "timestamp": "2020-12-27 02:48 AM",
-    "source": null,
+    "analysis": "Edmonds entered Week 16 with ankle and knee injuries and exited the game with a hip issue. Kenyan Drake would likely see a few more touches if Edmonds is sidelined against LA, making Drake a more appealing play in PPR formats.\u00a0\n",
+    "timestamp": "2021-01-01 07:35 PM",
+    "source": "Darren Urban on Twitter ",
     "game_day_logo": "",
     "week01": 13.5,
     "week02": 10.5,
@@ -4772,11 +4674,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Washington head coach Ron Rivera said Antonio Gibson (toe) was \"fine\" despite missing Thursday's practice.\u00a0\n",
+    "headlineNews": "Antonio Gibson (toe) is questionable for Week 17 against the Eagles.\n",
     "report": "",
-    "analysis": "Rivera said the team wanted to give the rookie another day of rest. He handled 13 touches in Week 16, returning to the lineup after an extended absence. J.D. McKissic would be a PPR RB1 if for some reason Gibson can't practice Friday and misses the season finale.\u00a0\n",
-    "timestamp": "2020-12-31 07:11 PM",
-    "source": "Nicki Jhabvala on Twitter",
+    "analysis": "Washington head coach Ron Rivera seems optimistic that Gibson can suit up this week against Philadelphia in a must-win game for the Football Team. If he's active, Gibson should see something close to a starter's workload, while J.D. McKissic continues to vacuum up targets out of the backfield. Gibson would be a RB2 if he's able to play.\u00a0\n",
+    "timestamp": "2021-01-01 06:59 PM",
+    "source": "Sam Fortier on Twitter",
     "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
     "week01": 5.4,
     "week02": 11.7,
@@ -4879,7 +4781,7 @@ $scope.positionRB = [{
     "week01": 2.7,
     "week02": 19.1,
     "week03": 22.9,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 13.8,
     "week06": 16.7,
     "week07": 12.6,
@@ -4910,7 +4812,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [2.7, 19.1, 22.9, 'BYE', 13.8, 16.7, 12.6, 13.5, 3.0, 5.8, 11.4, 'DNP', 'DNP', 1.8, 'DNP', 15.0]
+                         data: [2.7, 19.1, 22.9, 'DNP', 13.8, 16.7, 12.6, 13.5, 3.0, 5.8, 11.4, 'DNP', 'DNP', 1.8, 'DNP', 15.0]
                     },
                     {
                         label: "Projected",
@@ -4920,7 +4822,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [15.0, 10.1, 17.3, 'BYE', 17.7, 13.3, 13.9, 12.0, 15.0, 15.8, 10.1, 'DNP', 'DNP', 11.5, 'DNP', 10.6, 11.5]
+                        data: [15.0, 10.1, 17.3, 'DNP', 17.7, 13.3, 13.9, 12.0, 15.0, 15.8, 10.1, 'DNP', 'DNP', 11.5, 'DNP', 10.6, 11.5]
                     },
                     {
                         label: "68% Min",
@@ -4929,7 +4831,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.2, 0.1, 6.5, 'BYE', 0.0, 5.4, 4.5, 1.5, 7.3, 4.1, 2.6, 'DNP', 'DNP', 1.3, 'DNP', 6.1, 2.7]
+                        data: [1.2, 0.1, 6.5, 'DNP', 0.0, 5.4, 4.5, 1.5, 7.3, 4.1, 2.6, 'DNP', 'DNP', 1.3, 'DNP', 6.1, 2.7]
                     },
                     {
                         label: "68% Max",
@@ -4939,7 +4841,105 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [19.1, 17.2, 24.3, 'BYE', 23.4, 24.6, 26.5, 22.2, 23.3, 22.3, 17.9, 'DNP', 'DNP', 17.0, 'DNP', 19.3, 19.3]
+                        data: [19.1, 17.2, 24.3, 'DNP', 23.4, 24.6, 26.5, 22.2, 23.3, 22.3, 17.9, 'DNP', 'DNP', 17.0, 'DNP', 19.3, 19.3]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15920.png",
+    "name": "Latavius Murray",
+    "depthchart": "Starter: RB-1",
+    "team": "New Orleans Saints",
+    "projected": 11.4,
+    "opponent": "Carolina Panthers",
+    "home_away": "at ",
+    "opp_rank_Neu": 16,
+    "team_rank_Neu": 7,
+    "avg_fp2": 8.31,
+    "opp_rank_allowed_fp2_Pos": 25,
+    "opp_avg_allowed_fp2": 22.73,
+    "fanduelSalary": "$5500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#9b845c",
+    "tmColorDark": "#101820",
+    "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
+    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
+    "tmTextLite": "#9b845c",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+    "headlineNews": "Saints placed Alvin Kamara on the reserve/COVID-19 list.\u00a0\n",
+    "report": "",
+    "analysis": "With that, Kamara probably won't play in the Saints' first round playoff game. He certainly won't suit up Sunday against the Panthers. Latavius Murray will operate as the Saints' top running back in Week 17 and in the team's opening playoff game, if Kamara in fact misses the contest. Carolina has surrendered the ninth most rushing yardage and the second most running backs receptions this year. Murray will be a popular DFS option, to say the least.\u00a0\n",
+    "timestamp": "2021-01-01 11:03 PM",
+    "source": "Nick Underhill on Twitter ",
+    "game_day_logo": "",
+    "week01": 4.8,
+    "week02": 4.3,
+    "week03": 7.0,
+    "week04": 20.8,
+    "week05": 6.7,
+    "week06": "BYE",
+    "week07": 6.1,
+    "week08": 4.6,
+    "week09": 5.2,
+    "week10": 5.7,
+    "week11": 9.5,
+    "week12": 25.1,
+    "week13": 2.7,
+    "week14": 1.2,
+    "week15": 9.9,
+    "week16": 11.1,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
+                         backgroundColor:  "rgba(155, 132, 92, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [4.8, 4.3, 7.0, 20.8, 6.7, 'BYE', 6.1, 4.6, 5.2, 5.7, 9.5, 25.1, 2.7, 1.2, 9.9, 11.1]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [7.1, 5.2, 5.4, 4.2, 7.7, 'BYE', 7.4, 6.5, 6.0, 8.1, 4.6, 7.3, 5.6, 8.3, 7.2, 8.9, 11.4]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [1.7, 1.4, 1.8, 1.7, 1.8, 'BYE', 1.0, 0.0, 1.8, 0.5, 8.2, 1.5, 8.4, 1.6, 1.4, 0.5, 3.4]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(155, 132, 92, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [17.1, 16.6, 16.9, 16.0, 16.3, 'BYE', 13.5, 17.3, 16.0, 13.0, 19.0, 15.1, 21.2, 16.9, 16.2, 14.0, 15.7]
                     }
                     
                     ]
@@ -5058,8 +5058,8 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 28.84,
     "fanduelSalary": "$5000",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Concussion",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#e0aa19",
     "tmColorDark": "#300e5a",
     "tmColorLite_rgba": "rgba(224, 170, 25, 0.2)",
@@ -5254,19 +5254,19 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 16.98,
     "fanduelSalary": "$7000",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Foot",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#69BE28",
     "tmColorDark": "#002244",
     "tmColorLite_rgba": "rgba(105, 190, 40, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Chris Carson rushed 16 times for 69 yards in the Seahawks' Week 16 win over the Rams.\n",
+    "headlineNews": "Carlos Hyde (illness) is questionable for Week 17 against the 49ers.\u00a0\n",
     "report": "",
-    "analysis": "He added three catches for 10 yards on three targets in the passing game and out-touched Carlos Hyde 19-3. Russell Wilson, however, accounted for both touchdowns, running one in from four yards out and throwing Seattle's other. Carson has yet to register a 100-yard rushing game this season but will be a rock-solid RB2 for Week 17 against San Francisco.\n",
-    "timestamp": "2020-12-28 12:47 AM",
-    "source": null,
+    "analysis": "Hyde didn't practice this week with a non-COVID illness. He's no longer a fantasy relevant player with Chris Carson leading the Seahawks' backfield and Rashaad Penny getting involved in the team's offense. Hyde has seen seven touches over the past two weeks.\u00a0\n",
+    "timestamp": "2021-01-01 09:22 PM",
+    "source": "Michael-Shawn Duggar on Twitter ",
     "game_day_logo": "",
     "week01": 21.6,
     "week02": 18.3,
@@ -5360,11 +5360,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "tmTextLite": "#d7a017",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Aaron Jones rushed 10 times for 94 yards and caught 2-of-3 targets for 14 yards in the Packers' Week 16 win over the Titans.\n",
+    "headlineNews": "Jamaal Williams (quad) practiced fully Friday and will play in Week 17 against the Bears.\u00a0\n",
     "report": "",
-    "analysis": "Jones spent most of the first half on the sideline with a hip injury. He took over as the featured back at halftime,\u00a0with most of his production coming on a 59-yard run that set up a Davante Adams touchdown. The 94 yards put\u00a0Jones over 1,000 yards rushing for the second straight season. Jones could miss some practice time this week with his hip issue, but that shouldn't keep him out of a Week 17 matchup with Chicago.\n",
-    "timestamp": "2020-12-28 05:43 AM",
-    "source": null,
+    "analysis": "Williams' return will probably throw some cold water on the AJ Dillon breakout. Dillon led the team in snaps and carries last week against the Titans as Aaron Jones struggled through a hip issue. Williams had seen decent run behind Jones before his quad injury kept him sidelined in Week 16. Jones remains the lead back, with Dillon and Williams probably splitting touches.\u00a0\n",
+    "timestamp": "2021-01-01 09:03 PM",
+    "source": "Rob Demovsky on Twitter ",
     "game_day_logo": "",
     "week01": 15.6,
     "week02": 43.6,
@@ -5450,18 +5450,18 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 17.93,
     "fanduelSalary": "$6600",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Finger",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#D50A0A",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Ronald Jones (finger) practiced on a limited basis on Wednesday.\n",
+    "headlineNews": "Ronald Jones (finger) was upgraded to \"full\" for Thursday's practice.\u00a0\n",
     "report": "",
-    "analysis": "The is the first official designation we have for Jones after being activated from the COVID-19 list. He seems on track to play in Week 17 as the entire team seems to be hitting its stride just in time for the playoffs. Leonard Fournette did nothing in Jones' absence to cut into the second-year back's workload.\n",
-    "timestamp": "2020-12-31 12:19 AM",
+    "analysis": "Leonard Fournette (abdomen) remained \"limited.\" Jones' wind will be a question mark after his bout with COVID-19, but he should immediately slide back in as the Bucs' lead back as they jockey for playoff positioning against the Falcons. He will be a low-end RB2 vs. a quietly solid run defense.\u00a0\n",
+    "timestamp": "2020-12-31 09:31 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 9.2,
@@ -5632,104 +5632,6 @@ $scope.positionRB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4045163.png",
-    "name": "Miles Sanders",
-    "depthchart": "Starter: RB-1",
-    "team": "Philadelphia Eagles",
-    "projected": 10.2,
-    "opponent": "Washington Football Team",
-    "home_away": "",
-    "opp_rank_Neu": 13,
-    "team_rank_Neu": 9,
-    "avg_fp2": 13.03,
-    "opp_rank_allowed_fp2_Neg": 3,
-    "opp_avg_allowed_fp2": 16.32,
-    "fanduelSalary": "$7000",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#386168",
-    "tmColorDark": "#004C54",
-    "tmColorLite_rgba": "rgba(56, 97, 104, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Miles Sanders rushed 15 times for 57 yards and a touchdown in the Eagles' Week 16 loss to the Cowboys, adding four receptions for 27 additional yards.\u00a0\n",
-    "report": "",
-    "analysis": "Sanders got the scoring started with a four-yard touchdown in the first quarter after replay called back a three-yard Jalen Hurts score. He then proceeded to watch Hurts out-rush him 69-57 while bleeding five carries to Jordan Howard and Boston Scott. It was a disappointing day, but Sanders' 19 touches were actually his most in five weeks. Sanders has a tough Week 17 matchup in the Football Team's fearsome front, though Hurts creates running lanes regardless of the opponent.\u00a0\n",
-    "timestamp": "2020-12-28 01:32 AM",
-    "source": null,
-    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
-    "week01": "DNP",
-    "week02": 18.6,
-    "week03": 12.7,
-    "week04": 8.6,
-    "week05": 22.9,
-    "week06": 11.7,
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": "BYE",
-    "week10": 12.5,
-    "week11": 7.6,
-    "week12": 5.2,
-    "week13": 3.1,
-    "week14": 27.6,
-    "week15": 9.5,
-    "week16": 16.4,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1
-                         backgroundColor:  "rgba(56, 97, 104, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 18.6, 12.7, 8.6, 22.9, 11.7, 'DNP', 'DNP', 'BYE', 12.5, 7.6, 5.2, 3.1, 27.6, 9.5, 16.4]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 22.6, 22.9, 15.7, 13.1, 9.2, 'DNP', 'DNP', 'BYE', 15.0, 14.1, 14.2, 15.9, 9.0, 13.3, 13.9, 10.2]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 3.8, 4.6, 6.6, 4.8, 8.3, 'DNP', 'DNP', 'BYE', 6.4, 5.7, 6.4, 6.4, 5.8, 4.7, 2.7, 5.4]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(56, 97, 104, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 14.3, 21.4, 21.7, 19.6, 20.5, 'DNP', 'DNP', 'BYE', 22.3, 20.1, 18.7, 18.5, 20.5, 16.3, 11.0, 19.3]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2969962.png",
     "name": "Duke Johnson",
     "depthchart": "Backup: RB-2",
@@ -5752,11 +5654,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Duke Johnson (neck) is out for Week 16 against the Bengals.\n",
+    "headlineNews": "Duke Johnson (neck) was \"limited\" for Wednesday and Thursday's practices.\u00a0\n",
     "report": "",
-    "analysis": "With Duke Johnson out last week, David Johnson caught 10 passes for 106 yards as a near every-down player. That will be the case once again, vaulting the veteran into the upside RB2 mix. It's possible that Duke Johnson's season is over with only two games remaining. C.J. Prosise will be the No. 2 back.\n",
-    "timestamp": "2020-12-26 10:06 PM",
-    "source": "Texans PR on Twitter",
+    "analysis": "Johnson seems 50-50 to return. Even if he suits up for the finale against the Titans, Johnson was playing poorly before going down, while David Johnson has finally come on in Duke's absence the past two weeks. Duke will have zero DFS appeal for Week 17 if he plays. Due $4.65 million next season, Duke is a guaranteed cut with a contract that leaves behind no dead money and clears $5.15 million in space.\u00a0\n",
+    "timestamp": "2020-12-31 10:04 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": 1.4,
     "week02": "DNP",
@@ -5822,104 +5724,6 @@ $scope.positionRB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [14.0, 'DNP', 'DNP', 15.9, 12.5, 14.2, 15.4, 'BYE', 12.6, 12.9, 12.0, 14.1, 13.7, 13.0, 'DNP', 'DNP', 13.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15826.png",
-    "name": "Giovani Bernard",
-    "depthchart": "Starter: RB-1",
-    "team": "Cincinnati Bengals",
-    "projected": 9.1,
-    "opponent": "Baltimore Ravens",
-    "home_away": "",
-    "opp_rank_Neu": 9,
-    "team_rank_Neg": 25,
-    "avg_fp2": 8.93,
-    "opp_rank_allowed_fp2_Neu": 13,
-    "opp_avg_allowed_fp2": 19.37,
-    "fanduelSalary": "$6200",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#ea7330",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(234, 115, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#ea7330",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-    "headlineNews": "Giovani Bernard rushed 16 times for 65 yards and caught 7-of-8 targets for 66 yards in Week 16 against the Texans.\n",
-    "report": "",
-    "analysis": "This was another high-volume game for Bernard, but he was outshined by Samaje Perine (146 total yards, 2 TDs).\u00a0Bernard's snaps were scaled back in the second half with\u00a0Perine running hot. The Texans defense is among the worst in the league, but\u00a0Bernard's role is secure as one of the featured players in an offense that's missing Joe Mixon and Tyler Boyd.\u00a0Bernard is a low-end\u00a0RB2 for Week 16 against the Ravens.\n",
-    "timestamp": "2020-12-27 09:43 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 4.8,
-    "week02": 5.0,
-    "week03": 7.0,
-    "week04": 1.9,
-    "week05": 0.9,
-    "week06": 10.3,
-    "week07": 18.1,
-    "week08": 21.3,
-    "week09": "BYE",
-    "week10": 6.7,
-    "week11": 7.5,
-    "week12": 5.9,
-    "week13": 3.9,
-    "week14": 1.8,
-    "week15": 22.2,
-    "week16": 16.6,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(234, 115, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [4.8, 5.0, 7.0, 1.9, 0.9, 10.3, 18.1, 21.3, 'BYE', 6.7, 7.5, 5.9, 3.9, 1.8, 22.2, 16.6]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [7.2, 10.0, 4.7, 6.3, 5.5, 5.2, 14.0, 10.4, 'BYE', 9.9, 9.3, 12.1, 10.5, 15.4, 9.2, 9.3, 9.1]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [1.6, 8.2, 1.0, 0.9, 0.6, 0.0, 7.5, 2.6, 'BYE', 1.8, 3.2, 4.2, 0.7, 4.2, 2.2, 3.4, 2.9]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(234, 115, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [13.5, 17.8, 14.0, 11.3, 16.7, 12.1, 18.9, 15.3, 'BYE', 12.6, 14.6, 15.4, 11.1, 13.5, 14.6, 16.4, 14.4]
                     }
                     
                     ]
@@ -6024,6 +5828,202 @@ $scope.positionRB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15826.png",
+    "name": "Giovani Bernard",
+    "depthchart": "Starter: RB-1",
+    "team": "Cincinnati Bengals",
+    "projected": 9.1,
+    "opponent": "Baltimore Ravens",
+    "home_away": "",
+    "opp_rank_Neu": 9,
+    "team_rank_Neg": 25,
+    "avg_fp2": 8.93,
+    "opp_rank_allowed_fp2_Neu": 13,
+    "opp_avg_allowed_fp2": 19.37,
+    "fanduelSalary": "$6200",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#ea7330",
+    "tmColorDark": "#000000",
+    "tmColorLite_rgba": "rgba(234, 115, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
+    "tmTextLite": "#ea7330",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+    "headlineNews": "Giovani Bernard rushed 16 times for 65 yards and caught 7-of-8 targets for 66 yards in Week 16 against the Texans.\n",
+    "report": "",
+    "analysis": "This was another high-volume game for Bernard, but he was outshined by Samaje Perine (146 total yards, 2 TDs).\u00a0Bernard's snaps were scaled back in the second half with\u00a0Perine running hot. The Texans defense is among the worst in the league, but\u00a0Bernard's role is secure as one of the featured players in an offense that's missing Joe Mixon and Tyler Boyd.\u00a0Bernard is a low-end\u00a0RB2 for Week 16 against the Ravens.\n",
+    "timestamp": "2020-12-27 09:43 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 4.8,
+    "week02": 5.0,
+    "week03": 7.0,
+    "week04": 1.9,
+    "week05": 0.9,
+    "week06": 10.3,
+    "week07": 18.1,
+    "week08": 21.3,
+    "week09": "BYE",
+    "week10": 6.7,
+    "week11": 7.5,
+    "week12": 5.9,
+    "week13": 3.9,
+    "week14": 1.8,
+    "week15": 22.2,
+    "week16": 16.6,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(234, 115, 48, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [4.8, 5.0, 7.0, 1.9, 0.9, 10.3, 18.1, 21.3, 'BYE', 6.7, 7.5, 5.9, 3.9, 1.8, 22.2, 16.6]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [7.2, 10.0, 4.7, 6.3, 5.5, 5.2, 14.0, 10.4, 'BYE', 9.9, 9.3, 12.1, 10.5, 15.4, 9.2, 9.3, 9.1]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [1.6, 8.2, 1.0, 0.9, 0.6, 0.0, 7.5, 2.6, 'BYE', 1.8, 3.2, 4.2, 0.7, 4.2, 2.2, 3.4, 2.9]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(234, 115, 48, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [13.5, 17.8, 14.0, 11.3, 16.7, 12.1, 18.9, 15.3, 'BYE', 12.6, 14.6, 15.4, 11.1, 13.5, 14.6, 16.4, 14.4]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2570986.png",
+    "name": "Malcolm Brown",
+    "depthchart": "Backup: RB-2",
+    "team": "Los Angeles Rams",
+    "projected": 8.6,
+    "opponent": "Arizona Cardinals",
+    "home_away": "",
+    "opp_rank_Neu": 23,
+    "team_rank_Neu": 10,
+    "avg_fp2": 6.35,
+    "opp_rank_allowed_fp2_Neu": 18,
+    "opp_avg_allowed_fp2": 20.13,
+    "fanduelSalary": "$5600",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#866D4B",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#866D4B",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+    "headlineNews": "Rams head coach Sean McVay said\u00a0Cam Akers (ankle) will be a game-time decision in Week 17.\u00a0\n",
+    "report": "",
+    "analysis": "McVay said he expected Akers -- who missed Week 16 with the ankle injury -- to practice in a limited capacity on Friday. The Rams are heading into Sunday's must-win contest against the Cardinals without Jared Goff (thumb), Darrell Henderson (ankle), and Cooper Kupp (COVID-19). Akers could see a hefty workload if he's active. Either way, Malcolm Brown should see a spike in snaps and touches against Arizona.\u00a0\n",
+    "timestamp": "2021-01-01 08:31 PM",
+    "source": "Eric D. Williams on Twitter ",
+    "game_day_logo": "",
+    "week01": 24.5,
+    "week02": 4.7,
+    "week03": 1.9,
+    "week04": 8.1,
+    "week05": 2.9,
+    "week06": 3.7,
+    "week07": 11.7,
+    "week08": 6.7,
+    "week09": "BYE",
+    "week10": 18.1,
+    "week11": 3.3,
+    "week12": 0.9,
+    "week13": 3.2,
+    "week14": 0.0,
+    "week15": 1.5,
+    "week16": 4.0,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(134, 109, 75, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [24.5, 4.7, 1.9, 8.1, 2.9, 3.7, 11.7, 6.7, 'BYE', 18.1, 3.3, 0.9, 3.2, 0.0, 1.5, 4.0]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [6.2, 12.0, 10.4, 6.1, 12.1, 2.9, 6.0, 5.3, 'BYE', 5.2, 3.5, 4.5, 6.4, 3.1, 2.2, 6.1, 8.6]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.0, 12.1, 15.7, 0.0, 0.0, 0.0, 0.5, 0.8, 'BYE', 0.5, 1.2, 0.0, 0.0, 1.3, 0.0, 0.3, 0.0]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(134, 109, 75, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [6.2, 19.5, 22.5, 9.3, 6.9, 11.5, 7.9, 7.0, 'BYE', 6.1, 8.4, 8.7, 8.8, 9.4, 6.5, 7.5, 10.0]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115364.png",
     "name": "Leonard Fournette",
     "depthchart": "Backup: RB-2",
@@ -6038,18 +6038,18 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 17.93,
     "fanduelSalary": "$6600",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Abdomen",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#D50A0A",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Leonard Fournette (abdomen) was limited in Wednesday's practice.\n",
+    "headlineNews": "Ronald Jones (finger) was upgraded to \"full\" for Thursday's practice.\u00a0\n",
     "report": "",
-    "analysis": "With Ronald Jones expected back this week following a two-week absence, Fournette is expected to go back to 1B duties behind Jones against the Falcons. Fournette won't be fantasy-viable in that role.\n",
-    "timestamp": "2020-12-30 10:02 PM",
+    "analysis": "Leonard Fournette (abdomen) remained \"limited.\" Jones' wind will be a question mark after his bout with COVID-19, but he should immediately slide back in as the Bucs' lead back as they jockey for playoff positioning against the Falcons. He will be a low-end RB2 vs. a quietly solid run defense.\u00a0\n",
+    "timestamp": "2020-12-31 09:31 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 2.4,
@@ -6144,11 +6144,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Washington head coach Ron Rivera said Antonio Gibson (toe) was \"fine\" despite missing Thursday's practice.\u00a0\n",
+    "headlineNews": "Antonio Gibson (toe) is questionable for Week 17 against the Eagles.\n",
     "report": "",
-    "analysis": "Rivera said the team wanted to give the rookie another day of rest. He handled 13 touches in Week 16, returning to the lineup after an extended absence. J.D. McKissic would be a PPR RB1 if for some reason Gibson can't practice Friday and misses the season finale.\u00a0\n",
-    "timestamp": "2020-12-31 07:11 PM",
-    "source": "Nicki Jhabvala on Twitter",
+    "analysis": "Washington head coach Ron Rivera seems optimistic that Gibson can suit up this week against Philadelphia in a must-win game for the Football Team. If he's active, Gibson should see something close to a starter's workload, while J.D. McKissic continues to vacuum up targets out of the backfield. Gibson would be a RB2 if he's able to play.\u00a0\n",
+    "timestamp": "2021-01-01 06:59 PM",
+    "source": "Sam Fortier on Twitter",
     "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
     "week01": 0.4,
     "week02": 5.3,
@@ -6251,7 +6251,7 @@ $scope.positionRB = [{
     "week01": "DNP",
     "week02": 0.7,
     "week03": 1.0,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 3.6,
     "week06": 7.2,
     "week07": 0.2,
@@ -6282,7 +6282,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 0.7, 1.0, 'BYE', 3.6, 7.2, 0.2, 4.9, 1.0, 3.9, 0.7, 2.0, 9.2, 1.4, 1.0, 1.1]
+                         data: ['DNP', 0.7, 1.0, 'DNP', 3.6, 7.2, 0.2, 4.9, 1.0, 3.9, 0.7, 2.0, 9.2, 1.4, 1.0, 1.1]
                     },
                     {
                         label: "Projected",
@@ -6292,7 +6292,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 7.3, 2.5, 'BYE', 1.2, 2.3, 3.5, 1.0, 3.0, 5.4, 5.5, 2.7, 2.4, 2.9, 1.8, 0.8, 8.1]
+                        data: ['DNP', 7.3, 2.5, 'DNP', 1.2, 2.3, 3.5, 1.0, 3.0, 5.4, 5.5, 2.7, 2.4, 2.9, 1.8, 0.8, 8.1]
                     },
                     {
                         label: "68% Min",
@@ -6301,7 +6301,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 0.0, 0.0, 'BYE', 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 1.8, 0.6, 0.0, 1.1, 0.0]
+                        data: ['DNP', 0.0, 0.0, 'DNP', 0.0, 0.0, 0.0, 0.0, 0.1, 0.0, 0.0, 0.0, 1.8, 0.6, 0.0, 1.1, 0.0]
                     },
                     {
                         label: "68% Max",
@@ -6311,7 +6311,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 8.5, 9.0, 'BYE', 8.7, 4.1, 6.6, 5.6, 2.6, 3.3, 2.2, 4.3, 4.6, 6.9, 3.6, 5.1, 4.4]
+                        data: ['DNP', 8.5, 9.0, 'DNP', 8.7, 4.1, 6.6, 5.6, 2.6, 3.3, 2.2, 4.3, 4.6, 6.9, 3.6, 5.1, 4.4]
                     }
                     
                     ]
@@ -6430,8 +6430,8 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 15.93,
     "fanduelSalary": "$5200",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ribs",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#A71930",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
@@ -6528,19 +6528,19 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 21.27,
     "fanduelSalary": "$6100",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Back",
     "tmColorLite": "#9E7C0C",
     "tmColorDark": "#241773",
     "tmColorLite_rgba": "rgba(158, 124, 12, 0.2)",
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Mark Ingram (illness) did not practice Thursday.\u00a0\n",
+    "headlineNews": "Gus Edwards (back) is questionable for Week 17 against the Bengals.\n",
     "report": "",
-    "analysis": "Ingram, a healthy scratch over the past two weeks, isn't likely to play this week against the Bengals barring a practice injury for Gus Edwards or J.K. Dobbins. Ingram should've been dropped in all fantasy leagues a month ago.\u00a0\n",
-    "timestamp": "2020-12-31 07:01 PM",
-    "source": "Jamison Hensley on Twitter ",
+    "analysis": "Edwards was presumably injured in practice Friday since he wasn't listed on the injury report until that point. He's officially questionable for Sunday's must-win game, perhaps cementing J.K. Dobbins into an every-down\u00a0role for the first time all year. Note that Mark Ingram is also questionable for Sunday.\n",
+    "timestamp": "2021-01-01 09:11 PM",
+    "source": "Jonas Shaffer on Twitter",
     "game_day_logo": "",
     "week01": 1.7,
     "week02": 7.3,
@@ -6548,7 +6548,7 @@ $scope.positionRB = [{
     "week04": 3.8,
     "week05": 2.5,
     "week06": 8.6,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 14.7,
     "week09": 8.4,
     "week10": 7.8,
@@ -6576,7 +6576,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [1.7, 7.3, 3.9, 3.8, 2.5, 8.6, 'BYE', 14.7, 8.4, 7.8, 0.6, 7.0, 10.1, 17.8, 8.8, 13.2]
+                         data: [1.7, 7.3, 3.9, 3.8, 2.5, 8.6, 'DNP', 14.7, 8.4, 7.8, 0.6, 7.0, 10.1, 17.8, 8.8, 13.2]
                     },
                     {
                         label: "Projected",
@@ -6586,7 +6586,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [4.3, 1.4, 5.8, 4.0, 5.0, 2.9, 'BYE', 7.3, 4.3, 4.7, 5.5, 6.8, 3.6, 4.0, 7.8, 5.7, 7.4]
+                        data: [4.3, 1.4, 5.8, 4.0, 5.0, 2.9, 'DNP', 7.3, 4.3, 4.7, 5.5, 6.8, 3.6, 4.0, 7.8, 5.7, 7.4]
                     },
                     {
                         label: "68% Min",
@@ -6595,7 +6595,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.8, 7.2, 2.5, 2.1, 0.8, 4.3, 'BYE', 5.9, 2.5, 1.9, 2.7, 1.7, 2.0, 1.8, 1.8, 1.3, 2.3]
+                        data: [0.8, 7.2, 2.5, 2.1, 0.8, 4.3, 'DNP', 5.9, 2.5, 1.9, 2.7, 1.7, 2.0, 1.8, 1.8, 1.3, 2.3]
                     },
                     {
                         label: "68% Max",
@@ -6605,7 +6605,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [9.7, 15.3, 8.5, 11.5, 12.4, 11.0, 'BYE', 12.1, 11.3, 10.9, 11.3, 9.9, 12.0, 9.7, 10.8, 10.7, 11.8]
+                        data: [9.7, 15.3, 8.5, 11.5, 12.4, 11.0, 'DNP', 12.1, 11.3, 10.9, 11.3, 9.9, 12.0, 9.7, 10.8, 10.7, 11.8]
                     }
                     
                     ]
@@ -6647,7 +6647,7 @@ $scope.positionRB = [{
     "week05": "DNP",
     "week06": "DNP",
     "week07": 0.0,
-    "week08": "BYE",
+    "week08": "DNP",
     "week09": 0.0,
     "week10": 1.0,
     "week11": 0.0,
@@ -6674,7 +6674,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 'BYE', 0.0, 1.0, 0.0, 'DNP', 'DNP', 1.7, 3.0, 9.3]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 'DNP', 0.0, 1.0, 0.0, 'DNP', 'DNP', 1.7, 3.0, 9.3]
                     },
                     {
                         label: "Projected",
@@ -6684,7 +6684,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.0, 'BYE', 2.3, 0.8, 4.6, 'DNP', 'DNP', 2.6, 3.6, 3.4, 7.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.0, 'DNP', 2.3, 0.8, 4.6, 'DNP', 'DNP', 2.6, 3.6, 3.4, 7.2]
                     },
                     {
                         label: "68% Min",
@@ -6693,7 +6693,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.1, 'BYE', 1.0, 0.0, 0.0, 'DNP', 'DNP', 0.2, 0.2, 0.7, 0.4]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.1, 'DNP', 1.0, 0.0, 0.0, 'DNP', 'DNP', 0.2, 0.2, 0.7, 0.4]
                     },
                     {
                         label: "68% Max",
@@ -6703,7 +6703,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.4, 'BYE', 6.5, 5.0, 5.3, 'DNP', 'DNP', 6.0, 5.4, 4.7, 3.6]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.4, 'DNP', 6.5, 5.0, 5.3, 'DNP', 'DNP', 6.0, 5.4, 4.7, 3.6]
                     }
                     
                     ]
@@ -6808,104 +6808,6 @@ $scope.positionRB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/15920.png",
-    "name": "Latavius Murray",
-    "depthchart": "Backup: RB-2",
-    "team": "New Orleans Saints",
-    "projected": 7.1,
-    "opponent": "Carolina Panthers",
-    "home_away": "at ",
-    "opp_rank_Neu": 16,
-    "team_rank_Neu": 7,
-    "avg_fp2": 8.31,
-    "opp_rank_allowed_fp2_Pos": 25,
-    "opp_avg_allowed_fp2": 22.73,
-    "fanduelSalary": "$5500",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Quadriceps",
-    "tmColorLite": "#9b845c",
-    "tmColorDark": "#101820",
-    "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
-    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
-    "tmTextLite": "#9b845c",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "Latavius Murray rushed 12 times for 72 yards in the Saints' Week 16 win over the Vikings.\n",
-    "report": "",
-    "analysis": "The revenge tasted\u00a0sweet for Murray, who also added 24 yards on three receptions against his old team. Murray mixed in throughout the game but missed out on his few touchdown opportunities. Meanwhile, Alvin Kamara rushed for six touchdowns, the most since 1929. Murray could see a few more carries than normal in Week 17 ahead of the NFL playoffs, but it's unknown how much that game will matter to New Orleans and how coach Sean Payton will handle it. Murray has been a\u00a0RB3/4\u00a0in normal circumstances.\n",
-    "timestamp": "2020-12-26 01:08 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 4.8,
-    "week02": 4.3,
-    "week03": 7.0,
-    "week04": 20.8,
-    "week05": 6.7,
-    "week06": "BYE",
-    "week07": 6.1,
-    "week08": 4.6,
-    "week09": 5.2,
-    "week10": 5.7,
-    "week11": 9.5,
-    "week12": 25.1,
-    "week13": 2.7,
-    "week14": 1.2,
-    "week15": 9.9,
-    "week16": 11.1,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
-                         backgroundColor:  "rgba(155, 132, 92, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [4.8, 4.3, 7.0, 20.8, 6.7, 'BYE', 6.1, 4.6, 5.2, 5.7, 9.5, 25.1, 2.7, 1.2, 9.9, 11.1]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [7.1, 5.2, 5.4, 4.2, 7.7, 'BYE', 7.4, 6.5, 6.0, 8.1, 4.6, 7.3, 5.6, 8.3, 7.2, 8.9, 7.1]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [1.7, 1.4, 1.8, 1.7, 1.8, 'BYE', 1.0, 0.0, 1.8, 0.5, 8.2, 1.5, 8.4, 1.6, 1.4, 0.5, 2.3]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(155, 132, 92, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [17.1, 16.6, 16.9, 16.0, 16.3, 'BYE', 13.5, 17.3, 16.0, 13.0, 19.0, 15.1, 21.2, 16.9, 16.2, 14.0, 16.1]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036431.png",
     "name": "Darrynton Evans",
     "depthchart": "Reserve: RB-3",
@@ -6937,7 +6839,7 @@ $scope.positionRB = [{
     "week01": "DNP",
     "week02": "DNP",
     "week03": 0.9,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 1.2,
     "week06": "DNP",
     "week07": "DNP",
@@ -6968,7 +6870,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 0.9, 'BYE', 1.2, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 12.7, 0.3]
+                         data: ['DNP', 'DNP', 0.9, 'DNP', 1.2, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 12.7, 0.3]
                     },
                     {
                         label: "Projected",
@@ -6978,7 +6880,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 3.3, 'BYE', 4.3, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.2, 5.9, 6.9]
+                        data: ['DNP', 'DNP', 3.3, 'DNP', 4.3, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.2, 5.9, 6.9]
                     },
                     {
                         label: "68% Min",
@@ -6987,7 +6889,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 0.1, 'BYE', 0.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 0.5]
+                        data: ['DNP', 'DNP', 0.1, 'DNP', 0.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 0.5]
                     },
                     {
                         label: "68% Max",
@@ -6997,7 +6899,105 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 6.1, 'BYE', 9.6, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.1, 14.1, 5.7]
+                        data: ['DNP', 'DNP', 6.1, 'DNP', 9.6, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.1, 14.1, 5.7]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128721.png",
+    "name": "Sony Michel",
+    "depthchart": "Starter: RB-1",
+    "team": "New England Patriots",
+    "projected": 6.8,
+    "opponent": "New York Jets",
+    "home_away": "",
+    "opp_rank_Neu": 10,
+    "team_rank_Pos": 5,
+    "avg_fp2": 6.34,
+    "opp_rank_allowed_fp2_Neu": 15,
+    "opp_avg_allowed_fp2": 19.99,
+    "fanduelSalary": "$5800",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#C60C30",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#C60C30",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+    "headlineNews": "Sony Michel rushed 10 times for 69 yards in the Patriots' Week 16 loss to the Bills.\n",
+    "report": "",
+    "analysis": "Michel's first carry went for 29 yards, and he later ripped off a 21-yarder in the first half. That was about it for him, as Michel paced the Patriots' backfield with Damien Harris (ankle) inactive. Michel is averaging over 5.9 yards per carry on limited reps this season but won't be anything more than a TD-dependent RB3/4 for Week 17 against the Jets.\n",
+    "timestamp": "2020-12-29 04:17 AM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 9.7,
+    "week02": 1.9,
+    "week03": 15.0,
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
+    "week09": "DNP",
+    "week10": "DNP",
+    "week11": "DNP",
+    "week12": 0.0,
+    "week13": 6.3,
+    "week14": 2.2,
+    "week15": 8.7,
+    "week16": 6.9,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [9.7, 1.9, 15.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 6.3, 2.2, 8.7, 6.9]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [10.7, 6.5, 10.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.6, 4.9, 3.8, 7.4, 3.5, 6.8]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [3.4, 3.9, 3.3, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 1.2, 6.3, 1.3, 0.0, 2.8, 6.3]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [15.2, 13.8, 18.3, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 15.2, 18.2, 13.0, 7.3, 15.3, 11.6]
                     }
                     
                     ]
@@ -7136,7 +7136,7 @@ $scope.positionRB = [{
     "week04": "DNP",
     "week05": "DNP",
     "week06": "DNP",
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": "DNP",
     "week09": 3.8,
     "week10": "DNP",
@@ -7164,7 +7164,7 @@ $scope.positionRB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 3.8, 'DNP', 9.9, 'DNP', 'DNP', 'DNP', 21.2, 0.8]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.8, 'DNP', 9.9, 'DNP', 'DNP', 'DNP', 21.2, 0.8]
                     },
                     {
                         label: "Projected",
@@ -7174,7 +7174,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 4.5, 'DNP', 12.1, 'DNP', 'DNP', 'DNP', 11.6, 5.6, 6.0]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 4.5, 'DNP', 12.1, 'DNP', 'DNP', 'DNP', 11.6, 5.6, 6.0]
                     },
                     {
                         label: "68% Min",
@@ -7183,7 +7183,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 0.0, 'DNP', 6.8, 'DNP', 'DNP', 'DNP', 8.9, 5.9, 3.0]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 'DNP', 6.8, 'DNP', 'DNP', 'DNP', 8.9, 5.9, 3.0]
                     },
                     {
                         label: "68% Max",
@@ -7193,105 +7193,7 @@ $scope.positionRB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 10.7, 'DNP', 16.2, 'DNP', 'DNP', 'DNP', 13.6, 22.4, 10.1]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916209.png",
-    "name": "Xavier Jones",
-    "depthchart": "Backup: RB-2",
-    "team": "Los Angeles Rams",
-    "projected": 5.9,
-    "opponent": "Arizona Cardinals",
-    "home_away": "",
-    "opp_rank_Neu": 23,
-    "team_rank_Neu": 10,
-    "avg_fp2": 0.0,
-    "opp_rank_allowed_fp2_Neu": 18,
-    "opp_avg_allowed_fp2": 20.13,
-    "fanduelSalary": "$4500",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#866D4B",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#866D4B",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "",
-    "report": "",
-    "analysis": "",
-    "timestamp": "",
-    "source": "",
-    "game_day_logo": "",
-    "week01": "DNP",
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "DNP",
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": "BYE",
-    "week10": "DNP",
-    "week11": "DNP",
-    "week12": "DNP",
-    "week13": "DNP",
-    "week14": "DNP",
-    "week15": "DNP",
-    "week16": 0.0,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(134, 109, 75, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.8, 5.9]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(134, 109, 75, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.0, 7.8]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.7, 'DNP', 16.2, 'DNP', 'DNP', 'DNP', 13.6, 22.4, 10.1]
                     }
                     
                     ]
@@ -7516,11 +7418,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Chase Edmonds missed Wednesday's practice with a hip injury.\n",
+    "headlineNews": "Cardinals head coach Kliff Kingsbury said Chase\u00a0Edmonds (hip) is a game-time decision for Week 17 against the Rams.\u00a0\n",
     "report": "",
-    "analysis": "Edmonds left Week 16's game with this injury after entering with both knee and ankle questions. Kenyan Drake went on to handle 20 touches. Check back later in the week to see if Edmonds is on track to play.\n",
-    "timestamp": "2020-12-31 04:38 AM",
-    "source": null,
+    "analysis": "Edmonds entered Week 16 with ankle and knee injuries and exited the game with a hip issue. Kenyan Drake would likely see a few more touches if Edmonds is sidelined against LA, making Drake a more appealing play in PPR formats.\u00a0\n",
+    "timestamp": "2021-01-01 07:35 PM",
+    "source": "Darren Urban on Twitter ",
     "game_day_logo": "",
     "week01": 12.0,
     "week02": 2.8,
@@ -7690,6 +7592,104 @@ $scope.positionRB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051439.png",
+    "name": "Boston Scott",
+    "depthchart": "Starter: RB-1",
+    "team": "Philadelphia Eagles",
+    "projected": 5.1,
+    "opponent": "Washington Football Team",
+    "home_away": "",
+    "opp_rank_Neu": 13,
+    "team_rank_Neu": 9,
+    "avg_fp2": 4.95,
+    "opp_rank_allowed_fp2_Neg": 3,
+    "opp_avg_allowed_fp2": 16.32,
+    "fanduelSalary": "$4900",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#386168",
+    "tmColorDark": "#004C54",
+    "tmColorLite_rgba": "rgba(56, 97, 104, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
+    "tmTextLite": "#FFFFFF",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+    "headlineNews": "Miles Sanders (knee) is out for Week 17 against Washington.\u00a0\n",
+    "report": "",
+    "analysis": "NFL Network's Ian Rapoport reported Thursday that Sanders was \"fine,\" but he'll miss the team's final game. That puts Boston Scott in position to see a starter's workload. Scott will be more appealing in PPR formats against Washington.\u00a0\n",
+    "timestamp": "2021-01-01 08:39 PM",
+    "source": "Jeremy Fowler on Twitter ",
+    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
+    "week01": 6.4,
+    "week02": 5.8,
+    "week03": 0.5,
+    "week04": 0.1,
+    "week05": 0.3,
+    "week06": 1.9,
+    "week07": 16.7,
+    "week08": 8.9,
+    "week09": "BYE",
+    "week10": 13.9,
+    "week11": 6.5,
+    "week12": 7.2,
+    "week13": 0.9,
+    "week14": 2.2,
+    "week15": 1.2,
+    "week16": 1.7,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1
+                         backgroundColor:  "rgba(56, 97, 104, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [6.4, 5.8, 0.5, 0.1, 0.3, 1.9, 16.7, 8.9, 'BYE', 13.9, 6.5, 7.2, 0.9, 2.2, 1.2, 1.7]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [16.2, 7.9, 8.5, 5.7, 4.0, 2.9, 10.3, 13.1, 'BYE', 5.4, 7.8, 10.5, 5.8, 3.8, 7.2, 5.9, 5.1]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [29.7, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0, 16.7, 'BYE', 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(56, 97, 104, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [33.2, 19.4, 12.8, 16.9, 6.1, 7.0, 4.0, 28.1, 'BYE', 11.4, 7.8, 11.0, 17.6, 15.9, 7.4, 17.7, 10.5]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16777.png",
     "name": "Carlos Hyde",
     "depthchart": "Backup: RB-2",
@@ -7712,11 +7712,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Carlos Hyde (illness) was held out of Wednesday's practice.\n",
+    "headlineNews": "Carlos Hyde (illness) is questionable for Week 17 against the 49ers.\u00a0\n",
     "report": "",
-    "analysis": "Hyde is only serving as Chris Carson's backup, but the lead runner certainly has not been a beacon of health this season. Hyde has somehow turned four carries into 65 yards and a touchdown over the last two games. Hopefully he is healthy enough to play against the 49ers on Sunday.\n",
-    "timestamp": "2020-12-31 04:58 AM",
-    "source": null,
+    "analysis": "Hyde didn't practice this week with a non-COVID illness. He's no longer a fantasy relevant player with Chris Carson leading the Seahawks' backfield and Rashaad Penny getting involved in the team's offense. Hyde has seen seven touches over the past two weeks.\u00a0\n",
+    "timestamp": "2021-01-01 09:22 PM",
+    "source": "Michael-Shawn Duggar on Twitter ",
     "game_day_logo": "",
     "week01": 8.3,
     "week02": 4.7,
@@ -7904,24 +7904,24 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 33.24,
     "fanduelSalary": "$8400",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ankle",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#4495D1",
     "tmColorDark": "#002A5C",
     "tmColorLite_rgba": "rgba(68, 149, 209, 0.2)",
     "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "A.J. Brown (ankle) is not practicing Wednesday.\n",
+    "headlineNews": "A.J. Brown (ankle) returned to Titans practice on Thursday, getting in a \"full\" session.\n",
     "report": "",
-    "analysis": "He's been sidelined on Wednesdays with ailments all year but has mostly played through them as an upside WR1/2. Brown should be fine for that again in Week 17 against Houston.\n",
-    "timestamp": "2020-12-30 10:00 PM",
+    "analysis": "Brown is ready to go as a top-five WR1 for the regular season finale.\u00a0\n",
+    "timestamp": "2020-12-31 09:37 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 6.4,
     "week02": "DNP",
     "week03": "DNP",
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 17.7,
     "week06": 20.1,
     "week07": 24.3,
@@ -7952,7 +7952,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [6.4, 'DNP', 'DNP', 'BYE', 17.7, 20.1, 24.3, 10.4, 18.1, 2.6, 14.2, 23.8, 8.7, 20.7, 12.9, 6.3]
+                         data: [6.4, 'DNP', 'DNP', 'DNP', 17.7, 20.1, 24.3, 10.4, 18.1, 2.6, 14.2, 23.8, 8.7, 20.7, 12.9, 6.3]
                     },
                     {
                         label: "Projected",
@@ -7962,7 +7962,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [14.6, 'DNP', 'DNP', 'BYE', 13.1, 15.0, 17.7, 18.5, 12.4, 13.7, 14.8, 13.5, 13.4, 19.9, 14.7, 15.9, 20.2]
+                        data: [14.6, 'DNP', 'DNP', 'DNP', 13.1, 15.0, 17.7, 18.5, 12.4, 13.7, 14.8, 13.5, 13.4, 19.9, 14.7, 15.9, 20.2]
                     },
                     {
                         label: "68% Min",
@@ -7971,7 +7971,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 'DNP', 'DNP', 'BYE', 2.1, 2.2, 6.7, 4.9, 4.0, 2.6, 2.7, 1.9, 7.5, 4.8, 4.5, 4.7, 6.5]
+                        data: [0.0, 'DNP', 'DNP', 'DNP', 2.1, 2.2, 6.7, 4.9, 4.0, 2.6, 2.7, 1.9, 7.5, 4.8, 4.5, 4.7, 6.5]
                     },
                     {
                         label: "68% Max",
@@ -7981,7 +7981,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [13.7, 'DNP', 'DNP', 'BYE', 15.2, 21.0, 22.1, 22.0, 22.3, 21.9, 21.8, 20.3, 23.3, 20.9, 21.4, 20.2, 21.4]
+                        data: [13.7, 'DNP', 'DNP', 'DNP', 15.2, 21.0, 22.1, 22.0, 22.3, 21.9, 21.8, 20.3, 23.3, 20.9, 21.4, 20.2, 21.4]
                     }
                     
                     ]
@@ -8576,6 +8576,104 @@ $scope.positionWR = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3925357.png",
+    "name": "Calvin Ridley",
+    "depthchart": "Starter: WR-1",
+    "team": "Atlanta Falcons",
+    "projected": 13.5,
+    "opponent": "Tampa Bay Buccaneers",
+    "home_away": "at ",
+    "opp_rank_Neu": 22,
+    "team_rank_Pos": 5,
+    "avg_fp2": 16.42,
+    "opp_rank_allowed_fp2_Neu": 22,
+    "opp_avg_allowed_fp2": 31.19,
+    "fanduelSalary": "$8700",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#A71930",
+    "tmColorDark": "#000000",
+    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
+    "tmTextLite": "#A71930",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+    "headlineNews": "Calvin Ridley caught 5-of-9 targets for 130 yards in the Falcons' Week 16 loss to the Chiefs.\u00a0\n",
+    "report": "",
+    "analysis": "Ridley caught just one pass on two first half targets, but it was a doozy. After an insane release off the line of scrimmage, Ridley secured\u00a0the ball in the middle of the field and cut on a dime, getting loose for a 54-yard catch that was nearly a 65-yard score. Matt Ryan was then able to more consistently find Ridley in the second half. With Julio Jones (hamstring) still ailing, Ridley heads into Week 17 against the Bucs having cleared 100 yards in four straight games. Tampa's Carlton Davis has been ailing with a groin injury. Ridley should continue going nuclear.\u00a0\u00a0\n",
+    "timestamp": "2020-12-27 10:21 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 29.4,
+    "week02": 26.4,
+    "week03": 14.2,
+    "week04": 0.0,
+    "week05": 17.6,
+    "week06": 15.9,
+    "week07": 17.4,
+    "week08": 5.7,
+    "week09": "DNP",
+    "week10": "BYE",
+    "week11": 11.5,
+    "week12": 14.0,
+    "week13": 13.3,
+    "week14": 22.4,
+    "week15": 27.3,
+    "week16": 14.8,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [29.4, 26.4, 14.2, 0.0, 17.6, 15.9, 17.4, 5.7, 'DNP', 'BYE', 11.5, 14.0, 13.3, 22.4, 27.3, 14.8]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [13.1, 12.9, 11.5, 13.7, 15.0, 8.3, 15.0, 15.4, 'DNP', 'BYE', 12.2, 14.2, 10.9, 15.4, 18.7, 13.3, 13.5]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [3.4, 5.0, 4.1, 6.6, 3.4, 3.1, 4.6, 5.6, 'DNP', 'BYE', 4.9, 4.8, 7.0, 2.8, 5.6, 5.0, 4.9]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [16.5, 18.0, 24.1, 24.4, 20.6, 21.3, 21.7, 20.7, 'DNP', 'BYE', 20.5, 21.1, 20.6, 14.5, 20.4, 22.8, 20.4]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3042778.png",
     "name": "Corey Davis",
     "depthchart": "Backup: WR-2",
@@ -8607,7 +8705,7 @@ $scope.positionWR = [{
     "week01": 13.6,
     "week02": 11.1,
     "week03": 9.4,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": "DNP",
     "week06": "DNP",
     "week07": 12.5,
@@ -8638,7 +8736,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [13.6, 11.1, 9.4, 'BYE', 'DNP', 'DNP', 12.5, 22.8, 0.0, 9.2, 13.8, 8.5, 29.7, 2.9, 19.0, 0.0]
+                         data: [13.6, 11.1, 9.4, 'DNP', 'DNP', 'DNP', 12.5, 22.8, 0.0, 9.2, 13.8, 8.5, 29.7, 2.9, 19.0, 0.0]
                     },
                     {
                         label: "Projected",
@@ -8648,7 +8746,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [5.3, 6.4, 7.5, 'BYE', 'DNP', 'DNP', 7.9, 11.7, 7.8, 5.5, 7.3, 4.2, 6.9, 12.5, 8.4, 8.0, 13.0]
+                        data: [5.3, 6.4, 7.5, 'DNP', 'DNP', 'DNP', 7.9, 11.7, 7.8, 5.5, 7.3, 4.2, 6.9, 12.5, 8.4, 8.0, 13.0]
                     },
                     {
                         label: "68% Min",
@@ -8657,7 +8755,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.3, 1.6, 0.7, 'BYE', 'DNP', 'DNP', 0.0, 1.5, 2.8, 1.9, 1.9, 7.3, 0.8, 3.3, 1.4, 3.7, 1.3]
+                        data: [1.3, 1.6, 0.7, 'DNP', 'DNP', 'DNP', 0.0, 1.5, 2.8, 1.9, 1.9, 7.3, 0.8, 3.3, 1.4, 3.7, 1.3]
                     },
                     {
                         label: "68% Max",
@@ -8667,105 +8765,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [9.9, 12.7, 12.1, 'BYE', 'DNP', 'DNP', 13.4, 15.5, 15.1, 12.5, 14.4, 15.0, 14.1, 17.5, 15.5, 17.1, 14.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13982.png",
-    "name": "Julio Jones",
-    "depthchart": "Starter: WR-1",
-    "team": "Atlanta Falcons",
-    "projected": 12.7,
-    "opponent": "Tampa Bay Buccaneers",
-    "home_away": "at ",
-    "opp_rank_Neu": 22,
-    "team_rank_Pos": 5,
-    "avg_fp2": 13.4,
-    "opp_rank_allowed_fp2_Neu": 22,
-    "opp_avg_allowed_fp2": 31.19,
-    "fanduelSalary": "$7500",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
-    "tmColorLite": "#A71930",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#A71930",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-    "headlineNews": "Julio Jones (hamstring) remained sidelined at Wednesday's practice.\n",
-    "report": "",
-    "analysis": "Julio's hamstring has been an issue since Week 2, and he hasn't played since Week 13. It looks like the Falcons are ready to shut him down for the finale. Jones was dominant when on the field and healthy this season, but injuries definitely took their toll on him in his age-31 campaign.\n",
-    "timestamp": "2020-12-30 09:48 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 20.2,
-    "week02": 3.4,
-    "week03": "DNP",
-    "week04": 5.2,
-    "week05": "DNP",
-    "week06": 29.7,
-    "week07": 13.7,
-    "week08": 17.2,
-    "week09": 13.9,
-    "week10": "BYE",
-    "week11": 4.9,
-    "week12": "DNP",
-    "week13": 12.4,
-    "week14": "DNP",
-    "week15": "DNP",
-    "week16": "DNP",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [20.2, 3.4, 'DNP', 5.2, 'DNP', 29.7, 13.7, 17.2, 13.9, 'BYE', 4.9, 'DNP', 12.4, 'DNP', 'DNP', 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [15.1, 15.7, 'DNP', 16.2, 'DNP', 9.3, 17.2, 17.7, 13.2, 'BYE', 16.1, 'DNP', 13.2, 'DNP', 'DNP', 'DNP', 12.7]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [7.0, 8.3, 'DNP', 5.8, 'DNP', 6.7, 6.6, 6.8, 7.3, 'BYE', 7.6, 'DNP', 5.7, 'DNP', 'DNP', 'DNP', 6.7]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [25.3, 25.9, 'DNP', 25.6, 'DNP', 24.4, 24.5, 24.8, 24.4, 'BYE', 22.5, 'DNP', 24.2, 'DNP', 'DNP', 'DNP', 24.0]
+                        data: [9.9, 12.7, 12.1, 'DNP', 'DNP', 'DNP', 13.4, 15.5, 15.1, 12.5, 14.4, 15.0, 14.1, 17.5, 15.5, 17.1, 14.6]
                     }
                     
                     ]
@@ -8982,18 +8982,18 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 22.67,
     "fanduelSalary": "$8200",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hip",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#97233F",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(151, 35, 63, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "DeAndre Hopkins missed Wednesday's practice with a hip injury.\n",
+    "headlineNews": "DeAndre Hopkins (hip) returned to Cardinals practice Thursday, getting in a \"limited\" session.\u00a0\n",
     "report": "",
-    "analysis": "Hopkins left Week 16's game against the 49ers with a midsection injury, and we assume that has now been designated a hip issue. Hopkins previously dealt with a neck and back issue. In a pivotal Week 17 game against the Rams, it would be a stunner if Hopkins is not on the field.\n",
-    "timestamp": "2020-12-31 04:22 AM",
+    "analysis": "Hopkins' practice reps have been all over the map this season. We haven't read anything that would lead us to\u00a0believe this is a bigger-than-normal issue as Hopkins prepares to do battle with the Rams' Jalen Ramsey.\u00a0\n",
+    "timestamp": "2021-01-01 12:17 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 22.1,
@@ -9066,104 +9066,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116406.png",
-    "name": "Tyreek Hill",
-    "depthchart": "Starter: WR-1",
-    "team": "Kansas City Chiefs",
-    "projected": 12.0,
-    "opponent": "Los Angeles Chargers",
-    "home_away": "",
-    "opp_rank_Neu": 9,
-    "team_rank_Pos": 1,
-    "avg_fp2": 19.03,
-    "opp_rank_allowed_fp2_Neu": 8,
-    "opp_avg_allowed_fp2": 27.28,
-    "fanduelSalary": "$8900",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
-    "tmColorLite": "#FFB81C",
-    "tmColorDark": "#c9243f",
-    "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
-    "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
-    "tmTextLite": "#FFB81C",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "",
-    "report": "",
-    "analysis": "",
-    "timestamp": "",
-    "source": "",
-    "game_day_logo": "",
-    "week01": 13.1,
-    "week02": 19.3,
-    "week03": 18.7,
-    "week04": 14.4,
-    "week05": 16.8,
-    "week06": 4.0,
-    "week07": 14.5,
-    "week08": 23.8,
-    "week09": 28.6,
-    "week10": "BYE",
-    "week11": 21.5,
-    "week12": 51.4,
-    "week13": 11.8,
-    "week14": 24.6,
-    "week15": 14.4,
-    "week16": 8.5,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 184, 28, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [13.1, 19.3, 18.7, 14.4, 16.8, 4.0, 14.5, 23.8, 28.6, 'BYE', 21.5, 51.4, 11.8, 24.6, 14.4, 8.5]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [20.0, 12.7, 13.6, 20.1, 13.0, 13.3, 10.4, 13.8, 12.2, 'BYE', 14.4, 20.8, 16.6, 16.5, 17.0, 18.0, 12.0]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [5.1, 5.0, 5.3, 8.4, 4.3, 5.1, 6.6, 6.7, 4.5, 'BYE', 4.4, 6.0, 5.9, 6.6, 6.1, 5.1, 5.2]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 184, 28, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [21.5, 20.8, 24.3, 24.8, 23.3, 21.3, 23.5, 23.3, 21.3, 'BYE', 21.5, 23.9, 24.2, 24.1, 26.2, 23.7, 22.4]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916433.png",
     "name": "Jakobi Meyers",
     "depthchart": "Starter: WR-1",
@@ -9196,7 +9098,7 @@ $scope.positionWR = [{
     "week02": 1.2,
     "week03": 0.0,
     "week04": "DNP",
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": "DNP",
     "week07": "DNP",
     "week08": 10.8,
@@ -9226,7 +9128,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 1.2, 0.0, 'DNP', 'BYE', 'DNP', 'DNP', 10.8, 22.9, 13.36, 5.3, 7.7, 2.5, 6.7, 12.6, 6.5]
+                         data: [0.0, 1.2, 0.0, 'DNP', 'DNP', 'DNP', 'DNP', 10.8, 22.9, 13.36, 5.3, 7.7, 2.5, 6.7, 12.6, 6.5]
                     },
                     {
                         label: "Projected",
@@ -9236,7 +9138,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [1.2, 1.8, 1.2, 'DNP', 'BYE', 'DNP', 'DNP', 4.4, 7.8, 3.7, 7.2, 8.7, 9.6, 8.5, 10.5, 9.1, 11.7]
+                        data: [1.2, 1.8, 1.2, 'DNP', 'DNP', 'DNP', 'DNP', 4.4, 7.8, 3.7, 7.2, 8.7, 9.6, 8.5, 10.5, 9.1, 11.7]
                     },
                     {
                         label: "68% Min",
@@ -9245,7 +9147,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.4, 1.4, 0.8, 'DNP', 'BYE', 'DNP', 'DNP', 0.9, 0.0, 0.0, 1.6, 1.5, 1.6, 1.6, 1.3, 8.3, 0.8]
+                        data: [0.4, 1.4, 0.8, 'DNP', 'DNP', 'DNP', 'DNP', 0.9, 0.0, 0.0, 1.6, 1.5, 1.6, 1.6, 1.3, 8.3, 0.8]
                     },
                     {
                         label: "68% Max",
@@ -9255,7 +9157,105 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [5.7, 7.8, 5.9, 'DNP', 'BYE', 'DNP', 'DNP', 7.6, 7.2, 13.3, 12.3, 13.4, 10.3, 12.1, 11.3, 15.8, 6.1]
+                        data: [5.7, 7.8, 5.9, 'DNP', 'DNP', 'DNP', 'DNP', 7.6, 7.2, 13.3, 12.3, 13.4, 10.3, 12.1, 11.3, 15.8, 6.1]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16799.png",
+    "name": "Allen Robinson",
+    "depthchart": "Starter: WR-1",
+    "team": "Chicago Bears",
+    "projected": 11.6,
+    "opponent": "Green Bay Packers",
+    "home_away": "",
+    "opp_rank_Neg": 6,
+    "team_rank_Neu": 22,
+    "avg_fp2": 13.81,
+    "opp_rank_allowed_fp2_Neu": 7,
+    "opp_avg_allowed_fp2": 27.26,
+    "fanduelSalary": "$7700",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#c36835",
+    "tmColorDark": "#0B162A",
+    "tmColorLite_rgba": "rgba(195, 104, 53, 0.2)",
+    "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
+    "tmTextLite": "#c36835",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+    "headlineNews": "Allen\u00a0Robinson (hamstring) was limited at Friday's practice.\u00a0\n",
+    "report": "",
+    "analysis": "Good news for the team's No. 1 wideout ahead of Week 17's clash with Green Bay. Robinson missed Thursday's practice with the hamstring issue. WSCR Radio's Mark Grote said Robinson should be ready to go against the Packers. A-Rob should mostly avoid coverage from Jaire Alexander since Alexander lines up on the left side of the formation 74 percent of the time and Robinson lines up across the formation, including the slot.\u00a0\n",
+    "timestamp": "2021-01-01 07:23 PM",
+    "source": "Adam Caplan on Twitter ",
+    "game_day_logo": "",
+    "week01": 9.8,
+    "week02": 4.8,
+    "week03": 23.3,
+    "week04": 19.6,
+    "week05": 14.0,
+    "week06": 7.8,
+    "week07": 9.0,
+    "week08": 17.7,
+    "week09": 11.6,
+    "week10": 7.3,
+    "week11": "BYE",
+    "week12": 23.4,
+    "week13": 10.5,
+    "week14": 22.8,
+    "week15": 10.3,
+    "week16": 15.3,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1
+                         backgroundColor:  "rgba(195, 104, 53, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [9.8, 4.8, 23.3, 19.6, 14.0, 7.8, 9.0, 17.7, 11.6, 7.3, 'BYE', 23.4, 10.5, 22.8, 10.3, 15.3]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [17.0, 14.7, 11.3, 15.5, 12.8, 11.0, 10.7, 11.3, 15.4, 14.3, 'BYE', 10.3, 13.3, 14.4, 14.9, 12.7, 11.6]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [4.5, 3.8, 2.3, 5.9, 3.5, 5.1, 2.3, 5.0, 3.9, 4.7, 'BYE', 4.2, 6.0, 4.8, 5.7, 5.3, 4.8]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(195, 104, 53, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [17.4, 19.0, 15.3, 20.3, 20.5, 18.5, 17.4, 18.7, 19.3, 19.1, 'BYE', 19.1, 20.8, 17.7, 21.0, 19.0, 19.6]
                     }
                     
                     ]
@@ -9360,104 +9360,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16799.png",
-    "name": "Allen Robinson",
-    "depthchart": "Starter: WR-1",
-    "team": "Chicago Bears",
-    "projected": 11.6,
-    "opponent": "Green Bay Packers",
-    "home_away": "",
-    "opp_rank_Neg": 6,
-    "team_rank_Neu": 22,
-    "avg_fp2": 13.81,
-    "opp_rank_allowed_fp2_Neu": 7,
-    "opp_avg_allowed_fp2": 27.26,
-    "fanduelSalary": "$7700",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#c36835",
-    "tmColorDark": "#0B162A",
-    "tmColorLite_rgba": "rgba(195, 104, 53, 0.2)",
-    "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
-    "tmTextLite": "#c36835",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Allen Robinson caught 10-of-13 targets for 103 yards in the Bears' Week 16 win over the Jaguars.\n",
-    "report": "",
-    "analysis": "It was Robinson's return to Jacksonville after spending the first four years of his career there. Robinson easily paced the Bears in targets, catches, and yards, but just couldn't find the end zone, even as Mitchell Trubisky forced some passes his direction in the scoring area. One was picked off, and Robinson drew a DPI on another. Jimmy Graham scored both touchdowns from Trubisky. Robinson gets a Week 17 date with the Packers. He went 8-74-2 on 13 targets against them in Week 12.\n",
-    "timestamp": "2020-12-27 09:17 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 9.8,
-    "week02": 4.8,
-    "week03": 23.3,
-    "week04": 19.6,
-    "week05": 14.0,
-    "week06": 7.8,
-    "week07": 9.0,
-    "week08": 17.7,
-    "week09": 11.6,
-    "week10": 7.3,
-    "week11": "BYE",
-    "week12": 23.4,
-    "week13": 10.5,
-    "week14": 22.8,
-    "week15": 10.3,
-    "week16": 15.3,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1
-                         backgroundColor:  "rgba(195, 104, 53, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [9.8, 4.8, 23.3, 19.6, 14.0, 7.8, 9.0, 17.7, 11.6, 7.3, 'BYE', 23.4, 10.5, 22.8, 10.3, 15.3]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [17.0, 14.7, 11.3, 15.5, 12.8, 11.0, 10.7, 11.3, 15.4, 14.3, 'BYE', 10.3, 13.3, 14.4, 14.9, 12.7, 11.6]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [4.5, 3.8, 2.3, 5.9, 3.5, 5.1, 2.3, 5.0, 3.9, 4.7, 'BYE', 4.2, 6.0, 4.8, 5.7, 5.3, 4.8]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(195, 104, 53, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [17.4, 19.0, 15.3, 20.3, 20.5, 18.5, 17.4, 18.7, 19.3, 19.1, 'BYE', 19.1, 20.8, 17.7, 21.0, 19.0, 19.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241372.png",
     "name": "Marquise Brown",
     "depthchart": "Starter: WR-1",
@@ -9492,7 +9394,7 @@ $scope.positionWR = [{
     "week04": 10.6,
     "week05": 16.8,
     "week06": 7.7,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 6.8,
     "week09": 5.3,
     "week10": 2.4,
@@ -9520,7 +9422,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [12.6, 6.7, 2.3, 10.6, 16.8, 7.7, 'BYE', 6.8, 5.3, 2.4, 0.0, 16.5, 12.4, 12.0, 12.8, 10.5]
+                         data: [12.6, 6.7, 2.3, 10.6, 16.8, 7.7, 'DNP', 6.8, 5.3, 2.4, 0.0, 16.5, 12.4, 12.0, 12.8, 10.5]
                     },
                     {
                         label: "Projected",
@@ -9530,7 +9432,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [9.1, 15.7, 11.8, 7.1, 7.0, 11.1, 'BYE', 8.7, 10.7, 10.8, 12.9, 6.8, 7.0, 15.5, 8.6, 11.6, 11.5]
+                        data: [9.1, 15.7, 11.8, 7.1, 7.0, 11.1, 'DNP', 8.7, 10.7, 10.8, 12.9, 6.8, 7.0, 15.5, 8.6, 11.6, 11.5]
                     },
                     {
                         label: "68% Min",
@@ -9539,7 +9441,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.7, 2.6, 10.0, 1.8, 4.0, 8.9, 'BYE', 0.2, 4.0, 1.1, 2.8, 1.0, 4.1, 3.4, 7.2, 7.1, 3.0]
+                        data: [1.7, 2.6, 10.0, 1.8, 4.0, 8.9, 'DNP', 0.2, 4.0, 1.1, 2.8, 1.0, 4.1, 3.4, 7.2, 7.1, 3.0]
                     },
                     {
                         label: "68% Max",
@@ -9549,7 +9451,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [17.8, 18.3, 20.8, 18.2, 14.7, 20.2, 'BYE', 15.2, 17.9, 15.5, 16.9, 12.9, 18.1, 14.5, 16.9, 17.4, 13.3]
+                        data: [17.8, 18.3, 20.8, 18.2, 14.7, 20.2, 'DNP', 15.2, 17.9, 15.5, 16.9, 12.9, 18.1, 14.5, 16.9, 17.4, 13.3]
                     }
                     
                     ]
@@ -9570,8 +9472,8 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 34.58,
     "fanduelSalary": "$5700",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Foot",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#A71930",
     "tmColorDark": "#03202F",
     "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
@@ -9648,6 +9550,104 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 10.4, 14.9, 12.5, 11.1, 16.0, 11.5, 12.1]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3932905.png",
+    "name": "Diontae Johnson",
+    "depthchart": "Starter: WR-1",
+    "team": "Pittsburgh Steelers",
+    "projected": 11.0,
+    "opponent": "Cleveland Browns",
+    "home_away": "at ",
+    "opp_rank_Neu": 21,
+    "team_rank_Neu": 16,
+    "avg_fp2": 11.91,
+    "opp_rank_allowed_fp2_Neu": 21,
+    "opp_avg_allowed_fp2": 30.66,
+    "fanduelSalary": "$6800",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#FFB612",
+    "tmColorDark": "#000000",
+    "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
+    "tmTextLite": "#FFB612",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+    "headlineNews": "Diontae Johnson caught 8-of-14 targets for 75 yards and one score in Pittsburgh's Week 16 win against the Colts.\n",
+    "report": "",
+    "analysis": "He unsurprisingly dropped his first two targets on\u00a0Pittsburgh's opening drive, forcing the team to go three-and-out from the gates. Coach Mike Tomlin\u00a0fortunately\u00a0kept Johnson on the field anyhow, allowing him to run free for a 39-yard touchdown \u2014 the first of Ben Roethlisberger's three scores in the second half \u2014 to upstart the Steelers' 21-0 run to complete its division-clinching comeback win. Johnson has now seen double-digit targets in back-to-back games (and in the\u00a0last seven games he wasn't benched for) but could be rested with nothing to play for in the team's\u00a0regular season finale against the Browns. That will be something to monitor as Cleveland enters in a win-and-in situation on the other side of the ball.\n",
+    "timestamp": "2020-12-27 10:35 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 6.7,
+    "week02": 19.2,
+    "week03": 0.9,
+    "week04": "DNP",
+    "week05": 0.3,
+    "week06": "DNP",
+    "week07": 24.5,
+    "week08": 1.1,
+    "week09": 11.1,
+    "week10": 20.6,
+    "week11": 17.1,
+    "week12": 8.6,
+    "week13": 17.1,
+    "week14": 6.0,
+    "week15": 15.9,
+    "week16": 17.7,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 182, 18, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [6.7, 19.2, 0.9, 'DNP', 0.3, 'DNP', 24.5, 1.1, 11.1, 20.6, 17.1, 8.6, 17.1, 6.0, 15.9, 17.7]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [8.5, 10.5, 12.0, 'DNP', 10.8, 'DNP', 10.3, 10.8, 14.2, 9.0, 23.1, 11.6, 15.1, 14.0, 9.5, 11.9, 11.0]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [3.0, 1.6, 6.7, 'DNP', 1.3, 'DNP', 0.6, 0.3, 1.0, 1.4, 1.8, 1.5, 2.4, 1.2, 2.2, 3.2, 2.4]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 182, 18, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [15.1, 12.4, 19.5, 'DNP', 13.3, 'DNP', 11.8, 15.5, 16.1, 16.0, 18.0, 16.8, 17.3, 13.9, 16.6, 17.7, 17.4]
                     }
                     
                     ]
@@ -9752,104 +9752,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3932905.png",
-    "name": "Diontae Johnson",
-    "depthchart": "Starter: WR-1",
-    "team": "Pittsburgh Steelers",
-    "projected": 11.0,
-    "opponent": "Cleveland Browns",
-    "home_away": "at ",
-    "opp_rank_Neu": 21,
-    "team_rank_Neu": 16,
-    "avg_fp2": 11.91,
-    "opp_rank_allowed_fp2_Neu": 21,
-    "opp_avg_allowed_fp2": 30.66,
-    "fanduelSalary": "$6800",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#FFB612",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#FFB612",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Diontae Johnson caught 8-of-14 targets for 75 yards and one score in Pittsburgh's Week 16 win against the Colts.\n",
-    "report": "",
-    "analysis": "He unsurprisingly dropped his first two targets on\u00a0Pittsburgh's opening drive, forcing the team to go three-and-out from the gates. Coach Mike Tomlin\u00a0fortunately\u00a0kept Johnson on the field anyhow, allowing him to run free for a 39-yard touchdown \u2014 the first of Ben Roethlisberger's three scores in the second half \u2014 to upstart the Steelers' 21-0 run to complete its division-clinching comeback win. Johnson has now seen double-digit targets in back-to-back games (and in the\u00a0last seven games he wasn't benched for) but could be rested with nothing to play for in the team's\u00a0regular season finale against the Browns. That will be something to monitor as Cleveland enters in a win-and-in situation on the other side of the ball.\n",
-    "timestamp": "2020-12-27 10:35 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 6.7,
-    "week02": 19.2,
-    "week03": 0.9,
-    "week04": "BYE",
-    "week05": 0.3,
-    "week06": "DNP",
-    "week07": 24.5,
-    "week08": 1.1,
-    "week09": 11.1,
-    "week10": 20.6,
-    "week11": 17.1,
-    "week12": 8.6,
-    "week13": 17.1,
-    "week14": 6.0,
-    "week15": 15.9,
-    "week16": 17.7,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 182, 18, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [6.7, 19.2, 0.9, 'BYE', 0.3, 'DNP', 24.5, 1.1, 11.1, 20.6, 17.1, 8.6, 17.1, 6.0, 15.9, 17.7]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [8.5, 10.5, 12.0, 'BYE', 10.8, 'DNP', 10.3, 10.8, 14.2, 9.0, 23.1, 11.6, 15.1, 14.0, 9.5, 11.9, 11.0]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [3.0, 1.6, 6.7, 'BYE', 1.3, 'DNP', 0.6, 0.3, 1.0, 1.4, 1.8, 1.5, 2.4, 1.2, 2.2, 3.2, 2.4]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 182, 18, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [15.1, 12.4, 19.5, 'BYE', 13.3, 'DNP', 11.8, 15.5, 16.1, 16.0, 18.0, 16.8, 17.3, 13.9, 16.6, 17.7, 17.4]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4239993.png",
     "name": "Tee Higgins",
     "depthchart": "Starter: WR-1",
@@ -9864,19 +9766,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 28.09,
     "fanduelSalary": "$6100",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#ea7330",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(234, 115, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#ea7330",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-    "headlineNews": "Tee Higgins (hamstring) was limited in Wednesday's practice.\n",
+    "headlineNews": "Tee Higgins (hamstring) will play in Week 17 against the Ravens.\n",
     "report": "",
-    "analysis": "Higgins played through the balky hammy last week in Houston and hung a 6-99-1 line on the Texans. He'll be an upside WR3/4 for the finale against the Ravens.\n",
-    "timestamp": "2020-12-30 10:07 PM",
-    "source": null,
+    "analysis": "Both Tyler Boyd and Higgins practiced in full on Friday and were removed from the injury report altogether. Sunday's matchup against the Ravens is still a nightmarish one that fantasy players should look to avoid. Consider Higgins a better outright play than Boyd with Brandon Allen back under center.\n",
+    "timestamp": "2021-01-01 08:49 PM",
+    "source": "Geoff Hobson on Twitter",
     "game_day_logo": "",
     "week01": 0.0,
     "week02": "DNP",
@@ -9970,10 +9872,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Michael Pittman (concussion) was limited in Wednesday's practice.\n",
+    "headlineNews": "Michael Pittman (concussion) was upgraded to \"full\" for Thursday's practice.\u00a0\n",
     "report": "",
-    "analysis": "Pittman went 3-38 last week in Pittsburgh before going in the concussion protocol Monday. The limited start to the week puts him on track to face the Jaguars in Week 17 with a playoff spot on the line.\n",
-    "timestamp": "2020-12-30 09:43 PM",
+    "analysis": "Pittman will be ready to go for Sunday's regular season finale against the Jaguars, but he seems to be operating as the No. 3 receiver right now behind T.Y. Hilton and Zach Pascal. Every Colt will offer upside vs. the collapsed Jags, but Pittman has a zero-point floor.\u00a0\n",
+    "timestamp": "2020-12-31 10:29 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 2.0,
@@ -10068,11 +9970,11 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Terry McLaurin (ankle) remained sidelined on Thursday.\u00a0\n",
+    "headlineNews": "Terry McLaurin (ankle) is questionable for Week 17 against the Eagles.\n",
     "report": "",
-    "analysis": "Rough stuff, though coach Ron Rivera did say he was \"encouraged by what he saw from McLaurin on the side.\" Still,\u00a0McLaurin is very much on the wrong side of questionable after missing Week 16, though the Football Team will surely push this as far as it can ahead of Sunday night's must-win game against the Eagles. It's possible McLaurin will end up a game-time decision. We will receive our next update no later than Friday afternoon.\u00a0\n",
-    "timestamp": "2020-12-31 07:38 PM",
-    "source": null,
+    "analysis": "McLaurin didn't practice at all throughout the week but coach Ron Rivera still sounded encouraged by the former's work on the sideline. There's no denying McLaurin will likely be limited if available Sunday night, but Washington will still try and get its best playmaker on the field at all costs. Washington is poised to take down the NFC East with a win over the Eagles, which will not have Miles Sanders or Dallas Goedert.\n",
+    "timestamp": "2021-01-01 07:03 PM",
+    "source": "Sam Fortier on Twitter",
     "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
     "week01": 8.6,
     "week02": 22.0,
@@ -10144,104 +10046,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3925357.png",
-    "name": "Calvin Ridley",
-    "depthchart": "Backup: WR-2",
-    "team": "Atlanta Falcons",
-    "projected": 10.5,
-    "opponent": "Tampa Bay Buccaneers",
-    "home_away": "at ",
-    "opp_rank_Neu": 22,
-    "team_rank_Pos": 5,
-    "avg_fp2": 16.42,
-    "opp_rank_allowed_fp2_Neu": 22,
-    "opp_avg_allowed_fp2": 31.19,
-    "fanduelSalary": "$8700",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#A71930",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#A71930",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
-    "headlineNews": "Calvin Ridley caught 5-of-9 targets for 130 yards in the Falcons' Week 16 loss to the Chiefs.\u00a0\n",
-    "report": "",
-    "analysis": "Ridley caught just one pass on two first half targets, but it was a doozy. After an insane release off the line of scrimmage, Ridley secured\u00a0the ball in the middle of the field and cut on a dime, getting loose for a 54-yard catch that was nearly a 65-yard score. Matt Ryan was then able to more consistently find Ridley in the second half. With Julio Jones (hamstring) still ailing, Ridley heads into Week 17 against the Bucs having cleared 100 yards in four straight games. Tampa's Carlton Davis has been ailing with a groin injury. Ridley should continue going nuclear.\u00a0\u00a0\n",
-    "timestamp": "2020-12-27 10:21 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 29.4,
-    "week02": 26.4,
-    "week03": 14.2,
-    "week04": 0.0,
-    "week05": 17.6,
-    "week06": 15.9,
-    "week07": 17.4,
-    "week08": 5.7,
-    "week09": "DNP",
-    "week10": "BYE",
-    "week11": 11.5,
-    "week12": 14.0,
-    "week13": 13.3,
-    "week14": 22.4,
-    "week15": 27.3,
-    "week16": 14.8,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [29.4, 26.4, 14.2, 0.0, 17.6, 15.9, 17.4, 5.7, 'DNP', 'BYE', 11.5, 14.0, 13.3, 22.4, 27.3, 14.8]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [13.1, 12.9, 11.5, 13.7, 15.0, 8.3, 15.0, 15.4, 'DNP', 'BYE', 12.2, 14.2, 10.9, 15.4, 18.7, 13.3, 10.5]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [3.4, 5.0, 4.1, 6.6, 3.4, 3.1, 4.6, 5.6, 'DNP', 'BYE', 4.9, 4.8, 7.0, 2.8, 5.6, 5.0, 6.2]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [16.5, 18.0, 24.1, 24.4, 20.6, 21.3, 21.7, 20.7, 'DNP', 'BYE', 20.5, 21.1, 20.6, 14.5, 20.4, 22.8, 22.2]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128390.png",
     "name": "Allen Lazard",
     "depthchart": "Backup: WR-2",
@@ -10256,8 +10060,8 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 26.17,
     "fanduelSalary": "$5500",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Abdomen",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#d7a017",
     "tmColorDark": "#203731",
     "tmColorLite_rgba": "rgba(215, 160, 23, 0.2)",
@@ -10475,7 +10279,7 @@ $scope.positionWR = [{
     "week07": 6.2,
     "week08": 5.2,
     "week09": 8.2,
-    "week10": "BYE",
+    "week10": "DNP",
     "week11": 8.6,
     "week12": 8.7,
     "week13": 7.0,
@@ -10500,7 +10304,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.2, 5.2, 8.2, 'BYE', 8.6, 8.7, 7.0, 'DNP', 3.3, 0.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.2, 5.2, 8.2, 'DNP', 8.6, 8.7, 7.0, 'DNP', 3.3, 0.0]
                     },
                     {
                         label: "Projected",
@@ -10510,7 +10314,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.9, 8.0, 6.4, 'BYE', 6.7, 5.3, 7.3, 'DNP', 5.2, 6.4, 10.1]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.9, 8.0, 6.4, 'DNP', 6.7, 5.3, 7.3, 'DNP', 5.2, 6.4, 10.1]
                     },
                     {
                         label: "68% Min",
@@ -10519,7 +10323,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.7, 5.0, 2.5, 'BYE', 3.2, 1.6, 2.4, 'DNP', 7.1, 5.8, 1.3]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.7, 5.0, 2.5, 'DNP', 3.2, 1.6, 2.4, 'DNP', 7.1, 5.8, 1.3]
                     },
                     {
                         label: "68% Max",
@@ -10529,7 +10333,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.2, 11.2, 15.2, 'BYE', 12.1, 14.1, 15.0, 'DNP', 9.1, 8.0, 8.3]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.2, 11.2, 15.2, 'DNP', 12.1, 14.1, 15.0, 'DNP', 9.1, 8.0, 8.3]
                     }
                     
                     ]
@@ -10769,7 +10573,7 @@ $scope.positionWR = [{
     "week07": 3.7,
     "week08": "DNP",
     "week09": 24.6,
-    "week10": "BYE",
+    "week10": "DNP",
     "week11": 12.4,
     "week12": 9.9,
     "week13": 2.7,
@@ -10794,7 +10598,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [3.2, 2.2, 'DNP', 'DNP', 'DNP', 8.2, 3.7, 'DNP', 24.6, 'BYE', 12.4, 9.9, 2.7, 4.1, 2.6, 0.6]
+                         data: [3.2, 2.2, 'DNP', 'DNP', 'DNP', 8.2, 3.7, 'DNP', 24.6, 'DNP', 12.4, 9.9, 2.7, 4.1, 2.6, 0.6]
                     },
                     {
                         label: "Projected",
@@ -10804,7 +10608,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [7.1, 8.0, 'DNP', 'DNP', 'DNP', 8.8, 5.6, 'DNP', 3.7, 'BYE', 9.3, 6.1, 8.1, 3.8, 5.5, 8.3, 9.6]
+                        data: [7.1, 8.0, 'DNP', 'DNP', 'DNP', 8.8, 5.6, 'DNP', 3.7, 'DNP', 9.3, 6.1, 8.1, 3.8, 5.5, 8.3, 9.6]
                     },
                     {
                         label: "68% Min",
@@ -10813,7 +10617,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [7.6, 2.3, 'DNP', 'DNP', 'DNP', 0.0, 2.3, 'DNP', 2.2, 'BYE', 0.0, 0.7, 0.8, 0.0, 0.0, 0.8, 0.0]
+                        data: [7.6, 2.3, 'DNP', 'DNP', 'DNP', 0.0, 2.3, 'DNP', 2.2, 'DNP', 0.0, 0.7, 0.8, 0.0, 0.0, 0.8, 0.0]
                     },
                     {
                         label: "68% Max",
@@ -10823,105 +10627,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [13.3, 11.2, 'DNP', 'DNP', 'DNP', 7.7, 10.9, 'DNP', 13.1, 'BYE', 11.6, 11.6, 11.7, 7.6, 13.0, 9.9, 12.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115394.png",
-    "name": "D.J. Chark",
-    "depthchart": "Starter: WR-1",
-    "team": "Jacksonville Jaguars",
-    "projected": 9.5,
-    "opponent": "Indianapolis Colts",
-    "home_away": "at ",
-    "opp_rank_Neu": 18,
-    "team_rank_Neu": 20,
-    "avg_fp2": 9.78,
-    "opp_rank_allowed_fp2_Neu": 20,
-    "opp_avg_allowed_fp2": 30.61,
-    "fanduelSalary": "$6000",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Shin",
-    "tmColorLite": "#006778",
-    "tmColorDark": "#101820",
-    "tmColorLite_rgba": "rgba(0, 103, 120, 0.2)",
-    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
-    "tmTextLite": "#006778",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "D.J. Chark (shin) did not practice Wednesday.\n",
-    "report": "",
-    "analysis": "Coming off a 4-62-1 line on seven targets in Week 16, Chark scored his first touchdown since Week 9. If he were to miss against the Colts, Laviska Shenault, Chris Conley, and Keelan Cole would likely make up the Jags' three-wide set.\n",
-    "timestamp": "2020-12-30 09:42 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 10.0,
-    "week02": 10.4,
-    "week03": "DNP",
-    "week04": 25.5,
-    "week05": 3.1,
-    "week06": 8.0,
-    "week07": 3.1,
-    "week08": "BYE",
-    "week09": 24.1,
-    "week10": 7.6,
-    "week11": 6.1,
-    "week12": "DNP",
-    "week13": 5.1,
-    "week14": 2.6,
-    "week15": 7.3,
-    "week16": 14.2,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
-                         backgroundColor:  "rgba(0, 103, 120, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [10.0, 10.4, 'DNP', 25.5, 3.1, 8.0, 3.1, 'BYE', 24.1, 7.6, 6.1, 'DNP', 5.1, 2.6, 7.3, 14.2]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [13.9, 11.1, 'DNP', 5.5, 10.3, 13.5, 8.9, 'BYE', 10.6, 16.0, 8.0, 'DNP', 10.8, 13.9, 8.0, 7.2, 9.5]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [2.0, 0.0, 'DNP', 5.0, 0.7, 0.0, 0.0, 'BYE', 0.5, 1.7, 0.1, 'DNP', 0.2, 1.2, 1.2, 7.7, 1.6]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(0, 103, 120, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [19.0, 15.1, 'DNP', 16.6, 17.6, 12.1, 19.2, 'BYE', 17.3, 15.1, 15.0, 'DNP', 16.0, 19.1, 15.8, 24.0, 15.6]
+                        data: [13.3, 11.2, 'DNP', 'DNP', 'DNP', 7.7, 10.9, 'DNP', 13.1, 'DNP', 11.6, 11.6, 11.7, 7.6, 13.0, 9.9, 12.6]
                     }
                     
                     ]
@@ -11040,19 +10746,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 29.89,
     "fanduelSalary": "$5000",
     "hasStatus": "Status",
-    "healthOut": "Reserve-covid-19",
-    "injury": "Undisclosed",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#C60C30",
     "tmColorDark": "#005596",
     "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills placed WR John Brown on the reserve/COVID list.\n",
+    "headlineNews": "Bills activated WR\u00a0John Brown from the\u00a0reserve/COVID-19 list.\n",
     "report": "",
-    "analysis": "Brown was a close contact of T.J. Yeldon, who tested positive for COVID-19 over the weekend. Brown need only test negative and stay isolated for five consecutive days to return in time for Buffalo's Week 17 game against the Dolphins. It's possible the team still chooses to hold him out until the Wild Card round if it has nothing to play for in the regular season finale.\n",
-    "timestamp": "2020-12-28 09:49 PM",
-    "source": "Chris Brown on Twitter",
+    "analysis": "Brown was cleared after being ruled a\u00a0close contact of T.J. Yeldon, who tested positive for COVID-19. Already activated from IR, this puts Brown on track to play in\u00a0Buffalo's Week 17 game against the Dolphins. Brown's return comes at a good time with Cole Beasley (knee) sidelined.\u00a0\n",
+    "timestamp": "2021-01-01 03:21 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": 16.0,
     "week02": 16.2,
@@ -11222,104 +10928,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576716.png",
-    "name": "Jamison Crowder",
-    "depthchart": "Reserve: WR-3",
-    "team": "New York Jets",
-    "projected": 9.0,
-    "opponent": "New England Patriots",
-    "home_away": "at ",
-    "opp_rank_Neu": 7,
-    "team_rank_Neg": 32,
-    "avg_fp2": 12.49,
-    "opp_rank_allowed_fp2_Neg": 6,
-    "opp_avg_allowed_fp2": 27.17,
-    "fanduelSalary": "$6400",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#125740",
-    "tmColorDark": "#003f2d",
-    "tmColorLite_rgba": "rgba(18, 87, 64, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "Jamison Crowder caught 7-of-9 targets for 92 yards and one touchdown in the Jets' Week 16 win over the Browns.\n",
-    "report": "",
-    "analysis": "With CB Denzel Ward handling business on the outside, Crowder dominated from the slot with big plays down the field and chain-moving yards underneath. After dealing with soft-tissue injuries, Crowder has shown more of a ceiling over the last month. To round out his box score, Crowder had a 43-yard passing touchdown to Braxton Berrios on a reverse. Hopefully that was the difference in winning a fantasy championship. The Jets will close the season in New England next Sunday.\n",
-    "timestamp": "2020-12-27 10:09 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 21.0,
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": 13.9,
-    "week05": 21.6,
-    "week06": 8.3,
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": 9.6,
-    "week10": "BYE",
-    "week11": 2.1,
-    "week12": 4.6,
-    "week13": 19.2,
-    "week14": 1.7,
-    "week15": 9.6,
-    "week16": 25.82,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1
-                         backgroundColor:  "rgba(18, 87, 64, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [21.0, 'DNP', 'DNP', 13.9, 21.6, 8.3, 'DNP', 'DNP', 9.6, 'BYE', 2.1, 4.6, 19.2, 1.7, 9.6, 25.82]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [6.4, 'DNP', 'DNP', 10.0, 6.7, 8.9, 'DNP', 'DNP', 6.0, 'BYE', 6.7, 5.3, 6.6, 1.3, 4.1, 6.4, 9.0]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [2.2, 'DNP', 'DNP', 2.4, 2.3, 2.8, 'DNP', 'DNP', 3.6, 'BYE', 3.0, 2.2, 2.9, 2.4, 2.0, 3.5, 2.5]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(18, 87, 64, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [13.5, 'DNP', 'DNP', 14.9, 14.4, 15.7, 'DNP', 'DNP', 14.8, 'BYE', 15.7, 14.9, 14.2, 14.8, 14.1, 14.7, 15.4]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13934.png",
     "name": "Antonio Brown",
     "depthchart": "Backup: WR-2",
@@ -11412,6 +11020,104 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 17.9, 13.6, 17.1, 16.7, 'BYE', 20.4, 14.6, 24.6, 18.7]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576716.png",
+    "name": "Jamison Crowder",
+    "depthchart": "Reserve: WR-3",
+    "team": "New York Jets",
+    "projected": 9.0,
+    "opponent": "New England Patriots",
+    "home_away": "at ",
+    "opp_rank_Neu": 7,
+    "team_rank_Neg": 32,
+    "avg_fp2": 12.49,
+    "opp_rank_allowed_fp2_Neg": 6,
+    "opp_avg_allowed_fp2": 27.17,
+    "fanduelSalary": "$6400",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#125740",
+    "tmColorDark": "#003f2d",
+    "tmColorLite_rgba": "rgba(18, 87, 64, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
+    "tmTextLite": "#FFFFFF",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+    "headlineNews": "Jamison Crowder caught 7-of-9 targets for 92 yards and one touchdown in the Jets' Week 16 win over the Browns.\n",
+    "report": "",
+    "analysis": "With CB Denzel Ward handling business on the outside, Crowder dominated from the slot with big plays down the field and chain-moving yards underneath. After dealing with soft-tissue injuries, Crowder has shown more of a ceiling over the last month. To round out his box score, Crowder had a 43-yard passing touchdown to Braxton Berrios on a reverse. Hopefully that was the difference in winning a fantasy championship. The Jets will close the season in New England next Sunday.\n",
+    "timestamp": "2020-12-27 10:09 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 21.0,
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": 13.9,
+    "week05": 21.6,
+    "week06": 8.3,
+    "week07": "DNP",
+    "week08": "DNP",
+    "week09": 9.6,
+    "week10": "DNP",
+    "week11": 2.1,
+    "week12": 4.6,
+    "week13": 19.2,
+    "week14": 1.7,
+    "week15": 9.6,
+    "week16": 25.82,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1
+                         backgroundColor:  "rgba(18, 87, 64, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [21.0, 'DNP', 'DNP', 13.9, 21.6, 8.3, 'DNP', 'DNP', 9.6, 'DNP', 2.1, 4.6, 19.2, 1.7, 9.6, 25.82]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [6.4, 'DNP', 'DNP', 10.0, 6.7, 8.9, 'DNP', 'DNP', 6.0, 'DNP', 6.7, 5.3, 6.6, 1.3, 4.1, 6.4, 9.0]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [2.2, 'DNP', 'DNP', 2.4, 2.3, 2.8, 'DNP', 'DNP', 3.6, 'DNP', 3.0, 2.2, 2.9, 2.4, 2.0, 3.5, 2.5]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(18, 87, 64, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [13.5, 'DNP', 'DNP', 14.9, 14.4, 15.7, 'DNP', 'DNP', 14.8, 'DNP', 15.7, 14.9, 14.2, 14.8, 14.1, 14.7, 15.4]
                     }
                     
                     ]
@@ -11516,6 +11222,104 @@ $scope.positionWR = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3120348.png",
+    "name": "JuJu Smith-Schuster",
+    "depthchart": "Reserve: WR-3",
+    "team": "Pittsburgh Steelers",
+    "projected": 8.4,
+    "opponent": "Cleveland Browns",
+    "home_away": "at ",
+    "opp_rank_Neu": 21,
+    "team_rank_Neu": 16,
+    "avg_fp2": 11.34,
+    "opp_rank_allowed_fp2_Neu": 21,
+    "opp_avg_allowed_fp2": 30.66,
+    "fanduelSalary": "$6800",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#FFB612",
+    "tmColorDark": "#000000",
+    "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
+    "tmTextLite": "#FFB612",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+    "headlineNews": "JuJu Smith-Schuster caught 9-of-13 targets for 96 yards and one score in Pittsburgh's Week 16 win over the Colts.\n",
+    "report": "",
+    "analysis": "Smith-Schuster's receiving yards were a new season-high mark. His nine catches also tied the\u00a0high number he's already accomplished twice this year. Smith-Schuster wasn't leaned on\u00a0much in the first half as Ben Roethlisberger tossed for 98 yards in that time, but the former's 25-yard touchdown over two defenders resulted in the game-winning score with 7:43 remaining in the final quarter. With the AFC North now clinched, fantasy players should expect Pittsburgh's starters (Smith-Schuster included) to hit the pine in Week 17 against the Browns. Smith-Schuster will return in the Wild Card round as a high-floor DFS option for three-game slates.\n",
+    "timestamp": "2020-12-28 12:32 AM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 21.9,
+    "week02": 8.3,
+    "week03": 14.3,
+    "week04": "DNP",
+    "week05": 4.8,
+    "week06": 1.6,
+    "week07": 13.0,
+    "week08": 10.2,
+    "week09": 18.3,
+    "week10": 18.2,
+    "week11": 3.9,
+    "week12": 13.7,
+    "week13": 6.3,
+    "week14": 14.5,
+    "week15": 1.0,
+    "week16": 20.1,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 182, 18, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [21.9, 8.3, 14.3, 'DNP', 4.8, 1.6, 13.0, 10.2, 18.3, 18.2, 3.9, 13.7, 6.3, 14.5, 1.0, 20.1]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [13.2, 17.5, 16.4, 'DNP', 15.1, 7.2, 9.6, 9.0, 10.5, 5.6, 11.5, 7.9, 9.6, 10.0, 6.8, 9.6, 8.4]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [3.5, 3.5, 14.0, 'DNP', 4.9, 2.5, 2.1, 5.4, 4.3, 3.6, 5.7, 3.0, 4.6, 4.7, 4.8, 4.7, 4.7]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 182, 18, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [18.9, 20.7, 25.8, 'DNP', 19.7, 20.3, 19.2, 20.7, 18.8, 20.3, 20.2, 18.5, 19.9, 19.8, 18.7, 19.6, 17.5]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241802.png",
     "name": "Jalen Reagor",
     "depthchart": "Starter: WR-1",
@@ -11608,104 +11412,6 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [10.3, 7.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.2, 'BYE', 12.8, 11.5, 9.7, 7.0, 9.9, 9.2, 9.8, 9.3]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3120348.png",
-    "name": "JuJu Smith-Schuster",
-    "depthchart": "Reserve: WR-3",
-    "team": "Pittsburgh Steelers",
-    "projected": 8.4,
-    "opponent": "Cleveland Browns",
-    "home_away": "at ",
-    "opp_rank_Neu": 21,
-    "team_rank_Neu": 16,
-    "avg_fp2": 11.34,
-    "opp_rank_allowed_fp2_Neu": 21,
-    "opp_avg_allowed_fp2": 30.66,
-    "fanduelSalary": "$6800",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#FFB612",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#FFB612",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "JuJu Smith-Schuster caught 9-of-13 targets for 96 yards and one score in Pittsburgh's Week 16 win over the Colts.\n",
-    "report": "",
-    "analysis": "Smith-Schuster's receiving yards were a new season-high mark. His nine catches also tied the\u00a0high number he's already accomplished twice this year. Smith-Schuster wasn't leaned on\u00a0much in the first half as Ben Roethlisberger tossed for 98 yards in that time, but the former's 25-yard touchdown over two defenders resulted in the game-winning score with 7:43 remaining in the final quarter. With the AFC North now clinched, fantasy players should expect Pittsburgh's starters (Smith-Schuster included) to hit the pine in Week 17 against the Browns. Smith-Schuster will return in the Wild Card round as a high-floor DFS option for three-game slates.\n",
-    "timestamp": "2020-12-28 12:32 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 21.9,
-    "week02": 8.3,
-    "week03": 14.3,
-    "week04": "BYE",
-    "week05": 4.8,
-    "week06": 1.6,
-    "week07": 13.0,
-    "week08": 10.2,
-    "week09": 18.3,
-    "week10": 18.2,
-    "week11": 3.9,
-    "week12": 13.7,
-    "week13": 6.3,
-    "week14": 14.5,
-    "week15": 1.0,
-    "week16": 20.1,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 182, 18, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [21.9, 8.3, 14.3, 'BYE', 4.8, 1.6, 13.0, 10.2, 18.3, 18.2, 3.9, 13.7, 6.3, 14.5, 1.0, 20.1]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [13.2, 17.5, 16.4, 'BYE', 15.1, 7.2, 9.6, 9.0, 10.5, 5.6, 11.5, 7.9, 9.6, 10.0, 6.8, 9.6, 8.4]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [3.5, 3.5, 14.0, 'BYE', 4.9, 2.5, 2.1, 5.4, 4.3, 3.6, 5.7, 3.0, 4.6, 4.7, 4.8, 4.7, 4.7]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 182, 18, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [18.9, 20.7, 25.8, 'BYE', 19.7, 20.3, 19.2, 20.7, 18.8, 20.3, 20.2, 18.5, 19.9, 19.8, 18.7, 19.6, 17.5]
                     }
                     
                     ]
@@ -11824,19 +11530,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 29.26,
     "fanduelSalary": "$6600",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Groin",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#0085CA",
     "tmColorDark": "#101820",
     "tmColorLite_rgba": "rgba(0, 133, 202, 0.2)",
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#0085CA",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Robby Anderson (groin) did not practice Wednesday.\n",
+    "headlineNews": "Robby Anderson (groin) returned to Panthers practice on Thursday, getting in a \"full\" session.\u00a0\n",
     "report": "",
-    "analysis": "With Christian McCaffrey (quad) and Mike Davis (ankle) already out for Week 17, the Panthers could be without some key playmakers against the Saints. It's a new injury for Anderson, and a DNP to start the week is an ominous sign for a soft-tissue issue. Curtis Samuel and D.J. Moore would be big beneficiaries should Anderson sit.\n",
-    "timestamp": "2020-12-30 10:04 PM",
-    "source": null,
+    "analysis": "It turns out Wednesday was just a maintenance day. With D.J. Moore producing more of late and Curtis Samuel commanding greater workloads, Anderson has devolved into a WR3 option after spending most of the year in the top 20.\u00a0\u00a0\n",
+    "timestamp": "2020-12-31 08:23 PM",
+    "source": "Alaina Getzenberg on Twitter ",
     "game_day_logo": "",
     "week01": 22.5,
     "week02": 13.4,
@@ -11902,6 +11608,104 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [17.6, 16.3, 15.3, 22.2, 17.4, 15.6, 17.1, 15.7, 14.9, 15.5, 15.0, 14.3, 'BYE', 15.9, 13.9, 14.7, 16.1]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976592.png",
+    "name": "Sterling Shepard",
+    "depthchart": "Backup: WR-2",
+    "team": "New York Giants",
+    "projected": 8.1,
+    "opponent": "Dallas Cowboys",
+    "home_away": "",
+    "opp_rank_Neu": 11,
+    "team_rank_Neg": 29,
+    "avg_fp2": 9.08,
+    "opp_rank_allowed_fp2_Pos": 29,
+    "opp_avg_allowed_fp2": 34.99,
+    "fanduelSalary": "$5500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#A71930",
+    "tmColorDark": "#0B2265",
+    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
+    "tmTextLite": "#A71930",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+    "headlineNews": "Golden Tate (calf) is out for Week 17 against the Cowboys.\u00a0\n",
+    "report": "",
+    "analysis": "Tate suffered the injury in practice last week and missed Week 16. Sterling Shepard, who caught 9-of-12 targets for 77 yards and a touchdown last week against Baltimore, should continue benefiting from Tate's absence. Shepard will be a low-end WR2 with some PPR upside against Dallas.\u00a0\n",
+    "timestamp": "2021-01-01 08:16 PM",
+    "source": "Zack Blatt on Twitter ",
+    "game_day_logo": "",
+    "week01": 7.7,
+    "week02": 4.5,
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": 14.9,
+    "week08": 11.4,
+    "week09": 8.7,
+    "week10": 7.7,
+    "week11": "BYE",
+    "week12": 10.3,
+    "week13": 4.7,
+    "week14": 5.0,
+    "week15": 6.8,
+    "week16": 18.2,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1
+                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [7.7, 4.5, 'DNP', 'DNP', 'DNP', 'DNP', 14.9, 11.4, 8.7, 7.7, 'BYE', 10.3, 4.7, 5.0, 6.8, 18.2]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [14.8, 12.7, 'DNP', 'DNP', 'DNP', 'DNP', 5.4, 3.8, 6.6, 8.2, 'BYE', 8.3, 7.7, 4.3, 4.6, 5.2, 8.1]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [2.9, 4.1, 'DNP', 'DNP', 'DNP', 'DNP', 4.5, 4.4, 2.5, 5.0, 'BYE', 4.1, 5.6, 4.6, 3.9, 5.1, 3.6]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [16.3, 15.2, 'DNP', 'DNP', 'DNP', 'DNP', 18.0, 16.1, 16.0, 16.2, 'BYE', 15.4, 16.3, 16.0, 14.7, 15.4, 14.9]
                     }
                     
                     ]
@@ -12006,6 +11810,104 @@ $scope.positionWR = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576623.png",
+    "name": "DeVante Parker",
+    "depthchart": "Starter: WR-1",
+    "team": "Miami Dolphins",
+    "projected": 7.9,
+    "opponent": "Buffalo Bills",
+    "home_away": "at ",
+    "opp_rank_Neu": 8,
+    "team_rank_Neg": 25,
+    "avg_fp2": 9.21,
+    "opp_rank_allowed_fp2_Neg": 3,
+    "opp_avg_allowed_fp2": 25.91,
+    "fanduelSalary": "$6100",
+    "hasStatus": "Status",
+    "healthQue": "Questionable",
+    "injury": "Hamstring",
+    "tmColorLite": "#008E97",
+    "tmColorDark": "#005778",
+    "tmColorLite_rgba": "rgba(0, 142, 151, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
+    "tmTextLite": "#f5821f",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+    "headlineNews": "DeVante Parker (hamstring) is questionable for Week 17 against the Bills.\n",
+    "report": "",
+    "analysis": "As is Jakeem Grant. Both were limited on Friday and should play since the Dolphins are still vying for a Wild Card berth, but nothing's guaranteed after Parker failed to turn around for Saturday's win over the Raiders. With Myles Gaskin emerging ahead of Salvon Ahmed, it's possible Miami chooses to lean on the run to beat Buffalo's reserves, anyhow. Parker should only be considered a WR3 for the regular season finale.\n",
+    "timestamp": "2021-01-01 06:09 PM",
+    "source": "Cameron Wolfe on Twitter",
+    "game_day_logo": "",
+    "week01": 6.7,
+    "week02": 13.8,
+    "week03": 9.4,
+    "week04": 16.0,
+    "week05": 12.0,
+    "week06": 5.0,
+    "week07": "DNP",
+    "week08": 6.8,
+    "week09": 9.4,
+    "week10": 4.1,
+    "week11": 15.1,
+    "week12": 15.9,
+    "week13": 5.5,
+    "week14": 0.0,
+    "week15": "DNP",
+    "week16": "DNP",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1
+                         backgroundColor:  "rgba(0, 142, 151, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [6.7, 13.8, 9.4, 16.0, 12.0, 5.0, 'DNP', 6.8, 9.4, 4.1, 15.1, 15.9, 5.5, 0.0, 'DNP', 'DNP']
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [13.9, 11.6, 11.6, 17.9, 9.6, 10.2, 'DNP', 9.7, 9.9, 8.1, 9.0, 8.6, 12.6, 10.9, 'DNP', 'DNP', 7.9]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [11.4, 3.6, 3.4, 1.8, 6.6, 4.4, 'DNP', 7.2, 1.2, 3.1, 3.0, 2.9, 2.8, 3.0, 'DNP', 'DNP', 3.9]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(0, 142, 151, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [20.8, 16.2, 17.0, 14.9, 18.1, 16.1, 'DNP', 17.0, 15.8, 15.3, 14.6, 14.6, 15.1, 15.9, 'DNP', 'DNP', 14.2]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121427.png",
     "name": "Curtis Samuel",
     "depthchart": "Reserve: WR-3",
@@ -12098,104 +12000,6 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [13.1, 13.2, 13.5, 14.6, 12.3, 'DNP', 12.8, 14.5, 14.6, 12.8, 15.6, 13.9, 'BYE', 14.4, 13.6, 13.7, 12.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2576623.png",
-    "name": "DeVante Parker",
-    "depthchart": "Starter: WR-1",
-    "team": "Miami Dolphins",
-    "projected": 7.9,
-    "opponent": "Buffalo Bills",
-    "home_away": "at ",
-    "opp_rank_Neu": 8,
-    "team_rank_Neg": 25,
-    "avg_fp2": 9.21,
-    "opp_rank_allowed_fp2_Neg": 3,
-    "opp_avg_allowed_fp2": 25.91,
-    "fanduelSalary": "$6100",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
-    "tmColorLite": "#008E97",
-    "tmColorDark": "#005778",
-    "tmColorLite_rgba": "rgba(0, 142, 151, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
-    "tmTextLite": "#f5821f",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "DeVante Parker (hamstring) was limited in Wednesday's practice.\n",
-    "report": "",
-    "analysis": "Parker has missed the last two games with his pulled hammy. He's been limited in practice during that time, so this limited session doesn't exactly mean much ahead of Week 17 against the Bills.\n",
-    "timestamp": "2020-12-30 09:45 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 6.7,
-    "week02": 13.8,
-    "week03": 9.4,
-    "week04": 16.0,
-    "week05": 12.0,
-    "week06": 5.0,
-    "week07": "BYE",
-    "week08": 6.8,
-    "week09": 9.4,
-    "week10": 4.1,
-    "week11": 15.1,
-    "week12": 15.9,
-    "week13": 5.5,
-    "week14": 0.0,
-    "week15": "DNP",
-    "week16": "DNP",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1
-                         backgroundColor:  "rgba(0, 142, 151, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [6.7, 13.8, 9.4, 16.0, 12.0, 5.0, 'BYE', 6.8, 9.4, 4.1, 15.1, 15.9, 5.5, 0.0, 'DNP', 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [13.9, 11.6, 11.6, 17.9, 9.6, 10.2, 'BYE', 9.7, 9.9, 8.1, 9.0, 8.6, 12.6, 10.9, 'DNP', 'DNP', 7.9]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [11.4, 3.6, 3.4, 1.8, 6.6, 4.4, 'BYE', 7.2, 1.2, 3.1, 3.0, 2.9, 2.8, 3.0, 'DNP', 'DNP', 3.9]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 87, 120, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(0, 142, 151, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [20.8, 16.2, 17.0, 14.9, 18.1, 16.1, 'BYE', 17.0, 15.8, 15.3, 14.6, 14.6, 15.1, 15.9, 'DNP', 'DNP', 14.2]
                     }
                     
                     ]
@@ -12332,7 +12136,7 @@ $scope.positionWR = [{
     "week02": 8.2,
     "week03": 8.0,
     "week04": 13.1,
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": 4.2,
     "week07": 3.0,
     "week08": 9.3,
@@ -12362,7 +12166,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [7.6, 8.2, 8.0, 13.1, 'BYE', 4.2, 3.0, 9.3, 22.0, 8.8, 5.2, 0.0, 1.0, 5.2, 2.4, 9.1]
+                         data: [7.6, 8.2, 8.0, 13.1, 'DNP', 4.2, 3.0, 9.3, 22.0, 8.8, 5.2, 0.0, 1.0, 5.2, 2.4, 9.1]
                     },
                     {
                         label: "Projected",
@@ -12372,7 +12176,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [5.6, 7.4, 10.1, 11.4, 'BYE', 6.4, 3.9, 10.1, 14.2, 11.4, 10.2, 11.0, 7.5, 6.6, 2.2, 2.5, 7.8]
+                        data: [5.6, 7.4, 10.1, 11.4, 'DNP', 6.4, 3.9, 10.1, 14.2, 11.4, 10.2, 11.0, 7.5, 6.6, 2.2, 2.5, 7.8]
                     },
                     {
                         label: "68% Min",
@@ -12381,7 +12185,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.9, 3.8, 7.3, 5.4, 'BYE', 1.7, 7.0, 5.2, 5.5, 5.5, 4.3, 3.0, 0.7, 2.5, 3.3, 2.1, 0.6]
+                        data: [0.9, 3.8, 7.3, 5.4, 'DNP', 1.7, 7.0, 5.2, 5.5, 5.5, 4.3, 3.0, 0.7, 2.5, 3.3, 2.1, 0.6]
                     },
                     {
                         label: "68% Max",
@@ -12391,7 +12195,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [10.2, 12.3, 13.2, 16.3, 'BYE', 9.7, 10.2, 11.6, 9.4, 17.3, 16.7, 11.0, 11.1, 14.7, 7.1, 13.5, 12.1]
+                        data: [10.2, 12.3, 13.2, 16.3, 'DNP', 9.7, 10.2, 11.6, 9.4, 17.3, 16.7, 11.0, 11.1, 14.7, 7.1, 13.5, 12.1]
                     }
                     
                     ]
@@ -12518,16 +12322,16 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
-    "headlineNews": "Chase Claypool caught 4-of-6 targets for 54 yards in Pittsburgh's Week 16 win against the Colts.\n",
+    "headlineNews": "Speaking Thursday, Chase Claypool said his snaps had been scaled back in recent weeks in an effort to avoid the \"rookie wall.\"\u00a0\n",
     "report": "",
-    "analysis": "Claypool was ignored until the second half when the Steelers trailed 24-7. It was then (and only then) that coach Mike Tomlin became interested in getting the rookie involved, scheming manufactured touches \u2014 a carry inside the 10-yard line, an inside screen, one downfield shot \u2014 for Claypool while down by three scores. With fewer than 60 receiving yards in six consecutive games, the\u00a0Steelers have clearly lost the plot on how to use Claypool effectively. He can be ignored until 2021 when the organization inevitably lets JuJu Smith-Schuster walk in free agency.\n",
-    "timestamp": "2020-12-28 03:24 AM",
-    "source": null,
+    "analysis": "\u201cCoach (Mike Tomlin)\u00a0has been in this game for a lot longer time than I have,\u201d Claypool said. \u201cWhether I believe (in the rookie wall)\u00a0or not, I think he knows what he\u2019s doing. I\u2019m feeling good now. What he did, whether it was necessary or not, I feel good heading into the playoffs.\u201d Claypool became the first rookie in NFL history to score 10 touchdowns across his first 10 games but has zero since, playing reduced snaps and posting disappointing target totals. His snaps did spike back to 79 percent in Week 16, suggesting the Steelers will once again unleash their young weapon in the postseason. Despite his slow finish, Claypool is an elite Dynasty hold in an elite rookie receiving class.\u00a0\n",
+    "timestamp": "2020-12-31 10:19 PM",
+    "source": "Profootballtalk on NBCSports.com",
     "game_day_logo": "",
     "week01": 5.7,
     "week02": 16.3,
     "week03": 2.9,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 39.1,
     "week06": 16.1,
     "week07": 0.0,
@@ -12558,7 +12362,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [5.7, 16.3, 2.9, 'BYE', 39.1, 16.1, 0.0, 10.7, 11.3, 19.3, 13.9, 8.2, 4.8, 3.0, 6.3, 7.4]
+                         data: [5.7, 16.3, 2.9, 'DNP', 39.1, 16.1, 0.0, 10.7, 11.3, 19.3, 13.9, 8.2, 4.8, 3.0, 6.3, 7.4]
                     },
                     {
                         label: "Projected",
@@ -12568,7 +12372,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [0.1, 4.2, 4.9, 'BYE', 4.3, 10.8, 13.0, 10.2, 9.3, 5.6, 15.0, 10.1, 10.2, 13.0, 8.7, 11.3, 7.2]
+                        data: [0.1, 4.2, 4.9, 'DNP', 4.3, 10.8, 13.0, 10.2, 9.3, 5.6, 15.0, 10.1, 10.2, 13.0, 8.7, 11.3, 7.2]
                     },
                     {
                         label: "68% Min",
@@ -12577,7 +12381,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 0.0, 0.1, 'BYE', 0.8, 3.2, 6.2, 0.0, 2.6, 0.0, 8.9, 2.5, 9.3, 3.1, 1.3, 5.4, 1.7]
+                        data: [0.0, 0.0, 0.1, 'DNP', 0.8, 3.2, 6.2, 0.0, 2.6, 0.0, 8.9, 2.5, 9.3, 3.1, 1.3, 5.4, 1.7]
                     },
                     {
                         label: "68% Max",
@@ -12587,7 +12391,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [6.5, 8.3, 7.1, 'BYE', 6.1, 14.1, 16.6, 13.4, 30.9, 27.1, 17.6, 16.6, 19.7, 24.2, 24.3, 18.0, 14.0]
+                        data: [6.5, 8.3, 7.1, 'DNP', 6.1, 14.1, 16.6, 13.4, 30.9, 27.1, 17.6, 16.6, 19.7, 24.2, 24.3, 18.0, 14.0]
                     }
                     
                     ]
@@ -12790,6 +12594,104 @@ $scope.positionWR = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3071572.png",
+    "name": "Keelan Cole",
+    "depthchart": "Starter: WR-1",
+    "team": "Jacksonville Jaguars",
+    "projected": 7.0,
+    "opponent": "Indianapolis Colts",
+    "home_away": "at ",
+    "opp_rank_Neu": 18,
+    "team_rank_Neu": 20,
+    "avg_fp2": 8.27,
+    "opp_rank_allowed_fp2_Neu": 20,
+    "opp_avg_allowed_fp2": 30.61,
+    "fanduelSalary": "$5100",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#006778",
+    "tmColorDark": "#101820",
+    "tmColorLite_rgba": "rgba(0, 103, 120, 0.2)",
+    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
+    "tmTextLite": "#006778",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+    "headlineNews": "Keelan Cole caught 3-of-4 targets for 26 yards in the Jaguars' Week 16 loss to the Bears.\n",
+    "report": "",
+    "analysis": "Cole has 47 yards or fewer in all but three games this season. He's way off the fantasy radar when D.J. Chark and Laviska Shenault are healthy as the Nos. 1 and 2 playmaking wideouts.\n",
+    "timestamp": "2020-12-27 09:56 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 13.2,
+    "week02": 14.8,
+    "week03": 6.3,
+    "week04": 6.6,
+    "week05": 9.7,
+    "week06": 17.3,
+    "week07": 1.7,
+    "week08": "DNP",
+    "week09": 1.1,
+    "week10": 19.2,
+    "week11": 3.6,
+    "week12": 5.9,
+    "week13": 1.2,
+    "week14": 16.2,
+    "week15": 3.2,
+    "week16": 4.1,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
+                         backgroundColor:  "rgba(0, 103, 120, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [13.2, 14.8, 6.3, 6.6, 9.7, 17.3, 1.7, 'DNP', 1.1, 19.2, 3.6, 5.9, 1.2, 16.2, 3.2, 4.1]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [-0.5, 5.9, 8.4, 5.7, 6.3, 7.9, 6.7, 'DNP', 8.7, 6.7, 7.9, 8.4, 8.6, 6.2, 5.6, 5.9, 7.0]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.0, 1.2, 3.8, 1.2, 1.0, 1.3, 0.0, 'DNP', 2.0, 4.6, 3.6, 0.0, 2.2, 0.2, 2.1, 0.2, 1.8]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(0, 103, 120, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [12.2, 11.6, 12.6, 11.2, 10.4, 11.3, 10.9, 'DNP', 14.5, 16.0, 13.0, 13.2, 12.8, 10.6, 13.9, 13.5, 11.8]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241475.png",
     "name": "Henry Ruggs",
     "depthchart": "Backup: WR-2",
@@ -12888,6 +12790,104 @@ $scope.positionWR = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4243160.png",
+    "name": "Laviska Shenault",
+    "depthchart": "Backup: WR-2",
+    "team": "Jacksonville Jaguars",
+    "projected": 6.9,
+    "opponent": "Indianapolis Colts",
+    "home_away": "at ",
+    "opp_rank_Neu": 18,
+    "team_rank_Neu": 20,
+    "avg_fp2": 8.19,
+    "opp_rank_allowed_fp2_Neu": 20,
+    "opp_avg_allowed_fp2": 30.61,
+    "fanduelSalary": "$5500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#006778",
+    "tmColorDark": "#101820",
+    "tmColorLite_rgba": "rgba(0, 103, 120, 0.2)",
+    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
+    "tmTextLite": "#006778",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+    "headlineNews": "Laviska Shenault caught 5-of-7 targets for 48 yards and one touchdown in the Jaguars' Week 16 loss to the Bears.\n",
+    "report": "",
+    "analysis": "The rookie tied D.J. Chark for the team lead in targets but caught one more pass than Chark. Shenault's touchdown was a 34-yarder in straight garbage time with the Jaguars down 41-10 deep in the fourth quarter. It was his third receiving score of the year. He hasn't topped 49 yards in a game since Week 5. Shenault isn't a recommended fantasy play for Week 17 against the Colts.\n",
+    "timestamp": "2020-12-27 09:52 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": 11.6,
+    "week05": 11.4,
+    "week06": 2.6,
+    "week07": 5.9,
+    "week08": "DNP",
+    "week09": 0.4,
+    "week10": "DNP",
+    "week11": "DNP",
+    "week12": 5.2,
+    "week13": 14.3,
+    "week14": 8.1,
+    "week15": 6.9,
+    "week16": 13.3,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
+                         backgroundColor:  "rgba(0, 103, 120, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: ['DNP', 'DNP', 'DNP', 11.6, 11.4, 2.6, 5.9, 'DNP', 0.4, 'DNP', 'DNP', 5.2, 14.3, 8.1, 6.9, 13.3]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 5.0, 6.9, 9.3, 6.0, 'DNP', 9.0, 'DNP', 'DNP', 7.9, 8.8, 10.4, 4.5, 5.0, 6.9]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 1.9, 0.0, 1.1, 5.4, 'DNP', 3.5, 'DNP', 'DNP', 1.4, 1.8, 3.8, 7.5, 8.0, 0.0]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(0, 103, 120, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: ['DNP', 'DNP', 'DNP', 9.5, 13.3, 12.5, 10.7, 'DNP', 9.6, 'DNP', 'DNP', 8.1, 10.0, 13.1, 15.3, 14.1, 4.7]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13215.png",
     "name": "Dez Bryant",
     "depthchart": "Reserve: WR-3",
@@ -12922,7 +12922,7 @@ $scope.positionWR = [{
     "week04": "DNP",
     "week05": "DNP",
     "week06": "DNP",
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": "DNP",
     "week09": "DNP",
     "week10": "DNP",
@@ -12950,7 +12950,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 'DNP', 'DNP', 7.6, 7.3]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 'DNP', 'DNP', 7.6, 7.3]
                     },
                     {
                         label: "Projected",
@@ -12960,7 +12960,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 6.9, 'DNP', 'DNP', 6.5, 5.1, 6.8]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 6.9, 'DNP', 'DNP', 6.5, 5.1, 6.8]
                     },
                     {
                         label: "68% Min",
@@ -12969,7 +12969,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 4.6, 'DNP', 'DNP', 5.3, 4.4, 4.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 4.6, 'DNP', 'DNP', 5.3, 4.4, 4.5]
                     },
                     {
                         label: "68% Max",
@@ -12979,7 +12979,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 21.2, 'DNP', 'DNP', 22.1, 20.1, 20.4]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 21.2, 'DNP', 'DNP', 22.1, 20.1, 20.4]
                     }
                     
                     ]
@@ -13000,19 +13000,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 28.09,
     "fanduelSalary": "$5800",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Concussion",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#ea7330",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(234, 115, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#ea7330",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-    "headlineNews": "Tyler Boyd (concussion) was limited in Wednesday's practice.\n",
+    "headlineNews": "Tyler Boyd (concussion) will play in Week 17 against the Ravens.\n",
     "report": "",
-    "analysis": "He's still in the league's protocol after getting concussed in Week 15 and missing Week 16. The limited start to the week is a step in the right direction for the season finale, however.\n",
-    "timestamp": "2020-12-30 10:05 PM",
-    "source": null,
+    "analysis": "Both Tee Higgins and Boyd practiced in full on Friday and were removed from the injury report. Although the Bengals' receivers room is trending towards full health in the season finale, Sunday's matchup against the Ravens is still one that fantasy players should look to avoid. In a vacuum, Higgins ranks higher than Boyd with Brandon Allen back under center.\n",
+    "timestamp": "2021-01-01 08:48 PM",
+    "source": "Geoff Hobson on Twitter",
     "game_day_logo": "",
     "week01": 5.3,
     "week02": 16.7,
@@ -13115,7 +13115,7 @@ $scope.positionWR = [{
     "week01": "DNP",
     "week02": "DNP",
     "week03": 0.0,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": "DNP",
     "week06": 1.8,
     "week07": "DNP",
@@ -13146,7 +13146,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 0.0, 'BYE', 'DNP', 1.8, 'DNP', 'DNP', 1.1, 1.8, 3.5, 0.5, 8.9, 0.0, 0.0, 1.7]
+                         data: ['DNP', 'DNP', 0.0, 'DNP', 'DNP', 1.8, 'DNP', 'DNP', 1.1, 1.8, 3.5, 0.5, 8.9, 0.0, 0.0, 1.7]
                     },
                     {
                         label: "Projected",
@@ -13156,7 +13156,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 2.8, 'BYE', 'DNP', 2.0, 'DNP', 'DNP', 0.0, -1.4, 3.0, 0.8, 1.6, 6.1, 3.8, 3.0, 6.7]
+                        data: ['DNP', 'DNP', 2.8, 'DNP', 'DNP', 2.0, 'DNP', 'DNP', 0.0, -1.4, 3.0, 0.8, 1.6, 6.1, 3.8, 3.0, 6.7]
                     },
                     {
                         label: "68% Min",
@@ -13165,7 +13165,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 0.9, 'BYE', 'DNP', 0.0, 'DNP', 'DNP', 0.0, 0.5, 0.6, 0.2, 0.5, 0.0, 0.1, 0.6, 0.5]
+                        data: ['DNP', 'DNP', 0.9, 'DNP', 'DNP', 0.0, 'DNP', 'DNP', 0.0, 0.5, 0.6, 0.2, 0.5, 0.0, 0.1, 0.6, 0.5]
                     },
                     {
                         label: "68% Max",
@@ -13175,7 +13175,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 4.3, 'BYE', 'DNP', 1.8, 'DNP', 'DNP', 2.7, 2.4, 3.0, 3.3, 3.3, 2.5, 3.5, 3.3, 3.0]
+                        data: ['DNP', 'DNP', 4.3, 'DNP', 'DNP', 1.8, 'DNP', 'DNP', 2.7, 2.4, 3.0, 3.3, 3.3, 2.5, 3.5, 3.3, 3.0]
                     }
                     
                     ]
@@ -13204,18 +13204,18 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "tmTextLite": "#0080C6",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Mike Williams caught 4-of-10 targets for 54 yards in the Chargers' Week 16 win over the Broncos.\n",
+    "headlineNews": "Keenan Allen (hamstring) did not practice Thursday.\u00a0\n",
     "report": "",
-    "analysis": "Operating as the alpha No. 1 receiver with Keenan Allen and Hunter Henry sidelined, Williams had a day of almost big plays. Williams nearly came down with multiple red zone targets for touchdowns but had them poked away. Of course, Williams caught the Drew Lock interception to seal the win. The Chargers could end the season in Kansas City with Allen and Henry on the bench, giving the former Clemson standout another shot at being the lead dog for Justin Herbert.\n",
-    "timestamp": "2020-12-28 12:19 AM",
-    "source": null,
+    "analysis": "It's no surprise, as Allen is not expected to suit up in Week 17 against KC. The veteran missed Week 16 after hobbling through some of the team's Week 15 game.\u00a0Mike Williams, Jalen Guyton, and Tyron Johnson are all very much in play this week against the Chiefs, who are expected to rest many of their\u00a0starters.\u00a0\n",
+    "timestamp": "2020-12-31 08:26 PM",
+    "source": "Daniel Popper on Twitter",
     "game_day_logo": "",
     "week01": 8.9,
     "week02": 2.4,
     "week03": 2.2,
     "week04": "DNP",
     "week05": 25.4,
-    "week06": "BYE",
+    "week06": "DNP",
     "week07": 0.9,
     "week08": 18.5,
     "week09": 10.6,
@@ -13244,7 +13244,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [8.9, 2.4, 2.2, 'DNP', 25.4, 'BYE', 0.9, 18.5, 10.6, 4.8, 15.2, 4.1, 6.3, 0.0, 3.2, 7.4]
+                         data: [8.9, 2.4, 2.2, 'DNP', 25.4, 'DNP', 0.9, 18.5, 10.6, 4.8, 15.2, 4.1, 6.3, 0.0, 3.2, 7.4]
                     },
                     {
                         label: "Projected",
@@ -13254,7 +13254,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [8.3, 6.9, 5.6, 'DNP', 6.3, 'BYE', 9.8, 6.7, 7.2, 12.4, 11.9, 12.6, 10.5, 13.3, 9.2, 12.9, 6.6]
+                        data: [8.3, 6.9, 5.6, 'DNP', 6.3, 'DNP', 9.8, 6.7, 7.2, 12.4, 11.9, 12.6, 10.5, 13.3, 9.2, 12.9, 6.6]
                     },
                     {
                         label: "68% Min",
@@ -13263,7 +13263,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [3.0, 1.7, 0.6, 'DNP', 0.0, 'BYE', 3.7, 2.0, 1.9, 4.1, 1.5, 4.3, 4.7, 4.6, 5.0, 2.8, 2.6]
+                        data: [3.0, 1.7, 0.6, 'DNP', 0.0, 'DNP', 3.7, 2.0, 1.9, 4.1, 1.5, 4.3, 4.7, 4.6, 5.0, 2.8, 2.6]
                     },
                     {
                         label: "68% Max",
@@ -13273,7 +13273,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [12.7, 12.7, 11.1, 'DNP', 10.5, 'BYE', 13.8, 14.8, 15.3, 15.0, 12.4, 13.1, 14.2, 13.8, 15.5, 13.1, 13.6]
+                        data: [12.7, 12.7, 11.1, 'DNP', 10.5, 'DNP', 13.8, 14.8, 15.3, 15.0, 12.4, 13.1, 14.2, 13.8, 15.5, 13.1, 13.6]
                     }
                     
                     ]
@@ -13312,7 +13312,7 @@ $scope.positionWR = [{
     "week02": "DNP",
     "week03": "DNP",
     "week04": "DNP",
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": "DNP",
     "week07": "DNP",
     "week08": "DNP",
@@ -13342,7 +13342,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 10.9, 8.1, 14.4, 0.0, 18.4, 11.1, 2.9, 5.4]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.9, 8.1, 14.4, 0.0, 18.4, 11.1, 2.9, 5.4]
                     },
                     {
                         label: "Projected",
@@ -13352,7 +13352,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 8.1, 5.7, 5.4, 6.9, 6.0, 10.4, 5.7, 6.1, 6.4]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.1, 5.7, 5.4, 6.9, 6.0, 10.4, 5.7, 6.1, 6.4]
                     },
                     {
                         label: "68% Min",
@@ -13361,7 +13361,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 1.5, 0.9, 5.6, 1.2, 0.1, 1.7, 5.5, 1.2, 0.9]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 1.5, 0.9, 5.6, 1.2, 0.1, 1.7, 5.5, 1.2, 0.9]
                     },
                     {
                         label: "68% Max",
@@ -13371,301 +13371,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 8.8, 8.0, 10.4, 7.4, 8.8, 12.3, 13.5, 10.8, 10.9]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/11283.png",
-    "name": "DeSean Jackson",
-    "depthchart": "Backup: WR-2",
-    "team": "Philadelphia Eagles",
-    "projected": 6.4,
-    "opponent": "Washington Football Team",
-    "home_away": "",
-    "opp_rank_Neg": 3,
-    "team_rank_Neg": 27,
-    "avg_fp2": 7.56,
-    "opp_rank_allowed_fp2_Neg": 5,
-    "opp_avg_allowed_fp2": 26.87,
-    "fanduelSalary": "$5400",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ankle",
-    "tmColorLite": "#386168",
-    "tmColorDark": "#004C54",
-    "tmColorLite_rgba": "rgba(56, 97, 104, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "DeSean Jackson (ankle) is not practicing Wednesday.\n",
-    "report": "",
-    "analysis": "Jackson returned from his I.R. stint last week, so this might be more of a maintenance day. He caught an 81-yard touchdown from Jalen Hurts in the Week 16 loss to the Cowboys.\n",
-    "timestamp": "2020-12-31 05:31 PM",
-    "source": null,
-    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
-    "week01": 5.6,
-    "week02": 9.4,
-    "week03": 2.1,
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "DNP",
-    "week07": 6.1,
-    "week08": "DNP",
-    "week09": "BYE",
-    "week10": "DNP",
-    "week11": "DNP",
-    "week12": "DNP",
-    "week13": "DNP",
-    "week14": "DNP",
-    "week15": "DNP",
-    "week16": 14.6,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1
-                         backgroundColor:  "rgba(56, 97, 104, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [5.6, 9.4, 2.1, 'DNP', 'DNP', 'DNP', 6.1, 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 14.6]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [11.7, 9.5, 9.6, 'DNP', 'DNP', 'DNP', 11.1, 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.3, 6.4]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [3.8, 5.0, 4.6, 'DNP', 'DNP', 'DNP', 4.1, 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.5, 4.1]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(56, 97, 104, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [19.7, 19.4, 18.5, 'DNP', 'DNP', 'DNP', 20.1, 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 18.3, 17.8]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976592.png",
-    "name": "Sterling Shepard",
-    "depthchart": "Reserve: WR-3",
-    "team": "New York Giants",
-    "projected": 6.2,
-    "opponent": "Dallas Cowboys",
-    "home_away": "",
-    "opp_rank_Neu": 11,
-    "team_rank_Neg": 29,
-    "avg_fp2": 9.08,
-    "opp_rank_allowed_fp2_Pos": 29,
-    "opp_avg_allowed_fp2": 34.99,
-    "fanduelSalary": "$5500",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ribs",
-    "tmColorLite": "#A71930",
-    "tmColorDark": "#0B2265",
-    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
-    "tmTextLite": "#A71930",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Sterling Shepard was limited with a rib issue on Wednesday.\n",
-    "report": "",
-    "analysis": "The Giants are limping into Week 17 offensively, with quarterback Daniel Jones and Evan Engram both dealing with injuries. Thankfully Shepard turned nine catches into 77 yards and a touchdown in Week 16 and should be able to go this Sunday, barring a setback.\n",
-    "timestamp": "2020-12-31 04:46 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 7.7,
-    "week02": 4.5,
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "DNP",
-    "week07": 14.9,
-    "week08": 11.4,
-    "week09": 8.7,
-    "week10": 7.7,
-    "week11": "BYE",
-    "week12": 10.3,
-    "week13": 4.7,
-    "week14": 5.0,
-    "week15": 6.8,
-    "week16": 18.2,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1
-                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [7.7, 4.5, 'DNP', 'DNP', 'DNP', 'DNP', 14.9, 11.4, 8.7, 7.7, 'BYE', 10.3, 4.7, 5.0, 6.8, 18.2]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [14.8, 12.7, 'DNP', 'DNP', 'DNP', 'DNP', 5.4, 3.8, 6.6, 8.2, 'BYE', 8.3, 7.7, 4.3, 4.6, 5.2, 6.2]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [2.9, 4.1, 'DNP', 'DNP', 'DNP', 'DNP', 4.5, 4.4, 2.5, 5.0, 'BYE', 4.1, 5.6, 4.6, 3.9, 5.1, 3.5]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [16.3, 15.2, 'DNP', 'DNP', 'DNP', 'DNP', 18.0, 16.1, 16.0, 16.2, 'BYE', 15.4, 16.3, 16.0, 14.7, 15.4, 13.3]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036348.png",
-    "name": "Michael Gallup",
-    "depthchart": "Backup: WR-2",
-    "team": "Dallas Cowboys",
-    "projected": 6.2,
-    "opponent": "New York Giants",
-    "home_away": "at ",
-    "opp_rank_Neu": 16,
-    "team_rank_Neu": 7,
-    "avg_fp2": 9.13,
-    "opp_rank_allowed_fp2_Neu": 11,
-    "opp_avg_allowed_fp2": 28.13,
-    "fanduelSalary": "$6200",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#7F9695",
-    "tmColorDark": "#041E42",
-    "tmColorLite_rgba": "rgba(127, 150, 149, 0.2)",
-    "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
-    "tmTextLite": "#7F9695",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "",
-    "report": "",
-    "analysis": "",
-    "timestamp": "",
-    "source": "",
-    "game_day_logo": "",
-    "week01": 6.5,
-    "week02": 6.8,
-    "week03": 22.8,
-    "week04": 3.9,
-    "week05": 9.3,
-    "week06": 3.3,
-    "week07": 0.0,
-    "week08": 9.6,
-    "week09": 5.1,
-    "week10": "BYE",
-    "week11": 3.9,
-    "week12": 7.1,
-    "week13": 18.1,
-    "week14": 3.3,
-    "week15": 10.1,
-    "week16": 27.1,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1
-                         backgroundColor:  "rgba(127, 150, 149, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [6.5, 6.8, 22.8, 3.9, 9.3, 3.3, 0.0, 9.6, 5.1, 'BYE', 3.9, 7.1, 18.1, 3.3, 10.1, 27.1]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [4.6, 8.7, 10.1, 6.3, 6.6, 6.1, 3.5, 6.5, 6.4, 'BYE', 7.7, 6.4, 4.9, 7.9, 5.5, 12.3, 6.2]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [4.5, 4.5, 1.6, 2.6, 5.6, 3.4, 5.4, 0.8, 2.3, 'BYE', 2.3, 1.3, 3.3, 1.3, 2.0, 1.9, 2.6]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(127, 150, 149, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [11.8, 12.9, 15.9, 11.8, 19.1, 16.5, 16.5, 15.1, 12.5, 'BYE', 16.5, 15.1, 12.8, 14.6, 16.2, 15.9, 16.9]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.8, 8.0, 10.4, 7.4, 8.8, 12.3, 13.5, 10.8, 10.9]
                     }
                     
                     ]
@@ -13770,8 +13476,106 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16725.png",
-    "name": "Sammy Watkins",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036348.png",
+    "name": "Michael Gallup",
+    "depthchart": "Backup: WR-2",
+    "team": "Dallas Cowboys",
+    "projected": 6.2,
+    "opponent": "New York Giants",
+    "home_away": "at ",
+    "opp_rank_Neu": 16,
+    "team_rank_Neu": 7,
+    "avg_fp2": 9.13,
+    "opp_rank_allowed_fp2_Neu": 11,
+    "opp_avg_allowed_fp2": 28.13,
+    "fanduelSalary": "$6200",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#7F9695",
+    "tmColorDark": "#041E42",
+    "tmColorLite_rgba": "rgba(127, 150, 149, 0.2)",
+    "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
+    "tmTextLite": "#7F9695",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+    "headlineNews": "",
+    "report": "",
+    "analysis": "",
+    "timestamp": "",
+    "source": "",
+    "game_day_logo": "",
+    "week01": 6.5,
+    "week02": 6.8,
+    "week03": 22.8,
+    "week04": 3.9,
+    "week05": 9.3,
+    "week06": 3.3,
+    "week07": 0.0,
+    "week08": 9.6,
+    "week09": 5.1,
+    "week10": "BYE",
+    "week11": 3.9,
+    "week12": 7.1,
+    "week13": 18.1,
+    "week14": 3.3,
+    "week15": 10.1,
+    "week16": 27.1,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1
+                         backgroundColor:  "rgba(127, 150, 149, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [6.5, 6.8, 22.8, 3.9, 9.3, 3.3, 0.0, 9.6, 5.1, 'BYE', 3.9, 7.1, 18.1, 3.3, 10.1, 27.1]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [4.6, 8.7, 10.1, 6.3, 6.6, 6.1, 3.5, 6.5, 6.4, 'BYE', 7.7, 6.4, 4.9, 7.9, 5.5, 12.3, 6.2]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [4.5, 4.5, 1.6, 2.6, 5.6, 3.4, 5.4, 0.8, 2.3, 'BYE', 2.3, 1.3, 3.3, 1.3, 2.0, 1.9, 2.6]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(127, 150, 149, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [11.8, 12.9, 15.9, 11.8, 19.1, 16.5, 16.5, 15.1, 12.5, 'BYE', 16.5, 15.1, 12.8, 14.6, 16.2, 15.9, 16.9]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035004.png",
+    "name": "Mecole Hardman",
     "depthchart": "Backup: WR-2",
     "team": "Kansas City Chiefs",
     "projected": 6.1,
@@ -13779,41 +13583,41 @@ $scope.positionWR = [{
     "home_away": "",
     "opp_rank_Neu": 9,
     "team_rank_Pos": 1,
-    "avg_fp2": 6.99,
+    "avg_fp2": 7.07,
     "opp_rank_allowed_fp2_Neu": 8,
     "opp_avg_allowed_fp2": 27.28,
-    "fanduelSalary": "$5200",
+    "fanduelSalary": "$5300",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Calf",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FFB81C",
     "tmColorDark": "#c9243f",
     "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
     "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
     "tmTextLite": "#FFB81C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Sammy Watkins (calf) is not practicing Wednesday.\n",
+    "headlineNews": "Sammy Watkins (calf) is out for Week 17 against the Chargers.\u00a0\n",
     "report": "",
-    "analysis": "Expect both Watkins and Tyreek Hill (hamstring) to rest Week 17 with the Chiefs locked into the No. 1 seed and a bye. Look for Mecole Hardman, Demarcus Robinson, and Byron Pringle to soak up the majority of the wideout snaps with Chad Henne under center for a resting Patrick Mahomes. Watkins has plenty of time to get ready for the Divisional Round.\n",
-    "timestamp": "2020-12-30 08:12 PM",
-    "source": "Nate Taylor on Twitter",
+    "analysis": "The Chiefs are resting most of their key players in the\u00a0final regular season game. Watkins was never likely to be a go against the Bolts. Watkins and Tyreek Hill being sidelined for KC could open up snaps for Demarcus Robinson and Mecole Hardman.\u00a0\n",
+    "timestamp": "2021-01-01 08:08 PM",
+    "source": "Adam Teicher on Twitter ",
     "game_day_logo": "",
-    "week01": 18.0,
-    "week02": 1.6,
-    "week03": 9.7,
-    "week04": 4.3,
-    "week05": 9.4,
-    "week06": "DNP",
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": "DNP",
+    "week01": 1.1,
+    "week02": 6.3,
+    "week03": 16.1,
+    "week04": 10.7,
+    "week05": 6.0,
+    "week06": 0.0,
+    "week07": 8.0,
+    "week08": 19.1,
+    "week09": 6.3,
     "week10": "BYE",
-    "week11": "DNP",
-    "week12": 5.8,
-    "week13": 5.5,
-    "week14": 6.2,
-    "week15": 8.0,
-    "week16": 1.4,
+    "week11": 2.1,
+    "week12": 3.8,
+    "week13": 2.0,
+    "week14": 9.5,
+    "week15": 9.2,
+    "week16": 5.9,
     "week17": "",
     "week18": "",
     "week19": "",
@@ -13832,7 +13636,7 @@ $scope.positionWR = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [18.0, 1.6, 9.7, 4.3, 9.4, 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 5.8, 5.5, 6.2, 8.0, 1.4]
+                         data: [1.1, 6.3, 16.1, 10.7, 6.0, 0.0, 8.0, 19.1, 6.3, 'BYE', 2.1, 3.8, 2.0, 9.5, 9.2, 5.9]
                     },
                     {
                         label: "Projected",
@@ -13842,7 +13646,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [7.9, 7.6, 7.8, 9.6, 6.4, 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 12.3, 9.6, 10.4, 6.1, 7.6, 6.1]
+                        data: [5.7, -2.5, 3.6, 4.6, 5.5, 6.4, 2.9, 8.6, 7.7, 'BYE', 5.6, 5.7, 4.1, 3.3, 2.7, 1.8, 6.1]
                     },
                     {
                         label: "68% Min",
@@ -13851,7 +13655,7 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.5, 4.1, 4.6, 3.8, 2.7, 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 2.4, 3.5, 2.6, 4.0, 1.5, 1.4]
+                        data: [0.0, 6.2, 0.0, 0.0, 1.6, 2.4, 1.7, 0.0, 1.7, 'BYE', 0.9, 0.0, 1.9, 0.0, 0.7, 1.1, 1.6]
                     },
                     {
                         label: "68% Max",
@@ -13861,7 +13665,203 @@ $scope.positionWR = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [19.2, 21.1, 20.1, 18.8, 19.6, 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 17.9, 19.7, 17.5, 20.8, 18.4, 17.0]
+                        data: [11.5, 14.9, 11.4, 8.9, 12.8, 10.4, 12.6, 9.7, 12.3, 'BYE', 10.7, 10.1, 9.9, 12.6, 11.6, 11.5, 11.6]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14912.png",
+    "name": "Alshon Jeffery",
+    "depthchart": "Backup: WR-2",
+    "team": "Philadelphia Eagles",
+    "projected": 6.1,
+    "opponent": "Washington Football Team",
+    "home_away": "",
+    "opp_rank_Neg": 3,
+    "team_rank_Neg": 27,
+    "avg_fp2": 2.93,
+    "opp_rank_allowed_fp2_Neg": 5,
+    "opp_avg_allowed_fp2": 26.87,
+    "fanduelSalary": "$4900",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#386168",
+    "tmColorDark": "#004C54",
+    "tmColorLite_rgba": "rgba(56, 97, 104, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
+    "tmTextLite": "#FFFFFF",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+    "headlineNews": "Alshon Jeffery caught 2-of-3 targets for 63 yards in Philadelphia's Week 15 loss to Arizona.\n",
+    "report": "",
+    "analysis": "He was actually targeted far more than the box score shows but ended up drawing around 50-yards worth of penalties downfield. Even in finishing with season-highs in catches and receiving yards, Jeffery isn't on the radar for re-draft leagues in 2020. He's a better one/two-game DFS option until he inevitably lands elsewhere next year.\n",
+    "timestamp": "2020-12-21 03:08 AM",
+    "source": null,
+    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
+    "week09": "BYE",
+    "week10": 0.0,
+    "week11": 0.0,
+    "week12": 2.5,
+    "week13": 0.0,
+    "week14": 8.0,
+    "week15": 7.3,
+    "week16": 2.7,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1
+                         backgroundColor:  "rgba(56, 97, 104, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 0.0, 0.0, 2.5, 0.0, 8.0, 7.3, 2.7]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 4.6, 1.7, 2.7, 2.5, 2.8, 6.9, 9.4, 6.1]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 5.4, 5.0, 5.2, 1.8, 3.2, 2.8, 4.3, 0.0]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(56, 97, 104, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 17.9, 20.1, 20.0, 12.5, 15.7, 17.5, 18.1, 16.0]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3043116.png",
+    "name": "Demarcus Robinson",
+    "depthchart": "Starter: WR-1",
+    "team": "Kansas City Chiefs",
+    "projected": 6.0,
+    "opponent": "Los Angeles Chargers",
+    "home_away": "",
+    "opp_rank_Neu": 9,
+    "team_rank_Pos": 1,
+    "avg_fp2": 5.09,
+    "opp_rank_allowed_fp2_Neu": 8,
+    "opp_avg_allowed_fp2": 27.28,
+    "fanduelSalary": "$5200",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#FFB81C",
+    "tmColorDark": "#c9243f",
+    "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
+    "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
+    "tmTextLite": "#FFB81C",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+    "headlineNews": "Sammy Watkins (calf) is out for Week 17 against the Chargers.\u00a0\n",
+    "report": "",
+    "analysis": "The Chiefs are resting most of their key players in the\u00a0final regular season game. Watkins was never likely to be a go against the Bolts. Watkins and Tyreek Hill being sidelined for KC could open up snaps for Demarcus Robinson and Mecole Hardman.\u00a0\n",
+    "timestamp": "2021-01-01 08:08 PM",
+    "source": "Adam Teicher on Twitter ",
+    "game_day_logo": "",
+    "week01": 3.5,
+    "week02": 4.3,
+    "week03": 0.0,
+    "week04": 0.0,
+    "week05": 1.2,
+    "week06": 9.4,
+    "week07": 0.9,
+    "week08": 14.3,
+    "week09": 8.9,
+    "week10": "BYE",
+    "week11": 7.4,
+    "week12": 6.1,
+    "week13": 4.9,
+    "week14": 1.8,
+    "week15": 3.7,
+    "week16": 9.9,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 184, 28, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [3.5, 4.3, 0.0, 0.0, 1.2, 9.4, 0.9, 14.3, 8.9, 'BYE', 7.4, 6.1, 4.9, 1.8, 3.7, 9.9]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [1.6, 0.2, 1.5, 1.8, 1.3, 2.9, 0.2, 3.5, 3.9, 'BYE', 1.6, 7.4, 4.2, 5.2, 2.8, 2.6, 6.0]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.5, 0.2, 0.0, 0.0, 0.0, 0.0, 1.4, 0.4, 0.0, 'BYE', 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.2]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 184, 28, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [7.1, 6.9, 11.7, 9.7, 6.9, 7.0, 9.2, 7.1, 6.7, 'BYE', 11.2, 10.8, 10.6, 9.6, 7.5, 7.2, 8.3]
                     }
                     
                     ]
@@ -13966,50 +13966,50 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4243160.png",
-    "name": "Laviska Shenault",
-    "depthchart": "Reserve: WR-3",
-    "team": "Jacksonville Jaguars",
-    "projected": 5.8,
-    "opponent": "Indianapolis Colts",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115378.png",
+    "name": "Russell Gage",
+    "depthchart": "Backup: WR-2",
+    "team": "Atlanta Falcons",
+    "projected": 5.7,
+    "opponent": "Tampa Bay Buccaneers",
     "home_away": "at ",
-    "opp_rank_Neu": 18,
-    "team_rank_Neu": 20,
-    "avg_fp2": 8.19,
-    "opp_rank_allowed_fp2_Neu": 20,
-    "opp_avg_allowed_fp2": 30.61,
-    "fanduelSalary": "$5500",
+    "opp_rank_Neu": 22,
+    "team_rank_Pos": 5,
+    "avg_fp2": 8.29,
+    "opp_rank_allowed_fp2_Neu": 22,
+    "opp_avg_allowed_fp2": 31.19,
+    "fanduelSalary": "$5700",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#006778",
-    "tmColorDark": "#101820",
-    "tmColorLite_rgba": "rgba(0, 103, 120, 0.2)",
-    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
-    "tmTextLite": "#006778",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Laviska Shenault caught 5-of-7 targets for 48 yards and one touchdown in the Jaguars' Week 16 loss to the Bears.\n",
+    "tmColorLite": "#A71930",
+    "tmColorDark": "#000000",
+    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
+    "tmTextLite": "#A71930",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+    "headlineNews": "Russell Gage caught 4-of-5 targets for 23 yards in the Falcons' Week 16 loss to the Chiefs.\n",
     "report": "",
-    "analysis": "The rookie tied D.J. Chark for the team lead in targets but caught one more pass than Chark. Shenault's touchdown was a 34-yarder in straight garbage time with the Jaguars down 41-10 deep in the fourth quarter. It was his third receiving score of the year. He hasn't topped 49 yards in a game since Week 5. Shenault isn't a recommended fantasy play for Week 17 against the Colts.\n",
-    "timestamp": "2020-12-27 09:52 PM",
+    "analysis": "Even with Julio Jones (hamstring) still on the shelf, Gage couldn't muster more than 6.3 points in PPR leagues. The yardage output was his lowest in six weeks. Gage will be rematching with the Bucs' in the Falcons' meaningless Week 17 finale. Gage caught 5-of-10 targets for 68 yards and a score against Tampa in Week 15.\u00a0\n",
+    "timestamp": "2020-12-27 11:23 PM",
     "source": null,
     "game_day_logo": "",
-    "week01": "DNP",
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": 11.6,
-    "week05": 11.4,
-    "week06": 2.6,
-    "week07": 5.9,
-    "week08": "BYE",
-    "week09": 0.4,
-    "week10": "DNP",
-    "week11": "DNP",
-    "week12": 5.2,
-    "week13": 14.3,
-    "week14": 8.1,
-    "week15": 6.9,
-    "week16": 13.3,
+    "week01": 15.9,
+    "week02": 13.6,
+    "week03": 3.6,
+    "week04": 3.0,
+    "week05": 2.6,
+    "week06": 8.5,
+    "week07": 8.4,
+    "week08": 3.5,
+    "week09": 2.1,
+    "week10": "BYE",
+    "week11": 9.3,
+    "week12": 4.9,
+    "week13": 13.1,
+    "week14": 16.26,
+    "week15": 15.3,
+    "week16": 4.3,
     "week17": "",
     "week18": "",
     "week19": "",
@@ -14022,42 +14022,42 @@ $scope.positionWR = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
-                         backgroundColor:  "rgba(0, 103, 120, 1)",  //lite dot team color 1 
+                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 11.6, 11.4, 2.6, 5.9, 'BYE', 0.4, 'DNP', 'DNP', 5.2, 14.3, 8.1, 6.9, 13.3]
+                         data: [15.9, 13.6, 3.6, 3.0, 2.6, 8.5, 8.4, 3.5, 2.1, 'BYE', 9.3, 4.9, 13.1, 16.26, 15.3, 4.3]
                     },
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 5.0, 6.9, 9.3, 6.0, 'BYE', 9.0, 'DNP', 'DNP', 7.9, 8.8, 10.4, 4.5, 5.0, 5.8]
+                        data: [1.9, 4.1, 3.3, 3.5, 4.8, 1.8, 7.0, 8.4, 4.2, 'BYE', 2.9, 8.3, 4.9, 8.6, 8.6, 6.2, 5.7]
                     },
                     {
                         label: "68% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
+						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 1.9, 0.0, 1.1, 5.4, 'BYE', 3.5, 'DNP', 'DNP', 1.4, 1.8, 3.8, 7.5, 8.0, 3.5]
+                        data: [0.0, 2.8, 0.6, 1.2, 0.0, 0.0, 0.0, 2.3, 0.2, 'BYE', 0.7, 0.5, 0.9, 0.0, 4.7, 0.5, 2.6]
                     },
                     {
                         label: "68% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(0, 103, 120, .15)",  //lite team color .15
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 9.5, 13.3, 12.5, 10.7, 'BYE', 9.6, 'DNP', 'DNP', 8.1, 10.0, 13.1, 15.3, 14.1, 11.4]
+                        data: [5.7, 12.1, 10.2, 9.2, 8.1, 10.9, 7.6, 10.8, 10.4, 'BYE', 6.2, 9.9, 9.9, 8.8, 12.9, 12.4, 10.3]
                     }
                     
                     ]
@@ -14078,19 +14078,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 27.88,
     "fanduelSalary": "$5600",
     "hasStatus": "Status",
-    "healthOut": "Reserve-covid-19",
-    "injury": "Undisclosed",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FF3C00",
     "tmColorDark": "#311D00",
     "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
     "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
     "tmTextLite": "#FF3C00",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Browns head coach Kevin Stefanski said the team will activate its receivers from the reserve/COVID-19 list on Thursday if they continue testing negative for the virus.\u00a0\n",
+    "headlineNews": "Browns activated WR\u00a0Rashard Higgins from the reserve/COVID-19 list.\u00a0\n",
     "report": "",
-    "analysis": "Jarvis Landry, Donovan Peoples-Jones, KhaDarel Hodge, and Rashard Higgins missed Week 16's game against the Jets -- a devastating loss for Cleveland -- after contact tracing identified them as high-risk close contacts of someone who had tested positive for COVID-19. The team should have some of all of their wideouts back for Week 17's game against the Steelers. Landry and Higgins have served as viable WR2s in recent weeks, though a matchup against Pittsburgh could prove tough for the Browns' passing attack.\u00a0\n",
-    "timestamp": "2020-12-28 05:09 PM",
-    "source": "Jake Trotter on Twitter ",
+    "analysis": "Donovan Peoples-Jones and KhaDarel Hodge have also been activated. None of the three were\u00a0COVID positive, so they were\u00a0able to return after five days of negative tests. Higgins will immediately slide back in as the Browns' No. 2 receiver and a top-36 fantasy option for Sunday's must-win game against the Steelers' B-team defense.\u00a0\n",
+    "timestamp": "2020-12-31 09:40 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": 1.4,
     "week02": 0.0,
@@ -14260,6 +14260,300 @@ $scope.positionWR = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3057987.png",
+    "name": "DaeSean Hamilton",
+    "depthchart": "Reserve: WR-3",
+    "team": "Denver Broncos",
+    "projected": 5.5,
+    "opponent": "Las Vegas Raiders",
+    "home_away": "",
+    "opp_rank_Pos": 25,
+    "team_rank_Neg": 28,
+    "avg_fp2": 3.33,
+    "opp_rank_allowed_fp2_Neu": 23,
+    "opp_avg_allowed_fp2": 31.35,
+    "fanduelSalary": "$4500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#e17757",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(225, 119, 87, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#e17757",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+    "headlineNews": "DaeSean Hamilton caught 5-of-9 targets for 77 yards in the Broncos' Week 16 loss to the Chargers.\n",
+    "report": "",
+    "analysis": "Typically a backup, Hamilton got more run with the first-team offense after KJ Hamler left early with a concussion. He filled in as the slot receiver and ultimately led the position in receiving yards. With one meaningless game remaining, it's possible Hamler misses and Hamilton starts in Week 17.\n",
+    "timestamp": "2020-12-28 01:30 AM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 2.3,
+    "week02": 1.0,
+    "week03": 0.0,
+    "week04": 1.4,
+    "week05": "DNP",
+    "week06": 0.0,
+    "week07": 3.6,
+    "week08": 16.2,
+    "week09": 2.2,
+    "week10": 11.3,
+    "week11": 0.0,
+    "week12": 0.0,
+    "week13": 0.0,
+    "week14": 1.8,
+    "week15": 0.0,
+    "week16": 10.2,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(225, 119, 87, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [2.3, 1.0, 0.0, 1.4, 'DNP', 0.0, 3.6, 16.2, 2.2, 11.3, 0.0, 0.0, 0.0, 1.8, 0.0, 10.2]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [1.9, -1.2, 0.4, 0.4, 'DNP', 6.6, 0.6, 1.6, 2.6, 0.2, -0.1, 1.5, 1.9, 1.3, 0.3, -0.7, 5.5]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.1, 1.2, 0.0, 0.0, 'DNP', 0.2, 0.0, 2.3, 4.2, 1.7, 0.0, 0.0, 0.0, 3.4, 0.0, 3.2, 4.7]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(225, 119, 87, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [8.4, 10.3, 5.7, 6.5, 'DNP', 6.5, 8.5, 10.5, 11.3, 11.2, 9.9, 8.9, 8.2, 11.2, 6.9, 11.3, 12.0]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3894912.png",
+    "name": "Tyron Johnson",
+    "depthchart": "Reserve: WR-3",
+    "team": "Los Angeles Chargers",
+    "projected": 5.4,
+    "opponent": "Kansas City Chiefs",
+    "home_away": "at ",
+    "opp_rank_Neu": 15,
+    "team_rank_Pos": 6,
+    "avg_fp2": 6.5,
+    "opp_rank_allowed_fp2_Neg": 2,
+    "opp_avg_allowed_fp2": 25.21,
+    "fanduelSalary": "$5400",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#0080C6",
+    "tmColorDark": "#002A5E",
+    "tmColorLite_rgba": "rgba(0, 128, 198, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
+    "tmTextLite": "#0080C6",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+    "headlineNews": "Keenan Allen (hamstring) did not practice Thursday.\u00a0\n",
+    "report": "",
+    "analysis": "It's no surprise, as Allen is not expected to suit up in Week 17 against KC. The veteran missed Week 16 after hobbling through some of the team's Week 15 game.\u00a0Mike Williams, Jalen Guyton, and Tyron Johnson are all very much in play this week against the Chiefs, who are expected to rest many of their\u00a0starters.\u00a0\n",
+    "timestamp": "2020-12-31 08:26 PM",
+    "source": "Daniel Popper on Twitter",
+    "game_day_logo": "",
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": 0.7,
+    "week06": "DNP",
+    "week07": 1.0,
+    "week08": "DNP",
+    "week09": "DNP",
+    "week10": "DNP",
+    "week11": 5.9,
+    "week12": 7.3,
+    "week13": 0.6,
+    "week14": 14.5,
+    "week15": 13.6,
+    "week16": 4.1,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1
+                         backgroundColor:  "rgba(0, 128, 198, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 0.7, 'DNP', 1.0, 'DNP', 'DNP', 'DNP', 5.9, 7.3, 0.6, 14.5, 13.6, 4.1]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 0.5, 'DNP', 2.5, 'DNP', 'DNP', 'DNP', 2.3, 2.9, 4.2, 3.5, 3.8, 8.0, 5.4]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 0.9, 'DNP', 0.0, 'DNP', 'DNP', 'DNP', 0.0, 0.0, 2.4, 0.7, 0.8, 1.2, 3.1]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(0, 128, 198, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 6.1, 'DNP', 5.8, 'DNP', 'DNP', 'DNP', 5.3, 9.8, 7.5, 4.8, 10.7, 9.5, 13.0]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16790.png",
+    "name": "Jarvis Landry",
+    "depthchart": "Reserve: WR-3",
+    "team": "Cleveland Browns",
+    "projected": 5.4,
+    "opponent": "Pittsburgh Steelers",
+    "home_away": "",
+    "opp_rank_Neg": 2,
+    "team_rank_Neg": 24,
+    "avg_fp2": 9.86,
+    "opp_rank_allowed_fp2_Neu": 9,
+    "opp_avg_allowed_fp2": 27.88,
+    "fanduelSalary": "$6700",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#FF3C00",
+    "tmColorDark": "#311D00",
+    "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
+    "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
+    "tmTextLite": "#FF3C00",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+    "headlineNews": "Jarvis Landry was activated from the reserve/COVID list.\n",
+    "report": "",
+    "analysis": "Rashard Higgins, KhaDarel Hodge, and Donovan Peoples-Jones were removed as well, ensuring Cleveland enters its must-win game against the Steelers at full strength on offense. Baker Mayfield was stubbornly asked to throw 53 times with practically no one available in Week 16, but that won\u2019t be the case on Sunday. Nick Chubb and Kareem Hunt should find wide holes against a Steelers front-seven that\u2019s already punched its ticket into the Wild Card round.\n",
+    "timestamp": "2020-12-31 04:36 PM",
+    "source": "Tony Grossi on Twitter",
+    "game_day_logo": "",
+    "week01": 8.6,
+    "week02": 6.1,
+    "week03": 5.6,
+    "week04": 12.78,
+    "week05": 10.8,
+    "week06": 5.5,
+    "week07": 8.46,
+    "week08": 7.2,
+    "week09": "BYE",
+    "week10": 4.4,
+    "week11": 3.6,
+    "week12": 24.3,
+    "week13": 16.44,
+    "week14": 8.68,
+    "week15": 15.6,
+    "week16": "DNP",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 60, 0, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [8.6, 6.1, 5.6, 12.78, 10.8, 5.5, 8.46, 7.2, 'BYE', 4.4, 3.6, 24.3, 16.44, 8.68, 15.6, 'DNP']
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [11.8, 6.2, 8.8, 11.6, 12.2, 8.1, 9.7, 10.7, 'BYE', 2.8, 5.9, 3.7, 10.1, 5.2, 5.6, 'DNP', 5.4]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [5.6, 6.6, 5.5, 6.2, 4.9, 6.4, 4.9, 5.3, 'BYE', 5.9, 2.7, 4.7, 7.2, 5.6, 5.0, 'DNP', 5.6]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 60, 0, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [18.1, 19.1, 17.7, 18.2, 17.7, 18.1, 16.9, 16.5, 'BYE', 16.2, 18.5, 16.1, 18.1, 17.1, 16.4, 'DNP', 17.6]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040655.png",
     "name": "Darnell Mooney",
     "depthchart": "Backup: WR-2",
@@ -14352,202 +14646,6 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: ['DNP', 2.8, 9.4, 9.3, 14.7, 12.8, 10.0, 7.3, 8.3, 12.7, 'BYE', 10.9, 6.6, 10.9, 8.2, 9.3, 9.8]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3894912.png",
-    "name": "Tyron Johnson",
-    "depthchart": "Reserve: WR-3",
-    "team": "Los Angeles Chargers",
-    "projected": 5.4,
-    "opponent": "Kansas City Chiefs",
-    "home_away": "at ",
-    "opp_rank_Neu": 15,
-    "team_rank_Pos": 6,
-    "avg_fp2": 6.5,
-    "opp_rank_allowed_fp2_Neg": 2,
-    "opp_avg_allowed_fp2": 25.21,
-    "fanduelSalary": "$5400",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#0080C6",
-    "tmColorDark": "#002A5E",
-    "tmColorLite_rgba": "rgba(0, 128, 198, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
-    "tmTextLite": "#0080C6",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Tyron Johnson caught 3-of-3 targets for 26 yards in the Chargers' Week 16 win over the Broncos.\n",
-    "report": "",
-    "analysis": "Johnson started with Keenan Allen sidelined but remains a distant option in the target pecking order. Jalen Guyton would be the No. 2 if Allen misses again in Week 17. Johnson will need to come down with a deep target to pay off as a desperation play.\u00a0\n",
-    "timestamp": "2020-12-28 12:52 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": "DNP",
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": 0.7,
-    "week06": "BYE",
-    "week07": 1.0,
-    "week08": "DNP",
-    "week09": "DNP",
-    "week10": "DNP",
-    "week11": 5.9,
-    "week12": 7.3,
-    "week13": 0.6,
-    "week14": 14.5,
-    "week15": 13.6,
-    "week16": 4.1,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1
-                         backgroundColor:  "rgba(0, 128, 198, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 0.7, 'BYE', 1.0, 'DNP', 'DNP', 'DNP', 5.9, 7.3, 0.6, 14.5, 13.6, 4.1]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 0.5, 'BYE', 2.5, 'DNP', 'DNP', 'DNP', 2.3, 2.9, 4.2, 3.5, 3.8, 8.0, 5.4]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 0.9, 'BYE', 0.0, 'DNP', 'DNP', 'DNP', 0.0, 0.0, 2.4, 0.7, 0.8, 1.2, 3.1]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(0, 128, 198, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 6.1, 'BYE', 5.8, 'DNP', 'DNP', 'DNP', 5.3, 9.8, 7.5, 4.8, 10.7, 9.5, 13.0]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16790.png",
-    "name": "Jarvis Landry",
-    "depthchart": "Reserve: WR-3",
-    "team": "Cleveland Browns",
-    "projected": 5.4,
-    "opponent": "Pittsburgh Steelers",
-    "home_away": "",
-    "opp_rank_Neg": 2,
-    "team_rank_Neg": 24,
-    "avg_fp2": 9.86,
-    "opp_rank_allowed_fp2_Neu": 9,
-    "opp_avg_allowed_fp2": 27.88,
-    "fanduelSalary": "$6700",
-    "hasStatus": "Status",
-    "healthOut": "Reserve-covid-19",
-    "injury": "Undisclosed",
-    "tmColorLite": "#FF3C00",
-    "tmColorDark": "#311D00",
-    "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
-    "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
-    "tmTextLite": "#FF3C00",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Jarvis Landry was activated from the reserve/COVID list.\n",
-    "report": "",
-    "analysis": "Rashard Higgins, KhaDarel Hodge, and Donovan Peoples-Jones were removed as well, ensuring Cleveland enters its must-win game against the Steelers at full strength on offense. Baker Mayfield was stubbornly asked to throw 53 times with practically no one available in Week 16, but that won\u2019t be the case on Sunday. Nick Chubb and Kareem Hunt should find wide holes against a Steelers front-seven that\u2019s already punched its ticket into the Wild Card round.\n",
-    "timestamp": "2020-12-31 04:36 PM",
-    "source": "Tony Grossi on Twitter",
-    "game_day_logo": "",
-    "week01": 8.6,
-    "week02": 6.1,
-    "week03": 5.6,
-    "week04": 12.78,
-    "week05": 10.8,
-    "week06": 5.5,
-    "week07": 8.46,
-    "week08": 7.2,
-    "week09": "BYE",
-    "week10": 4.4,
-    "week11": 3.6,
-    "week12": 24.3,
-    "week13": 16.44,
-    "week14": 8.68,
-    "week15": 15.6,
-    "week16": "DNP",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 60, 0, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [8.6, 6.1, 5.6, 12.78, 10.8, 5.5, 8.46, 7.2, 'BYE', 4.4, 3.6, 24.3, 16.44, 8.68, 15.6, 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [11.8, 6.2, 8.8, 11.6, 12.2, 8.1, 9.7, 10.7, 'BYE', 2.8, 5.9, 3.7, 10.1, 5.2, 5.6, 'DNP', 5.4]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [5.6, 6.6, 5.5, 6.2, 4.9, 6.4, 4.9, 5.3, 'BYE', 5.9, 2.7, 4.7, 7.2, 5.6, 5.0, 'DNP', 5.6]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 60, 0, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [18.1, 19.1, 17.7, 18.2, 17.7, 18.1, 16.9, 16.5, 'BYE', 16.2, 18.5, 16.1, 18.1, 17.1, 16.4, 'DNP', 17.6]
                     }
                     
                     ]
@@ -14652,104 +14750,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3071572.png",
-    "name": "Keelan Cole",
-    "depthchart": "Backup: WR-2",
-    "team": "Jacksonville Jaguars",
-    "projected": 5.2,
-    "opponent": "Indianapolis Colts",
-    "home_away": "at ",
-    "opp_rank_Neu": 18,
-    "team_rank_Neu": 20,
-    "avg_fp2": 8.27,
-    "opp_rank_allowed_fp2_Neu": 20,
-    "opp_avg_allowed_fp2": 30.61,
-    "fanduelSalary": "$5100",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#006778",
-    "tmColorDark": "#101820",
-    "tmColorLite_rgba": "rgba(0, 103, 120, 0.2)",
-    "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
-    "tmTextLite": "#006778",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
-    "headlineNews": "Keelan Cole caught 3-of-4 targets for 26 yards in the Jaguars' Week 16 loss to the Bears.\n",
-    "report": "",
-    "analysis": "Cole has 47 yards or fewer in all but three games this season. He's way off the fantasy radar when D.J. Chark and Laviska Shenault are healthy as the Nos. 1 and 2 playmaking wideouts.\n",
-    "timestamp": "2020-12-27 09:56 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 13.2,
-    "week02": 14.8,
-    "week03": 6.3,
-    "week04": 6.6,
-    "week05": 9.7,
-    "week06": 17.3,
-    "week07": 1.7,
-    "week08": "BYE",
-    "week09": 1.1,
-    "week10": 19.2,
-    "week11": 3.6,
-    "week12": 5.9,
-    "week13": 1.2,
-    "week14": 16.2,
-    "week15": 3.2,
-    "week16": 4.1,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1
-                         backgroundColor:  "rgba(0, 103, 120, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [13.2, 14.8, 6.3, 6.6, 9.7, 17.3, 1.7, 'BYE', 1.1, 19.2, 3.6, 5.9, 1.2, 16.2, 3.2, 4.1]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [-0.5, 5.9, 8.4, 5.7, 6.3, 7.9, 6.7, 'BYE', 8.7, 6.7, 7.9, 8.4, 8.6, 6.2, 5.6, 5.9, 5.2]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [0.0, 1.2, 3.8, 1.2, 1.0, 1.3, 0.0, 'BYE', 2.0, 4.6, 3.6, 0.0, 2.2, 0.2, 2.1, 0.2, 0.6]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(16, 24, 32, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(0, 103, 120, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [12.2, 11.6, 12.6, 11.2, 10.4, 11.3, 10.9, 'BYE', 14.5, 16.0, 13.0, 13.2, 12.8, 10.6, 13.9, 13.5, 11.5]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4258195.png",
     "name": "Donovan Peoples-Jones",
     "depthchart": "Backup: WR-2",
@@ -14764,19 +14764,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 27.88,
     "fanduelSalary": "$5100",
     "hasStatus": "Status",
-    "healthOut": "Reserve-covid-19",
-    "injury": "Undisclosed",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FF3C00",
     "tmColorDark": "#311D00",
     "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
     "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
     "tmTextLite": "#FF3C00",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Browns head coach Kevin Stefanski said the team will activate its receivers from the reserve/COVID-19 list on Thursday if they continue testing negative for the virus.\u00a0\n",
+    "headlineNews": "Browns activated WR\u00a0Rashard Higgins from the reserve/COVID-19 list.\u00a0\n",
     "report": "",
-    "analysis": "Jarvis Landry, Donovan Peoples-Jones, KhaDarel Hodge, and Rashard Higgins missed Week 16's game against the Jets -- a devastating loss for Cleveland -- after contact tracing identified them as high-risk close contacts of someone who had tested positive for COVID-19. The team should have some of all of their wideouts back for Week 17's game against the Steelers. Landry and Higgins have served as viable WR2s in recent weeks, though a matchup against Pittsburgh could prove tough for the Browns' passing attack.\u00a0\n",
-    "timestamp": "2020-12-28 05:09 PM",
-    "source": "Jake Trotter on Twitter ",
+    "analysis": "Donovan Peoples-Jones and KhaDarel Hodge have also been activated. None of the three were\u00a0COVID positive, so they were\u00a0able to return after five days of negative tests. Higgins will immediately slide back in as the Browns' No. 2 receiver and a top-36 fantasy option for Sunday's must-win game against the Steelers' B-team defense.\u00a0\n",
+    "timestamp": "2020-12-31 09:40 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": "DNP",
     "week02": "DNP",
@@ -15277,7 +15277,7 @@ $scope.positionTE = [{
     "week04": 19.2,
     "week05": 14.6,
     "week06": 3.1,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 4.7,
     "week09": 3.7,
     "week10": 9.6,
@@ -15305,7 +15305,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [20.3, 3.4, 3.7, 19.2, 14.6, 3.1, 'BYE', 4.7, 3.7, 9.6, 18.1, 'DNP', 'DNP', 10.3, 15.1, 10.6]
+                         data: [20.3, 3.4, 3.7, 19.2, 14.6, 3.1, 'DNP', 4.7, 3.7, 9.6, 18.1, 'DNP', 'DNP', 10.3, 15.1, 10.6]
                     },
                     {
                         label: "Projected",
@@ -15315,7 +15315,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [14.4, 13.8, 15.2, 10.4, 9.7, 15.1, 'BYE', 12.6, 8.2, 7.4, 12.0, 'DNP', 'DNP', 13.2, 7.2, 13.8, 12.3]
+                        data: [14.4, 13.8, 15.2, 10.4, 9.7, 15.1, 'DNP', 12.6, 8.2, 7.4, 12.0, 'DNP', 'DNP', 13.2, 7.2, 13.8, 12.3]
                     },
                     {
                         label: "68% Min",
@@ -15324,7 +15324,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [2.9, 1.0, 2.5, 3.0, 5.1, 4.2, 'BYE', 4.7, 0.8, 0.0, 1.8, 'DNP', 'DNP', 2.4, 2.6, 8.0, 3.8]
+                        data: [2.9, 1.0, 2.5, 3.0, 5.1, 4.2, 'DNP', 4.7, 0.8, 0.0, 1.8, 'DNP', 'DNP', 2.4, 2.6, 8.0, 3.8]
                     },
                     {
                         label: "68% Max",
@@ -15334,7 +15334,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [13.8, 12.6, 16.2, 15.3, 17.2, 11.9, 'BYE', 14.1, 13.1, 14.5, 12.8, 'DNP', 'DNP', 15.3, 14.9, 18.3, 16.4]
+                        data: [13.8, 12.6, 16.2, 15.3, 17.2, 11.9, 'DNP', 14.1, 13.1, 14.5, 12.8, 'DNP', 'DNP', 15.3, 14.9, 18.3, 16.4]
                     }
                     
                     ]
@@ -15372,7 +15372,7 @@ $scope.positionTE = [{
     "week01": 11.6,
     "week02": 22.4,
     "week03": 8.6,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 18.5,
     "week06": 1.8,
     "week07": 1.4,
@@ -15403,7 +15403,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [11.6, 22.4, 8.6, 'BYE', 18.5, 1.8, 1.4, 3.9, 10.2, 8.5, 10.0, 0.0, 'DNP', 3.3, 7.7, 10.5]
+                         data: [11.6, 22.4, 8.6, 'DNP', 18.5, 1.8, 1.4, 3.9, 10.2, 8.5, 10.0, 0.0, 'DNP', 3.3, 7.7, 10.5]
                     },
                     {
                         label: "Projected",
@@ -15413,7 +15413,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [6.7, 10.0, 9.9, 'BYE', 10.3, 11.0, 9.0, 12.0, 8.7, 6.7, 7.3, 9.0, 'DNP', 3.7, 8.4, 4.1, 12.0]
+                        data: [6.7, 10.0, 9.9, 'DNP', 10.3, 11.0, 9.0, 12.0, 8.7, 6.7, 7.3, 9.0, 'DNP', 3.7, 8.4, 4.1, 12.0]
                     },
                     {
                         label: "68% Min",
@@ -15422,7 +15422,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 0.9, 1.2, 'BYE', 0.0, 2.9, 1.7, 0.0, 0.0, 1.1, 1.3, 1.1, 'DNP', 5.5, 0.8, 0.0, 0.0]
+                        data: [0.0, 0.9, 1.2, 'DNP', 0.0, 2.9, 1.7, 0.0, 0.0, 1.1, 1.3, 1.1, 'DNP', 5.5, 0.8, 0.0, 0.0]
                     },
                     {
                         label: "68% Max",
@@ -15432,105 +15432,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [7.9, 9.5, 11.9, 'BYE', 7.5, 13.6, 12.5, 9.7, 9.2, 11.6, 10.6, 12.2, 'DNP', 12.8, 11.6, 10.9, 10.9]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046439.png",
-    "name": "Hunter Henry",
-    "depthchart": "Starter: TE-1",
-    "team": "Los Angeles Chargers",
-    "projected": 11.0,
-    "opponent": "Kansas City Chiefs",
-    "home_away": "at ",
-    "opp_rank_Neu": 15,
-    "team_rank_Pos": 6,
-    "avg_fp2": 8.24,
-    "opp_rank_allowed_fp2_Pos": 24,
-    "opp_avg_allowed_fp2": 11.43,
-    "fanduelSalary": "$6000",
-    "hasStatus": "Status",
-    "healthOut": "Reserve-covid-19",
-    "injury": "Undisclosed",
-    "tmColorLite": "#0080C6",
-    "tmColorDark": "#002A5E",
-    "tmColorLite_rgba": "rgba(0, 128, 198, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
-    "tmTextLite": "#0080C6",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Chargers placed TE\u00a0Hunter Henry on the reserve/COVID-19 list.\u00a0\n",
-    "report": "",
-    "analysis": "Henry will miss Sunday's game against the Broncos. Henry had not been practicing with an \"illness,\" so he is presumably COVID positive himself, and not merely a close contact. That would leave him doubtful to return for Week 17. The Chargers have no plug-and-play options at tight end, so Henry managers will have to go down the list of this week's unimpressive tight end rankings. The top adds in Rotoworld's Week 16 Waiver Wired column were\u00a0Irv Smith, Cole Kmet and Arizona's Dan Arnold. For what it's worth, the next man as a seam-stretching pass catcher in Los Angeles is ex-XFLer Donald Parham.\u00a0\n",
-    "timestamp": "2020-12-24 09:10 PM",
-    "source": "Daniel Popper on Twitter ",
-    "game_day_logo": "",
-    "week01": 9.8,
-    "week02": 11.3,
-    "week03": 7.5,
-    "week04": 4.9,
-    "week05": 10.3,
-    "week06": "BYE",
-    "week07": 3.8,
-    "week08": 5.3,
-    "week09": 5.3,
-    "week10": 11.0,
-    "week11": 12.8,
-    "week12": 10.2,
-    "week13": 1.0,
-    "week14": 7.1,
-    "week15": 15.0,
-    "week16": "DNP",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1
-                         backgroundColor:  "rgba(0, 128, 198, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [9.8, 11.3, 7.5, 4.9, 10.3, 'BYE', 3.8, 5.3, 5.3, 11.0, 12.8, 10.2, 1.0, 7.1, 15.0, 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [14.6, 15.6, 8.7, 10.1, 14.0, 'BYE', 19.6, 11.8, 11.1, 13.2, 10.6, 12.3, 11.3, 14.6, 13.8, 'DNP', 11.0]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [3.8, 5.7, 3.3, 3.7, 3.9, 'BYE', 4.8, 6.7, 3.7, 4.2, 3.2, 3.8, 4.0, 2.7, 4.0, 'DNP', 3.6]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(0, 128, 198, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [14.7, 13.6, 14.6, 12.2, 13.4, 'BYE', 15.2, 16.9, 12.0, 14.8, 13.8, 12.6, 12.2, 13.4, 14.2, 'DNP', 12.5]
+                        data: [7.9, 9.5, 11.9, 'DNP', 7.5, 13.6, 12.5, 9.7, 9.2, 11.6, 10.6, 12.2, 'DNP', 12.8, 11.6, 10.9, 10.9]
                     }
                     
                     ]
@@ -15551,19 +15453,19 @@ $scope.positionTE = [{
     "opp_avg_allowed_fp2": 9.73,
     "fanduelSalary": "$5400",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ankle",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#A71930",
     "tmColorDark": "#0B2265",
     "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
     "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Evan Engram (ankle) is not practicing Wednesday.\n",
+    "headlineNews": "Evan Engram (ankle) returned to Giants practice on Thursday, getting in a \"limited\" session.\u00a0\n",
     "report": "",
-    "analysis": "Engram played his usual snaps last week against the Ravens, matching a season-high with 10 targets, turning them into a 7-65 receiving line. It's unclear what his availability will be for Week 17's important date with the Cowboys.\n",
-    "timestamp": "2020-12-30 06:25 PM",
-    "source": "Pat Leonard on Twitter",
+    "analysis": "Barring a setback, Engram will be good to go for Sunday's must-win game against the Cowboys. With the Giants' entire offense seemingly banged up in some way, Engram will remain a volume-based TE1.\u00a0\n",
+    "timestamp": "2020-12-31 07:42 PM",
+    "source": "Zack Rosenblatt on Twitter ",
     "game_day_logo": "",
     "week01": 1.9,
     "week02": 9.5,
@@ -15755,11 +15657,11 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Zach Ertz ran 38 pass routes in Week 16 against the Cowboys, 24 more than Dallas Goedert.\u00a0\n",
+    "headlineNews": "Dallas Goedert (calf) is out for Week 17 against Washington.\u00a0\n",
     "report": "",
-    "analysis": "Goedert hurt his calf against Dallas, but the two tight ends were almost even in pass routes in Week 15. Ertz drew seven targets to Goedert's three looks. Goedert ended up with more yards than Ertz but his lack of pass game usage could be a concern for Week 17. Ertz ran one more route than Goedert in Week 15, though Goedert had eight targets to Ertz's six that week. Ertz is a high-end TE2 this week against Washington while Goedert is a low-end TE1. Goedert and Ertz combined for 11 receptions, 119 yards, and two touchdowns in Week 1 against the Football Team. If Goedert is held out, Ertz is a locked-in TE1.\u00a0\n",
-    "timestamp": "2020-12-29 04:50 PM",
-    "source": null,
+    "analysis": "Goedert won't play in the Eagles' meaningless season finale. Zach Ertz, in what could be his final game in an Eagles uniform, should be the team's primary pass catching tight end with Goedert sidelined. Ertz is an intriguing DFS option this week.\u00a0\n",
+    "timestamp": "2021-01-01 08:36 PM",
+    "source": "Jeremy Fowler on Twitter ",
     "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
     "week01": 9.3,
     "week02": 6.7,
@@ -15951,11 +15853,11 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Jack Doyle caught 5-of-6 targets for 50 yards in Indianapolis' Week 16 loss to the Steelers.\n",
+    "headlineNews": "Jack Doyle (quad) did not practice Thursday.\u00a0\n",
     "report": "",
-    "analysis": "It was actually the first time Doyle's reached 50 receiving yards all year. Even so, both Mo Alie-Cox (1/20) and Trey Burton (3/18) were involved behind him. Doyle can continue to be ignored as a viable option in Week 17.\n",
-    "timestamp": "2020-12-28 03:03 AM",
-    "source": null,
+    "analysis": "Fresh off a five catch, 50 yard performance against the Steelers, Doyle is looking iffy for Week 17's game against Jacksonville, though he missed last week's Thursday practice with the same quad issue. None of the Colts tight ends are reliable fantasy options unless one or two of them are injured.\u00a0\n",
+    "timestamp": "2020-12-31 08:50 PM",
+    "source": "Indianapolis Colts on Twitter ",
     "game_day_logo": "",
     "week01": 6.4,
     "week02": "DNP",
@@ -16223,104 +16125,6 @@ $scope.positionTE = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036131.png",
-    "name": "Noah Fant",
-    "depthchart": "Starter: TE-1",
-    "team": "Denver Broncos",
-    "projected": 7.5,
-    "opponent": "Las Vegas Raiders",
-    "home_away": "",
-    "opp_rank_Pos": 25,
-    "team_rank_Neg": 28,
-    "avg_fp2": 7.96,
-    "opp_rank_allowed_fp2_Neu": 12,
-    "opp_avg_allowed_fp2": 9.58,
-    "fanduelSalary": "$5700",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#e17757",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(225, 119, 87, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#e17757",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "Noah Fant caught 6-of-9 targets for 65 yards in the Broncos' Week 16 loss to the Chargers.\n",
-    "report": "",
-    "analysis": "Fant was a space eater over the middle against the Chargers' zone defense. His play-making ability is obvious in every game that he plays at full health, something he hasn't had for most of the 2020 season. Fant's box scores have looked much better recently as he's moved past his mid-year ankle sprain. Expect Fant to close the year strongly as a TE1 play against the Raiders in Week 17. There are reasons to believe a bigger season is coming in 2021.\n",
-    "timestamp": "2020-12-28 01:19 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 16.6,
-    "week02": 15.7,
-    "week03": 7.1,
-    "week04": 6.0,
-    "week05": "BYE",
-    "week06": "DNP",
-    "week07": 5.3,
-    "week08": 8.2,
-    "week09": 6.0,
-    "week10": 3.3,
-    "week11": 7.5,
-    "week12": 1.8,
-    "week13": 7.7,
-    "week14": 0.0,
-    "week15": 16.8,
-    "week16": 9.5,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(225, 119, 87, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [16.6, 15.7, 7.1, 6.0, 'BYE', 'DNP', 5.3, 8.2, 6.0, 3.3, 7.5, 1.8, 7.7, 0.0, 16.8, 9.5]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [8.8, 7.2, 13.3, 8.7, 'BYE', 'DNP', 5.6, 11.7, 10.9, 7.2, 11.7, 7.3, 6.7, 6.9, 4.2, 11.9, 7.5]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [0.0, 0.9, 3.7, 1.6, 'BYE', 'DNP', 1.6, 2.0, 0.0, 1.1, 1.3, 2.6, 0.4, 1.6, 0.0, 0.2, 2.7]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(225, 119, 87, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [9.8, 12.0, 13.8, 14.9, 'BYE', 'DNP', 13.1, 12.0, 13.5, 12.6, 12.3, 10.5, 8.4, 10.5, 9.4, 13.0, 14.0]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3123050.png",
     "name": "Chris Herndon",
     "depthchart": "Starter: TE-1",
@@ -16358,7 +16162,7 @@ $scope.positionTE = [{
     "week07": 0.0,
     "week08": -1.2,
     "week09": 0.0,
-    "week10": "BYE",
+    "week10": "DNP",
     "week11": 10.2,
     "week12": 0.0,
     "week13": 0.0,
@@ -16383,7 +16187,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [4.7, 1.0, 3.6, 1.6, 3.4, 0.0, 0.0, -1.2, 0.0, 'BYE', 10.2, 0.0, 0.0, 1.4, 6.3, 11.4]
+                         data: [4.7, 1.0, 3.6, 1.6, 3.4, 0.0, 0.0, -1.2, 0.0, 'DNP', 10.2, 0.0, 0.0, 1.4, 6.3, 11.4]
                     },
                     {
                         label: "Projected",
@@ -16393,7 +16197,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [4.8, 5.7, 4.4, 11.2, 5.5, 5.6, 6.7, 6.0, 4.4, 'BYE', 6.9, 4.7, 7.7, -0.7, 2.4, 5.9, 7.5]
+                        data: [4.8, 5.7, 4.4, 11.2, 5.5, 5.6, 6.7, 6.0, 4.4, 'DNP', 6.9, 4.7, 7.7, -0.7, 2.4, 5.9, 7.5]
                     },
                     {
                         label: "68% Min",
@@ -16402,7 +16206,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.6, 1.3, 3.3, 0.4, 0.6, 12.1, 0.3, 0.3, 0.0, 'BYE', 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+                        data: [0.6, 1.3, 3.3, 0.4, 0.6, 12.1, 0.3, 0.3, 0.0, 'DNP', 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
                     },
                     {
                         label: "68% Max",
@@ -16412,7 +16216,105 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [9.7, 9.7, 12.5, 6.2, 5.0, 16.9, 8.1, 8.4, 10.5, 'BYE', 9.8, 8.6, 7.2, 9.5, 8.3, 8.8, 7.2]
+                        data: [9.7, 9.7, 12.5, 6.2, 5.0, 16.9, 8.1, 8.4, 10.5, 'DNP', 9.8, 8.6, 7.2, 9.5, 8.3, 8.8, 7.2]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036131.png",
+    "name": "Noah Fant",
+    "depthchart": "Starter: TE-1",
+    "team": "Denver Broncos",
+    "projected": 7.5,
+    "opponent": "Las Vegas Raiders",
+    "home_away": "",
+    "opp_rank_Pos": 25,
+    "team_rank_Neg": 28,
+    "avg_fp2": 7.96,
+    "opp_rank_allowed_fp2_Neu": 12,
+    "opp_avg_allowed_fp2": 9.58,
+    "fanduelSalary": "$5700",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#e17757",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(225, 119, 87, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#e17757",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+    "headlineNews": "Noah Fant caught 6-of-9 targets for 65 yards in the Broncos' Week 16 loss to the Chargers.\n",
+    "report": "",
+    "analysis": "Fant was a space eater over the middle against the Chargers' zone defense. His play-making ability is obvious in every game that he plays at full health, something he hasn't had for most of the 2020 season. Fant's box scores have looked much better recently as he's moved past his mid-year ankle sprain. Expect Fant to close the year strongly as a TE1 play against the Raiders in Week 17. There are reasons to believe a bigger season is coming in 2021.\n",
+    "timestamp": "2020-12-28 01:19 AM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 16.6,
+    "week02": 15.7,
+    "week03": 7.1,
+    "week04": 6.0,
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": 5.3,
+    "week08": 8.2,
+    "week09": 6.0,
+    "week10": 3.3,
+    "week11": 7.5,
+    "week12": 1.8,
+    "week13": 7.7,
+    "week14": 0.0,
+    "week15": 16.8,
+    "week16": 9.5,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(225, 119, 87, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [16.6, 15.7, 7.1, 6.0, 'DNP', 'DNP', 5.3, 8.2, 6.0, 3.3, 7.5, 1.8, 7.7, 0.0, 16.8, 9.5]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [8.8, 7.2, 13.3, 8.7, 'DNP', 'DNP', 5.6, 11.7, 10.9, 7.2, 11.7, 7.3, 6.7, 6.9, 4.2, 11.9, 7.5]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.0, 0.9, 3.7, 1.6, 'DNP', 'DNP', 1.6, 2.0, 0.0, 1.1, 1.3, 2.6, 0.4, 1.6, 0.0, 0.2, 2.7]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(225, 119, 87, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [9.8, 12.0, 13.8, 14.9, 'DNP', 'DNP', 13.1, 12.0, 13.5, 12.6, 12.3, 10.5, 8.4, 10.5, 9.4, 13.0, 14.0]
                     }
                     
                     ]
@@ -16552,7 +16454,7 @@ $scope.positionTE = [{
     "week05": 3.1,
     "week06": 0.0,
     "week07": "DNP",
-    "week08": "BYE",
+    "week08": "DNP",
     "week09": 6.8,
     "week10": 2.5,
     "week11": 4.2,
@@ -16579,7 +16481,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [1.3, 11.1, 2.1, 3.2, 3.1, 0.0, 'DNP', 'BYE', 6.8, 2.5, 4.2, 9.1, 7.5, 3.2, 6.6, 2.7]
+                         data: [1.3, 11.1, 2.1, 3.2, 3.1, 0.0, 'DNP', 'DNP', 6.8, 2.5, 4.2, 9.1, 7.5, 3.2, 6.6, 2.7]
                     },
                     {
                         label: "Projected",
@@ -16589,7 +16491,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [5.3, 8.9, 10.5, 6.5, 11.4, 5.5, 'DNP', 'BYE', 7.2, 11.8, 11.6, 12.8, 9.0, 5.5, 5.8, 10.6, 6.8]
+                        data: [5.3, 8.9, 10.5, 6.5, 11.4, 5.5, 'DNP', 'DNP', 7.2, 11.8, 11.6, 12.8, 9.0, 5.5, 5.8, 10.6, 6.8]
                     },
                     {
                         label: "68% Min",
@@ -16598,7 +16500,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.8, 0.5, 3.1, 0.6, 1.6, 1.9, 'DNP', 'BYE', 0.0, 1.2, 1.1, 1.2, 1.6, 0.7, 0.0, 1.1, 0.5]
+                        data: [0.8, 0.5, 3.1, 0.6, 1.6, 1.9, 'DNP', 'DNP', 0.0, 1.2, 1.1, 1.2, 1.6, 0.7, 0.0, 1.1, 0.5]
                     },
                     {
                         label: "68% Max",
@@ -16608,7 +16510,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [13.9, 12.7, 16.5, 13.9, 11.3, 13.0, 'DNP', 'BYE', 11.3, 16.8, 13.3, 13.8, 14.0, 12.7, 13.5, 12.1, 13.0]
+                        data: [13.9, 12.7, 16.5, 13.9, 11.3, 13.0, 'DNP', 'DNP', 11.3, 16.8, 13.3, 13.8, 14.0, 12.7, 13.5, 12.1, 13.0]
                     }
                     
                     ]
@@ -16735,11 +16637,11 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "tmTextLite": "#c36835",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Jimmy Graham caught 4-of-5 targets for 69 yards and two touchdowns in the Bears' Week 16 win over the Jaguars.\n",
+    "headlineNews": "Cole Kmet (shoulder) is considered questionable for Week 17 against the Packers.\u00a0\n",
     "report": "",
-    "analysis": "The yards were Graham's most of the season, and the five targets were his most since Week 9. Graham had been playing second fiddle to rookie TE Cole Kmet over the last month-plus, but he scored his Nos. 7 and 8 touchdowns on the year in this one with five- and 22-yarders. Graham is as TD-or-bust as they come at tight end. He won't be a recommended fantasy play for Week 17 against the Packers. He had 3-32-0 against them in Week 12.\n",
-    "timestamp": "2020-12-27 09:24 PM",
-    "source": null,
+    "analysis": "Kmet suffered the shoulder injury during practice this week. He's now iffy to play in the Bears' final regular season game. If Kmet is sidelined, Jimmy Graham would become an interesting fantasy option. Even while running fewer pass routes and playing fewer snaps than Kmet over the past four weeks, Graham has outscored Kmet on the strength of three touchdowns over that stretch. Tight ends average six targets per game against the Packers.\u00a0\n",
+    "timestamp": "2021-01-01 07:29 PM",
+    "source": "Adam Caplan on Twitter ",
     "game_day_logo": "",
     "week01": 10.0,
     "week02": 2.3,
@@ -16833,11 +16735,11 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Trey Burton caught 3-of-4 targets for 18 yards in the Colts' Week 16 loss to Pittsburgh.\n",
+    "headlineNews": "Jack Doyle (quad) did not practice Thursday.\u00a0\n",
     "report": "",
-    "analysis": "It was the fourth consecutive game Burton finished with fewer than 20\u00a0receiving yards. He also hasn't scored a touchdown in that span. Fantasy players should continue to ignore him in Week 17.\n",
-    "timestamp": "2020-12-28 03:05 AM",
-    "source": null,
+    "analysis": "Fresh off a five catch, 50 yard performance against the Steelers, Doyle is looking iffy for Week 17's game against Jacksonville, though he missed last week's Thursday practice with the same quad issue. None of the Colts tight ends are reliable fantasy options unless one or two of them are injured.\u00a0\n",
+    "timestamp": "2020-12-31 08:50 PM",
+    "source": "Indianapolis Colts on Twitter ",
     "game_day_logo": "",
     "week01": "DNP",
     "week02": "DNP",
@@ -17038,7 +16940,7 @@ $scope.positionTE = [{
     "week01": 2.3,
     "week02": 5.8,
     "week03": 13.7,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 4.8,
     "week06": 1.9,
     "week07": 8.0,
@@ -17069,7 +16971,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [2.3, 5.8, 13.7, 'BYE', 4.8, 1.9, 8.0, 12.8, 9.7, 4.8, 11.6, 8.9, 10.3, 6.0, 0.0, 13.2]
+                         data: [2.3, 5.8, 13.7, 'DNP', 4.8, 1.9, 8.0, 12.8, 9.7, 4.8, 11.6, 8.9, 10.3, 6.0, 0.0, 13.2]
                     },
                     {
                         label: "Projected",
@@ -17079,7 +16981,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [8.8, 8.9, 7.2, 'BYE', 13.4, 7.7, 9.6, 7.9, 3.9, 13.0, 7.4, 9.5, 7.8, 9.3, 11.0, 7.6, 6.2]
+                        data: [8.8, 8.9, 7.2, 'DNP', 13.4, 7.7, 9.6, 7.9, 3.9, 13.0, 7.4, 9.5, 7.8, 9.3, 11.0, 7.6, 6.2]
                     },
                     {
                         label: "68% Min",
@@ -17088,7 +16990,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 2.4, 3.3, 'BYE', 2.1, 3.8, 2.7, 2.2, 2.5, 2.5, 2.8, 2.5, 2.0, 2.4, 1.8, 1.5, 2.5]
+                        data: [0.0, 2.4, 3.3, 'DNP', 2.1, 3.8, 2.7, 2.2, 2.5, 2.5, 2.8, 2.5, 2.0, 2.4, 1.8, 1.5, 2.5]
                     },
                     {
                         label: "68% Max",
@@ -17098,7 +17000,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [15.5, 13.7, 13.9, 'BYE', 12.7, 13.8, 12.3, 12.8, 12.5, 13.0, 13.3, 13.1, 12.4, 12.3, 13.3, 11.4, 12.6]
+                        data: [15.5, 13.7, 13.9, 'DNP', 12.7, 13.8, 12.3, 12.8, 12.5, 13.0, 13.3, 13.1, 12.4, 12.3, 13.3, 11.4, 12.6]
                     }
                     
                     ]
@@ -17433,7 +17335,7 @@ $scope.positionTE = [{
     "week04": 2.0,
     "week05": 11.6,
     "week06": 0.0,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 1.3,
     "week09": 5.7,
     "week10": 5.0,
@@ -17461,7 +17363,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [4.5, 23.0, 8.0, 2.0, 11.6, 0.0, 'BYE', 1.3, 5.7, 5.0, 6.3, 10.5, 19.3, 21.0, 'DNP', 7.4]
+                         data: [4.5, 23.0, 8.0, 2.0, 11.6, 0.0, 'DNP', 1.3, 5.7, 5.0, 6.3, 10.5, 19.3, 21.0, 'DNP', 7.4]
                     },
                     {
                         label: "Projected",
@@ -17471,7 +17373,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [9.1, 7.0, 11.1, 11.1, 5.1, 7.4, 'BYE', 6.5, 8.1, 3.5, 4.4, 8.1, 7.4, 9.4, 'DNP', 6.5, 5.4]
+                        data: [9.1, 7.0, 11.1, 11.1, 5.1, 7.4, 'DNP', 6.5, 8.1, 3.5, 4.4, 8.1, 7.4, 9.4, 'DNP', 6.5, 5.4]
                     },
                     {
                         label: "68% Min",
@@ -17480,7 +17382,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 3.7, 1.1, 0.0, 0.0, 0.6, 'BYE', 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4, 'DNP', 0.0, 0.5]
+                        data: [0.0, 3.7, 1.1, 0.0, 0.0, 0.6, 'DNP', 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.4, 'DNP', 0.0, 0.5]
                     },
                     {
                         label: "68% Max",
@@ -17490,7 +17392,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [12.1, 13.3, 12.4, 9.5, 12.3, 7.9, 'BYE', 9.6, 12.1, 9.0, 8.5, 11.0, 12.1, 12.6, 'DNP', 11.3, 12.5]
+                        data: [12.1, 13.3, 12.4, 9.5, 12.3, 7.9, 'DNP', 9.6, 12.1, 9.0, 8.5, 11.0, 12.1, 12.6, 'DNP', 11.3, 12.5]
                     }
                     
                     ]
@@ -17609,8 +17511,8 @@ $scope.positionTE = [{
     "opp_avg_allowed_fp2": 9.6,
     "fanduelSalary": "$4900",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Back",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#97233F",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(151, 35, 63, 0.2)",
@@ -17687,104 +17589,6 @@ $scope.positionTE = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [10.9, 7.7, 10.8, 10.0, 7.0, 9.7, 7.3, 'BYE', 4.8, 5.0, 7.3, 8.3, 6.9, 8.7, 5.1, 10.6, 9.2]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3121023.png",
-    "name": "Dallas Goedert",
-    "depthchart": "Backup: TE-2",
-    "team": "Philadelphia Eagles",
-    "projected": 5.1,
-    "opponent": "Washington Football Team",
-    "home_away": "",
-    "opp_rank_Neg": 3,
-    "team_rank_Neg": 27,
-    "avg_fp2": 8.49,
-    "opp_rank_allowed_fp2_Neu": 10,
-    "opp_avg_allowed_fp2": 9.35,
-    "fanduelSalary": "$5700",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Calf",
-    "tmColorLite": "#386168",
-    "tmColorDark": "#004C54",
-    "tmColorLite_rgba": "rgba(56, 97, 104, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Dallas Goedert (calf) is not practicing Wednesday.\n",
-    "report": "",
-    "analysis": "It's a new injury for Goedert after he spent time on I.R. with an ankle injury earlier in the season. If Goedert is forced to miss Week 17 against Washington, Zach Ertz would be on the back end of the TE1 radar.\n",
-    "timestamp": "2020-12-30 09:57 PM",
-    "source": null,
-    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
-    "week01": 20.1,
-    "week02": 5.0,
-    "week03": 1.2,
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "DNP",
-    "week07": "DNP",
-    "week08": 2.0,
-    "week09": "BYE",
-    "week10": 5.3,
-    "week11": 16.2,
-    "week12": 17.0,
-    "week13": 9.1,
-    "week14": 6.3,
-    "week15": 5.9,
-    "week16": 5.3,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1
-                         backgroundColor:  "rgba(56, 97, 104, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [20.1, 5.0, 1.2, 'DNP', 'DNP', 'DNP', 'DNP', 2.0, 'BYE', 5.3, 16.2, 17.0, 9.1, 6.3, 5.9, 5.3]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [6.9, 9.4, 8.8, 'DNP', 'DNP', 'DNP', 'DNP', 12.9, 'BYE', 6.9, 10.9, 12.6, 6.7, 10.0, 13.1, 14.0, 5.1]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [2.2, 1.5, 1.6, 'DNP', 'DNP', 'DNP', 'DNP', 3.0, 'BYE', 0.0, 1.4, 1.5, 3.2, 3.6, 2.9, 1.7, 2.6]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 76, 84, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(56, 97, 104, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [11.6, 12.3, 12.7, 'DNP', 'DNP', 'DNP', 'DNP', 13.7, 'BYE', 10.8, 13.0, 12.8, 13.4, 13.7, 14.0, 12.6, 10.7]
                     }
                     
                     ]
@@ -18019,7 +17823,7 @@ $scope.positionTE = [{
     "week02": "DNP",
     "week03": "DNP",
     "week04": "DNP",
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": "DNP",
     "week07": "DNP",
     "week08": "DNP",
@@ -18049,7 +17853,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 0.7, 0.0]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 0.7, 0.0]
                     },
                     {
                         label: "Projected",
@@ -18059,7 +17863,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.6, 2.0, 5.5, 1.4, 4.7]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.6, 2.0, 5.5, 1.4, 4.7]
                     },
                     {
                         label: "68% Min",
@@ -18068,7 +17872,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 0.4, 0.3, 0.0]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0, 0.4, 0.3, 0.0]
                     },
                     {
                         label: "68% Max",
@@ -18078,7 +17882,105 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 4.8, 5.9, 6.3, 6.9, 9.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 4.8, 5.9, 6.3, 6.9, 9.2]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3127292.png",
+    "name": "Will Dissly",
+    "depthchart": "Backup: TE-2",
+    "team": "Seattle Seahawks",
+    "projected": 4.6,
+    "opponent": "San Francisco 49ers",
+    "home_away": "at ",
+    "opp_rank_Neg": 4,
+    "team_rank_Neu": 14,
+    "avg_fp2": 3.11,
+    "opp_rank_allowed_fp2_Neg": 2,
+    "opp_avg_allowed_fp2": 6.59,
+    "fanduelSalary": "$4400",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#69BE28",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(105, 190, 40, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#69BE28",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+    "headlineNews": "Jacob\u00a0Hollister caught both of his targets for 17 yards and a touchdown in the Seahawks' Week 15 win against the Football Team.\u00a0\n",
+    "report": "",
+    "analysis": "Hollister, who continues to lead Seattle tight ends in pass routes, caught Russell Wilson's lone touchdown pass in Seattle's depressingly scaled down passing attack. Will Dissly did not see a target against Washington. Greg Olsen (foot) returning from injured reserve in the next week or two would end Hollister's fantasy relevance for now. Even without Olsen, he's a borderline streaming option in 14-team formats.\u00a0\n",
+    "timestamp": "2020-12-21 03:49 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 1.8,
+    "week02": 1.4,
+    "week03": 1.5,
+    "week04": 2.5,
+    "week05": 8.4,
+    "week06": "BYE",
+    "week07": 4.8,
+    "week08": 2.2,
+    "week09": 3.1,
+    "week10": 2.1,
+    "week11": 1.5,
+    "week12": 0.0,
+    "week13": 4.8,
+    "week14": 9.3,
+    "week15": 0.0,
+    "week16": 3.2,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(105, 190, 40, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [1.8, 1.4, 1.5, 2.5, 8.4, 'BYE', 4.8, 2.2, 3.1, 2.1, 1.5, 0.0, 4.8, 9.3, 0.0, 3.2]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [11.2, 2.8, 6.1, -0.9, 5.6, 'BYE', 1.5, 2.2, 3.4, 1.1, 3.9, 4.8, 3.6, 5.4, 5.5, 2.5, 4.6]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.0, 3.7, 2.7, 0.0, 2.0, 'BYE', 1.8, 0.9, 0.0, 0.3, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(105, 190, 40, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [13.1, 15.1, 16.7, 8.8, 16.0, 'BYE', 15.5, 15.5, 12.7, 14.2, 8.1, 8.8, 9.2, 10.4, 12.0, 5.7, 13.2]
                     }
                     
                     ]
@@ -18122,7 +18024,7 @@ $scope.positionTE = [{
     "week07": 0.0,
     "week08": 0.0,
     "week09": 3.8,
-    "week10": "BYE",
+    "week10": "DNP",
     "week11": 0.0,
     "week12": "DNP",
     "week13": 4.1,
@@ -18147,7 +18049,7 @@ $scope.positionTE = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [0.0, 0.0, 0.0, 2.5, 0.0, 2.7, 0.0, 0.0, 3.8, 'BYE', 0.0, 'DNP', 4.1, 'DNP', 0.0, 'DNP']
+                         data: [0.0, 0.0, 0.0, 2.5, 0.0, 2.7, 0.0, 0.0, 3.8, 'DNP', 0.0, 'DNP', 4.1, 'DNP', 0.0, 'DNP']
                     },
                     {
                         label: "Projected",
@@ -18157,7 +18059,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [2.5, 0.4, -0.5, 1.3, 0.7, 2.0, 1.3, 2.4, 1.0, 'BYE', 4.7, 'DNP', 1.5, 'DNP', 0.2, 'DNP', 4.5]
+                        data: [2.5, 0.4, -0.5, 1.3, 0.7, 2.0, 1.3, 2.4, 1.0, 'DNP', 4.7, 'DNP', 1.5, 'DNP', 0.2, 'DNP', 4.5]
                     },
                     {
                         label: "68% Min",
@@ -18166,7 +18068,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.8, 4.1, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 'BYE', 0.0, 'DNP', 0.0, 'DNP', 0.0, 'DNP', 0.0]
+                        data: [0.8, 4.1, 0.0, 0.0, 0.0, 0.3, 0.0, 0.0, 0.0, 'DNP', 0.0, 'DNP', 0.0, 'DNP', 0.0, 'DNP', 0.0]
                     },
                     {
                         label: "68% Max",
@@ -18176,7 +18078,7 @@ $scope.positionTE = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [8.7, 11.7, 8.0, 8.6, 7.1, 7.9, 9.2, 8.1, 5.1, 'BYE', 8.0, 'DNP', 6.1, 'DNP', 6.5, 'DNP', 7.4]
+                        data: [8.7, 11.7, 8.0, 8.6, 7.1, 7.9, 9.2, 8.1, 5.1, 'DNP', 8.0, 'DNP', 6.1, 'DNP', 6.5, 'DNP', 7.4]
                     }
                     
                     ]
@@ -18281,104 +18183,6 @@ $scope.positionTE = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/10475.png",
-    "name": "Greg Olsen",
-    "depthchart": "Backup: TE-2",
-    "team": "Seattle Seahawks",
-    "projected": 4.2,
-    "opponent": "San Francisco 49ers",
-    "home_away": "at ",
-    "opp_rank_Neg": 4,
-    "team_rank_Neu": 14,
-    "avg_fp2": 3.81,
-    "opp_rank_allowed_fp2_Neg": 2,
-    "opp_avg_allowed_fp2": 6.59,
-    "fanduelSalary": "$4500",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Foot",
-    "tmColorLite": "#69BE28",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(105, 190, 40, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#69BE28",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Jacob\u00a0Hollister caught both of his targets for 17 yards and a touchdown in the Seahawks' Week 15 win against the Football Team.\u00a0\n",
-    "report": "",
-    "analysis": "Hollister, who continues to lead Seattle tight ends in pass routes, caught Russell Wilson's lone touchdown pass in Seattle's depressingly scaled down passing attack. Will Dissly did not see a target against Washington. Greg Olsen (foot) returning from injured reserve in the next week or two would end Hollister's fantasy relevance for now. Even without Olsen, he's a borderline streaming option in 14-team formats.\u00a0\n",
-    "timestamp": "2020-12-21 03:49 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 10.4,
-    "week02": 0.0,
-    "week03": 8.6,
-    "week04": 6.0,
-    "week05": 2.5,
-    "week06": "BYE",
-    "week07": 2.8,
-    "week08": 0.0,
-    "week09": 2.3,
-    "week10": 4.3,
-    "week11": 3.0,
-    "week12": "DNP",
-    "week13": "DNP",
-    "week14": "DNP",
-    "week15": "DNP",
-    "week16": 2.0,
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(105, 190, 40, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [10.4, 0.0, 8.6, 6.0, 2.5, 'BYE', 2.8, 0.0, 2.3, 4.3, 3.0, 'DNP', 'DNP', 'DNP', 'DNP', 2.0]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [5.4, 9.8, 13.6, 6.7, 8.6, 'BYE', 7.2, 5.0, 7.0, 3.9, 5.9, 'DNP', 'DNP', 'DNP', 'DNP', 6.5, 4.2]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [2.0, 2.4, 1.6, 3.0, 3.2, 'BYE', 2.1, 2.5, 2.5, 1.9, 1.5, 'DNP', 'DNP', 'DNP', 'DNP', 2.0, 1.8]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(105, 190, 40, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [14.6, 14.7, 15.7, 15.2, 15.0, 'BYE', 14.0, 14.1, 13.8, 14.3, 13.5, 'DNP', 'DNP', 'DNP', 'DNP', 14.5, 14.5]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4258595.png",
     "name": "Cole Kmet",
     "depthchart": "Starter: TE-1",
@@ -18393,19 +18197,19 @@ $scope.positionTE = [{
     "opp_avg_allowed_fp2": 8.25,
     "fanduelSalary": "$5000",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Shoulder",
     "tmColorLite": "#c36835",
     "tmColorDark": "#0B162A",
     "tmColorLite_rgba": "rgba(195, 104, 53, 0.2)",
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "tmTextLite": "#c36835",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Cole Kmet caught 2-of-6 targets for 18 yards in the Bears' Week 16 win over the Jaguars.\n",
+    "headlineNews": "Cole Kmet (shoulder) is considered questionable for Week 17 against the Packers.\u00a0\n",
     "report": "",
-    "analysis": "Kmet's six targets were one more than Jimmy Graham's five, but Graham went 4-69-2 on his looks with five- and 22-yard scores. The rookie tight end has failed to top 45 yards in a game this season and has two touchdowns. He's a last-resort TE2 for Week 17 against the Packers.\n",
-    "timestamp": "2020-12-27 09:48 PM",
-    "source": null,
+    "analysis": "Kmet suffered the shoulder injury during practice this week. He's now iffy to play in the Bears' final regular season game. If Kmet is sidelined, Jimmy Graham would become an interesting fantasy option. Even while running fewer pass routes and playing fewer snaps than Kmet over the past four weeks, Graham has outscored Kmet on the strength of three touchdowns over that stretch. Tight ends average six targets per game against the Packers.\u00a0\n",
+    "timestamp": "2021-01-01 07:29 PM",
+    "source": "Adam Caplan on Twitter ",
     "game_day_logo": "",
     "week01": 0.0,
     "week02": 1.7,
@@ -18569,6 +18373,104 @@ $scope.positionTE = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [8.6, 9.7, 8.3, 8.1, 'BYE', 10.0, 8.0, 7.4, 7.7, 8.1, 7.9, 8.4, 7.7, 8.6, 7.3, 7.2, 6.9]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3912092.png",
+    "name": "Donald Parham",
+    "depthchart": "Starter: TE-1",
+    "team": "Los Angeles Chargers",
+    "projected": 3.4,
+    "opponent": "Kansas City Chiefs",
+    "home_away": "at ",
+    "opp_rank_Neu": 15,
+    "team_rank_Pos": 6,
+    "avg_fp2": 2.52,
+    "opp_rank_allowed_fp2_Pos": 24,
+    "opp_avg_allowed_fp2": 11.43,
+    "fanduelSalary": "$4200",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#0080C6",
+    "tmColorDark": "#002A5E",
+    "tmColorLite_rgba": "rgba(0, 128, 198, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
+    "tmTextLite": "#0080C6",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+    "headlineNews": "Donald Parham caught 2-of-3 targets for 47 yards in the Chargers' Week 16 win over the Broncos.\u00a0\n",
+    "report": "",
+    "analysis": "With Hunter Henry (COVID-19) sidelined, The 6'8\" XFL legend played 81 percent of the Bolts' offensive snaps, getting 20 snaps in the slot or out wide. It was the perfect usage for those who streamed Parham, but didn't generate a whole lot of opportunity. Stephen Anderson, who caught four of six targets for 48 yards,\u00a0operated as the team's top pass catching tight end with Henry out. Anderson would seem to be the safer streaming option in Week 17 if Henry can't return from the reserve/COVID-19 list.\u00a0\n",
+    "timestamp": "2020-12-28 02:03 PM",
+    "source": "Adam Levitan on Twitter ",
+    "game_day_logo": "",
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": 0.0,
+    "week06": "DNP",
+    "week07": 8.7,
+    "week08": 0.0,
+    "week09": 0.0,
+    "week10": 1.8,
+    "week11": 0.0,
+    "week12": 0.0,
+    "week13": 3.1,
+    "week14": "DNP",
+    "week15": 0.0,
+    "week16": 5.7,
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1
+                         backgroundColor:  "rgba(0, 128, 198, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 0.0, 'DNP', 8.7, 0.0, 0.0, 1.8, 0.0, 0.0, 3.1, 'DNP', 0.0, 5.7]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 2.4, 'DNP', 6.9, 3.2, -1.2, 3.0, 3.0, 1.6, 1.3, 'DNP', 1.0, 5.2, 3.4]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 0.0, 'DNP', 0.2, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 'DNP', 0.2, 0.0, 0.0]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 42, 94, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(0, 128, 198, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 7.0, 'DNP', 5.2, 5.6, 7.7, 6.6, 6.3, 6.0, 1.1, 'DNP', 7.6, 0.8, 5.6]
                     }
                     
                     ]
@@ -18808,7 +18710,7 @@ $scope.positionDST = [{
     "week01": 8.0,
     "week02": 13.0,
     "week03": 7.0,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 8.0,
     "week06": 18.0,
     "week07": 2.0,
@@ -18839,7 +18741,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [8.0, 13.0, 7.0, 'BYE', 8.0, 18.0, 2.0, 12.0, 7.0, 12.0, 17.0, 8.0, 3.0, 6.0, 2.0, 9.0]
+                         data: [8.0, 13.0, 7.0, 'DNP', 8.0, 18.0, 2.0, 12.0, 7.0, 12.0, 17.0, 8.0, 3.0, 6.0, 2.0, 9.0]
                     },
                     {
                         label: "Projected",
@@ -18849,7 +18751,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [7.9, 7.8, 8.4, 'BYE', 8.0, 7.8, 4.6, 6.1, 7.4, 7.0, 8.1, 5.4, 8.8, 5.8, 8.7, 6.9, 9.0]
+                        data: [7.9, 7.8, 8.4, 'DNP', 8.0, 7.8, 4.6, 6.1, 7.4, 7.0, 8.1, 5.4, 8.8, 5.8, 8.7, 6.9, 9.0]
                     },
                     {
                         label: "68% Min",
@@ -18858,7 +18760,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.9, 1.7, 2.1, 'BYE', 2.8, 1.1, 1.9, 1.9, 1.9, 2.1, 2.3, 3.3, 2.7, 2.3, 3.3, 1.7, 2.0]
+                        data: [1.9, 1.7, 2.1, 'DNP', 2.8, 1.1, 1.9, 1.9, 1.9, 2.1, 2.3, 3.3, 2.7, 2.3, 3.3, 1.7, 2.0]
                     },
                     {
                         label: "68% Max",
@@ -18868,7 +18770,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [14.7, 14.9, 14.7, 'BYE', 14.8, 14.9, 13.7, 15.0, 14.8, 14.7, 14.3, 14.6, 14.8, 14.4, 15.1, 15.1, 14.2]
+                        data: [14.7, 14.9, 14.7, 'DNP', 14.8, 14.9, 13.7, 15.0, 14.8, 14.7, 14.3, 14.6, 14.8, 14.4, 15.1, 15.1, 14.2]
                     }
                     
                     ]
@@ -18899,18 +18801,18 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
-    "headlineNews": "NFL Network's Ian Rapoport reports Patriots CB Stephon Gilmore (quad) will undergo season-ending surgery.\n",
+    "headlineNews": "Patriots placed LB\u00a0Josh Uche on injured reserve with a foot injury, ending his season.\u00a0\n",
     "report": "",
-    "analysis": "Gilmore suffered a partially torn quad in Sunday's loss, which also knocked the Patriots out of postseason contention. He's still expected to be able to turn around for a portion of the team's offseason program since there was no structural damage found in his knee. It's obviously a long-term blow to the organization as Gilmore, who was shopped prior to the trade deadline, will have to make a full recovery before stepping back onto the field for his\u00a0contract year at the age of 30.\u00a0Veteran Jason McCourty will start opposite J.C. Jackson over the Patriots' last two games.\n",
+    "analysis": "It's really bad news, as the No. 60 overall pick of the draft missed Weeks 3-7 with a foot issue. Hopefully it is not a serious aggravation. Uche was making some big plays in the second half of the season as he averaged roughly 25-40 snaps.\u00a0\n",
     "timestamp": "",
-    "source": "Ian Rapoport on Twitter",
+    "source": "Mike Reiss on Twitter ",
     "game_day_logo": "",
     "avg_fp2": 5.47,
     "week01": 11.0,
     "week02": 0.0,
     "week03": 9.0,
     "week04": 4.0,
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": 9.0,
     "week07": 4.0,
     "week08": 3.0,
@@ -18940,7 +18842,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [11.0, 0.0, 9.0, 4.0, 'BYE', 9.0, 4.0, 3.0, 3.0, 5.0, 0.0, 5.0, 25.0, 4.0, 4.0, -4.0]
+                         data: [11.0, 0.0, 9.0, 4.0, 'DNP', 9.0, 4.0, 3.0, 3.0, 5.0, 0.0, 5.0, 25.0, 4.0, 4.0, -4.0]
                     },
                     {
                         label: "Projected",
@@ -18950,7 +18852,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [10.2, 7.7, 6.5, 4.4, 'BYE', 8.3, 6.9, 7.1, 9.3, 6.2, 7.2, 6.4, 4.9, 7.8, 6.5, 6.4, 8.2]
+                        data: [10.2, 7.7, 6.5, 4.4, 'DNP', 8.3, 6.9, 7.1, 9.3, 6.2, 7.2, 6.4, 4.9, 7.8, 6.5, 6.4, 8.2]
                     },
                     {
                         label: "68% Min",
@@ -18959,7 +18861,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [3.5, 2.3, 1.4, 0.9, 'BYE', 1.5, 2.7, 2.2, 2.7, 1.5, 1.8, 1.0, 1.6, 1.2, 2.6, 2.4, 2.1]
+                        data: [3.5, 2.3, 1.4, 0.9, 'DNP', 1.5, 2.7, 2.2, 2.7, 1.5, 1.8, 1.0, 1.6, 1.2, 2.6, 2.4, 2.1]
                     },
                     {
                         label: "68% Max",
@@ -18969,7 +18871,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [15.9, 15.6, 11.5, 13.1, 'BYE', 14.5, 15.7, 14.8, 15.4, 13.4, 13.5, 13.2, 13.3, 13.8, 14.3, 15.4, 15.4]
+                        data: [15.9, 15.6, 11.5, 13.1, 'DNP', 14.5, 15.7, 14.8, 15.4, 13.4, 13.5, 13.2, 13.3, 13.8, 14.3, 15.4, 15.4]
                     }
                     
                     ]
@@ -19000,11 +18902,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(158, 124, 12, 0.2)",
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Ravens re-signed Jimmy Smith to a one-year, $5 million contract extension.\n",
+    "headlineNews": "The Athletic's Jeff Zrebiec reports the\u00a0Ravens are interested in signing DE Derek Wolfe to an extension.\n",
     "report": "",
-    "analysis": "Initially set to hit free agency, the one-year extension will keep Smith locked up with the Ravens through the 2021 season. He\u2019s dealt with a number of injuries the past few years and turns 33 in July, but Smith remains Baltimore\u2019s best reserve in the secondary when healthy. He\u2019ll likely be asked to stay\u00a0in that role\u00a0next season.\n",
+    "analysis": "Signed to a one-year, $3 million deal this offseason,\u00a0Wolfe has 49 tackles, a\u00a0sack, and six TFLs on a 58% snap share. It's a step back from Wolfe's 2019, but\u00a0the Ravens may look to re-sign him on another team-friendly deal.\u00a0Wolfe has said\u00a0he'd \"love to stay\" in Baltimore.\n",
     "timestamp": "",
-    "source": "Adam Schefter on Twitter",
+    "source": "The Athletic",
     "game_day_logo": "",
     "avg_fp2": 6.87,
     "week01": 11.0,
@@ -19013,7 +18915,7 @@ $scope.positionDST = [{
     "week04": 6.0,
     "week05": 20.0,
     "week06": 5.0,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 4.0,
     "week09": 8.0,
     "week10": 1.0,
@@ -19041,7 +18943,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [11.0, 7.0, 7.0, 6.0, 20.0, 5.0, 'BYE', 4.0, 8.0, 1.0, 3.0, 8.0, 3.0, 0.0, 10.0, 10.0]
+                         data: [11.0, 7.0, 7.0, 6.0, 20.0, 5.0, 'DNP', 4.0, 8.0, 1.0, 3.0, 8.0, 3.0, 0.0, 10.0, 10.0]
                     },
                     {
                         label: "Projected",
@@ -19051,7 +18953,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [9.3, 7.0, 7.7, 7.8, 10.0, 7.1, 'BYE', 8.2, 6.3, 6.6, 7.8, 5.0, 9.3, 6.9, 8.3, 8.8, 8.0]
+                        data: [9.3, 7.0, 7.7, 7.8, 10.0, 7.1, 'DNP', 8.2, 6.3, 6.6, 7.8, 5.0, 9.3, 6.9, 8.3, 8.8, 8.0]
                     },
                     {
                         label: "68% Min",
@@ -19060,7 +18962,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [2.2, 2.7, 1.9, 3.9, 2.2, 1.3, 'BYE', 4.4, 0.8, 0.6, 0.0, 0.9, 1.7, 2.2, 3.4, 3.3, 1.9]
+                        data: [2.2, 2.7, 1.9, 3.9, 2.2, 1.3, 'DNP', 4.4, 0.8, 0.6, 0.0, 0.9, 1.7, 2.2, 3.4, 3.3, 1.9]
                     },
                     {
                         label: "68% Max",
@@ -19070,7 +18972,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [16.1, 16.7, 15.3, 16.4, 16.0, 14.0, 'BYE', 19.1, 14.2, 15.0, 13.9, 16.4, 12.9, 14.1, 16.6, 16.6, 14.2]
+                        data: [16.1, 16.7, 15.3, 16.4, 16.0, 14.0, 'DNP', 19.1, 14.2, 15.0, 13.9, 16.4, 12.9, 14.1, 16.6, 16.6, 14.2]
                     }
                     
                     ]
@@ -19101,11 +19003,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(56, 97, 104, 0.2)",
     "tmColorDark_rgba": "rgba(0, 76, 84, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
-    "headlineNews": "Eagles DT\u00a0Fletcher Cox was forced from Philadelphia's Week 16 game against the Cowboys with a stinger and will not return.\u00a0\n",
+    "headlineNews": "Eagles DT\u00a0Fletcher Cox (neck) won't play in Week 17 against Washington.\n",
     "report": "",
-    "analysis": "Cox was lost early. The Eagles' defense has been getting shredded since his departure. Cox's injury was labeled a \"stinger,\" but he didn't practice all week with a neck ailment. The issues are almost certainly related. Cox's Week 17 status will depend on whether the Eagles can eke out a win in Dallas.\u00a0\n",
+    "analysis": "Philadelphia will also sit\u00a0Derek Barnett, Shaun Bradley, and\u00a0Jordan Mailata on defense. With nothing to play for, the Eagles are clearly packing it in on the 2020 season. Miles Sanders, DeSean Jackson, and Dallas Goedert have also been ruled out.\n",
     "timestamp": "",
-    "source": null,
+    "source": "Philadelphia Eagles on Twitter",
     "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
     "avg_fp2": 5.93,
     "week01": 3.0,
@@ -19202,11 +19104,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Rams placed S\u00a0Juju Hughes on the reserve/COVID-19 list.\u00a0\n",
+    "headlineNews": "Rams placed DL Michael\u00a0Brockers on the reserve/COVID-19 list.\u00a0\n",
     "report": "",
-    "analysis": "Hughes played 31 snaps in Sunday's shocking loss to the Jets, so some contract tracing will be underway. A rookie UDFA, Hughes has typically\u00a0been providing 15-20 weekly plays for the Rams' impressive defense.\u00a0\n",
+    "analysis": "It's not clear whether Brockers is considered a close contact or tested positive for COVID-19. Either way, the Rams will be without Brockers this week against the Cardinals. The team is missing a number of starters in a must-win game.\u00a0\n",
     "timestamp": "",
-    "source": null,
+    "source": "Aaron Wilson on Twitter ",
     "game_day_logo": "",
     "avg_fp2": 7.13,
     "week01": 4.0,
@@ -19505,11 +19407,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "NFL Network's Ian Rapoport reports Saints LB Kwon Alexander tore his Achilles and will miss the remainder of the 2020 season.\n",
+    "headlineNews": "Saints S Marcus Williams (ankle) is out for Week 17 against the Panthers.\n",
     "report": "",
-    "analysis": "It's a brutal injury for a player that's dealt with them for most of his professional career. The speedy linebacker was picked up midseason by the Saints and was making a positive impact on their top-five defense. Alexander's absence will be felt in the NFL playoffs. Typically a 9-12 month recovery, Alexander faces an uphill battle to be recovered by the start of the 2021 season. He has a $13.4 million cap hit next year. Alexander will be a 27-year-old then.\n",
+    "analysis": "The Saints are dealing with a lot of injuries right now. Michael Thomas is on injured reserve, Alvin Kamara is on the COVID-19 list, Kwon Alexander is out for the season, and Williams is week to week. The Saints most likely will play on Wild Card Weekend. It's unclear if Williams suit up then.\n",
     "timestamp": "",
-    "source": "Ian Rapoport on Twitter",
+    "source": null,
     "game_day_logo": "",
     "avg_fp2": 6.87,
     "week01": 11.0,
@@ -19808,9 +19710,9 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Bucs CB\u00a0Carlton Davis (groin) is inactive for Week 16 against the Lions.\n",
+    "headlineNews": "Bucs CB Carlton Davis (groin) is doubtful for Week 17 against the Falcons.\n",
     "report": "",
-    "analysis": "Davis wasn't expected to play after he was listed as doubtful.\u00a0The Bucs will likely go with Jamel Dean and Sean Murphy-Bunting on the outside, with Ross Cockrell in the slot. Also inactive are\u00a0TE Antony Auclair,\u00a0DL Khalil Davis,\u00a0QB Ryan Griffin, and\u00a0WR Justin Watson.\n",
+    "analysis": "Davis left in Week 15 and has only\u00a0practiced once since. He's week to week. It's bad timing as the Bucs will be missing other starting defenders because of COVID-19 protocols. The Bucs need to get healthy on defense quickly to have a shot at making it to the Super Bowl.\n",
     "timestamp": "",
     "source": null,
     "game_day_logo": "",
@@ -19909,11 +19811,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
     "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Browns placed S Karl Joseph on the COVID-19 list.\n",
+    "headlineNews": "Browns placed CB\u00a0Denzel Ward on the reserve/COVID-19 list.\u00a0\n",
     "report": "",
-    "analysis": "It's unclear if he's a close contact or actually tested positive. Either way, he'll miss the Week 17 finale. The Browns have placed close to one dozen players on the COVID-19 list in the last week. Cleveland is in a must-win spot on Sunday.\n",
+    "analysis": "He will be joined there by\u00a0LB Malcolm Smith. The Browns' COVID-19 situation certainly does not appear under control. They closed the team facilities on Thursday morning, and they will not re-open until Friday at the earliest. Even if Ward is merely a \"close contact,\" he cannot get cleared in time for Sunday's finale against the Steelers, while his availability for a potential Wild Card game is now in question.\u00a0\n",
     "timestamp": "",
-    "source": "Browns on Twitter",
+    "source": null,
     "game_day_logo": "",
     "avg_fp2": 5.33,
     "week01": -2.0,
@@ -20212,9 +20114,9 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(151, 35, 63, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Cardinals placed CB\u00a0Johnathan Joseph (neck)\u00a0on injured reserve.\n",
+    "headlineNews": "Cardinals placed S\u00a0Chris Banjo on the reserve/COVID-19 list.\u00a0\n",
     "report": "",
-    "analysis": "Joseph played under 30% of snaps in four appearances\u00a0after coming over from the Titans. He'll be sidelined at least the next three games with a stinger\u00a0but could return if the Cardinals make the postseason. Arizona activated starting DL Jordan Phillips and CB Kevin Peterson from IR in corresponding moves\n",
+    "analysis": "Typically a linchpin special teamer, Banjo ended up playing 437\u00a0defensive snaps this season. He was decent in the process, but that probably won't happen again in 2021. The 30-year-old is headed back to free agency.\u00a0\n",
     "timestamp": "",
     "source": null,
     "game_day_logo": "",
@@ -20414,11 +20316,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(127, 150, 149, 0.2)",
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Cowboys activated CB Trevon Diggs (foot) from injured reserve.\n",
+    "headlineNews": "Cowboys LB Leighton Vander Esch (ankle) is out for Week 17 against the Giants.\n",
     "report": "",
-    "analysis": "Diggs has spent the past five weeks on IR. He started all nine games before going down, posting 48 tackles and two interceptions in an every-down role. Diggs should match up with 49ers WR Brandon Aiyuk in Week 15.\n",
+    "analysis": "It's a must-win game for Dallas, so\u00a0Vander Esch's ankle injury must be significant. He didn't practice all week and should be viewed as week-to-week if the Cowboys backdoor into the playoffs. Partially due to injuries,\u00a0Vander Esch had a down 2020 season, particularly fitting the run.\n",
     "timestamp": "",
-    "source": "Dallas Morning News",
+    "source": null,
     "game_day_logo": "",
     "avg_fp2": 4.27,
     "week01": 4.0,
@@ -20616,11 +20518,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(224, 170, 25, 0.2)",
     "tmColorDark_rgba": "rgba(48, 14, 90, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
-    "headlineNews": "Vikings LB\u00a0Eric Kendricks (calf) is out for Week 16 against the Saints.\u00a0\n",
+    "headlineNews": "Vikings LB\u00a0Eric Kendricks (calf) won't play in Week 17 against the Lions.\n",
     "report": "",
-    "analysis": "Troy Dye is also out, thinning the Vikings' depth. It will be Kendricks' fourth straight absence. It's a boost for Alvin Kamara after his quiet day in Drew Brees' Week 15 return. At this point, Kendricks should be considered doubtful for next week's finale.\u00a0\n",
+    "analysis": "Neither will DEs\u00a0Jalyn Holmes and\u00a0Ifeadi Odenigbo as well as CB\u00a0Cameron Dantzler. The Lions haven't put up a fight of late, ceding at least 30 points to opponents in five consecutive games, but Minnesota's lacking bodies on defense could be the potion Detroit's offense needs to close the year delivering\u00a0one last blow. As it stands, Matthew Stafford isn't practicing but could still start without any mid-week reps.\n",
     "timestamp": "",
-    "source": "Chris Tomasson on Twitter ",
+    "source": "Chris Tomasson on Twitter",
     "game_day_logo": "",
     "avg_fp2": 3.93,
     "week01": -4.0,
@@ -20727,7 +20629,7 @@ $scope.positionDST = [{
     "week01": 3.0,
     "week02": 5.0,
     "week03": 7.0,
-    "week04": "BYE",
+    "week04": "DNP",
     "week05": 8.0,
     "week06": 2.0,
     "week07": 6.0,
@@ -20758,7 +20660,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [3.0, 5.0, 7.0, 'BYE', 8.0, 2.0, 6.0, -1.0, 8.0, 0.0, 3.0, 10.0, -2.0, 8.0, 6.0, -1.0]
+                         data: [3.0, 5.0, 7.0, 'DNP', 8.0, 2.0, 6.0, -1.0, 8.0, 0.0, 3.0, 10.0, -2.0, 8.0, 6.0, -1.0]
                     },
                     {
                         label: "Projected",
@@ -20768,7 +20670,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [7.9, 7.2, 5.7, 'BYE', 6.1, 6.1, 5.7, 6.4, 6.4, 4.5, 5.3, 4.4, 4.8, 6.8, 5.9, 4.1, 5.6]
+                        data: [7.9, 7.2, 5.7, 'DNP', 6.1, 6.1, 5.7, 6.4, 6.4, 4.5, 5.3, 4.4, 4.8, 6.8, 5.9, 4.1, 5.6]
                     },
                     {
                         label: "68% Min",
@@ -20777,7 +20679,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.9, 0.6, 1.3, 'BYE', 0.0, 1.6, 0.5, 0.3, 0.9, 0.2, 0.0, 0.0, 0.0, 2.1, 0.8, 0.6, 0.7]
+                        data: [0.9, 0.6, 1.3, 'DNP', 0.0, 1.6, 0.5, 0.3, 0.9, 0.2, 0.0, 0.0, 0.0, 2.1, 0.8, 0.6, 0.7]
                     },
                     {
                         label: "68% Max",
@@ -20787,7 +20689,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [14.2, 12.9, 13.5, 'BYE', 13.7, 12.6, 13.3, 13.1, 13.6, 12.5, 13.3, 10.6, 13.3, 14.2, 13.8, 13.9, 13.8]
+                        data: [14.2, 12.9, 13.5, 'DNP', 13.7, 12.6, 13.3, 13.1, 13.6, 12.5, 13.3, 10.6, 13.3, 14.2, 13.8, 13.9, 13.8]
                     }
                     
                     ]
@@ -20829,7 +20731,7 @@ $scope.positionDST = [{
     "week02": 5.0,
     "week03": 3.0,
     "week04": 6.0,
-    "week05": "BYE",
+    "week05": "DNP",
     "week06": 12.0,
     "week07": 2.0,
     "week08": 5.0,
@@ -20859,7 +20761,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [4.0, 5.0, 3.0, 6.0, 'BYE', 12.0, 2.0, 5.0, 3.0, -4.0, 12.0, 4.0, 1.0, 10.0, -1.0, 3.0]
+                         data: [4.0, 5.0, 3.0, 6.0, 'DNP', 12.0, 2.0, 5.0, 3.0, -4.0, 12.0, 4.0, 1.0, 10.0, -1.0, 3.0]
                     },
                     {
                         label: "Projected",
@@ -20869,7 +20771,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [6.6, 5.2, 6.5, 6.9, 'BYE', 5.0, 5.7, 5.2, 4.6, 5.1, 6.9, 4.9, 4.4, 5.0, 7.2, 5.4, 5.6]
+                        data: [6.6, 5.2, 6.5, 6.9, 'DNP', 5.0, 5.7, 5.2, 4.6, 5.1, 6.9, 4.9, 4.4, 5.0, 7.2, 5.4, 5.6]
                     },
                     {
                         label: "68% Min",
@@ -20878,7 +20780,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.3, 1.5, 2.0, 1.4, 'BYE', 1.3, 1.3, 1.4, 1.0, 1.4, 1.3, 0.3, 0.9, 1.1, 1.1, 0.6, 0.7]
+                        data: [1.3, 1.5, 2.0, 1.4, 'DNP', 1.3, 1.3, 1.4, 1.0, 1.4, 1.3, 0.3, 0.9, 1.1, 1.1, 0.6, 0.7]
                     },
                     {
                         label: "68% Max",
@@ -20888,7 +20790,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [14.0, 13.4, 13.2, 13.3, 'BYE', 12.7, 13.7, 13.6, 12.9, 12.8, 13.4, 13.6, 12.3, 13.0, 13.0, 11.9, 13.2]
+                        data: [14.0, 13.4, 13.2, 13.3, 'DNP', 12.7, 13.7, 13.6, 12.9, 12.8, 13.4, 13.6, 12.3, 13.0, 13.0, 11.9, 13.2]
                     }
                     
                     ]
@@ -21022,7 +20924,7 @@ $scope.positionDST = [{
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
     "headlineNews": "Dolphins LB Elandon Roberts has a\u00a0\"significant\" knee injury and won't play in Week 17 against Buffalo.\n",
     "report": "",
-    "analysis": "He's also expected to miss any potential postseason games. Losing\u00a0Roberts is a downgrade to Miami's run defense.\u00a0The Dolphins will turn to Sam Eguavoen and Kamu Grugier-Hill to replace Roberts.\n",
+    "analysis": "He is headed to injured reserve, which would make him ineligible to return before the AFC Championship Game. Losing\u00a0Roberts is a downgrade to Miami's run defense.\u00a0The Dolphins will turn to Sam Eguavoen and Kamu Grugier-Hill to replace Roberts.\n",
     "timestamp": "",
     "source": "ESPN",
     "game_day_logo": "",
@@ -21033,7 +20935,7 @@ $scope.positionDST = [{
     "week04": 3.0,
     "week05": 12.0,
     "week06": 15.0,
-    "week07": "BYE",
+    "week07": "DNP",
     "week08": 17.0,
     "week09": 2.0,
     "week10": 4.0,
@@ -21061,7 +20963,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [2.0, 4.0, 12.0, 3.0, 12.0, 15.0, 'BYE', 17.0, 2.0, 4.0, 5.0, 14.0, 14.0, 10.0, 9.0, 5.0]
+                         data: [2.0, 4.0, 12.0, 3.0, 12.0, 15.0, 'DNP', 17.0, 2.0, 4.0, 5.0, 14.0, 14.0, 10.0, 9.0, 5.0]
                     },
                     {
                         label: "Projected",
@@ -21071,7 +20973,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [5.1, 7.4, 6.2, 4.1, 6.2, 7.0, 'BYE', 5.8, 5.8, 5.2, 6.1, 6.6, 7.1, 6.1, 5.6, 5.2, 5.4]
+                        data: [5.1, 7.4, 6.2, 4.1, 6.2, 7.0, 'DNP', 5.8, 5.8, 5.2, 6.1, 6.6, 7.1, 6.1, 5.6, 5.2, 5.4]
                     },
                     {
                         label: "68% Min",
@@ -21080,7 +20982,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.1, 0.0, 2.9, 0.0, 0.7, 0.7, 'BYE', 0.0, 0.4, 0.3, 0.0, 0.2, 1.2, 0.5, 0.5, 0.9, 0.8]
+                        data: [0.1, 0.0, 2.9, 0.0, 0.7, 0.7, 'DNP', 0.0, 0.4, 0.3, 0.0, 0.2, 1.2, 0.5, 0.5, 0.9, 0.8]
                     },
                     {
                         label: "68% Max",
@@ -21090,7 +20992,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [12.8, 14.2, 10.5, 12.8, 13.5, 13.1, 'BYE', 12.6, 13.0, 11.3, 12.9, 13.1, 14.9, 13.0, 14.0, 14.3, 13.0]
+                        data: [12.8, 14.2, 10.5, 12.8, 13.5, 13.1, 'DNP', 12.6, 13.0, 11.3, 12.9, 13.1, 14.9, 13.0, 14.0, 14.3, 13.0]
                     }
                     
                     ]
@@ -21323,9 +21225,9 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(234, 115, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
-    "headlineNews": "Bengals placed DT Geno Atkins (shoulder) on injured reserve.\n",
+    "headlineNews": "Bengals CB William Jackson (concussion) is out for Week 17 against the Ravens.\n",
     "report": "",
-    "analysis": "This ends his season and potentially his career with the Bengals.\u00a0Atkins missed the first five weeks with shoulder issues. He never looked healthy when he returned, playing 14% of snaps in eight games. 32-year-old Atkins is signed through 2022, but the Bengals can save $9.6 million\u00a0from releasing him this offseason. The Bengals would clear $11.6 million with $2.6 million in dead money by making Atkins a post-June cut.\u00a0\n",
+    "analysis": "This could end Jackson's time with the Bengals as his four-year contract and fifth-year team option are now up. He'll head into free agency as a 29-year-old and should land starting-caliber money. He's been a quality outside corner every season he's been healthy for.\n",
     "timestamp": "",
     "source": null,
     "game_day_logo": "",
@@ -21424,11 +21326,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(179, 153, 93, 0.2)",
     "tmColorDark_rgba": "rgba(184, 8, 62, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
-    "headlineNews": "Contract-year CB\u00a0Richard Sherman doesn't expect to re-sign with the 49ers.\n",
+    "headlineNews": "49ers CBs K'Waun Williams and Richard Sherman are out for Week 17 against the Seahawks.\n",
     "report": "",
-    "analysis": "Sherman, who doesn't have an agent, said his doubts about remaining with the 49ers are based on the salary cap and conversations with the team. San Francisco is expected to prioritize\u00a0extensions for\u00a0LT Trent Williams\u00a0and LB Fred Warner this offseason, leaving them with limited cap space. 32-year-old Sherman spent nine weeks on IR with a calf injury, but has been productive when healthy, posting 14 tackles and an interception in three games. The five-time Pro Bowler will have interest from teams if he\u00a0reaches free agency.\n",
+    "analysis": "49ers CB Emmanuel Mosely is also questionable after a full week of limited practices. The 49ers are out of the playoff hunt, so this only matters for Seattle's playoff seeding. Both Williams and Sherman are free agents in 2021. San Francisco will have to address their secondary this offseason.\n",
     "timestamp": "",
-    "source": "ESPN",
+    "source": null,
     "game_day_logo": "",
     "avg_fp2": 5.27,
     "week01": 4.0,
@@ -21525,11 +21427,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Texans CB\u00a0Phillip Gaines (knee) is inactive for Week 17 against the Bengals.\n",
+    "headlineNews": "J.J. Watt admits he's uncertain if he will be back with the Texans in 2021.\u00a0\n",
     "report": "",
-    "analysis": "Gaines will miss his third straight game with a knee injury. The rest of Houston's inactives are\u00a0RB Duke Johnson\nRB C.J. Prosise,\u00a0QB Josh McCown,\u00a0CB Phillip Gaines, and\u00a0WR Isaiah Coulter.\n",
+    "analysis": "\u201cThere\u2019s a whole lot of unknowns, so we\u2019ll see what happens,\" Watt said Thursday. \"I don't have any guarantees left in my contract, so something\u2019s gotta happen one way or another.\u201d Watt has expressed frustration\u00a0with the only organization he's only known in recent days, and the sides going their separate ways would clear $17.5 million in cap space while leaving behind $0 in dead money. Three months shy of his 32nd birthday, Watt has only five sacks this season but has generated plenty of pressure. He would be in high demand as a pass rusher/locker room presence.\u00a0\n",
     "timestamp": "",
-    "source": null,
+    "source": "Aaron Reiss on Twitter ",
     "game_day_logo": "",
     "avg_fp2": 2.27,
     "week01": 0.0,
@@ -21626,9 +21528,9 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(195, 104, 53, 0.2)",
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Bears declared S Deon Bush, CB\u00a0Jaylon Johnson, RB Artavis Pierce, OL\u00a0Lachavious Simmons, and CB\u00a0Buster Skrine as inactive for Week 15 against the Vikings.\n",
+    "headlineNews": "Bears CBs Jaylon Johnson (shoulder) and Buster Skrine (concussion) are out for Week 17 against the Packers.\n",
     "report": "",
-    "analysis": "Jaylon Johnson and Buster Skrine are both starters while Bush mixes in occasionally. He's mostly a special teamer. Not having two starting corners against the Vikings receivers is poor timing.\n",
+    "analysis": "Neither Johnson nor Skrine practiced this week. It's awful timing for the Bears as Sunday is a must-win game for their playoff hopes. Johnson would've defended Davante Adams at times. It wouldn't be a surprise for Adams to reach 100 yards with a touchdown or two in this suddenly good on-paper matchup.\n",
     "timestamp": "",
     "source": null,
     "game_day_logo": "",
@@ -21727,11 +21629,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(0, 128, 198, 0.2)",
     "tmColorDark_rgba": "rgba(0, 42, 94, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
-    "headlineNews": "Joey Bosa (concussion, shin) is out for Week 16 against the Broncos.\n",
+    "headlineNews": "Joey Bosa (concussion, shin) won't play in Week 17 against the Chiefs.\n",
     "report": "",
-    "analysis": "This is Bosa's second trip to the concussion protocol this season. Coach Anthony Lynn said that Bosa wouldn't be shut down for the season, but the Chargers are out of the playoff hunt and there will only be one game left after this Sunday. Bosa has played like one of the five best edge rushers this season. He's a franchise player for the Bolts.\n",
+    "analysis": "The Chargers also moved CB Casey Hayward (hamstring) to injured reserve and won't have S Rayshawn Jenkins (ankle) either. Week 17 is more of a reserves exhibition in Kansas City as the Chiefs will also be resting Patrick Mahomes, Tyreek Hill, and Sammy Watkins, among others.\n",
     "timestamp": "",
-    "source": null,
+    "source": "Around The NFL on Twitter",
     "game_day_logo": "",
     "avg_fp2": 3.87,
     "week01": 9.0,
@@ -21739,7 +21641,7 @@ $scope.positionDST = [{
     "week03": 4.0,
     "week04": -2.0,
     "week05": 3.0,
-    "week06": "BYE",
+    "week06": "DNP",
     "week07": 6.0,
     "week08": 3.0,
     "week09": 2.0,
@@ -21768,7 +21670,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [9.0, 5.0, 4.0, -2.0, 3.0, 'BYE', 6.0, 3.0, 2.0, 1.0, 2.0, 9.0, -3.0, 9.0, 3.0, 7.0]
+                         data: [9.0, 5.0, 4.0, -2.0, 3.0, 'DNP', 6.0, 3.0, 2.0, 1.0, 2.0, 9.0, -3.0, 9.0, 3.0, 7.0]
                     },
                     {
                         label: "Projected",
@@ -21778,7 +21680,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [7.3, 5.8, 6.1, 7.4, 5.2, 'BYE', 6.9, 6.8, 6.2, 5.3, 7.6, 4.6, 5.2, 6.1, 5.4, 6.3, 5.0]
+                        data: [7.3, 5.8, 6.1, 7.4, 5.2, 'DNP', 6.9, 6.8, 6.2, 5.3, 7.6, 4.6, 5.2, 6.1, 5.4, 6.3, 5.0]
                     },
                     {
                         label: "68% Min",
@@ -21787,7 +21689,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.5, 0.4, 1.6, 1.2, 0.4, 'BYE', 1.6, 1.2, 0.7, 0.4, 1.2, 0.0, 1.0, 0.3, 0.0, 0.5, 0.0]
+                        data: [1.5, 0.4, 1.6, 1.2, 0.4, 'DNP', 1.6, 1.2, 0.7, 0.4, 1.2, 0.0, 1.0, 0.3, 0.0, 0.5, 0.0]
                     },
                     {
                         label: "68% Max",
@@ -21797,7 +21699,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [13.1, 11.8, 13.5, 13.0, 12.3, 'BYE', 12.5, 12.0, 12.3, 12.0, 12.8, 10.5, 13.2, 12.5, 10.2, 12.2, 11.0]
+                        data: [13.1, 11.8, 13.5, 13.0, 12.3, 'DNP', 12.5, 12.0, 12.3, 12.0, 12.8, 10.5, 13.2, 12.5, 10.2, 12.2, 11.0]
                     }
                     
                     ]
@@ -21844,7 +21746,7 @@ $scope.positionDST = [{
     "week07": 5.0,
     "week08": -4.0,
     "week09": -1.0,
-    "week10": "BYE",
+    "week10": "DNP",
     "week11": 6.0,
     "week12": 9.0,
     "week13": 5.0,
@@ -21869,7 +21771,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [3.0, 4.0, 0.0, 2.0, 2.0, 6.0, 5.0, -4.0, -1.0, 'BYE', 6.0, 9.0, 5.0, -1.0, 6.0, 9.0]
+                         data: [3.0, 4.0, 0.0, 2.0, 2.0, 6.0, 5.0, -4.0, -1.0, 'DNP', 6.0, 9.0, 5.0, -1.0, 6.0, 9.0]
                     },
                     {
                         label: "Projected",
@@ -21879,7 +21781,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [7.8, 5.1, 5.4, 6.3, 6.1, 4.2, 6.6, 4.9, 6.1, 'BYE', 5.2, 5.9, 6.1, 4.6, 6.3, 5.2, 4.7]
+                        data: [7.8, 5.1, 5.4, 6.3, 6.1, 4.2, 6.6, 4.9, 6.1, 'DNP', 5.2, 5.9, 6.1, 4.6, 6.3, 5.2, 4.7]
                     },
                     {
                         label: "68% Min",
@@ -21888,7 +21790,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [1.5, 1.2, 0.6, 1.1, 1.0, 0.0, 0.2, 0.0, 1.7, 'BYE', 0.0, 0.0, 0.0, 0.5, 0.0, 0.5, 3.0]
+                        data: [1.5, 1.2, 0.6, 1.1, 1.0, 0.0, 0.2, 0.0, 1.7, 'DNP', 0.0, 0.0, 0.0, 0.5, 0.0, 0.5, 3.0]
                     },
                     {
                         label: "68% Max",
@@ -21898,7 +21800,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [13.6, 12.9, 11.9, 12.2, 12.8, 10.4, 11.1, 11.6, 12.5, 'BYE', 12.7, 10.1, 11.4, 13.2, 11.1, 12.7, 13.8]
+                        data: [13.6, 12.9, 11.9, 12.2, 12.8, 10.4, 11.1, 11.6, 12.5, 'DNP', 12.7, 10.1, 11.4, 13.2, 11.1, 12.7, 13.8]
                     }
                     
                     ]
@@ -21943,7 +21845,7 @@ $scope.positionDST = [{
     "week05": 4.0,
     "week06": 3.0,
     "week07": -3.0,
-    "week08": "BYE",
+    "week08": "DNP",
     "week09": 4.0,
     "week10": 11.0,
     "week11": 2.0,
@@ -21970,7 +21872,7 @@ $scope.positionDST = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [6.0, 0.0, 0.0, 2.0, 4.0, 3.0, -3.0, 'BYE', 4.0, 11.0, 2.0, 4.0, 8.0, 2.0, -1.0, -1.0]
+                         data: [6.0, 0.0, 0.0, 2.0, 4.0, 3.0, -3.0, 'DNP', 4.0, 11.0, 2.0, 4.0, 8.0, 2.0, -1.0, -1.0]
                     },
                     {
                         label: "Projected",
@@ -21980,7 +21882,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [6.8, 5.3, 7.0, 5.6, 6.1, 7.9, 3.6, 'BYE', 6.1, 4.1, 6.2, 5.5, 4.4, 3.6, 4.0, 5.9, 4.3]
+                        data: [6.8, 5.3, 7.0, 5.6, 6.1, 7.9, 3.6, 'DNP', 6.1, 4.1, 6.2, 5.5, 4.4, 3.6, 4.0, 5.9, 4.3]
                     },
                     {
                         label: "68% Min",
@@ -21989,7 +21891,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.9, 0.0, 0.6, 1.2, 1.3, 0.4, 0.5, 'BYE', 0.3, 0.7, 1.2, 0.4, 0.5, 0.6, 0.2, 0.6, 0.0]
+                        data: [0.9, 0.0, 0.6, 1.2, 1.3, 0.4, 0.5, 'DNP', 0.3, 0.7, 1.2, 0.4, 0.5, 0.6, 0.2, 0.6, 0.0]
                     },
                     {
                         label: "68% Max",
@@ -21999,7 +21901,7 @@ $scope.positionDST = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [13.0, 12.8, 12.5, 12.3, 12.0, 11.9, 12.7, 'BYE', 11.7, 12.2, 11.6, 12.0, 12.1, 11.2, 11.7, 10.4, 10.0]
+                        data: [13.0, 12.8, 12.5, 12.3, 12.0, 11.9, 12.7, 'DNP', 11.7, 12.2, 11.6, 12.0, 12.1, 11.2, 11.7, 10.4, 10.0]
                     }
                     
                     ]
@@ -22008,8 +21910,8 @@ $scope.positionDST = [{
 
 
 /**************** END OF PASTE ******************/
- 
-
+  
+  
   //end of controller 
 });
 
