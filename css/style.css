@@ -144,6 +144,16 @@ div.sitEm li
   padding-right: 0.5em;
 }
 
+.playoffLogo {
+  width: 150px;
+  display: block;
+  margin-top: 20px;
+}
+
+.introCenter {
+
+}
+
 
 nav#position-links li {
 	margin-top:5%;
