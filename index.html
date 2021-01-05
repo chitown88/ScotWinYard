@@ -27,7 +27,9 @@
   
   <header>
     <div class="intro">
-      <p>Fantasy Football Projections</p>
+      <p class="introCenter">Fantasy Football Projections</p>
+		<div><img class="playoffLogo" ng-controller="positionController" ng-src="{{playoffLogo.src}}">
+		</div>
     </div>
     <div class="appInfo">
     <h1 ng-controller="positionController">Week {{week.nflWeek}}</h1>
