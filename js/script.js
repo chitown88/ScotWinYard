@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Friday, 08 January 2021 08:50 AM (central time)"};
+$scope.currentDate = {"currentDate": "Sunday, 10 January 2021 03:49 AM (central time)"};
 $scope.week = {"nflWeek": "Wild Card Round"};
 $scope.playoffLogo = {"src": "https://seeklogo.com/images/N/nfl-afc-wild-card-logo-83F96E9A31-seeklogo.com.png"}
 
@@ -261,10 +261,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Russell Wilson completed 20-of-36 passes for 181 yards and two touchdowns in Seattle's 26-23 Week 17 win against the 49ers.\n",
+    "headlineNews": "Russell Wilson completed 11-of-27 passes for 174 yards, two touchdowns and an interception in the Seahawks' 30-20, Wild Card loss to the Rams, adding four carries for 50 additional yards.\u00a0\n",
     "report": "",
-    "analysis": "Seattle arrived asleep at the wheel again, averaging just 3.3\u00a0yards per play through the first half and three total yards in the third quarter. The lightbulb came on for Wilson over the last 15 minutes as he scrambled around to find Tyler Lockett for two fourth-quarter touchdowns. Alex Collins ran up the middle with 1:54 remaining\u00a0to put a stamp on the team's\u00a021-0 run. It was an encouraging finish ahead of the Wild Card round since the Seahawks had shown minimal signs of life on offense in the month prior to that stretch. The Seahawks will host the Rams in the first round of the NFL postseason.\n",
-    "timestamp": "2021-01-04 01:09 AM",
+    "analysis": "Russ did not cook as the Seahawks lost at home in the postseason\u00a0for the first time since the 2004 Wild Card Round, snapping a 10-game winning streak. The stunningly dismal performance was a fitting capper to the Seahawks' second half of the season offensive collapse. Wilson entered the final five minutes with just eight completions. His first score, a 51-yard strike to DK Metcalf, came against a broken coverage. His second, to Metcalf in what was effectively garbage time. The beneficiary of good protection most of the season, Wilson was absolutely under siege, taking a whopping five sacks for 32 yards. Aaron Donald tormented the Hawks' line but missed most of the second half with a rib injury. On a no-doubt MVP pace the first month of the year, Wilson had a mid-season interception binge that seemed to shake his confidence, but more importantly, coach Pete Carroll's confidence. He was reverted to game manager status down the stretch and finished with only 12 scores over his final eight starts compared to\u00a028\u00a0in the first eight. The Seahawks' offense appeared fundamentally broken, while Wilson finished with a career-worst 13 interceptions. Recently-extended\u00a0Carroll needs to order the code red and fire OC Brian Schottenheimer. Whatever kind of offense the 'Hawks install in 2021, Wilson will remain a top-eight fantasy quarterback, and probably still top five.\u00a0\n",
+    "timestamp": "2021-01-10 03:11 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 31.78,
@@ -359,10 +359,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Josh Allen completed 18-of-25 passes for 224 yards and three touchdowns in the Bills' 56-26, Week 17\u00a0win over the Dolphins.\n",
+    "headlineNews": "Josh Allen completed 26-of-35 passes for 324 yards and two touchdowns in the Bills' 27-24 Wild Card Weekend in against the Colts, adding 11 rushes for 54 yards and a touchdown.\u00a0\n",
     "report": "",
-    "analysis": "This was in two-quarters of work, as Allen was rested in the second half after the Bills took a 28-6 lead at halftime. Even without Cole Beasley, Allen and Buffalo's offense continued their dominant ways, shredding a Dolphins defense that was considered one of the NFL's best at points this season. It concluded a breakout regular season for Josh Allen, totaling 45 touchdowns and setting a franchise single-season record for passing yards with 4,544.\n",
-    "timestamp": "2021-01-03 10:00 PM",
+    "analysis": "Allen started slow but picked apart the Colts' secondary through much of the second half. He had a handful of designed runs -- including a beautifully executed read-option touchdown run at the goal line --\u00a0in Buffalo's first postseason victory since the first Clinton administration. Allen demonstrated his arm strength and willingness to take chances on several first half throws, proving unstoppable with Stefon Diggs once again wrecking an opposing secondary. Allen will look to continue gunslinging his way toward a Super Bowl next week in the Divisional Round.\u00a0\n",
+    "timestamp": "2021-01-09 09:52 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 28.18,
@@ -555,11 +555,11 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Philip Rivers completed 17-of-27 attempts 164 yards, one touchdown, and one interception in the Colts' Week 17 win over the Jaguars.\n",
+    "headlineNews": "Philip Rivers said he's undecided about playing in 2021 after the Colts' Wild Card Weekend 27-24 loss to Buffalo.\u00a0\n",
     "report": "",
-    "analysis": "With the win, the Colts (11-5) are headed to Buffalo for Wild Card weekend. Rivers will have to bring his best ball to keep pace with the Bills, and he'll have to do so without his left tackle. The veteran didn't look to lose much zip on his passes in 2020 and even dropped his interceptions from 20 to 11. Rivers' 4,168 yards, 24 touchdowns, and 7.7 yards per attempt average indicate\u00a0that he can get hot in stretches.\u00a0\n",
-    "timestamp": "2021-01-04 01:11 AM",
-    "source": null,
+    "analysis": "Rivers, an unrestricted free agent in 2021, was emotion in a postgame presser following the Colts' three-point loss to the Bills, and wouldn't commit to returning to Indianapolis next season. Rivers led the Colts to an 11-5 record this season with 4,168 yards, 24 touchdowns, and 7.7 yards per attempt in a primarily game managing role. Against Buffalo on Saturday, Rivers threw for 309 yards and two touchdowns thanks to three quarters of negative game script. The Colts will need to know Rivers' retirement plans sooner rather than later. His decision could affect how aggressive the team is in acquiring a new QB in free agency and the draft -- or both.\u00a0\n",
+    "timestamp": "2021-01-09 10:44 PM",
+    "source": "George Bremer on Twitter ",
     "game_day_logo": "",
     "week01": 16.82,
     "week02": 11.86,
@@ -653,10 +653,10 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Tom Brady completed 26-of-41 passes for 399 yards and four touchdowns in the Bucs' Week 17 win over the Falcons.\n",
+    "headlineNews": "Tom Brady completed 22-of-40 passes for 381 yards and two touchdowns in the Bucs' Wild Card win over Washington.\n",
     "report": "",
-    "analysis": "Brady's lone interception came on a pass that Scott Miller had in his hands and coughed up to a waiting defender. If it weren't for that mistake on Miller's part, this might have been a perfect day for Brady. He routinely picked apart the Falcons secondary on deep plays including three scores from 25 or more yards out. The biggest concern for the Brady and the Bucs will be Mike Evans' health. Evans was ruled out shortly after going down with a knee injury in the first half. Luckily for Brady, he cleared found a rhythm with Chris Godwin and Antonio Brown, both of whom topped 100 yards and found the end zone. Brady will face off against the winner of the NFC East which will either the Giants or Washington depending on what happens in Washington's Sunday night game.\n",
-    "timestamp": "2021-01-03 09:22 PM",
+    "analysis": "As normal, Brady was a constant chain mover and avoided mistakes for all four quarters. He was under pressure in the second half after losing his starting right guard, but the Bucs offense looked fine overall despite Washington's front four and Ronald Jones' unexpected absence. Brady will be asked to pass a lot in the Divisional Round regardless of opponent. Right now, the Bucs are expected to head to New Orleans.\n",
+    "timestamp": "2021-01-10 05:13 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 22.46,
@@ -723,104 +723,6 @@ $scope.positionQB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [25.9, 27.3, 27.2, 24.0, 25.8, 27.6, 28.8, 27.6, 26.2, 26.3, 25.6, 25.3, 'BYE', 26.9, 26.7, 25.7, 28.3, 26.1]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046779.png",
-    "name": "Jared Goff",
-    "depthchart": "Starter: QB-1",
-    "team": "Los Angeles Rams",
-    "projected": 15.6,
-    "opponent": "Seattle Seahawks",
-    "home_away": "at ",
-    "opp_rank_Pos": 31,
-    "team_rank_Neu": 13,
-    "avg_fp2": 16.86,
-    "opp_rank_allowed_fp2_Pos": 26,
-    "opp_avg_allowed_fp2": 20.61,
-    "fanduelSalary": "$7000",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Thumb",
-    "tmColorLite": "#866D4B",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#866D4B",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Speaking Thursday, Rams coach Sean McVay remained coy on\u00a0Jared Goff's (thumb, questionable) status for the Wild Card Round.\u00a0\n",
-    "report": "",
-    "analysis": "\"We are going to work through that and we will see on Saturday,\" was McVay's response when asked if Goff would start against the Seahawks. The coach did note that Goff \"recovered without a problem from Wednesday\" and did \"everything asked Thursday.\" The Los Angeles Times reports Goff\u00a0\"showed no problem gripping the ball or passing\" on Thursday. Goff said he is \"progressing well\" and not having problems with snaps from under center. It would seem as if Goff is on the right side of his questionable tag, but nothing can be assumed with a quarterback thumb injury.\u00a0\n",
-    "timestamp": "2021-01-07 11:25 PM",
-    "source": "Andrew Siciliano on Twitter ",
-    "game_day_logo": "",
-    "week01": 11.5,
-    "week02": 23.98,
-    "week03": 28.24,
-    "week04": 11.7,
-    "week05": 25.36,
-    "week06": 15.92,
-    "week07": 16.86,
-    "week08": 12.2,
-    "week09": "BYE",
-    "week10": 10.48,
-    "week11": 25.04,
-    "week12": 5.02,
-    "week13": 24.14,
-    "week14": 15.58,
-    "week15": 16.26,
-    "week16": 10.66,
-    "week17": "DNP",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(134, 109, 75, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [11.5, 23.98, 28.24, 11.7, 25.36, 15.92, 16.86, 12.2, 'BYE', 10.48, 25.04, 5.02, 24.14, 15.58, 16.26, 10.66, 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [20.2, 15.9, 16.5, 21.4, 16.7, 19.4, 11.9, 22.5, 'BYE', 18.6, 15.7, 14.4, 15.2, 11.7, 20.5, 15.5, 'DNP', 15.6]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [7.3, 12.7, 8.1, 15.3, 9.3, 12.3, 8.9, 9.0, 'BYE', 12.9, 8.6, 9.0, 9.8, 5.8, 8.9, 14.3, 'DNP', 9.5]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(134, 109, 75, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [23.0, 26.2, 24.5, 26.9, 23.3, 25.2, 17.9, 25.8, 'BYE', 26.3, 22.7, 25.0, 24.6, 22.5, 24.0, 24.9, 'DNP', 24.0]
                     }
                     
                     ]
@@ -919,6 +821,104 @@ $scope.positionQB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [24.1, 21.6, 23.2, 'DNP', 'DNP', 'DNP', 'DNP', 24.8, 'DNP', 'DNP', 'BYE', 24.0, 25.9, 25.2, 22.9, 26.2, 25.2, 23.3]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3124092.png",
+    "name": "John Wolford",
+    "depthchart": "Starter: QB-1",
+    "team": "Los Angeles Rams",
+    "projected": 14.1,
+    "opponent": "Seattle Seahawks",
+    "home_away": "at ",
+    "opp_rank_Pos": 31,
+    "team_rank_Neu": 13,
+    "avg_fp2": 13.84,
+    "opp_rank_allowed_fp2_Pos": 26,
+    "opp_avg_allowed_fp2": 20.61,
+    "fanduelSalary": "$6200",
+    "hasStatus": "Status",
+    "healthQue": "Questionable",
+    "injury": "Neck",
+    "tmColorLite": "#866D4B",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#866D4B",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+    "headlineNews": "Rams coach Sean McVay said John Wolford had a stinger in the Wild Card win over the Seahawks.\n",
+    "report": "",
+    "analysis": "Wolford was hit in the head while scrambling early in the game and needed to be examined at a local hospital. The results were positive, and he was able to celebrate the road victory in the locker room with his teammates. McVay said Wolford is \"trending in a positive direction\", so it's possible that he'll return during the Rams' playoff run. With that said, Jared Goff will be starting as long as he's healthy. Goff escaped the Wild Card game without a visible setback.\n",
+    "timestamp": "2021-01-10 01:36 AM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
+    "week09": "BYE",
+    "week10": "DNP",
+    "week11": "DNP",
+    "week12": "DNP",
+    "week13": "DNP",
+    "week14": "DNP",
+    "week15": "DNP",
+    "week16": "DNP",
+    "week17": 13.84,
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(134, 109, 75, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 13.84]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 20.1, 14.1]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 7.1, 9.6]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(134, 109, 75, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 21.3, 24.0]
                     }
                     
                     ]
@@ -1121,51 +1121,51 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8416.png",
-    "name": "Alex Smith",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2565969.png",
+    "name": "Taylor Heinicke",
     "depthchart": "Starter: QB-1",
     "team": "Washington Football Team",
-    "projected": 11.2,
+    "projected": 8.2,
     "opponent": "Tampa Bay Buccaneers",
     "home_away": "",
     "opp_rank_Neu": 21,
     "team_rank_Neg": 25,
-    "avg_fp2": 9.95,
+    "avg_fp2": 3.38,
     "opp_rank_allowed_fp2_Neu": 16,
     "opp_avg_allowed_fp2": 19.21,
-    "fanduelSalary": "$6500",
+    "fanduelSalary": "$5000",
     "hasStatus": "Status",
     "healthQue": "Questionable",
-    "injury": "Calf",
+    "injury": "Shoulder - AC Joint",
     "tmColorLite": "#FFB612",
     "tmColorDark": "#773141",
     "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Alex Smith (calf) is questionable for the Wild Card Round against the Bucs.\u00a0\n",
+    "headlineNews": "Taylor Heinicke completed 26-of-44 passes for 304 yards, one touchdown, and one interception in Washington's Wild Card loss to the Buccaneers.\n",
     "report": "",
-    "analysis": "As are Terry McLaurin (ankle) and Antonio Gibson (toe). McLaurin and Gibson\u00a0should suit up on Saturday evening, though coach Ron Rivera was not ready to guarantee it with Smith. \"I wish we had an extra day just to be sure,\" Rivera said.\u00a0\"We'll see how he is tomorrow morning and go from there.\" Rivera said his quarterback was still battling soreness. Smith, frankly, did not appear ready against the Eagles in Week 17, barely moving as he completed one two-yard pass after another. He will be a liability against the Bucs, something that Rivera has tacitly admitted by floating the possibility that\u00a0Taylor\u00a0Heinicke could rotate in.\u00a0Heinicke reportedly took the majority of the first-team snaps on Thursday.\u00a0\u00a0\n",
-    "timestamp": "2021-01-07 07:20 PM",
+    "analysis": "Heinicke was a flashy quarterback in 2014 at Old Dominion but was an afterthought in the NFL a couple of\u00a0years ago. A few plus games in the XFL earned himself one last chance in the big leagues, and he ran with it in prime time against Tom Brady. Heinicke was poised inside the pocket, delivered accurate passes to all depths of the field, and picked up yards with his legs. A 13-yard rushing touchdown was the cherry on top. Overall, it was the best singular performance by a Washington quarterback all season. The 27-year-old free agent earned himself a good chunk of dough this offseason. Washington should have interest in retaining him.\n",
+    "timestamp": "2021-01-10 04:46 AM",
     "source": null,
     "game_day_logo": "",
     "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
     "week04": "DNP",
-    "week05": 1.58,
+    "week05": "DNP",
     "week06": "DNP",
     "week07": "DNP",
     "week08": "BYE",
-    "week09": 14.0,
-    "week10": 16.0,
-    "week11": 9.34,
-    "week12": 9.06,
-    "week13": 15.84,
-    "week14": 1.28,
+    "week09": "DNP",
+    "week10": "DNP",
+    "week11": "DNP",
+    "week12": "DNP",
+    "week13": "DNP",
+    "week14": "DNP",
     "week15": "DNP",
     "week16": "DNP",
-    "week17": 12.48,
+    "week17": "DNP",
     "week18": "",
     "week19": "",
     "week20": "",
@@ -1183,7 +1183,7 @@ $scope.positionQB = [{
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 1.58, 'DNP', 'DNP', 'BYE', 14.0, 16.0, 9.34, 9.06, 15.84, 1.28, 'DNP', 'DNP', 12.48]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
@@ -1193,7 +1193,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 2.8, 'DNP', 'DNP', 'BYE', 4.8, 14.5, 17.4, 19.3, 15.2, 12.7, 'DNP', 'DNP', 13.0, 11.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.2]
                     },
                     {
                         label: "68% Min",
@@ -1202,7 +1202,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 5.8, 'DNP', 'DNP', 'BYE', 3.4, 9.1, 5.5, 9.1, 8.9, 7.7, 'DNP', 'DNP', 9.0, 6.1]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0]
                     },
                     {
                         label: "68% Max",
@@ -1212,7 +1212,7 @@ $scope.positionQB = [{
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 19.2, 'DNP', 'DNP', 'BYE', 17.9, 22.1, 20.8, 21.4, 21.9, 22.0, 'DNP', 'DNP', 20.7, 21.6]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 1.0]
                     }
                     
                     ]
@@ -1237,19 +1237,19 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 16.26,
     "fanduelSalary": "$6200",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Toe",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FFB612",
     "tmColorDark": "#773141",
     "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "",
+    "headlineNews": "Antonio Gibson rushed 14 times for 31 yards in Washington's Wild Card loss to the Buccaneers.\n",
     "report": "",
-    "analysis": "",
-    "timestamp": "",
-    "source": "",
+    "analysis": "In the regular season, Gibson rushed for 795 yards and 11 touchdowns on 170 carries (4.7 YPC) while adding 36-247-0 on 44 targets as a receiver. It took a few weeks to get the early-down work to himself, but once he did, Gibson was a weekly\u00a0upside RB2. Despite being a gadget player in college, Gibson is on a bellcow trajectory in the NFL. He should take big leaps with more in-game reps next season and possibly could supplant J.D. McKissic as Washington's\u00a0third-down back. If that happens, Gibson could flirt with RB1 numbers next season, particularly if Washington can find stability at quarterback. He has prime David Johnson-level upside.\n",
+    "timestamp": "2021-01-10 05:31 AM",
+    "source": null,
     "game_day_logo": "",
     "week01": 5.4,
     "week02": 11.7,
@@ -1335,19 +1335,19 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 18.43,
     "fanduelSalary": "$9000",
     "hasStatus": "Status",
-    "healthOut": "Reserve-covid-19",
-    "injury": "Illness",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#9b845c",
     "tmColorDark": "#101820",
     "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#9b845c",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "Alvin Kamara (COVID-19) tweeted Thursday \"see y\u2019all Sunday.\"\n",
+    "headlineNews": "Saints activated RB\u00a0Alvin Kamara from the reserve/COVID-19 list.\u00a0\n",
     "report": "",
-    "analysis": "Kamara is ineligible to rejoin the team in person before Sunday morning \u2014 the Saints play the Bears at 4:40 PM ET \u2014 but he has been practicing digitally. This is not a joke. Per ESPN's Adam Schefter, Kamara is participating\u00a0\"remotely via TVU networks technology.\" Kamara has a \"transceiver,\" a \"live video decoder.\" Coach Sean Payton is even mic'd up so he can \"guide Kamara through his plays and prep him as if he were actually practicing.\" All of this, of course, is contingent on Kamara remaining negative for the coronavirus, but every sign points toward him returning after missing Week 17.\u00a0\n",
-    "timestamp": "2021-01-08 01:51 AM",
-    "source": "Alvin Kamara on Twitter ",
+    "analysis": "Kamara's COVID absence ended up with its best-case scenario outcome. Kamara misses only one game and won't have to take a private plane to join the team on Sunday since the game is in New Orleans. He just has to test negative one more time and he will be ready to rock vs. a defense he went 9/96 against as a receiver earlier this season. The Bears were near the bottom of the table in terms of running back fantasy points permitted, but Kamara is still the second best play on Sunday's three-game DFS slate.\u00a0\n",
+    "timestamp": "2021-01-09 09:53 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": 21.2,
     "week02": 33.9,
@@ -1539,10 +1539,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "J.D. McKissic caught 5-of-8 targets for 30 yards in Week 17 against the Eagles.\n",
+    "headlineNews": "J.D. McKissic rushed twice for five yards and one touchdown in Washington's Wild Card loss to the Buccaneers.\n",
     "report": "",
-    "analysis": "McKissic's snaps were up with Antonio Gibson not fully healthy, but it didn\u2019t lead to much production. It\u2019s a step back after McKissic had at least 70 total yards or a touchdown in four straight games. McKissic closes the regular season out with career highs in both rushing (365) and receiving (589). With the win, Washington will host the Bucs in the first round of the playoffs.\n",
-    "timestamp": "2021-01-04 04:39 AM",
+    "analysis": "McKissic was Washington's third-down back for the entire 2020 season. He converted an absurd 110 targets into a 80-589-2 receiving line while adding 365 yards and one touchdown on 85 carries as a rusher. McKissic's ceiling is capped by his one-dimensional skill set, especially with Antonio Gibson looking ready for a bellcow role next year. McKissic is signed through the 2021 season and should be viewed as a\u00a0RB5\u00a0in PPR formats this summer. It'd be a surprise if McKissic comes within 30 receptions of his 2020 totals next year. Washington will be adding more pass-catching talent this offseason.\n",
+    "timestamp": "2021-01-10 05:38 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 0.4,
@@ -1637,10 +1637,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Chris Carson rushed 11 times for 44 yards in Seattle's Week 17 win against the 49ers.\n",
+    "headlineNews": "Chris Carson rushed 16 times for 77 yards in the Seahawks' Wild Card loss to the Rams, adding a five-yard reception.\u00a0\n",
     "report": "",
-    "analysis": "There were rumors Carson would cede the lion's share of touches to Rashaad Penny with nothing to play for, but the former ended up being used more than expected after Penny suffered cramps in the second half. Alex Collins (5/29/1) actually scored the only touchdown among this group. Even so, Carlos Hyde is expected to return in the Wild Card round and backup Carson exclusively. The latter will be the player to roster for any postseason fantasy contests.\n",
-    "timestamp": "2021-01-04 01:34 AM",
+    "analysis": "It caps a weird year for Carson, who was limited to 12 games by a foot injury. Despite a much greater run-game commitment\u00a0from the Seahawks in the second half of the season, Carson never reached 20 carries or 100 yards on the ground, often ceding a non-trivial amount of work to Carlos Hyde. He did average a healthy 4.8 yards per carry behind a solid run-blocking line. Headed into his age-27 campaign, Carson will be a free agent after playing out his rookie contract. Yet to have a 16-game season thanks in part to his battering ram running style, it's possible Carson and the Seahawks can't find the right price, though run-obsessed coach Pete Carroll will be more inclined than most to bring Carson back.\u00a0\n",
+    "timestamp": "2021-01-10 03:07 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 21.6,
@@ -1931,11 +1931,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Devin Singletary rushed three times for seven yards and caught one pass for 6 yards in the Bills' Week 17\u00a0win over the Dolphins.\n",
+    "headlineNews": "Zack Moss (ankle) could miss the remainder of the postseason.\u00a0\n",
     "report": "",
-    "analysis": "The Bills are a pass-first team, and Singletary surpassed 14 carries just twice this season. He remains the team's best runner between the 20s, but that means he does not offer a tremendous amount of high value touches for fantasy football. He closes his second regular season with 687 rushing yards and two scores on 156 carries, adding 38 receptions for another 269 yards.\n",
-    "timestamp": "2021-01-04 02:49 AM",
-    "source": null,
+    "analysis": "Moss was carted off after suffering the ankle injury Saturday against the Colts. NFL Network's Mike Garafolo said there's some hope the rookie could return to the lineup if Buffalo makes a deep postseason run, but for now, Devin Singletary will be the Bills' primary ball carrier. Singletary still doesn't have much upside in the Bills' pass-first offense.\u00a0\n",
+    "timestamp": "2021-01-10 12:04 AM",
+    "source": "Mike Garafolo on Twitter",
     "game_day_logo": "",
     "week01": 7.8,
     "week02": 8.6,
@@ -2225,10 +2225,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Jonathan Taylor was \"limited\" in Tuesday's practice with a shoulder issue.\n",
+    "headlineNews": "Jonathan Taylor had 21 rushes for 78 yards and a touchdown in the Colts' Wild Card Weekend loss to the Bills, adding two catches for six yards.\u00a0\n",
     "report": "",
-    "analysis": "It's a new issue for Taylor, but there is no indication it is a serious one. Taylor does have one less day to prepare for the Wild Card Round with the Colts playing Saturday at 1:05 PM ET. He will be facing a Bills defense that coughed 4.6 yards per run during the regular season, surrendering the 12th most running back fantasy points.\u00a0\n",
-    "timestamp": "2021-01-05 09:26 PM",
+    "analysis": "Taylor uncharacteristically dropped two passes against Buffalo, but once again dominated the backfield workload. The rookie emerged as the unquestioned workhorse back after the team's bye week, finishing his season with\u00a01,169 yards and 11 touchdowns. He capped his hot end-of-season run by decimating\u00a0the Jaguars in Week 17 with 253 rushing yards and two scores on the ground. Taylor should be the centerpiece of the Colts' offense in 2021 and will likely be drafted in the late first and early second round of fantasy drafts.\u00a0\n",
+    "timestamp": "2021-01-09 11:22 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 11.9,
@@ -2323,10 +2323,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#866D4B",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Cam Akers doesn't have an injury designation going into this weekend's game against Seattle.\u00a0\n",
+    "headlineNews": "Cam Akers rushed 28 times for 131 yards and a touchdown in the Rams' Wild Card win over the Seahawks, adding two receptions for 45 additional\u00a0yards.\u00a0\n",
     "report": "",
-    "analysis": "Akers handled a hefty workload last week in his return from an ankle injury that sidelined him in Week 16. He had 25 touches against the Cardinals, while Malcolm Brown saw three carries and one target. Darrell Henderson (ankle) on IR means Akers is in for another starter's workload against Seattle. His potential volume isn't fully baked into his DFS price points in what is otherwise not a great running back matchup.\u00a0\n",
-    "timestamp": "2021-01-07 09:25 PM",
+    "analysis": "Akers supposedly suffered a high-ankle sprain in Week 15, but he was surprisingly left off the final injury report on Thursday, suggesting 100 percent health\u00a0for the playoffs. That indeed appeared to be the case, as Akers was the best offensive player in an ugly slugfest where both passing games were completely inept. Running with Peterson-ian power, Akers' ankle was not hindering him going side to side. With Jared Goff (thumb) still nowhere close to 100 percent healthy, Akers \u2014 who has cleared 170 yards from scrimmage twice in his past four games \u2014 will undoubtedly remain the Rams' offensive engine for the Divisional Round.\u00a0\u00a0\n",
+    "timestamp": "2021-01-10 01:35 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 4.8,
@@ -2519,11 +2519,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Carlos Hyde (illness) will return for the Wild Card Round against the Rams.\u00a0\n",
+    "headlineNews": "Carlos Hyde rushed four times for five yards in the Seahawks' Wild Card loss to the Rams.\u00a0\n",
     "report": "",
-    "analysis": "Hyde apparently did not have COVID-19. With Rashaad Penny back and mixing in for 3-5 touches the past three weeks, Hyde will fight for change-of-pace scraps behind Chris Carson. Even as someone to make the salaries fit, Hyde will lack DFS appeal.\u00a0\n",
-    "timestamp": "2021-01-05 09:30 PM",
-    "source": "Brady Henderson on Twitter ",
+    "analysis": "Hyde had No. 2 duties to himself after\u00a0Rashaad Penny was scratched with a knee injury, but the Seahawks could neither cook in the passing game nor establish the run. With touch totals all over the map as the Seahawks dealt with backfield injuries and shifting offensive philosophies, Hyde finished with 81 carries for 356 yards (4.4 YPC) and four scores across 10 games. He made only one start, a number that would have been higher had he not been injured at the same time as Chris Carson. Going on 30 and headed back to free agency, Hyde will once again hunt for reserve work on the open market. There will probably still be interest in what he brings between the tackles.\u00a0\n",
+    "timestamp": "2021-01-10 02:37 AM",
+    "source": null,
     "game_day_logo": "",
     "week01": 8.3,
     "week02": 4.7,
@@ -2617,10 +2617,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Nyheim Hines had the third most running back targets in the 2020 regular season.\u00a0\n",
+    "headlineNews": "Nyheim Hines had six rushes for 75 yards in the Colts' Wild Card Weekend loss to the Bills, adding one catch for eight yards.\u00a0\n",
     "report": "",
-    "analysis": "Hines had 77\u00a0targets, or a 14 percent target share, second on the Colts only to T.Y. Hilton. J.D. McKissic and Alvin Kamara were the only running backs who had more targets than Hines. Colts running backs combined for an incredible 134 targets thanks in large part to Philip Rivers' penchant for the check down. Jonathan Taylor had 41 targets in 15 games. Hines' overall usage made him hard to trust for fantasy purposes, as he only played 36 percent of the team's offensive snaps in 2020. He'll be a fringe option in Super Wild Card Weekend DFS.\u00a0\n",
-    "timestamp": "2021-01-05 02:35 PM",
+    "analysis": "Hines seeing a meager three targets as the Colts chased points for the entire second half is a bit of a surprise, though he rarely dominated the passing down backfield role with Jonathan Taylor healthy. Hines, the third most targeted running back in the NFL this season, only played 36 percent of the Colts' offensive snaps in 2020, making him a fringe fantasy option for much of the year. Hines is signed through next season with Indy.\u00a0\n",
+    "timestamp": "2021-01-09 10:36 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 23.3,
@@ -2707,19 +2707,19 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 18.89,
     "fanduelSalary": "$5500",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Ankle",
     "tmColorLite": "#C60C30",
     "tmColorDark": "#005596",
     "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Zack Moss rushed three times for eight\u00a0yards in the Bills' Week 17\u00a0win over the Dolphins, catching one pass for 13 yards.\n",
+    "headlineNews": "Zack Moss (ankle) could miss the remainder of the postseason.\u00a0\n",
     "report": "",
-    "analysis": "The Bills likely expected more from Moss during his first season after selecting the running back in the third round, but Moss never seemed to get it going while splitting the backfield with Devin Singletary. At the end of the regular season, Moss claimed 481 yards and four touchdowns on 112 carries, adding another 95 yards and a score in the passing game. The Bills are clearly a pass-first, and second, team.\n",
-    "timestamp": "2021-01-04 02:36 AM",
-    "source": null,
+    "analysis": "Moss was carted off after suffering the ankle injury Saturday against the Colts. NFL Network's Mike Garafolo said there's some hope the rookie could return to the lineup if Buffalo makes a deep postseason run, but for now, Devin Singletary will be the Bills' primary ball carrier. Singletary still doesn't have much upside in the Bills' pass-first offense.\u00a0\n",
+    "timestamp": "2021-01-10 12:04 AM",
+    "source": "Mike Garafolo on Twitter",
     "game_day_logo": "",
     "week01": 10.2,
     "week02": 3.7,
@@ -2911,11 +2911,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Antonio Gibson (toe) was limited at Wednesday's practice.\u00a0\n",
+    "headlineNews": "Peyton Barber didn't receive a carry in Washington's Wild Card loss to the Buccaneers.\n",
     "report": "",
-    "analysis": "At long last, Gibson is back at practice. He's missed two games with the toe injury, ceding backfield duties to J.D. McKissic and Peyton Barber. Gibson practicing on a Wednesday -- even in a limited capacity -- is excellent news for the rookie's Week 16 availability against Carolina. A full complement of snaps and touches for Gibson would make him a RB1 candidate for fantasy championship week.\u00a0\n",
-    "timestamp": "2020-12-24 05:45 AM",
-    "source": "Adam Caplan on Twitter ",
+    "analysis": "Barber was phased out of the offense after a brutal 17-carry, 29-yard game in Week 1. Antonio Gibson is Washington's running back of the future, making Barber a potential cut candidate this offseason. Barber's 2.7 yards per carry average on 94 carries from 2020 could end his run in the NFL. He's been held to\u00a0under 4.0 yards per carry\u00a0in each season since 2016.\n",
+    "timestamp": "2021-01-10 05:49 AM",
+    "source": null,
     "game_day_logo": "",
     "week01": 14.9,
     "week02": 0.1,
@@ -3085,6 +3085,104 @@ $scope.positionRB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3046409.png",
+    "name": "Alex Collins",
+    "depthchart": "Reserve: RB-3",
+    "team": "Seattle Seahawks",
+    "projected": 6.7,
+    "opponent": "Los Angeles Rams",
+    "home_away": "",
+    "opp_rank_Neg": 3,
+    "team_rank_Neu": 12,
+    "avg_fp2": 10.05,
+    "opp_rank_allowed_fp2_Neg": 4,
+    "opp_avg_allowed_fp2": 17.1,
+    "fanduelSalary": "$4800",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#69BE28",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(105, 190, 40, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#69BE28",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+    "headlineNews": "Carlos Hyde, DeeJay Dallas, and Bo Scarbrough will be the Seahawks' active running backs on Thursday night against the Cardinals.\u00a0\n",
+    "report": "",
+    "analysis": "Hyde, recovered from his hamstring injury, should serve as the lead back against Arizona. He should be treated as a mid-range RB2, with Dallas only viable in deep PPR formats. Dallas played 33 percent of Seattle's Week 10 snaps and saw three targets. The team did not call up Alex Collins from the practice squad.\u00a0\n",
+    "timestamp": "2020-11-19 10:14 PM",
+    "source": "Joe Fann on Twitter ",
+    "game_day_logo": "",
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "BYE",
+    "week07": "DNP",
+    "week08": "DNP",
+    "week09": "DNP",
+    "week10": 11.2,
+    "week11": "DNP",
+    "week12": "DNP",
+    "week13": "DNP",
+    "week14": "DNP",
+    "week15": "DNP",
+    "week16": "DNP",
+    "week17": 8.9,
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(105, 190, 40, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 11.2, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.9]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 5.3, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.4, 6.7]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 3.1, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.4, 3.4]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(105, 190, 40, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 15.9, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 12.8, 15.8]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3912550.png",
     "name": "Ronald Jones",
     "depthchart": "Starter: RB-1",
@@ -3099,19 +3197,19 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 16.0,
     "fanduelSalary": "$6700",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Quadriceps",
     "tmColorLite": "#D50A0A",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Ronald Jones rushed 12 times for 78 yards and a touchdown in the Buccaneers' Week 17 win over the Falcons.\n",
+    "headlineNews": "Ronald Jones (quad) is questionable to return to the Bucs' Wild Card game against Washington.\n",
     "report": "",
-    "analysis": "Jones wasn't targeted once but didn't need to receiving work to post a solid fantasy day. He will fall 22 yards shy of 1,000 on the ground but did top 1,100 yards from scrimmage in the regular season while scoring eight times. He also managed all of this while missing two games. Leonard Fournette operated as the team's pass-catching back with LeSean McCoy out but only saw five carries. Jones looks to be back in the lead-runner role heading into the playoffs. He will face the winner of the NFC East a solid favorite to open up the postseason.\u00a0\n",
-    "timestamp": "2021-01-03 10:02 PM",
-    "source": null,
+    "analysis": "Jones wasn't on the Bucs' final injury report\u00a0and\u00a0is\u00a0active for the game, but he hasn't played a snap through the first quarter. The only explanation is that Jones suffered an injury in pre-game warmups. It's a mystery to us and all those who rostered Jones in playoff formats. The Bucs will continue to utilize Leonard Fournette in a bellcow role with Ke'Shawn Vaughn occasionally mixing in. LeSean McCoy is out.\n",
+    "timestamp": "2021-01-10 01:52 AM",
+    "source": "Scott Smith on Twitter",
     "game_day_logo": "",
     "week01": 9.2,
     "week02": 9.7,
@@ -3183,104 +3281,6 @@ $scope.positionRB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040629.png",
-    "name": "Antonio Williams",
-    "depthchart": "Reserve: RB-3",
-    "team": "Buffalo Bills",
-    "projected": 6.2,
-    "opponent": "Indianapolis Colts",
-    "home_away": "",
-    "opp_rank_Neg": 2,
-    "team_rank_Neu": 20,
-    "avg_fp2": 20.8,
-    "opp_rank_allowed_fp2_Neu": 10,
-    "opp_avg_allowed_fp2": 18.89,
-    "fanduelSalary": "$4600",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#C60C30",
-    "tmColorDark": "#005596",
-    "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Bills RB Antonio Williams rushed 12 times for 63 yards and two touchdowns in the Bills' Week 17 win over the Dolphins, adding a 20-yard reception.\u00a0\n",
-    "report": "",
-    "analysis": "Yes, this might be the most random name in Week 17 to play meaningful snaps and produce at a high level. The practice squad-er entered in the second half and diced up the Dolphins defense, allowing the Bills to keep starters on the sideline. He's unlikely to see the field in the playoffs unless Zack Moss or Devin Singletary go down.\n",
-    "timestamp": "2021-01-04 03:04 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": "DNP",
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "DNP",
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": "DNP",
-    "week10": "DNP",
-    "week11": "BYE",
-    "week12": "DNP",
-    "week13": "DNP",
-    "week14": "DNP",
-    "week15": "DNP",
-    "week16": "DNP",
-    "week17": 20.8,
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1
-                         backgroundColor:  "rgba(198, 12, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 20.8]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 2.8, 6.2]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.0]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 85, 150, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(198, 12, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 9.6, 10.3]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3115364.png",
     "name": "Leonard Fournette",
     "depthchart": "Backup: RB-2",
@@ -3303,10 +3303,10 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Leonard Fournette rushed five times for 13 yards in the Buccaneers' Week 17 win over the Falcons.\n",
+    "headlineNews": "Leonard Fournette rushed 19 times for 93 yards and one touchdown in the Bucs' Wild Card win over Washington.\n",
     "report": "",
-    "analysis": "LeSean McCoy was made inactive because of COVID-19 precautions but should be able to suit up for the Bucs playoff opener versus the winner of the NFC East. That means that they could choose to make Fournette inactive next week as he was routinely being scratched before Ronald Jones was placed on the reserve/COVID-19 list. Fournette only holds fantasy value when Jones is out of the lineup.\u00a0\n",
-    "timestamp": "2021-01-03 10:08 PM",
+    "analysis": "Fournette wasn't expected to start, but Ronald Jones suffered a setback during pre-game warmups. Fournette ended up\u00a0playing\u00a0most of the game, which led to a goal-line plunge and 39 receiving yards on four targets. It's unclear if Jones' setback was severe or if he'll return next weekend. When Jones has been healthy, Fournette has mostly been utilized as a third-down back. It's possible that today's performance earned him more looks even when Jones returns.\n",
+    "timestamp": "2021-01-10 04:52 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 2.4,
@@ -3377,104 +3377,6 @@ $scope.positionRB = [{
                     
                     ]
                }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139925.png",
-    "name": "Rashaad Penny",
-    "depthchart": "Reserve: RB-3",
-    "team": "Seattle Seahawks",
-    "projected": 5.0,
-    "opponent": "Los Angeles Rams",
-    "home_away": "",
-    "opp_rank_Neg": 3,
-    "team_rank_Neu": 12,
-    "avg_fp2": 1.13,
-    "opp_rank_allowed_fp2_Neg": 4,
-    "opp_avg_allowed_fp2": 17.1,
-    "fanduelSalary": "$4800",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#69BE28",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(105, 190, 40, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#69BE28",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Rashaad Penny rushed six times for 19 yards in Seattle's Week 17 win against the 49ers.\n",
-    "report": "",
-    "analysis": "Penny was expected to get the most run since the Seahawks were only playing for a higher seed, but he cramped up in the second half, ceding touches to Alex Collins (5/29/1) down the stretch. With Carlos Hyde likely healthy for the Wild Card round, Penny will merely be used as the team's third back in the postseason. Chris Carson remains the player to roster for any\u00a0fantasy playoff contests among this backfield.\n",
-    "timestamp": "2021-01-04 01:43 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": "DNP",
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "BYE",
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": "DNP",
-    "week10": "DNP",
-    "week11": "DNP",
-    "week12": "DNP",
-    "week13": "DNP",
-    "week14": "DNP",
-    "week15": 0.6,
-    "week16": 0.9,
-    "week17": 1.9,
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(105, 190, 40, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.6, 0.9, 1.9]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 3.8, 4.2, 3.0, 5.0]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 0.0, 0.1, 0.0, 0.0]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(105, 190, 40, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 8.4, 10.0, 12.3, 13.0]
-                    }
-                    
-                    ]
-               }
             }];
 
 
@@ -3495,18 +3397,18 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 31.36,
     "fanduelSalary": "$8700",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Oblique",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#C60C30",
     "tmColorDark": "#005596",
     "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Stefon Diggs (oblique) is questionable for the Wild Card Round against the Colts after returning to practice on Thursday.\u00a0\n",
+    "headlineNews": "Stefon Diggs caught 6-of-9 targets for 128 yards and a touchdown in the Bills' Wild Card Weekend win over the Colts.\u00a0\n",
     "report": "",
-    "analysis": "The Bills managed Diggs' practice reps on a short week, but he has expressed zero concern about his status, saying he has been playing through the issue. That was news to past weeks' injury reports, but we digress. We haven't seen anything that would lead us to downgrade Diggs' upside odds in DFS.\u00a0\n",
-    "timestamp": "2021-01-07 08:02 PM",
+    "analysis": "Quiet in the first half, Diggs went off in the second half against a suspect Indianapolis secondary that had given up splash plays to Gabriel Davis early in the game. Diggs, who led the Bills in targets, receiving yards, and catches,\u00a0capped his day with a 36-yard touchdown grab. If Josh Allen posts a big stat line -- he threw for 324 yards and two touchdowns in this one -- Diggs will almost certainly have a day. Buffalo's elite passing attack will continue to run through Diggs in the Divisional Round.\u00a0\n",
+    "timestamp": "2021-01-09 10:03 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 12.6,
@@ -3691,19 +3593,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 26.53,
     "fanduelSalary": "$8400",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#4495D1",
     "tmColorDark": "#002A5C",
     "tmColorLite_rgba": "rgba(68, 149, 209, 0.2)",
     "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
     "tmTextLite": "#4495D1",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "A.J. Brown caught 10-of-11 targets for 151 yards and a touchdown in the Titans' Week 17 win over the Texans.\u00a0\n",
+    "headlineNews": "A.J. Brown (ankle) will play in the Wild Card game against the Ravens.\n",
     "report": "",
-    "analysis": "With the third biggest receiving effort of his already-illustrious career, Brown cleared 1,000 yards for the second time in as many NFL campaigns. He hauled in a 52-yard reception with 0:18 remaining. Making big plays every single week, Brown will be one of the X-factors for next week's epic Wild Card clash between the Titans and Ravens.\u00a0\n",
-    "timestamp": "2021-01-04 06:16 AM",
-    "source": null,
+    "analysis": "Brown wasn't available for Thursday's and Friday's practices but will still enter Sunday without an injury designation on the final injury report. He himself was adamant he'd play as long as he \"has breath in my body.\" Fantasy players should move forward with their initial approach to postseason lineups given Brown's non-existent status.\n",
+    "timestamp": "2021-01-08 09:17 PM",
+    "source": "Turron Davenport on Twitter",
     "game_day_logo": "",
     "week01": 6.4,
     "week02": "DNP",
@@ -3797,10 +3699,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "D.K. Metcalf caught 3-of-9 targets for 21 yards in Seattle's Week 17 win against the 49ers.\n",
+    "headlineNews": "DK Metcalf caught 5-of-11 targets for 96 yards and two touchdowns in the Seahawks' Wild Card loss to the Rams.\u00a0\n",
     "report": "",
-    "analysis": "Even in finishing with a season-low 21 yards on Sunday, Metcalf became the first player in Seahawks history to record\u00a01,300 receiving yards in\u00a0a single-season. He's failed to eclipse 100 yards in five consecutive games, finishing with 61 or fewer in four straight, but Seattle's 21-point surge in the fourth quarter Sunday at least lends\u00a0hope for an offense that had\u00a0lacked pop for the last two months. All will return to host the Rams in the Wild Card round next weekend.\n",
-    "timestamp": "2021-01-04 01:17 AM",
+    "analysis": "Metcalf was the only Seahawk to clear 50 yards receiving in a breathtakingly\u00a0awful offensive effort. He was also the intended target on a screen that ended up a 42-yard Darious Williams pick six. Metcalf's first score was a 51-yarder on a broken play. He was not in Jalen Ramsey's coverage. The second was a 12-yarder where Metcalf was quicker than Ramsey near the goal line. As was the case with the Seahawks' entire offense, Metcalf's production plummeted in the second half of the season. He went 68/788/8 in games 1-8 compared to 40/515/2 for 9-16. The latter is still a strong pace, of course, but not compared to Metcalf's All-Pro first half. As it is, his 1,303 yards were seventh in the league. His 10 scores, tied for eighth with teammate Tyler Lockett. Uncontainable down the sideline, 6-foot-4 Metcalf is improving in the other areas of the field, too. He will deserve a top-five, and arguably top-three, receiver rank for 2021.\u00a0\n",
+    "timestamp": "2021-01-10 01:49 AM",
     "source": null,
     "game_day_logo": "",
     "week01": "DNP",
@@ -3985,19 +3887,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 26.51,
     "fanduelSalary": "$6800",
     "hasStatus": "Status",
-    "healthOut": "Ir-r",
-    "injury": "Ankle",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#9b845c",
     "tmColorDark": "#101820",
     "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#9b845c",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "NFL Network's Ian Rapoport reports\u00a0Michael Thomas (ankle, IR) is\u00a0expected to practice Wednesday.\n",
+    "headlineNews": "Saints activated WR\u00a0Michael Thomas (ankle) from injured reserve.\u00a0\n",
     "report": "",
-    "analysis": "Thomas has made \"good progress\" since getting placed on IR in Week 14.\u00a0He'll practice on a\u00a0limited basis Wednesday before\u00a0ramping things up later in\u00a0the week. This has been the plan all along for Thomas. Barring a setback, Thomas should return for Sunday's Wild Card matchup with Chicago.\n",
-    "timestamp": "2021-01-06 04:53 PM",
-    "source": "NFL Network",
+    "analysis": "Thomas returns after missing the minimum three games. Whether he is anywhere close to 100 percent healthy is another matter. Thomas enters the postseason having made just seven appearances in 2020, only 2.5 of which came with Drew Brees under center. Thomas will still be a premium DFS play for Sunday's three-game slate, but with so many variables, both his floor and ceiling are much lower than usual.\u00a0\n",
+    "timestamp": "2021-01-09 09:47 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": 3.2,
     "week02": "DNP",
@@ -4181,8 +4083,8 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 31.62,
     "fanduelSalary": "$6500",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FFB612",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
@@ -4279,18 +4181,18 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 25.93,
     "fanduelSalary": "$7600",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#D50A0A",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Mike Evans (knee) is questionable for the Wild Card Round against the Washington Football Team.\u00a0\n",
+    "headlineNews": "Mike Evans caught 6-of-10 targets for 119 yards in the Bucs' Wild Card win over Washington.\n",
     "report": "",
-    "analysis": "Evans has been labeled a game-time decision, but he continues to trend in the right direction.\u00a0\"He's lived in the training room and done a great job with it,\" coach Bruce Arians said. \"And in the meeting room, staying off his feet. Today's the first day he tried to do much active movement, and it was OK, hopefully. We'll see how sore he is tomorrow.\" An MRI reportedly revealed no\u00a0structural damage, while \"swelling has been minimal.\" We would expect Evans out there on Saturday evening, though it's possible he will be on a snap count for a game where the Bucs are 8.5-point favorites.\u00a0\n",
-    "timestamp": "2021-01-07 09:30 PM",
+    "analysis": "Evans' Week 17 knee scare doesn't look to be overly serious. He avoided a setback in the Wild Card Round while leading the Bucs in receiving. Evans should be fully ready for next weekend. Right now, the Bucs are most likely to play the Saints in New Orleans. Expect Evans to do battle with CB Marshon Lattimore then. Historically, Lattimore has played extremely well against Evans.\n",
+    "timestamp": "2021-01-10 05:12 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 6.7,
@@ -4385,10 +4287,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "T.Y. Hilton caught 3-of-7 targets for 53 yards and one touchdown in the Colts' Week 17 win over the Jaguars.\n",
+    "headlineNews": "T.Y. Hilton caught 2-of-5\u00a0targets for 32 yards in the Colts' Wild Card Weekend loss to the Bills.\u00a0\n",
     "report": "",
-    "analysis": "Hilton could've scored his sixth touchdown of the season if Philip Rivers would have led him more on a deep crossing route. Overall, Hilton had a terrible first half of the season and a decent second half. That's the nature of deep-target receivers, particularly 31-year olds. The Colts will need Hilton to pop for a big game to hang with the Bills in the first round of the playoffs. Expect CB Tre'Davious White to match up with Hilton often. His regular season concluded with 56 receptions, 762 yards, and five touchdowns.\n",
-    "timestamp": "2021-01-04 01:41 AM",
+    "analysis": "Hilton was involved early before Philip Rivers attacked Buffalo's defense via the tight end. Hilton's five targets were tied for third most among Colts pass catchers. The veteran led the team with a 19 percent target share this season despite a slow start that made him nearly unplayable in all fantasy formats. He finished on an upswing of sorts, corralling 24 catches over this final five games. Hilton, no longer the downfield burner he was in his prime, is an unrestricted free agent next season. The 31-year-old could be a solid second or third receiver in an offense with younger, more explosive wideouts.\u00a0\n",
+    "timestamp": "2021-01-09 10:57 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 7.3,
@@ -4573,18 +4475,18 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 31.11,
     "fanduelSalary": "$7100",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ankle",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FFB612",
     "tmColorDark": "#773141",
     "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Terry McLaurin (ankle) is questionable for the Wild Card Round against the Bucs.\u00a0\n",
+    "headlineNews": "Terry McLaurin caught 6-of-10 targets for 75 yards in Washington's Wild Card loss to the Buccaneers.\n",
     "report": "",
-    "analysis": "McLaurin should be good to go after avoiding setbacks in his Week 17 return, but he's probably still nowhere close to 100 percent healthy. Continuing to lack chemistry with a hobbled Alex Smith (calf), McLaurin would maybe benefit if\u00a0Taylor Heinicke gets the call on Saturday evening.\u00a0\n",
-    "timestamp": "2021-01-07 07:22 PM",
+    "analysis": "McLaurin turned 134 targets into an 87-1,118-4 receiving line in the 2020 regular season. He's exceeded all pre-draft expectations through two NFL seasons and profiles as Washington's alpha No. 1 receiver for the future. McLaurin was held back by awful quarterback play for the second-straight year, and Washington still doesn't have an answer heading into his third season. Because he's such a well-rounded talent, McLaurin's floor is stable as a fantasy WR2/3 even with uncertainty at quarterback. If Washington can bring in a capable signal caller this offseason, McLaurin has WR1 upside. The Football Team has the fifth-most cap space heading into free agency. Expect a quarterback and No. 2 receiver to be at the top of their wish list.\n",
+    "timestamp": "2021-01-10 06:07 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 8.6,
@@ -4679,10 +4581,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Tyler Lockett caught 12-of-14 targets for 90 yards and two touchdowns in Seattle's Week 17 win against the 49ers.\n",
+    "headlineNews": "Tyler Lockett caught 2-of-4 targets for 43 yards in the Seahawks' Wild Card loss to the Rams.\u00a0\n",
     "report": "",
-    "analysis": "Lockett's first game with more than 70 yards since Week 7 was a lucrative one as he maxed out his $1.2 million-worth\u00a0of incentives by reaching 1,000 receiving yards and 10 touchdowns on the year. His 2021 base salary also escalated\u00a0from $9.8 million to $11 million\u00a0because of the additional\u00a0incentives earned. He was headed for another underwhelming performance before the lightbulb came on for Russell Wilson in the fourth quarter, finding Lockett on back-to-back drives for a six- and four-yard score. It was enough to lend confidence to Lockett in any postseason fantasy contests beginning in the Wild Card round when the Seahawks host the Rams.\n",
-    "timestamp": "2021-01-04 01:28 AM",
+    "analysis": "The sub 50-yard effort was Lockett's third in four games to end the season. He averaged 51 yards in 10 contests after his 200-yard outburst against the Cardinals in Week 7, never once reaching 100. Usurped as the Seahawks' No. 1 wideout by DK Metcalf, it's also never quite clear if Lockett is 100 percent healthy. He doesn't miss games, but he always seems to be gutting through something. Headed into his age-29 campaign in 2021, Lockett has settled in as a WR2 with frustratingly few spiked weeks. 2021 is the final year of Lockett's contract, so perhaps an extension will be in order. He's due $9.8 million in a year where the coronavirus-affected 2020 campaign is expected to create salary cap headaches for teams.\u00a0\n",
+    "timestamp": "2021-01-10 03:09 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 13.2,
@@ -4769,8 +4671,8 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 30.31,
     "fanduelSalary": "$7200",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#c36835",
     "tmColorDark": "#0B162A",
     "tmColorLite_rgba": "rgba(195, 104, 53, 0.2)",
@@ -4867,19 +4769,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 31.36,
     "fanduelSalary": "$6000",
     "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#C60C30",
     "tmColorDark": "#005596",
     "tmColorLite_rgba": "rgba(198, 12, 48, 0.2)",
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Cole Beasley (knee) is listed as questionable for Saturday against the Colts.\u00a0\n",
+    "headlineNews": "Cole\u00a0Beasley caught 7-of-7 targets for 57 yards in the Bills' Wild Card Weekend win against the Colts.\u00a0\n",
     "report": "",
-    "analysis": "Out last week against Miami, Beasley has a shot to return for this weekend's playoff tilt. He managed a limited practice Thursday after missing practice on Tuesday and Wednesday. Beasley has been something of a target hog of late, commanding at least ten targets in four of his past five full games. Isaiah McKenzie took over the Buffalo's main slot receiver with Beasley sidelined last week, exploding for for six catches, 65 yards, and two scores against the Dolphins. McKenzie would likely be little more than a rotational wideout if Beasley is active against the Colts.\u00a0\n",
-    "timestamp": "2021-01-07 07:56 PM",
-    "source": "Dan Graziano on Twitter ",
+    "analysis": "Beasley, who missed Week 17 with a knee issue, came into the game with a questionable tag. He played a full complement of snaps, sometimes hobbling after a catch while serving as Josh Allen's primary underneath option. From a fantasy standpoint, Beasley is a safe PPR floor option in Buffalo's high-volume passing attack.\u00a0\n",
+    "timestamp": "2021-01-09 10:22 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": 7.8,
     "week02": 9.5,
@@ -4973,10 +4875,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#866D4B",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Robert Woods caught 4-of-7 targets for 36 yards in the Rams' Week 17 win over the Cardinals.\n",
+    "headlineNews": "Robert Woods caught 4-of-8 targets for 48 yards and a touchdown in the Rams' Wild Card win over the Seahawks.\u00a0\n",
     "report": "",
-    "analysis": "Woods' seven targets were tied with Gerald Everett for second on the team behind Van Jefferson's eight. With John Wolford under center and not throwing a touchdown, none of the Rams' wideouts did much of note. Woods will be tough to trust as anything more than a WR4 against Seattle in the Wild Card round if Wolford gets another start.\n",
-    "timestamp": "2021-01-04 06:17 PM",
+    "analysis": "Woods was left uncovered on his dagger 15-yard score with 4:46 remaining. The Rams' passing attack, which was just 12-of-25 this afternoon, is going to be needed for much more in the Divisional Round, likely vs. Jaire Alexander's Packers. Woods could also be in for a massive target spike if Cooper Kupp (knee) can't go. As of Saturday evening, it seems like Kupp will play.\u00a0\n",
+    "timestamp": "2021-01-10 02:58 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 14.9,
@@ -5071,10 +4973,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Antonio Brown caught 11-of-14 targets for 138 yards and two touchdowns in the Bucs' Week 17 win over the Falcons.\n",
+    "headlineNews": "Antonio Brown caught 2-of-3 targets for 49 yards and one touchdown in the Bucs' Wild Card win over Washington.\n",
     "report": "",
-    "analysis": "The Falcons simply couldn't keep Brown from burning them deep. He scored both of his touchdowns from at least 25 yards en route to his best day by receiving yards since Week 15 of 2018. Brown was able to rack up these numbers with Mike Evans sidelined for much of the game due to a non-contact knee injury. If Evans misses the opening round of the playoffs, Brown will likely take over his role as the team's high-volume field-stretcher. He would likely slot in as a borderline WR1 for the first week of fantasy playoffs if that is the case.\n",
-    "timestamp": "2021-01-03 09:34 PM",
+    "analysis": "Brown broke free for a 36-yard touchdown in the first quarter and turned the corner on a target in the flats for his two receptions. He seems to be getting more comfortable as the weeks stack up, although he's still being utilized as a distant third receiver behind Chris Godwin (12 targets) and Mike Evans (10 targets). Brown will be parked inside three-receiver sets next weekend, possibly in New Orleans.\n",
+    "timestamp": "2021-01-10 05:11 AM",
     "source": null,
     "game_day_logo": "",
     "week01": "DNP",
@@ -5161,19 +5063,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 34.38,
     "fanduelSalary": "$6400",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Knee",
     "tmColorLite": "#866D4B",
     "tmColorDark": "#002244",
     "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#866D4B",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Rams activated WR Cooper Kupp from the reserve/COVID-19 list.\n",
+    "headlineNews": "NFL Network's Mike Garafolo reports \"all indications are nothing major\" for Cooper Kupp's knee injury.\u00a0\n",
     "report": "",
-    "analysis": "After missing Week 17 with the virus, Kupp will be back out there for the Wild Card tilt with the Seahawks. It's unclear who -- Jared Goff or John Wolford -- will be throwing him the football. Kupp posted 5-50 and 8-66 receiving lines in two dates with Seattle this season.\n",
-    "timestamp": "2021-01-06 09:17 PM",
-    "source": null,
+    "analysis": "Kupp suffered a non-contact injury late, and was spotted getting his ACL stability tested on the sideline. He then walked to the locker room under his own power. A Sunday MRI is all but\u00a0guaranteed, but it appears the Rams have dodged a bullet. Kupp missed the team's 2018-19 Super Bowl run with a torn left ACL. His status will be updated no later than Wednesday, though the Rams' first injury report could come on Tuesday depending on their\u00a0Divisional Round opponent.\u00a0\n",
+    "timestamp": "2021-01-10 03:11 AM",
+    "source": "Mike Garafolo on Twitter",
     "game_day_logo": "",
     "week01": 6.0,
     "week02": 10.5,
@@ -5267,10 +5169,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Gabriel Davis caught 2-of-5 targets for 107 yards and a touchdown in the Bills' Week 17\u00a0win over the Dolphins.\n",
+    "headlineNews": "Gabriel Davis caught all four of his targets for 85 yards in the Bills' Wild Card Weekend win against the Colts.\u00a0\n",
     "report": "",
-    "analysis": "It was fair to wonder how much time Davis would see during his rookie season after being selected in the fourth round, but it is clear the team had a plan despite already rostering Stefon Diggs, John Brown and Cole Beasley. Brian Daboll ran more four WR sets in the opening two weeks of the season than he did in the entirety of 2019, and once Brown went down, Davis was there to step in. His downfield playmaking style outside the boundary is a clear fit with an improved Josh Allen.\n",
-    "timestamp": "2021-01-04 01:58 AM",
+    "analysis": "Davis had a couple impressive toe-tappers against the Colts, finding soft spots in Indy's zone defense on those two downfield grabs. Davis continues to be out-targeted by Cole Beasley but he's the next best big play option behind Stefon Diggs. Davis will likely be a key to Buffalo's offense if the Bills make a deep postseason run.\u00a0\n",
+    "timestamp": "2021-01-09 09:55 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 2.6,
@@ -5343,104 +5245,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040655.png",
-    "name": "Darnell Mooney",
-    "depthchart": "Backup: WR-2",
-    "team": "Chicago Bears",
-    "projected": 7.4,
-    "opponent": "New Orleans Saints",
-    "home_away": "at ",
-    "opp_rank_Neg": 5,
-    "team_rank_Neu": 22,
-    "avg_fp2": 7.6,
-    "opp_rank_allowed_fp2_Neu": 18,
-    "opp_avg_allowed_fp2": 30.31,
-    "fanduelSalary": "$5400",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Ankle",
-    "tmColorLite": "#c36835",
-    "tmColorDark": "#0B162A",
-    "tmColorLite_rgba": "rgba(195, 104, 53, 0.2)",
-    "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
-    "tmTextLite": "#c36835",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Darnell Mooney (ankle) did not practice Wednesday.\n",
-    "report": "",
-    "analysis": "It's a new injury for Mooney, who was targeted a season-high 13 times in the Week 17 loss to the Packers, turning them into 11 catches for 93 yards. Mooney hasn't hit 100 yards in a game yet this season.\n",
-    "timestamp": "2021-01-06 09:27 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": "DNP",
-    "week02": 11.1,
-    "week03": 2.9,
-    "week04": 7.4,
-    "week05": 2.5,
-    "week06": 5.1,
-    "week07": 5.5,
-    "week08": 15.4,
-    "week09": 6.8,
-    "week10": 1.3,
-    "week11": "BYE",
-    "week12": 6.9,
-    "week13": 6.3,
-    "week14": 9.7,
-    "week15": 14.5,
-    "week16": 6.1,
-    "week17": 14.8,
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1
-                         backgroundColor:  "rgba(195, 104, 53, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 11.1, 2.9, 7.4, 2.5, 5.1, 5.5, 15.4, 6.8, 1.3, 'BYE', 6.9, 6.3, 9.7, 14.5, 6.1, 14.8]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 2.3, 6.7, 9.7, 3.7, 6.7, 6.3, 6.4, 9.7, 8.0, 'BYE', 5.4, 5.2, 8.4, 7.5, 5.3, 5.1, 7.4]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 0.8, 5.0, 4.4, 0.0, 0.0, 4.0, 3.9, 2.4, 5.5, 'BYE', 2.4, 3.0, 3.3, 4.2, 2.0, 3.5, 5.1]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(195, 104, 53, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 2.8, 9.4, 9.3, 14.7, 12.8, 10.0, 7.3, 8.3, 12.7, 'BYE', 10.9, 6.6, 10.9, 8.2, 9.3, 9.8, 12.4]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4035687.png",
     "name": "Michael Pittman",
     "depthchart": "Backup: WR-2",
@@ -5463,10 +5267,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Michael Pittman caught 2-of-2 targets for 28 yards in the Colts' Week 17 win over the Jaguars.\n",
+    "headlineNews": "Michael Pittman caught 5-of-11 targets for 91 yards in the Colts' Wild Card Weekend loss to Buffalo, adding one rush for 11 yards.\u00a0\n",
     "report": "",
-    "analysis": "A big lead and Jonathan Taylor's leg left the Colts' pass catchers with little production. That's been the story for Pittman as a rookie. When targeted, Pittman has looked like an NFL-caliber starter. He was only targeted 61 times, however, converting them into 503 yards and one touchdown. The Colts will need to put up a lot of points to upset the Bills in the playoffs next weekend.\n",
-    "timestamp": "2021-01-04 01:45 AM",
+    "analysis": "Pittman was second among Colts wideouts with a 14 percent target share this season. He was the team's primary offensive weapon for much of the first half against Buffalo, narrowly missing a diving touchdown grab in the first quarter. For a while in the season's first couple months, Pittman looked like Indy's top wideout. T.Y. Hilton slowly emerged as the No. 1 receiver, however, relegating Pittman to WR3/4 status in fantasy. At 6'4\" and 223 pounds with 4.52 speed, Pittman will look to take a second-year leap in 2021, possibly with unrestricted free agent Hilton gone. Pittman could shape up as a value pick in best ball leagues this spring and summer.\u00a0\n",
+    "timestamp": "2021-01-09 11:59 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 2.0,
@@ -5833,104 +5637,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116165.png",
-    "name": "Chris Godwin",
-    "depthchart": "Reserve: WR-3",
-    "team": "Tampa Bay Buccaneers",
-    "projected": 6.6,
-    "opponent": "Washington Football Team",
-    "home_away": "at ",
-    "opp_rank_Neg": 2,
-    "team_rank_Pos": 3,
-    "avg_fp2": 13.21,
-    "opp_rank_allowed_fp2_Neg": 3,
-    "opp_avg_allowed_fp2": 25.93,
-    "fanduelSalary": "$7800",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#D50A0A",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#D50A0A",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Chris Godwin caught 5-of-7 targets for 133 yards and two touchdowns in the Bucs' Week 17 win over the Falcons.\n",
-    "report": "",
-    "analysis": "Godwin was able to make the most of Mike Evans missing three quarters with his first 100-yard game of the season. However, Antonio Brown saw 14 targets and is clearly the primary beneficiary of Evans going down. It looks like Evans will be able to suit up in the Bucs' Wild Card round game against Washington but if he doesn't, Brown is the preferred target on this team. Godwin would still project for high-end WR2 numbers in the context of a six-game playoff slate.\n",
-    "timestamp": "2021-01-04 06:45 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 10.9,
-    "week02": "DNP",
-    "week03": 14.9,
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": 7.3,
-    "week07": 19.3,
-    "week08": "DNP",
-    "week09": 5.6,
-    "week10": 12.2,
-    "week11": 14.8,
-    "week12": 13.7,
-    "week13": "BYE",
-    "week14": 3.5,
-    "week15": 11.6,
-    "week16": 16.9,
-    "week17": 27.8,
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(213, 10, 10, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [10.9, 'DNP', 14.9, 'DNP', 'DNP', 7.3, 19.3, 'DNP', 5.6, 12.2, 14.8, 13.7, 'BYE', 3.5, 11.6, 16.9, 27.8]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [12.7, 'DNP', 5.0, 'DNP', 'DNP', 8.9, 8.7, 'DNP', 11.6, 2.8, 5.9, 8.2, 'BYE', 7.0, 4.9, 6.1, 8.7, 6.6]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [3.3, 'DNP', 2.6, 'DNP', 'DNP', 8.3, 1.4, 'DNP', 6.3, 0.5, 2.1, 3.7, 'BYE', 4.6, 2.6, 4.6, 3.0, 4.1]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(213, 10, 10, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [21.6, 'DNP', 20.4, 'DNP', 'DNP', 26.1, 20.3, 'DNP', 22.8, 20.4, 20.1, 18.4, 'BYE', 19.1, 19.9, 17.3, 14.8, 20.1]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3042778.png",
     "name": "Corey Davis",
     "depthchart": "Backup: WR-2",
@@ -6029,6 +5735,104 @@ $scope.positionWR = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3116165.png",
+    "name": "Chris Godwin",
+    "depthchart": "Reserve: WR-3",
+    "team": "Tampa Bay Buccaneers",
+    "projected": 6.6,
+    "opponent": "Washington Football Team",
+    "home_away": "at ",
+    "opp_rank_Neg": 2,
+    "team_rank_Pos": 3,
+    "avg_fp2": 13.21,
+    "opp_rank_allowed_fp2_Neg": 3,
+    "opp_avg_allowed_fp2": 25.93,
+    "fanduelSalary": "$7800",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#D50A0A",
+    "tmColorDark": "#000000",
+    "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
+    "tmTextLite": "#D50A0A",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+    "headlineNews": "Chris Godwin caught 5-of-12 targets for 79 yards and one touchdown in the Bucs' Wild Card win over Washington.\n",
+    "report": "",
+    "analysis": "Godwin had a very up-and-down game. He uncharacteristically had multiple drops -- possibly up to five -- but also found the end zone and made some plays in traffic. It would be a surprise if Godwin's drops carried over as he's been sure-handed for his entire NFL career. With Mike Evans avoiding a setback, the Bucs should be ready for a high-scoring affair next weekend. The Bucs are most likely playing the Saints in New Orleans.\n",
+    "timestamp": "2021-01-10 05:12 AM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 10.9,
+    "week02": "DNP",
+    "week03": 14.9,
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": 7.3,
+    "week07": 19.3,
+    "week08": "DNP",
+    "week09": 5.6,
+    "week10": 12.2,
+    "week11": 14.8,
+    "week12": 13.7,
+    "week13": "BYE",
+    "week14": 3.5,
+    "week15": 11.6,
+    "week16": 16.9,
+    "week17": 27.8,
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(213, 10, 10, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [10.9, 'DNP', 14.9, 'DNP', 'DNP', 7.3, 19.3, 'DNP', 5.6, 12.2, 14.8, 13.7, 'BYE', 3.5, 11.6, 16.9, 27.8]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [12.7, 'DNP', 5.0, 'DNP', 'DNP', 8.9, 8.7, 'DNP', 11.6, 2.8, 5.9, 8.2, 'BYE', 7.0, 4.9, 6.1, 8.7, 6.6]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [3.3, 'DNP', 2.6, 'DNP', 'DNP', 8.3, 1.4, 'DNP', 6.3, 0.5, 2.1, 3.7, 'BYE', 4.6, 2.6, 4.6, 3.0, 4.1]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(213, 10, 10, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [21.6, 'DNP', 20.4, 'DNP', 'DNP', 26.1, 20.3, 'DNP', 22.8, 20.4, 20.1, 18.4, 'BYE', 19.1, 19.9, 17.3, 14.8, 20.1]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3932423.png",
     "name": "Miles Boykin",
     "depthchart": "Backup: WR-2",
@@ -6121,6 +5925,104 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [6.5, 6.9, 5.8, 8.0, 8.3, 8.5, 'BYE', 7.8, 7.1, 6.8, 5.5, 7.7, 7.7, 6.3, 7.2, 8.1, 6.6, 8.0]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3050487.png",
+    "name": "Anthony Miller",
+    "depthchart": "Backup: WR-2",
+    "team": "Chicago Bears",
+    "projected": 6.2,
+    "opponent": "New Orleans Saints",
+    "home_away": "at ",
+    "opp_rank_Neg": 5,
+    "team_rank_Neu": 22,
+    "avg_fp2": 5.26,
+    "opp_rank_allowed_fp2_Neu": 18,
+    "opp_avg_allowed_fp2": 30.31,
+    "fanduelSalary": "$4700",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#c36835",
+    "tmColorDark": "#0B162A",
+    "tmColorLite_rgba": "rgba(195, 104, 53, 0.2)",
+    "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
+    "tmTextLite": "#c36835",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+    "headlineNews": "Anthony Miller caught both of his targets for 13 yards in the Bears' Week 17 loss to the Packers.\u00a0\n",
+    "report": "",
+    "analysis": "Long ago passed by Darnell Mooney as the team's No. 2 receiver, Miller was again hardly involved in the Bears' passing game. Miller ends the regular season with a 13 percent target share.\u00a0\n",
+    "timestamp": "2021-01-04 03:06 AM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 15.6,
+    "week02": 0.0,
+    "week03": 12.0,
+    "week04": 3.1,
+    "week05": 4.8,
+    "week06": 2.3,
+    "week07": 3.5,
+    "week08": 11.3,
+    "week09": 6.4,
+    "week10": 3.8,
+    "week11": "BYE",
+    "week12": 4.3,
+    "week13": 8.4,
+    "week14": 2.6,
+    "week15": 1.8,
+    "week16": 2.0,
+    "week17": 2.3,
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9', 'Week 10', 'Week 11', 'Week 12', 'Week 13', 'Week 14', 'Week 15', 'Week 16', 'Week 17', 'Week 18'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1
+                         backgroundColor:  "rgba(195, 104, 53, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [15.6, 0.0, 12.0, 3.1, 4.8, 2.3, 3.5, 11.3, 6.4, 3.8, 'BYE', 4.3, 8.4, 2.6, 1.8, 2.0, 2.3]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [8.2, 9.5, 4.9, 6.3, 2.8, 3.1, 4.8, 5.3, 5.8, 3.6, 'BYE', 4.5, 4.6, 5.4, 6.9, 3.3, 3.4, 6.2]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [1.2, 0.8, 1.2, 0.5, 1.2, 1.4, 1.0, 0.9, 1.0, 1.2, 'BYE', 0.8, 0.7, 0.9, 1.1, 1.0, 2.2, 2.4]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(11, 22, 42, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(195, 104, 53, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [13.7, 12.7, 13.6, 13.5, 12.5, 12.6, 11.5, 11.9, 13.3, 14.2, 'BYE', 11.7, 12.0, 13.2, 11.6, 10.3, 12.5, 13.5]
                     }
                     
                     ]
@@ -6247,10 +6149,10 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Zach Pascal caught 2-of-4 targets for 41 yards in the Colts' Week 17 win over the Jaguars.\n",
+    "headlineNews": "Zach Pascal caught 3-of-5 targets for 37 yards and a touchdown in the Colts' Wild Card Weekend loss to the Bills.\u00a0\n",
     "report": "",
-    "analysis": "T.Y. Hilton, Michael Pittman, and Pascal have traded off big weeks this year, but Hilton remains the best bet for consistent production as the Colts head into the playoffs. Pascal finished the regular season with 44 receptions on 71 targets.\u00a0\n",
-    "timestamp": "2021-01-04 01:32 AM",
+    "analysis": "Pascal got away with what would have been a game-ending fumble. The refs somehow botched the call and ruled Pascal down -- one of the most perplexing officiating calls of the season. Pascal, 26, ended the regular season with a 13 percent target share, third among Indy wide receivers. He was second in receptions and receiving yardage. He'll be a restricted free agent in 2021.\u00a0\n",
+    "timestamp": "2021-01-09 11:48 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 2.8,
@@ -6544,10 +6446,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(119, 49, 65, 0.2)",
     "tmTextLite": "#FFB612",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
-    "headlineNews": "Logan Thomas caught 3-of-6 targets for 37\u00a0yards and a touchdown in Washington's Week 17 win over the Eagles.\n",
+    "headlineNews": "Logan Thomas caught 5-of-9 targets for 74 yards in Washington's Wild Card loss to the Buccaneers.\n",
     "report": "",
-    "analysis": "Thomas\u00a0caught a jump ball on an end-zone target to give Washington the lead going into halftime. It ended as the game winner with the Eagles getting shutout in the second half. Thomas was one of 2020\u2019s biggest breakouts, posting a 72/700/6\u00a0line on 110\u00a0targets. He has a\u00a0Wild Card matchup with a Bucs secondary that\u2019s allowed the 10th most fantasy points to tight ends.\n",
-    "timestamp": "2021-01-04 04:54 AM",
+    "analysis": "Thomas was an unexpected breakout player in 2020. After taking multiple years to develop into a tight end, Thomas compiled a 72-670-6 receiving line on 110 targets with Washington. If he had better quarterback play, the 29-year-old could've settled in as a weekly TE1 in fantasy. Instead, Thomas was an inconsistent producer despite showing above-average athleticism on tape. Washington has Thomas under contract for another year and could improve their quarterback situation with their top-five cap space. Thomas belongs on the TE1/2 border for early 2021 fantasy drafts while we wait to see who Washington brings in at quarterback.\n",
+    "timestamp": "2021-01-10 06:16 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 11.7,
@@ -6634,8 +6536,8 @@ $scope.positionTE = [{
     "opp_avg_allowed_fp2": 11.76,
     "fanduelSalary": "$5500",
     "hasStatus": "Status",
-    "healthOut": "Reserve-ex",
-    "injury": "Undisclosed",
+    "healthHea": "Healthy",
+    "injury": "",
     "tmColorLite": "#FFB612",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(255, 182, 18, 0.2)",
@@ -6936,10 +6838,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#D50A0A",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Rob Gronkowski caught 2-of-4 targets for 29 yards in the Buccaneer's Week 17 win over the Falcons.\n",
+    "headlineNews": "Rob Gronkowski failed to catch his lone target in the Bucs' Wild Card win over Washington.\n",
     "report": "",
-    "analysis": "Gronk stayed quiet in Week 17 but that was only because Antonio Brown and Chris Godwin both topped 100 yards and scored twice. Both players also scored at least one of their touchdowns from 25 or more yards out. Gronk was still playing on the majority of his team's snaps and saw four looks in the passing game. He remains a TE1 for playoff fantasy football purposes. Gronk ends his regular-season return to football with 623 receiving yards and seven scores. He may not be at his peak anymore but he still has the ability to be a dynamic play-maker when paired with Tom Brady.\n",
-    "timestamp": "2021-01-03 10:36 PM",
+    "analysis": "The last time Gronkowski went catchless in a game was back in Week 2. The veteran has been looking spry since turning into a full-time player in the second half of the season. It's likely a one-game outlier, although he did seem to stay in for pass protection more than normal on Saturday. Expect Gronkowski to be a threat in the red zone next weekend. Tampa Bay is most likely headed for New Orleans.\n",
+    "timestamp": "2021-01-10 05:11 AM",
     "source": null,
     "game_day_logo": "",
     "week01": 2.1,
@@ -7230,10 +7132,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "tmTextLite": "#69BE28",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Jacob\u00a0Hollister caught both of his targets for 17 yards and a touchdown in the Seahawks' Week 15 win against the Football Team.\u00a0\n",
+    "headlineNews": "Jacob Hollister caught 0-of-5 targets in the Seahawks' Wild Card loss to the Rams.\u00a0\n",
     "report": "",
-    "analysis": "Hollister, who continues to lead Seattle tight ends in pass routes, caught Russell Wilson's lone touchdown pass in Seattle's depressingly scaled down passing attack. Will Dissly did not see a target against Washington. Greg Olsen (foot) returning from injured reserve in the next week or two would end Hollister's fantasy relevance for now. Even without Olsen, he's a borderline streaming option in 14-team formats.\u00a0\n",
-    "timestamp": "2020-12-21 03:49 PM",
+    "analysis": "A seeming obsession for both\u00a0coach Pete Carroll and OC Brian Schottenheimer, Hollister turned 25 2020 receptions into only 209 yards. Even for a tight end, an 8.4 YPC isn't going to cut it, especially in this offense, and especially especially after that number was only 8.5 in 2019. Amazingly, 10 of Hollister's 40 targets came in the red zone. We would say the Seahawks need a better plan. Hollister played 2020 under a restricted free agent tender and is headed to the open market as a 27-year-old.\u00a0\n",
+    "timestamp": "2021-01-10 03:06 AM",
     "source": null,
     "game_day_logo": "",
     "week01": "DNP",
@@ -7328,10 +7230,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Jack Doyle caught 3-of-3 targets for 17 yards in the Colts' Week 17 win over the Jaguars.\n",
+    "headlineNews": "Jack Doyle caught 7-of-9 targets for 70 yards and a touchdown in the Colts' Wild Card Weekend loss to the Bills.\u00a0\n",
     "report": "",
-    "analysis": "Doyle was the only Colts tight end to be targeted in the regular season finale. Indianapolis used Doyle, Mo Alie-Cox, and Trey Burton throughout 2020, limiting all three to touchdown-dependent TE3 land. That will be the case for the Colts' playoff run, too. Doyle had 23 receptions across 14 games.\n",
-    "timestamp": "2021-01-04 01:56 AM",
+    "analysis": "He also caught a two-point conversion. Doyle emerged in the season's final weeks as the primary pass-catching tight end in the Colts' three-man tight end rotation. Philip Rivers ripped Buffalo's defense via the tight end on Saturday, completing 14 passes to Doyle, Mo Alie-Cox, and Trey Burton. Doyle, the ultimate dad runner, led all Indy tight ends in offensive snaps this season but was out-targeted by Trey Burton, 38 to 33. Colts tight ends were mostly unusable in fantasy this season. Doyle, 30, is signed with the Colts through 2022.\u00a0\n",
+    "timestamp": "2021-01-09 11:15 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 6.4,
@@ -7622,10 +7524,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Dawson Knox caught 3-of-4 targets for 51 yards in the Bills' Week 16 win over the Patriots.\n",
+    "headlineNews": "Dawson Knox caught 2-of-3 targets for five yards and a touchdown in the Bills' Wild Card Weekend win over the Colts.\u00a0\n",
     "report": "",
-    "analysis": "His lone missed connection was a bad drop in the end zone on a should-be touchdown. Knox's 51 yards were a distant second on the team behind Stefon Diggs' 9-145-3 explosion. Knox has been getting more involved in recent weeks as the clear No. 1 tight end and will be on the streaming map for Week 17 against the Dolphins.\n",
-    "timestamp": "2020-12-29 04:37 AM",
+    "analysis": "Knox was on the receiving end of an improvised first quarter push pass from Josh Allen as the quarterback abandoned a designed run and spotted Knox in the back of the end zone. Knox was uninvolved from there. He's a touchdown-dependent fantasy option as long as Cole Beasley is in the Buffalo lineup.\u00a0\n",
+    "timestamp": "2021-01-09 10:27 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 3.6,
@@ -7921,9 +7823,9 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Bucs CB Carlton Davis (groin) was limited on Wednesday.\n",
+    "headlineNews": "Carlton Davis (groin) is active for the Wild Card Round against the Washington Football Team.\n",
     "report": "",
-    "analysis": "It's an upgrade. Davis has missed the last few weeks with a groin injury and wasn't able to practice on Tuesday. It's possible Davis was being saved for a playoff run instead of fighting through an injury late in the season. The Bucs catch the easiest matchup of the Wild Card round against the Football Team.\n",
+    "analysis": "Davis missed Weeks 16 and 17. With Terry McLaurin at less than 100 percent health as he battles an ankle injury with journeyman\u00a0Taylor Heinicke under center, Davis might not have to do much in his return to the lineup.\u00a0\n",
     "timestamp": "",
     "source": null,
     "game_day_logo": "",
@@ -8224,11 +8126,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(105, 190, 40, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
-    "headlineNews": "Seahawks DB\u00a0Jamal Adams (shoulder) was left off the final injury report for the Wild Card Round.\u00a0\n",
+    "headlineNews": "Seahawks S Jamal Adams said he needs offseason surgery on his shoulder and fingers.\n",
     "report": "",
-    "analysis": "It's a surprise after coach Pete Carroll strongly suggested on Tuesday that Adams would be a game-time decision against the Rams on Saturday afternoon. Adams is undoubtedly nowhere close to 100 percent healthy, but it was always difficult to believe he was going to sit. Alongside the tissue-thin schedule, Adams was one of the most important parts of the Seahawks' second half defensive turnaround.\u00a0\n",
+    "analysis": "Adams has a torn labrum and broken fingers. He played through his injuries for the Seahawks' playoff push, but Adams wasn't as effective in 2020 as he typically is due to his shoulder. He'll need to get healthy and return to playing elite ball in 2021 for the Seahawks to overcome some of the talent that's walking out the door this offseason. Seattle essentially sold their future to acquire Adams.\n",
     "timestamp": "",
-    "source": null,
+    "source": "John Boyle on Twitter",
     "game_day_logo": "",
     "avg_fp2": 6.31,
     "week01": 4.0,
@@ -8325,11 +8227,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(1, 70, 131, 0.2)",
     "tmColorDark_rgba": "rgba(0, 44, 95, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
-    "headlineNews": "Colts DT\u00a0DeForest Buckner (ankle) is questionable for the Wild Card Round against the Bills.\u00a0\n",
+    "headlineNews": "Colts DT DeForest Buckner (ankle) is active for Saturday's Wild Card game against Buffalo.\n",
     "report": "",
-    "analysis": "Despite the questionable tag, Buckner is expected to go against the Bills. Speaking Thursday, coach Frank Reich said\u00a0Buckner's ankle gets \"re-aggravated every game day,\" but that he has also improved with time. The Colts won't have much shot at springing the upset if Buckner isn't operating at near his normal level of effectiveness.\u00a0\n",
+    "analysis": "Buckner will continue to play through an ankle injury that\u00a0limited him down the stretch. The Colts' inactives are QB Jacob Eason, OT Will Holden, WR Dezmon Paton, TE Noah Togiai, DE Ben Banogu, and CB Rock Ya-Sin.\n",
     "timestamp": "",
-    "source": "Jim Ayello on Twitter ",
+    "source": null,
     "game_day_logo": "",
     "avg_fp2": 7.38,
     "week01": 4.0,
@@ -8426,9 +8328,9 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(155, 132, 92, 0.2)",
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
-    "headlineNews": "Saints S Marcus Williams (ankle) is out for Week 17 against the Panthers.\n",
+    "headlineNews": "Saints activated CB\u00a0Patrick Robinson (hamstring) from injured reserve.\u00a0\n",
     "report": "",
-    "analysis": "The Saints are dealing with a lot of injuries right now. Michael Thomas is on injured reserve, Alvin Kamara is on the COVID-19 list, Kwon Alexander is out for the season, and Williams is week to week. The Saints most likely will play on Wild Card Weekend. It's unclear if Williams suit up then.\n",
+    "analysis": "The nickel man was limited to seven 2020 appearances as he battled continual hamstring woes. With the Saints' secondary finally at full strength, Robinson figures to mix in for 25-30 snaps against the Bears.\u00a0\n",
     "timestamp": "",
     "source": null,
     "game_day_logo": "",
@@ -8527,11 +8429,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(134, 109, 75, 0.2)",
     "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
-    "headlineNews": "Rams placed DL Michael\u00a0Brockers on the reserve/COVID-19 list.\u00a0\n",
+    "headlineNews": "Rams DT\u00a0Aaron Donald was forced from Los Angeles' Wild Card game against the Seahawks with a rib injury.\n",
     "report": "",
-    "analysis": "It's not clear whether Brockers is considered a close contact or tested positive for COVID-19. Either way, the Rams will be without Brockers this week against the Cardinals. The team is missing a number of starters in a must-win game.\u00a0\n",
+    "analysis": "Deemed \"questionable,\" Donald seemed close to returning several times but never did check back in. He was almost single-handedly wrecking the Seahawks' offense before getting injured in the third quarter. He will probably be out there with added mid-section protection for the Divisional Round, but how effective he might be is anyone's guess.\u00a0\n",
     "timestamp": "",
-    "source": "Aaron Wilson on Twitter ",
+    "source": null,
     "game_day_logo": "",
     "avg_fp2": 7.56,
     "week01": 4.0,
@@ -8931,11 +8833,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(195, 104, 53, 0.2)",
     "tmColorDark_rgba": "rgba(11, 22, 42, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
-    "headlineNews": "Bears declared\u00a0CB Jaylon Johnson, CB Buster Skrine, S Deon Bush, OL Lachavious Simmons, DL Daniel McCullers, and WR Riley Ridley inactive for Week 17 against the Packers.\u00a0\n",
+    "headlineNews": "Bears CBs Jaylon Johnson (shoulder) is questionable for the Wild Card game against New Orleans.\n",
     "report": "",
-    "analysis": "Chicago will be without Skrine and Johnson, two of their\u00a0top two corners, against Aaron Rodgers and the Packers. Green Bay has to beat the Bears to guarantee they get the No. 1 seed in the NFC headed into the postseason.\u00a0\n",
+    "analysis": "As is Roquan Smith despite neither player being able to practice throughout the week. Slot CB Buster Skrine meanwhile has already been ruled out. The Bears, universally listed as 10.5-point road dogs for Sunday, are expected to be extremely shorthanded on defense in the worst imaginable spot against Alvin Kamara and Michael Thomas, both who are expected to be back at full strength.\n",
     "timestamp": "",
-    "source": "Jason B. Hirschhorn on Twitter ",
+    "source": "Chicago Bears PR on Twitter",
     "game_day_logo": "",
     "avg_fp2": 5.69,
     "week01": 3.0,
