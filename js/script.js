@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Saturday, 23 January 2021 04:47 AM (central time)"};
+$scope.currentDate = {"currentDate": "Sunday, 24 January 2021 05:17 AM (central time)"};
 $scope.week = {"nflWeek": "Conference Championships"};
 $scope.playoffLogo = {"src": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/NFL_playoffs_logo_new.svg/1200px-NFL_playoffs_logo_new.svg.png"}
 
@@ -2327,11 +2327,11 @@ $scope.positionWR = [{
     "tmColorDark_rgba": "rgba(0, 85, 150, 0.2)",
     "tmTextLite": "#FFFFFF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
-    "headlineNews": "Cole Beasley (knee) was removed from Buffalo's injury report.\n",
+    "headlineNews": "Bills WR\u00a0Kenny Stills was elevated to the team's 53-man roster for Sunday's game against the Chiefs.\u00a0\n",
     "report": "",
-    "analysis": "Gabriel Davis (ankle) meanwhile was limited for Friday's practice and remains questionable. Beasley was downgraded on Thursday but encouragingly practiced in full to close the week\u00a0and will ultimately suit up against the Chiefs. Even if his full motion is limited, Beasley's availability is tremendous news.\n",
-    "timestamp": "2021-01-22 07:51 PM",
-    "source": "Buffalo Bills PR on Twitter",
+    "analysis": "Stills will be active for the first time since Buffalo signed him to the team's practice squad on January 4. The Bills are struggling with wideout injuries, with Cole Beasley playing through a lingering knee injury and Gabriel Davis suffering an ankle injury in last week's win over Baltimore. Bringing Stills off the practice squad indicates one or both receivers will be out Sunday. Davis, who missed practice all week before practicing in a limited capacity on Friday,\u00a0is considered questionable to face KC in the AFC Championship Game.\u00a0Isaiah McKenzie and Stills would be in the mix Sunday if Davis or Beasley are inactive. Stills is an intriguing option in large-field single game DFS contests.\u00a0\n",
+    "timestamp": "2021-01-23 09:08 PM",
+    "source": "Tom Pelissero on Twitter ",
     "game_day_logo": "",
     "week01": 7.8,
     "week02": 9.5,
@@ -3220,11 +3220,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(215, 160, 23, 0.2)",
     "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Packers signed CB\u00a0Tramon Williams to the practice squad.\u00a0\n",
+    "headlineNews": "Packers CB Tramon Williams was elevated to the team's active roster for Sunday's game against the Bucs.\u00a0\n",
     "report": "",
-    "analysis": "Williams, 37, who played six games with Baltimore this season, returns for his third go-round in Green Bay. He'll be little more than a depth option in the excellent Packers secondary as the team chases a Super Bowl.\u00a0\n",
+    "analysis": "The team moved Williams -- who signed with the Packers this week -- from the practice squad to the active roster as a COVID-19 replacement. They also released RB Dexter Williams from the practice squad.\u00a0Williams, 37,\u00a0played six games with Baltimore this season. It looks like he'll see the field Sunday in the NFC title game.\u00a0\n",
     "timestamp": "",
-    "source": "Field Yates on Twitter ",
+    "source": "Green Bay Packers on Twitter ",
     "game_day_logo": "",
     "avg_fp2": 5.12,
     "week01": 5.0,
@@ -3422,11 +3422,11 @@ $scope.positionDST = [{
     "tmColorLite_rgba": "rgba(213, 10, 10, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
-    "headlineNews": "Buccaneers activated\u00a0DT Vita Vea (ankle)\u00a0from injured reserve.\n",
+    "headlineNews": "Bucs SS\u00a0Antoine Winfield (questionable, ankle) is a game-time decision for Sunday's NFC Championship against the Packers.\n",
     "report": "",
-    "analysis": "Vea (6'4/346) was a longshot to return given that he recently fractured his ankle in October, but he'll miraculously\u00a0be available to play in\u00a0the Bucs' Conference Championship game on Sunday.\u00a0Pro Football Focus' No. 3-graded interior defensive lineman prior to injury, the 25-year-old adds a much needed presence up the middle before the team squares off against Aaron Jones. Vea, even if he's limited, is an upgrade there.\n",
+    "analysis": "Winfield was injured in Thursday's practice and held out on Friday before getting listed questionable. Not having Winfield would be\u00a0a big absence for the Bucs. The second-round rookie has been a difference-maker in the playoffs, posting\u00a012 tackles (11 solo) and a forced\u00a0fumble through two games.\n",
     "timestamp": "",
-    "source": "Peter Schrager on Twitter",
+    "source": "The Athletic",
     "game_day_logo": "",
     "avg_fp2": 7.22,
     "week01": 0.0,
