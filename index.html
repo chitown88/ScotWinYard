@@ -134,6 +134,7 @@
 			<div ng-if="player.week19">Week 19: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week19}}</span></div>
 			<div ng-if="player.week20">Week 20: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week20}}</span></div>
 			<div ng-if="player.week21">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
+			<div ng-if="player.week21">Week 22: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
 			</div>
         </div>  
         
@@ -291,6 +292,7 @@
 			<div ng-if="player.week19">Week 19: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week19}}</span></div>
 			<div ng-if="player.week20">Week 20: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week20}}</span></div>
 			<div ng-if="player.week21">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
+			<div ng-if="player.week21">Week 22: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
 			</div>
       </div>  
 	  <div class="player-news">
@@ -447,6 +449,7 @@
 			<div ng-if="player.week19">Week 19: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week19}}</span></div>
 			<div ng-if="player.week20">Week 20: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week20}}</span></div>
 			<div ng-if="player.week21">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
+			<div ng-if="player.week22">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
 			</div>
       </div>  
 	  <div class="player-news">
@@ -603,6 +606,7 @@
 			<div ng-if="player.week19">Week 19: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week19}}</span></div>
 			<div ng-if="player.week20">Week 20: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week20}}</span></div>
 			<div ng-if="player.week21">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
+			<div ng-if="player.week22">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
 			</div>
       </div>  
 	  <div class="player-news">
@@ -677,7 +681,167 @@
     <div class="clearfix"></div>
   </section>
   
-  
+ 
+    <!--kickerss projections-->
+  <section class="myTeam" ng-controller="positionController">
+    <div class="positionHeader myTeamHead" id="kickers">
+      <h1>Kickers</h1>
+      <h2>projected this week</h2>
+    </div>
+    <section ng-repeat="player in positionK">
+    <div class="card">
+      <div class="pos">
+        {{player.depthchart}}
+      </div>
+      <div class="profile">
+        <img ng-src="{{player.imageUrl}}">
+      </div>
+        <div class="playerInfo">
+          <h1>{{player.name}}</h1>
+          <h2>{{player.team}}</h2>
+          <div class="spacer"></div> 
+          <p>Projected This week</p>
+          <h3>{{player.projected}} pts</h3>
+		   <h1>{{player.fanduelSalary}}</h1>
+          <div class="spacer"></div>
+          <p class="hideDefStatus">{{player.hasStatus}}
+          <b class="canPlay">{{player.healthHea}}</b>
+          <b class="probPlay">{{player.healthProb}}</b>
+          <b class="maybePlay">{{player.healthQue}}</b>
+		  <b class="doubtPlay">{{player.healthDou}}</b>
+          <b class="noPlay">{{player.healthOut}}</b>
+          </p></div> 
+		 <div class="gameInfo"><img ng-src="{{player.game_day_logo}}"></div>
+    </div>
+    <!--modal-->
+    <section class="overlay">
+      <div class="modal" style="background:{{player.tmColorDark}};">
+        <div class="modalHeader" style="background:{{player.tmColorLite}};">
+          {{player.depthchart}}
+          <i class="close">x</i>
+        </div>
+		<div class="profile-container">
+        <div class="profile">
+          <img id="playerImage" ng-src="{{player.imageUrl}}">
+        </div>
+        <ul class="playerModal">
+          <li><h1>{{player.name}}</h1></li>
+          <li><h2>{{player.team}}</h2>
+          <h1>{{player.projected}} pts</h1>
+		  <h2>{{player.fanduelSalary}}</h2>
+          </li>
+          <li class="canPlay">{{player.healthHea}}</li>
+          <li class="probPlay">{{player.healthProb}}</li>
+          <li class="maybePlay">{{player.healthQue}}</li>
+		  <li class="doubtPlay">{{player.healthDou}}</li>
+          <li class="noPlay">{{player.healthOut}}</li>
+        </ul>
+		
+		<span class="profile-team"><img id="teamLogo" src="{{player.logoUrl}}"></span></div>
+        <h3>Previous weeks points (Average: {{player.avg_fp2}} ppg)</h3>
+         
+            <div class="week-list pointsList">
+			<div ng-if="player.week01">Week 1: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week01}}</span></div>
+			<div ng-if="player.week02">Week 2: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week02}}</span></div>
+			<div ng-if="player.week03">Week 3: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week03}}</span></div>
+			<div ng-if="player.week04">Week 4: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week04}}</span></div>
+			<div ng-if="player.week05">Week 5: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week05}}</span></div>
+			<div ng-if="player.week06">Week 6: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week06}}</span></div>
+			<div ng-if="player.week07">Week 7: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week07}}</span></div>
+			<div ng-if="player.week08">Week 8: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week08}}</span></div>
+			<div ng-if="player.week09">Week 9: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week09}}</span></div>
+			<div ng-if="player.week10">Week 10: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week10}}</span></div>
+			<div ng-if="player.week11">Week 11: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week11}}</span></div>
+			<div ng-if="player.week12">Week 12: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week12}}</span></div>
+			<div ng-if="player.week13">Week 13: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week13}}</span></div>
+			<div ng-if="player.week14">Week 14: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week14}}</span></div>
+			<div ng-if="player.week15">Week 15: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week15}}</span></div>
+			<div ng-if="player.week16">Week 16: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week16}}</span></div>
+			<div ng-if="player.week17">Week 17: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week17}}</span></div>
+			<div ng-if="player.week18">Week 18: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week18}}</span></div>
+			<div ng-if="player.week19">Week 19: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week19}}</span></div>
+			<div ng-if="player.week20">Week 20: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week20}}</span></div>
+			<div ng-if="player.week21">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
+			<div ng-if="player.week22">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
+			</div>
+      </div>  
+	  <div class="player-news">
+	  <div>Next opponent: {{player.home_away}}{{player.opponent}}</div>
+		<ul>
+		<li>{{player.team}} Passing Offense Rank: <span class="rankPos"> {{player.team_rank_Pos}} </span>
+												  <span class="rankNeg"> {{player.team_rank_Neg}} </span>
+												  <span class="rankNeu"> {{player.team_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Passing Defense Rank: <span class="rankPos"> {{player.opp_rank_Pos}} </span>
+													  <span class="rankNeg"> {{player.opp_rank_Neg}} </span>
+													  <span class="rankNeu"> {{player.opp_rank_Neu}} </span></li>
+		<li>{{player.opponent}} Average Fantasy Points Allowed to TE Rank: <span class="rankPos">{{player.opp_rank_allowed_fp2_Pos}} </span> 
+																		   <span class="rankNeg">{{player.opp_rank_allowed_fp2_Neg}} </span> 
+																		   <span class="rankNeu">{{player.opp_rank_allowed_fp2_Neu}} ({{player.opp_avg_allowed_fp2}} ppg)</span> </li> 
+		</ul>
+	  <br>
+	  <h5>{{player.headlineNews}}</h5>
+	  <p>{{player.report}}</p><br>
+		<p><strong style="color:red;font-weight: bold;">Analysis:</strong>  {{player.analysis}}</p><br><p id="timestamp">{{player.timestamp}}</p>
+		<br>
+		
+		
+	<!-- CHART GOES HERE -->
+<div>
+      <canvas style="background-color: rgba(255, 255, 255, .00);" 
+				tc-chartjs-line chart-data="player.data"
+				chart-options="options" width="300"
+				height="100">
+      </canvas>
+  </div>
+	<!-- end chart-->
+
+          
+        </div>
+    </section>
+      <!--end modal & player info-->
+    </section><!--end ng-repeat-->
+    <!--score comparison-->
+    <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div ng-controller="positionController" class="startEm">
+        <h2>Top 5 Favorable Match-ups</h2>
+        <h1 class="you">
+		<ol><br>
+		<li>{{kStartSit.one}}</li>
+		<li>{{kStartSit.two}}</li>
+		<li>{{kStartSit.three}}</li>
+		<li>{{kStartSit.four}}</li>
+		<li>{{kStartSit.five}}</li>
+		</ol></h1>
+      </div> 
+     </section>
+	 
+	 <section class="compareMe compare">
+      <div class="result">
+        <!--win/loose message in css :before of .win or .lose-->
+      </div>
+      <div ng-controller="positionController" class="sitEm">
+        <h2>Top 5 Unfavorable Match-ups</h2>
+        <h1 class="you">
+		<ol ng-controller="positionController"><br>
+		<li>{{kStartSit.six}}</li>
+		<li>{{kStartSit.seven}}</li>
+		<li>{{kStartSit.eight}}</li>
+		<li>{{kStartSit.nine}}</li>
+		<li>{{kStartSit.ten}}</li>
+		</ol></h1>
+      </div> 
+     </section>
+    <div class="clearfix"></div>
+  </section>
+
+
+
+
+
+ 
 
     <!--defense projections-->
   <section class="myTeam" ng-controller="positionController">
@@ -749,6 +913,7 @@
 			<div ng-if="player.week19">Week 19: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week19}}</span></div>
 			<div ng-if="player.week20">Week 20: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week20}}</span></div>
 			<div ng-if="player.week21">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
+			<div ng-if="player.week22">Week 21: <span style="color:{{player.tmTextLite}}; font-weight:750;">{{player.week21}}</span></div>
 			</div>
       </div>  
 	  <div class="player-news">
