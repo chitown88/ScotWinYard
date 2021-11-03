@@ -6,11 +6,11 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Wednesday, 03 November 2021 04:43 AM (central time)"};
+$scope.currentDate = {"currentDate": "Wednesday, 03 November 2021 01:32 PM (central time)"};
 $scope.week = {"nflWeek": "9"};
 $scope.playoffLogo = {"src": ""}
 
-$scope.qbStartSit = {"one": "Tyrod Taylor", "two": "Josh Allen", "three": "Aaron Rodgers", "four": "Matthew Stafford", "five": "Teddy Bridgewater", "six": "Trevor Lawrence", "seven": "Jimmy Garoppolo", "eight": "Mac Jones", "nine": "Justin Fields", "ten": "Jalen Hurts"};
+$scope.qbStartSit = {"one": "Tyrod Taylor", "two": "Josh Allen", "three": "Matthew Stafford", "four": "Teddy Bridgewater", "five": "Tua Tagovailoa", "six": "Trevor Lawrence", "seven": "Jimmy Garoppolo", "eight": "Mac Jones", "nine": "Justin Fields", "ten": "Jalen Hurts"};
 $scope.rbStartSit = {"one": "Austin Ekeler", "two": "Alvin Kamara", "three": "Jonathan Taylor", "four": "Myles Gaskin", "five": "Boston Scott", "six": "Mike Davis", "seven": "James Robinson", "eight": "Melvin Gordon", "nine": "Joe Mixon", "ten": "Khalil Herbert"};
 $scope.wrStartSit = {"one": "Cooper Kupp", "two": "Brandin Cooks", "three": "Courtland Sutton", "four": "Marquise Brown", "five": "Stefon Diggs", "six": "Marvin Jones", "seven": "DeVonta Smith", "eight": "Jakobi Meyers", "nine": "Kenny Golladay", "ten": "Keenan Allen"};
 $scope.teStartSit = {"one": "Noah Fant", "two": "Mike Gesicki", "three": "Marcedes Lewis", "four": "Tyler Conklin", "five": "Jordan Akins", "six": "George Kittle", "seven": "Dan Arnold", "eight": "Pat Freiermuth", "nine": "Ian Thomas", "ten": "Zach Ertz"};
@@ -363,11 +363,11 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "tmTextLite": "#7F9695",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Cowboys coach Mike McCarthy said he expects Dak Prescott (calf) will be \"full go\" for Thursday's practice.\n",
+    "headlineNews": "Dak Prescott (calf) is practicing Wednesday.\n",
     "report": "",
-    "analysis": "Prescott never got past a limited practice leading up to his absence from the team's Week 8 game against the Vikings. If he does indeed log a full practice before the end of the week, it will be safe to assume he is playing in the Cowboys' Week 9 outing with the Broncos. The Broncos have a vaunted pass defense but they just traded Von Miller and Prescott is no stranger to difficult matchups. He'll regain his QB1 status as soon as he is cleared to play.\u00a0\n",
-    "timestamp": "2021-11-01 09:53 PM",
-    "source": "Michael Gehlken on Twitter",
+    "analysis": "Per Jon Machota of The Athletic, Prescott was \"going through every drill\" at Wednesday's session. There's a much different tone surrounding Prescott this week, and he's fully expected to be out there this week against the Broncos after missing last Sunday night's win over the Vikings.\n",
+    "timestamp": "2021-11-03 05:56 PM",
+    "source": "Jon Machota on Twitter",
     "game_day_logo": "",
     "week01": 28.42,
     "week02": 8.48,
@@ -434,105 +434,6 @@ $scope.positionQB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [28.6, 28.7, 27.3, 23.6, 26.7, 22.6, 'BYE', 'DNP', 26.5]
-                    }
-                    
-                    ]
-               }
-            },
-{
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
-    "name": "Patrick Mahomes",
-    "depthchart": "Starter: QB-1",
-    "team": "Kansas City Chiefs",
-    "projected": 21.5,
-    "opponent": "Green Bay Packers",
-    "home_away": "",
-    "opp_rank_Neg": 6,
-    "team_rank_Pos": 5,
-    "avg_fp2": 23.2,
-    "opp_rank_allowed_fp2_Neu": 15,
-    "opp_avg_allowed_fp2": 18.53,
-    "fanduelSalary": "$8500",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#FFB81C",
-    "tmColorDark": "#c9243f",
-    "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
-    "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
-    "tmTextLite": "#FFB81C",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
-    "headlineNews": "Patrick Mahomes completed 29-of-48 passes for 275 yards, one touchdown, and one interception in the Chiefs' 20-17, Week 8 win over the Giants Monday night.\n",
-    "report": "",
-    "analysis": "Averaging just 5.7 yards per attempt against the Giants defense marked the fourth time Mahomes has failed to top 6.0 yards per attempt in a game this season. The Chiefs moved the ball right down the field on the opening drive only for Mahomes to toss his lone interception, misfiring on an end-zone pass to Josh Gordon that tipped into the air and was picked off in the paint. Mahomes should have easily thrown a couple more picks in this one and just doesn't look right. His one touchdown was a first-quarter, six-yard hookup with Tyreek Hill, who seems to be the only Kansas City pass-catcher capable of making plays right now. After throwing 14 touchdowns Weeks 1-4, Mahomes has just five touchdowns and six picks over the last four weeks. He'll remain a fantasy QB1 next week against the Packers, but things need to turn around quick.\n",
-    "timestamp": "2021-11-02 03:55 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 33.28,
-    "week02": 25.02,
-    "week03": 24.9,
-    "week04": 32.72,
-    "week05": 20.98,
-    "week06": 24.98,
-    "week07": 8.74,
-    "week08": 15.0,
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": "",
-    "week22": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 184, 28, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [33.28, 25.02, 24.9, 32.72, 20.98, 24.98, 8.74, 15.0]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [19.4, 21.3, 19.6, 20.0, 18.2, 25.2, 24.1, 22.6, 21.5]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [16.6, 18.7, 14.4, 18.6, 20.3, 27.1, 22.3, 16.4, 17.1]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 184, 28, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [32.3, 33.7, 24.9, 24.4, 29.4, 32.5, 31.5, 30.4, 26.3]
                     }
                     
                     ]
@@ -638,6 +539,105 @@ $scope.positionQB = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png",
+    "name": "Patrick Mahomes",
+    "depthchart": "Starter: QB-1",
+    "team": "Kansas City Chiefs",
+    "projected": 21.5,
+    "opponent": "Green Bay Packers",
+    "home_away": "",
+    "opp_rank_Neg": 6,
+    "team_rank_Pos": 5,
+    "avg_fp2": 23.2,
+    "opp_rank_allowed_fp2_Neu": 15,
+    "opp_avg_allowed_fp2": 18.53,
+    "fanduelSalary": "$8500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#FFB81C",
+    "tmColorDark": "#c9243f",
+    "tmColorLite_rgba": "rgba(255, 184, 28, 0.2)",
+    "tmColorDark_rgba": "rgba(201, 36, 63, 0.2)",
+    "tmTextLite": "#FFB81C",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+    "headlineNews": "Patrick Mahomes completed 29-of-48 passes for 275 yards, one touchdown, and one interception in the Chiefs' 20-17, Week 8 win over the Giants Monday night.\n",
+    "report": "",
+    "analysis": "Averaging just 5.7 yards per attempt against the Giants defense marked the fourth time Mahomes has failed to top 6.0 yards per attempt in a game this season. The Chiefs moved the ball right down the field on the opening drive only for Mahomes to toss his lone interception, misfiring on an end-zone pass to Josh Gordon that tipped into the air and was picked off in the paint. Mahomes should have easily thrown a couple more picks in this one and just doesn't look right. His one touchdown was a first-quarter, six-yard hookup with Tyreek Hill, who seems to be the only Kansas City pass-catcher capable of making plays right now. After throwing 14 touchdowns Weeks 1-4, Mahomes has just five touchdowns and six picks over the last four weeks. He'll remain a fantasy QB1 next week against the Packers, but things need to turn around quick.\n",
+    "timestamp": "2021-11-02 03:55 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 33.28,
+    "week02": 25.02,
+    "week03": 24.9,
+    "week04": 32.72,
+    "week05": 20.98,
+    "week06": 24.98,
+    "week07": 8.74,
+    "week08": 15.0,
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": "",
+    "week22": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 184, 28, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [33.28, 25.02, 24.9, 32.72, 20.98, 24.98, 8.74, 15.0]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [19.4, 21.3, 19.6, 20.0, 18.2, 25.2, 24.1, 22.6, 21.5]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [16.6, 18.7, 14.4, 18.6, 20.3, 27.1, 22.3, 16.4, 17.1]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(201, 36, 63, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 184, 28, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [32.3, 33.7, 24.9, 24.4, 29.4, 32.5, 31.5, 30.4, 26.3]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3917315.png",
     "name": "Kyler Murray",
     "depthchart": "Starter: QB-1",
@@ -660,11 +660,11 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "Kyler Murray completed 22-of-33 passes for 274 yards, zero touchdowns and two interceptions in the Cardinals' 24-21, Week 8 loss to the Packers, adding six carries for 21 additional yards.\u00a0\n",
+    "headlineNews": "Kyler Murray (ankle) did not participate in the open portion of Wednesday's practice.\u00a0\n",
     "report": "",
-    "analysis": "Murray's first scoreless start of the season was also the Cardinals' first loss. It didn't have to be that way, as the Cards were driving for the game-winning score with 0:15 remaining from the Packers' five-yard line. That is when Murray targeted A.J. Green in the end zone and the veteran wideout just kept blocking. The ball hit off Green, and\u00a0Rasul Douglas hauled it in for a game-ending interception. Already limping after getting his foot tangled up a few moments earlier, Murray then remained down for several moments before walking gingerly to the sideline. Whatever he is dealing with, he has 10 days to get healthy for Week 9 vs. the 49ers. The same is true for DeAndre Hopkins, who was in and out of the game all evening as he battled hamstring tightness. Murray has plateaued in fantasy after a hot start, though he is still providing QB1 returns nearly every week, and will surely bounce back to elite status sooner rather than later.\u00a0\n",
-    "timestamp": "2021-10-29 04:02 AM",
-    "source": null,
+    "analysis": "It is possible he did some work after reporters left and will draw a limited tag on the official injury report, but it is not an ideal start to the week after Murray suffered an ankle injury late in the loss to the Packers. The good news is Murray has 10 days to recover after playing on Thursday night last week. His practice status will be updated throughout the week.\u00a0\n",
+    "timestamp": "2021-11-03 04:02 PM",
+    "source": "Darren Urban on Twitter",
     "game_day_logo": "",
     "week01": 34.56,
     "week02": 35.1,
@@ -935,105 +935,6 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16757.png",
-    "name": "Derek Carr",
-    "depthchart": "Starter: QB-1",
-    "team": "Las Vegas Raiders",
-    "projected": 19.9,
-    "opponent": "New York Giants",
-    "home_away": "at ",
-    "opp_rank_Neu": 17,
-    "team_rank_Pos": 2,
-    "avg_fp2": 19.52,
-    "opp_rank_allowed_fp2_Neu": 19,
-    "opp_avg_allowed_fp2": 19.48,
-    "fanduelSalary": "$7500",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#A5ACAF",
-    "tmColorDark": "#000000",
-    "tmColorLite_rgba": "rgba(165, 172, 175, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
-    "tmTextLite": "#A5ACAF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-    "headlineNews": "Derek Carr completed 31-of-34 passes for 323 yards, two touchdowns, and an interception in the Raiders 33-22, Week 7 win over the Eagles.\u00a0\n",
-    "report": "",
-    "analysis": "It was the closest thing to a flawless performance you'll see in the NFL. Even Carr's one interception was the result of Jalen Richard tipping it into the hands of a defender. Carr eviscerated the Eagles despite being down his top pass-catcher, Darren Waller, for this game as well. He now has at least 300 passing yards in all but two games and a pair of touchdowns in every game but one. Carr is playing the best football of his career and the only thing holding him back from being an elite fantasy option is his lack of rushing production. He'll project as a high-end QB2 with QB1 upside after returning from the Raiders' bye week to face the Giants in Week 9.\u00a0\n",
-    "timestamp": "2021-10-24 11:16 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 25.0,
-    "week02": 24.18,
-    "week03": 22.24,
-    "week04": 15.44,
-    "week05": 8.24,
-    "week06": 21.54,
-    "week07": 20.02,
-    "week08": "BYE",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": "",
-    "week22": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(165, 172, 175, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [25.0, 24.18, 22.24, 15.44, 8.24, 21.54, 20.02, 'BYE']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [17.1, 21.2, 23.3, 21.6, 22.5, 16.5, 19.8, 'BYE', 19.9]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [8.4, 8.4, 16.2, 13.3, 12.7, 14.8, 13.1, 'BYE', 10.8]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(165, 172, 175, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [23.6, 23.2, 23.6, 21.1, 20.3, 21.2, 20.6, 'BYE', 21.9]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4040715.png",
     "name": "Jalen Hurts",
     "depthchart": "Starter: QB-1",
@@ -1127,6 +1028,105 @@ $scope.positionQB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [18.8, 30.2, 31.7, 31.2, 27.6, 25.0, 31.8, 30.6, 27.7]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16757.png",
+    "name": "Derek Carr",
+    "depthchart": "Starter: QB-1",
+    "team": "Las Vegas Raiders",
+    "projected": 19.9,
+    "opponent": "New York Giants",
+    "home_away": "at ",
+    "opp_rank_Neu": 17,
+    "team_rank_Pos": 2,
+    "avg_fp2": 19.52,
+    "opp_rank_allowed_fp2_Neu": 19,
+    "opp_avg_allowed_fp2": 19.48,
+    "fanduelSalary": "$7500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#A5ACAF",
+    "tmColorDark": "#000000",
+    "tmColorLite_rgba": "rgba(165, 172, 175, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
+    "tmTextLite": "#A5ACAF",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+    "headlineNews": "Derek Carr completed 31-of-34 passes for 323 yards, two touchdowns, and an interception in the Raiders 33-22, Week 7 win over the Eagles.\u00a0\n",
+    "report": "",
+    "analysis": "It was the closest thing to a flawless performance you'll see in the NFL. Even Carr's one interception was the result of Jalen Richard tipping it into the hands of a defender. Carr eviscerated the Eagles despite being down his top pass-catcher, Darren Waller, for this game as well. He now has at least 300 passing yards in all but two games and a pair of touchdowns in every game but one. Carr is playing the best football of his career and the only thing holding him back from being an elite fantasy option is his lack of rushing production. He'll project as a high-end QB2 with QB1 upside after returning from the Raiders' bye week to face the Giants in Week 9.\u00a0\n",
+    "timestamp": "2021-10-24 11:16 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 25.0,
+    "week02": 24.18,
+    "week03": 22.24,
+    "week04": 15.44,
+    "week05": 8.24,
+    "week06": 21.54,
+    "week07": 20.02,
+    "week08": "BYE",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": "",
+    "week22": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(165, 172, 175, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [25.0, 24.18, 22.24, 15.44, 8.24, 21.54, 20.02, 'BYE']
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [17.1, 21.2, 23.3, 21.6, 22.5, 16.5, 19.8, 'BYE', 19.9]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [8.4, 8.4, 16.2, 13.3, 12.7, 14.8, 13.1, 'BYE', 10.8]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 0, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(165, 172, 175, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [23.6, 23.2, 23.6, 21.1, 20.3, 21.2, 20.6, 'BYE', 21.9]
                     }
                     
                     ]
@@ -1254,11 +1254,11 @@ $scope.positionQB = [{
     "tmColorDark_rgba": "rgba(0, 87, 120, 0.2)",
     "tmTextLite": "#f5821f",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
-    "headlineNews": "Dolphins coach Brian Flores again voiced his support for\u00a0Tua Tagovailoa.\u00a0\n",
+    "headlineNews": "Dolphins GM Chris Grier said trade talks about\u00a0Deshaun Watson were more about Watson being available than the team being dissatisfied with\u00a0Tua Tagovailoa.\n",
     "report": "",
-    "analysis": "Asked about why he has not publicly ruled out a move for a starting quarterback, Flores suggested he already has.\u00a0\u201cI think when I say Tua is the quarterback, I\u2019m not sure what more I can say,\" Flores said.\u00a0Tagovailoa had a rough outing against a tough Bills defense on Sunday, but he put together a couple of solid games before that. While it looks like\u00a0Tagovailoa will be the starter the rest of the season, these kinds of questions will continue into the spring unless the young quarterback closes the season strong.\u00a0\n",
-    "timestamp": "2021-11-01 07:37 PM",
-    "source": "Mike Giardi on Twitter",
+    "analysis": "Bold to try the, \"It's not you. It's me,\" approach, but it makes sense for Grier to do some damage control after the Dolphins publicly went after Watson ahead of the deadline, and the GM added the team believes in Tua and are happy with his development. That said,\u00a0Grier passed up an opportunity to say the team would not pursue Watson during the offseason, instead saying, \"We'll revisit the entire roster.\" It sounds like the Miami quarterback saga will be one of the stories of the offseason.\u00a0\n",
+    "timestamp": "2021-11-03 02:44 PM",
+    "source": "Cameron Wolfe on Twitter",
     "game_day_logo": "",
     "week01": 17.18,
     "week02": 0.52,
@@ -1430,105 +1430,6 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/8439.png",
-    "name": "Aaron Rodgers",
-    "depthchart": "Starter: QB-1",
-    "team": "Green Bay Packers",
-    "projected": 17.9,
-    "opponent": "Kansas City Chiefs",
-    "home_away": "at ",
-    "opp_rank_Pos": 25,
-    "team_rank_Neu": 22,
-    "avg_fp2": 19.7,
-    "opp_rank_allowed_fp2_Pos": 31,
-    "opp_avg_allowed_fp2": 23.89,
-    "fanduelSalary": "$8100",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#d7a017",
-    "tmColorDark": "#203731",
-    "tmColorLite_rgba": "rgba(215, 160, 23, 0.2)",
-    "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
-    "tmTextLite": "#d7a017",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
-    "headlineNews": "Aaron Rodgers completed 22-of-37 passes for 184 yards, two touchdowns and zero interceptions in the Packers' 24-21, Week 8 win over the Cardinals.\u00a0\n",
-    "report": "",
-    "analysis": "Rodgers also added an 11-yard rush in the dying moments of the fourth quarter. Missing Davante Adams and Allen Lazard to the COVID-19 list, Rodgers was in survival mode this evening \u2014 he was averaging 3.0 yards per attempt at halftime \u2014 but conjured just enough play-making magic with Randall Cobb to supplement a potent rushing attack in this narrow road victory. It was Cobb who corralled each of Rodgers' scores in the end zone as a random assortment of rogues and ruffians mixed in for targets behind Aaron Jones' team-leading total of 11. Adams and Lazard now have 10 days to go negative ahead of a colossal inter-conference matchup with the Chiefs in Week 9. Marquez Valdes-Scantling (hamstring) should also be returning.\u00a0\n",
-    "timestamp": "2021-10-29 04:51 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 3.32,
-    "week02": 26.8,
-    "week03": 18.54,
-    "week04": 24.12,
-    "week05": 20.76,
-    "week06": 23.7,
-    "week07": 24.66,
-    "week08": 15.66,
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": "",
-    "week22": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1
-                         backgroundColor:  "rgba(215, 160, 23, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [3.32, 26.8, 18.54, 24.12, 20.76, 23.7, 24.66, 15.66]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [16.5, 15.5, 16.0, 14.5, 16.6, 14.5, 17.9, 16.6, 17.9]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [11.6, 15.5, 22.0, 24.3, 17.3, 16.4, 26.2, 13.5, 21.7]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(215, 160, 23, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [29.3, 28.3, 29.2, 28.6, 22.2, 25.8, 31.5, 23.9, 29.8]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2468609.png",
     "name": "Taysom Hill",
     "depthchart": "Starter: QB-1",
@@ -1628,42 +1529,42 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14876.png",
-    "name": "Ryan Tannehill",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036378.png",
+    "name": "Jordan Love",
     "depthchart": "Starter: QB-1",
-    "team": "Tennessee Titans",
-    "projected": 16.9,
-    "opponent": "Los Angeles Rams",
+    "team": "Green Bay Packers",
+    "projected": 17.3,
+    "opponent": "Kansas City Chiefs",
     "home_away": "at ",
-    "opp_rank_Neu": 21,
-    "team_rank_Neu": 21,
-    "avg_fp2": 17.95,
-    "opp_rank_allowed_fp2_Neu": 11,
-    "opp_avg_allowed_fp2": 18.13,
-    "fanduelSalary": "$7500",
+    "opp_rank_Pos": 25,
+    "team_rank_Neu": 22,
+    "avg_fp2": 0.21,
+    "opp_rank_allowed_fp2_Pos": 31,
+    "opp_avg_allowed_fp2": 23.89,
+    "fanduelSalary": "$6000",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#4495D1",
-    "tmColorDark": "#002A5C",
-    "tmColorLite_rgba": "rgba(68, 149, 209, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
-    "tmTextLite": "#4495D1",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "Ryan Tannehill completed 23-of-33 passes for 265 yards, three touchdowns and two interceptions in the Titans' 34-31, Week 8 overtime win over the Colts, adding two rushes for 26 additional yards.\u00a0\n",
+    "tmColorLite": "#d7a017",
+    "tmColorDark": "#203731",
+    "tmColorLite_rgba": "rgba(215, 160, 23, 0.2)",
+    "tmColorDark_rgba": "rgba(32, 55, 49, 0.2)",
+    "tmTextLite": "#d7a017",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+    "headlineNews": "NFL Network's Tom Pelissero reports\u00a0Aaron Rodgers tested positive for COVID-19 and will not play Week 9 against the Chiefs.\u00a0\n",
     "report": "",
-    "analysis": "Tannehill also took three sacks for the fourth time this season. Both the three-score and multi-INT efforts were his first since Week 3, also a win over the Colts. The touchdowns were short strikes to Geoff Swaim and Nick Westbrook-Ikhine and a 57-yarder where A.J. Brown did most of the work. Both interceptions were on Tannehill instead of the pass catcher. No. 1 was an awful read where Marcus Johnson went to a different zip code. No. 2 was a bad decision with a rusher crushing Tannehill's lower half. It was nevertheless a nice fantasy day and competent real life performance with Julio Jones back on the shelf. Julio's status looms large ahead of a Week 9 date with Aaron Donald and Jalen Ramsey's Rams.\u00a0\n",
-    "timestamp": "2021-10-31 09:45 PM",
-    "source": null,
-    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
-    "week01": 15.18,
-    "week02": 14.58,
-    "week03": 23.48,
-    "week04": 18.82,
-    "week05": 13.98,
-    "week06": 13.94,
-    "week07": 20.4,
-    "week08": 23.2,
+    "analysis": "NFL Network's Ian Rapoport reports Rodgers is unvaccinated, meaning he will be forced to miss at least 10 days. Green Bay's Week 10 game is only 11 days from today, making Rodgers questionable for that matchup as well. This development is another COVID hit for an offense that was without two of their top receivers last week. Those receivers are expected to return against the Chiefs, but they will now be catching passes from\u00a0Jordan Love, whose seven career pass attempts all came late in Green Bay's blowout loss to New Orleans Week 1. Even in a great matchup, Love is nothing more than a risky streaming option, and it will be tough to trust anyone on Green Bay's offense not named Davante Adams or Aaron Jones for fantasy purposes.\u00a0\n",
+    "timestamp": "2021-11-03 03:07 PM",
+    "source": "Tom Pelissero on Twitter",
+    "game_day_logo": "",
+    "week01": 0.72,
+    "week02": -0.3,
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -1685,42 +1586,42 @@ $scope.positionQB = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1
-                         backgroundColor:  "rgba(68, 149, 209, 1)",  //lite dot team color 1 
+                         pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1
+                         backgroundColor:  "rgba(215, 160, 23, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [15.18, 14.58, 23.48, 18.82, 13.98, 13.94, 20.4, 23.2]
+                         data: [0.72, -0.3, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP']
                     },
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
+                        pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [17.8, 12.3, 18.6, 16.1, 18.0, 15.2, 19.5, 18.2, 16.9]
+                        data: [3.9, 3.6, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 17.3]
                     },
                     {
                         label: "68% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
+						pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [8.5, 12.0, 11.5, 11.9, 16.7, 12.5, 13.3, 15.2, 19.6]
+                        data: [0.0, 0.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 11.6]
                     },
                     {
                         label: "68% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(68, 149, 209, .15)",  //lite team color .15
+                        pointBorderColor: "rgba(32, 55, 49, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(215, 160, 23, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [23.0, 21.4, 22.0, 20.6, 23.4, 18.6, 19.6, 19.9, 26.7]
+                        data: [9.3, 6.6, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 24.0]
                     }
                     
                     ]
@@ -1820,6 +1721,105 @@ $scope.positionQB = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [21.4, 17.1, 22.1, 16.7, 19.0, 19.1, 14.5, 16.3, 16.8]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/14876.png",
+    "name": "Ryan Tannehill",
+    "depthchart": "Starter: QB-1",
+    "team": "Tennessee Titans",
+    "projected": 16.9,
+    "opponent": "Los Angeles Rams",
+    "home_away": "at ",
+    "opp_rank_Neu": 21,
+    "team_rank_Neu": 21,
+    "avg_fp2": 17.95,
+    "opp_rank_allowed_fp2_Neu": 11,
+    "opp_avg_allowed_fp2": 18.13,
+    "fanduelSalary": "$7500",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#4495D1",
+    "tmColorDark": "#002A5C",
+    "tmColorLite_rgba": "rgba(68, 149, 209, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
+    "tmTextLite": "#4495D1",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+    "headlineNews": "Ryan Tannehill completed 23-of-33 passes for 265 yards, three touchdowns and two interceptions in the Titans' 34-31, Week 8 overtime win over the Colts, adding two rushes for 26 additional yards.\u00a0\n",
+    "report": "",
+    "analysis": "Tannehill also took three sacks for the fourth time this season. Both the three-score and multi-INT efforts were his first since Week 3, also a win over the Colts. The touchdowns were short strikes to Geoff Swaim and Nick Westbrook-Ikhine and a 57-yarder where A.J. Brown did most of the work. Both interceptions were on Tannehill instead of the pass catcher. No. 1 was an awful read where Marcus Johnson went to a different zip code. No. 2 was a bad decision with a rusher crushing Tannehill's lower half. It was nevertheless a nice fantasy day and competent real life performance with Julio Jones back on the shelf. Julio's status looms large ahead of a Week 9 date with Aaron Donald and Jalen Ramsey's Rams.\u00a0\n",
+    "timestamp": "2021-10-31 09:45 PM",
+    "source": null,
+    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
+    "week01": 15.18,
+    "week02": 14.58,
+    "week03": 23.48,
+    "week04": 18.82,
+    "week05": 13.98,
+    "week06": 13.94,
+    "week07": 20.4,
+    "week08": 23.2,
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": "",
+    "week22": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1
+                         backgroundColor:  "rgba(68, 149, 209, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [15.18, 14.58, 23.48, 18.82, 13.98, 13.94, 20.4, 23.2]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [17.8, 12.3, 18.6, 16.1, 18.0, 15.2, 19.5, 18.2, 16.9]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [8.5, 12.0, 11.5, 11.9, 16.7, 12.5, 13.3, 15.2, 19.6]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(68, 149, 209, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [23.0, 21.4, 22.0, 20.6, 23.4, 18.6, 19.6, 19.9, 26.7]
                     }
                     
                     ]
@@ -2222,42 +2222,42 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
-    "name": "Baker Mayfield",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051381.png",
+    "name": "Mike White",
     "depthchart": "Starter: QB-1",
-    "team": "Cleveland Browns",
+    "team": "New York Jets",
     "projected": 15.5,
-    "opponent": "Cincinnati Bengals",
+    "opponent": "Indianapolis Colts",
     "home_away": "at ",
-    "opp_rank_Neu": 23,
-    "team_rank_Neg": 26,
-    "avg_fp2": 14.87,
-    "opp_rank_allowed_fp2_Neu": 16,
-    "opp_avg_allowed_fp2": 18.95,
-    "fanduelSalary": "$6600",
+    "opp_rank_Neu": 15,
+    "team_rank_Neu": 19,
+    "avg_fp2": 19.09,
+    "opp_rank_allowed_fp2_Neu": 22,
+    "opp_avg_allowed_fp2": 20.5,
+    "fanduelSalary": "$6700",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#FF3C00",
-    "tmColorDark": "#311D00",
-    "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
-    "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
-    "tmTextLite": "#FF3C00",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "Baker Mayfield completed 20-of-31 pass attempts for 225 yards in the Browns' Week 8 loss to the Steelers.\u00a0\n",
+    "tmColorLite": "#125740",
+    "tmColorDark": "#003f2d",
+    "tmColorLite_rgba": "rgba(18, 87, 64, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
+    "tmTextLite": "#FFFFFF",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+    "headlineNews": "The Athletic's Connor Hughes reports the Jets \"haven\u2019t decided if Flacco will be active or not on Thursday.\"\n",
     "report": "",
-    "analysis": "Mayfield tacked on a five-yard rush on which he was shoved out of bounds into his team's bench. It was a decidedly uninspiring performance from Mayfield, who missed Week 7 with a left shoulder injury that might require surgery after the season. Cleveland's once-promising passing offense is in shambles through the season's first half; Mayfield has turned into a sometimes-streaming option to a desperation superflex play. His struggles have dragged down the fantasy values of every Browns pass catcher too. He should not be used in single-QB formats next week against the Bengals.\u00a0\n",
-    "timestamp": "2021-10-31 09:35 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 13.64,
-    "week02": 18.52,
-    "week03": 16.94,
-    "week04": 9.3,
-    "week05": 23.0,
-    "week06": 13.16,
-    "week07": "DNP",
-    "week08": 9.5,
+    "analysis": "The Jets traded for Flacco after Zach Wilson went down with a knee injury but he was unable to join the team until Friday last week and would now be forced to prepare for his first start on short notice. New York faces the Colts on Thursday this week. Mike White also put on an incredibly exciting performance in the Jets' upset win over the Bengals last week. He topped 400 yards through the air and threw three scores, accompanied by a pair of interceptions. With White looking capable of holding down the fort, Robert Saleh and company are likely less concerned with getting Flacco in the lineup with just a handful of practices under his belt. White would be a low-end QB2 if he draws the start versus Indianapolis. If Flacco is inactive, Josh Johnson will serve as White's backup.\u00a0\n",
+    "timestamp": "2021-11-01 08:48 PM",
+    "source": "Connor Hughes on Twitter",
+    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/uqzgq9urghrlu89ckqsm",
+    "week01": "DNP",
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "BYE",
+    "week07": 10.08,
+    "week08": 28.1,
     "week09": "",
     "week10": "",
     "week11": "",
@@ -2279,42 +2279,42 @@ $scope.positionQB = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1
-                         backgroundColor:  "rgba(255, 60, 0, 1)",  //lite dot team color 1 
+                         pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1
+                         backgroundColor:  "rgba(18, 87, 64, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [13.64, 18.52, 16.94, 9.3, 23.0, 13.16, 'DNP', 9.5]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 10.08, 28.1]
                     },
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
+                        pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [16.2, 16.8, 16.3, 19.5, 14.6, 12.8, 'DNP', 17.2, 15.5]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 2.5, 12.4, 15.5]
                     },
                     {
                         label: "68% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
+						pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [10.4, 9.4, 16.2, 17.9, 13.2, 14.6, 'DNP', 11.8, 13.1]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 0.0, 6.8, 7.9]
                     },
                     {
                         label: "68% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(255, 60, 0, .15)",  //lite team color .15
+                        pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(18, 87, 64, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [22.0, 24.9, 20.7, 23.1, 21.2, 20.8, 'DNP', 18.4, 20.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 8.6, 18.2, 20.9]
                     }
                     
                     ]
@@ -2420,42 +2420,42 @@ $scope.positionQB = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3051381.png",
-    "name": "Mike White",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3052587.png",
+    "name": "Baker Mayfield",
     "depthchart": "Starter: QB-1",
-    "team": "New York Jets",
+    "team": "Cleveland Browns",
     "projected": 15.5,
-    "opponent": "Indianapolis Colts",
+    "opponent": "Cincinnati Bengals",
     "home_away": "at ",
-    "opp_rank_Neu": 15,
-    "team_rank_Neu": 19,
-    "avg_fp2": 19.09,
-    "opp_rank_allowed_fp2_Neu": 22,
-    "opp_avg_allowed_fp2": 20.5,
-    "fanduelSalary": "$6700",
+    "opp_rank_Neu": 23,
+    "team_rank_Neg": 26,
+    "avg_fp2": 14.87,
+    "opp_rank_allowed_fp2_Neu": 16,
+    "opp_avg_allowed_fp2": 18.95,
+    "fanduelSalary": "$6600",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#125740",
-    "tmColorDark": "#003f2d",
-    "tmColorLite_rgba": "rgba(18, 87, 64, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 63, 45, 0.2)",
-    "tmTextLite": "#FFFFFF",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
-    "headlineNews": "The Athletic's Connor Hughes reports the Jets \"haven\u2019t decided if Flacco will be active or not on Thursday.\"\n",
+    "tmColorLite": "#FF3C00",
+    "tmColorDark": "#311D00",
+    "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
+    "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
+    "tmTextLite": "#FF3C00",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+    "headlineNews": "Baker Mayfield completed 20-of-31 pass attempts for 225 yards in the Browns' Week 8 loss to the Steelers.\u00a0\n",
     "report": "",
-    "analysis": "The Jets traded for Flacco after Zach Wilson went down with a knee injury but he was unable to join the team until Friday last week and would now be forced to prepare for his first start on short notice. New York faces the Colts on Thursday this week. Mike White also put on an incredibly exciting performance in the Jets' upset win over the Bengals last week. He topped 400 yards through the air and threw three scores, accompanied by a pair of interceptions. With White looking capable of holding down the fort, Robert Saleh and company are likely less concerned with getting Flacco in the lineup with just a handful of practices under his belt. White would be a low-end QB2 if he draws the start versus Indianapolis. If Flacco is inactive, Josh Johnson will serve as White's backup.\u00a0\n",
-    "timestamp": "2021-11-01 08:48 PM",
-    "source": "Connor Hughes on Twitter",
-    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/uqzgq9urghrlu89ckqsm",
-    "week01": "DNP",
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "BYE",
-    "week07": 10.08,
-    "week08": 28.1,
+    "analysis": "Mayfield tacked on a five-yard rush on which he was shoved out of bounds into his team's bench. It was a decidedly uninspiring performance from Mayfield, who missed Week 7 with a left shoulder injury that might require surgery after the season. Cleveland's once-promising passing offense is in shambles through the season's first half; Mayfield has turned into a sometimes-streaming option to a desperation superflex play. His struggles have dragged down the fantasy values of every Browns pass catcher too. He should not be used in single-QB formats next week against the Bengals.\u00a0\n",
+    "timestamp": "2021-10-31 09:35 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 13.64,
+    "week02": 18.52,
+    "week03": 16.94,
+    "week04": 9.3,
+    "week05": 23.0,
+    "week06": 13.16,
+    "week07": "DNP",
+    "week08": 9.5,
     "week09": "",
     "week10": "",
     "week11": "",
@@ -2477,42 +2477,42 @@ $scope.positionQB = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1
-                         backgroundColor:  "rgba(18, 87, 64, 1)",  //lite dot team color 1 
+                         pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1
+                         backgroundColor:  "rgba(255, 60, 0, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 10.08, 28.1]
+                         data: [13.64, 18.52, 16.94, 9.3, 23.0, 13.16, 'DNP', 9.5]
                     },
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
+                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 2.5, 12.4, 15.5]
+                        data: [16.2, 16.8, 16.3, 19.5, 14.6, 12.8, 'DNP', 17.2, 15.5]
                     },
                     {
                         label: "68% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
+						pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 0.0, 6.8, 7.9]
+                        data: [10.4, 9.4, 16.2, 17.9, 13.2, 14.6, 'DNP', 11.8, 13.1]
                     },
                     {
                         label: "68% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 63, 45, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(18, 87, 64, .15)",  //lite team color .15
+                        pointBorderColor: "rgba(49, 29, 0, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(255, 60, 0, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 8.6, 18.2, 20.9]
+                        data: [22.0, 24.9, 20.7, 23.1, 21.2, 20.8, 'DNP', 18.4, 20.2]
                     }
                     
                     ]
@@ -3131,7 +3131,7 @@ $scope.positionRB = [{
     "opp_avg_allowed_fp2": 21.15,
     "fanduelSalary": "$10000",
     "hasStatus": "Status",
-    "healthOut": "Ir",
+    "healthOut": "Ir-r",
     "injury": "Hamstring",
     "tmColorLite": "#0085CA",
     "tmColorDark": "#101820",
@@ -3139,11 +3139,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(16, 24, 32, 0.2)",
     "tmTextLite": "#0085CA",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
-    "headlineNews": "Panthers head coach Matt Rhule said if Christian McCaffrey (hamstring) can't play in Week 9, he's hopeful McCaffrey will play in Week 10.\u00a0\n",
+    "headlineNews": "Panthers designated\u00a0Christian McCaffrey (hamstring) to return from injured reserve.\u00a0\n",
     "report": "",
-    "analysis": "Rhule in his never-ending vagueness said CMC might be able to practice by Wednesday, ahead of Carolina's Week 9 game against the Patriots. McCaffrey whose three-week injured reserve stint comes to an end this week, hasn't played a full game since Week 2 against the Saints. Fantasy managers should plan to be without him this week and hope -- like Rhule -- he's back for Week 10. Chuba Hubbard will remain the team's primary ball carrier in the meantime. CMC is on his way to a second consecutive disastrous, injury-plagued season.\u00a0\n",
-    "timestamp": "2021-11-01 04:29 PM",
-    "source": "Joseph Person on Twitter ",
+    "analysis": "This opens McCaffrey's 21-day window to resume practicing and gives him a chance to return against the Patriots after spending the past five weeks on the shelf. That includes an initial stint not on injured reserve followed by a setback. ESPN reported on Sunday that CMC was \"on target\" to return vs. the Pats, but coach Matt Rhule has been predictably cagey. We would adopt a \"believe it when see it\" mentality with McCaffrey \u2014 and the Panthers won't have to make an official Week 9 announcement until Saturday because he technically remains on injured reserve \u2014 but CMC managers can tentatively pencil him into their lineups.\u00a0\n",
+    "timestamp": "2021-11-03 03:51 PM",
+    "source": "Adam Schefter on Twitter",
     "game_day_logo": "",
     "week01": 23.2,
     "week02": 22.2,
@@ -4030,11 +4030,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Saquon Barkley (ankle) has been ruled out for Week 8 against Kansas City.\u00a0\n",
+    "headlineNews": "Saquon Barkley tested positive for Covid-19, and will need two negative tests to be cleared for Sunday.\n",
     "report": "",
-    "analysis": "This was expected with Barkley sitting out practice all week. Kenny Golladay (knee) will also miss his third straight game. Devontae Booker will continue to spot start and is a volume-based RB2.\u00a0With the Giants bye looming in Week 10, Barkley isn't a lock to be back next week.\u00a0\n",
-    "timestamp": "2021-10-30 04:53 PM",
-    "source": "NFL Network",
+    "analysis": "Barkley is vaccinated so he can be cleared to play following two negative tests, 24 hours apart, if he is also symptom free. Of course, Barkley will also need his injured ankle to be healthy enough to play on. Given that he did not practice all of last week, that is hardly a given. Barkley looks very doubtful for Sunday, putting Devontae Booker in line for another spot start against the Raiders. The Giants have a Week 10 bye, and it's now most likely that Barkley returns to action against the Buccaneers in Week 11.\n",
+    "timestamp": "2021-11-03 04:28 PM",
+    "source": "Ian Rapoport on Twitter",
     "game_day_logo": "",
     "week01": 3.2,
     "week02": 7.9,
@@ -4426,11 +4426,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-    "headlineNews": "NFL Network's Tom Pelissero reports Josh Jacobs (chest) likely avoided a major injury in the Raiders' Week 7 win over the Eagles.\n",
+    "headlineNews": "Josh Jacobs (chest) is practicing Wednesday.\n",
     "report": "",
-    "analysis": "Jacobs was off to a hot start with six carries for 29 yards and a touchdown plus three catches for an additional 38 yards before getting hurt. He suffered the injury on his scoring run just before halftime and immediately went to the locker room. The Raiders get their bye next week so Jacobs should be able to rest up and return for their Week 9 tilt with the Giants. If he is unable to play in that game, Peyton Barber, who was a healthy scratch for Week 7, and Kenyan Drake will operate a backfield-by-committee until Jacobs returns. Barber earned 36 carries in two games with Jacobs sidelined earlier this year.\u00a0\n",
-    "timestamp": "2021-10-25 01:33 AM",
-    "source": "Tom Pelissero on Twitter",
+    "analysis": "Jacobs had the bye week to rest up after leaving Week 7 early. His injury was never believed to be serious. However, Jacobs' body is betraying him already at 23 years old. He's had several nicks and dings the last couple years. Jacobs should be ready as an RB2 this week against the Giants.\n",
+    "timestamp": "2021-11-03 06:38 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": 16.5,
     "week02": "DNP",
@@ -4822,11 +4822,11 @@ $scope.positionRB = [{
     "tmColorDark_rgba": "rgba(36, 23, 115, 0.2)",
     "tmTextLite": "#9E7C0C",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
-    "headlineNews": "Ravens declared RB Latavius Murray, WR Sammy Watkins, S Ar\u2019Darius Washington, OLB Jaylon Ferguson, and DT Broderick Washington inactive for Week 7 against the Bengals.\u00a0\n",
+    "headlineNews": "Latavius Murray (ankle) is not practicing Wednesday.\n",
     "report": "",
-    "analysis": "Devonta Freeman is expected to handle much of the Baltimore backfield workload with Murray sidelined. Ty'Son Williams should factor in as well, though he's a fringe fantasy option even in deep formats. Watkins' absence will open up more snaps and targets for Rashod Bateman, who profiles as a WR4 against the Bengals.\u00a0\n",
-    "timestamp": "2021-10-24 03:47 PM",
-    "source": "Marisa Contipelli ",
+    "analysis": "Murray missed Week 7, and the bye last week still might not have been enough time for him to be ready to return. In his absence last time out, Devonta Freeman (40%), Le'Veon Bell (30%), and Ty'Son Williams (29%) all split the snaps and backfield reps. None are interesting fantasy options.\n",
+    "timestamp": "2021-11-03 05:49 PM",
+    "source": null,
     "game_day_logo": "",
     "week01": "DNP",
     "week02": 9.6,
@@ -7485,7 +7485,7 @@ $scope.positionRB = [{
     "avg_fp2": 0.4,
     "opp_rank_allowed_fp2_Neu": 16,
     "opp_avg_allowed_fp2": 21.23,
-    "fanduelSalary": "$1",
+    "fanduelSalary": "$5400",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
@@ -8877,19 +8877,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 29.63,
     "fanduelSalary": "$7200",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Hamstring",
     "tmColorLite": "#97233F",
     "tmColorDark": "#000000",
     "tmColorLite_rgba": "rgba(151, 35, 63, 0.2)",
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#97233F",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
-    "headlineNews": "DeAndre Hopkins caught 2-of-2 targets for 66 yards in the Cardinals' Week 8 loss to the Packers.\u00a0\n",
+    "headlineNews": "DeAndre Hopkins (hamstring) did not participate in the open portion of practice.\u00a0\n",
     "report": "",
-    "analysis": "It was a miracle Hopkins provided the 8.6 PPR points he did, as he was in and out of the game all evening after aggravating his hamstring injury on a 55-yard catch at the 8:18 mark of the first quarter. That grab briefly went in the books as a 61-yard touchdown after Hopkins put a stunningly filthy in-air double move on Pack CB Eric Stokes, but Nuk was justifiably called for a facemask penalty near the goal line. He then missed nearly two entire quarters of action before surprisingly returning midway through the third quarter. The Cards \"picked their spots\" from there on out \u2014 Hopkins apparently did so a few times without the coaching staff's approval \u2014 and it resulted in one more target as Nuk still spent most of his time on the sideline. Hopkins' Week 9 health cannot be taken for granted once the adrenaline wears off, though he will have 10 days to get healthy for a divisional showdown with the 49ers.\u00a0\u00a0\n",
-    "timestamp": "2021-10-29 04:55 AM",
-    "source": null,
+    "analysis": "We would expect few, if any, practice reps for Hopkins this week after he managed only 15 snaps in the Cardinals' Week 8 loss to the Packers. That number would have been lower had Nuk not entered the game unauthorized on several occasions. Thankfully, Hopkins will be on 10 days rest by Sunday, and he is probably on the right side of questionable to suit up vs. the 49ers. How much work he will be ready for is another question.\u00a0\n",
+    "timestamp": "2021-11-03 04:03 PM",
+    "source": "Darren Urban on Twitter",
     "game_day_logo": "",
     "week01": 23.3,
     "week02": 13.4,
@@ -10263,19 +10263,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 30.23,
     "fanduelSalary": "$5500",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Shoulder",
     "tmColorLite": "#FF3C00",
     "tmColorDark": "#311D00",
     "tmColorLite_rgba": "rgba(255, 60, 0, 0.2)",
     "tmColorDark_rgba": "rgba(49, 29, 0, 0.2)",
     "tmTextLite": "#FF3C00",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
-    "headlineNews": "ESPN's Kimberley Martin reports the Saints and Browns discussed an Odell Beckham trade ahead of Tuesday's deadline.\n",
+    "headlineNews": "105.7 The Fan's Jason La Canfora reports the Browns are \"not willing to waive\" Odell Beckham as the team attempts to reach a financial resolution with him.\n",
     "report": "",
-    "analysis": "The sides weren't able to come to an agreement given Beckham's prohibitive salary. OBJ doesn't want to be in Cleveland any longer, but Tuesday's 4 PM ET deadline came and went without a deal. The Browns reportedly are \"optimistic\" Beckham can be part of their playoff push, but that remains to be seen after OBJ's dad publicly trashed Baker Mayfield in an effort to get his son out of Cleveland. It's clear Beckham won't be part of the Browns come 2022. The Saints' interest can be filed away for future reference. OBJ played his college ball at LSU.\n",
-    "timestamp": "2021-11-02 09:24 PM",
-    "source": "Kimberley Martin on Twitter",
+    "analysis": "La Canfora added that Beckham will remain away from the team but on the 53-man roster for now. His release will come eventually but the Browns are likely trying to find a way to lessen the financial burden of that move. Unless Beckham is so desperate to get out of Cleveland that he is willing to give up a portion of his salary, the Browns hold little leverage in the situation. If he is cut under his current contract, he'll be placed on waivers. A team would be on the hook for his contract which includes $8 million this year but nothing in guarantees beyond 2021. Assuming no team is willing to take the hit, Beckham will become a free agent shortly after being waived.\n",
+    "timestamp": "2021-11-03 06:03 PM",
+    "source": "Jason La Canfora on Twitter",
     "game_day_logo": "",
     "week01": "DNP",
     "week02": "DNP",
@@ -10942,105 +10942,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2974858.png",
-    "name": "Kenny Golladay",
-    "depthchart": "Starter: WR-1",
-    "team": "New York Giants",
-    "projected": 8.0,
-    "opponent": "Las Vegas Raiders",
-    "home_away": "",
-    "opp_rank_Neu": 7,
-    "team_rank_Neu": 12,
-    "avg_fp2": 7.34,
-    "opp_rank_allowed_fp2_Neg": 2,
-    "opp_avg_allowed_fp2": 24.7,
-    "fanduelSalary": "$6000",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Knee",
-    "tmColorLite": "#A71930",
-    "tmColorDark": "#0B2265",
-    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
-    "tmTextLite": "#A71930",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
-    "headlineNews": "Kenny Golladay (knee) has been ruled out for Week 8 against Kansas City.\n",
-    "report": "",
-    "analysis": "Golladay's knee injury will cost him at least another game and there's a chance he's rested through the Giants' Week 10 bye. Kadarius Toney (questionable,\u00a0ankle) is expected to be a game-time decision. The Giants should have all three of Sterling Shepard (questionable, hamstring), Darius Slayton, and Toney for Monday night's matchup with the Chiefs.\n",
-    "timestamp": "2021-10-30 04:56 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 8.4,
-    "week02": 5.3,
-    "week03": 8.4,
-    "week04": 14.6,
-    "week05": 0.0,
-    "week06": "DNP",
-    "week07": "DNP",
-    "week08": "DNP",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": "",
-    "week22": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1
-                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [8.4, 5.3, 8.4, 14.6, 0.0, 'DNP', 'DNP', 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [13.6, 13.6, 10.1, 9.1, 19.7, 'DNP', 'DNP', 'DNP', 8.0]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [3.7, 4.0, 6.6, 5.1, 2.3, 'DNP', 'DNP', 'DNP', 2.2]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [18.5, 16.4, 9.1, 8.6, 12.9, 'DNP', 'DNP', 'DNP', 12.3]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3128429.png",
     "name": "Courtland Sutton",
     "depthchart": "Starter: WR-1",
@@ -11140,6 +11041,105 @@ $scope.positionWR = [{
                }
             },
 {
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2974858.png",
+    "name": "Kenny Golladay",
+    "depthchart": "Starter: WR-1",
+    "team": "New York Giants",
+    "projected": 8.0,
+    "opponent": "Las Vegas Raiders",
+    "home_away": "",
+    "opp_rank_Neu": 7,
+    "team_rank_Neu": 12,
+    "avg_fp2": 7.34,
+    "opp_rank_allowed_fp2_Neg": 2,
+    "opp_avg_allowed_fp2": 24.7,
+    "fanduelSalary": "$6000",
+    "hasStatus": "Status",
+    "healthQue": "Questionable",
+    "injury": "Knee",
+    "tmColorLite": "#A71930",
+    "tmColorDark": "#0B2265",
+    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(11, 34, 101, 0.2)",
+    "tmTextLite": "#A71930",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+    "headlineNews": "Kenny Golladay (knee) did not practice Wednesday.\n",
+    "report": "",
+    "analysis": "Golladay stretched with the team ahead of practice but took off to the side field afterward and is officially a \"DNP\" today. It's clear he's progressing, however, and we could see him out there Thursday or Friday with the hope of returning this week against the Raiders.\n",
+    "timestamp": "2021-11-03 05:59 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 8.4,
+    "week02": 5.3,
+    "week03": 8.4,
+    "week04": 14.6,
+    "week05": 0.0,
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": "DNP",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": "",
+    "week22": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1
+                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [8.4, 5.3, 8.4, 14.6, 0.0, 'DNP', 'DNP', 'DNP']
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [13.6, 13.6, 10.1, 9.1, 19.7, 'DNP', 'DNP', 'DNP', 8.0]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [3.7, 4.0, 6.6, 5.1, 2.3, 'DNP', 'DNP', 'DNP', 2.2]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(11, 34, 101, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [18.5, 16.4, 9.1, 8.6, 12.9, 'DNP', 'DNP', 'DNP', 12.3]
+                    }
+                    
+                    ]
+               }
+            },
+{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/2976499.png",
     "name": "Amari Cooper",
     "depthchart": "Backup: WR-2",
@@ -11154,19 +11154,19 @@ $scope.positionWR = [{
     "opp_avg_allowed_fp2": 28.35,
     "fanduelSalary": "$6900",
     "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
+    "healthQue": "Questionable",
+    "injury": "Hamstring",
     "tmColorLite": "#7F9695",
     "tmColorDark": "#041E42",
     "tmColorLite_rgba": "rgba(127, 150, 149, 0.2)",
     "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
     "tmTextLite": "#7F9695",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Amari Cooper caught 8-of-13 targets for 122 yards and a touchdown in the Cowboys' Week 8 win over the Vikings.\n",
+    "headlineNews": "Amari Cooper (hamstring) was limited in Wednesday's practice.\n",
     "report": "",
-    "analysis": "This was a clutch game from Cooper, who put the Cowboys on his back on their final drive. Cooper Rush threw an off-target pass that he caught off a deflection from Vikings CB Bashaud Breeland for 33 yards. Cooper battled through a hamstring injury to later return and\u00a0score the game-winning TD on an end-zone fade over CB Cameron Dantzler. The volume was there for Cooper this week after he had just 26 targets over the last five games. Cooper seems likely to miss practice time with his hamstring, but the fact he played through the injury is a good sign for his Week 9 status.\n",
-    "timestamp": "2021-11-01 04:13 AM",
-    "source": null,
+    "analysis": "Cooper did not practice at all last Wednesday and still managed to play in Week 8. A limited practice can be viewed as a mildly positive sign, and the bigger question entering Week 9 appears to be Dak Prescott's health. Cooper showed a solid connection with Cooper Rush against the Vikings, but his outlook will still be far more bullish if Prescott is able to return to action against the Broncos on Sunday.\n",
+    "timestamp": "2021-11-03 03:37 PM",
+    "source": "Michael Gehlken on Twitter",
     "game_day_logo": "",
     "week01": 32.4,
     "week02": 3.9,
@@ -11932,105 +11932,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13982.png",
-    "name": "Julio Jones",
-    "depthchart": "Backup: WR-2",
-    "team": "Tennessee Titans",
-    "projected": 6.8,
-    "opponent": "Los Angeles Rams",
-    "home_away": "at ",
-    "opp_rank_Neu": 21,
-    "team_rank_Neu": 21,
-    "avg_fp2": 7.72,
-    "opp_rank_allowed_fp2_Neu": 16,
-    "opp_avg_allowed_fp2": 30.04,
-    "fanduelSalary": "$6500",
-    "hasStatus": "Status",
-    "healthQue": "Questionable",
-    "injury": "Hamstring",
-    "tmColorLite": "#4495D1",
-    "tmColorDark": "#002A5C",
-    "tmColorLite_rgba": "rgba(68, 149, 209, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
-    "tmTextLite": "#4495D1",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
-    "headlineNews": "Julio Jones (hamstring) won't play in Week 8 against the Colts.\n",
-    "report": "",
-    "analysis": "Jones failed to practice throughout the week and was promptly ruled out. It's unclear if he suffered a setback at any point in Week 7. Nick Westbrook-Ikhine has replaced Jones on the boundary in the past, suddenly joining the conversation as a WR4/5 in Week 8. A.J. Brown is headed to the moon as a WR1 against the Colts.\n",
-    "timestamp": "2021-10-29 07:37 PM",
-    "source": "Turron Davenport on Twitter",
-    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
-    "week01": 4.4,
-    "week02": 15.8,
-    "week03": 6.2,
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": 7.4,
-    "week07": 4.8,
-    "week08": "DNP",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": "",
-    "week22": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1
-                         backgroundColor:  "rgba(68, 149, 209, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [4.4, 15.8, 6.2, 'DNP', 'DNP', 7.4, 4.8, 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [9.0, 3.9, 8.0, 'DNP', 'DNP', 6.7, 4.8, 'DNP', 6.8]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [6.5, 6.4, 9.9, 'DNP', 'DNP', 8.0, 11.8, 'DNP', 6.9]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(68, 149, 209, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [30.9, 24.5, 21.8, 'DNP', 'DNP', 18.0, 18.2, 'DNP', 17.2]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3916433.png",
     "name": "Jakobi Meyers",
     "depthchart": "Starter: WR-1",
@@ -12124,6 +12025,105 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [12.0, 13.4, 10.0, 10.4, 14.7, 14.1, 9.5, 6.4, 7.4]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/13982.png",
+    "name": "Julio Jones",
+    "depthchart": "Backup: WR-2",
+    "team": "Tennessee Titans",
+    "projected": 6.8,
+    "opponent": "Los Angeles Rams",
+    "home_away": "at ",
+    "opp_rank_Neu": 21,
+    "team_rank_Neu": 21,
+    "avg_fp2": 7.72,
+    "opp_rank_allowed_fp2_Neu": 16,
+    "opp_avg_allowed_fp2": 30.04,
+    "fanduelSalary": "$6500",
+    "hasStatus": "Status",
+    "healthQue": "Questionable",
+    "injury": "Hamstring",
+    "tmColorLite": "#4495D1",
+    "tmColorDark": "#002A5C",
+    "tmColorLite_rgba": "rgba(68, 149, 209, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 42, 92, 0.2)",
+    "tmTextLite": "#4495D1",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+    "headlineNews": "Julio Jones (hamstring) won't play in Week 8 against the Colts.\n",
+    "report": "",
+    "analysis": "Jones failed to practice throughout the week and was promptly ruled out. It's unclear if he suffered a setback at any point in Week 7. Nick Westbrook-Ikhine has replaced Jones on the boundary in the past, suddenly joining the conversation as a WR4/5 in Week 8. A.J. Brown is headed to the moon as a WR1 against the Colts.\n",
+    "timestamp": "2021-10-29 07:37 PM",
+    "source": "Turron Davenport on Twitter",
+    "game_day_logo": "https://static.www.nfl.com/image/private/f_auto/league/mywogy71oluagu0qmgaz",
+    "week01": 4.4,
+    "week02": 15.8,
+    "week03": 6.2,
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": 7.4,
+    "week07": 4.8,
+    "week08": "DNP",
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": "",
+    "week22": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1
+                         backgroundColor:  "rgba(68, 149, 209, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [4.4, 15.8, 6.2, 'DNP', 'DNP', 7.4, 4.8, 'DNP']
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [9.0, 3.9, 8.0, 'DNP', 'DNP', 6.7, 4.8, 'DNP', 6.8]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [6.5, 6.4, 9.9, 'DNP', 'DNP', 8.0, 11.8, 'DNP', 6.9]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 42, 92, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(68, 149, 209, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [30.9, 24.5, 21.8, 'DNP', 'DNP', 18.0, 18.2, 'DNP', 17.2]
                     }
                     
                     ]
@@ -12427,105 +12427,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4258173.png",
-    "name": "Nico Collins",
-    "depthchart": "Backup: WR-2",
-    "team": "Houston Texans",
-    "projected": 5.4,
-    "opponent": "Miami Dolphins",
-    "home_away": "at ",
-    "opp_rank_Pos": 31,
-    "team_rank_Neg": 30,
-    "avg_fp2": 4.52,
-    "opp_rank_allowed_fp2_Pos": 31,
-    "opp_avg_allowed_fp2": 36.12,
-    "fanduelSalary": "$5400",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#A71930",
-    "tmColorDark": "#03202F",
-    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
-    "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
-    "tmTextLite": "#A71930",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Nico Collins caught all four of his targets for 55 yards in the Texans' Week 8 loss to the Rams.\n",
-    "report": "",
-    "analysis": "Collins looked like the Texans' second-best pass-catching option behind Brandin Cooks but he only earned a 10 percent target share. Danny Amendola and Jordan Akins both saw one more target than him. Collins could push for a larger role as the season moves forward but he remains off the fantasy radar outside of dynasty leagues for now.\u00a0\n",
-    "timestamp": "2021-10-31 09:18 PM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": 1.2,
-    "week02": 3.7,
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": 6.4,
-    "week07": 3.8,
-    "week08": 7.5,
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": "",
-    "week22": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1
-                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: [1.2, 3.7, 'DNP', 'DNP', 'DNP', 6.4, 3.8, 7.5]
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: [1.8, 0.5, 'DNP', 'DNP', 'DNP', 1.8, 5.2, 5.8, 5.4]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: [0.0, 0.0, 'DNP', 'DNP', 'DNP', 0.0, 0.4, 1.6, 1.8]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: [4.5, 3.5, 'DNP', 'DNP', 'DNP', 4.2, 9.6, 10.5, 12.6]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/16790.png",
     "name": "Jarvis Landry",
     "depthchart": "Reserve: WR-3",
@@ -12619,6 +12520,105 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [16.5, 18.9, 'DNP', 'DNP', 'DNP', 'DNP', 12.2, 15.7, 13.7]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4258173.png",
+    "name": "Nico Collins",
+    "depthchart": "Backup: WR-2",
+    "team": "Houston Texans",
+    "projected": 5.4,
+    "opponent": "Miami Dolphins",
+    "home_away": "at ",
+    "opp_rank_Pos": 31,
+    "team_rank_Neg": 30,
+    "avg_fp2": 4.52,
+    "opp_rank_allowed_fp2_Pos": 31,
+    "opp_avg_allowed_fp2": 36.12,
+    "fanduelSalary": "$5400",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#A71930",
+    "tmColorDark": "#03202F",
+    "tmColorLite_rgba": "rgba(167, 25, 48, 0.2)",
+    "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
+    "tmTextLite": "#A71930",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+    "headlineNews": "Nico Collins caught all four of his targets for 55 yards in the Texans' Week 8 loss to the Rams.\n",
+    "report": "",
+    "analysis": "Collins looked like the Texans' second-best pass-catching option behind Brandin Cooks but he only earned a 10 percent target share. Danny Amendola and Jordan Akins both saw one more target than him. Collins could push for a larger role as the season moves forward but he remains off the fantasy radar outside of dynasty leagues for now.\u00a0\n",
+    "timestamp": "2021-10-31 09:18 PM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 1.2,
+    "week02": 3.7,
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": 6.4,
+    "week07": 3.8,
+    "week08": 7.5,
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": "",
+    "week22": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1
+                         backgroundColor:  "rgba(167, 25, 48, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [1.2, 3.7, 'DNP', 'DNP', 'DNP', 6.4, 3.8, 7.5]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [1.8, 0.5, 'DNP', 'DNP', 'DNP', 1.8, 5.2, 5.8, 5.4]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.0, 0.0, 'DNP', 'DNP', 'DNP', 0.0, 0.4, 1.6, 1.8]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(3, 32, 47, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(167, 25, 48, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [4.5, 3.5, 'DNP', 'DNP', 'DNP', 4.2, 9.6, 10.5, 12.6]
                     }
                     
                     ]
@@ -12724,105 +12724,6 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036335.png",
-    "name": "Cedrick Wilson",
-    "depthchart": "Reserve: WR-3",
-    "team": "Dallas Cowboys",
-    "projected": 5.1,
-    "opponent": "Denver Broncos",
-    "home_away": "",
-    "opp_rank_Neu": 10,
-    "team_rank_Pos": 3,
-    "avg_fp2": 3.32,
-    "opp_rank_allowed_fp2_Neu": 9,
-    "opp_avg_allowed_fp2": 28.35,
-    "fanduelSalary": "$5300",
-    "hasStatus": "Status",
-    "healthHea": "Healthy",
-    "injury": "",
-    "tmColorLite": "#7F9695",
-    "tmColorDark": "#041E42",
-    "tmColorLite_rgba": "rgba(127, 150, 149, 0.2)",
-    "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
-    "tmTextLite": "#7F9695",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
-    "headlineNews": "Cedrick Wilson caught all three of his targets for 84 yards and a touchdown in Week 8 against the Vikings.\n",
-    "report": "",
-    "analysis": "He also had a 35 yard pass. Wilson has held his own with Michael Gallup sidelined, posting 126 yards on 10 targets the last two weeks. The 25-year-old will go back to being the Cowboys\u2019 No. 4 receiver if Gallup returns from IR in Week 9.\n",
-    "timestamp": "2021-11-01 04:21 AM",
-    "source": null,
-    "game_day_logo": "",
-    "week01": "DNP",
-    "week02": "DNP",
-    "week03": "DNP",
-    "week04": "DNP",
-    "week05": "DNP",
-    "week06": "DNP",
-    "week07": "BYE",
-    "week08": "DNP",
-    "week09": "",
-    "week10": "",
-    "week11": "",
-    "week12": "",
-    "week13": "",
-    "week14": "",
-    "week15": "",
-    "week16": "",
-    "week17": "",
-    "week18": "",
-    "week19": "",
-    "week20": "",
-    "week21": "",
-    "week22": ""
-,
-
-            data : {
-               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
-               datasets: [
-                       {
-                         label: "Actual",
-                         pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1
-                         backgroundColor:  "rgba(127, 150, 149, 1)",  //lite dot team color 1 
-                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
-                         borderWidth: 2,
-                         pointRadius: 5,
-                         fill: false,
-                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP']
-                    },
-                    {
-                        label: "Projected",
-                        borderDash: [5,5],
-                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
-                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
-                        pointRadius: 5,
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 5.1]
-                    },
-                    {
-                        label: "68% Min",
-                        borderDash: [2, 2],
-						pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: false,
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 1.6]
-                    },
-                    {
-                        label: "68% Max",
-                        borderDash: [2, 2],
-                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(127, 150, 149, .15)",  //lite team color .15
-                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
-						pointStyle: 'line',
-                        fill: '-1',
-                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 7.3]
-                    }
-                    
-                    ]
-               }
-            },
-{
     "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/3895856.png",
     "name": "Christian Kirk",
     "depthchart": "Reserve: WR-3",
@@ -12922,42 +12823,42 @@ $scope.positionWR = [{
                }
             },
 {
-    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241463.png",
-    "name": "Jerry Jeudy",
-    "depthchart": "Backup: WR-2",
-    "team": "Denver Broncos",
-    "projected": 5.0,
-    "opponent": "Dallas Cowboys",
-    "home_away": "at ",
-    "opp_rank_Pos": 28,
-    "team_rank_Neu": 17,
-    "avg_fp2": 8.05,
-    "opp_rank_allowed_fp2_Pos": 26,
-    "opp_avg_allowed_fp2": 33.39,
-    "fanduelSalary": "$5800",
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4036335.png",
+    "name": "Cedrick Wilson",
+    "depthchart": "Reserve: WR-3",
+    "team": "Dallas Cowboys",
+    "projected": 5.1,
+    "opponent": "Denver Broncos",
+    "home_away": "",
+    "opp_rank_Neu": 10,
+    "team_rank_Pos": 3,
+    "avg_fp2": 3.32,
+    "opp_rank_allowed_fp2_Neu": 9,
+    "opp_avg_allowed_fp2": 28.35,
+    "fanduelSalary": "$5300",
     "hasStatus": "Status",
     "healthHea": "Healthy",
     "injury": "",
-    "tmColorLite": "#e17757",
-    "tmColorDark": "#002244",
-    "tmColorLite_rgba": "rgba(225, 119, 87, 0.2)",
-    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
-    "tmTextLite": "#e17757",
-    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
-    "headlineNews": "Jerry Jeudy caught all four of his targets for 39 yards in Denver's Week 8 win over Washington.\n",
+    "tmColorLite": "#7F9695",
+    "tmColorDark": "#041E42",
+    "tmColorLite_rgba": "rgba(127, 150, 149, 0.2)",
+    "tmColorDark_rgba": "rgba(4, 30, 66, 0.2)",
+    "tmTextLite": "#7F9695",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+    "headlineNews": "Cedrick Wilson caught all three of his targets for 84 yards and a touchdown in Week 8 against the Vikings.\n",
     "report": "",
-    "analysis": "No Broncos receiver recorded more than four targets from Teddy Bridgewater, who only attempted 26 passes in Sunday's win. Jeudy didn't get the start but was utilized underneath and from the slot, trailing Tim Patrick (3/64) in receiving yards and Courtland Sutton (2/40) in explosive plays as the latter recorded a 31-yard gain. The Broncos will likely involve Jeudy more in his second game back from injured reserve, a projected uptempo affair against Dallas.\n",
-    "timestamp": "2021-11-01 03:18 AM",
+    "analysis": "He also had a 35 yard pass. Wilson has held his own with Michael Gallup sidelined, posting 126 yards on 10 targets the last two weeks. The 25-year-old will go back to being the Cowboys\u2019 No. 4 receiver if Gallup returns from IR in Week 9.\n",
+    "timestamp": "2021-11-01 04:21 AM",
     "source": null,
     "game_day_logo": "",
-    "week01": 10.2,
+    "week01": "DNP",
     "week02": "DNP",
     "week03": "DNP",
     "week04": "DNP",
     "week05": "DNP",
     "week06": "DNP",
-    "week07": "DNP",
-    "week08": 5.9,
+    "week07": "BYE",
+    "week08": "DNP",
     "week09": "",
     "week10": "",
     "week11": "",
@@ -12979,42 +12880,42 @@ $scope.positionWR = [{
                datasets: [
                        {
                          label: "Actual",
-                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
-                         backgroundColor:  "rgba(225, 119, 87, 1)",  //lite dot team color 1 
+                         pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1
+                         backgroundColor:  "rgba(127, 150, 149, 1)",  //lite dot team color 1 
                          borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
                          borderWidth: 2,
                          pointRadius: 5,
                          fill: false,
-                         data: [10.2, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.9]
+                         data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP']
                     },
                     {
                         label: "Projected",
                         borderDash: [5,5],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
                         backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
                         borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
                         pointRadius: 5,
                         fill: false,
-                        data: [12.8, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 11.7, 5.0]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 5.1]
                     },
                     {
                         label: "68% Min",
                         borderDash: [2, 2],
-						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+						pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: false,
-                        data: [0.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.7, 4.2]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 1.6]
                     },
                     {
                         label: "68% Max",
                         borderDash: [2, 2],
-                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
-                        backgroundColor:  "rgba(225, 119, 87, .15)",  //lite team color .15
+                        pointBorderColor: "rgba(4, 30, 66, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(127, 150, 149, .15)",  //lite team color .15
                         borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
 						pointStyle: 'line',
                         fill: '-1',
-                        data: [9.9, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 25.0, 8.9]
+                        data: ['DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'BYE', 'DNP', 7.3]
                     }
                     
                     ]
@@ -13114,6 +13015,105 @@ $scope.positionWR = [{
 						pointStyle: 'line',
                         fill: '-1',
                         data: [20.5, 19.4, 17.8, 14.3, 13.5, 14.5, 12.9, 12.3, 7.1]
+                    }
+                    
+                    ]
+               }
+            },
+{
+    "imageUrl": "https://a.espncdn.com/i/headshots/nfl/players/full/4241463.png",
+    "name": "Jerry Jeudy",
+    "depthchart": "Backup: WR-2",
+    "team": "Denver Broncos",
+    "projected": 5.0,
+    "opponent": "Dallas Cowboys",
+    "home_away": "at ",
+    "opp_rank_Pos": 28,
+    "team_rank_Neu": 17,
+    "avg_fp2": 8.05,
+    "opp_rank_allowed_fp2_Pos": 26,
+    "opp_avg_allowed_fp2": 33.39,
+    "fanduelSalary": "$5800",
+    "hasStatus": "Status",
+    "healthHea": "Healthy",
+    "injury": "",
+    "tmColorLite": "#e17757",
+    "tmColorDark": "#002244",
+    "tmColorLite_rgba": "rgba(225, 119, 87, 0.2)",
+    "tmColorDark_rgba": "rgba(0, 34, 68, 0.2)",
+    "tmTextLite": "#e17757",
+    "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+    "headlineNews": "Jerry Jeudy caught all four of his targets for 39 yards in Denver's Week 8 win over Washington.\n",
+    "report": "",
+    "analysis": "No Broncos receiver recorded more than four targets from Teddy Bridgewater, who only attempted 26 passes in Sunday's win. Jeudy didn't get the start but was utilized underneath and from the slot, trailing Tim Patrick (3/64) in receiving yards and Courtland Sutton (2/40) in explosive plays as the latter recorded a 31-yard gain. The Broncos will likely involve Jeudy more in his second game back from injured reserve, a projected uptempo affair against Dallas.\n",
+    "timestamp": "2021-11-01 03:18 AM",
+    "source": null,
+    "game_day_logo": "",
+    "week01": 10.2,
+    "week02": "DNP",
+    "week03": "DNP",
+    "week04": "DNP",
+    "week05": "DNP",
+    "week06": "DNP",
+    "week07": "DNP",
+    "week08": 5.9,
+    "week09": "",
+    "week10": "",
+    "week11": "",
+    "week12": "",
+    "week13": "",
+    "week14": "",
+    "week15": "",
+    "week16": "",
+    "week17": "",
+    "week18": "",
+    "week19": "",
+    "week20": "",
+    "week21": "",
+    "week22": ""
+,
+
+            data : {
+               labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6', 'Week 7', 'Week 8', 'Week 9'],
+               datasets: [
+                       {
+                         label: "Actual",
+                         pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1
+                         backgroundColor:  "rgba(225, 119, 87, 1)",  //lite dot team color 1 
+                         borderColor: 'rgba(255, 255, 255, .65)',  //white line leave white .65
+                         borderWidth: 2,
+                         pointRadius: 5,
+                         fill: false,
+                         data: [10.2, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 5.9]
+                    },
+                    {
+                        label: "Projected",
+                        borderDash: [5,5],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  'rgba(255, 255, 255, .65)',  //white dot leave white .65
+                        borderColor: 'rgba(255, 255, 255, .5)',  //white line leave white .5
+                        pointRadius: 5,
+                        fill: false,
+                        data: [12.8, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 11.7, 5.0]
+                    },
+                    {
+                        label: "68% Min",
+                        borderDash: [2, 2],
+						pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: false,
+                        data: [0.0, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 10.7, 4.2]
+                    },
+                    {
+                        label: "68% Max",
+                        borderDash: [2, 2],
+                        pointBorderColor: "rgba(0, 34, 68, 1)", //dark team color 1 
+                        backgroundColor:  "rgba(225, 119, 87, .15)",  //lite team color .15
+                        borderColor: 'rgba(255, 255, 255, .0)',  //white line leave white .0
+						pointStyle: 'line',
+                        fill: '-1',
+                        data: [9.9, 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 'DNP', 25.0, 8.9]
                     }
                     
                     ]
@@ -13937,10 +13937,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(0, 0, 0, 0.2)",
     "tmTextLite": "#A5ACAF",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
-    "headlineNews": "Raiders declared\u00a0TE Darren Waller, CB Amik Robertson, QB Nathan Peterman, RB Peyton Barber, DE Malcolm Koonce and OT Jackson Barton inactive for Week 7 against the Eagles.\n",
+    "headlineNews": "Darren Waller (ankle) is practicing Wednesday.\n",
     "report": "",
-    "analysis": "Waller tested his ankle in pre-game warmups but the injury ultimately proved serious enough for him to sit this one out. He suffered the injury in practice on Friday and popped up as questionable the next day. Foster Moreau will draw the start in his place and is likely the best option for fantasy managers who were counting on Waller playing.\n",
-    "timestamp": "2021-10-24 06:41 PM",
+    "analysis": "Waller was a late addition to the Week 7 injury report and then missed the game against the Eagles. The Week 8 bye apparently gave him enough time to heal up, and he should be out there this week against the Giants. With Henry Ruggs gone, Waller could soak up even more targets.\n",
+    "timestamp": "2021-11-03 06:49 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 21.5,
@@ -15125,10 +15125,10 @@ $scope.positionTE = [{
     "tmColorDark_rgba": "rgba(3, 32, 47, 0.2)",
     "tmTextLite": "#A71930",
     "logoUrl": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
-    "headlineNews": "Texans declared\u00a0TE Pharoah Brown, QB Deshaun Watson, DB Cre'von Leblanc, DB Jimmy Moreland, DB Desmond King, WR Davion Davis, and DL Jaleel Johnson inactive for Week 8 against the Rams.\n",
+    "headlineNews": "Pharaoh Brown (hamstring) is not practicing Wednesday.\n",
     "report": "",
-    "analysis": "Brown is dealing with a thigh injury that he suffered in Thursday's practice. He had seen at least three targets in three consecutive weeks. Jordan Akins will move into an every-down role but remains off the fantasy radar based on Houston's inability to move the ball through the air.\n",
-    "timestamp": "2021-10-31 03:48 PM",
+    "analysis": "Brown missed last week's game against the Rams. After going 4-67 in the season opener, he has a total of eight catches for 47 scoreless yards. Brown is obviously way off the fantasy map.\n",
+    "timestamp": "2021-11-03 05:44 PM",
     "source": null,
     "game_day_logo": "",
     "week01": 8.7,
