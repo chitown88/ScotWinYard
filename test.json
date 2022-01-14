@@ -1,5 +1,5 @@
 {
   "playoff_logos" : {
-    1 : {"url":"https://seeklogo.com/images/N/nfl-afc-wild-card-logo-83F96E9A31-seeklogo.com.png", "x":0, "y":0} 
+    "1" : {"url":"https://seeklogo.com/images/N/nfl-afc-wild-card-logo-83F96E9A31-seeklogo.com.png", "x":"0", "y":"0"} 
   }
 }
