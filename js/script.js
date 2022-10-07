@@ -6,7 +6,7 @@ App.controller('positionController', function($scope, $http) {
 
 /*********************** PASTE AFTER HERE ************************/
 
-$scope.currentDate = {"currentDate": "Friday, 07 October 2022 05:17 AM (central time)"};
+$scope.currentDate = {"currentDate": "Friday, 07 October 2022 05:31 AM (central time)"};
 $scope.week = {"nflWeek": "5"};
 $scope.playoffLogo = {"src": ""}
 
